@@ -200,7 +200,7 @@ usesFramework:
   ids:
   - 1
   tag: null
-version: 2.5.0-dirty
+version: 2.6.0
 versionInfo:
   versionCode: '377'
   versionName: 2.1.20.377

@@ -876,7 +876,7 @@ For expiry details please see individual ticket Terms and Conditions
     <string name="qr_terms_stagecoach_account">Gift tickets can only be transferred to another Stagecoach Bus account holder.</string>
     <string name="qr_terms_transferable_once">Gift tickets are transferable once by the purchaser.</string>
     <string name="qr_ticket_info_terms">Terms and conditions apply</string>
-    <string name="qr_ticket_info_text" />
+    <string name="qr_ticket_info_text">"Specified tickets, indicated by 'Send ticket to another person 🎁' can be gifted to another person."</string>
     <string name="qr_ticket_info_text_1">"What does 'Activate your ticket online' mean?"</string>
     <string name="qr_ticket_info_text_2">"Tickets must be activated while you're connected to your mobile or WiFi network."</string>
     <string name="quite_clean">Quite clean</string>
