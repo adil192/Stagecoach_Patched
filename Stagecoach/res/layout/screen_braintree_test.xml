@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/green" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click and have a look at Logs !!!" />
+        <Button android:id="@id/buttonGetVault" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="get vault" />
+        <Button android:id="@id/buttonPaypalAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="add paypal payment" />
+        <Button android:id="@id/buttonPaypalDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delete first payment" />
+        <Button android:id="@id/buttonCardAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="add card payment" />
+        <Button android:id="@id/buttonTakePayment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="take basket payment" />
+        <Button android:id="@id/buttonRecentTickets" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="recently purchased tickets" />
+        <Button android:id="@id/buttonGetOrderReceipt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="get order receipt of last purchase" />
+        <Button android:id="@id/buttonLogDatabase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="log purchased tickets" />
+    </LinearLayout>
+</FrameLayout>

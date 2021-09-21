@@ -1,0 +1,226 @@
+.class public final Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;
+.super Ljava/lang/Object;
+.source "JourneyDetailsFragment_MembersInjector.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/lang/Object<",
+        "Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final b:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/AnalyticsAppsFlyerManager;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final c:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final d:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/ErrorManager;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final e:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/alerts/MyMissingTicketsAlertManager;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final f:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final g:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/core/model/preferences/CachePrefs;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final h:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/NetworkStateRepository;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final i:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final j:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/KmlRepository;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final k:Li/a/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Li/a/a;Li/a/a;Li/a/a;Li/a/a;Li/a/a;Li/a/a;Li/a/a;Li/a/a;Li/a/a;Li/a/a;Li/a/a;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/AnalyticsAppsFlyerManager;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/ErrorManager;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/alerts/MyMissingTicketsAlertManager;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/core/model/preferences/CachePrefs;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/NetworkStateRepository;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/KmlRepository;",
+            ">;",
+            "Li/a/a<",
+            "Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->a:Li/a/a;
+
+    .line 3
+    iput-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->b:Li/a/a;
+
+    .line 4
+    iput-object p3, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->c:Li/a/a;
+
+    .line 5
+    iput-object p4, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->d:Li/a/a;
+
+    .line 6
+    iput-object p5, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->e:Li/a/a;
+
+    .line 7
+    iput-object p6, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->f:Li/a/a;
+
+    .line 8
+    iput-object p7, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->g:Li/a/a;
+
+    .line 9
+    iput-object p8, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->h:Li/a/a;
+
+    .line 10
+    iput-object p9, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->i:Li/a/a;
+
+    .line 11
+    iput-object p10, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->j:Li/a/a;
+
+    .line 12
+    iput-object p11, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment_MembersInjector;->k:Li/a/a;
+
+    return-void
+.end method
+
+.method public static a(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;Lcom/stagecoach/stagecoachbus/logic/KmlRepository;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->O0:Lcom/stagecoach/stagecoachbus/logic/KmlRepository;
+
+    return-void
+.end method
+
+.method public static b(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->P0:Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;
+
+    return-void
+.end method

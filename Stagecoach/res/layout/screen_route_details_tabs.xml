@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.network.NoNetworkConnectionAlertView android:id="@id/noNetworkConnectionAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tab_remove_triangle_height" android:layout_below="@id/tabsPanel" />
+    <com.stagecoach.stagecoachbus.views.alert.MyMissingTicketsAlertView android:id="@id/myMissingTicketsAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/noNetworkConnectionAlertView" />
+    <RelativeLayout android:id="@id/towardsPanelAndProgressBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/myMissingTicketsAlertView">
+        <RelativeLayout android:id="@id/towardsPanel" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <RelativeLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btnFav" android:layout_centerVertical="true" android:layout_toStartOf="@id/btnFav">
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/towardsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/towards_label" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" style="@style/Body3" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/towards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/towardsTitle" android:layout_centerVertical="true" style="@style/Heading5" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/btnFav" android:background="@null" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/favourite">
+                <ImageButton android:id="@id/btn_favourite_selected" android:background="@drawable/global_icon_favourite_active" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageButton android:id="@id/btn_favourite_unselected" android:background="@drawable/global_icon_favourite_inactive" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.stagecoach.stagecoachbus.views.common.component.InnerPageTabsBar android:id="@id/tabsPanel" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentTop="true" />
+    <com.stagecoach.stagecoachbus.views.common.UnifiedProgressBar android:layout_gravity="center" android:id="@id/topProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/towardsPanelAndProgressBarLayout" android:layout_centerHorizontal="true" style="@style/Base.Widget.AppCompat.ProgressBar" />
+    <FrameLayout android:id="@id/fragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/topProgressBar" />
+</RelativeLayout>

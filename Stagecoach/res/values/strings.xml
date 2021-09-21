@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="All">All</string>
+    <string name="Another_click_for_leaving_app">Click back again to close the app</string>
+    <string name="Bus_stops">Stops</string>
+    <string name="Bus_x">Bus %s</string>
+    <string name="Buses">Buses</string>
+    <string name="Current_location">Current location</string>
+    <string name="Current_location_x">Current location (%s)</string>
+    <string name="Daily">Daily</string>
+    <string name="Got_it">Got it</string>
+    <string name="Journeys">Journeys</string>
+    <string name="MM">MM</string>
+    <string name="Mobile_tickets">Mobile tickets</string>
+    <string name="More">More</string>
+    <string name="New">New</string>
+    <string name="OK">OK</string>
+    <string name="Pending">Pending</string>
+    <string name="Terms_and_conditions">Terms &amp; conditions</string>
+    <string name="Terms_of_use">Terms of use</string>
+    <string name="Times">Times</string>
+    <string name="Tram_x">Tram %s</string>
+    <string name="View">View</string>
+    <string name="Warning">Warning</string>
+    <string name="Weekly">Weekly</string>
+    <string name="YY">YY</string>
+    <string name="_mins_walk_from_">%1$s walk from %2$s</string>
+    <string name="_mins_walk_from_your_current_location">%s walk from your current location</string>
+    <string name="a_few_minutes_late">A few minutes late</string>
+    <string name="aa">WC1TQy1UaW1lc3RhbXA=</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="able_to_use_deactivated_qr">"You'll be able to use this ticket until %s."</string>
+    <string name="able_to_use_qr" formatted="false">"Then show the ticket to the scanner as you get on the bus. You'll be able to use this ticket from %s to %s."</string>
+    <string name="able_to_use_this" formatted="false">"Then show it to the driver as you get on the bus. You'll be able to use this ticket from %s to %s%s."</string>
+    <string name="about">About</string>
+    <string name="account_closure_text">If you no longer wish to use your Stagecoach account you can request an account closure <a href="https://www.stagecoachbus.com/my-account/about-me">on our website.</a></string>
+    <string name="account_created_successfully">Account created successfully</string>
+    <string name="action_settings">Menu button</string>
+    <string name="activ_ticket_information">Information</string>
+    <string name="activate">Activate</string>
+    <string name="activate_by">Use by %s</string>
+    <string name="activate_now">Activate now</string>
+    <string name="activate_online">Activate online</string>
+    <string name="activate_this">Activate this ticket now?</string>
+    <string name="activate_this_qr">Activate this QR ticket now?</string>
+    <string name="activated_on">Activated on: %s</string>
+    <string name="activating_offline">Activating offline</string>
+    <string name="activation_fail_not_online">You cannot activate this ticket unless you are online. You can check your online status by going to your phone settings.</string>
+    <string name="activation_unsuccessful">Activation unsuccessful</string>
+    <string name="active">Active</string>
+    <string name="active_on_another_device">Active on another device</string>
+    <string name="active_on_other_devices">Active on other devices</string>
+    <string name="active_since">Active since</string>
+    <string name="active_ticket_activate_label">Activated</string>
+    <string name="active_ticket_back_to_ticket">Back to ticket</string>
+    <string name="active_ticket_time_left">Ticket expires in:</string>
+    <string name="active_ticket_valid_from">Ticket is valid from:</string>
+    <string name="active_tickets">Active Tickets</string>
+    <string name="add">Add</string>
+    <string name="add_again">Add again</string>
+    <string name="add_an_address">+ Add an address</string>
+    <string name="add_discount_code">Add a discount code</string>
+    <string name="add_new_payment">+ Add a new payment method</string>
+    <string name="add_or_change_payment_method">Add or change payment method</string>
+    <string name="add_to_basket">Add to basket</string>
+    <string name="add_your_home">Add your home</string>
+    <string name="add_your_work">Add your work</string>
+    <string name="additional_comments">Additional comments</string>
+    <string name="address_1">Address 1*</string>
+    <string name="address_1_no_star">Address 1</string>
+    <string name="address_2">Address 2</string>
+    <string name="address_country_start">Country*</string>
+    <string name="address_county">County</string>
+    <string name="address_deleted">Address deleted</string>
+    <string name="address_enter_address_manually">enter address manually</string>
+    <string name="address_enter_postcode">Enter postcode</string>
+    <string name="address_find_address">Find address</string>
+    <string name="address_first_name">First name*</string>
+    <string name="address_last_name">Last name*</string>
+    <string name="address_nickname">Address nickname</string>
+    <string name="address_postcode_star">Postcode*</string>
+    <string name="address_town_star">Town*</string>
+    <string name="addresses">Addresses</string>
+    <string name="adult">Adult</string>
+    <string name="alert_already_set">You already have an alert set</string>
+    <string name="alert_disruptions_header">Disruption information</string>
+    <string name="alert_for_bus_x_to_y">Take bus %1$s and alight at %2$s</string>
+    <string name="alert_set_for">Alert set for</string>
+    <string name="alert_to_see_bus_enable_location">To see bus times please enable Location access in Settings.</string>
+    <string name="alight_in_3_stops">Get off in %d stops at</string>
+    <string name="alight_now">Get off at the next stop</string>
+    <string name="all_mobile_tickets_areas">All mobile ticket areas</string>
+    <string name="all_passengers_must_travel_together">All passengers must travel together.</string>
+    <string name="all_ticket_option">Other ticket options</string>
+    <string name="all_ticket_option_from">All ticket options from £%s</string>
+    <string name="all_tickets">All tickets</string>
+    <string name="allow_location">Allow location access to see nearby buses and stops</string>
+    <string name="allow_location_allow_access">Allow access in Settings</string>
+    <string name="allow_location_info_text">With access to your location we can help you reach your destinations faster</string>
+    <string name="allow_location_services">We are unable to determine your current location - please enable Location Services in Settings, or zoom into the map to see bus stops and services.</string>
+    <string name="amazon_cloud_key">amazon_cloudfron_key.der</string>
+    <string name="amazon_cloud_key_pair_id">APKAJIZ3JC7APGCLB64Q</string>
+    <string name="amex_card_support">Currently we do not support AMEX cards. Please use a valid Visa or Mastercard to continue with this purchase.</string>
+    <string name="any_tickets_or_fav_linked_to_your_account">"Any tickets or favourites linked to your
+account won't be accessible"</string>
+    <string name="api_key">nvwPVASmd25Rd6HVg54</string>
+    <string name="app_feedback_text">"We'd love to know if you like the app and how can make it better for you. Please can you help us with your feedback?"</string>
+    <string name="app_feedback_title">How do you like the app?</string>
+    <string name="app_name">Stagecoach</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apply_discount_text">Apply</string>
+    <string name="appsee_api_key">1ef7c27402b84757bc59351351d2d43d</string>
+    <string name="appsflyer_gcm_number">966827729632</string>
+    <string name="appsflyer_key">PfRYxtGYmdJoCvH3Ybc5nS</string>
+    <string name="are_mobile_tickets_available">Are mobile tickets available?</string>
+    <string name="are_our_fares_good_value">Are our fares good value?</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete payment method?</string>
+    <string name="are_you_sure_delete_address">Are you sure you want to delete this address?</string>
+    <string name="are_you_sure_you_want_to_leave_this_screen">"Are you sure you want to
+leave this screen?"</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to log out?</string>
+    <string name="areas_this_ticket_covers">Areas this ticket covers</string>
+    <string name="arrive_by">Arrive by</string>
+    <string name="arrives">Arrives</string>
+    <string name="arriving">Arriving</string>
+    <string name="autologin_user_email" />
+    <string name="autologin_user_password" />
+    <string name="available_tickets">Available tickets</string>
+    <string name="back">Back</string>
+    <string name="base_api_root_url">android.stagecoachbus.com</string>
+    <string name="basket_cleared_on_error_message">There was an error with your basket, please add your tickets and try again.</string>
+    <string name="basket_discount_title">Full order discount</string>
+    <string name="basket_is_empty">Your basket is currently empty</string>
+    <string name="basket_refresh_banner_message">There was an error with your basket, please click banner to retry.</string>
+    <string name="basket_title">My basket</string>
+    <string name="bb">WC1TQy1Ob25jZQ==</string>
+    <string name="billing_address">Billing address</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bought_tickets_d">bought tickets: %d</string>
+    <string name="bought_tickets_error">Bought tickets error</string>
+    <string name="bus_arrives">"Service 
+arrives"</string>
+    <string name="bus_departs">"Service 
+departs"</string>
+    <string name="bus_format" formatted="false">%s::%s:%s</string>
+    <string name="bus_header">Bus: %1$s %2$s</string>
+    <string name="bus_stop_details">Bus stop details</string>
+    <string name="bus_stops">bus stops</string>
+    <string name="bus_stops_near">Buses near to…</string>
+    <string name="bus_update_format" formatted="false">:%s:%s::</string>
+    <string name="bus_x_to_y">Bus %1$s to %2$s</string>
+    <string name="buses">buses</string>
+    <string name="button_horizontalMargin">horizontal</string>
+    <string name="button_longTest">not fit in previous line</string>
+    <string name="button_newLine">break line</string>
+    <string name="button_test">test</string>
+    <string name="button_verticalMargin">vertical</string>
+    <string name="buy_again">Buy again</string>
+    <string name="buy_mobile_tickets">Mobile tickets</string>
+    <string name="buy_mobile_tickets_from">Mobile tickets from £%s</string>
+    <string name="buy_ticket_not_connected_description">We are unable to display any tickets while you are offline</string>
+    <string name="buy_ticket_not_connected_label">You are not currently connected to the internet</string>
+    <string name="buy_tickets">Buy Tickets</string>
+    <string name="buy_tickets_arrow">Buy Tickets ></string>
+    <string name="buy_tickets_price">from £%s</string>
+    <string name="buy_with">Buy with</string>
+    <string name="buy_with_android_pay">Buy with Google pay</string>
+    <string name="buy_with_android_pay_text">pay</string>
+    <string name="buy_with_card">Buy with card</string>
+    <string name="buy_with_googlepay_button_content_description">Buy with Google Pay</string>
+    <string name="buy_with_paypal">Buy with PayPal</string>
+    <string name="cab1">"Sorry we can't access your account, please try again later"</string>
+    <string name="cab3">Sorry there was a problem registering your account, please try again later</string>
+    <string name="cab4">You entered an incorrect email or password</string>
+    <string name="cab6">Sorry, this account has been disabled. Please contact us for more information.</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cannot_add_more_tickets">"Sorry, you can't buy any more of those tickets in this transaction. This is for security purposes.
+If you need to buy more of these tickets, please go to your basket, checkout and start a new transaction."</string>
+    <string name="cant_add_to_basket">"Sorry, can't add ticket to basket. Please try once again"</string>
+    <string name="cant_determine_your_location">"Can't determine your location!"</string>
+    <string name="card">Debit or credit card</string>
+    <string name="card_added">Card added</string>
+    <string name="card_cancel_or_error">Card cancel or error</string>
+    <string name="card_content_descriptor">card</string>
+    <string name="card_details">Card details</string>
+    <string name="card_number">Card number</string>
+    <string name="carnet_second_message">"You have a ticket already
+activated for travel, do you wish
+to activate another ticket?
+
+"</string>
+    <string name="carnet_ticket_title">%1$s tickets remaining</string>
+    <string name="cc">Q29udGVudC1UeXBl</string>
+    <string name="center_pin">Map center pin</string>
+    <string name="change_password">Change password</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="child">Child</string>
+    <string name="chip_text">Chip text</string>
+    <string name="choose_a_location">Choose a location</string>
+    <string name="choose_a_saved_address">Choose a saved address</string>
+    <string name="clear">Clear</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="close">Close</string>
+    <string name="collapsed">Collapsed</string>
+    <string name="com.crashlytics.android.build_id">abccb18701944d249409a969bdc16fb2</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="complete">Complete</string>
+    <string name="concession">Concession</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_and_send">Confirm and send</string>
+    <string name="confirm_order">Confirm order</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="confirm_text">"You are about to send your ticket and a confirmatory email to:
+
+%1$s
+"</string>
+    <string name="confirm_text_second">"The confirmatory email will contain your name to identify you as the sender to the recipient.
+Please check the above email address is correct and then select 'Confirm and send' if you are happy to proceed:"</string>
+    <string name="confirmation_email_sent">Confirmation email sent</string>
+    <string name="connection_issue_message">There was a connection error, please try again</string>
+    <string name="connection_timeout_error">Sorry there is a connection problem, please try again.</string>
+    <string name="connection_to_activate_and_send">You need an internet connection to activate this ticket.</string>
+    <string name="contact_us">Contact us</string>
+    <string name="contact_us_details_message">Please complete the &lt;a href=%s>App Contact Form&lt;/a> with details of your issue.</string>
+    <string name="content_description_close_navigation_drawer">Close navigation drawer</string>
+    <string name="content_description_open_navigation_drawer">Open navigation drawer</string>
+    <string name="continue_shopping">Continue shopping</string>
+    <string name="continue_with_corporate_travel">Continue with Corporate Travel</string>
+    <string name="coronavirus_page_body">"Social distancing measures on our buses mean there are fewer seats available.
+
+We're adding more services especially at busy times, and to help you decide the best time to travel we're introducing a new busy bus indicator in our live map view to show which buses are likely to be most or least busy based on how many people usually travel on that service."</string>
+    <string name="coronavirus_page_link"><a href="https://www.stagecoachbus.com/coronavirus">Find out more ></a></string>
+    <string name="coronavirus_update">Stay safe when you travel</string>
+    <string name="corporate_invalid_body">"Thank you for your interest in being a corporate ticket user, however the corporate account you are trying to access is not valid.
+
+Please contact your company for further information on how to become a Stagecoach Bus corporate customer and to obtain a valid link.
+
+We look forward to seeing you in the near future."</string>
+    <string name="corporate_invalid_body_expired">"Thank you for being a Corporate Travel user, however your corporate account has now expired.
+
+%s
+
+Your account will be switched to a standard Stagecoach Bus Account. You will no longer be able to purchase new corporate tickets but will still have full access to tickets already purchased.
+
+You will also be able to access our standard ticket offering."</string>
+    <string name="corporate_invalid_body_message">"Thank you for your interest in being a corporate ticket user, however the corporate link you have used has expired.
+
+%s
+
+Please contact your company if you require further information on how to become a Stagecoach Bus corporate customer.
+
+We look forward to seeing you in the near future."</string>
+    <string name="corporate_no_mobile_ticket">Corporate Travel Partner scheme tickets are not currently available in this area</string>
+    <string name="corporate_tickets">Corporate Tickets</string>
+    <string name="corporate_valid_body">"Once you have clicked the 'Continue with Corporate Travel' button below and completed the sign up/log in process, your account will then be a Corporate Travel account.
+
+You will be able to:"</string>
+    <string name="corporate_valid_body_second">"
+• Use our interactive map to track your service
+• Search for and purchase Corporate Travel tickets
+• Search for locations, services and stops"</string>
+    <string name="corporate_valid_body_therhd">If you are an existing Stagecoach Bus account holder, you may use this account as your Corporate Travel account or you may wish to create a new one.</string>
+    <string name="country">Country</string>
+    <string name="covid_link"><a href="https://www.stagecoachbus.com/coronavirus">"Covid-19 Travelling safely
+on our services >"</a></string>
+    <string name="create_an_account">Create an account</string>
+    <string name="currency_code">GBP</string>
+    <string name="current_location">Current Location</string>
+    <string name="current_password">Current password</string>
+    <string name="cvv_number">CVV number</string>
+    <string name="date_of_loss_theft">Date of loss/theft</string>
+    <string name="date_property_was_lost">Date property was lost*</string>
+    <string name="dd">YXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVk</string>
+    <string name="deactivate_insuccess_request_body">"Sorry, something went wrong when processing your request.
+Please try again."</string>
+    <string name="deactivate_offline_body">Please connect to the internet and try again</string>
+    <string name="deactivate_offline_header">Sorry, you can’t use the ticket on this device right now</string>
+    <string name="deactivate_success_body">"Your ticket is now ready to use on this device.
+
+Simply locate the ticket under ‘Tickets To Use’ and tap ‘Resume Activation’."</string>
+    <string name="deactivate_unsuccess_period">"Sorry you can't move your ticket to this device as you've already reached a limit"</string>
+    <string name="deactivate_unsuccess_period_body">"You can only move two active tickets within a 90 day period. The same ticket can't be moved more than once."</string>
+    <string name="debit_credit_card">Debit/credit card</string>
+    <string name="debit_credit_card_visa_mastercard">Debit/credit card Visa MasterCard</string>
+    <string name="default_error">The network connection is lost</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="default_notification_channel_name">Update</string>
+    <string name="default_web_client_id">834047221462-46gj3e8phsrllf9joahia74ph40rifm8.apps.googleusercontent.com</string>
+    <string name="delayed">Delayed</string>
+    <string name="delete">Delete</string>
+    <string name="departs">Departs</string>
+    <string name="details">Details</string>
+    <string name="details_updated">Details updated</string>
+    <string name="device_transfer_pending">Device transfer pending…</string>
+    <string name="dirty">Dirty</string>
+    <string name="discount">Discount</string>
+    <string name="discount_code_title">Discount code</string>
+    <string name="discount_label">Discount</string>
+    <string name="discount_price">-£%.2f</string>
+    <string name="discount_price_placeholder">-£%.2f</string>
+    <string name="discount_saving_amount">Saving £%.2f</string>
+    <string name="discount_sub_total_label">Sub total</string>
+    <string name="discounts_code_applied_at_checkout">Discount codes can be applied at checkout</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="disruptions">︎Disruptions</string>
+    <string name="disruptions_wide">︎Disruptions affecting this journey</string>
+    <string name="do_you_want_to_delete_alert">Do you want to delete this alert?</string>
+    <string name="do_you_want_to_save_your_changes">Do you want to save your changes?</string>
+    <string name="don_t_save">"Don't save"</string>
+    <string name="done">Done</string>
+    <string name="done_your_tickets_are_ready_to_use">Tickets downloaded and ready to use</string>
+    <string name="dont_have_an_account">"Don't have an account?"</string>
+    <string name="download_in_my_tickets">Download my tickets</string>
+    <string name="download_tickets_label">Download ticket(s)</string>
+    <string name="download_timetable">Download timetable (2MB)</string>
+    <string name="downloading_tickets">Downloading tickets</string>
+    <string name="due">Due</string>
+    <string name="earlier">Earlier</string>
+    <string name="edit">Edit</string>
+    <string name="edit_alert">Edit alert</string>
+    <string name="edit_payment_options">Remove payment options</string>
+    <string name="ee">WC1TQy1GaW5nZXJwcmludA==</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email address</string>
+    <string name="email_sent">Email sent</string>
+    <string name="email_star">Email*</string>
+    <string name="enableFingerprintExplain">You can use your fingerprint ID instead of entering your password at checkout.</string>
+    <string name="enableFingerprintScan">Enable Fingerprint</string>
+    <string name="enable_fingerprint_for_stagecoach">Enable fingerprint scanning for \"Stagecoach\"?</string>
+    <string name="enable_location_services">Enable Location Services in Settings</string>
+    <string name="england_lat">52.8010</string>
+    <string name="england_lon">-1.3175</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_email_address_you_want_to_transfer_to">Enter the email address you would like to transfer to</string>
+    <string name="enter_email_so_we_can_send_you_reset_link">Enter your email so we can send you a link to reset it</string>
+    <string name="enter_location">Enter location</string>
+    <string name="enter_new_address">Enter new address</string>
+    <string name="enter_password_to_save">Please enter your Stagecoach account password</string>
+    <string name="enter_street_town_or_post_code">Enter street, town or postcode</string>
+    <string name="error_cant_resolve_location">"Can't determine your location"</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_network_problem">"Can't connect to service or server down"</string>
+    <string name="error_no_application_to_open_link">Please install a web browser application to continue.</string>
+    <string name="error_please_connect">"Please connect
+to the internet"</string>
+    <string name="error_rooted_device">Rooted device</string>
+    <string name="error_rooted_device_msg">The device appears to be rooted, and so for security reasons Stagecoach bus app cannot be run from a rooted device.</string>
+    <string name="error_system_location_settings">Please enable location in system settings</string>
+    <string name="exp">Exp: %s</string>
+    <string name="expanded">Expanded</string>
+    <string name="expected_departures">Expected Departures</string>
+    <string name="expired_card">Expired</string>
+    <string name="expired_on">Expired %s</string>
+    <string name="expired_tickets">Expired tickets</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="explore">Explore</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="external_link_explanation">Please note the results of your journey plan may be different on our website. Please check the new results at the top of the page before choosing your ticket.</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="facility_air_conditioning">Air conditioning</string>
+    <string name="facility_bike_rack">Bike rack</string>
+    <string name="facility_contactless_payment">Contactless payment</string>
+    <string name="facility_leather_seats">Leather seats</string>
+    <string name="facility_low_floor_access">Low floor access</string>
+    <string name="facility_power_on_board">Power on board</string>
+    <string name="facility_stagecoach_smart">Stagecoach Smart</string>
+    <string name="facility_toilets">Toilets</string>
+    <string name="facility_wheelchair_access">Wheelchair access</string>
+    <string name="facility_wifi">WiFi</string>
+    <string name="fav_home_removed">Home removed</string>
+    <string name="fav_home_updated">Home updated</string>
+    <string name="fav_work_removed">Work removed</string>
+    <string name="fav_work_updated">Work updated</string>
+    <string name="favourite">Favourite</string>
+    <string name="favouriteSubtitle">Add your favourites by tapping the star icon next to journeys, services or stops within the Live map or Plan a journey screens.</string>
+    <string name="favouriteTitle">Quick access to your saved favourites</string>
+    <string name="favourite_confirm_error">Favourite cannot be updated right now.</string>
+    <string name="favourite_confirm_removed">Favourite removed</string>
+    <string name="favourite_confirm_saved">"Saved to 'My favourites' for quick access"</string>
+    <string name="favourites">Favourites</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="feedback">Bus Feedback</string>
+    <string name="feedback_appreciate">We appreciate your feedback - would you like to rate us?</string>
+    <string name="feedback_form">Feedback form</string>
+    <string name="feedback_super_tram">Supertram Feedback</string>
+    <string name="ff">WC1TQy1DdXN0b21lclVVSUQ=</string>
+    <string name="file_size_are_large">File sizes are large - download over WiFi to avoid eating into your mobile data</string>
+    <string name="find_a_bus">Find a bus</string>
+    <string name="find_a_bus_stop">Find a bus stop</string>
+    <string name="find_a_location">Find a location</string>
+    <string name="find_a_timetable">Find a timetable</string>
+    <string name="find_bus_or_bus_stop">Find a bus or bus stop</string>
+    <string name="find_bus_stops_in_another_area">Find bus stops in another area</string>
+    <string name="find_mobile_ticket_in_your_area">Find mobile tickets in your area</string>
+    <string name="find_mobile_tickets">Find mobile tickets in</string>
+    <string name="find_mobile_tickets_in">Tickets in</string>
+    <string name="find_out_more_link"><a href="https://www.stagecoachbus.com/promos-and-offers/national/back-to-school-safely">Find out more ></a></string>
+    <string name="find_tickets_in">Find tickets in…</string>
+    <string name="fingerprint_scan_for_stagecoach">Fingerprint scanner for \"Stagecoach\"</string>
+    <string name="fingerprint_scan_invalid">Fingerprint not valid</string>
+    <string name="fingerprint_scan_needs_setup">Set up fingerprint scanning in Settings?</string>
+    <string name="fingerprint_setup">Set up fingerprint scanning</string>
+    <string name="firebase_database_url">https://stagecoach-production-ios.firebaseio.com</string>
+    <string name="first_advice_message">"Service locations and expected times displayed use the best information available at that time
+
+Stagecoach makes every effort to ensure the information presented is as accurate as possible"</string>
+    <string name="first_name">First name</string>
+    <string name="flow_layout_activity">layout</string>
+    <string name="flow_layout_manager_activity">manager</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="fragment_deactivate_qr_confirm_btn">Confirm move to this device</string>
+    <string name="fragment_deactivate_qr_description_fifth">Please note:</string>
+    <string name="fragment_deactivate_qr_description_first">Once you’ve confirmed you wish to move a ticket it’ll be ready for use straight away.</string>
+    <string name="fragment_deactivate_qr_description_seventh">"Moving a multi-trip ticket will deactivate all tickets in the bundle and they'll need to be reactivated."</string>
+    <string name="fragment_deactivate_qr_description_sixth">"You can only move two active tickets within a 90 day period. The same ticket can't be moved more than once."</string>
+    <string name="fragment_deactivation_success_description_first">Your ticket is now ready to use on this device.</string>
+    <string name="fragment_deactivation_success_description_second">Simply locate the ticket under ‘Tickets To Use’ and tap ‘Resume Activation’.</string>
+    <string name="from">From</string>
+    <string name="full_journey_details">Full journey details</string>
+    <string name="full_price_placeholder">Full price £%.2f</string>
+    <string name="gcm_defaultSenderId">834047221462</string>
+    <string name="genetic_braintree_card_error">Please enter the correct details for a valid card</string>
+    <string name="get_help">Get help</string>
+    <string name="get_help_pending_tickets">Get help</string>
+    <string name="get_off_the_bus_alerts">Get off the bus alerts</string>
+    <string name="gg">QXV0aG9yaXphdGlvbg==</string>
+    <string name="give_it_another_try_in_the_my_tickets_area">"Give it another try in the
+My tickets area"</string>
+    <string name="go_back">Go back</string>
+    <string name="go_back_to_app">Go back to app</string>
+    <string name="go_to_basket">Go to basket</string>
+    <string name="go_to_home_screen">Go to home screen</string>
+    <string name="go_to_my_tickets_now">Go to my tickets now</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="go_to_ticket_bottom">Buy mobile tickets ready for your journey ></string>
+    <string name="go_to_website">Go to website</string>
+    <string name="going_from">Going from…</string>
+    <string name="going_to">Going to…</string>
+    <string name="good_value">Good value</string>
+    <string name="google_api_key">AIzaSyB1pco7wgFxmWJOvtkRcto1QDqp4pVTBhE</string>
+    <string name="google_app_id">1:834047221462:android:c4be461209a51c798bb377</string>
+    <string name="google_crash_reporting_api_key">AIzaSyB1pco7wgFxmWJOvtkRcto1QDqp4pVTBhE</string>
+    <string name="google_maps_key">AIzaSyDr1KZUMbN_2obljHMEmW5KZXXYdf45OrI</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="google_storage_bucket">stagecoach-production-ios.appspot.com</string>
+    <string name="googlepay_button_content_description">Google Pay</string>
+    <string name="grant_permission">Grant Permissions</string>
+    <string name="group">Group</string>
+    <string name="gtm_container">GTM-TPFVTW</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_and_faqs">Help &amp; FAQs</string>
+    <string name="help_faqs">Help &amp; FAQs</string>
+    <string name="help_title">Tickets</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hide_x_stops">Hide %s stops</string>
+    <string name="hint_search_bus">Enter a bus number, e.g 87</string>
+    <string name="home">Home</string>
+    <string name="home_address_in_brackets">Home (%s)</string>
+    <string name="home_location_picker_analytics_tag">HomeLocation</string>
+    <string name="how_to_use_mobile_tickets">How to use mobile tickets? ></string>
+    <string name="how_to_use_mobile_tickets2">How to use mobile tickets</string>
+    <string name="how_to_use_mobile_tickets_text">Mobile tickets allow you to instantly purchase and use tickets on your device without printing or collecting.</string>
+    <string name="how_to_use_mobile_tickets_title">How to use mobile tickets</string>
+    <string name="https">https://</string>
+    <string name="hwto_tickets_faster_onboarding">Using mobile tickets in 5 easy steps – Faster Onboarding</string>
+    <string name="hwto_tickets_note_text">"Some tickets can be gifted to another Stagecoach Bus account holder. These tickets will be clearly marked with the following:
+
+"<b>Send to another person</b>"
+
+If you wish to gift your ticket to another person, select this link on the ticket and follow the instructions."</string>
+    <string name="hwto_tickets_note_title">Note</string>
+    <string name="hwto_tickets_step_1_text">Find the ticket you need for your journey and purchase using your device – your mobile tickets will be downloaded onto your device.</string>
+    <string name="hwto_tickets_step_1_title">Step 1: Buy your tickets for travel</string>
+    <string name="hwto_tickets_step_2_text">"Tap 'Terms &amp; conditions' before activating your ticket to check when your ticket is valid for travel. There are restrictions on some tickets. 
+
+Mobile tickets can normally be used at any time within 3 months of purchase but please see individual ticket terms and conditions for expiry details."</string>
+    <string name="hwto_tickets_step_2_title">"Step 2: Read your ticket's terms &amp; conditions"</string>
+    <string name="hwto_tickets_step_3_text">"Activate your ticket just as you get on the bus. 
+
+Some mobile tickets require an internet connection to activate. These tickets will be clearly marked with the text "<b>"'Activate online'"</b>". 
+
+If the ticket has the text "<b>"'Activate'"</b> then it can be activated when connected to the internet <u>or</u> when you are offline (only for up to 72 hours when offline).</string>
+    <string name="hwto_tickets_step_3_title">Step 3: Activate your ticket when getting on the bus</string>
+    <string name="hwto_tickets_step_4_text">"Some Stagecoach buses now have ticket scanners installed next to the ticket machine. You can use the scanner to check your ticket instead of presenting it to the driver. The scanner will show green lights if your ticket has been accepted. If the scanner shows red lights or does not recognise your ticket, please present your ticket to the driver. 
+
+If the bus does not have a scanner installed, please show your ticket to the driver."</string>
+    <string name="hwto_tickets_step_4_title">Step 4: Present your ticket when you get on a bus</string>
+    <string name="hwto_tickets_step_5_text"><b>Important note:</b> If you lose your device, you may lose tickets that you have not activated. All activated and expired tickets will be lost. If you delete your app, you may lose tickets.</string>
+    <string name="hwto_tickets_step_5_title">Step 5: Keep your mobile tickets safe</string>
+    <string name="i_accept_the">I accept the</string>
+    <string name="i_accept_the_terms_and_conditions">I accept the terms &amp; conditions</string>
+    <string name="i_agree_to_the_terms_of_use">I agree to the terms of use</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="ie_brand_name_size_items_inside">i.e. brand name, size, items inside</string>
+    <string name="incorrect_server_time">The time on your device is incorrect. This may invalidate your ticket when it is scanned. Please go to your setting and ensure that your current date/time settings are correct.</string>
+    <string name="install_pdf_app">Please install the application which can read .pdf files</string>
+    <string name="invalid_session_key_warning_text">"We’ve noticed you have been offline for over %s.
+To use your Mobile QR Tickets currently held on your account you need to be online - please check your internet connection."</string>
+    <string name="is_this_your_correct_email">Is this your correct email address?</string>
+    <string name="item_s_item">&lt;item>%s&lt;/item></string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="journey_details">Journey details</string>
+    <string name="journey_planner_tfl_web_view_loading_error">There was a problem loading the TFL planner, please try again later.</string>
+    <string name="journeys">journeys</string>
+    <string name="just_so_you_know">Just so you know…</string>
+    <string name="keep_code">No, keep it</string>
+    <string name="keep_ticket">Keep Ticket</string>
+    <string name="km">QmVhcmVy</string>
+    <string name="kount_mid">602220</string>
+    <string name="last_name">Last name</string>
+    <string name="last_refreshed_at_x">Last refreshed at %s</string>
+    <string name="last_three_difits_card">The last three digits on the back of your card</string>
+    <string name="last_updated_at_x">Bus last known status updated at: %s</string>
+    <string name="later">Later</string>
+    <string name="leave_at">Leave at</string>
+    <string name="leave_screen">Leave screen</string>
+    <string name="leaving">Leaving</string>
+    <string name="less">Less</string>
+    <string name="like_app">I like the app</string>
+    <string name="location_picker">Location Picker</string>
+    <string name="location_updated">Location updated</string>
+    <string name="log_in">Log in</string>
+    <string name="log_in_or_sign_up">Log in or sign up</string>
+    <string name="log_out">Log out</string>
+    <string name="log_out_process">Logging you out ..</string>
+    <string name="login">Log in</string>
+    <string name="login_arrow">Log in ></string>
+    <string name="login_error_404">Username not found or password incorrect</string>
+    <string name="login_reg_title_text">"Log in to your
+Stagecoach account"</string>
+    <string name="login_successful">You have logged in successfully</string>
+    <string name="login_text">Sign into your Stagecoach account</string>
+    <string name="login_to_see">Please log in to see your purchased tickets</string>
+    <string name="login_to_see_active">Please login to see your active tickets</string>
+    <string name="login_to_text_from_fav">Please log in or create a Stagecoach account to buy tickets, save your favourites and view your account details.</string>
+    <string name="login_to_text_from_menu">Please log in or create a Stagecoach account to buy tickets, save your favourites and view your account details.</string>
+    <string name="login_to_to_get_started">"Please log in to your Stagecoach account or create an account to use all the great features of our App.
+Save your favourite journeys and bus stops, find buses near you and much more…"</string>
+    <string name="logout_screen_analytics_tag">Logout Screen</string>
+    <string name="logout_successful">You have logged out successfully</string>
+    <string name="look_at_faq_label">Take a look at our FAQS</string>
+    <string name="lost_property">Bus Lost Property</string>
+    <string name="lost_property_super_tram">Supertram Lost Property</string>
+    <string name="main_site_root">www.stagecoachbus.com</string>
+    <string name="map">Map</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="max_activation_exceed_error_text">Ticket can not be activated. Please call Customer Service</string>
+    <string name="maybe_later">Maybe later</string>
+    <string name="message_sent">Message sent</string>
+    <string name="miss">Miss</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="mobile_number_optional">Mobile number (optional)</string>
+    <string name="mobile_qr_ticket">Mobile QR Ticket</string>
+    <string name="mobile_qr_tickets">Mobile QR Tickets</string>
+    <string name="mobile_ticket">Mobile ticket</string>
+    <string name="mobile_ticket_full_price_only_note">Please note only the full price of the ticket is displayed</string>
+    <string name="mobile_ticket_no_longer">This mobile ticket is no longer available to purchase. Sorry! Please view other mobile tickets in your area.</string>
+    <string name="mobile_ticket_orders">Mobile ticket orders</string>
+    <string name="mobile_tickets_available_in_your_area">Mobile tickets available in this area</string>
+    <string name="modal_content_descriptor">modal</string>
+    <string name="modal_inner_content_descriptor">modal inner</string>
+    <string name="more_details">More details</string>
+    <string name="more_information_optional">More information (optional)</string>
+    <string name="more_options">More options</string>
+    <string name="mr">Mr</string>
+    <string name="mrs">Mrs</string>
+    <string name="ms">Ms</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select a Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="multi_trip_tickets">MultiTrip tickets</string>
+    <string name="must_belong_stagecoach_account_holder">The email address must belong to a Stagecoach Bus account holder</string>
+    <string name="my_account">My account</string>
+    <string name="my_account_account_closure_label">Account closure</string>
+    <string name="my_account_btn">My Account</string>
+    <string name="my_favourites">My favourites</string>
+    <string name="my_location">My Location</string>
+    <string name="my_purchases">My purchases</string>
+    <string name="my_tickets">My Tickets</string>
+    <string name="my_tickets_wont_download_title">"My tickets won't download"</string>
+    <string name="name">Name</string>
+    <string name="name_on_card">Name on card</string>
+    <string name="name_star">Name*</string>
+    <string name="nearby">Nearby</string>
+    <string name="nearby_bus_stops">Nearby buses</string>
+    <string name="nearby_stops">Nearby stops</string>
+    <string name="nearby_stops_and_services">Nearby stops and services</string>
+    <string name="need_internet">Need internet connection to continue</string>
+    <string name="need_more_help_downloading_tickets">Need more help downloading tickets?</string>
+    <string name="need_work">It needs more work</string>
+    <string name="network_error_text">There has been a network error. Please retry. If the problem persists, please call customer services.</string>
+    <string name="new_password">New password</string>
+    <string name="new_payment_method">New payment method</string>
+    <string name="new_to_stagecoach">New to Stagecoach Bus?</string>
+    <string name="new_version_available">New version available</string>
+    <string name="new_version_available_body">There is an important new version of the Stagecoach bus app. Please visit the app store to update.</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="no_active_tickets">No Active Tickets</string>
+    <string name="no_active_tickets_description">"Please log in to see your active tickets 
+or access 'My Tickets' to see 
+any tickets purchased."</string>
+    <string name="no_active_tickets_logged_in_description">"Please access 'My Tickets' to see any tickets purchased."</string>
+    <string name="no_bus_information">No bus information</string>
+    <string name="no_bus_stops_available">No bus stops available within this view - please enter a bus service number or location or try plan a journey.</string>
+    <string name="no_bus_stops_found">No bus stops found</string>
+    <string name="no_buses_matching_this_number">There are no buses matching this route number at the moment</string>
+    <string name="no_buses_to_display">No buses to display</string>
+    <string name="no_changes">No changes</string>
+    <string name="no_connection">No connection</string>
+    <string name="no_content_area_code_for_this_location_in_dynamic_settings">no content area code for this location in dynamic settings</string>
+    <string name="no_error_returned_from_server">no error returned from server</string>
+    <string name="no_favourite_bus_stop">No favourite stops saved</string>
+    <string name="no_favourite_service">No favourite services saved</string>
+    <string name="no_internet_alert_message">Information cannot be displayed while you are offline. Please connect to the internet.</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_longer_owned_by_you">This ticket is no longer owned by you. It will now be removed from this device. If you have any queries, please contact customer services.</string>
+    <string name="no_market_app">No market application</string>
+    <string name="no_mobile_ticket_in_your_area">No mobile tickets in this area</string>
+    <string name="no_mobile_tickets_available">No mobile tickets available</string>
+    <string name="no_mobile_tickets_available_in_this_area">No mobile tickets available in this area, watch this space!</string>
+    <string name="no_opcocode_for_area_code_cannot_download_opcode">no opcocode for area code cannot download opcode!</string>
+    <string name="no_opcode_for_area">no opcode for area!</string>
+    <string name="no_result_text">"Sorry, we can't find any results matching '%s'
+Search tips: please check your spelling or try a town, street or postcode"</string>
+    <string name="no_results_found">No results found</string>
+    <string name="no_routes_found_text">"Sorry we can't find any routes for that journey, try changing your search terms"</string>
+    <string name="no_routes_found_title">No routes found</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="no_tickets_to_display">No tickets to display</string>
+    <string name="non_stagecoach_stop_alert_message">"Sorry - we are unable to
+provide information for this
+stop at this time - please try
+again."</string>
+    <string name="non_stop_alert_message">"Sorry, Stagecoach services are not currently available for the stop you have selected.
+
+Another operator may provide services from this stop.
+
+Please select another stop to see our services."</string>
+    <string name="nonqr_step_1_text">"This type of ticket: 
+
+1. can be purchased and used on this device only
+"</string>
+    <string name="nonqr_step_2_text">"2. can be activated without an internet connection for upto 72 hours after purchase. After 72 hours you will need to reconnect to the internet to activate further tickets
+"</string>
+    <string name="nonqr_step_3_text">"3. can be used any time within 3 months
+"</string>
+    <string name="nonqr_step_4_text">"4. cannot be cancelled, refunded, gifted or downloaded to another device.
+
+If you delete this app, you may lose your tickets"</string>
+    <string name="not_now">Not now</string>
+    <string name="not_operate_in_location">"It appears that Stagecoach doesn't operate in the location you are set to. To submit feedback, please select a different location using the menu on the home screen or email &lt;a href=mailto:app@stagecoachbus.com?subject=>app@stagecoachbus.com&lt;/a>"</string>
+    <string name="not_polite">Not polite</string>
+    <string name="not_right_now">Not right now</string>
+    <string name="not_sent">Not sent</string>
+    <string name="not_verified">Not verified.</string>
+    <string name="note4">Any Stagecoach ticket that does not indicate that it must be activated online can be activated off-line:</string>
+    <string name="nothing_to_pay_msg">You have nothing to pay</string>
+    <string name="now">Now</string>
+    <string name="now_supporting">Now supporting</string>
+    <string name="of">WC1TQy1PbGQtRmluZ2VycHJpbnQ=</string>
+    <string name="ok">OK</string>
+    <string name="ok_got_it">OK got it</string>
+    <string name="on_time">On time</string>
+    <string name="one_type_of_ticket">%s</string>
+    <string name="or">or</string>
+    <string name="or_see_live">…or search nearby stops and services.</string>
+    <string name="order_count_and_price">%1$s %2$s, %3$s</string>
+    <string name="order_no_x">Order no. %s</string>
+    <string name="order_number">Order number: %s</string>
+    <string name="order_refunded_alert_message">These ticket(s) have been refunded so they are no longer available to download</string>
+    <string name="ordered_x">Ordered %s</string>
+    <string name="oreder_did_not_go_throught">Sorry your order did not go through this time</string>
+    <string name="oreder_receipt_fail_help_message">"We're sorry that you've experienced issues downloading your ticket(s). This may have been caused by a connectivity problem. 
+
+Please try downloading your ticket(s) again. If this still doesn't work, please complete the App Contact Form with details of your issue by selecting 'Contact us'. 
+
+Need help with another issue?"</string>
+    <string name="other_ticket_options">Other ticket options</string>
+    <string name="other_ticket_options_from">Other ticket options from £%s</string>
+    <string name="oxford_tube_get_tickets">Get tickets on Oxford Tube.</string>
+    <string name="oxford_tube_tickets_available">Mobile tickets are available from the Oxford tube app.</string>
+    <string name="oxford_tube_traveling">Traveling to or from London?</string>
+    <string name="passenger_adult">Adult</string>
+    <string name="passenger_child">Child (5–16)</string>
+    <string name="passenger_concessions">Concession</string>
+    <string name="passenger_student">Student</string>
+    <string name="passenger_young_person">Young Persons (16–18)</string>
+    <string name="passengers">Passengers</string>
+    <string name="password">Password</string>
+    <string name="password_attempt">Password attempt %d/3</string>
+    <string name="password_changed">Password changed</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="pay_now">Pay now</string>
+    <string name="payment">Payment</string>
+    <string name="payment_cancel_or_error">Payment cancel or error</string>
+    <string name="payment_failed">Payment failed</string>
+    <string name="payment_note_text">"1. Mobile tickets bought on this phone can only be used on this phone. Tickets cannot be cancelled, refunded or transferred.
+
+2. Use your mobile tickets at any time within 3 months.
+
+3. If you delete this app, you will lose any active mobile tickets!
+
+4. You can activate as many tickets as you like without an internet connection for 72 hours. After 72 hours you will need to reconnect in order to activate further tickets."</string>
+    <string name="payment_options">Payment options</string>
+    <string name="payment_order_receipt_api_error">Payment Order Receipt API Fails</string>
+    <string name="payment_order_receipt_failed_free_transaction">Your ticket could not be downloaded at this time</string>
+    <string name="payment_success">Payment success</string>
+    <string name="payment_success_s">Payment success %s</string>
+    <string name="payment_successful">Payment successful</string>
+    <string name="payment_successful_get_ticket_failed">Your payment was successful but your tickets could not be downloaded</string>
+    <string name="paypal">Paypal</string>
+    <string name="paypal_added">Paypal added</string>
+    <string name="paypal_cancel_or_error">Paypal cancel or error</string>
+    <string name="pdf_downloading">Downloading a PDF</string>
+    <string name="pdf_open">Open a PDF timetable</string>
+    <string name="pdf_timetable">PDF timetable</string>
+    <string name="pending_tickets">%s tickets pending</string>
+    <string name="permissions_required">"1. The app needs access to your location only when the app is in use to provide nearby bus information and to allow journey planning from your current location.
+
+2. The app needs access to your storage to store your purchased mobile tickets on your device.
+
+3. The app needs access to your telephone to identify your device. The app does not use your telephone number in any way or make any calls."</string>
+    <string name="permissions_required_title">The Stagecoach Bus App needs the following permissions</string>
+    <string name="personal_details">Personal details</string>
+    <string name="personal_info">Personal info</string>
+    <string name="phone_number_star">Phone number*</string>
+    <string name="pick_a_location">Pick a location</string>
+    <string name="places">Locations</string>
+    <string name="plan_a_journey">Plan a journey</string>
+    <string name="plan_my_journey">Plan my journey</string>
+    <string name="planner_topbar_info">To make sure you have the most up to date service and timetable information for your local area, please check <a href="https://www.stagecoachbus.com/service-updates">Service updates</a> or see our <a href="https://www.stagecoachbus.com/coronavirus">Coronavirus page</a></string>
+    <string name="please_add_payment_method">Please add a payment method</string>
+    <string name="please_authenticate_with_fingerprint">Please use your fingerprint to continue securely.</string>
+    <string name="please_check_email_for_instructions">"Please check your email and follow the instructions we've sent."</string>
+    <string name="please_connect">Please connect to the internet to activate your tickets</string>
+    <string name="please_connect_soon">Please connect to the internet soon to be sure you can activate another ticket</string>
+    <string name="please_connect_to_add_favourites">Please connect to the internet to add favourites</string>
+    <string name="please_connect_to_remove_favourites">Please connect to the internet to remove favourites</string>
+    <string name="please_connect_to_the_internet">Please connect to the internet</string>
+    <string name="please_connect_to_the_internet_and_try_again">Please connect to the internet and try again.</string>
+    <string name="please_contact_your_bank">"We're afraid your order did not go through, please contact your bank."</string>
+    <string name="please_login_to_continue">Please log in to continue</string>
+    <string name="please_mention_your___">Please mention your departure time, bus route number, origin and destination.</string>
+    <string name="please_note">Please note:</string>
+    <string name="please_select">Please select</string>
+    <string name="please_select_address">Please select address</string>
+    <string name="please_set_location">Tell us which location you would like to contact us about</string>
+    <string name="please_try_again">Please try again</string>
+    <string name="please_try_different_email">Sorry someone has already registered with this email, please try a different one</string>
+    <string name="polite">Polite</string>
+    <string name="postcode">Postcode</string>
+    <string name="postcode_invalid">The postcode provided is invalid, please check and try again</string>
+    <string name="pound_string">£</string>
+    <string name="previous">Previous</string>
+    <string name="previous_searches">Previous searches</string>
+    <string name="price">£%s</string>
+    <string name="price_breakdown">Price breakdown</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_note_with_link">We care about protecting your privacy. View our <a href="https://www.stagecoachbus.com/privacy-policy">Privacy Policy</a> for details of how we collect and use your information.</string>
+    <string name="proceed_to_secure_checkout">Proceed to secure checkout</string>
+    <string name="project_id">stagecoach-production-ios</string>
+    <string name="purchase_history">Purchase history</string>
+    <string name="purchased_on_x">Purchased on: %s</string>
+    <string name="qr_active_ticket_valid_from">Valid from</string>
+    <string name="qr_code_description">QR code</string>
+    <string name="qr_step_1_text">"This type of ticket: 
+
+1. can be purchased and used on this device
+"</string>
+    <string name="qr_step_2_text">"2. can be downloaded to another device so long as the ticket has not been activated
+"</string>
+    <string name="qr_step_3_text">"3. can, where stated on the ticket, be activated on a different device (this will deactivate it on the original device) and can only be done once in a 90 day period
+"</string>
+    <string name="qr_step_4_text">"4. can, where stated on the ticket, be gifted to another person with an existing Stagecoach Bus account so long as the ticket has not been activated. The recipient must sign into the Stagecoach Bus app to use the gifted ticket
+
+5. can be cancelled in line with our standard Terms and Conditions
+
+To ensure your active ticket is valid when boarding the service, you must make sure you have connected to the internet within this app at least once in the previous 8 hours.
+
+If you delete this app, you may lose your tickets
+
+For expiry details please see individual ticket Terms and Conditions 
+
+"</string>
+    <string name="qr_terms_header">Terms and Conditions:</string>
+    <string name="qr_terms_identify_email">"Purchasers must identify the gift recipient's email address."</string>
+    <string name="qr_terms_logging_into_app">Tickets received as a gift can only be viewed by logging into the Stagecoach Bus mobile App.</string>
+    <string name="qr_terms_online">Purchasers must be online when transferring a gift ticket.</string>
+    <string name="qr_terms_stagecoach_account">Gift tickets can only be transferred to another Stagecoach Bus account holder.</string>
+    <string name="qr_terms_transferable_once">Gift tickets are transferable once by the purchaser.</string>
+    <string name="qr_ticket_info_terms">Terms and conditions apply</string>
+    <string name="qr_ticket_info_text" />
+    <string name="qr_ticket_info_text_1">"What does 'Activate your ticket online' mean?"</string>
+    <string name="qr_ticket_info_text_2">"Tickets must be activated while you're connected to your mobile or WiFi network."</string>
+    <string name="quite_clean">Quite clean</string>
+    <string name="qulified_for_a_discount_message">You could qualify for a discount</string>
+    <string name="qylifing_for_bundle_message">Add %1$d more to save %2$s%%</string>
+    <string name="re_send_verification_email">Re-send verification email</string>
+    <string name="reasonable">Reasonable</string>
+    <string name="receipt_received">Receipt received</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="recently_purchased">Recently purchased</string>
+    <string name="recents">Recents</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_tickets">Download tickets</string>
+    <string name="register_keep_me_up_to_date_label">Keep me up to date</string>
+    <string name="register_page_analytics_screenname_tag">Register</string>
+    <string name="register_terms_of_use_agree">I understand that I am creating a Stagecoach account, and I agree to the <a href="This should be handled in code to open in app terms and condition">terms of use</a></string>
+    <string name="registration_let_me_know_about_changes">"I would like to receive special offers and promotions, travel tips and latest news from Stagecoach by email, post and other electronic means. If you change your mind you can opt out at any time.
+We care about protecting your privacy. View our "<a href="https://www.stagecoachbus.com/privacy-policy">Privacy Policy</a> for details of how we collect and use your information.</string>
+    <string name="registration_password_text">Your password needs 8 or more characters, must include at least 1 number, 1 uppercase and 1 lowercase letter</string>
+    <string name="registration_password_text_desc">Password. Your password needs 8 or more characters, must include at least 1 number, 1 uppercase and 1 lowercase letter</string>
+    <string name="registration_text">"We won't share your details with anyone outside of Stagecoach"</string>
+    <string name="remain_on_vehicle">Bus number changes to %1$s, please remain on the bus at %2$s</string>
+    <string name="remaining_description">"With FlexiRider and other MultiTrip tickets you buy a bundle of tickets at one price.
+
+Each time you use a ticket from your bundle we'll update it, so you'll always know how many are left.
+
+Remember to only activate one ticket at a time, when you need to use it."</string>
+    <string name="remove">Remove</string>
+    <string name="remove_alert">Remove alert</string>
+    <string name="remove_code">Yes, remove it</string>
+    <string name="remove_discount_code_message">Remove this discount code?</string>
+    <string name="remove_some_s_favourite_to_make_space">Remove some %s to make space for more. On your home screen, select the three dots next to a favourite to remove it.</string>
+    <string name="request_unsuccessful">Request unsuccessful</string>
+    <string name="reset_my_password">Reset my password</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="restrictions_on_ticket">Restrictions on this ticket</string>
+    <string name="resume_activate">Resume activation</string>
+    <string name="resume_activate_this">Resume activation now?</string>
+    <string name="resume_activation">Resume activation</string>
+    <string name="retry">Retry</string>
+    <string name="retry_activation">Unfortunately the ticket cannot be activated for unknown reasons. Would you like to retry?</string>
+    <string name="return_ticket">Return to ticket</string>
+    <string name="return_to_my_account">Return to My account</string>
+    <string name="return_to_my_tickets">Return to my tickets</string>
+    <string name="route">Route</string>
+    <string name="save">Save</string>
+    <string name="save_and_continue">Save and continue</string>
+    <string name="save_card">Save card</string>
+    <string name="save_this_address_to_my_account">Save this address to My account</string>
+    <string name="saved_payment_methods">Saved payment methods</string>
+    <string name="sc_contact_form_url">https://www.stagecoachbus.com/appcontactform</string>
+    <string name="sc_deep_linking_param">/mobile-ticket-result?</string>
+    <string name="scan">Scan</string>
+    <string name="search">Search</string>
+    <string name="search_for_an_address_or_bus_service">Search for a location, postcode or service</string>
+    <string name="search_menu_title">Search</string>
+    <string name="secure_checkout">Secure checkout</string>
+    <string name="see_bus_times">See bus times ></string>
+    <string name="see_more">See more</string>
+    <string name="see_next_arrivals">No upcoming arrivals are due - tap the stop name to see next arrivals</string>
+    <string name="see_purchase_history">See purchase history</string>
+    <string name="select_a_location_above">Pick a location to find mobile tickets in that area.</string>
+    <string name="select_address">Select address</string>
+    <string name="select_location_text">"1. Select Location
+
+2. Tap on 'While Using the App'"</string>
+    <string name="select_passenger_type">Select passenger type:</string>
+    <string name="select_passengers">Select passengers</string>
+    <string name="select_your_address">Select your address</string>
+    <string name="send_me_email">Send me an email</string>
+    <string name="send_me_stagecoach_offers">Please tell me about changes to fares, services and other relevant news</string>
+    <string name="send_ticket">Send ticket</string>
+    <string name="send_to_another_person">Send to another person</string>
+    <string name="send_your_ticket_to_another_person">Send a purchased ticket to another account holder</string>
+    <string name="service_status_business">This is a private service for authorised customers only</string>
+    <string name="service_status_education">This is a dedicated service for school pupils or students only</string>
+    <string name="service_status_not_too_busy">This service is usually not too busy at this time</string>
+    <string name="service_status_quite_busy">This service is usually quite busy at this time</string>
+    <string name="service_status_very_busy">This service is usually very busy at this time</string>
+    <string name="services">Services</string>
+    <string name="services_to_get_me_here">Services to get me here</string>
+    <string name="set_a_location_text">With your location we can show you mobile tickets, buses, stops and routes in your area</string>
+    <string name="set_alert">Set alert</string>
+    <string name="set_as_billing_address">Set as billing address</string>
+    <string name="set_location">Set location</string>
+    <string name="settings">Settings</string>
+    <string name="shortcuts">Shortcuts</string>
+    <string name="show_buses_stops_and_routes_in_your_area">Show buses, stops and routes in your area</string>
+    <string name="show_ticket_to_driver">Show ticket to driver</string>
+    <string name="show_ticket_to_scanner">Show Ticket to Scanner</string>
+    <string name="show_x_stops">Show %s stops</string>
+    <string name="sign_up">Sign up</string>
+    <string name="skip">Skip</string>
+    <string name="some_of_your_tickets_could_not_be_downloaded_try_again_to_finish">Some of your tickets could not be downloaded. Try again to finish.</string>
+    <string name="something_wrong">Something wrong</string>
+    <string name="sorry_we_cant_determine_your_location_try_later">Sorry we can not determine your location, please try again later</string>
+    <string name="sorry_we_cant_find_any_results_for_that_postcode">"Sorry we can't find any results for that postcode, please try another one"</string>
+    <string name="sorry_you_cant">"Sorry, you can't activate this ticket now"</string>
+    <string name="sorry_you_cant_activate_this_ticket_now">"Sorry, you can't activate this ticket now"</string>
+    <string name="stagecoach_buses_dont_operate_in_your_area">"Stagecoach buses don't operate in your area"</string>
+    <string name="stagecoach_does_not_operate_in_this_area">"Stagecoach doesn't operate in this area.
+Please select a different location or to find out where Stagecoach operates, please visit our website"</string>
+    <string name="stagecoach_journey_planner">Stagecoach journey planner</string>
+    <string name="stagecoach_journey_planner_location_search_check_spelling">"Please check your spelling and try again.
+For locations try a town, street or postcode"</string>
+    <string name="stagecoach_journey_planner_location_search_no_internet">Results cannot be displayed while you are offline. Please connect to the internet.</string>
+    <string name="stagecoach_journey_planner_no_internet">You must have an internet connection to plan a journey, please check your connection and try again</string>
+    <string name="stagecoach_journey_planner_no_location">You must select locations to plan a journey</string>
+    <string name="stagecoach_mobile_tickets_are_not_supported_in_london_clickable">Transport for London website</string>
+    <string name="stagecoach_mobile_tickets_are_not_supported_in_london_end">for information on accepted tickets.</string>
+    <string name="stagecoach_mobile_tickets_are_not_supported_in_london_start">"Stagecoach mobile tickets are not supported in London.
+Please visit the"</string>
+    <string name="stagecoach_services">Stagecoach Services Limited, One Stockport Exchange, 20 Railway Road, Stockport, SK1 3SW</string>
+    <string name="stagecoach_tickets_web">www.stagecoachbus.com</string>
+    <string name="stagecoach_web_link_with_utm_params">https://www.stagecoachbus.com/?utm_medium=stagecoach_android&amp;utm_source=stagecoach_app&amp;utm_campaign=%1$s</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stay_safe_title">Stay safe when you travel</string>
+    <string name="student">Student</string>
+    <string name="sub_total">Sub total</string>
+    <string name="sub_total_price">£%.2f</string>
+    <string name="submit">Submit</string>
+    <string name="subtitle1">• Any tickets purchased on this phone cannot be cancelled or refunded.</string>
+    <string name="subtitle1_1">• If you delete your app, you may lose tickets.</string>
+    <string name="subtitle2">Some Stagecoach tickets must be activated online. These tickets will be clearly marked with the following sentence:</string>
+    <string name="subtitle3">Tickets that must be activated on-line</string>
+    <string name="subtitle4">Tickets that can be activated off-line</string>
+    <string name="subtract">Subtract</string>
+    <string name="succesfull_paymant_title_free_transaction">Tickets have been successfully downloaded</string>
+    <string name="successfully_added_new_ticket">Ticket added to basket</string>
+    <string name="successfully_removed_ticket">Ticket removed from basket</string>
+    <string name="suggested_routes">Suggested routes</string>
+    <string name="summary">Summary</string>
+    <string name="super_tram_please_mention_your___">Please mention your departure time, Supertram route number, origin and destination.</string>
+    <string name="swap">Swap</string>
+    <string name="swipe_to_see_all_tickets_you_have_activated">"Swipe to see all tickets
+you have activated"</string>
+    <string name="tab_buy">Buy</string>
+    <string name="tab_content_description">%s tab</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_nearby">Nearby</string>
+    <string name="tab_plan">Plan</string>
+    <string name="tag_active_ticket_screen">ActiveTicket</string>
+    <string name="tag_bus_route_screen">BusRoute</string>
+    <string name="tag_card_details">Add card</string>
+    <string name="tag_home_screen">HomePage</string>
+    <string name="tag_payment_methods_screen">Payment methods</string>
+    <string name="tag_remove_payment_methods_screen">Remove payment methods</string>
+    <string name="tag_screen_login_register">Login/Register Screen</string>
+    <string name="tagmanager_preview_dialog_button">Continue</string>
+    <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
+    <string name="tagmanager_preview_dialog_title">Preview</string>
+    <string name="take_me_home">Take me home</string>
+    <string name="take_me_to_work">Take me to work</string>
+    <string name="take_payment_first">Take payment first</string>
+    <string name="tap_and_hold_to_see_nearby_stop_and_services">"Tap and hold to see nearby
+stop and services"</string>
+    <string name="tell_me_when_to_get_off_the_bus">Tell me when to get off the bus</string>
+    <string name="ten_min_walk">10 min walk</string>
+    <string name="terms_and_conditions_small">terms &amp; conditions</string>
+    <string name="terms_of_use">terms of use</string>
+    <string name="tfl_journey_planner">TfL journey planner</string>
+    <string name="the_digits_on_the_fron_card">The 16 digits on the front of your card</string>
+    <string name="there_are_no_buses_arriving">There are no buses arriving or departing near here at the moment</string>
+    <string name="there_are_no_stagecoach_buses_near_selected_location">There are no Stagecoach buses near selected location</string>
+    <string name="there_are_no_stagecoach_buses_near_you">"There are no Stagecoach
+buses near you"</string>
+    <string name="there_s_something_wrong_with_the_app">"There's something wrong with the App"</string>
+    <string name="these_are_scheduled_time_only">These are scheduled times only</string>
+    <string name="this_email_is_already">This email is already registered with us</string>
+    <string name="this_ticket_expires_on_s">This ticket expires on: %s</string>
+    <string name="this_will_direct_you_out_of_the_app">This will take you out of the App, are you sure?</string>
+    <string name="this_will_take_you_to_stagecoach">This will take you to stagecoachbus.com, are you sure you want to continue?</string>
+    <string name="ticket_activation_failure">There has been a problem activating this ticket. Please contact customer services.</string>
+    <string name="ticket_already_activated">This ticket has already been activated for this account on another device and cannot be used again. It will now be removed from this device.</string>
+    <string name="ticket_bundle_discount_title">Ticket bundle discount</string>
+    <string name="ticket_discount_title">Ticket discount</string>
+    <string name="ticket_expiration_date">This ticket will expire %1$s %2$s %3$s</string>
+    <string name="ticket_for_your_journey">Tickets for your journey</string>
+    <string name="ticket_has_been_added">1 ticket has been added to your basket</string>
+    <string name="ticket_not_valid">Ticket not valid</string>
+    <string name="ticket_refunded">Refunded</string>
+    <string name="ticket_terms_and_conditions">Terms &amp; conditions</string>
+    <string name="tickets">Tickets</string>
+    <string name="tickets_has_been_added">%d tickets have been added to your basket</string>
+    <string name="tickets_to_use">Tickets to use</string>
+    <string name="time_remaining">%s</string>
+    <string name="times_and_alerts_will_be_estimated">Times and alerts will be estimated</string>
+    <string name="timetable">Timetable</string>
+    <string name="timetables">Timetables</string>
+    <string name="title">Title</string>
+    <string name="title_activity_bus_route">BusRouteActivity</string>
+    <string name="title_activity_bus_stop">BusStopActivity</string>
+    <string name="title_activity_bus_stop_details">Bus stop details</string>
+    <string name="title_activity_journey">JourneyActivity</string>
+    <string name="title_activity_journey_planner">Journey Planner</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_my_account">MyAccountActivity</string>
+    <string name="title_activity_my_favourites">My Favourites</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="title_activity_tickets">Tickets</string>
+    <string name="to">To</string>
+    <string name="to_see_bus_times_please_enable_location_access_in_settings">"To see bus times please enable
+Location access in Settings"</string>
+    <string name="to_x">to %s</string>
+    <string name="to_xx">to %s</string>
+    <string name="today">Today</string>
+    <string name="too_expensive">Too expensive</string>
+    <string name="towards">towards %s</string>
+    <string name="towards_label">towards</string>
+    <string name="town_or_city">Town or city</string>
+    <string name="tracker_id">UA–81198831-3</string>
+    <string name="tram_x_to_y">Tram %1$s to %2$s</string>
+    <string name="transfer">Transfer</string>
+    <string name="transfer_fail_not_online">You cannot send a ticket to another Stagecoach Bus account holder when your device is offline. You can check your online status by going to your phone settings.</string>
+    <string name="transfer_successful">Sent</string>
+    <string name="transfer_successful_message">"Your ticket has been removed from 'My tickets'. You have been sent an email confirmation. You can still view this ticket in your purchase history."</string>
+    <string name="transfer_successful_message_with_email">"Congratulations, you have gifted a ticket to %1$s.
+
+The ticket has been removed from 'My tickets' on your account but can still be seen in your purchase history.
+
+You and the recipient have been sent an email confirmation and the ticket is ready for activation and use."</string>
+    <string name="transfer_ticket">Send ticket to another person</string>
+    <string name="travel_after_activation">Valid for %s from time of activation.</string>
+    <string name="travel_next_day" formatted="false">Travel time from %s until %s next day.</string>
+    <string name="travel_same_day" formatted="false">Travel time from %s until %s same day.</string>
+    <string name="travel_seven_days">Valid for 7 days of travel from the date of activation</string>
+    <string name="travel_until">Travel until %s</string>
+    <string name="travel_week">Valid for %d days of travel from the date of activation.</string>
+    <string name="travelling_on">Travelling on %s</string>
+    <string name="trip_time_in_parenthesis">(%s)</string>
+    <string name="try_again">Try again</string>
+    <string name="try_again_later">"Please try again 15 minutes before the ticket's start time (%s)."</string>
+    <string name="turn_off_alert_before_set_new">Please turn off the alert before setting a new one</string>
+    <string name="turn_on_your_location_settings_in_stagecoach">"Turn on your location
+settings in Stagecoach"</string>
+    <string name="tutorial_first_text">Plan a journey with Stagecoach now or in the future. Save your favourite journeys, services or stops for easy travel.</string>
+    <string name="tutorial_first_title">Hassle-Free Travel</string>
+    <string name="tutorial_fourth_title">Where to next?</string>
+    <string name="tutorial_second_text">Find nearby stops and services to track your service with our interactive map.</string>
+    <string name="tutorial_second_title">Live map</string>
+    <string name="tutorial_third_text">Buy and use tickets instantly and securely on your phone.</string>
+    <string name="tutorial_third_title">Mobile tickets</string>
+    <string name="type_location">Street, town or postcode</string>
+    <string name="type_of_ticket_with_count" formatted="false">%d %s</string>
+    <string name="unable_to_add_discont_info">"To apply a different discount code,
+remove the code already applied to this order"</string>
+    <string name="unable_to_open_url_message">No application found to open URL</string>
+    <string name="unexpected_error">Unexpected error</string>
+    <string name="unfortunately_there_are_no_mobile_tickets_available">"Mobile tickets are coming to this area soon.
+In the meantime tickets are available from your bus driver or on our website"</string>
+    <string name="unknown">Unknown</string>
+    <string name="unselected">unselected</string>
+    <string name="update">Update</string>
+    <string name="update_passengers">Update passengers</string>
+    <string name="use_my_current_location">Use my current location</string>
+    <string name="use_on_this_device">Use on this device</string>
+    <string name="use_our_journey_planner">Use our journey planner to get live and scheduled bus times</string>
+    <string name="use_ticket_on_this_device">Use ticket on this device?</string>
+    <string name="use_touch_id">Use Fingerprint scanner</string>
+    <string name="used_on">Used on: %s</string>
+    <string name="uu">WC1TQy1BcHBWZXJzaW9u</string>
+    <string name="valid_card_number">Enter a valid card number</string>
+    <string name="valid_cvv">Please enter a valid CVV number</string>
+    <string name="valid_expiry_date">Please enter a valid expiry date</string>
+    <string name="valid_id_information">You must travel with a valid student ID</string>
+    <string name="valid_in">Valid in</string>
+    <string name="valid_name_on_the_card">Enter the name on your card</string>
+    <string name="valid_until">Valid until %s</string>
+    <string name="valid_x">Valid until %s</string>
+    <string name="validation_add_payment_method">Please add a payment method</string>
+    <string name="validation_error_colour">Please enter the colour of your lost property</string>
+    <string name="validation_error_country">Please select your country</string>
+    <string name="validation_error_date">Please enter date property was lost</string>
+    <string name="validation_error_email">Please enter a valid email address</string>
+    <string name="validation_error_enter_your_address">Please enter your address</string>
+    <string name="validation_error_enter_your_town">Please enter your town</string>
+    <string name="validation_error_first_name">Please enter your first name</string>
+    <string name="validation_error_illegal_chars">"Please only use the characters A-Z ' -"</string>
+    <string name="validation_error_last_name">Please enter your last name</string>
+    <string name="validation_error_mobile_no">Please enter a valid mobile number</string>
+    <string name="validation_error_name">Please enter your name</string>
+    <string name="validation_error_password">Please enter a valid password</string>
+    <string name="validation_error_terms_and_conditions">Please accept the terms &amp; conditions</string>
+    <string name="validation_error_title">Please select your title</string>
+    <string name="validation_error_type">Please select what did you lose</string>
+    <string name="validation_error_valid_postcode">Please enter a valid postcode</string>
+    <string name="validation_error_valid_postcode_or_enter_manually">Find address with postcode or enter manually below</string>
+    <string name="validation_error_which_bus">Please enter your travel details</string>
+    <string name="validation_error_which_bus_did_you_travel_on">Please enter which bus did you travel on</string>
+    <string name="validation_incorrect_error_password">Incorrect password</string>
+    <string name="validation_password_question">Please enter your Stagecoach account password.</string>
+    <string name="validation_select_payment_method">Please select or add a payment method</string>
+    <string name="vehicle_url">https://api.stagecoach-technology.net/vehicle-tracking/v1/</string>
+    <string name="very_clean">Very clean</string>
+    <string name="very_late">Very late</string>
+    <string name="very_polite">Very polite</string>
+    <string name="view">View</string>
+    <string name="view_map">View map</string>
+    <string name="view_nearby">Find a stop or service</string>
+    <string name="visa">Visa</string>
+    <string name="walk">Walk</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="was_our_driver_polite">Was our driver polite?</string>
+    <string name="was_the_bus_clean">Was the bus clean?</string>
+    <string name="was_the_bus_on_time">Was the bus on time?</string>
+    <string name="was_the_super_tram_clean">Was the Supertram clean?</string>
+    <string name="was_the_super_tram_on_time">Was the Supertram on time?</string>
+    <string name="we_have_sent_this_to_your_email">"We've sent this to your email address"</string>
+    <string name="we_ll_save_your_card_details">"We'll save your card details securely to help you checkout faster next time."</string>
+    <string name="we_need_internet">Please connect to the internet to see this information</string>
+    <string name="we_need_to_know_your_location_to_do_that">We need to know your location to do that</string>
+    <string name="we_noticed_you">"We noticed you activated tickets while offline. 
+
+To keep your unused tickets secure, you can only activate tickets for 72 hours while offline. 
+
+After 72 hours you will need to reconnect to the internet to activate more tickets."</string>
+    <string name="we_send_you_message_one_stop_before">"We'll send you a message 1 stop before you need to get off"</string>
+    <string name="we_send_you_message_three_and_one_stop_before">"We'll send you a message 3 stops and 1 stop before you need to get off"</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="welcome_back_unregistred_user">"Log in to buy tickets
+and add favourites"</string>
+    <string name="welcome_text_you_can_now_purchase">You can now purchase and use tickets within the app, plan journeys and check bus times</string>
+    <string name="welcome_to_corporate_travel">Welcome to %s Corporate Travel</string>
+    <string name="welcome_to_the_sc_app">"Welcome to the
+Stagecoach bus app"</string>
+    <string name="welcome_to_the_sc_bus_app">"Log in
+or create an account"</string>
+    <string name="what_colour_is_it">What colour is it?*</string>
+    <string name="what_did_you_lose">What did you lose?*</string>
+    <string name="what_new_body">"As schools re-start we are doing all we can to help pupils get there safely, including making some changes to our bus services and times.
+
+We are adding extra dedicated school buses and to help show the services we’re introducing a new school bus indicator in our live map."</string>
+    <string name="what_would_you_like_to_contact_us_about">What would you like to contact us about?</string>
+    <string name="whats_new_body1">Your Stagecoach Bus app has been updated.</string>
+    <string name="whats_new_body2">From now on, when you activate any ticket showing the logo above, that ticket will be available to you across all of your mobile devices. Choose to move your active tickets between your devices and even reinstate your active tickets if you lose, damage or change your device</string>
+    <string name="whats_new_description">We have recently updated your Stagecoach bus app to include some great new features, including:</string>
+    <string name="whats_new_findout">"Find out more about what's new >"</string>
+    <string name="whats_new_login_advice">Log in to your Stagecoach Bus account to see them</string>
+    <string name="whats_new_mobile_tickets">Your Stagecoach mobile tickets and saved favourites are still valid and secure</string>
+    <string name="whats_new_title">We have updated!</string>
+    <string name="whats_new_update_one">New interactive map to track your service</string>
+    <string name="whats_new_update_three">Quicker, easier access to your mobile tickets</string>
+    <string name="whats_new_update_two">Easier searching for locations, services and stops</string>
+    <string name="when">When</string>
+    <string name="when_question">When?</string>
+    <string name="where_do_you_want_to_go">Where do you want to go?</string>
+    <string name="where_would_you_like_to_alight">Where would you like to alight?</string>
+    <string name="which_bus_did_you_travel_on">Which bus did you travel on?*</string>
+    <string name="which_super_tram_did_you_travel_on">Which Supertram did you travel on?*</string>
+    <string name="will_you_use_our_service_again">Will you use our services again?</string>
+    <string name="with_your_location_we_can">With your location we can:</string>
+    <string name="work">Work</string>
+    <string name="work_address_in_brackets">Work (%s)</string>
+    <string name="wotday_k">V5R5b9kl4DoLh/Mcmo9jS</string>
+    <string name="would_you_like_to_log">Would you like to log in?</string>
+    <string name="x_active">%d active</string>
+    <string name="x_days_later">(%d days later)</string>
+    <string name="x_m_meters">%s m</string>
+    <string name="x_m_mins">%s mins</string>
+    <string name="x_mins">%d mins</string>
+    <string name="x_mins_description">arrives in %d minutes</string>
+    <string name="x_ticket_for_today">%s ticket for today</string>
+    <string name="x_to_x" formatted="false">%s to %s</string>
+    <string name="yes">Yes</string>
+    <string name="yes_continue">Yes, continue</string>
+    <string name="you_can_select_up_to_5_passengers">You can select up to 5 passengers</string>
+    <string name="you_cant_add_any_more_favourite_s">"You can't add any more favourite %s"</string>
+    <string name="you_dont_have_any">"You don't have any mobile tickets to use"</string>
+    <string name="you_entere_wrong_details_too_many_times">"This account has been locked. Sorry, you've entered the wrong log in details too many times. Please try again in 10 minutes."</string>
+    <string name="you_entered_an_incorrect_email">"Sorry, you've entered an incorrect email or password"</string>
+    <string name="you_entered_incorrect_login_or_password">You entered incorrect login or password</string>
+    <string name="you_must_be_logged_in_to_use_the_app">You must be logged in to use the app</string>
+    <string name="you_must_have_an_internet_connection_to_buy_ticket">You must have an internet connection to buy a ticket, please check your connection and try again</string>
+    <string name="you_must_have_at_least_on_passenger_selected">You must have at least 1 passenger selected to continue</string>
+    <string name="you_need_internet">You need an internet connection to activate this ticket</string>
+    <string name="you_need_internet_plural">You need an internet connection to activate these tickets</string>
+    <string name="you_need_to_be_close_to_the_bus_route_to_see_bus_times">"You need to be close to the bus route
+to see bus times"</string>
+    <string name="you_need_to_be_near_route_to_set_alert">You need to be close to the route in order to enable get off alerts</string>
+    <string name="you_need_to_get_off">You need to get off</string>
+    <string name="you_not_need_internet">You do not need an internet connection to activate this ticket</string>
+    <string name="you_not_need_internet_plural">You do not need an internet connection to activate these tickets</string>
+    <string name="you_will_lose_your_progress_so_far">You will lose your progress so far</string>
+    <string name="you_will_see">There are currently no mobile tickets to activate.</string>
+    <string name="young_person">Young Person</string>
+    <string name="your_details">Your details:</string>
+    <string name="your_property_and_journey">Your property and journey:</string>
+    <string name="your_tickets_are_ready_to_use">your tickets are now ready to use</string>
+    <string name="your_tickets_could_not_be_downloaded_pls_try_again">Your tickets could not be downloaded. Please try again.</string>
+    <string name="zc">WC1TQy1hcGlLZXk=</string>
+    <string name="zero_changes">0 changes</string>
+    <string name="zoom_to_nearby_buses">Zoom in to see nearby services</string>
+    <string name="zz">WC1TQy1zZWN1cml0eU1ldGhvZA==</string>
+</resources>

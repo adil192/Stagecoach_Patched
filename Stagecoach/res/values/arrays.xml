@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="allowed_ips">
+        <item>178.62.97.111</item>
+        <item>175.143.63.55</item>
+        <item>178.62.23.56</item>
+        <item>79.66.38.75</item>
+        <item>79.66.47.72</item>
+        <item>79.66.32.96</item>
+        <item>92.4.163.146</item>
+        <item>5.152.210.246</item>
+        <item>5.152.210.251</item>
+        <item>10.137.144.152</item>
+        <item>93.186.158.175</item>
+        <item>195.110.90.38</item>
+        <item>212.159.94.79</item>
+        <item>148.252.236.44</item>
+    </string-array>
+    <string-array name="available_ticket_areas">
+        <item>Greater Manchester</item>
+    </string-array>
+    <array name="facility_order">
+        <item>@drawable/plan_icon_facilities_wheelchair</item>
+        <item>@drawable/plan_icon_facilities_lowflooraccess</item>
+        <item>@drawable/plan_icon_facilities_wifi</item>
+        <item>@drawable/plan_icon_facilities_toilets</item>
+    </array>
+    <string-array name="lost_property_array">
+        <item>@string/please_select</item>
+        <item>Bag</item>
+        <item>Book</item>
+        <item>Camera</item>
+        <item>Glasses</item>
+        <item>Jewellery</item>
+        <item>Keys</item>
+        <item>Laptop</item>
+        <item>Mobile phone or PDA</item>
+        <item>MP3 player</item>
+        <item>Umbrella</item>
+        <item>Wallet or purse</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="sha_certificate_pinning">
+        <item>sha256/W+52Z4L6EAYhWsT3gcBXn/+ERIXCXbfKqTJPuexu6OI=</item>
+    </string-array>
+</resources>

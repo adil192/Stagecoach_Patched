@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:id="@id/tabText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" app:text="@string/leave_at">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView style="@style/Heading3" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView style="@style/Heading3.Bold" />
+    </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+    <com.stagecoach.stagecoachbus.views.common.component.TriangleView android:layout_gravity="bottom|center" android:id="@id/tabTriangleIndicator" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="10.0dip" app:direction="down" app:fillColor="@color/pickerTabs" />
+</merge>

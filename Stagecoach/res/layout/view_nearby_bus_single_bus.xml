@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:srcCompat="@drawable/plan_icon_bus" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:ellipsize="end" android:id="@id/nameAndDestination" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_toLeftOf="@id/liveIconAnimation" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" style="@style/Body1" />
+    <com.stagecoach.stagecoachbus.views.base.LiveIcnsAnimateView android:id="@id/liveIconAnimation" android:visibility="gone" android:layout_width="@dimen/live_icon_animation_size" android:layout_height="@dimen/live_icon_animation_size" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_toLeftOf="@id/time" android:layout_centerVertical="true" />
+    <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/Body4">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body4" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textStyle="bold" android:textColor="@color/green" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body4" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textStyle="bold" android:textColor="@color/green" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.5" style="@style/Body4" />
+    </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+</RelativeLayout>

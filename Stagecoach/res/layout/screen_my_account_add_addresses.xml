@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/changePasswordPanel" android:background="@color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainPanel" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <com.stagecoach.stagecoachbus.views.field.FormEditField android:id="@id/fieldAddressNickname" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:maxLength="@integer/max_nickname_field_length" app:fieldTitle="@string/address_nickname" />
+        <com.stagecoach.stagecoachbus.views.field.FormEditField android:id="@id/fieldFirstName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:maxLength="@integer/max_name_field_length" app:fieldTitle="@string/address_first_name" />
+        <com.stagecoach.stagecoachbus.views.field.FormEditField android:id="@id/fieldLastName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:maxLength="@integer/max_name_field_length" app:fieldTitle="@string/address_last_name" />
+        <com.stagecoach.stagecoachbus.views.field.FormEditHalfField android:id="@id/fieldPostCode" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:layout_weight="1.0" app:fieldTitle="@string/address_enter_postcode" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCButton android:layout_gravity="center_horizontal" android:id="@id/findAddressBtn" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/address_find_address" style="@style/primary_button_blue_stroke" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/enterAddressManually" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/or" android:importantForAccessibility="no" style="@style/FormHeading" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/address_enter_address_manually" style="@style/TextLink" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/enterAddressManuallyPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.stagecoach.stagecoachbus.views.account.ManualAddressView android:id="@id/manualAddressView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnSave" android:layout_width="fill_parent" android:text="@string/save" style="@style/primary_button_blue" />
+    </LinearLayout>
+</ScrollView>

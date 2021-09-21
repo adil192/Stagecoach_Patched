@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/nameTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/priceTextView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Body3" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/subTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/fullPriceTextView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/nameTextView" style="@style/Body1" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/priceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" style="@style/Body3" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/fullPriceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/priceTextView" style="@style/Body1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

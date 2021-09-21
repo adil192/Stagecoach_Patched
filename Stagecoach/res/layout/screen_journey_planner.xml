@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_with_menu" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout android:background="@color/journey_planner_unselected_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+        <com.stagecoach.stagecoachbus.views.network.NoNetworkConnectionAlertView android:id="@id/noNetworkConnectionAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <RelativeLayout android:id="@id/orSeeLayout" android:background="@color/planner_topbar_color" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/noNetworkConnectionAlertView">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextViewWithUnderlineLink android:textColorLink="@color/white" android:gravity="center" android:id="@id/plannerTopbarText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/planner_topbar_info" android:layout_centerInParent="true" style="@style/Heading3" />
+        </RelativeLayout>
+        <com.stagecoach.stagecoachbus.views.alert.MyMissingTicketsAlertView android:id="@id/myMissingTicketsAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/orSeeLayout" />
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:background="@color/journey_planner_unselected_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/myMissingTicketsAlertView">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/stagecoachJourneyPlannerTitlePanel" android:background="@color/journey_planner_unselected_color" android:padding="@dimen/standard_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/plan_icon_london_plan" />
+                    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/stagecoach_journey_planner" style="@style/TextLink" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/scjpChevron" android:layout_width="14.0dip" android:layout_height="14.0dip" android:scaleType="centerInside" android:importantForAccessibility="no" app:srcCompat="@drawable/icon_chevron_down" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/stagecoachJourneyPlannerDetailsPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="135.0dip" android:layout_margin="10.0dip" android:elevation="12.0dip" app:cardCornerRadius="3.0dip">
+                        <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/routeImage" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentLeft="true" app:srcCompat="@drawable/planner_route" />
+                            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="14.0sp" android:textColor="@color/grey3" android:id="@id/tvFrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/from" android:layout_toRightOf="@id/routeImage" />
+                            <com.stagecoach.stagecoachbus.views.planner.PlannerLocationField android:id="@id/editFrom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_toRightOf="@id/routeImage" android:layout_below="@id/tvFrom" app:hint="@string/type_location" />
+                            <ImageView android:id="@id/swapButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/routeImage" android:layout_below="@id/editFrom" app:srcCompat="@drawable/plan_icon_divider" />
+                            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="14.0sp" android:textColor="@color/grey3" android:id="@id/tvTo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to" android:layout_toRightOf="@id/routeImage" android:layout_below="@id/swapButton" />
+                            <com.stagecoach.stagecoachbus.views.planner.PlannerLocationField android:id="@id/editTo" android:focusable="true" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_toRightOf="@id/routeImage" android:layout_below="@id/tvTo" app:hint="@string/type_location" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView android:id="@id/panelWhen" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_margin="10.0dip" android:elevation="12.0dip" app:cardCornerRadius="3.0dip">
+                        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="14.0sp" android:textColor="@color/grey3" android:gravity="left" android:id="@id/tvTimeType" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="5.0dip" android:text="@string/leaving" android:layout_alignParentTop="true" />
+                            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="left" android:id="@id/editTime" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="5.0dip" android:text="@string/now" android:layout_alignParentBottom="true" style="@style/Body1" />
+                            <ImageView android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_keyboard_arrow_down" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView android:id="@id/panelPassengers" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:elevation="12.0dip" app:cardCornerRadius="3.0dip">
+                        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/screen_passenters_picker" />
+                    </androidx.cardview.widget.CardView>
+                    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/buttonPlanJourney" android:layout_width="fill_parent" android:layout_margin="20.0dip" android:text="@string/plan_my_journey" style="@style/primary_button_blue" />
+                </LinearLayout>
+                <View android:id="@id/scjpDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+                <ViewStub android:id="@id/tflPlannerViewStub" android:layout="@layout/view_journey_planner_tfl_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/tlfPlannerWebViewError" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/journey_planner_tfl_web_view_loading_error" style="@style/Body1.Regular" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

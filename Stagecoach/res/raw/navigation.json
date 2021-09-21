@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "title": "Live map",
+      "type": "explore",
+      "icon": "",
+      "parentId": 0,
+      "navItemChildren": []
+    },
+    {
+      "id": 2,
+      "title": "Plan a journey",
+      "type": "plan_journey",
+      "icon": "",
+      "parentId": 0,
+      "navItemChildren": []
+    },
+    {
+      "id": 3,
+      "title": "Tickets",
+      "type": "tickets",
+      "icon": "",
+      "parentId": 0,
+      "navItemChildren": []
+    },
+    {
+      "id": 4,
+      "title": "My favourites",
+      "type": "my_favourites",
+      "icon": "",
+      "parentId": 0,
+      "navItemChildren": []
+    },
+    {
+      "id": 5,
+      "title": "More",
+      "type": "more",
+      "icon": "",
+      "parentId": 0,
+      "navItemChildren": [
+        {
+          "id": 51,
+          "title": "Contact us",
+          "type": "contact_us",
+          "icon": "",
+          "parentId": 5,
+          "navItemChildren": []
+        },
+        {
+          "id": 52,
+          "title": "About the app",
+          "type": "about_app",
+          "icon": "",
+          "parentId": 5,
+          "navItemChildren": []
+        },
+        {
+          "id": 53,
+          "title": "Give feedback",
+          "type": "give_feedback",
+          "icon": "",
+          "parentId": 5,
+          "navItemChildren": []
+        },
+        {
+          "id": 55,
+          "title": "Tutorials",
+          "type": "tutorials",
+          "icon": "",
+          "parentId": 5,
+          "navItemChildren": []
+        },
+        {
+          "id": 56,
+          "title": "Terms of use",
+          "type": "terms_of_service",
+          "icon": "",
+          "parentId": 5,
+          "navItemChildren": []
+        },
+        {
+          "id": 57,
+          "title": "Privacy policy",
+          "type": "privacy_policy",
+          "icon": "",
+          "parentId": 5,
+          "navItemChildren": []
+        }
+      ]
+    }
+
+]

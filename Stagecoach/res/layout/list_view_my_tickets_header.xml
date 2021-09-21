@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/tickets_to_use" android:layout_centerVertical="true" style="@style/TextLink" />
+    <ImageView android:id="@id/arrowImageView" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/titleTextView" android:layout_centerVertical="true" app:srcCompat="@drawable/icon_chevron_down" />
+</RelativeLayout>

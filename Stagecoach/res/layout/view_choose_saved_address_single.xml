@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCCheckBox android:id="@id/cbAddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="2.0dip" android:button="@drawable/global_radio_button_black" style="@style/FormHeading.Checkbox" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Heading5" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/addresses" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Body3" />
+    </LinearLayout>
+</LinearLayout>

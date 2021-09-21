@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainPanel" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stagecoach.stagecoachbus.views.field.FormEditField android:id="@id/fieldAddressOne" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" app:fieldTitle="@string/address_1" />
+    <com.stagecoach.stagecoachbus.views.field.FormEditField android:id="@id/fieldAddressTwo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" app:fieldTitle="@string/address_2" />
+    <com.stagecoach.stagecoachbus.views.field.FormEditField android:id="@id/fieldTownStar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" app:fieldTitle="@string/address_town_star" />
+    <com.stagecoach.stagecoachbus.views.field.FormEditField android:id="@id/fieldCounty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" app:fieldTitle="@string/address_county" />
+    <com.stagecoach.stagecoachbus.views.field.FormEditHalfErrorTopField android:id="@id/fieldPostCodeStar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:fieldTitle="@string/address_postcode_star" />
+    <com.stagecoach.stagecoachbus.views.field.SpinnerForm android:id="@id/countrySpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" app:fieldTitle="@string/address_country_start" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/downloadPanel" android:background="@drawable/background_blue_stroke_rounded_border" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="15.0dip" android:gravity="center" android:id="@id/btnDownload" android:background="@null" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_timetable" android:layout_centerInParent="true" style="@style/TextLink" />
+    <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_below="@id/btnDownload" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+</RelativeLayout>

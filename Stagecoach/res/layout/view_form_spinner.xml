@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/tvFieldTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/tvValidationError" android:layout_alignParentTop="true" style="@style/FormHeading" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/red" android:gravity="right" android:id="@id/tvValidationError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_toRightOf="@id/tvFieldTitle" android:layout_alignParentRight="true" style="@style/ErrorText" />
+    <Spinner android:gravity="center_vertical" android:id="@id/spinner" android:background="@drawable/background_light_grey_rounded_border_solid_white" android:layout_width="fill_parent" android:layout_height="@dimen/form_field_height" android:layout_marginTop="5.0dip" android:maxLength="@integer/max_name_field_length" android:layout_below="@id/tvFieldTitle" style="@style/Body1" />
+    <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="5.0dip" android:layout_alignTop="@id/spinner" android:layout_alignRight="@id/spinner" android:layout_alignBottom="@id/spinner" app:srcCompat="@drawable/icon_chevron_down" />
+</RelativeLayout>

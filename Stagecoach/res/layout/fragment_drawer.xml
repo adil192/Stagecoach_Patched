@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="300.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/drawerHeader" layout="@layout/drawer_header" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottomView" android:layout_below="@id/drawerHeader">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/drawer_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottomView" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_alignParentBottom="true">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/grey8" android:gravity="center" android:id="@id/versionName" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="v2.0.0" style="@style/Heading3" />
+            <View android:id="@id/separator" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider5Horizontal" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip">
+                <ImageView android:gravity="center_vertical" android:id="@id/logInOut" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_alignParentLeft="true" app:srcCompat="@drawable/drawer_logout" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/orange" android:gravity="center_vertical" android:id="@id/logInOutTxt" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/log_out" android:layout_toRightOf="@id/logInOut" style="@style/Heading3" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/grey8" android:gravity="center_vertical" android:id="@id/helpFaq" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="@string/help_faqs" android:layout_alignParentRight="true" style="@style/Heading3" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/drawer_submenu_layout" android:background="@color/blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/animationLayout" android:background="@color/lightblue" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/drawer_submenu_close" android:background="@drawable/form_icon_cross_white" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="20.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/drawerLoader" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_margin="15.0dip" android:src="@drawable/ic_roundel" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="2.0dip" android:scrollbarThumbVertical="@color/black" android:id="@id/drawer_submenu_recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/animationLayout" />
+        <View android:id="@id/separatorBottom" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="80.0dip" android:layout_alignParentBottom="true" style="@style/DividerWhite" />
+    </RelativeLayout>
+</RelativeLayout>

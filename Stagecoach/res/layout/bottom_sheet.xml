@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_map_stick_header" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:behavior_fitToContents="false" app:behavior_hideable="false" app:behavior_peekHeight="66.0dip" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/background_map_search" android:layout_width="64.0dip" android:layout_height="4.0dip" android:layout_marginTop="6.0dip" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_sheet_data_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/drawer_list_layout" android:background="@color/white_opacity40" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/drawer_list_item_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/explore" android:layout_alignParentLeft="true" style="@style/Heading2.Large.Black" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/drawer_list_item_indicator" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="12.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+</RelativeLayout>

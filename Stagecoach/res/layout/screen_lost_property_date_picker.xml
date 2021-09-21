@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/toolbar_theme" android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="4.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <NumberPicker android:id="@id/dayPicker" android:descendantFocusability="blocksDescendants" android:layout_height="wrap_content" android:layout_centerVertical="true" app:layout_widthPercent="25.0%" />
+    <NumberPicker android:layout_gravity="center_horizontal" android:id="@id/monthPicker" android:descendantFocusability="blocksDescendants" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toRightOf="@id/dayPicker" android:layout_centerVertical="true" app:layout_widthPercent="39.999996%" />
+    <NumberPicker android:id="@id/yearPicker" android:descendantFocusability="blocksDescendants" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toRightOf="@id/monthPicker" android:layout_centerVertical="true" app:layout_widthPercent="35.000004%" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/buttonDone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/standard_margin" android:layout_marginRight="@dimen/standard_margin" android:layout_marginBottom="@dimen/standard_margin" android:text="@string/done" android:layout_alignParentBottom="true" style="@style/primary_button_blue" />
+</androidx.percentlayout.widget.PercentRelativeLayout>

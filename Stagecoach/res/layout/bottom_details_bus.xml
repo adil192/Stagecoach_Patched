@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/busViewContainer" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <TextView android:textAppearance="@style/Heading5" android:layout_gravity="center_vertical" android:id="@id/busHeader" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:drawableLeft="@drawable/explore_bus_icon_blue" android:drawablePadding="12.0dip" />
+        <LinearLayout android:layout_gravity="center|right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/closeBtn" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cancel_black_24dp" />
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/btnFav" android:background="@null" android:padding="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:contentDescription="@string/favourite">
+                <ImageButton android:id="@id/btn_favourite_selected" android:background="@drawable/global_icon_favourite_active" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageButton android:id="@id/btn_favourite_unselected" android:background="@drawable/global_icon_favourite_inactive" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <com.stagecoach.stagecoachbus.views.common.UnifiedProgressBar android:layout_gravity="center" android:id="@id/progress" android:padding="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/noInternetLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="0.0dip">
+        <View android:id="@id/separatorTop" android:background="@color/grey3" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:id="@id/tvInfo" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_internet_alert_message" style="@style/Heading3.Blue" />
+        <View android:id="@id/separatorBottom" android:background="@color/grey3" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/busDetailsContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/wholePaymentOptionLayout" android:focusable="true" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCCheckBox android:id="@id/checkBox" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:button="@drawable/global_radio_button_black" android:layout_alignParentLeft="true" android:layout_alignParentTop="false" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentStart="false" style="@style/FormHeading.Checkbox" />
+    <ImageView android:id="@id/logoImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="100.0dip" android:layout_toRightOf="@id/checkBox" android:layout_centerVertical="true">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/nameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" android:layout_centerVertical="true" style="@style/Body3" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/subTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" android:lines="1" style="@style/Body1" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/expiredTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expired_card" android:lines="1" style="@style/ErrorText" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" style="@style/Divider2Horizontal" />
+</RelativeLayout>

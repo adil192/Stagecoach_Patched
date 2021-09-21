@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/mainPanel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.stagecoach.stagecoachbus.views.common.component.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/slidingUpPanelLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/mapContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="100.0dip" />
+        <FrameLayout android:id="@id/infoContainer" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/journey_details">
+            <com.stagecoach.stagecoachbus.views.common.component.LockableScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/containers" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/facilitiesPopUpView" android:layout_alignBottom="@id/facilitiesPopUpView" />
+                    <FrameLayout android:id="@id/detailsContainer" android:paddingTop="0.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <FrameLayout android:id="@id/facilitiesPopUpView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/detailsContainer" android:layout_alignBottom="@id/detailsContainer" />
+                </RelativeLayout>
+            </com.stagecoach.stagecoachbus.views.common.component.LockableScrollView>
+        </FrameLayout>
+    </com.stagecoach.stagecoachbus.views.common.component.SlidingUpPanelLayout>
+</FrameLayout>

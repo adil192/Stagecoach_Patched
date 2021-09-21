@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tflPlannerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tflPlannerTitlePanel" android:background="@color/journey_planner_unselected_color" android:padding="@dimen/standard_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/plan_icon_london_tfl" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/tfl_journey_planner" style="@style/TextLink" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/tflChevron" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/icon_chevron_down" android:scaleType="centerInside" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/tflWebViewPanel" android:background="@color/journey_planner_selected_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="415.0dip">
+        <WebView android:id="@id/tflWebView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="415.0dip" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" style="@style/Base.Widget.AppCompat.ProgressBar" />
+    </RelativeLayout>
+    <View android:id="@id/tflDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+</LinearLayout>

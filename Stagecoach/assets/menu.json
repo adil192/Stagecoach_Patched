@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "title": "My account",
+      "type": "my_account",
+      "requiresLoggedIn": true
+    },
+    {
+      "title": "Contact us",
+      "type": "contact_us"
+    },
+    {
+      "title": "Help & FAQs",
+      "type": "faq"
+    },
+    {
+      "title": "About the App",
+      "type": "about"
+    },
+    {
+      "title": "Rate the App",
+      "type": "rate_the_app"
+    },
+    {
+      "title": "Tutorials",
+      "type": "tutorials"
+    },
+    {
+      "title": "Terms of use",
+      "type": "terms_and_coditions"
+    },
+    {
+      "title": "Privacy policy",
+      "type": "privacy_policy"
+    }
+  ]
+}

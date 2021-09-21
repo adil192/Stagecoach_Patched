@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:id="@id/id_these_are_scheduled_time_only" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/these_are_scheduled_time_only" android:layout_alignParentTop="true" style="@style/Body5" />
+    <View android:id="@id/dividingLine" android:layout_width="fill_parent" android:layout_below="@id/id_these_are_scheduled_time_only" style="@style/Divider2Horizontal" />
+    <RelativeLayout android:id="@id/earlierLater" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/id_these_are_scheduled_time_only">
+        <ImageView android:id="@id/chevron1" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_toLeftOf="@id/textButton" android:layout_centerVertical="true" app:srcCompat="@drawable/icon_chevron_down" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/textButton" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_centerInParent="true" style="@style/Heading3.Blue" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+        <ImageView android:id="@id/chevron2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_toRightOf="@id/textButton" android:layout_centerVertical="true" app:srcCompat="@drawable/icon_chevron_down" />
+    </RelativeLayout>
+</RelativeLayout>

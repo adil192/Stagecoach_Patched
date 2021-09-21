@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/bus_stop_route_cell_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/timeContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bus_stop_route_cell_line_panel_left_margin_neg" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:gravity="center|right" android:id="@id/time" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="fill_parent" style="@style/Body4">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center|right" android:layout_width="72.0dip" android:layout_height="fill_parent" style="@style/Body4" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/grey7" android:gravity="center|right" android:layout_width="72.0dip" android:layout_height="fill_parent" style="@style/Body4" />
+        </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+        <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:gravity="center" android:id="@id/liveTime" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="fill_parent" style="@style/Body4">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="12.0sp" android:textColor="@color/green" android:gravity="center|right" android:layout_width="72.0dip" android:layout_height="fill_parent" style="@style/Heading5" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="12.0sp" android:textColor="@color/grey7" android:gravity="center|right" android:layout_width="72.0dip" android:layout_height="fill_parent" style="@style/Body4" />
+        </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/linePanel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip">
+        <View android:id="@id/separatorCenter" android:background="@color/grey_map_border" android:visibility="visible" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+        <View android:id="@id/lineTop" android:background="@color/blue" android:visibility="visible" android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_alignBottom="@id/separatorCenter" android:layout_centerHorizontal="true" />
+        <View android:id="@id/lineBottom" android:background="@color/blue" android:visibility="visible" android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_alignTop="@id/separatorCenter" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/stopIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerInParent="true" app:srcCompat="@drawable/explore_bus_stop" />
+    </RelativeLayout>
+    <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:gravity="center_vertical" android:id="@id/busStopName" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/timeContainer" android:layout_toRightOf="@id/linePanel" android:layout_toEndOf="@id/linePanel" style="@style/Body3">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" style="@style/Body3" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/grey7" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" style="@style/Body3" />
+    </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+</RelativeLayout>

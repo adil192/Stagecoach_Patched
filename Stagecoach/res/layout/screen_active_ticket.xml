@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/noTicketsLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="26.0dip" android:gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_active_tickets" style="@style/Heading1.SmallBold" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/noTicketsDescriptionView" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/no_active_tickets_description" />
+    </LinearLayout>
+    <include android:id="@id/loginView" android:visibility="gone" layout="@layout/view_active_tickets_login" />
+    <com.stagecoach.stagecoachbus.views.common.UnifiedProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

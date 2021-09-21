@@ -1,0 +1,9 @@
+{
+  "successfulLoginEvent": {
+    "numberTimesOfLogin": null
+  },
+  "failedLoginEvent": {
+    "numberTimesOfLogin": null,
+    "error": null
+  }
+}

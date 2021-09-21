@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basket_title_with_nr">
+        <item quantity="other">My basket. %d items</item>
+        <item quantity="zero">My basket.</item>
+        <item quantity="one">My basket. 1 item</item>
+    </plurals>
+    <plurals name="changes">
+        <item quantity="other">%d changes</item>
+        <item quantity="one">1 change</item>
+    </plurals>
+    <plurals name="discount_code_applied_message">
+        <item quantity="other">%d discount codes applied</item>
+        <item quantity="one">%d discount code applied</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="offline_timeout_days">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="offline_timeout_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="offline_timeout_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="offline_timeout_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="passenger_desc_adults">
+        <item quantity="other">%d Adults</item>
+        <item quantity="one">1 Adult</item>
+    </plurals>
+    <plurals name="passenger_desc_children">
+        <item quantity="other">%d Children</item>
+        <item quantity="one">1 Child</item>
+    </plurals>
+    <plurals name="passenger_desc_concessions">
+        <item quantity="other">%d Concessions</item>
+        <item quantity="one">1 Concession</item>
+    </plurals>
+    <plurals name="passenger_desc_passengers">
+        <item quantity="other">%d Passengers</item>
+        <item quantity="one">1 Passenger</item>
+    </plurals>
+    <plurals name="passenger_desc_students">
+        <item quantity="other">%d Students</item>
+        <item quantity="one">1 Student</item>
+    </plurals>
+    <plurals name="passenger_desc_young_person">
+        <item quantity="other">%d Young persons</item>
+        <item quantity="one">1 Young person</item>
+    </plurals>
+    <plurals name="pending_tickets_label">
+        <item quantity="other">Tickets pending</item>
+        <item quantity="one">Ticket pending</item>
+    </plurals>
+    <plurals name="plural_hour">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="ticket_items_suffix">
+        <item quantity="other">(%d items)</item>
+        <item quantity="one">(%d item)</item>
+    </plurals>
+    <plurals name="total_of_items">
+        <item quantity="other">Total of %d items</item>
+        <item quantity="one">Total of 1 item</item>
+    </plurals>
+</resources>

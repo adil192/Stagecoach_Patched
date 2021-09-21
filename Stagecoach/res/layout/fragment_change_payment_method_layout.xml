@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/alertsPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.stagecoach.stagecoachbus.views.network.NoNetworkConnectionAlertView android:id="@id/noNetworkConnectionAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/noValidPaymentMethodAlertView" android:background="@drawable/background_light_red_red_border" android:padding="10.0dip" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/please_add_payment_method" style="@style/Body4" />
+        <com.stagecoach.stagecoachbus.views.alert.MyMissingTicketsAlertView android:id="@id/myMissingTicketsAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/buttonDone" android:layout_below="@id/alertsPanel">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/editEmptyLayout" android:background="@color/grey4" android:paddingLeft="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/savedMethodsHeader" android:layout_alignBottom="@id/savedMethodsHeader" android:layout_alignParentStart="true">
+                <ImageView android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="16.0dip" app:srcCompat="@drawable/global_icon_edit" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCButton android:background="@null" android:padding="4.0dip" android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove" android:textAllCaps="false" style="@style/primary_button_blue_stroke" />
+            </LinearLayout>
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:id="@id/savedMethodsHeader" android:background="@color/grey4" android:padding="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/saved_payment_methods" android:layout_toStartOf="@id/editLayout" android:layout_toEndOf="@id/editEmptyLayout" style="@style/Body3.semibold" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/editLayout" android:background="@color/grey4" android:paddingRight="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/savedMethodsHeader" android:layout_alignBottom="@id/savedMethodsHeader" android:layout_alignParentRight="true">
+                <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" app:srcCompat="@drawable/global_icon_edit" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCButton android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/remove" android:textAllCaps="false" style="@style/primary_button_blue_stroke" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/paymentMethodsView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/savedMethodsHeader" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:id="@id/newMethodHeader" android:background="@color/grey4" android:padding="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/new_payment_method" android:layout_below="@id/paymentMethodsView" style="@style/Body3.semibold" />
+            <FrameLayout android:id="@id/buttonAddPaypal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/newMethodHeader" android:contentDescription="@string/paypal">
+                <ImageView android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" app:srcCompat="@drawable/payment_icon_paypal" />
+                <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" app:srcCompat="@drawable/chevron_right" />
+            </FrameLayout>
+            <View android:id="@id/line1" android:background="@color/grey1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buttonAddPaypal" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/buttonAddCard" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/line1" android:contentDescription="@string/debit_credit_card_visa_mastercard">
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/debit_credit_card" android:layout_weight="1.0" style="@style/Body1" />
+                <ImageView android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" app:srcCompat="@drawable/payment_icon_visa" />
+                <ImageView android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:srcCompat="@drawable/payment_icon_mastercard" />
+                <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" app:srcCompat="@drawable/chevron_right" />
+            </LinearLayout>
+            <View android:id="@id/line2" android:background="@color/grey1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buttonAddCard" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/buttonAddAndroidPay" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/line2" android:contentDescription="@string/google_pay">
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/google_pay" android:layout_weight="1.0" style="@style/Body1" />
+                <ImageView android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/bt_ic_google_pay" />
+                <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" app:srcCompat="@drawable/chevron_right" />
+            </LinearLayout>
+            <View android:id="@id/line3" android:background="@color/grey1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buttonAddAndroidPay" />
+        </RelativeLayout>
+    </ScrollView>
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/buttonDone" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/done" android:layout_alignParentBottom="true" style="@style/primary_button_blue" />
+</RelativeLayout>

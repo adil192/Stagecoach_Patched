@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/inputRootContainer" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+        <com.stagecoach.stagecoachbus.views.common.component.SCEditTextFullStyle android:textSize="14.0sp" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/inputView" android:background="@drawable/background_map_search" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/search_for_an_address_or_bus_service" android:maxLines="1" android:ems="10" android:inputType="textPostalAddress" android:imeOptions="actionSearch" app:drawableStartCompat="@drawable/ic_search" style="@style/MultiStyleTextEdit" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/clearBtn" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_clear" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:layout_gravity="end|center" android:id="@id/btnCancel" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Heading3.Blue" />
+</merge>

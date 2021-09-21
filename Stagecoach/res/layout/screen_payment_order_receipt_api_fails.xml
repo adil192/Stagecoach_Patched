@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/centerButtons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_successful_get_ticket_failed" style="@style/Heading5" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnDownloadInMytickets" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="30.0dip" android:text="@string/download_in_my_tickets" android:textAllCaps="false" style="@style/primary_button_blue" />
+    </LinearLayout>
+    <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="20.0dip" android:layout_above="@id/centerButtons" android:layout_centerHorizontal="true" app:srcCompat="@drawable/ic_payment_icon_info" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:id="@id/sentDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/need_more_help_downloading_tickets" android:layout_above="@id/btnGetHelp" android:layout_centerHorizontal="true" style="@style/Body4" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnGetHelp" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/get_help" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/button_transparent_blue_like_full_blue" />
+</RelativeLayout>

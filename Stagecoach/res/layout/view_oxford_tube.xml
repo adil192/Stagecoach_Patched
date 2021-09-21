@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/noTicketsOxfordTubeContainer" android:background="@drawable/background_white_solid_grey_rounded_border" android:padding="15.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/oxford_tube_traveling" style="@style/Heading2" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/oxford_tube_tickets_available" style="@style/Heading5" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/buy_oxfordtube" android:adjustViewBounds="true" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:id="@id/oxfordAppLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/oxford_tube_get_tickets" style="@style/TextLink" />
+</LinearLayout>

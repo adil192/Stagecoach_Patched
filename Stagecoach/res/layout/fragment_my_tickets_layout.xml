@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/myTicketsRoot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.network.NoNetworkConnectionAlertView android:id="@id/noNetworkConnectionAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.stagecoach.stagecoachbus.views.alert.MyMissingTicketsAlertView android:id="@id/myMissingTicketsAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/noNetworkConnectionAlertView" />
+    <androidx.core.widget.NestedScrollView android:id="@id/emptyViewContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/myMissingTicketsAlertView">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/downloadingTicketsContainer" android:visibility="gone" layout="@layout/view_downloading_pending_ticket_header" />
+            <include android:id="@id/refreshTicketsContainer" android:visibility="gone" android:layout_below="@id/downloadingTicketsContainer" layout="@layout/view_refresh_pending_tickets_header" />
+            <include android:id="@id/noTicketsCardView" android:layout_below="@id/refreshTicketsContainer" layout="@layout/view_my_tickets_empty_view" />
+            <include android:id="@id/loginView" android:layout_below="@id/noTicketsCardView" layout="@layout/view_my_tickets_login" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ExpandableListView android:id="@id/ticketsExpandableListView" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/myMissingTicketsAlertView" />
+    <FrameLayout android:id="@id/blockingContentView" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.stagecoach.stagecoachbus.views.common.UnifiedProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

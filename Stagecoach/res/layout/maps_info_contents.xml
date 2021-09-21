@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/panelDefaultSuggestions" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="16.0dip" android:textColor="@android:color/black" android:gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300.0dip" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="18.0dip" android:textColor="@color/blue" android:gravity="center" android:id="@id/textHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/see_bus_times" />
+</LinearLayout>

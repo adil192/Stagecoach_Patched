@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/you_can_select_up_to_5_passengers" android:layout_marginStart="16.0dip" style="@style/Body3.Small" />
+        <com.stagecoach.stagecoachbus.views.picker.passengers.PlusMinusSelector android:id="@id/adultSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <View android:id="@id/adultDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+        <com.stagecoach.stagecoachbus.views.picker.passengers.PlusMinusSelector android:id="@id/childSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <View android:id="@id/childDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+        <com.stagecoach.stagecoachbus.views.picker.passengers.PlusMinusSelector android:id="@id/concessionsSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <View android:id="@id/concessionsDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+        <com.stagecoach.stagecoachbus.views.picker.passengers.PlusMinusSelector android:id="@id/studentSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <View android:id="@id/studentsDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+        <com.stagecoach.stagecoachbus.views.picker.passengers.PlusMinusSelector android:id="@id/youngSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

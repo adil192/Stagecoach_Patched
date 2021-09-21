@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/alertLocationPanel" android:background="@drawable/background_grey4" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:id="@id/textAlertNotAllowed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/alert_to_see_bus_enable_location" style="@style/Body3" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/alertPanel" android:background="@drawable/background_blue_stroke_rounded_border" android:padding="14.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/alertIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:srcCompat="@drawable/global_icon_alert_inactive" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="15.0dip" android:gravity="center" android:id="@id/alertText" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tell_me_when_to_get_off_the_bus" android:layout_toRightOf="@id/alertIcon" android:layout_centerHorizontal="true" android:textAllCaps="false" style="@style/TextLink" />
+    </RelativeLayout>
+</merge>

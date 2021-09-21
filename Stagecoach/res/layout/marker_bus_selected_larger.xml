@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/explorer_info_window" android:layout_width="32.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/busIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/explore_selected_bus_icon" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center|top" android:layout_gravity="center_horizontal" android:id="@id/busNumber" android:layout_width="32.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" />
+</LinearLayout>

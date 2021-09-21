@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/amu_Bubble.TextAppearance.Dark" android:gravity="center_vertical" android:id="@id/headerText" android:background="@color/grey_map_header" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/nearby_stops_and_services" />
+    <View android:id="@id/dividingLine" android:layout_width="fill_parent" style="@style/Divider2Horizontal" />
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.stagecoach.stagecoachbus.views.picker.search.NoResultsFoundHeaderView android:id="@id/noResultsHeaderView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.stagecoach.stagecoachbus.views.picker.search.LocationDisableHeaderView android:id="@id/locationDisableHeaderView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/suggestionsListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.stagecoach.stagecoachbus.views.alert.MyMissingTicketsAlertView android:id="@id/myMissingTicketsAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.stagecoach.stagecoachbus.views.network.NoNetworkConnectionAlertView android:id="@id/noNetworkConnectionAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

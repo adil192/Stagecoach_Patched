@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/type" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_toStartOf="@id/price" style="@style/Body3" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/price" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_alignParentEnd="true" style="@style/Heading3.BoldBlack" />
+    <LinearLayout android:orientation="vertical" android:id="@id/groupDetailsPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/type" android:layout_marginStart="30.0dip" />
+</merge>

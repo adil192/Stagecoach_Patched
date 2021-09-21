@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="active_ticket_arrow_size">32.0dip</dimen>
+    <dimen name="cell_itinerary_list_button_buy_text_size">13.0dip</dimen>
+    <dimen name="cell_itinerary_list_tv_are_mobile_tickets_text_size">15.0dip</dimen>
+    <dimen name="part_journey_details_header_tv_time_departs_text_size">16.0dip</dimen>
+    <dimen name="view_qr_active_ticket_animated_panel_margin_top">348.0dip</dimen>
+    <dimen name="view_qr_active_ticket_terms_and_conditions_margin_top">8.0dip</dimen>
+    <dimen name="view_qr_active_ticket_time_remaining_margin_bottom">4.0dip</dimen>
+    <dimen name="whats_new_got_it_margin_top">32.0dip</dimen>
+    <dimen name="whats_new_padding_horizontal">24.0dip</dimen>
+    <dimen name="whats_new_padding_vertical">48.0dip</dimen>
+</resources>

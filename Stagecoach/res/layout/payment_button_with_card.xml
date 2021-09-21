@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cardDetailsPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageCardType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/textName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/imageCardType" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:ellipsize="end" android:id="@id/textDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/expiredTextView" android:layout_below="@id/textName" android:layout_alignStart="@id/textName" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/expiredTextView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/expired_card" android:lines="1" android:layout_alignTop="@id/textDescription" android:layout_alignParentRight="true" style="@style/ErrorText" />
+    </RelativeLayout>
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:textSize="18.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/buttonPayWithCard" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/buy_with_card" android:layout_below="@id/cardDetailsPanel" style="@style/primary_button_orange" />
+</merge>

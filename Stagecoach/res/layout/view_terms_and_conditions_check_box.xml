@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCCheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/i_agree_to_the_terms_of_use" style="@style/FormHeading.Checkbox" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextViewWithCustomLinkStyle android:layout_gravity="center_vertical" android:id="@id/termsAndConditions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="@string/register_terms_of_use_agree" style="@style/FormHeading" />
+</merge>

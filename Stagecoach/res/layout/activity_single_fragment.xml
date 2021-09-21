@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="none" />
+            <ViewStub android:id="@id/debugToolbarViewStub" android:layout="@layout/view_debug_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/fragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appBarLayout" android:importantForAccessibility="no" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/overlayBGContainer" android:background="@color/transparency_60pc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/overlayContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+</FrameLayout>

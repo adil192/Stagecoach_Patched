@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:visible="true" android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="400" android:drawable="@drawable/global_icon_live_a" />
+    <item android:duration="400" android:drawable="@drawable/global_icon_live_b" />
+    <item android:duration="1000" android:drawable="@drawable/global_icon_live_c" />
+</animation-list>

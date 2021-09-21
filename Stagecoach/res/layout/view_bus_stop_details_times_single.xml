@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/detailsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/plan_icon_bus" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@android:color/black" android:ellipsize="end" android:gravity="left" android:id="@id/busName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="6.0dip" android:layout_toLeftOf="@id/liveIconAnimation" android:layout_toRightOf="@id/icon" style="@style/Heading2" />
+        <com.stagecoach.stagecoachbus.views.base.LiveIcnsAnimateView android:id="@id/liveIconAnimation" android:visibility="gone" android:layout_width="@dimen/live_icon_animation_size" android:layout_height="@dimen/live_icon_animation_size" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_toLeftOf="@id/time" android:layout_alignBottom="@id/time" />
+        <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/busName" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Body4">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Heading2" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textStyle="bold" android:textColor="@color/green" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Heading2" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textStyle="bold" android:textColor="@color/green" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.5" style="@style/Heading2" />
+        </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/towards" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/busName" android:layout_alignLeft="@id/busName" style="@style/Body6" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toLeftOf="@id/chevron" android:layout_toRightOf="@id/towards" android:layout_below="@id/busName">
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:id="@id/nextTime2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body4" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/green" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body4" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/green" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.5" style="@style/Body4" />
+            </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+            <com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField android:id="@id/nextTime3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body4" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/green" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body4" />
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/green" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.5" style="@style/Body4" />
+            </com.stagecoach.stagecoachbus.views.common.component.MultiStyleTextField>
+        </LinearLayout>
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/red" android:gravity="center_vertical" android:id="@id/canceledView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancelled" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Body4" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/detailsContainer" style="@style/Divider2Horizontal" />
+</RelativeLayout>

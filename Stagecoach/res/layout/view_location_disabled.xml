@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:layout_gravity="center_horizontal" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/allow_location_services" style="@style/Heading3.gray" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/allow_location_info_text" style="@style/Body4" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnAllowLocationAccess" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_marginTop="10.0dip" android:text="@string/enable_location_services" style="@style/primary_button_orange" />
+</LinearLayout>

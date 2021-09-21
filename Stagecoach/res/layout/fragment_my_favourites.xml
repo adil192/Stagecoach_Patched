@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_with_menu" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize">
+            <LinearLayout android:id="@id/noInternetLayout" android:background="@color/blueOpacity90" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_anchor="@id/favourite_title" app:layout_anchorGravity="top">
+                <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:text="@string/please_connect_to_the_internet" style="@style/Body2.Bold" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/favourite_title" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/favourite_title_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/global_icon_favourite_inactive" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/blue" android:id="@id/favourite_title_text" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favouriteTitle" style="@style/Heading2.Small.SemiBold" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:id="@id/favourite_subtitle_text" android:background="@color/white" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favouriteSubtitle" style="@style/Body1.Regular" />
+            <com.stagecoach.stagecoachbus.views.home.favourites.FavouritesSingleMainView android:id="@id/shortcutContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="14.0dip" />
+            <com.stagecoach.stagecoachbus.views.home.favourites.FavouritesSingleMainView android:id="@id/journeysContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="14.0dip" />
+            <com.stagecoach.stagecoachbus.views.home.favourites.FavouritesCarouselView android:id="@id/favouritesBusesCarousel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="14.0dip" />
+            <com.stagecoach.stagecoachbus.views.home.favourites.FavouritesSingleMainView android:id="@id/favouritesBusesContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="14.0dip" />
+            <com.stagecoach.stagecoachbus.views.home.favourites.FavouritesSingleMainView android:id="@id/busStopsContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

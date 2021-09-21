@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainPanel" android:background="@color/blueOpacity90" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/alertTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/alertText" android:layout_centerHorizontal="true" style="@style/Heading2" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/white" android:textColorLink="@color/white" android:gravity="center_horizontal" android:id="@id/alertText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerInParent="true" style="@style/Heading5" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnMain" android:layout_width="fill_parent" android:layout_marginLeft="80.0dip" android:layout_marginTop="20.0dip" android:text="@string/OK" android:layout_below="@id/alertText" android:layout_centerHorizontal="true" style="@style/primary_button_orange" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnAlt" android:layout_width="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/cancel" android:layout_below="@id/btnMain" android:layout_alignLeft="@id/btnMain" android:layout_alignRight="@id/btnMain" android:layout_centerHorizontal="true" style="@style/primary_button_white" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/refreshTicketsContainer" android:background="@color/white" android:focusable="true" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/downloadingTicketsContainer" card_view:cardCornerRadius="4.0dip">
+        <RelativeLayout android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/amountOfPendingTickets" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerInParent="true" style="@style/Heading5" />
+            <LinearLayout android:id="@id/getHelpLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+                <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textStyle="bold" android:id="@id/getHelp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_help_pending_tickets" style="@style/TextLink" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/icChevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginStart="2.0dip" card_view:srcCompat="@drawable/chevron_right" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btnRefreshMyTickets" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_alignParentBottom="true" style="@style/primary_button_blue">
+                <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:padding="10.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh_tickets" android:textAllCaps="false" style="@style/primary_button" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</merge>

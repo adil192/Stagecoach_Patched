@@ -1,0 +1,261 @@
+{
+  "openScreen": {
+    "screenName": null
+  },
+  "signupClickEvent": {
+    "screenName": "Register",
+    "userName": null,
+    "userSurname": null,
+    "email": null,
+    "title": null,
+    "agreeTerms": null
+  },
+  "accountFormSubmissionClickEvent": {
+    "screenName": "Register Confirm Screen",
+    "email": null
+  },
+  "loginClickEvent": {
+    "screenName": "Login/Register Screen",
+    "email": null
+  },
+  "createAccountClickEvent": {
+    "screenName": "Login/Register Screen"
+  },
+  "forgotPasswordClickEvent": {
+    "screenName": "Login/Register Screen",
+    "email": null
+  },
+  "accountLogoutClickEvent": {
+    "screenName": "Logout Screen",
+    "confirm": null
+  },
+  "homeSearchBusClickEvent": {
+    "screenName": "Home Screen"
+  },
+  "homeFindBusStopClickEvent": {
+    "screenName": "Home Screen"
+  },
+  "findBusStopClickEvent": {
+    "screenName": "Nearby"
+  },
+  "nearByMapClickEvent": {
+    "screenName": "Nearby"
+  },
+  "searchBusClickEvent": {
+    "screenName": "Nearby"
+  },
+  "disruptionsClickEvent": {
+    "screenName": "Suggested routes"
+  },
+  "locationSetClickEvent": {
+    "screenName": "Pick a location",
+    "useMyCurrentLocation": null,
+    "enterLocation": null,
+    "skip": null
+  },
+  "setHomeLocationClickEvent": {
+    "screenName": "Home Screen"
+  },
+  "setWorkLocationClickEvent": {
+    "screenName": "Home Screen"
+  },
+  "mobileTicketsHelpButtonClickEvent": {
+    "screenName": "Buy Screen"
+  },
+  "addToBasketClickEvent": {
+    "screenName": "Buy Screen",
+    "ticketID": null
+  },
+  "deletedTicketClickEvent": {
+    "screenName": "My basket",
+    "ticketID": null
+  },
+  "addAgainTicketClickEvent": {
+    "screenName": "My basket",
+    "ticketID": null
+  },
+  "proceedToCheckoutClickEvent": {
+    "screenName": "My basket"
+  },
+  "ticketActivationClickEvent": {
+    "screenName": "My tickets",
+    "confirm": null
+  },
+  "buyAgainTicketClickEvent": {
+    "screenName": "My tickets",
+    "ticketID": null
+  },
+  "showTicketToDriverClickEvent": {
+    "screenName": "My tickets",
+    "ticketID": null
+  },
+  "planJourneyClickEvent": {
+    "screenName": "Plan a journey",
+    "from": null,
+    "to": null
+  },
+  "externalLinkClickEvent": {
+    "screenName": "Journey details",
+    "link": null,
+    "confirm": null
+  },
+  "helpAndFaqClickEvent": {
+    "screenName": "Menu"
+  },
+  "setCurrentLocation": {
+    "screenName": "Choose a location"
+  },
+  "confirmPasswordCheckoutClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "saveNewCardClickEvent": {
+    "screenName": "Add card",
+    "valid": null
+  },
+  "payNowCheckoutClickEvent": {
+    "screenName": "Checkout Screen"
+  },
+  "cancelAddCardClickEvent": {
+    "screenName": "Checkout Screen"
+  },
+  "goToMyTicketsClickEvent": {
+    "screenName": ""
+  },
+  "goToHomeScreenClickEvent": {
+    "screenName": "Checkout Confirmation Screen"
+  },
+  "permissionsDeniedEvent": {
+    "screenName": "Permission Required Screen"
+  },
+  "goToPermissionSettingsClickEvent": {
+    "screenName": "Permission Required Screen"
+  },
+  "buyTicketFilterClickEvent": {
+    "screenName": "Buy Screen",
+    "filterType": null
+  },
+  "loggedInEvent": {
+    "screenName": null
+  },
+  "addToBasketFromYourJourneyClickEvent": {
+    "screenName": "Ticket for your journey screen",
+    "ticketID": null
+  },
+  "fullJourneyDetailsClickEvent": {
+    "screenName": "Suggested routes"
+  },
+  "mobileTicketsRoutesPageClickEvent": {
+    "screenName": "Suggested routes"
+  },
+  "mobileTicketsJourneyDetailsPageClickEvent": {
+    "screenName": "Journey details"
+  },
+  "allTicketOptionsRoutesPageClickEvent": {
+    "screenName": "Suggested routes"
+  },
+  "allTicketOptionsJourneyDetailsPageClickEvent": {
+    "screenName": "Suggested routes"
+  },
+  "touchidAuthCancelClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "touchidAuthSuccessClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "touchidSetupYesClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "touchidSetupMaybeClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "touchidEnableYesClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "touchidEnableMaybeClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "useTouchIDClickEvent": {
+    "screenName": "Confirm password"
+  },
+  "touchidEnableYesMyAccClickEvent": {
+    "screenName": "My account"
+  },
+  "touchidEnableNoMyAccClickEvent": {
+    "screenName": "My account"
+  },
+  "touchidSetupMyAccClickEvent": {
+    "screenName": "My account"
+  },
+  "openScreenCheckout": {
+    "screenName": "Checkout Screen",
+    "selectedPaymentMethod": null,
+    "nativePay": null
+  },
+  "addPayPalClickEvent": {
+    "screenName": "Payment methods"
+  },
+  "addCardClickEvent": {
+    "screenName": "Payment methods"
+  },
+  "addApplePayClickEvent": {
+    "screenName": "Payment methods"
+  },
+  "addAndroidPayClickEvent": {
+    "screenName": "Payment methods"
+  },
+  "successfulPaymentEvent": {
+    "method": null,
+    "discountType": null,
+    "discountCode": null,
+    "discountsApplied": null,
+    "originalPrice": null,
+    "revenue": null
+  },
+  "failedPaymentEvent": {
+    "method": null
+  },
+  "refreshTicketsClickEvent": {
+    "screenName": "My Tickets"
+  },
+  "refreshTicketsCompleteClickEvent": {
+    "screenName": "Complete"
+  },
+  "discountFieldError": {
+    "screenName": "Discount code",
+    "fieldError": null
+  },
+  "discountSubmitError": {
+    "screenName": null,
+    "submitError": null
+  },
+  "discountSuccess": {
+    "screenName": null,
+    "discountCode": null,
+    "discountType": null,
+    "discountDescription": null
+  },
+  "discountAttempt": {
+    "screenName": null,
+    "discountCode": null
+  },
+  "quantityError": {
+    "screenName": null,
+    "errorType": null
+  },
+  "webDiscountGoTo": {
+    "screenName": null
+  },
+  "webDiscountGoBack": {
+    "screenName": null
+  },
+  "sawBundlePrompt": {
+    "screenName": null,
+    "message": null
+  },
+  "bundleDiscountActive": {
+    "screenName": null,
+    "discountCode": null,
+    "discountType": "Bundle",
+    "discountDescription": null
+  }
+}

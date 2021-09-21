@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/buttonDone" android:layout_below="@id/toolbar" android:layout_alignParentTop="true" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/buttonDone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/standard_margin" android:layout_marginRight="@dimen/standard_margin" android:layout_marginBottom="@dimen/standard_margin" android:text="@string/done" android:layout_alignParentBottom="true" style="@style/primary_button_blue" />
+</RelativeLayout>

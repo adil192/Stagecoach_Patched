@@ -1,0 +1,49 @@
+{
+  "loginClickEvent": {
+    "name" : "login_button"
+  },
+
+  "signupClickEvent": {
+    "name" : "account_creation_button"
+  },
+
+  "findBusStopClickEvent": {
+    "name" : "find_nearby_bus_stop"
+  },
+
+  "searchBusClickEvent": {
+    "name" : "find_nearby_stop"
+  },
+
+  "planJourneyClickEvent": {
+    "name": "plan",
+    "values": {
+      "from": null,
+      "to": null
+    }
+  },
+
+  "planJourneyTFLClickEvent" : {
+    "name": "plan_tfl",
+    "values": {
+      "from": null,
+      "to": null
+    }
+  },
+
+  "addToBasketClickEvent": {
+    "name": "buy_add_to_basket",
+    "values" : {
+      "ticketID": null
+    }
+  },
+
+  "purchaseConfirmation": {
+    "name" : "buy_purchase_confirmation",
+    "values" : {
+      "af_revenue": 0.0,
+      "af_quantity": 0,
+      "af_currency": "GBP"
+    }
+  }
+}

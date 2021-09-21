@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainPanel" android:background="@color/blueOpacity95" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:text="@string/mobile_ticket_no_longer" android:layout_centerInParent="true" style="@style/DisruptionsHeading2" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/okTextView" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_marginLeft="35.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="35.0dip" android:text="@string/OK" android:layout_below="@id/title" android:layout_centerHorizontal="true" style="@style/primary_button_orange" />
+</RelativeLayout>

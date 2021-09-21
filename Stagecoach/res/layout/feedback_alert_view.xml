@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/alertTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/app_feedback_title" style="@style/Heading2.Large.Black" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/alertText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_feedback_text" style="@style/Body3" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:gravity="center" android:id="@id/btnLikeApp" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="10.0dip" android:text="@string/like_app" style="@style/primary_button_orange" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:gravity="center" android:id="@id/btnYes" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="10.0dip" android:text="@string/yes" style="@style/primary_button_orange" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:id="@id/btnNeedWork" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/need_work" style="@style/TextLink.Black" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:id="@id/btnLater" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/maybe_later" style="@style/TextLink.Black" />
+</LinearLayout>

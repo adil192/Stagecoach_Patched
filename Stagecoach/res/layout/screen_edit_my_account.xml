@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="@color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainPanel" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <com.stagecoach.stagecoachbus.views.account.RegisterTitleButtonsView android:id="@id/titlePanel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.stagecoach.stagecoachbus.views.field.RegisterFormEditField android:id="@id/fieldFirstName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:maxLength="@integer/max_name_field_length" android:inputType="textCapSentences" app:fieldTitle="@string/first_name" />
+        <com.stagecoach.stagecoachbus.views.field.RegisterFormEditField android:id="@id/fieldLastName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:maxLength="@integer/max_name_field_length" android:inputType="textCapSentences" app:fieldTitle="@string/last_name" />
+        <com.stagecoach.stagecoachbus.views.field.RegisterFormEditField android:id="@id/fieldEmail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" app:allowedCharsWatcher="true" app:fieldTitle="@string/email" />
+        <com.stagecoach.stagecoachbus.views.field.RegisterFormMobileEditField android:id="@id/fieldMobileNo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="20.0dip" app:fieldTitle="@string/mobile_number_optional" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnSave" android:layout_width="fill_parent" android:text="@string/save" style="@style/primary_button_blue" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

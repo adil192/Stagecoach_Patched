@@ -1,0 +1,3423 @@
+[
+        {
+            "Name":"Cumbria and North Lancashire",
+            "TIS Codes":"SNW|ANE",
+            "Extra TIS Codes":"SIN|STR|SWB",
+            "AVL Codes":"SCCU",
+            "Content Areas":[
+                {
+                    "Name":"Barrow and Furness",
+                    "Content Area Code":"BNF",
+                    "Post Towns":[
+                        {
+                            "Name":"Askam-in-Furness",
+                            "Locality Id":"ZYX26843"
+                        },
+                        {
+                            "Name":"Barrow-in-Furness",
+                            "Locality Id":"ZYX2688"
+                        },
+                        {
+                            "Name":"Broughton-in-Furness",
+                            "Locality Id":"ZYX1910"
+                        },
+                        {
+                            "Name":"Dalton-in-Furness",
+                            "Locality Id":"ZYX2692"
+                        },
+                        {
+                            "Name":"Grange-over-Sands",
+                            "Locality Id":"ZYX3070"
+                        },
+                        {
+                            "Name":"Kirkby-in-Furness",
+                            "Locality Id":"ZYX1931"
+                        },
+                        {
+                            "Name":"Millom",
+                            "Locality Id":"ZYX2687"
+                        },
+                        {
+                            "Name":"Stella Test1",
+                            "Locality Id":"12345678"
+                        },
+                        {
+                            "Name":"Ulverston",
+                            "Locality Id":"ZYX2698"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Carlisle Penrith and Wigton",
+                    "Content Area Code":"CPW",
+                    "Post Towns":[
+                        {
+                            "Name":"Alston",
+                            "Locality Id":"ZYX2518"
+                        },
+                        {
+                            "Name":"Annan",
+                            "Locality Id":"ZYX15584"
+                        },
+                        {
+                            "Name":"Brampton",
+                            "Locality Id":"ZYX26436"
+                        },
+                        {
+                            "Name":"Carlisle",
+                            "Locality Id":"ZYX2743"
+                        },
+                        {
+                            "Name":"Corbridge",
+                            "Locality Id":"ZYX24107"
+                        },
+                        {
+                            "Name":"Gretna",
+                            "Locality Id":"ZYX16472"
+                        },
+                        {
+                            "Name":"Haltwhistle",
+                            "Locality Id":"ZYX24100"
+                        },
+                        {
+                            "Name":"Hexham",
+                            "Locality Id":"ZYX24104"
+                        },
+                        {
+                            "Name":"Penrith",
+                            "Locality Id":"ZYX2783"
+                        },
+                        {
+                            "Name":"Wigton",
+                            "Locality Id":"ZYX2693"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Kendal and The Lakes",
+                    "Content Area Code":"KTL",
+                    "Post Towns":[
+                        {
+                            "Name":"Ambleside",
+                            "Locality Id":"ZYX2736"
+                        },
+                        {
+                            "Name":"Appleby-in-Westmorland",
+                            "Locality Id":"ZYX26841"
+                        },
+                        {
+                            "Name":"Coniston",
+                            "Locality Id":"ZYX1970"
+                        },
+                        {
+                            "Name":"Kendal",
+                            "Locality Id":"ZYX2782"
+                        },
+                        {
+                            "Name":"Keswick",
+                            "Locality Id":"ZYX2695"
+                        },
+                        {
+                            "Name":"Kirkby Stephen",
+                            "Locality Id":"ZYX2589"
+                        },
+                        {
+                            "Name":"Milnthorpe",
+                            "Locality Id":"ZYX3031"
+                        },
+                        {
+                            "Name":"Sedbergh",
+                            "Locality Id":"ZYX2477"
+                        },
+                        {
+                            "Name":"Windermere",
+                            "Locality Id":"ZYX2746"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Morecambe and Lancaster",
+                    "Content Area Code":"MNL",
+                    "Post Towns":[
+                        {
+                            "Name":"Carnforth",
+                            "Locality Id":"ZYX2775"
+                        },
+                        {
+                            "Name":"Lancaster",
+                            "Locality Id":"ZYX2766"
+                        },
+                        {
+                            "Name":"Morecambe",
+                            "Locality Id":"ZYX2753"
+                        }
+                    ]
+                },
+                {
+                    "Name":"West Cumbria",
+                    "Content Area Code":"WCA",
+                    "Post Towns":[
+                        {
+                            "Name":"Beckermet",
+                            "Locality Id":"ZYX1848"
+                        },
+                        {
+                            "Name":"Cleator",
+                            "Locality Id":"ZYX1850"
+                        },
+                        {
+                            "Name":"Cleator Moor",
+                            "Locality Id":"ZYX1852"
+                        },
+                        {
+                            "Name":"Cockermouth",
+                            "Locality Id":"ZYX2684"
+                        },
+                        {
+                            "Name":"Egremont",
+                            "Locality Id":"ZYX1849"
+                        },
+                        {
+                            "Name":"Frizington",
+                            "Locality Id":"ZYX1856"
+                        },
+                        {
+                            "Name":"Holmrook",
+                            "Locality Id":"ZYX1863"
+                        },
+                        {
+                            "Name":"Maryport",
+                            "Locality Id":"ZYX2681"
+                        },
+                        {
+                            "Name":"Moor Row",
+                            "Locality Id":"ZYX26842"
+                        },
+                        {
+                            "Name":"Ravenglass",
+                            "Locality Id":"ZYX3067"
+                        },
+                        {
+                            "Name":"Seascale",
+                            "Locality Id":"ZYX2680"
+                        },
+                        {
+                            "Name":"St Bees",
+                            "Locality Id":"ZYX2672"
+                        },
+                        {
+                            "Name":"Whitehaven",
+                            "Locality Id":"ZYX2673"
+                        },
+                        {
+                            "Name":"Workington",
+                            "Locality Id":"ZYX2677"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"East",
+            "TIS Codes":"CA|STB|VI|FE|NFKG",
+            "Extra TIS Codes":"ST|SOX",
+            "AVL Codes":"SCCGM|NFKG",
+            "Content Areas":[
+                {
+                    "Name":"Bedfordshire",
+                    "Content Area Code":"BDE",
+                    "Post Towns":[
+                        {
+                            "Name":"Arlesey",
+                            "Locality Id":"ZYX21688"
+                        },
+                        {
+                            "Name":"Bedford",
+                            "Locality Id":"ZYX3448"
+                        },
+                        {
+                            "Name":"Biggleswade",
+                            "Locality Id":"ZYX24960"
+                        },
+                        {
+                            "Name":"Buckingham",
+                            "Locality Id":"ZYX24259"
+                        },
+                        {
+                            "Name":"Henlow",
+                            "Locality Id":"ZYX21632"
+                        },
+                        {
+                            "Name":"Hitchin",
+                            "Locality Id":"ZYX3472"
+                        },
+                        {
+                            "Name":"Luton",
+                            "Locality Id":"ZYX24408"
+                        },
+                        {
+                            "Name":"Newport Pagnell",
+                            "Locality Id":"ZYX24305"
+                        },
+                        {
+                            "Name":"Olney",
+                            "Locality Id":"ZYX3462"
+                        },
+                        {
+                            "Name":"Sandy",
+                            "Locality Id":"ZYX24452"
+                        },
+                        {
+                            "Name":"Shefford",
+                            "Locality Id":"ZYX21559"
+                        },
+                        {
+                            "Name":"Stevenage",
+                            "Locality Id":"ZYX24471"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Cambridgeshire",
+                    "Content Area Code":"CBE",
+                    "Post Towns":[
+                        {
+                            "Name":"Cambridge",
+                            "Locality Id":"ZYX3482"
+                        },
+                        {
+                            "Name":"Chatteris",
+                            "Locality Id":"ZYX24611"
+                        },
+                        {
+                            "Name":"Ely",
+                            "Locality Id":"ZYX3488"
+                        },
+                        {
+                            "Name":"Haverhill",
+                            "Locality Id":"ZYX22705"
+                        },
+                        {
+                            "Name":"Huntingdon",
+                            "Locality Id":"ZYX3496"
+                        },
+                        {
+                            "Name":"March",
+                            "Locality Id":"ZYX24962"
+                        },
+                        {
+                            "Name":"Newmarket",
+                            "Locality Id":"ZYX3493"
+                        },
+                        {
+                            "Name":"Royston",
+                            "Locality Id":"ZYX24583"
+                        },
+                        {
+                            "Name":"Saffron Walden",
+                            "Locality Id":"ZYX3490"
+                        },
+                        {
+                            "Name":"St Ives",
+                            "Locality Id":"ZYX24965"
+                        },
+                        {
+                            "Name":"St Neots",
+                            "Locality Id":"ZYX24465"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Norfolk",
+                    "Content Area Code":"NFG",
+                    "Post Towns":[
+                        {
+                            "Name":"Cromer",
+                            "Locality Id":"ZYX24891"
+                        },
+                        {
+                            "Name":"Downham Market",
+                            "Locality Id":"ZYX24717"
+                        },
+                        {
+                            "Name":"Fakenham",
+                            "Locality Id":"ZYX24816"
+                        },
+                        {
+                            "Name":"Holt",
+                            "Locality Id":"ZYX24844"
+                        },
+                        {
+                            "Name":"Hunstanton",
+                            "Locality Id":"ZYX22710"
+                        },
+                        {
+                            "Name":"Kings Lynn",
+                            "Locality Id":"ZYX22593"
+                        },
+                        {
+                            "Name":"Little Fransham",
+                            "Locality Id":"ZYX23140"
+                        },
+                        {
+                            "Name":"Little Walsingham",
+                            "Locality Id":"ZYX23196"
+                        },
+                        {
+                            "Name":"Norwich",
+                            "Locality Id":"ZYX24871"
+                        },
+                        {
+                            "Name":"Sandringham",
+                            "Locality Id":"ZYX22748"
+                        },
+                        {
+                            "Name":"Sheringham",
+                            "Locality Id":"ZYX24866"
+                        },
+                        {
+                            "Name":"Spalding",
+                            "Locality Id":"ZYX24508"
+                        },
+                        {
+                            "Name":"Swaffham",
+                            "Locality Id":"ZYX24787"
+                        },
+                        {
+                            "Name":"Wells-next-the-Sea",
+                            "Locality Id":"ZYX23161"
+                        },
+                        {
+                            "Name":"Wisbech",
+                            "Locality Id":"ZYX24653"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Peterborough",
+                    "Content Area Code":"PBH",
+                    "Post Towns":[
+                        {
+                            "Name":"Peterborough",
+                            "Locality Id":"ZYX3500"
+                        },
+                        {
+                            "Name":"Spalding",
+                            "Locality Id":""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"East Midlands",
+            "TIS Codes":"SLI|SNE|EYMS|HYT|TBB",
+            "Extra TIS Codes":"STM|YTC",
+            "AVL Codes":"SCEM",
+            "Content Areas":[
+                {
+                    "Name":"Gainsborough",
+                    "Content Area Code":"GBG",
+                    "Post Towns":[
+                        {
+                            "Name":"Gainsborough",
+                            "Locality Id":"ZYX24290"
+                        },
+                        {
+                            "Name":"Retford",
+                            "Locality Id":"ZYX24263"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Grimsby Cleethorpes",
+                    "Content Area Code":"GCS",
+                    "Post Towns":[
+                        {
+                            "Name":"Barnetby",
+                            "Locality Id":"ZYX26836"
+                        },
+                        {
+                            "Name":"Barrow-upon-Humber",
+                            "Locality Id":"ZYX21375"
+                        },
+                        {
+                            "Name":"Cleethorpes",
+                            "Locality Id":"ZYX24552"
+                        },
+                        {
+                            "Name":"Grimsby",
+                            "Locality Id":"ZYX24524"
+                        },
+                        {
+                            "Name":"Immingham",
+                            "Locality Id":"ZYX21675"
+                        },
+                        {
+                            "Name":"Ulceby",
+                            "Locality Id":"ZYX25967"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Hull",
+                    "Content Area Code":"HUL",
+                    "Post Towns":[
+                        {
+                            "Name":"Brough",
+                            "Locality Id":"ZYX844"
+                        },
+                        {
+                            "Name":"Cottingham",
+                            "Locality Id":"ZYX818"
+                        },
+                        {
+                            "Name":"Hessle",
+                            "Locality Id":"ZYX814"
+                        },
+                        {
+                            "Name":"Hull",
+                            "Locality Id":"ZYX25918"
+                        },
+                        {
+                            "Name":"North Ferriby",
+                            "Locality Id":"ZYX838"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Lincoln",
+                    "Content Area Code":"LCN",
+                    "Post Towns":[
+                        {
+                            "Name":"Alford-Lincolnshire",
+                            "Locality Id":"ZYX22299"
+                        },
+                        {
+                            "Name":"Horncastle",
+                            "Locality Id":"ZYX24519"
+                        },
+                        {
+                            "Name":"Lincoln",
+                            "Locality Id":"ZYX24343"
+                        },
+                        {
+                            "Name":"Louth",
+                            "Locality Id":"ZYX24570"
+                        },
+                        {
+                            "Name":"Mablethorpe",
+                            "Locality Id":"ZYX24672"
+                        },
+                        {
+                            "Name":"Market Rasen",
+                            "Locality Id":"ZYX24413"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Mansfield",
+                    "Content Area Code":"MSD",
+                    "Post Towns":[
+                        {
+                            "Name":"Grantham",
+                            "Locality Id":"ZYX24325"
+                        },
+                        {
+                            "Name":"Mansfield",
+                            "Locality Id":"ZYX24222"
+                        },
+                        {
+                            "Name":"Newark",
+                            "Locality Id":"ZYX25886"
+                        },
+                        {
+                            "Name":"Nottingham",
+                            "Locality Id":"ZYX24233"
+                        },
+                        {
+                            "Name":"Sleaford",
+                            "Locality Id":"ZYX24391"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Newark",
+                    "Content Area Code":"NWK",
+                    "Post Towns":[
+                    ]
+                },
+                {
+                    "Name":"Retford",
+                    "Content Area Code":"RFD",
+                    "Post Towns":[
+                    ]
+                },
+                {
+                    "Name":"Scunthorpe",
+                    "Content Area Code":"STE",
+                    "Post Towns":[
+                        {
+                            "Name":"Barton-upon-Humber",
+                            "Locality Id":"ZYX21247"
+                        },
+                        {
+                            "Name":"Brigg",
+                            "Locality Id":"ZYX24363"
+                        },
+                        {
+                            "Name":"Goole",
+                            "Locality Id":"ZYX802"
+                        },
+                        {
+                            "Name":"Scunthorpe",
+                            "Locality Id":"ZYX24319"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Skegness",
+                    "Content Area Code":"SGS",
+                    "Post Towns":[
+                        {
+                            "Name":"Boston",
+                            "Locality Id":"ZYX24565"
+                        },
+                        {
+                            "Name":"Skegness",
+                            "Locality Id":"ZYX24698"
+                        },
+                        {
+                            "Name":"Spilsby",
+                            "Locality Id":"ZYX22178"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Worksop",
+                    "Content Area Code":"WSP",
+                    "Post Towns":[
+                        {
+                            "Name":"Worksop",
+                            "Locality Id":"ZYX24240"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"East Scotland",
+            "TIS Codes":"SPH|STY|REN|SIF",
+            "Extra TIS Codes":"SWB|BB",
+            "AVL Codes":"SCFI|STSY",
+            "Content Areas":[
+                {
+                    "Name":"Alyth Blairgowrie and Coupar Angus",
+                    "Content Area Code":"ABC",
+                    "Post Towns":[
+                        {
+                            "Name":"Blairgowrie",
+                            "Locality Id":"ZYX15777"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Arbroath Montrose and the Mearns Coast",
+                    "Content Area Code":"AMC",
+                    "Post Towns":[
+                        {
+                            "Name":"Arbroath",
+                            "Locality Id":"ZYX15592"
+                        },
+                        {
+                            "Name":"Montrose",
+                            "Locality Id":"ZYX16969"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Clackmannanshire Falkirk and Stirling",
+                    "Content Area Code":"CFS",
+                    "Post Towns":[
+                        {
+                            "Name":"Alloa",
+                            "Locality Id":"ZYX15574"
+                        },
+                        {
+                            "Name":"Alva",
+                            "Locality Id":"ZYX15579"
+                        },
+                        {
+                            "Name":"Clackmannan",
+                            "Locality Id":"ZYX15974"
+                        },
+                        {
+                            "Name":"Dollar",
+                            "Locality Id":"ZYX16159"
+                        },
+                        {
+                            "Name":"Dunblane",
+                            "Locality Id":"ZYX16210"
+                        },
+                        {
+                            "Name":"Falkirk",
+                            "Locality Id":"ZYX16310"
+                        },
+                        {
+                            "Name":"Grangemouth",
+                            "Locality Id":"ZYX16458"
+                        },
+                        {
+                            "Name":"Larbert",
+                            "Locality Id":"ZYX16765"
+                        },
+                        {
+                            "Name":"Menstrie",
+                            "Locality Id":"ZYX16931"
+                        },
+                        {
+                            "Name":"Stirling",
+                            "Locality Id":"ZYX17379"
+                        },
+                        {
+                            "Name":"Tillicoultry",
+                            "Locality Id":"ZYX17450"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Dundee",
+                    "Content Area Code":"DND",
+                    "Post Towns":[
+                        {
+                            "Name":"Carnoustie",
+                            "Locality Id":"ZYX15924"
+                        },
+                        {
+                            "Name":"Dundee",
+                            "Locality Id":"ZYX16215"
+                        },
+                        {
+                            "Name":"Newport on Tay",
+                            "Locality Id":"ZYX17041"
+                        },
+                        {
+                            "Name":"Tayport",
+                            "Locality Id":"ZYX17431"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Dunfermline and West Fife",
+                    "Content Area Code":"DWF",
+                    "Post Towns":[
+                        {
+                            "Name":"Cowdenbeath",
+                            "Locality Id":"ZYX16045"
+                        },
+                        {
+                            "Name":"Dunfermline",
+                            "Locality Id":"ZYX16221"
+                        },
+                        {
+                            "Name":"Inverkeithing",
+                            "Locality Id":"ZYX16566"
+                        },
+                        {
+                            "Name":"Kelty",
+                            "Locality Id":"ZYX16598"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Edinburgh",
+                    "Content Area Code":"EDH",
+                    "Post Towns":[
+                        {
+                            "Name":"Edinburgh",
+                            "Locality Id":"ZYX16270"
+                        },
+                        {
+                            "Name":"Kirkliston",
+                            "Locality Id":"ZYX16716"
+                        },
+                        {
+                            "Name":"Livingston",
+                            "Locality Id":"ZYX26835"
+                        },
+                        {
+                            "Name":"Newbridge",
+                            "Locality Id":"ZYX17030"
+                        },
+                        {
+                            "Name":"South Queensferry",
+                            "Locality Id":"ZYX26834"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Forfar and Brechin",
+                    "Content Area Code":"FAB",
+                    "Post Towns":[
+                        {
+                            "Name":"Brechin",
+                            "Locality Id":"ZYX15825"
+                        },
+                        {
+                            "Name":"Forfar",
+                            "Locality Id":"ZYX16352"
+                        },
+                        {
+                            "Name":"Kirriemuir",
+                            "Locality Id":"ZYX16733"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Glenrothes Leven and Kirkcaldy",
+                    "Content Area Code":"GLK",
+                    "Post Towns":[
+                        {
+                            "Name":"Burntisland",
+                            "Locality Id":"ZYX15873"
+                        },
+                        {
+                            "Name":"Glenrothes",
+                            "Locality Id":"ZYX16442"
+                        },
+                        {
+                            "Name":"Kirkcaldy",
+                            "Locality Id":"ZYX16703"
+                        },
+                        {
+                            "Name":"Leven",
+                            "Locality Id":"ZYX16802"
+                        },
+                        {
+                            "Name":"Lochgelly",
+                            "Locality Id":"ZYX16837"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Highland Perthshire",
+                    "Content Area Code":"HLP",
+                    "Post Towns":[
+                        {
+                            "Name":"Aberfeldy",
+                            "Locality Id":"ZYX15533"
+                        },
+                        {
+                            "Name":"Pitlochry",
+                            "Locality Id":"ZYX17134"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Perth",
+                    "Content Area Code":"PRT",
+                    "Post Towns":[
+                        {
+                            "Name":"Dunkeld",
+                            "Locality Id":"ZYX18616"
+                        },
+                        {
+                            "Name":"Perth",
+                            "Locality Id":"ZYX17120"
+                        }
+                    ]
+                },
+                {
+                    "Name":"South Perthshire",
+                    "Content Area Code":"SPT",
+                    "Post Towns":[
+                        {
+                            "Name":"Kinross",
+                            "Locality Id":"ZYX16691"
+                        }
+                    ]
+                },
+                {
+                    "Name":"St Andrews Cupar and the East Neuk",
+                    "Content Area Code":"ACE",
+                    "Post Towns":[
+                        {
+                            "Name":"Anstruther",
+                            "Locality Id":"ZYX15587"
+                        },
+                        {
+                            "Name":"Cupar",
+                            "Locality Id":"ZYX16113"
+                        },
+                        {
+                            "Name":"St Andrews",
+                            "Locality Id":"ZYX17351"
+                        }
+                    ]
+                },
+                {
+                    "Name":"West Perthshire",
+                    "Content Area Code":"WPT",
+                    "Post Towns":[
+                        {
+                            "Name":"Auchterarder",
+                            "Locality Id":"ZYX15641"
+                        },
+                        {
+                            "Name":"Crieff",
+                            "Locality Id":"ZYX16070"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Greater Manchester",
+            "TIS Codes":"SMA|SWI|FM",
+            "Extra TIS Codes":"STR",
+            "AVL Codes":"SCMN",
+            "Content Areas":[
+                {
+                    "Name":"Manchester",
+                    "Content Area Code":"MAN",
+                    "Post Towns":[
+                        {
+                            "Name":"Altrincham",
+                            "Locality Id":"ZYX3376"
+                        },
+                        {
+                            "Name":"Bury",
+                            "Locality Id":"ZYX3384"
+                        },
+                        {
+                            "Name":"Heywood",
+                            "Locality Id":"ZYX3097"
+                        },
+                        {
+                            "Name":"Manchester",
+                            "Locality Id":"ZYX3385"
+                        },
+                        {
+                            "Name":"Oldham",
+                            "Locality Id":"ZYX3397"
+                        },
+                        {
+                            "Name":"Sale",
+                            "Locality Id":"ZYX3380"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Salford",
+                    "Content Area Code":"SFD",
+                    "Post Towns":[
+                        {
+                            "Name":"Salford",
+                            "Locality Id":"ZYX3073"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Stockport",
+                    "Content Area Code":"SKT",
+                    "Post Towns":[
+                        {
+                            "Name":"Cheadle",
+                            "Locality Id":"ZYX3051"
+                        },
+                        {
+                            "Name":"High Peak",
+                            "Locality Id":"ZYX26840"
+                        },
+                        {
+                            "Name":"Stockport",
+                            "Locality Id":"ZYX3392"
+                        },
+                        {
+                            "Name":"Wilmslow",
+                            "Locality Id":"ZYX3013"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Tameside",
+                    "Content Area Code":"TME",
+                    "Post Towns":[
+                        {
+                            "Name":"Ashton-under-Lyne",
+                            "Locality Id":"ZYX3196"
+                        },
+                        {
+                            "Name":"Dukinfield",
+                            "Locality Id":"ZYX3059"
+                        },
+                        {
+                            "Name":"Glossop",
+                            "Locality Id":"ZYX24950"
+                        },
+                        {
+                            "Name":"Hyde",
+                            "Locality Id":"ZYX3400"
+                        },
+                        {
+                            "Name":"Littleborough",
+                            "Locality Id":"ZYX3402"
+                        },
+                        {
+                            "Name":"Rochdale",
+                            "Locality Id":"ZYX3394"
+                        },
+                        {
+                            "Name":"Stalybridge",
+                            "Locality Id":"ZYX3404"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Wigan",
+                    "Content Area Code":"WGN",
+                    "Post Towns":[
+                        {
+                            "Name":"Bolton",
+                            "Locality Id":"ZYX25614"
+                        },
+                        {
+                            "Name":"Leigh",
+                            "Locality Id":"ZYX25627"
+                        },
+                        {
+                            "Name":"Wigan",
+                            "Locality Id":"ZYX2993"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"London",
+            "TIS Codes":"Lon",
+            "Extra TIS Codes":"",
+            "AVL Codes":"",
+            "Content Areas":[
+                {
+                    "Name":"London",
+                    "Content Area Code":"",
+                    "Post Towns":[
+                        {
+                            "Name":"London",
+                            "Locality Id":""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Merseyside And South Lancashire",
+            "TIS Codes":"STR|SME|SWR|SCR|STCR|PBT",
+            "Extra TIS Codes":"SMA|SNW",
+            "AVL Codes":"SCMY|SLAN",
+            "Content Areas":[
+                {
+                    "Name":"Cheshire",
+                    "Content Area Code":"CSE",
+                    "Post Towns":[
+                        {
+                            "Name":"Chester",
+                            "Locality Id":"ZYX2740"
+                        },
+                        {
+                            "Name":"Ellesmere Port",
+                            "Locality Id":"ZYX2738"
+                        },
+                        {
+                            "Name":"Frodsham",
+                            "Locality Id":"ZYX2784"
+                        },
+                        {
+                            "Name":"Neston",
+                            "Locality Id":"ZYX2699"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Lancashire",
+                    "Content Area Code":"LCE",
+                    "Post Towns":[
+                        {
+                            "Name":"Accrington",
+                            "Locality Id":"ZYX3007"
+                        },
+                        {
+                            "Name":"Blackburn",
+                            "Locality Id":"ZYX3001"
+                        },
+                        {
+                            "Name":"Blackpool",
+                            "Locality Id":"ZYX2707"
+                        },
+                        {
+                            "Name":"Chorley",
+                            "Locality Id":"ZYX2994"
+                        },
+                        {
+                            "Name":"Clitheroe",
+                            "Locality Id":"ZYX2810"
+                        },
+                        {
+                            "Name":"Fleetwood",
+                            "Locality Id":"ZYX2717"
+                        },
+                        {
+                            "Name":"Leyland",
+                            "Locality Id":"ZYX2986"
+                        },
+                        {
+                            "Name":"Lytham St Annes",
+                            "Locality Id":"ZYX2712"
+                        },
+                        {
+                            "Name":"Ormskirk",
+                            "Locality Id":"ZYX2745"
+                        },
+                        {
+                            "Name":"Poulton-le-Fylde",
+                            "Locality Id":"ZYX2727"
+                        },
+                        {
+                            "Name":"Preston",
+                            "Locality Id":"ZYX2787"
+                        },
+                        {
+                            "Name":"Thornron-Cleveleys",
+                            "Locality Id":"ZYX2713"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Merseyside",
+                    "Content Area Code":"MSE",
+                    "Post Towns":[
+                        {
+                            "Name":"Birkenhead",
+                            "Locality Id":"ZYX2714"
+                        },
+                        {
+                            "Name":"Bootle",
+                            "Locality Id":"ZYX2720"
+                        },
+                        {
+                            "Name":"Liverpool",
+                            "Locality Id":"ZYX3068"
+                        },
+                        {
+                            "Name":"Prenton",
+                            "Locality Id":"ZYX2703"
+                        },
+                        {
+                            "Name":"Prescot",
+                            "Locality Id":"ZYX2765"
+                        },
+                        {
+                            "Name":"Southport",
+                            "Locality Id":"ZYX2721"
+                        },
+                        {
+                            "Name":"St Helens",
+                            "Locality Id":"ZYX2982"
+                        },
+                        {
+                            "Name":"Wallasey",
+                            "Locality Id":"ZYX2700"
+                        },
+                        {
+                            "Name":"Wirral",
+                            "Locality Id":"ZYX26838"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Midlands",
+            "TIS Codes":"STA|ST",
+            "Extra TIS Codes":"SOX|VI|MRS",
+            "AVL Codes":"SCWW|SCNH",
+            "Content Areas":[
+                {
+                    "Name":"Leicestershire",
+                    "Content Area Code":"LSE",
+                    "Post Towns":[
+                        {
+                            "Name":"Hinckley",
+                            "Locality Id":"ZYX24181"
+                        },
+                        {
+                            "Name":"Leicester",
+                            "Locality Id":"ZYX24238"
+                        },
+                        {
+                            "Name":"Market Harborough",
+                            "Locality Id":"ZYX24266"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Milton Keynes",
+                    "Content Area Code":"MKE",
+                    "Post Towns":[
+                        {
+                            "Name":"Milton Keynes",
+                            "Locality Id":"ZYX24963"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Northamptonshire",
+                    "Content Area Code":"NHS",
+                    "Post Towns":[
+                        {
+                            "Name":"Corby",
+                            "Locality Id":"ZYX24311"
+                        },
+                        {
+                            "Name":"Daventry",
+                            "Locality Id":"ZYX24232"
+                        },
+                        {
+                            "Name":"Kettering",
+                            "Locality Id":"ZYX24303"
+                        },
+                        {
+                            "Name":"Northampton",
+                            "Locality Id":"ZYX24274"
+                        },
+                        {
+                            "Name":"Rushden",
+                            "Locality Id":"ZYX21027"
+                        },
+                        {
+                            "Name":"Towcester",
+                            "Locality Id":"ZYX20142"
+                        },
+                        {
+                            "Name":"Wellingborough",
+                            "Locality Id":"ZYX24317"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Staffordshire",
+                    "Content Area Code":"SFF",
+                    "Post Towns":[
+                        {
+                            "Name":"Tamworth",
+                            "Locality Id":"ZYX15439"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Warwickshire and Coventry",
+                    "Content Area Code":"WNC",
+                    "Post Towns":[
+                        {
+                            "Name":"Atherstone",
+                            "Locality Id":"ZYX15447"
+                        },
+                        {
+                            "Name":"Bedworth",
+                            "Locality Id":"ZYX15448"
+                        },
+                        {
+                            "Name":"Coventry",
+                            "Locality Id":"ZYX15518"
+                        },
+                        {
+                            "Name":"Kenilworth",
+                            "Locality Id":"ZYX15445"
+                        },
+                        {
+                            "Name":"Leamington Spa",
+                            "Locality Id":"ZYX25384"
+                        },
+                        {
+                            "Name":"Nuneaton",
+                            "Locality Id":"ZYX15401"
+                        },
+                        {
+                            "Name":"Rugby",
+                            "Locality Id":"ZYX15402"
+                        },
+                        {
+                            "Name":"Shipston-on-Stour",
+                            "Locality Id":"ZYX25396"
+                        },
+                        {
+                            "Name":"Southam",
+                            "Locality Id":"ZYX14915"
+                        },
+                        {
+                            "Name":"Stratford-upon-Avon",
+                            "Locality Id":"ZYX15438"
+                        },
+                        {
+                            "Name":"Warwick",
+                            "Locality Id":"ZYX15444"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Worcestershire",
+                    "Content Area Code":"WSR",
+                    "Post Towns":[
+                        {
+                            "Name":"Alcester",
+                            "Locality Id":"ZYX15425"
+                        },
+                        {
+                            "Name":"Evesham",
+                            "Locality Id":"ZYX15379"
+                        },
+                        {
+                            "Name":"Pershore",
+                            "Locality Id":"ZYX15368"
+                        },
+                        {
+                            "Name":"Redditch",
+                            "Locality Id":"ZYX15381"
+                        },
+                        {
+                            "Name":"Studley",
+                            "Locality Id":"ZYX15169"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"North East",
+            "TIS Codes":"SIN|SSS|SIS|SOT|SIH",
+            "Extra TIS Codes":"",
+            "AVL Codes":"SCNE",
+            "Content Areas":[
+                {
+                    "Name":"Hartlepool",
+                    "Content Area Code":"HPL",
+                    "Post Towns":[
+                        {
+                            "Name":"Hartlepool",
+                            "Locality Id":"ZYX24207"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Newcastle upon Tyne",
+                    "Content Area Code":"NUT",
+                    "Post Towns":[
+                        {
+                            "Name":"Blaydon-on-Tyne",
+                            "Locality Id":"ZYX26831"
+                        },
+                        {
+                            "Name":"Gateshead",
+                            "Locality Id":"ZYX26833"
+                        },
+                        {
+                            "Name":"Newcastle-upon-Tyne",
+                            "Locality Id":"ZYX19082"
+                        },
+                        {
+                            "Name":"Prudhoe",
+                            "Locality Id":"ZYX24116"
+                        },
+                        {
+                            "Name":"Rowlands Gill",
+                            "Locality Id":"ZYX18928"
+                        },
+                        {
+                            "Name":"Ryton",
+                            "Locality Id":"ZYX18895"
+                        },
+                        {
+                            "Name":"Wallsend",
+                            "Locality Id":"ZYX19133"
+                        },
+                        {
+                            "Name":"Wylam",
+                            "Locality Id":"ZYX24117"
+                        }
+                    ]
+                },
+                {
+                    "Name":"South Shields",
+                    "Content Area Code":"SSS",
+                    "Post Towns":[
+                        {
+                            "Name":"Boldon Colliery",
+                            "Locality Id":"ZYX26832"
+                        },
+                        {
+                            "Name":"East Boldon",
+                            "Locality Id":"ZYX25766"
+                        },
+                        {
+                            "Name":"Hebburn",
+                            "Locality Id":"ZYX19247"
+                        },
+                        {
+                            "Name":"Jarrow",
+                            "Locality Id":"ZYX26006"
+                        },
+                        {
+                            "Name":"North Shields",
+                            "Locality Id":"ZYX24167"
+                        },
+                        {
+                            "Name":"South Shields",
+                            "Locality Id":"ZYX24170"
+                        },
+                        {
+                            "Name":"Whitley Bay",
+                            "Locality Id":"ZYX24168"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Sunderland",
+                    "Content Area Code":"SLD",
+                    "Post Towns":[
+                        {
+                            "Name":"Sunderland",
+                            "Locality Id":"ZYX24175"
+                        },
+                        {
+                            "Name":"Washington",
+                            "Locality Id":""
+                        }
+                    ]
+                },
+                {
+                    "Name":"Teesside",
+                    "Content Area Code":"TES",
+                    "Post Towns":[
+                        {
+                            "Name":"Billingham",
+                            "Locality Id":"ZYX24195"
+                        },
+                        {
+                            "Name":"Middlesbrough",
+                            "Locality Id":"ZYX24201"
+                        },
+                        {
+                            "Name":"Stockton-on-Tees",
+                            "Locality Id":"ZYX24189"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"North Scotland",
+            "TIS Codes":"HI|OC|BB|SCCL",
+            "Extra TIS Codes":"BB|HI",
+            "AVL Codes":"SCHI|SBLB",
+            "Content Areas":[
+                {
+                    "Name":"Aberdeenshire",
+                    "Content Area Code":"ABD",
+                    "Post Towns":[
+                        {
+                            "Name":"Aberdeen",
+                            "Locality Id":"ZYX15530"
+                        },
+                        {
+                            "Name":"Aboyne",
+                            "Locality Id":"ZYX15541"
+                        },
+                        {
+                            "Name":"Alford-Aberdeenshire",
+                            "Locality Id":"ZYX26616"
+                        },
+                        {
+                            "Name":"Ballater",
+                            "Locality Id":"ZYX15685"
+                        },
+                        {
+                            "Name":"Banchory",
+                            "Locality Id":"ZYX15708"
+                        },
+                        {
+                            "Name":"Ellon",
+                            "Locality Id":"ZYX16281"
+                        },
+                        {
+                            "Name":"Fraserburgh",
+                            "Locality Id":"ZYX16370"
+                        },
+                        {
+                            "Name":"Insch",
+                            "Locality Id":"ZYX16548"
+                        },
+                        {
+                            "Name":"Inverurie",
+                            "Locality Id":"ZYX16572"
+                        },
+                        {
+                            "Name":"Laurencekirk",
+                            "Locality Id":"ZYX16773"
+                        },
+                        {
+                            "Name":"Milltimber",
+                            "Locality Id":"ZYX16944"
+                        },
+                        {
+                            "Name":"Peterculter",
+                            "Locality Id":"ZYX17121"
+                        },
+                        {
+                            "Name":"Peterhead",
+                            "Locality Id":"ZYX17122"
+                        },
+                        {
+                            "Name":"Stonehaven",
+                            "Locality Id":"ZYX17382"
+                        },
+                        {
+                            "Name":"Strathdon",
+                            "Locality Id":"ZYX17394"
+                        },
+                        {
+                            "Name":"Turriff",
+                            "Locality Id":"ZYX17499"
+                        },
+                        {
+                            "Name":"Westhill",
+                            "Locality Id":"ZYX17557"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Aviemore",
+                    "Content Area Code":"AME",
+                    "Post Towns":[
+                        {
+                            "Name":"Aviemore",
+                            "Locality Id":"ZYX15652"
+                        },
+                        {
+                            "Name":"Boat of Garten",
+                            "Locality Id":"ZYX15786"
+                        },
+                        {
+                            "Name":"Carrbridge",
+                            "Locality Id":"ZYX15927"
+                        },
+                        {
+                            "Name":"Dalwhinnie",
+                            "Locality Id":"ZYX16139"
+                        },
+                        {
+                            "Name":"Grantown-on-Spey",
+                            "Locality Id":"ZYX16460"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Caithness",
+                    "Content Area Code":"CNS",
+                    "Post Towns":[
+                        {
+                            "Name":"Berriedale",
+                            "Locality Id":"ZYX15752"
+                        },
+                        {
+                            "Name":"Brora",
+                            "Locality Id":"ZYX15851"
+                        },
+                        {
+                            "Name":"Dunbeath",
+                            "Locality Id":"ZYX16208"
+                        },
+                        {
+                            "Name":"Golspie",
+                            "Locality Id":"ZYX16448"
+                        },
+                        {
+                            "Name":"Halkirk",
+                            "Locality Id":"ZYX16487"
+                        },
+                        {
+                            "Name":"Helmsdale",
+                            "Locality Id":"ZYX16503"
+                        },
+                        {
+                            "Name":"Latheron",
+                            "Locality Id":"ZYX16769"
+                        },
+                        {
+                            "Name":"Lybster",
+                            "Locality Id":"ZYX16882"
+                        },
+                        {
+                            "Name":"Thurso",
+                            "Locality Id":"ZYX17446"
+                        },
+                        {
+                            "Name":"Wick",
+                            "Locality Id":"ZYX17577"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Fort William",
+                    "Content Area Code":"FWM",
+                    "Post Towns":[
+                        {
+                            "Name":"Acharacle",
+                            "Locality Id":"ZYX15546"
+                        },
+                        {
+                            "Name":"Arisaig",
+                            "Locality Id":"ZYX15618"
+                        },
+                        {
+                            "Name":"Ballachulish",
+                            "Locality Id":"ZYX15682"
+                        },
+                        {
+                            "Name":"Corrour",
+                            "Locality Id":"ZYX18490"
+                        },
+                        {
+                            "Name":"Fort Augustus",
+                            "Locality Id":"ZYX16357"
+                        },
+                        {
+                            "Name":"Fort William",
+                            "Locality Id":"ZYX16359"
+                        },
+                        {
+                            "Name":"Glenfinnan",
+                            "Locality Id":"ZYX16436"
+                        },
+                        {
+                            "Name":"Invergarry",
+                            "Locality Id":"ZYX16560"
+                        },
+                        {
+                            "Name":"Isle of Canna",
+                            "Locality Id":"ZYX18023"
+                        },
+                        {
+                            "Name":"Isle of Eigg",
+                            "Locality Id":"ZYX18025"
+                        },
+                        {
+                            "Name":"Isle of Rum",
+                            "Locality Id":"ZYX18024"
+                        },
+                        {
+                            "Name":"Kinlochleven",
+                            "Locality Id":"ZYX16685"
+                        },
+                        {
+                            "Name":"Lochailort",
+                            "Locality Id":"ZYX16824"
+                        },
+                        {
+                            "Name":"Mallaig",
+                            "Locality Id":"ZYX16897"
+                        },
+                        {
+                            "Name":"Roy Bridge",
+                            "Locality Id":"ZYX17254"
+                        },
+                        {
+                            "Name":"Spean Bridge",
+                            "Locality Id":"ZYX17339"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Inverness",
+                    "Content Area Code":"INS",
+                    "Post Towns":[
+                        {
+                            "Name":"Alness",
+                            "Locality Id":"ZYX15576"
+                        },
+                        {
+                            "Name":"Ardgay",
+                            "Locality Id":"ZYX15600"
+                        },
+                        {
+                            "Name":"Avoch",
+                            "Locality Id":"ZYX15653"
+                        },
+                        {
+                            "Name":"Beauly",
+                            "Locality Id":"ZYX15737"
+                        },
+                        {
+                            "Name":"Cromarty",
+                            "Locality Id":"ZYX16075"
+                        },
+                        {
+                            "Name":"Dingwall",
+                            "Locality Id":"ZYX16155"
+                        },
+                        {
+                            "Name":"Dornoch",
+                            "Locality Id":"ZYX16164"
+                        },
+                        {
+                            "Name":"Fortrose",
+                            "Locality Id":"ZYX16363"
+                        },
+                        {
+                            "Name":"Gairloch",
+                            "Locality Id":"ZYX16376"
+                        },
+                        {
+                            "Name":"Garve",
+                            "Locality Id":"ZYX16396"
+                        },
+                        {
+                            "Name":"Invergordon",
+                            "Locality Id":"ZYX16561"
+                        },
+                        {
+                            "Name":"Inverness",
+                            "Locality Id":"ZYX16569"
+                        },
+                        {
+                            "Name":"Muir of Ord",
+                            "Locality Id":"ZYX16989"
+                        },
+                        {
+                            "Name":"Munlochy",
+                            "Locality Id":"ZYX16997"
+                        },
+                        {
+                            "Name":"Nairn",
+                            "Locality Id":"ZYX17004"
+                        },
+                        {
+                            "Name":"Strathpeffer",
+                            "Locality Id":"ZYX17396"
+                        },
+                        {
+                            "Name":"Tain",
+                            "Locality Id":"ZYX17420"
+                        },
+                        {
+                            "Name":"Ullapool",
+                            "Locality Id":"ZYX17513"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Moray",
+                    "Content Area Code":"MRY",
+                    "Post Towns":[
+                        {
+                            "Name":"Aberlour",
+                            "Locality Id":"ZYX15964"
+                        },
+                        {
+                            "Name":"Ballindalloch",
+                            "Locality Id":"ZYX26845"
+                        },
+                        {
+                            "Name":"Banff",
+                            "Locality Id":"ZYX15709"
+                        },
+                        {
+                            "Name":"Buckie",
+                            "Locality Id":"ZYX15861"
+                        },
+                        {
+                            "Name":"Elgin",
+                            "Locality Id":"ZYX16277"
+                        },
+                        {
+                            "Name":"Fochabers",
+                            "Locality Id":"ZYX16344"
+                        },
+                        {
+                            "Name":"Forres",
+                            "Locality Id":"ZYX16355"
+                        },
+                        {
+                            "Name":"Huntly",
+                            "Locality Id":"ZYX16532"
+                        },
+                        {
+                            "Name":"Keith",
+                            "Locality Id":"ZYX16593"
+                        },
+                        {
+                            "Name":"Lossiemouth",
+                            "Locality Id":"ZYX16863"
+                        },
+                        {
+                            "Name":"Macduff",
+                            "Locality Id":"ZYX16889"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Orkney",
+                    "Content Area Code":"OKY",
+                    "Post Towns":[
+                        {
+                            "Name":"Forsinard",
+                            "Locality Id":"ZYX16356"
+                        },
+                        {
+                            "Name":"Kinbrace",
+                            "Locality Id":"ZYX16658"
+                        },
+                        {
+                            "Name":"Kirkwall",
+                            "Locality Id":"ZYX16730"
+                        },
+                        {
+                            "Name":"Orkney",
+                            "Locality Id":"ZYX26846"
+                        },
+                        {
+                            "Name":"Stromness",
+                            "Locality Id":"ZYX17403"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Skye",
+                    "Content Area Code":"SKY",
+                    "Post Towns":[
+                        {
+                            "Name":"Isle of Skye",
+                            "Locality Id":"ZYX26844"
+                        },
+                        {
+                            "Name":"Kyle",
+                            "Locality Id":"ZYX16745"
+                        },
+                        {
+                            "Name":"Plockton",
+                            "Locality Id":"ZYX17141"
+                        },
+                        {
+                            "Name":"Portree",
+                            "Locality Id":"ZYX17177"
+                        },
+                        {
+                            "Name":"Strathcarron",
+                            "Locality Id":"ZYX18277"
+                        },
+                        {
+                            "Name":"Strome Ferry",
+                            "Locality Id":"ZYX17402"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Oxfordshire",
+            "TIS Codes":"SOX|MRS|OBC",
+            "Extra TIS Codes":"ST|STS|STB",
+            "AVL Codes":"SCOX",
+            "Content Areas":[
+                {
+                    "Name":"Oxfordshire",
+                    "Content Area Code":"SOX",
+                    "Post Towns":[
+                        {
+                            "Name":"Abingdon",
+                            "Locality Id":"ZYX24198"
+                        },
+                        {
+                            "Name":"Bampton",
+                            "Locality Id":"ZYX19227"
+                        },
+                        {
+                            "Name":"Banbury",
+                            "Locality Id":"ZYX3529"
+                        },
+                        {
+                            "Name":"Bicester",
+                            "Locality Id":"ZYX24235"
+                        },
+                        {
+                            "Name":"Brackley",
+                            "Locality Id":"ZYX24236"
+                        },
+                        {
+                            "Name":"Burford",
+                            "Locality Id":"ZYX24138"
+                        },
+                        {
+                            "Name":"Carterton",
+                            "Locality Id":"ZYX19194"
+                        },
+                        {
+                            "Name":"Chinnor",
+                            "Locality Id":"ZYX24272"
+                        },
+                        {
+                            "Name":"Chipping Norton",
+                            "Locality Id":"ZYX24154"
+                        },
+                        {
+                            "Name":"Didcot",
+                            "Locality Id":"ZYX24204"
+                        },
+                        {
+                            "Name":"Kidlington",
+                            "Locality Id":"ZYX25199"
+                        },
+                        {
+                            "Name":"Oxford",
+                            "Locality Id":"ZYX24964"
+                        },
+                        {
+                            "Name":"Thame",
+                            "Locality Id":"ZYX24261"
+                        },
+                        {
+                            "Name":"Wallingford",
+                            "Locality Id":"ZYX19908"
+                        },
+                        {
+                            "Name":"Wantage",
+                            "Locality Id":"ZYX24176"
+                        },
+                        {
+                            "Name":"Watlington",
+                            "Locality Id":"ZYX20099"
+                        },
+                        {
+                            "Name":"Witney",
+                            "Locality Id":"ZYX19312"
+                        },
+                        {
+                            "Name":"Woodstock",
+                            "Locality Id":"ZYX24188"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"South",
+            "TIS Codes":"HBC|HSE|HSW|SDW|SDE|CV|CO|SR",
+            "Extra TIS Codes":"",
+            "AVL Codes":"SCSO",
+            "Content Areas":[
+                {
+                    "Name":"Alton and Petersfield",
+                    "Content Area Code":"ANP",
+                    "Post Towns":[
+                        {
+                            "Name":"Alton",
+                            "Locality Id":"ZYX6859"
+                        },
+                        {
+                            "Name":"Bordon",
+                            "Locality Id":"ZYX7357"
+                        },
+                        {
+                            "Name":"Liphook",
+                            "Locality Id":"ZYX10175"
+                        },
+                        {
+                            "Name":"Liss",
+                            "Locality Id":"ZYX10178"
+                        },
+                        {
+                            "Name":"Petersfield",
+                            "Locality Id":"ZYX11365"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Andover and Salisbury",
+                    "Content Area Code":"ANS",
+                    "Post Towns":[
+                        {
+                            "Name":"Andover",
+                            "Locality Id":"ZYX6883"
+                        },
+                        {
+                            "Name":"Salisbury",
+                            "Locality Id":"ZYX11926"
+                        },
+                        {
+                            "Name":"Tidworth",
+                            "Locality Id":"ZYX12674"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Basingstoke",
+                    "Content Area Code":"BGE",
+                    "Post Towns":[
+                        {
+                            "Name":"Basingstoke",
+                            "Locality Id":"ZYX7086"
+                        },
+                        {
+                            "Name":"Hook",
+                            "Locality Id":"ZYX13831"
+                        },
+                        {
+                            "Name":"Newbury",
+                            "Locality Id":"ZYX24196"
+                        },
+                        {
+                            "Name":"Reading",
+                            "Locality Id":"ZYX24264"
+                        },
+                        {
+                            "Name":"Whitchurch",
+                            "Locality Id":"ZYX13472"
+                        },
+                        {
+                            "Name":"Wokingham",
+                            "Locality Id":"ZYX24285"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Blackwater Valley",
+                    "Content Area Code":"BWV",
+                    "Post Towns":[
+                        {
+                            "Name":"Aldershot",
+                            "Locality Id":"ZYX6819"
+                        },
+                        {
+                            "Name":"Bagshot",
+                            "Locality Id":"ZYX24322"
+                        },
+                        {
+                            "Name":"Bracknell",
+                            "Locality Id":"ZYX24300"
+                        },
+                        {
+                            "Name":"Camberley",
+                            "Locality Id":"ZYX24308"
+                        },
+                        {
+                            "Name":"Farnborough",
+                            "Locality Id":"ZYX8869"
+                        },
+                        {
+                            "Name":"Farnham",
+                            "Locality Id":"ZYX24295"
+                        },
+                        {
+                            "Name":"Fleet",
+                            "Locality Id":"ZYX13832"
+                        },
+                        {
+                            "Name":"Sandhurst",
+                            "Locality Id":"ZYX26895"
+                        },
+                        {
+                            "Name":"Yateley",
+                            "Locality Id":"ZYX13800"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Chichester and Bognor Regis",
+                    "Content Area Code":"CBR",
+                    "Post Towns":[
+                        {
+                            "Name":"Bognor Regis",
+                            "Locality Id":"ZYX24330"
+                        },
+                        {
+                            "Name":"Chichester",
+                            "Locality Id":"ZYX24299"
+                        },
+                        {
+                            "Name":"Midhurst",
+                            "Locality Id":"ZYX20740"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Guildford and South Surrey",
+                    "Content Area Code":"GSS",
+                    "Post Towns":[
+                        {
+                            "Name":"Godalming",
+                            "Locality Id":"ZYX24331"
+                        },
+                        {
+                            "Name":"Guildford",
+                            "Locality Id":"ZYX24352"
+                        },
+                        {
+                            "Name":"Haslemere",
+                            "Locality Id":"ZYX24320"
+                        },
+                        {
+                            "Name":"Hindhead",
+                            "Locality Id":"ZYX24306"
+                        },
+                        {
+                            "Name":"Lightwater",
+                            "Locality Id":"ZYX20881"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Portsmouth and Havant",
+                    "Content Area Code":"PNH",
+                    "Post Towns":[
+                        {
+                            "Name":"Emsworth",
+                            "Locality Id":"ZYX8799"
+                        },
+                        {
+                            "Name":"Havant",
+                            "Locality Id":"ZYX9379"
+                        },
+                        {
+                            "Name":"Hayling Island",
+                            "Locality Id":"ZYX26829"
+                        },
+                        {
+                            "Name":"Portsmouth",
+                            "Locality Id":"ZYX11521"
+                        },
+                        {
+                            "Name":"Southsea",
+                            "Locality Id":"ZYX12251"
+                        },
+                        {
+                            "Name":"Waterlooville",
+                            "Locality Id":"ZYX13235"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Winchester",
+                    "Content Area Code":"WHR",
+                    "Post Towns":[
+                        {
+                            "Name":"Alresford",
+                            "Locality Id":"ZYX26830"
+                        },
+                        {
+                            "Name":"Fareham",
+                            "Locality Id":"ZYX8857"
+                        },
+                        {
+                            "Name":"Romsey",
+                            "Locality Id":"ZYX11757"
+                        },
+                        {
+                            "Name":"Southampton",
+                            "Locality Id":"ZYX12235"
+                        },
+                        {
+                            "Name":"Stockbridge",
+                            "Locality Id":"ZYX12374"
+                        },
+                        {
+                            "Name":"Winchester",
+                            "Locality Id":"ZYX13578"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Worthing and Brighton",
+                    "Content Area Code":"WNB",
+                    "Post Towns":[
+                        {
+                            "Name":"Arundel",
+                            "Locality Id":"ZYX24364"
+                        },
+                        {
+                            "Name":"Brighton",
+                            "Locality Id":"ZYX24553"
+                        },
+                        {
+                            "Name":"Henfield",
+                            "Locality Id":"ZYX21716"
+                        },
+                        {
+                            "Name":"Horsham",
+                            "Locality Id":"ZYX24459"
+                        },
+                        {
+                            "Name":"Hove",
+                            "Locality Id":"ZYX24525"
+                        },
+                        {
+                            "Name":"Lancing",
+                            "Locality Id":"ZYX25480"
+                        },
+                        {
+                            "Name":"Littlehampton",
+                            "Locality Id":"ZYX24367"
+                        },
+                        {
+                            "Name":"Pulborough",
+                            "Locality Id":"ZYX24384"
+                        },
+                        {
+                            "Name":"Shoreham-by-Sea",
+                            "Locality Id":"ZYX24488"
+                        },
+                        {
+                            "Name":"Worthing",
+                            "Locality Id":"ZYX24431"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"South East",
+            "TIS Codes":"EK|EB|HD|CH|RA|RE",
+            "Extra TIS Codes":"",
+            "AVL Codes":"SCEK",
+            "Content Areas":[
+                {
+                    "Name":"Ashford",
+                    "Content Area Code":"AFD",
+                    "Post Towns":[
+                        {
+                            "Name":"Ashford",
+                            "Locality Id":"ZYX24830"
+                        },
+                        {
+                            "Name":"Maidstone",
+                            "Locality Id":"ZYX24768"
+                        },
+                        {
+                            "Name":"Rolvenden",
+                            "Locality Id":"ZYX23010"
+                        },
+                        {
+                            "Name":"Tenterden",
+                            "Locality Id":"ZYX23082"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Canterbury",
+                    "Content Area Code":"CBY",
+                    "Post Towns":[
+                        {
+                            "Name":"Canterbury",
+                            "Locality Id":"ZYX24862"
+                        },
+                        {
+                            "Name":"Faversham",
+                            "Locality Id":"ZYX25248"
+                        },
+                        {
+                            "Name":"Herne Bay",
+                            "Locality Id":"ZYX24877"
+                        },
+                        {
+                            "Name":"Whitstable",
+                            "Locality Id":"ZYX24849"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Dover",
+                    "Content Area Code":"DVR",
+                    "Post Towns":[
+                        {
+                            "Name":"Deal",
+                            "Locality Id":"ZYX24916"
+                        },
+                        {
+                            "Name":"Dover",
+                            "Locality Id":"ZYX24907"
+                        },
+                        {
+                            "Name":"Sandwich",
+                            "Locality Id":"ZYX24910"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Eastbourne",
+                    "Content Area Code":"EBE",
+                    "Post Towns":[
+                        {
+                            "Name":"Crowborough",
+                            "Locality Id":"ZYX22418"
+                        },
+                        {
+                            "Name":"Eastbourne",
+                            "Locality Id":"ZYX24715"
+                        },
+                        {
+                            "Name":"Hailsham",
+                            "Locality Id":"ZYX24705"
+                        },
+                        {
+                            "Name":"Heathfield",
+                            "Locality Id":"ZYX22529"
+                        },
+                        {
+                            "Name":"Mayfield",
+                            "Locality Id":"ZYX22530"
+                        },
+                        {
+                            "Name":"Pevensey",
+                            "Locality Id":"ZYX25318"
+                        },
+                        {
+                            "Name":"Polegate",
+                            "Locality Id":"ZYX24701"
+                        },
+                        {
+                            "Name":"Rotherfield",
+                            "Locality Id":"ZYX22487"
+                        },
+                        {
+                            "Name":"Tunbridge Wells",
+                            "Locality Id":"ZYX25309"
+                        },
+                        {
+                            "Name":"Uckfield",
+                            "Locality Id":"ZYX24655"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Folkestone",
+                    "Content Area Code":"FSE",
+                    "Post Towns":[
+                        {
+                            "Name":"Dymchurch",
+                            "Locality Id":"ZYX24853"
+                        },
+                        {
+                            "Name":"Folkestone",
+                            "Locality Id":"ZYX24892"
+                        },
+                        {
+                            "Name":"Greatstone-On-Sea",
+                            "Locality Id":"ZYX24846"
+                        },
+                        {
+                            "Name":"Hythe",
+                            "Locality Id":"ZYX24867"
+                        },
+                        {
+                            "Name":"Littlestone-On-Sea",
+                            "Locality Id":"ZYX23482"
+                        },
+                        {
+                            "Name":"Lydd",
+                            "Locality Id":"ZYX24834"
+                        },
+                        {
+                            "Name":"New Romney",
+                            "Locality Id":"ZYX24841"
+                        },
+                        {
+                            "Name":"Romney Marsh",
+                            "Locality Id":"ZYX24834"
+                        },
+                        {
+                            "Name":"St Marys Bay",
+                            "Locality Id":"ZYX23495"
+                        },
+                        {
+                            "Name":"Tonbridge",
+                            "Locality Id":"ZYX24706"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Hastings",
+                    "Content Area Code":"HAS",
+                    "Post Towns":[
+                        {
+                            "Name":"Battle",
+                            "Locality Id":"ZYX24762"
+                        },
+                        {
+                            "Name":"Bexhill",
+                            "Locality Id":"ZYX24761"
+                        },
+                        {
+                            "Name":"Cranbrook",
+                            "Locality Id":"ZYX22886"
+                        },
+                        {
+                            "Name":"Hastings",
+                            "Locality Id":"ZYX24781"
+                        },
+                        {
+                            "Name":"Hawkhurst",
+                            "Locality Id":"ZYX22866"
+                        },
+                        {
+                            "Name":"Newenden",
+                            "Locality Id":"ZYX22988"
+                        },
+                        {
+                            "Name":"Rye",
+                            "Locality Id":"ZYX24809"
+                        },
+                        {
+                            "Name":"Sandhurst",
+                            "Locality Id":"ZYX22923"
+                        },
+                        {
+                            "Name":"Ticehurst",
+                            "Locality Id":"ZYX22736"
+                        },
+                        {
+                            "Name":"Wadhurst",
+                            "Locality Id":"ZYX25354"
+                        },
+                        {
+                            "Name":"Winchelsea",
+                            "Locality Id":"ZYX24805"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Thanet",
+                    "Content Area Code":"TNT",
+                    "Post Towns":[
+                        {
+                            "Name":"Birchington",
+                            "Locality Id":"ZYX25260"
+                        },
+                        {
+                            "Name":"Broadstairs",
+                            "Locality Id":"ZYX24922"
+                        },
+                        {
+                            "Name":"Margate",
+                            "Locality Id":"ZYX24912"
+                        },
+                        {
+                            "Name":"Ramsgate",
+                            "Locality Id":"ZYX24917"
+                        },
+                        {
+                            "Name":"Westgate",
+                            "Locality Id":"ZYX25262"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"South Wales",
+            "TIS Codes":"SRW0",
+            "Extra TIS Codes":"STG",
+            "AVL Codes":"SSWL",
+            "Content Areas":[
+                {
+                    "Name":"Cardiff",
+                    "Content Area Code":"CAR",
+                    "Post Towns":[
+                        {
+                            "Name":"Cardiff",
+                            "Locality Id":"ZYX4036"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Gwent",
+                    "Content Area Code":"GWT",
+                    "Post Towns":[
+                        {
+                            "Name":"Abergavenny",
+                            "Locality Id":"ZYX3635"
+                        },
+                        {
+                            "Name":"Abertillery",
+                            "Locality Id":"ZYX3657"
+                        },
+                        {
+                            "Name":"Bargoed",
+                            "Locality Id":"ZYX3711"
+                        },
+                        {
+                            "Name":"Blackwood",
+                            "Locality Id":"ZYX3783"
+                        },
+                        {
+                            "Name":"Caerphilly",
+                            "Locality Id":"ZYX4007"
+                        },
+                        {
+                            "Name":"Cwmbran",
+                            "Locality Id":"ZYX25118"
+                        },
+                        {
+                            "Name":"Hengoed",
+                            "Locality Id":"ZYX4808"
+                        },
+                        {
+                            "Name":"New Tredegar",
+                            "Locality Id":"ZYX5593"
+                        },
+                        {
+                            "Name":"Newport",
+                            "Locality Id":"ZYX6770"
+                        },
+                        {
+                            "Name":"Pontypool",
+                            "Locality Id":"ZYX5990"
+                        },
+                        {
+                            "Name":"Tredegar",
+                            "Locality Id":"ZYX6445"
+                        },
+                        {
+                            "Name":"Usk",
+                            "Locality Id":"ZYX6600"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Merthyr Tydfil",
+                    "Content Area Code":"MYT",
+                    "Post Towns":[
+                        {
+                            "Name":"Merthyr Tydfil",
+                            "Locality Id":"ZYX26839"
+                        },
+                        {
+                            "Name":"Treharris",
+                            "Locality Id":"ZYX6490"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Powys",
+                    "Content Area Code":"PWS",
+                    "Post Towns":[
+                        {
+                            "Name":"Brecon",
+                            "Locality Id":"ZYX3841"
+                        },
+                        {
+                            "Name":"Builth Wells",
+                            "Locality Id":"ZYX3951"
+                        },
+                        {
+                            "Name":"Crickhowell",
+                            "Locality Id":"ZYX4236"
+                        },
+                        {
+                            "Name":"Llandrindod Wells",
+                            "Locality Id":"ZYX5069"
+                        },
+                        {
+                            "Name":"Newtown",
+                            "Locality Id":"ZYX5611"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Rhondda Cynon Taf",
+                    "Content Area Code":"RCT",
+                    "Post Towns":[
+                        {
+                            "Name":"Aberdare",
+                            "Locality Id":"ZYX3623"
+                        },
+                        {
+                            "Name":"Bridgend",
+                            "Locality Id":"ZYX3845"
+                        },
+                        {
+                            "Name":"Ferndale",
+                            "Locality Id":"ZYX4508"
+                        },
+                        {
+                            "Name":"Mountain Ash",
+                            "Locality Id":"ZYX5507"
+                        },
+                        {
+                            "Name":"Neath",
+                            "Locality Id":"ZYX5571"
+                        },
+                        {
+                            "Name":"Pentre",
+                            "Locality Id":"ZYX5755"
+                        },
+                        {
+                            "Name":"Pontyclun",
+                            "Locality Id":"ZYX5986"
+                        },
+                        {
+                            "Name":"Pontypridd",
+                            "Locality Id":"ZYX5991"
+                        },
+                        {
+                            "Name":"Porth",
+                            "Locality Id":"ZYX6005"
+                        },
+                        {
+                            "Name":"Porthcawl",
+                            "Locality Id":"ZYX6007"
+                        },
+                        {
+                            "Name":"Tonypandy",
+                            "Locality Id":"ZYX25029"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"South West",
+            "TIS Codes":"SCD|LAN",
+            "Extra TIS Codes":"",
+            "AVL Codes":"SDVN",
+            "Content Areas":[
+                {
+                    "Name":"East Devon",
+                    "Content Area Code":"EDN",
+                    "Post Towns":[
+                        {
+                            "Name":"Axminster",
+                            "Locality Id":"ZYX6998"
+                        },
+                        {
+                            "Name":"Budleigh Salterton",
+                            "Locality Id":"ZYX7640"
+                        },
+                        {
+                            "Name":"Colyton",
+                            "Locality Id":"ZYX8148"
+                        },
+                        {
+                            "Name":"Exmouth",
+                            "Locality Id":"ZYX8837"
+                        },
+                        {
+                            "Name":"Honiton",
+                            "Locality Id":"ZYX9701"
+                        },
+                        {
+                            "Name":"Seaton",
+                            "Locality Id":"ZYX11982"
+                        },
+                        {
+                            "Name":"Sidmouth",
+                            "Locality Id":"ZYX12114"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Greater Exeter",
+                    "Content Area Code":"GER",
+                    "Post Towns":[
+                        {
+                            "Name":"Crediton",
+                            "Locality Id":"ZYX8307"
+                        },
+                        {
+                            "Name":"Cullompton",
+                            "Locality Id":"ZYX8376"
+                        },
+                        {
+                            "Name":"Exeter",
+                            "Locality Id":"ZYX8834"
+                        },
+                        {
+                            "Name":"Ottery St Mary",
+                            "Locality Id":""
+                        }
+                    ]
+                },
+                {
+                    "Name":"North Cornwall",
+                    "Content Area Code":"NCL",
+                    "Post Towns":[
+                        {
+                            "Name":"Bodmin",
+                            "Locality Id":"ZYX7337"
+                        },
+                        {
+                            "Name":"Boscastle",
+                            "Locality Id":"ZYX7361"
+                        },
+                        {
+                            "Name":"Bude",
+                            "Locality Id":"ZYX7636"
+                        },
+                        {
+                            "Name":"Camelford",
+                            "Locality Id":"ZYX7751"
+                        },
+                        {
+                            "Name":"Tintagel",
+                            "Locality Id":"ZYX12688"
+                        },
+                        {
+                            "Name":"Tiverton",
+                            "Locality Id":"ZYX12703"
+                        },
+                        {
+                            "Name":"Wadebridge",
+                            "Locality Id":"ZYX13162"
+                        }
+                    ]
+                },
+                {
+                    "Name":"North Devon",
+                    "Content Area Code":"NDN",
+                    "Post Towns":[
+                        {
+                            "Name":"Barnstaple",
+                            "Locality Id":"ZYX7060"
+                        },
+                        {
+                            "Name":"Bideford",
+                            "Locality Id":"ZYX7220"
+                        },
+                        {
+                            "Name":"Braunton",
+                            "Locality Id":"ZYX7474"
+                        },
+                        {
+                            "Name":"Holsworthy",
+                            "Locality Id":"ZYX9680"
+                        },
+                        {
+                            "Name":"Ilfracombe",
+                            "Locality Id":"ZYX9818"
+                        },
+                        {
+                            "Name":"Lynmouth",
+                            "Locality Id":"ZYX10466"
+                        },
+                        {
+                            "Name":"Lynton",
+                            "Locality Id":"ZYX10468"
+                        },
+                        {
+                            "Name":"South Molton",
+                            "Locality Id":"ZYX12213"
+                        },
+                        {
+                            "Name":"Torrington",
+                            "Locality Id":"ZYX9170"
+                        },
+                        {
+                            "Name":"Umberleigh",
+                            "Locality Id":"ZYX13025"
+                        },
+                        {
+                            "Name":"Winkleigh",
+                            "Locality Id":"ZYX13591"
+                        },
+                        {
+                            "Name":"Woolacombe",
+                            "Locality Id":"ZYX13710"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Plymouth",
+                    "Content Area Code":"PMH",
+                    "Post Towns":[
+                        {
+                            "Name":"Callington",
+                            "Locality Id":"ZYX7734"
+                        },
+                        {
+                            "Name":"Calstock",
+                            "Locality Id":"ZYX7741"
+                        },
+                        {
+                            "Name":"Gunnislake",
+                            "Locality Id":"ZYX9220"
+                        },
+                        {
+                            "Name":"Ivybridge",
+                            "Locality Id":"ZYX9851"
+                        },
+                        {
+                            "Name":"Launceston",
+                            "Locality Id":"ZYX10097"
+                        },
+                        {
+                            "Name":"Plymouth",
+                            "Locality Id":"ZYX11437"
+                        },
+                        {
+                            "Name":"Saltash",
+                            "Locality Id":"ZYX11929"
+                        },
+                        {
+                            "Name":"Tavistock",
+                            "Locality Id":"ZYX12560"
+                        },
+                        {
+                            "Name":"Torpoint",
+                            "Locality Id":"ZYX12735"
+                        },
+                        {
+                            "Name":"Yelverton",
+                            "Locality Id":"ZYX13809"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Somerset",
+                    "Content Area Code":"SST",
+                    "Post Towns":[
+                        {
+                            "Name":"Bridgwater",
+                            "Locality Id":"ZYX7512"
+                        },
+                        {
+                            "Name":"Burnham-on-Sea",
+                            "Locality Id":"ZYX7679"
+                        },
+                        {
+                            "Name":"Chard",
+                            "Locality Id":"ZYX7860"
+                        },
+                        {
+                            "Name":"Crewkerne",
+                            "Locality Id":"ZYX8318"
+                        },
+                        {
+                            "Name":"Dulverton",
+                            "Locality Id":"ZYX8552"
+                        },
+                        {
+                            "Name":"Highbridge",
+                            "Locality Id":"ZYX9511"
+                        },
+                        {
+                            "Name":"Hinton St George",
+                            "Locality Id":"ZYX9632"
+                        },
+                        {
+                            "Name":"Ilminster",
+                            "Locality Id":"ZYX9821"
+                        },
+                        {
+                            "Name":"Langport",
+                            "Locality Id":"ZYX10015"
+                        },
+                        {
+                            "Name":"Martock",
+                            "Locality Id":"ZYX10564"
+                        },
+                        {
+                            "Name":"Merriott",
+                            "Locality Id":"ZYX10630"
+                        },
+                        {
+                            "Name":"Minehead",
+                            "Locality Id":"ZYX10719"
+                        },
+                        {
+                            "Name":"Montacute",
+                            "Locality Id":"ZYX10756"
+                        },
+                        {
+                            "Name":"Somerton",
+                            "Locality Id":"ZYX12181"
+                        },
+                        {
+                            "Name":"South Petherton",
+                            "Locality Id":"ZYX12216"
+                        },
+                        {
+                            "Name":"Stoke-sub-Hamdon",
+                            "Locality Id":"ZYX12412"
+                        },
+                        {
+                            "Name":"Taunton",
+                            "Locality Id":"ZYX12559"
+                        },
+                        {
+                            "Name":"Watchet",
+                            "Locality Id":"ZYX13195"
+                        },
+                        {
+                            "Name":"Wellington",
+                            "Locality Id":"ZYX13263"
+                        }
+                    ]
+                },
+                {
+                    "Name":"South Hams",
+                    "Content Area Code":"SHS",
+                    "Post Towns":[
+                        {
+                            "Name":"Buckfastleigh",
+                            "Locality Id":"ZYX7614"
+                        },
+                        {
+                            "Name":"Dartmouth",
+                            "Locality Id":"ZYX8412"
+                        },
+                        {
+                            "Name":"Kingsbridge",
+                            "Locality Id":"ZYX9938"
+                        },
+                        {
+                            "Name":"Salcombe",
+                            "Locality Id":"ZYX11923"
+                        },
+                        {
+                            "Name":"South Brent",
+                            "Locality Id":"ZYX12192"
+                        },
+                        {
+                            "Name":"Totnes",
+                            "Locality Id":"ZYX12745"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Teignbridge",
+                    "Content Area Code":"TBE",
+                    "Post Towns":[
+                        {
+                            "Name":"Dawlish",
+                            "Locality Id":"ZYX8416"
+                        },
+                        {
+                            "Name":"Newton Abbot",
+                            "Locality Id":"ZYX10942"
+                        },
+                        {
+                            "Name":"Teignmouth",
+                            "Locality Id":"ZYX12571"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Test area",
+                    "Content Area Code":"1234567896@$£",
+                    "Post Towns":[
+                        {
+                            "Name":"New test 1",
+                            "Locality Id":"1232342dfgd"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Torbay",
+                    "Content Area Code":"TOR",
+                    "Post Towns":[
+                        {
+                            "Name":"Brixham",
+                            "Locality Id":"ZYX7528"
+                        },
+                        {
+                            "Name":"Paignton",
+                            "Locality Id":"ZYX25635"
+                        },
+                        {
+                            "Name":"Torquay",
+                            "Locality Id":"ZYX12736"
+                        }
+                    ]
+                },
+                {
+                    "Name":"West Devon",
+                    "Content Area Code":"WDN",
+                    "Post Towns":[
+                        {
+                            "Name":"Beaworthy",
+                            "Locality Id":"ZYX7137"
+                        },
+                        {
+                            "Name":"Chulmleigh",
+                            "Locality Id":"ZYX7995"
+                        },
+                        {
+                            "Name":"North Tawton",
+                            "Locality Id":"ZYX11031"
+                        },
+                        {
+                            "Name":"Okehampton",
+                            "Locality Id":"ZYX11144"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Stagecoach Supertram",
+            "TIS Codes":"STM",
+            "Extra TIS Codes":"YTC",
+            "AVL Codes":"SCST",
+            "Content Areas":[
+            ]
+        },
+        {
+            "Name":"West",
+            "TIS Codes":"STG|STC|STW|STS",
+            "Extra TIS Codes":"SOX",
+            "AVL Codes":"SCGL",
+            "Content Areas":[
+                {
+                    "Name":"Cheltenham",
+                    "Content Area Code":"CTM",
+                    "Post Towns":[
+                        {
+                            "Name":"Cheltenham",
+                            "Locality Id":"ZYX3548"
+                        },
+                        {
+                            "Name":"Cirencester",
+                            "Locality Id":"ZYX8020"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Cirencester",
+                    "Content Area Code":"CIR",
+                    "Post Towns":[
+                    ]
+                },
+                {
+                    "Name":"Forest of Dean",
+                    "Content Area Code":"FOD",
+                    "Post Towns":[
+                        {
+                            "Name":"Coleford",
+                            "Locality Id":"ZYX8122"
+                        },
+                        {
+                            "Name":"Lydney",
+                            "Locality Id":"ZYX10482"
+                        },
+                        {
+                            "Name":"Newent",
+                            "Locality Id":"ZYX10919"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Gloucester",
+                    "Content Area Code":"GLA",
+                    "Post Towns":[
+                        {
+                            "Name":"Bristol",
+                            "Locality Id":"ZYX7525"
+                        },
+                        {
+                            "Name":"Dursley",
+                            "Locality Id":"ZYX8590"
+                        },
+                        {
+                            "Name":"Gloucester",
+                            "Locality Id":"ZYX3584"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Herefordshire",
+                    "Content Area Code":"HFE",
+                    "Post Towns":[
+                        {
+                            "Name":"Hereford",
+                            "Locality Id":"ZYX25126"
+                        },
+                        {
+                            "Name":"Ledbury",
+                            "Locality Id":"ZYX15352"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Stroud",
+                    "Content Area Code":"STR",
+                    "Post Towns":[
+                        {
+                            "Name":"Stonehouse",
+                            "Locality Id":"ZYX3591"
+                        },
+                        {
+                            "Name":"Stroud",
+                            "Locality Id":"ZYX3587"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Swindon",
+                    "Content Area Code":"SDN",
+                    "Post Towns":[
+                        {
+                            "Name":"Chippenham",
+                            "Locality Id":"ZYX7971"
+                        },
+                        {
+                            "Name":"Devizes",
+                            "Locality Id":"ZYX8444"
+                        },
+                        {
+                            "Name":"Faringdon",
+                            "Locality Id":"ZYX24147"
+                        },
+                        {
+                            "Name":"Swindon",
+                            "Locality Id":"ZYX3564"
+                        },
+                        {
+                            "Name":"Trowbridge",
+                            "Locality Id":"ZYX3599"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Tewkesbury",
+                    "Content Area Code":"TBY",
+                    "Post Towns":[
+                        {
+                            "Name":"Tewkesbury",
+                            "Locality Id":"ZYX12587"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"West Scotland",
+            "TIS Codes":"SWB|SGL",
+            "Extra TIS Codes":"SNW|SIF",
+            "AVL Codes":"STWS",
+            "Content Areas":[
+                {
+                    "Name":"Ayrshire and Arran",
+                    "Content Area Code":"AAN",
+                    "Post Towns":[
+                        {
+                            "Name":"Ardrossan",
+                            "Locality Id":"ZYX15612"
+                        },
+                        {
+                            "Name":"Ayr",
+                            "Locality Id":"ZYX15655"
+                        },
+                        {
+                            "Name":"Beith",
+                            "Locality Id":"ZYX15739"
+                        },
+                        {
+                            "Name":"Cumnock",
+                            "Locality Id":"ZYX16111"
+                        },
+                        {
+                            "Name":"Dalry",
+                            "Locality Id":"ZYX16135"
+                        },
+                        {
+                            "Name":"Darvel",
+                            "Locality Id":"ZYX16141"
+                        },
+                        {
+                            "Name":"Galston",
+                            "Locality Id":"ZYX16381"
+                        },
+                        {
+                            "Name":"Girvan",
+                            "Locality Id":"ZYX16414"
+                        },
+                        {
+                            "Name":"Greenock",
+                            "Locality Id":"ZYX16469"
+                        },
+                        {
+                            "Name":"Irvine",
+                            "Locality Id":"ZYX16573"
+                        },
+                        {
+                            "Name":"Isle of Arran",
+                            "Locality Id":"ZYX26849"
+                        },
+                        {
+                            "Name":"Isle of Cumbrae",
+                            "Locality Id":"ZYX26848"
+                        },
+                        {
+                            "Name":"Kilbirnie",
+                            "Locality Id":"ZYX16616"
+                        },
+                        {
+                            "Name":"Kilmarnock",
+                            "Locality Id":"ZYX16641"
+                        },
+                        {
+                            "Name":"Kilwinning",
+                            "Locality Id":"ZYX16657"
+                        },
+                        {
+                            "Name":"Largs",
+                            "Locality Id":"ZYX16767"
+                        },
+                        {
+                            "Name":"Lochwinnoch",
+                            "Locality Id":"ZYX16847"
+                        },
+                        {
+                            "Name":"Mauchline",
+                            "Locality Id":"ZYX16912"
+                        },
+                        {
+                            "Name":"Maybole",
+                            "Locality Id":"ZYX16915"
+                        },
+                        {
+                            "Name":"Newmilns",
+                            "Locality Id":"ZYX17040"
+                        },
+                        {
+                            "Name":"Prestwick",
+                            "Locality Id":"ZYX17187"
+                        },
+                        {
+                            "Name":"Saltcoats",
+                            "Locality Id":"ZYX17267"
+                        },
+                        {
+                            "Name":"Skelmorlie",
+                            "Locality Id":"ZYX17314"
+                        },
+                        {
+                            "Name":"Stevenston",
+                            "Locality Id":"ZYX17375"
+                        },
+                        {
+                            "Name":"Troon",
+                            "Locality Id":"ZYX17493"
+                        },
+                        {
+                            "Name":"Wemyss Bay",
+                            "Locality Id":"ZYX17544"
+                        },
+                        {
+                            "Name":"West Kilbride",
+                            "Locality Id":"ZYX17548"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Dumfries and Galloway",
+                    "Content Area Code":"DFG",
+                    "Post Towns":[
+                        {
+                            "Name":"Canonbie",
+                            "Locality Id":"ZYX15904"
+                        },
+                        {
+                            "Name":"Castle Douglas",
+                            "Locality Id":"ZYX15941"
+                        },
+                        {
+                            "Name":"Dalbeattie",
+                            "Locality Id":"ZYX16119"
+                        },
+                        {
+                            "Name":"Dumfries",
+                            "Locality Id":"ZYX16204"
+                        },
+                        {
+                            "Name":"Kirkcudbright",
+                            "Locality Id":"ZYX16707"
+                        },
+                        {
+                            "Name":"Langholm",
+                            "Locality Id":"ZYX16763"
+                        },
+                        {
+                            "Name":"Lockerbie",
+                            "Locality Id":"ZYX16848"
+                        },
+                        {
+                            "Name":"Moffat",
+                            "Locality Id":"ZYX16961"
+                        },
+                        {
+                            "Name":"Newton Stewart",
+                            "Locality Id":"ZYX17046"
+                        },
+                        {
+                            "Name":"Sanquhar",
+                            "Locality Id":"ZYX17276"
+                        },
+                        {
+                            "Name":"Stranraer",
+                            "Locality Id":"ZYX17390"
+                        },
+                        {
+                            "Name":"Thornhill",
+                            "Locality Id":"ZYX17441"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Glasgow",
+                    "Content Area Code":"GGW",
+                    "Post Towns":[
+                        {
+                            "Name":"Glasgow",
+                            "Locality Id":"ZYX16418"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Yorkshire",
+            "TIS Codes":"YTC|SYC",
+            "Extra TIS Codes":"STM|SNE|SLI",
+            "AVL Codes":"SYRK",
+            "Content Areas":[
+                {
+                    "Name":"Barnsley",
+                    "Content Area Code":"BSY",
+                    "Post Towns":[
+                        {
+                            "Name":"Barnsley",
+                            "Locality Id":"ZYX1725"
+                        },
+                        {
+                            "Name":"Holmfirth",
+                            "Locality Id":"ZYX1166"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Chesterfield",
+                    "Content Area Code":"CFD",
+                    "Post Towns":[
+                        {
+                            "Name":"Alfreton",
+                            "Locality Id":"ZYX24179"
+                        },
+                        {
+                            "Name":"Bakewell",
+                            "Locality Id":"ZYX24131"
+                        },
+                        {
+                            "Name":"Belper",
+                            "Locality Id":"ZYX24164"
+                        },
+                        {
+                            "Name":"Chesterfield",
+                            "Locality Id":"ZYX24173"
+                        },
+                        {
+                            "Name":"Derby",
+                            "Locality Id":"ZYX24163"
+                        },
+                        {
+                            "Name":"Matlock",
+                            "Locality Id":"ZYX24153"
+                        },
+                        {
+                            "Name":"Ripley",
+                            "Locality Id":"ZYX220"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Doncaster",
+                    "Content Area Code":"DCR",
+                    "Post Towns":[
+                        {
+                            "Name":"Doncaster",
+                            "Locality Id":"ZYX1726"
+                        },
+                        {
+                            "Name":"Mexborough",
+                            "Locality Id":"ZYX1693"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Dronfield",
+                    "Content Area Code":"DFD",
+                    "Post Towns":[
+                        {
+                            "Name":"Dronfield",
+                            "Locality Id":"ZYX24166"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Rotherham",
+                    "Content Area Code":"RHM",
+                    "Post Towns":[
+                        {
+                            "Name":"Rotherham",
+                            "Locality Id":"ZYX1696"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Sheffield",
+                    "Content Area Code":"SHD",
+                    "Post Towns":[
+                        {
+                            "Name":"Hope Valley",
+                            "Locality Id":"ZYX26837"
+                        },
+                        {
+                            "Name":"Sheffield",
+                            "Locality Id":"ZYX1574"
+                        }
+                    ]
+                },
+                {
+                    "Name":"Wakefield",
+                    "Content Area Code":"WFD",
+                    "Post Towns":[
+                        {
+                            "Name":"Castleford",
+                            "Locality Id":"ZYX1159"
+                        },
+                        {
+                            "Name":"Knottingley",
+                            "Locality Id":"ZYX1603"
+                        },
+                        {
+                            "Name":"Leeds",
+                            "Locality Id":"ZYX1217"
+                        },
+                        {
+                            "Name":"Normanton",
+                            "Locality Id":"ZYX1395"
+                        },
+                        {
+                            "Name":"Ossett",
+                            "Locality Id":"ZYX1570"
+                        },
+                        {
+                            "Name":"Pontefract",
+                            "Locality Id":"ZYX1606"
+                        },
+                        {
+                            "Name":"Wakefield",
+                            "Locality Id":"ZYX1147"
+                        }
+                    ]
+                }
+            ]
+        }]

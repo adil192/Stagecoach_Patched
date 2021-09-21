@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainPanel" android:background="@color/blueOpacity90" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_above="@id/separator" android:layout_centerInParent="true" app:srcCompat="@drawable/global_icon_tick_circle" />
+    <View android:id="@id/separator" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/textLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/separator" android:layout_centerHorizontal="true" style="@style/Heading3" />
+</RelativeLayout>

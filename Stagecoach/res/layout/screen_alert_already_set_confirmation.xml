@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainPanel" android:background="@color/blueOpacity90" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/alertSetForText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alert_already_set" style="@style/Heading1" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/whenSendAlertMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/turn_off_alert_before_set_new" style="@style/Heading5" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnOK" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_marginTop="20.0dip" android:text="@string/OK" style="@style/primary_button_orange" />
+    </LinearLayout>
+</RelativeLayout>

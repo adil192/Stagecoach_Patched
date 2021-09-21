@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/explorer_info_window" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="30.0dip" android:layout_height="30.0dip">
+        <FrameLayout android:layout_gravity="center" android:id="@id/arrowForRotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/explore_direction_circle" />
+            <ImageView android:layout_gravity="center" android:id="@id/busIcon" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/explore_bus_icon" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center|top" android:layout_gravity="center_horizontal" android:id="@id/busNumber" android:layout_width="32.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" />
+</LinearLayout>

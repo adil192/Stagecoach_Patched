@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center" android:id="@id/lastUpdateTime" android:background="@color/grey4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="@string/last_refreshed_at_x" style="@style/Body5" />
+        <com.stagecoach.stagecoachbus.views.network.NoNetworkConnectionAlertView android:id="@id/noNetworkConnectionAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.stagecoach.stagecoachbus.views.alert.MyMissingTicketsAlertView android:id="@id/myMissingTicketsAlertView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/buttonPickLocation" android:background="@drawable/background_button_rounded_white_strok_grey" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_margin="10.0dip" style="@style/Body2" />
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider2Horizontal" />
+        <FrameLayout android:id="@id/mapPanel" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+            <com.google.android.gms.maps.MapView android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:background="@drawable/rounded_map_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/blue" android:gravity="bottom|center|left" android:id="@id/text1" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/view_map" android:drawableRight="@drawable/chevron_right" style="@style/Heading3" />
+        </FrameLayout>
+        <com.stagecoach.stagecoachbus.views.common.UnifiedProgressBar android:layout_gravity="center_horizontal" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/Widget.AppCompat.ProgressBar" />
+        <LinearLayout android:orientation="vertical" android:id="@id/nearbyBusViewContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/noBusStopsNearbyPanel" android:background="@drawable/background_button_rounded_white" android:padding="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_bus_stops_found" style="@style/Heading1" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/grey6" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/there_are_no_buses_arriving" style="@style/Heading5" />
+            <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/btnFindBusStopsInAnotherArea" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_marginTop="20.0dip" android:text="@string/find_bus_stops_in_another_area" style="@style/primary_button_orange" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

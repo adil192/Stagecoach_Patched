@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:gravity="center_vertical" android:id="@id/tvFieldTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/tvValidationError" android:layout_alignParentTop="true" style="@style/FormHeading" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textColor="@color/red" android:gravity="right" android:id="@id/tvValidationError" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_toRightOf="@id/tvFieldTitle" android:layout_alignParentRight="true" style="@style/ErrorText" />
+    <com.stagecoach.stagecoachbus.views.common.component.SCEditText android:id="@id/editField" android:background="@drawable/background_light_grey_rounded_border" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/form_field_height" android:layout_marginTop="5.0dip" android:maxLength="@integer/max_name_field_length" android:layout_below="@id/tvFieldTitle" style="@style/Body1.Form" />
+</RelativeLayout>

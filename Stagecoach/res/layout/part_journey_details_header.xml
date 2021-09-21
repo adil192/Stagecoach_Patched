@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/groupDeparts" android:paddingTop="5.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="12.0sp" android:textColor="@color/grey2" android:id="@id/tvTextTimeDeparts" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/bus_departs" android:layout_marginStart="8.0dip" style="@style/Body3.Bold" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="14.0sp" android:id="@id/tvTimeDeparts" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="8.0dip" style="@style/Body2.Bold" />
+        <ImageView android:id="@id/rightArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:srcCompat="@drawable/plan_icon_arrow" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="12.0sp" android:textColor="@color/grey2" android:id="@id/tvTextTimeArrives" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/bus_arrives" style="@style/Body3.Bold" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:textSize="14.0sp" android:id="@id/tvTimeArrives" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="8.0dip" style="@style/Body2.Bold" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/groupDeparts" style="@style/Divider2Horizontal" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/tvTripInfoPanel" android:background="@color/white" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="4.0dip" android:layout_below="@id/divider">
+        <ImageView android:id="@id/iconClock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_alignParentLeft="true" app:srcCompat="@drawable/plan_icon_clock" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/tvTripTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_toRightOf="@id/iconClock" style="@style/Body2.Normal" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCTextView android:id="@id/tvChanges" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/tvTripTime" style="@style/Body2.Normal" />
+        <ImageView android:id="@id/iconWheelchair" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/buttonSeeDetails" app:srcCompat="@drawable/plan_icon_facilities_wheelchair" />
+        <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/buttonSeeDetails" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginRight="6.0dip" android:text="@string/details" android:layout_toLeftOf="@id/iconArrow" style="@style/TextLink" />
+        <ImageView android:id="@id/iconArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentRight="true" app:srcCompat="@drawable/chevron_right" />
+    </RelativeLayout>
+    <View android:id="@id/divider2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/tvTripInfoPanel" style="@style/Divider2Horizontal" />
+</merge>

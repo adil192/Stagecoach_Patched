@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stagecoach.stagecoachbus.views.common.component.SCButton android:id="@id/filter" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="8.0dip" style="@style/primary_button_blue_stroke" />
+    <View android:layout_gravity="end" android:id="@id/indicator" android:background="@drawable/background_right_corner_indicator" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+</merge>
