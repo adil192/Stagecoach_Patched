@@ -1379,70 +1379,8 @@
 .end method
 
 .method public static isRooted(Landroid/content/Context;)Z
-    .locals 3
+    .locals 1
 
-    .line 1
-    invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->isEmulator(Landroid/content/Context;)Z
-
-    move-result p0
-
-    .line 2
-    sget-object v0, Landroid/os/Build;->TAGS:Ljava/lang/String;
-
-    const/4 v1, 0x1
-
-    if-nez p0, :cond_0
-
-    if-eqz v0, :cond_0
-
-    const-string v2, "test-keys"
-
-    .line 3
-    invoke-virtual {v0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return v1
-
-    .line 4
-    :cond_0
-    new-instance v0, Ljava/io/File;
-
-    const-string v2, "/system/app/Superuser.apk"
-
-    invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    .line 5
-    invoke-virtual {v0}, Ljava/io/File;->exists()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    return v1
-
-    .line 6
-    :cond_1
-    new-instance v0, Ljava/io/File;
-
-    const-string v2, "/system/xbin/su"
-
-    invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    if-nez p0, :cond_2
-
-    .line 7
-    invoke-virtual {v0}, Ljava/io/File;->exists()Z
-
-    move-result p0
-
-    if-eqz p0, :cond_2
-
-    return v1
-
-    :cond_2
     const/4 p0, 0x0
 
     return p0
