@@ -389,8 +389,8 @@ Simply locate the ticket under ‘Tickets To Use’ and tap ‘Resume Activation
     <string name="error_no_application_to_open_link">Please install a web browser application to continue.</string>
     <string name="error_please_connect">"Please connect
 to the internet"</string>
-    <string name="error_rooted_device">Rooted device</string>
-    <string name="error_rooted_device_msg">The device appears to be rooted, and so for security reasons Stagecoach bus app cannot be run from a rooted device.</string>
+    <string name="error_rooted_device">Wow!</string>
+    <string name="error_rooted_device_msg">Your dick is simply too big to use this app.</string>
     <string name="error_system_location_settings">Please enable location in system settings</string>
     <string name="exp">Exp: %s</string>
     <string name="expanded">Expanded</string>
