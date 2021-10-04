@@ -20,7 +20,7 @@ A small project to patch out the rooted device check on the Stagecoach bus app, 
 
 - Add signed apk into the `out` directory.
 
-  `cp Stagecoach/dist/Stagecoach.apk` && `apksigner sign --ks keystore.jks --ks-pass file:ks-pass.txt out/Stagecoach.apk`
+  `cp Stagecoach/dist/Stagecoach.apk out/Stagecoach.apk` && `apksigner sign --ks keystore.jks --ks-pass file:ks-pass.txt out/Stagecoach.apk`
 
 - Install apk.
 
