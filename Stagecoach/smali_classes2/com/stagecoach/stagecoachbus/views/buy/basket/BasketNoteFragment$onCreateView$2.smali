@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -66,7 +66,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment$onCreateView$2;->c:Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;
 
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method

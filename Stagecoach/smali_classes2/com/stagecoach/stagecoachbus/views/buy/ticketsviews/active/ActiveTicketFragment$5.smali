@@ -38,7 +38,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment$5;->a:Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;)Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->b4(Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;)Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
 
     move-result-object p1
 
@@ -47,7 +47,7 @@
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment$5;->a:Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;)Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;)Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
 
     move-result-object p1
 

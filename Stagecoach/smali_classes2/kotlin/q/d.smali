@@ -22,21 +22,21 @@
 
 
 # virtual methods
-.method public abstract getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+.method public abstract getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)TV;"
         }
     .end annotation
 .end method
 
-.method public abstract setValue(Ljava/lang/Object;Lkotlin/reflect/h;Ljava/lang/Object;)V
+.method public abstract setValue(Ljava/lang/Object;Lkotlin/reflect/i;Ljava/lang/Object;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;TV;)V"
         }
     .end annotation

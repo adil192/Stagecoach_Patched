@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method private synthetic Z3(Landroid/view/View;)V
+.method private synthetic c4(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -36,7 +36,7 @@
     return-void
 .end method
 
-.method public static b4()Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;
+.method public static e4()Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;
     .locals 1
 
     .line 1
@@ -49,14 +49,14 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -65,11 +65,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c007d
 
@@ -97,25 +97,10 @@
     return-object p1
 .end method
 
-.method public synthetic a4(Landroid/view/View;)V
+.method public synthetic d4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;->Z3(Landroid/view/View;)V
-
-    return-void
-.end method
-
-.method public g2()V
-    .locals 0
-
-    .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
-
-    .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->getMobilePagesFeed()V
-
-    .line 3
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->M3()V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;->c4(Landroid/view/View;)V
 
     return-void
 .end method
@@ -134,11 +119,26 @@
     const v0, 0x7f11003a
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
+.end method
+
+.method public j2()V
+    .locals 0
+
+    .line 1
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
+
+    .line 2
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->getMobilePagesFeed()V
+
+    .line 3
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()V
+
+    return-void
 .end method
 
 .method public setUpToolbar(Landroid/view/View;)V

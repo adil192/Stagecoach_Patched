@@ -97,7 +97,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KCallableImpl$_parameters$1;->this$0:Lkotlin/reflect/jvm/internal/KCallableImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->i()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
 
     move-result-object v0
 
@@ -109,7 +109,7 @@
     .line 4
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/KCallableImpl$_parameters$1;->this$0:Lkotlin/reflect/jvm/internal/KCallableImpl;
 
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/KCallableImpl;->j()Z
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/KCallableImpl;->k()Z
 
     move-result v2
 
@@ -150,7 +150,7 @@
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->p0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->k0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object v5
 
@@ -183,7 +183,7 @@
     .line 9
     :cond_2
     :goto_1
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->h()Ljava/util/List;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->f()Ljava/util/List;
 
     move-result-object v5
 
@@ -225,7 +225,7 @@
     :cond_3
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/KCallableImpl$_parameters$1;->this$0:Lkotlin/reflect/jvm/internal/KCallableImpl;
 
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/KCallableImpl;->i()Z
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/KCallableImpl;->j()Z
 
     move-result v2
 

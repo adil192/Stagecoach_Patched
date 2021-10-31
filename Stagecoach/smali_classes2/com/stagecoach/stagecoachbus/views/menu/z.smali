@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/menu/z;->d:Lcom/stagecoach/stagecoachbus/model/feedbackandlostproperties/FeedbackQuery;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->Z3(Lcom/stagecoach/stagecoachbus/model/feedbackandlostproperties/FeedbackQuery;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->c4(Lcom/stagecoach/stagecoachbus/model/feedbackandlostproperties/FeedbackQuery;)Ljava/lang/Boolean;
 
     move-result-object v0
 

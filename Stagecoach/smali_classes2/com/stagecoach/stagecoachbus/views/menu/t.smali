@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->N4(Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->Q4(Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;)V
 
     return-void
 .end method

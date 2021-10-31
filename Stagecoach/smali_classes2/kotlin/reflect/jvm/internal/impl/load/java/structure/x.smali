@@ -7,7 +7,7 @@
 
 
 # virtual methods
-.method public abstract i()Ljava/util/List;
+.method public abstract getTypeParameters()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

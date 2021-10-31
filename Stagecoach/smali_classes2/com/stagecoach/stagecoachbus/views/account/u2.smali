@@ -34,7 +34,7 @@
 
     iget-boolean v1, p0, Lcom/stagecoach/stagecoachbus/views/account/u2;->b:Z
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->m4(Z)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->p4(Z)V
 
     return-void
 .end method

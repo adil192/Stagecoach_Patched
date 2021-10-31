@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/a;->c:Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->a4(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->d4(Landroid/view/View;)V
 
     return-void
 .end method

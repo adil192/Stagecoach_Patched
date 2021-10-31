@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/jvm/internal/TypeReference;->c()Ljava/lang/String;
+    value = Lkotlin/jvm/internal/TypeReference;->e()Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/b/l<",
-        "Lkotlin/reflect/k;",
+        "Lkotlin/reflect/l;",
         "Ljava/lang/CharSequence;",
         ">;"
     }
@@ -36,11 +36,11 @@
         "\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\r\n\u0002\u0008\u0003\u0010\u0005\u001a\u00020\u00022\u0006\u0010\u0001\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
     }
     d2 = {
-        "Lkotlin/reflect/k;",
+        "Lkotlin/reflect/l;",
         "it",
         "",
         "invoke",
-        "(Lkotlin/reflect/k;)Ljava/lang/CharSequence;",
+        "(Lkotlin/reflect/l;)Ljava/lang/CharSequence;",
         "<anonymous>"
     }
     k = 0x3
@@ -71,7 +71,7 @@
 
 
 # virtual methods
-.method public final invoke(Lkotlin/reflect/k;)Ljava/lang/CharSequence;
+.method public final invoke(Lkotlin/reflect/l;)Ljava/lang/CharSequence;
     .locals 1
 
     const-string v0, "it"
@@ -81,7 +81,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/jvm/internal/TypeReference$asString$args$1;->this$0:Lkotlin/jvm/internal/TypeReference;
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/TypeReference;->a(Lkotlin/jvm/internal/TypeReference;Lkotlin/reflect/k;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/TypeReference;->d(Lkotlin/jvm/internal/TypeReference;Lkotlin/reflect/l;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -92,9 +92,9 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlin/reflect/k;
+    check-cast p1, Lkotlin/reflect/l;
 
-    invoke-virtual {p0, p1}, Lkotlin/jvm/internal/TypeReference$asString$args$1;->invoke(Lkotlin/reflect/k;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Lkotlin/jvm/internal/TypeReference$asString$args$1;->invoke(Lkotlin/reflect/l;)Ljava/lang/CharSequence;
 
     move-result-object p1
 

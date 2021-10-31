@@ -74,7 +74,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 

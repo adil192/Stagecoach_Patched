@@ -55,13 +55,13 @@
 
 .field final synthetic $parameterizedTypeArguments$inlined:Lkotlin/e;
 
-.field final synthetic $parameterizedTypeArguments$metadata$inlined:Lkotlin/reflect/h;
+.field final synthetic $parameterizedTypeArguments$metadata$inlined:Lkotlin/reflect/i;
 
 .field final synthetic this$0:Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;
 
 
 # direct methods
-.method constructor <init>(ILkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;Lkotlin/e;Lkotlin/reflect/h;)V
+.method constructor <init>(ILkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;Lkotlin/e;Lkotlin/reflect/i;)V
     .locals 0
 
     iput p1, p0, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2$$special$$inlined$mapIndexed$lambda$1;->$i:I
@@ -70,7 +70,7 @@
 
     iput-object p3, p0, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2$$special$$inlined$mapIndexed$lambda$1;->$parameterizedTypeArguments$inlined:Lkotlin/e;
 
-    iput-object p4, p0, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2$$special$$inlined$mapIndexed$lambda$1;->$parameterizedTypeArguments$metadata$inlined:Lkotlin/reflect/h;
+    iput-object p4, p0, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2$$special$$inlined$mapIndexed$lambda$1;->$parameterizedTypeArguments$metadata$inlined:Lkotlin/reflect/i;
 
     const/4 p1, 0x0
 
@@ -100,7 +100,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;->this$0:Lkotlin/reflect/jvm/internal/KTypeImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->d()Ljava/lang/reflect/Type;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->f()Ljava/lang/reflect/Type;
 
     move-result-object v0
 

@@ -295,7 +295,7 @@
     if-eqz v12, :cond_a
 
     .line 18
-    invoke-interface {v12}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->I()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
+    invoke-interface {v12}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->D()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
 
     move-result-object v2
 

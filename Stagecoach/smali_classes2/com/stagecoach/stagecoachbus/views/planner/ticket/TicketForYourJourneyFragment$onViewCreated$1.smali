@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    value = Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -103,7 +103,7 @@
 
     check-cast p1, Lcom/google/android/play/core/review/ReviewInfo;
 
-    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->k4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;Lcom/google/android/play/core/review/ReviewInfo;)V
+    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->n4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;Lcom/google/android/play/core/review/ReviewInfo;)V
 
     :cond_0
     return-void

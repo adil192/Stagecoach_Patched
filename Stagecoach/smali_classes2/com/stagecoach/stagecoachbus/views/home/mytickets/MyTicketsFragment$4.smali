@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->d1()V
+    value = Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->g1()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,13 +35,13 @@
 
 
 # virtual methods
-.method public X0()V
+.method public a1()V
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment$4;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->c4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->f4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;
 
     move-result-object v0
 
@@ -50,17 +50,17 @@
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment$4;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->c4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->f4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->T(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->W(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 
     :cond_0
     return-void
 .end method
 
-.method public j1()V
+.method public m1()V
     .locals 2
 
     .line 1
@@ -73,7 +73,7 @@
     .line 2
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment$4;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;
 
-    invoke-virtual {v1, v0}, Landroidx/fragment/app/Fragment;->P2(Landroid/content/Intent;)V
+    invoke-virtual {v1, v0}, Landroidx/fragment/app/Fragment;->S2(Landroid/content/Intent;)V
 
     return-void
 .end method

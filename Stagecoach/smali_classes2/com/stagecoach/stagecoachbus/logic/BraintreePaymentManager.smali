@@ -85,7 +85,7 @@
     .line 2
     sget-object p6, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-static {p6}, Lio/reactivex/subjects/a;->O0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
+    invoke-static {p6}, Lio/reactivex/subjects/a;->X0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
 
     move-result-object p6
 
@@ -185,7 +185,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -194,7 +194,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -209,7 +209,7 @@
     invoke-direct {v0, p3}, Lcom/stagecoach/stagecoachbus/logic/h1;-><init>(Lio/reactivex/b;)V
 
     .line 5
-    invoke-virtual {p1, p2, v0}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, p2, v0}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     goto :goto_0
 
@@ -478,12 +478,12 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;->h:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->N(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->Q(Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;->n:Lio/reactivex/subjects/a;
 
-    invoke-virtual {v0}, Lio/reactivex/subjects/a;->P0()Ljava/lang/Object;
+    invoke-virtual {v0}, Lio/reactivex/subjects/a;->Y0()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -878,7 +878,7 @@
     .line 6
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;->h:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->K(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->M(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1689,7 +1689,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -1713,7 +1713,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p1, p2}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p1
 
@@ -1734,7 +1734,7 @@
     .line 1
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v0}, Lio/reactivex/v;->t(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-static {v0}, Lio/reactivex/v;->u(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -1947,7 +1947,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/n;-><init>(Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1956,7 +1956,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1965,7 +1965,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/r;-><init>(Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;Ljava/lang/String;)V
 
     .line 3
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->o(Lio/reactivex/c0/a;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->t(Lio/reactivex/c0/a;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1974,12 +1974,12 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/p;-><init>(Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;)V
 
     .line 4
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->r(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->w(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Lio/reactivex/v;->s(Lio/reactivex/s;)Lio/reactivex/v;
+    invoke-static {p1}, Lio/reactivex/v;->t(Lio/reactivex/s;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -2004,7 +2004,7 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/logic/j;->c:Lcom/stagecoach/stagecoachbus/logic/j;
 
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -2201,7 +2201,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/l;-><init>(Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -2231,7 +2231,7 @@
 
     sget-object v2, Lcom/stagecoach/stagecoachbus/logic/i;->a:Lcom/stagecoach/stagecoachbus/logic/i;
 
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/v;->M(Lio/reactivex/z;Lio/reactivex/c0/c;)Lio/reactivex/v;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/v;->N(Lio/reactivex/z;Lio/reactivex/c0/c;)Lio/reactivex/v;
 
     move-result-object v0
 

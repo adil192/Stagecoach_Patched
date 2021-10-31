@@ -7,7 +7,7 @@
 
 
 # virtual methods
-.method public abstract s()Lkotlin/reflect/jvm/internal/impl/descriptors/r$a;
+.method public abstract p()Lkotlin/reflect/jvm/internal/impl/descriptors/r$a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/i;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsHelpFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsHelpFragment;->h3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsHelpFragment;->k3(Landroid/view/View;)V
 
     return-void
 .end method

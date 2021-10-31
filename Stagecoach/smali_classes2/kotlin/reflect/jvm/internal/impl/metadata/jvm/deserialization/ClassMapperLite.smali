@@ -186,7 +186,7 @@
 
     move-result v5
 
-    invoke-virtual {v3}, Lkotlin/r/a;->l()I
+    invoke-virtual {v3}, Lkotlin/r/a;->k()I
 
     move-result v3
 

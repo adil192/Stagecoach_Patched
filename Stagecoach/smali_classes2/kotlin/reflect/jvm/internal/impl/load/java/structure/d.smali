@@ -18,8 +18,8 @@
     .end annotation
 .end method
 
-.method public abstract j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
+.method public abstract h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
 .end method
 
-.method public abstract m()Z
+.method public abstract j()Z
 .end method

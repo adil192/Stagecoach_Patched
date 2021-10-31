@@ -55,10 +55,10 @@
 
 .field final values:[Ljava/lang/Object;
 
-.field final zipper:Lio/reactivex/c0/g;
+.field final zipper:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-[",
             "Ljava/lang/Object;",
             "+TR;>;"
@@ -68,14 +68,14 @@
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/x;ILio/reactivex/c0/g;)V
+.method constructor <init>(Lio/reactivex/x;ILio/reactivex/c0/i;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/x<",
             "-TR;>;I",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-[",
             "Ljava/lang/Object;",
             "+TR;>;)V"
@@ -89,7 +89,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/single/SingleZipArray$ZipCoordinator;->downstream:Lio/reactivex/x;
 
     .line 3
-    iput-object p3, p0, Lio/reactivex/internal/operators/single/SingleZipArray$ZipCoordinator;->zipper:Lio/reactivex/c0/g;
+    iput-object p3, p0, Lio/reactivex/internal/operators/single/SingleZipArray$ZipCoordinator;->zipper:Lio/reactivex/c0/i;
 
     .line 4
     new-array p1, p2, [Lio/reactivex/internal/operators/single/SingleZipArray$ZipSingleObserver;
@@ -216,11 +216,11 @@
 
     .line 3
     :try_start_0
-    iget-object p1, p0, Lio/reactivex/internal/operators/single/SingleZipArray$ZipCoordinator;->zipper:Lio/reactivex/c0/g;
+    iget-object p1, p0, Lio/reactivex/internal/operators/single/SingleZipArray$ZipCoordinator;->zipper:Lio/reactivex/c0/i;
 
     iget-object p2, p0, Lio/reactivex/internal/operators/single/SingleZipArray$ZipCoordinator;->values:[Ljava/lang/Object;
 
-    invoke-interface {p1, p2}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

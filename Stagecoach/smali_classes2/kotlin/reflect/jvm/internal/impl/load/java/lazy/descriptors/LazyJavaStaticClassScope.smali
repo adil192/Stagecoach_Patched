@@ -79,7 +79,7 @@
     .locals 3
 
     .line 1
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
 
     move-result-object v0
 
@@ -363,7 +363,7 @@
     .line 3
     iget-object p2, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaStaticClassScope;->n:Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
-    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->A()Z
+    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->w()Z
 
     move-result p2
 
@@ -490,7 +490,7 @@
     .line 6
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaStaticClassScope;->n:Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->A()Z
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->w()Z
 
     move-result v0
 

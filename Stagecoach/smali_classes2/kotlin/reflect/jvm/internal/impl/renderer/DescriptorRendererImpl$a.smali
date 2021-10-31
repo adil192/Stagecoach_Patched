@@ -108,7 +108,7 @@
     .line 5
     iget-object p3, p0, Lkotlin/reflect/jvm/internal/impl/renderer/DescriptorRendererImpl$a;->a:Lkotlin/reflect/jvm/internal/impl/renderer/DescriptorRendererImpl;
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/b0;->C0()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/b0;->w0()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object p1
 

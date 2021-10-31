@@ -3,7 +3,7 @@
 .source "KProperty2Impl.kt"
 
 # interfaces
-.implements Lkotlin/reflect/e;
+.implements Lkotlin/reflect/f;
 .implements Lkotlin/jvm/b/q;
 
 
@@ -53,12 +53,12 @@
         "receiver2",
         "value",
         "Lkotlin/m;",
-        "o",
+        "p",
         "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
         "Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;",
-        "g",
+        "j",
         "Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;",
-        "n",
+        "o",
         "()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;",
         "property",
         "<init>",
@@ -75,7 +75,7 @@
 
 
 # instance fields
-.field private final g:Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
+.field private final j:Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlin/reflect/jvm/internal/KMutableProperty2Impl<",
@@ -103,7 +103,7 @@
     .line 1
     invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;-><init>()V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->g:Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->j:Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
 
     return-void
 .end method
@@ -114,25 +114,25 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->o(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->p(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     sget-object p1, Lkotlin/m;->a:Lkotlin/m;
 
     return-object p1
 .end method
 
-.method public bridge synthetic l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+.method public bridge synthetic m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->n()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->o()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public n()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
+.method public o()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -143,12 +143,12 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->g:Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->j:Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
 
     return-object v0
 .end method
 
-.method public o(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+.method public p(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -157,11 +157,11 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->n()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;->o()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2, p3}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->u(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2, p3}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->v(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
 .end method

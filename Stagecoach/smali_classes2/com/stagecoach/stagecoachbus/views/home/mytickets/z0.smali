@@ -33,11 +33,9 @@
 
 .field public final synthetic o:I
 
-.field public final synthetic p:Ljava/util/Date;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)V
+.method public synthetic constructor <init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -68,15 +66,13 @@
 
     iput p13, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z0;->o:I
 
-    iput-object p14, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z0;->p:Ljava/util/Date;
-
     return-void
 .end method
 
 
 # virtual methods
 .method public final call()Ljava/lang/Object;
-    .locals 14
+    .locals 13
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z0;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;
 
@@ -104,9 +100,7 @@
 
     iget v12, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z0;->o:I
 
-    iget-object v13, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z0;->p:Ljava/util/Date;
-
-    invoke-virtual/range {v0 .. v13}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->V0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+    invoke-virtual/range {v0 .. v12}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->V0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
 
     move-result-object v0
 

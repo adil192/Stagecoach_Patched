@@ -61,33 +61,33 @@
     const/4 p1, 0x3
 
     .line 3
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->B(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x2
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->B(I)V
 
     throw v0
 
     :cond_2
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->B(I)V
 
     throw v0
 
     :cond_3
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->B(I)V
 
     throw v0
 .end method
 
-.method private static synthetic F(I)V
+.method private static synthetic B(I)V
     .locals 6
 
     const/4 v0, 0x3
@@ -176,7 +176,7 @@
 
 
 # virtual methods
-.method public G0(Lkotlin/reflect/jvm/internal/impl/storage/i;)V
+.method public A0(Lkotlin/reflect/jvm/internal/impl/storage/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -198,14 +198,14 @@
     const/4 p1, 0x4
 
     .line 2
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->B(I)V
 
     const/4 p1, 0x0
 
     throw p1
 .end method
 
-.method public Y()Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;
+.method public T()Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -235,7 +235,7 @@
     return-object v0
 .end method
 
-.method public n0()Z
+.method public i0()Z
     .locals 1
 
     .line 1

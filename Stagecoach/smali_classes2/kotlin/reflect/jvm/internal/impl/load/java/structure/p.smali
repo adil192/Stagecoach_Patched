@@ -9,5 +9,5 @@
 
 
 # virtual methods
-.method public abstract N()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+.method public abstract I()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 .end method

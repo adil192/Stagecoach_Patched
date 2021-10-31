@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/reflect/g;
+.field public static final INSTANCE:Lkotlin/reflect/h;
 
 
 # direct methods
@@ -15,7 +15,7 @@
 
     invoke-direct {v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$containsSuspendFunctionType$1;-><init>()V
 
-    sput-object v0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$containsSuspendFunctionType$1;->INSTANCE:Lkotlin/reflect/g;
+    sput-object v0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$containsSuspendFunctionType$1;->INSTANCE:Lkotlin/reflect/h;
 
     return-void
 .end method
@@ -55,14 +55,14 @@
     return-object v0
 .end method
 
-.method public getOwner()Lkotlin/reflect/d;
+.method public getOwner()Lkotlin/reflect/e;
     .locals 2
 
     const-class v0, Lkotlin/reflect/jvm/internal/impl/builtins/e;
 
     const-string v1, "deserialization"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/k;->d(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/d;
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/k;->d(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/e;
 
     move-result-object v0
 

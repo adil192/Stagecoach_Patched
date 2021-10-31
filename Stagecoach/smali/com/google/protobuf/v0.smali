@@ -100,7 +100,7 @@
     return-object p0
 .end method
 
-.method public static k()Lcom/google/protobuf/v0;
+.method public static j()Lcom/google/protobuf/v0;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -118,7 +118,7 @@
     return-object v0
 .end method
 
-.method private l(I)V
+.method private k(I)V
     .locals 1
 
     if-ltz p1, :cond_0
@@ -345,7 +345,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/protobuf/v0;->l(I)V
+    invoke-direct {p0, p1}, Lcom/google/protobuf/v0;->k(I)V
 
     .line 2
     iget-object v0, p0, Lcom/google/protobuf/v0;->d:[Ljava/lang/Object;
@@ -418,7 +418,7 @@
     invoke-virtual {p0}, Lcom/google/protobuf/c;->g()V
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/google/protobuf/v0;->l(I)V
+    invoke-direct {p0, p1}, Lcom/google/protobuf/v0;->k(I)V
 
     .line 3
     iget-object v0, p0, Lcom/google/protobuf/v0;->d:[Ljava/lang/Object;
@@ -471,7 +471,7 @@
     invoke-virtual {p0}, Lcom/google/protobuf/c;->g()V
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/google/protobuf/v0;->l(I)V
+    invoke-direct {p0, p1}, Lcom/google/protobuf/v0;->k(I)V
 
     .line 3
     iget-object v0, p0, Lcom/google/protobuf/v0;->d:[Ljava/lang/Object;

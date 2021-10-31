@@ -44,7 +44,7 @@
 
 
 # virtual methods
-.method protected abstract O()Ljava/lang/reflect/Type;
+.method protected abstract J()Ljava/lang/reflect/Type;
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -55,13 +55,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->J()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->J()Ljava/lang/reflect/Type;
 
     move-result-object p1
 
@@ -86,7 +86,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->J()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
@@ -119,7 +119,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;->J()Ljava/lang/reflect/Type;
 
     move-result-object v1
 

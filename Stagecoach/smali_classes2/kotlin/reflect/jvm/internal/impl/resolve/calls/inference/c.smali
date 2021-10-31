@@ -87,7 +87,7 @@
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/c;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/c;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v0
 
@@ -213,7 +213,7 @@
     return-void
 .end method
 
-.method public m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
     .locals 2
 
     .line 1
@@ -225,11 +225,11 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/types/o0;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/types/o0;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v0
 

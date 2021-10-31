@@ -1113,7 +1113,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/types/a1;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     :cond_0
     const/4 p1, 0x0
@@ -1365,7 +1365,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/types/y;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p1
 

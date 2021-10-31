@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/braintreepayments/api/a;->b3()V
+    value = Lcom/braintreepayments/api/a;->e3()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public m(Lcom/braintreepayments/api/models/d;)V
+.method public n(Lcom/braintreepayments/api/models/d;)V
     .locals 1
 
     .line 1
@@ -46,12 +46,12 @@
     .line 2
     iget-object p1, p0, Lcom/braintreepayments/api/a$b;->c:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {p1}, Lcom/braintreepayments/api/a;->h3()V
+    invoke-virtual {p1}, Lcom/braintreepayments/api/a;->k3()V
 
     .line 3
     iget-object p1, p0, Lcom/braintreepayments/api/a$b;->c:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {p1}, Lcom/braintreepayments/api/a;->d3()V
+    invoke-virtual {p1}, Lcom/braintreepayments/api/a;->g3()V
 
     return-void
 .end method

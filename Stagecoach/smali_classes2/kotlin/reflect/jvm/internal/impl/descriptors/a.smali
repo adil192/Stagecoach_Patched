@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public abstract E()Z
+.method public abstract A()Z
 .end method
 
 .method public abstract a()Lkotlin/reflect/jvm/internal/impl/descriptors/a;
@@ -46,10 +46,10 @@
     .end annotation
 .end method
 
-.method public abstract g()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public abstract e0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 .end method
 
-.method public abstract h()Ljava/util/List;
+.method public abstract f()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -60,7 +60,10 @@
     .end annotation
 .end method
 
-.method public abstract i()Ljava/util/List;
+.method public abstract getReturnType()Lkotlin/reflect/jvm/internal/impl/types/y;
+.end method
+
+.method public abstract getTypeParameters()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -71,10 +74,7 @@
     .end annotation
 .end method
 
-.method public abstract j0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
-.end method
-
-.method public abstract m0(Lkotlin/reflect/jvm/internal/impl/descriptors/a$a;)Ljava/lang/Object;
+.method public abstract h0(Lkotlin/reflect/jvm/internal/impl/descriptors/a$a;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<V:",
@@ -86,5 +86,5 @@
     .end annotation
 .end method
 
-.method public abstract p0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+.method public abstract k0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 .end method

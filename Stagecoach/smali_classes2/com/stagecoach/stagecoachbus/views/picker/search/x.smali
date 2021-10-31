@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/x;->a:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->m4()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->p4()V
 
     return-void
 .end method

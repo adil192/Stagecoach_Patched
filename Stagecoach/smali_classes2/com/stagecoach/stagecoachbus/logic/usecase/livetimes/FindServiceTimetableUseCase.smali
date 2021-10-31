@@ -61,7 +61,7 @@
     invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/UseCase;-><init>()V
 
     .line 2
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object v0
 
@@ -164,7 +164,7 @@
     invoke-direct {p2}, Lcom/stagecoach/stagecoachbus/model/stopevent/Stop;-><init>()V
 
     .line 2
-    invoke-virtual {p1, p2}, Lio/reactivex/k;->D(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/k;->E(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -193,7 +193,7 @@
 
     invoke-direct {p1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/o;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;)V
 
-    invoke-virtual {p2, p1}, Lio/reactivex/p;->E(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p2, p1}, Lio/reactivex/p;->L(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -203,7 +203,7 @@
     :cond_0
     sget-object p1, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/g;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/g;
 
-    invoke-virtual {p2, p1}, Lio/reactivex/p;->z0(Lio/reactivex/c0/i;)Lio/reactivex/p;
+    invoke-virtual {p2, p1}, Lio/reactivex/p;->I0(Lio/reactivex/c0/k;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -470,7 +470,7 @@
 
     sget-object p1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v0, v1, p1}, Lio/reactivex/p;->A0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v0, v1, p1}, Lio/reactivex/p;->J0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -555,7 +555,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/l;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;)V
 
-    invoke-static {v0}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v0}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -564,7 +564,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/m;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase$Params;)V
 
     .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->o(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->p(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -573,7 +573,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/e;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;)V
 
     .line 5
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -582,7 +582,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/h;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase$Params;)V
 
     .line 6
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->q(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->r(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -593,7 +593,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/n;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;)V
 
     .line 8
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -602,7 +602,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/k;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;)V
 
     .line 9
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -611,7 +611,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/j;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;)V
 
     .line 10
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -620,14 +620,14 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/f;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;)V
 
     .line 11
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->v(Lio/reactivex/c0/a;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->A(Lio/reactivex/c0/a;)Lio/reactivex/p;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/d;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/d;
 
     .line 12
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->c0(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->k0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -636,7 +636,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/i;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/FindServiceTimetableUseCase$Params;)V
 
     .line 13
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->e0(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->m0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 

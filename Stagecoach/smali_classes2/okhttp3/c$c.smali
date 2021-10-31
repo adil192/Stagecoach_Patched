@@ -1018,7 +1018,7 @@
     :try_start_1
     iget-object v5, p0, Lokhttp3/c$c;->b:Lokhttp3/s;
 
-    invoke-virtual {v5, v3}, Lokhttp3/s;->l(I)Ljava/lang/String;
+    invoke-virtual {v5, v3}, Lokhttp3/s;->k(I)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1101,7 +1101,7 @@
     .line 13
     iget-object v3, p0, Lokhttp3/c$c;->g:Lokhttp3/s;
 
-    invoke-virtual {v3, v0}, Lokhttp3/s;->l(I)Ljava/lang/String;
+    invoke-virtual {v3, v0}, Lokhttp3/s;->k(I)Ljava/lang/String;
 
     move-result-object v3
 

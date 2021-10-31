@@ -110,7 +110,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketPresenter$ActiveTicketView;->d(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketPresenter$ActiveTicketView;->f(Z)V
 
     return-void
 .end method
@@ -121,7 +121,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketPresenter$ActiveTicketView;->d(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketPresenter$ActiveTicketView;->f(Z)V
 
     return-void
 .end method
@@ -192,7 +192,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketPresenter$ActiveTicketView;->m(Ljava/util/List;)V
+    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketPresenter$ActiveTicketView;->p(Ljava/util/List;)V
 
     return-void
 .end method
@@ -506,7 +506,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/n;-><init>(Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 
-    invoke-static {v1}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v1}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object p1
 
@@ -515,12 +515,12 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p1, v1}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p1
 
     .line 4
-    invoke-virtual {p1}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {p1}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -677,7 +677,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -685,14 +685,14 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/m;->a:Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/m;
 
     .line 4
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->B(Lio/reactivex/c0/b;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->C(Lio/reactivex/c0/b;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 

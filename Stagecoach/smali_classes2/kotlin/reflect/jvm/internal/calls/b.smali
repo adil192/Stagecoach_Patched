@@ -24,7 +24,15 @@
 .method public abstract a([Ljava/lang/Object;)Ljava/lang/Object;
 .end method
 
-.method public abstract g()Ljava/lang/reflect/Type;
+.method public abstract b()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/reflect/Type;",
+            ">;"
+        }
+    .end annotation
 .end method
 
 .method public abstract getMember()Ljava/lang/reflect/Member;
@@ -35,13 +43,5 @@
     .end annotation
 .end method
 
-.method public abstract h()Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Ljava/lang/reflect/Type;",
-            ">;"
-        }
-    .end annotation
+.method public abstract getReturnType()Ljava/lang/reflect/Type;
 .end method

@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/concurrent/Callable;
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -17,7 +17,7 @@
         "Ljava/util/List<",
         "Ljava/lang/Object;",
         ">;>;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Ljava/lang/Object;",
         "Ljava/util/List<",
         "Ljava/lang/Object;",

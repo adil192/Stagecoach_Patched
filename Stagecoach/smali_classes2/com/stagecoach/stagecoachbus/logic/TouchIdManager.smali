@@ -73,7 +73,7 @@
 
     invoke-direct {v0, p0, v1, p2, v2}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;-><init>(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager;ILjava/lang/CharSequence;Z)V
 
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->z0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->C0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
 
     :cond_0
     return-void
@@ -98,7 +98,7 @@
 
     invoke-direct {v1, p0, v2, v3, v4}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;-><init>(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager;ILjava/lang/CharSequence;Z)V
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->z0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->C0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
 
     :cond_0
     return-void
@@ -121,7 +121,7 @@
 
     invoke-direct {v0, p0, v1, p2, v2}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;-><init>(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager;ILjava/lang/CharSequence;Z)V
 
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->z0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->C0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
 
     :cond_0
     return-void
@@ -136,7 +136,7 @@
     if-eqz p1, :cond_0
 
     .line 2
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->a0()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;->d0()V
 
     :cond_0
     return-void
@@ -286,7 +286,7 @@
     if-eqz v0, :cond_0
 
     .line 3
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;->d3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;->g3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;
 
     move-result-object v0
 
@@ -303,7 +303,7 @@
     if-eqz v0, :cond_1
 
     .line 5
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->f3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->i3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;
 
     move-result-object v0
 
@@ -311,7 +311,7 @@
 
     .line 6
     :cond_1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintNeedSetupDialogFragment;->f3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintNeedSetupDialogFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintNeedSetupDialogFragment;->i3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintNeedSetupDialogFragment;
 
     move-result-object v0
 

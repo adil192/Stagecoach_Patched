@@ -88,7 +88,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KCallableImpl$_returnType$1;->this$0:Lkotlin/reflect/jvm/internal/KCallableImpl;
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->b(Lkotlin/reflect/jvm/internal/KCallableImpl;)Ljava/lang/reflect/Type;
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->d(Lkotlin/reflect/jvm/internal/KCallableImpl;)Ljava/lang/reflect/Type;
 
     move-result-object v0
 
@@ -101,11 +101,11 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KCallableImpl$_returnType$1;->this$0:Lkotlin/reflect/jvm/internal/KCallableImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->d()Lkotlin/reflect/jvm/internal/calls/b;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->f()Lkotlin/reflect/jvm/internal/calls/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/calls/b;->g()Ljava/lang/reflect/Type;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/calls/b;->getReturnType()Ljava/lang/reflect/Type;
 
     move-result-object v0
 

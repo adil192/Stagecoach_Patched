@@ -3,7 +3,7 @@
 .source "KPropertyImpl.kt"
 
 # interfaces
-.implements Lkotlin/reflect/e;
+.implements Lkotlin/reflect/f;
 
 
 # annotations
@@ -37,7 +37,7 @@
         0x3
     }
     d1 = {
-        "\u0000*\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008&\u0018\u0000*\u0004\u0008\u0001\u0010\u00012\u000e\u0012\u0004\u0012\u00028\u0001\u0012\u0004\u0012\u00020\u00030\u00022\u0008\u0012\u0004\u0012\u00028\u00010\u0004B\u0007\u00a2\u0006\u0004\u0008\u0014\u0010\u0015R\u0016\u0010\u0008\u001a\u00020\u00058V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0006\u0010\u0007R\u001d\u0010\u000e\u001a\u00020\t8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\u000c\u0010\rR!\u0010\u0013\u001a\u0006\u0012\u0002\u0008\u00030\u000f8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010\u0011\u001a\u0004\u0008\n\u0010\u0012\u00a8\u0006\u0016"
+        "\u0000*\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008&\u0018\u0000*\u0004\u0008\u0001\u0010\u00012\u000e\u0012\u0004\u0012\u00028\u0001\u0012\u0004\u0012\u00020\u00030\u00022\u0008\u0012\u0004\u0012\u00028\u00010\u0004B\u0007\u00a2\u0006\u0004\u0008\u0015\u0010\u0016R\u0016\u0010\u0008\u001a\u00020\u00058V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0006\u0010\u0007R\u001d\u0010\u000e\u001a\u00020\t8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\u000c\u0010\rR!\u0010\u0014\u001a\u0006\u0012\u0002\u0008\u00030\u000f8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010\u0011\u001a\u0004\u0008\u0012\u0010\u0013\u00a8\u0006\u0017"
     }
     d2 = {
         "Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;",
@@ -50,14 +50,15 @@
         "()Ljava/lang/String;",
         "name",
         "Lkotlin/reflect/jvm/internal/impl/descriptors/e0;",
-        "d",
+        "g",
         "Lkotlin/reflect/jvm/internal/l$a;",
         "getDescriptor",
         "()Lorg/jetbrains/kotlin/descriptors/PropertySetterDescriptor;",
         "descriptor",
         "Lkotlin/reflect/jvm/internal/calls/b;",
-        "e",
+        "h",
         "Lkotlin/reflect/jvm/internal/l$b;",
+        "f",
         "()Lkotlin/reflect/jvm/internal/calls/b;",
         "caller",
         "<init>",
@@ -74,13 +75,13 @@
 
 
 # static fields
-.field static final synthetic f:[Lkotlin/reflect/h;
+.field static final synthetic i:[Lkotlin/reflect/i;
 
 
 # instance fields
-.field private final d:Lkotlin/reflect/jvm/internal/l$a;
+.field private final g:Lkotlin/reflect/jvm/internal/l$a;
 
-.field private final e:Lkotlin/reflect/jvm/internal/l$b;
+.field private final h:Lkotlin/reflect/jvm/internal/l$b;
 
 
 # direct methods
@@ -91,11 +92,11 @@
 
     const/4 v1, 0x2
 
-    new-array v1, v1, [Lkotlin/reflect/h;
+    new-array v1, v1, [Lkotlin/reflect/i;
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v3
 
@@ -103,9 +104,9 @@
 
     const-string v5, "getDescriptor()Lorg/jetbrains/kotlin/descriptors/PropertySetterDescriptor;"
 
-    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v2
 
@@ -115,7 +116,7 @@
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v0
 
@@ -123,9 +124,9 @@
 
     const-string v4, "getCaller()Lkotlin/reflect/jvm/internal/calls/Caller;"
 
-    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v0
 
@@ -133,7 +134,7 @@
 
     aput-object v0, v1, v2
 
-    sput-object v1, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->f:[Lkotlin/reflect/h;
+    sput-object v1, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->i:[Lkotlin/reflect/i;
 
     return-void
 .end method
@@ -153,7 +154,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->d:Lkotlin/reflect/jvm/internal/l$a;
+    iput-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->g:Lkotlin/reflect/jvm/internal/l$a;
 
     .line 3
     new-instance v0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter$caller$2;
@@ -164,14 +165,14 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->e:Lkotlin/reflect/jvm/internal/l$b;
+    iput-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->h:Lkotlin/reflect/jvm/internal/l$b;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public d()Lkotlin/reflect/jvm/internal/calls/b;
+.method public f()Lkotlin/reflect/jvm/internal/calls/b;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -181,9 +182,9 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->e:Lkotlin/reflect/jvm/internal/l$b;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->h:Lkotlin/reflect/jvm/internal/l$b;
 
-    sget-object v1, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->f:[Lkotlin/reflect/h;
+    sget-object v1, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->i:[Lkotlin/reflect/i;
 
     const/4 v2, 0x1
 
@@ -194,17 +195,6 @@
     move-result-object v0
 
     check-cast v0, Lkotlin/reflect/jvm/internal/calls/b;
-
-    return-object v0
-.end method
-
-.method public bridge synthetic f()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->m()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
-
-    move-result-object v0
 
     return-object v0
 .end method
@@ -221,7 +211,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object v1
 
@@ -242,23 +232,34 @@
     return-object v0
 .end method
 
-.method public bridge synthetic k()Lkotlin/reflect/jvm/internal/impl/descriptors/b0;
+.method public bridge synthetic i()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->m()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public m()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
+.method public bridge synthetic l()Lkotlin/reflect/jvm/internal/impl/descriptors/b0;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public n()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
     .locals 3
 
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->d:Lkotlin/reflect/jvm/internal/l$a;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->g:Lkotlin/reflect/jvm/internal/l$a;
 
-    sget-object v1, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->f:[Lkotlin/reflect/h;
+    sget-object v1, Lkotlin/reflect/jvm/internal/KPropertyImpl$Setter;->i:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 

@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lio/reactivex/k;->n(Ljava/util/concurrent/Callable;)Lio/reactivex/k;
+    invoke-static {v0}, Lio/reactivex/k;->o(Ljava/util/concurrent/Callable;)Lio/reactivex/k;
 
     move-result-object v0
 
@@ -232,16 +232,16 @@
     move-result-object v1
 
     .line 5
-    invoke-virtual {v0, v1}, Lio/reactivex/k;->B(Lio/reactivex/o;)Lio/reactivex/k;
+    invoke-virtual {v0, v1}, Lio/reactivex/k;->C(Lio/reactivex/o;)Lio/reactivex/k;
 
     move-result-object v0
 
-    invoke-static {p0}, Lcom/google/firebase/inappmessaging/z/i;->b(Lcom/google/firebase/inappmessaging/z/k;)Lio/reactivex/c0/i;
+    invoke-static {p0}, Lcom/google/firebase/inappmessaging/z/i;->b(Lcom/google/firebase/inappmessaging/z/k;)Lio/reactivex/c0/k;
 
     move-result-object v1
 
     .line 6
-    invoke-virtual {v0, v1}, Lio/reactivex/k;->j(Lio/reactivex/c0/i;)Lio/reactivex/k;
+    invoke-virtual {v0, v1}, Lio/reactivex/k;->j(Lio/reactivex/c0/k;)Lio/reactivex/k;
 
     move-result-object v0
 

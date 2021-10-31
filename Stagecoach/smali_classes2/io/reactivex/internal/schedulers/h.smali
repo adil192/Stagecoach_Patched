@@ -67,7 +67,7 @@
     const-string v2, "rx2.purge-enabled"
 
     .line 4
-    invoke-static {v1, v2, v1, v1, v0}, Lio/reactivex/internal/schedulers/h;->b(ZLjava/lang/String;ZZLio/reactivex/c0/g;)Z
+    invoke-static {v1, v2, v1, v1, v0}, Lio/reactivex/internal/schedulers/h;->b(ZLjava/lang/String;ZZLio/reactivex/c0/i;)Z
 
     move-result v2
 
@@ -76,7 +76,7 @@
     const-string v3, "rx2.purge-period-seconds"
 
     .line 5
-    invoke-static {v2, v3, v1, v1, v0}, Lio/reactivex/internal/schedulers/h;->c(ZLjava/lang/String;IILio/reactivex/c0/g;)I
+    invoke-static {v2, v3, v1, v1, v0}, Lio/reactivex/internal/schedulers/h;->c(ZLjava/lang/String;IILio/reactivex/c0/i;)I
 
     move-result v0
 
@@ -106,14 +106,14 @@
     return-object p0
 .end method
 
-.method static b(ZLjava/lang/String;ZZLio/reactivex/c0/g;)Z
+.method static b(ZLjava/lang/String;ZZLio/reactivex/c0/i;)Z
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z",
             "Ljava/lang/String;",
             "ZZ",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;)Z"
@@ -124,7 +124,7 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p4, p1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p1}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -153,14 +153,14 @@
     return p3
 .end method
 
-.method static c(ZLjava/lang/String;IILio/reactivex/c0/g;)I
+.method static c(ZLjava/lang/String;IILio/reactivex/c0/i;)I
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z",
             "Ljava/lang/String;",
             "II",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;)I"
@@ -171,7 +171,7 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p4, p1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p1}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

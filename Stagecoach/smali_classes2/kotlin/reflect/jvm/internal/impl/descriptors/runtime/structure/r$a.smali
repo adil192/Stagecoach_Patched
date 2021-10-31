@@ -19,7 +19,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->C()I
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->y()I
 
     move-result p0
 
@@ -88,7 +88,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->C()I
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->y()I
 
     move-result p0
 
@@ -103,7 +103,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->C()I
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->y()I
 
     move-result p0
 
@@ -118,7 +118,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->C()I
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/r;->y()I
 
     move-result p0
 

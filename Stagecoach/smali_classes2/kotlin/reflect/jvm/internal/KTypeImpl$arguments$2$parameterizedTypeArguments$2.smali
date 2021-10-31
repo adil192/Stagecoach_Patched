@@ -98,7 +98,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;->this$0:Lkotlin/reflect/jvm/internal/KTypeImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->d()Ljava/lang/reflect/Type;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->f()Ljava/lang/reflect/Type;
 
     move-result-object v0
 

@@ -56,15 +56,7 @@
 
 
 # virtual methods
-.method public call()Ljava/lang/Object;
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return-object v0
-.end method
-
-.method protected s0(Lio/reactivex/t;)V
+.method protected A0(Lio/reactivex/t;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -80,4 +72,12 @@
     invoke-static {p1}, Lio/reactivex/internal/disposables/EmptyDisposable;->complete(Lio/reactivex/t;)V
 
     return-void
+.end method
+
+.method public call()Ljava/lang/Object;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
 .end method

@@ -154,7 +154,7 @@
 
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/impl/load/kotlin/b$a;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
-    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v2
 

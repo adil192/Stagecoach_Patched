@@ -43,10 +43,10 @@
 
 
 # virtual methods
-.method public abstract isEmpty()Z
+.method public abstract h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
 .end method
 
-.method public abstract j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+.method public abstract isEmpty()Z
 .end method
 
 .method public abstract w(Lkotlin/reflect/jvm/internal/impl/name/b;)Z

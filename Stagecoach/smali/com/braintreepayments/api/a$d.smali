@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    value = Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -82,7 +82,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/braintreepayments/api/q/g;->m(Lcom/braintreepayments/api/models/d;)V
+    invoke-interface {v0, v1}, Lcom/braintreepayments/api/q/g;->n(Lcom/braintreepayments/api/models/d;)V
 
     return-void
 .end method

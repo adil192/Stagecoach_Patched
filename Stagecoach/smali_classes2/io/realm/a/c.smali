@@ -197,7 +197,7 @@
 
     invoke-direct {p1, p2, v0}, Lio/realm/a/a;-><init>(Lio/realm/OrderedRealmCollection;Lio/realm/OrderedCollectionChangeSet;)V
 
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -219,16 +219,16 @@
 
     invoke-direct {v1, p0, p2, p1}, Lio/realm/a/c$q;-><init>(Lio/realm/a/c;Lio/realm/RealmResults;Lio/realm/RealmConfiguration;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->G0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->P0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -266,7 +266,7 @@
 
     invoke-direct {p1, p2, v0}, Lio/realm/a/a;-><init>(Lio/realm/OrderedRealmCollection;Lio/realm/OrderedCollectionChangeSet;)V
 
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -288,16 +288,16 @@
 
     invoke-direct {v1, p0, p2, p1}, Lio/realm/a/c$b;-><init>(Lio/realm/a/c;Lio/realm/RealmList;Lio/realm/RealmConfiguration;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->G0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->P0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -333,7 +333,7 @@
 
     invoke-direct {p1, p2, v0}, Lio/realm/a/b;-><init>(Lio/realm/RealmModel;Lio/realm/ObjectChangeSet;)V
 
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -355,16 +355,16 @@
 
     invoke-direct {v1, p0, p2, p1}, Lio/realm/a/c$h;-><init>(Lio/realm/a/c;Lio/realm/DynamicRealmObject;Lio/realm/RealmConfiguration;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->G0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->P0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -539,7 +539,7 @@
 
     invoke-direct {p1, p2, v0}, Lio/realm/a/a;-><init>(Lio/realm/OrderedRealmCollection;Lio/realm/OrderedCollectionChangeSet;)V
 
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -561,16 +561,16 @@
 
     invoke-direct {v1, p0, p2, p1}, Lio/realm/a/c$d;-><init>(Lio/realm/a/c;Lio/realm/RealmList;Lio/realm/RealmConfiguration;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->G0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->P0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -672,7 +672,7 @@
 
     invoke-direct {p1, p2, v0}, Lio/realm/a/a;-><init>(Lio/realm/OrderedRealmCollection;Lio/realm/OrderedCollectionChangeSet;)V
 
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -694,16 +694,16 @@
 
     invoke-direct {v1, p0, p2, p1}, Lio/realm/a/c$o;-><init>(Lio/realm/a/c;Lio/realm/RealmResults;Lio/realm/RealmConfiguration;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->G0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->P0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -995,7 +995,7 @@
 
     invoke-direct {p1, p2, v0}, Lio/realm/a/b;-><init>(Lio/realm/RealmModel;Lio/realm/ObjectChangeSet;)V
 
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1017,16 +1017,16 @@
 
     invoke-direct {v1, p0, p2, p1}, Lio/realm/a/c$f;-><init>(Lio/realm/a/c;Lio/realm/RealmModel;Lio/realm/RealmConfiguration;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->G0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->P0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 

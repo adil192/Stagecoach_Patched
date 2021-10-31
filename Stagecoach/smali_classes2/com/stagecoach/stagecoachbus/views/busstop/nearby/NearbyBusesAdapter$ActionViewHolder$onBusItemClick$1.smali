@@ -104,7 +104,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/BusStopDelegate;->e(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
+    invoke-interface {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/BusStopDelegate;->g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
 
     return-void
 .end method

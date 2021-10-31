@@ -25,10 +25,10 @@
 
 
 # instance fields
-.field final e:Lio/reactivex/c0/g;
+.field final e:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;"
@@ -42,14 +42,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/g;IZ)V
+.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/i;IZ)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/g<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;IZ)V"
@@ -60,7 +60,7 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/flowable/a;-><init>(Lio/reactivex/g;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->e:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->e:Lio/reactivex/c0/i;
 
     .line 3
     iput p3, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->f:I
@@ -86,9 +86,9 @@
     .line 1
     iget-object v0, p0, Lio/reactivex/internal/operators/flowable/a;->d:Lio/reactivex/g;
 
-    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->e:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->e:Lio/reactivex/c0/i;
 
-    invoke-static {v0, p1, v1}, Lio/reactivex/internal/operators/flowable/n;->b(Lk/a/a;Lk/a/b;Lio/reactivex/c0/g;)Z
+    invoke-static {v0, p1, v1}, Lio/reactivex/internal/operators/flowable/n;->b(Lk/a/a;Lk/a/b;Lio/reactivex/c0/i;)Z
 
     move-result v0
 
@@ -102,13 +102,13 @@
 
     new-instance v1, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap$SwitchMapSubscriber;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->e:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->e:Lio/reactivex/c0/i;
 
     iget v3, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->f:I
 
     iget-boolean v4, p0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;->g:Z
 
-    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap$SwitchMapSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/g;IZ)V
+    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap$SwitchMapSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/i;IZ)V
 
     invoke-virtual {v0, v1}, Lio/reactivex/g;->X(Lio/reactivex/j;)V
 

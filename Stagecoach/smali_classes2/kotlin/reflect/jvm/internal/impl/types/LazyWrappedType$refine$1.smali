@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;->W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;
+    value = Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;->P0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -68,7 +68,7 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType$refine$1;->this$0:Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;->V0(Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;)Lkotlin/jvm/b/a;
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;->O0(Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;)Lkotlin/jvm/b/a;
 
     move-result-object v1
 

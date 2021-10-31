@@ -4,8 +4,8 @@
 
 
 # virtual methods
-.method public abstract F()Z
+.method public abstract B()Z
 .end method
 
-.method public abstract J(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public abstract F(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
 .end method

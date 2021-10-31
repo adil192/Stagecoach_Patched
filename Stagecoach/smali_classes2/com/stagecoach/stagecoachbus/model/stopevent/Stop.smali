@@ -388,12 +388,12 @@
     sget-object v0, Lcom/stagecoach/stagecoachbus/model/stopevent/b;->c:Lcom/stagecoach/stagecoachbus/model/stopevent/b;
 
     .line 2
-    invoke-virtual {p0, v0}, Lio/reactivex/p;->F0(Ljava/util/Comparator;)Lio/reactivex/v;
+    invoke-virtual {p0, v0}, Lio/reactivex/p;->O0(Ljava/util/Comparator;)Lio/reactivex/v;
 
     move-result-object p0
 
     .line 3
-    invoke-virtual {p0}, Lio/reactivex/v;->I()Lio/reactivex/p;
+    invoke-virtual {p0}, Lio/reactivex/v;->J()Lio/reactivex/p;
 
     move-result-object p0
 
@@ -550,28 +550,28 @@
 
     .line 4
     :cond_0
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 
     sget-object p2, Lcom/stagecoach/stagecoachbus/model/stopevent/a;->c:Lcom/stagecoach/stagecoachbus/model/stopevent/a;
 
     .line 5
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->Q(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->X(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
     sget-object p2, Lcom/stagecoach/stagecoachbus/model/stopevent/d;->c:Lcom/stagecoach/stagecoachbus/model/stopevent/d;
 
     .line 6
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->E(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->L(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
     sget-object p2, Lcom/stagecoach/stagecoachbus/model/stopevent/c;->c:Lcom/stagecoach/stagecoachbus/model/stopevent/c;
 
     .line 7
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->F0(Ljava/util/Comparator;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->O0(Ljava/util/Comparator;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -838,14 +838,14 @@
 
     .line 3
     :cond_0
-    invoke-static {v0}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/model/stopevent/e;->c:Lcom/stagecoach/stagecoachbus/model/stopevent/e;
 
     .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->F0(Ljava/util/Comparator;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->O0(Ljava/util/Comparator;)Lio/reactivex/v;
 
     move-result-object v0
 

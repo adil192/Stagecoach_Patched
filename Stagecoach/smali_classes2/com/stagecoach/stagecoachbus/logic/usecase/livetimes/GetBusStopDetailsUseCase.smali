@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lio/reactivex/v;->t(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-static {p1}, Lio/reactivex/v;->u(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -154,14 +154,14 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/u;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase$BusStopDetailParams;)V
 
     .line 4
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p0
 
     sget-object p1, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/j0;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/j0;
 
     .line 5
-    invoke-virtual {p0, p1}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p0, p1}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p0
 
@@ -186,7 +186,7 @@
     .line 1
     sget-object v0, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/t;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/t;
 
-    invoke-virtual {p2, v0}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p2, v0}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -204,7 +204,7 @@
 
     invoke-direct {p1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/p;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase;)V
 
-    invoke-virtual {p2, p1}, Lio/reactivex/p;->E(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p2, p1}, Lio/reactivex/p;->L(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -300,7 +300,7 @@
 
     sget-object p1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v0, v1, p1}, Lio/reactivex/p;->A0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v0, v1, p1}, Lio/reactivex/p;->J0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -355,7 +355,7 @@
     .line 3
     sget-object v4, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v2, v3, v0, v1, v4}, Lio/reactivex/p;->T(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v2, v3, v0, v1, v4}, Lio/reactivex/p;->b0(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -364,7 +364,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/r;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase$BusStopDetailParams;)V
 
     .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -376,7 +376,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/v;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase$BusStopDetailParams;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -386,7 +386,7 @@
 
     invoke-direct {v1, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/q;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase$BusStopDetailParams;)V
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -395,7 +395,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/s;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetBusStopDetailsUseCase$BusStopDetailParams;)V
 
     .line 7
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->h0(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->p0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 

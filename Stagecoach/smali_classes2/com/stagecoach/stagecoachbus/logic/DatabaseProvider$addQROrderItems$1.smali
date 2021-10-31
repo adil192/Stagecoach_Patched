@@ -70,12 +70,12 @@
 
 # virtual methods
 .method public final run()V
-    .locals 7
+    .locals 10
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->d:Ljava/util/List;
 
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_6
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
@@ -104,63 +104,150 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->c(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Ljava/lang/String;Ljava/util/List;Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$TicketDeleteListener;)Z
 
-    move-result v1
+    move-result v7
 
     .line 5
-    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->d:Ljava/util/List;
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->getActiveTickets()Ljava/util/List;
 
-    move-result-object v2
+    move-result-object v1
+
+    .line 6
+    new-instance v2, Ljava/util/ArrayList;
+
+    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+
+    .line 7
+    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
 
     :cond_0
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lcom/stagecoach/core/model/tickets/qr/QROrderItem;
+    move-object v4, v3
 
-    .line 6
-    invoke-virtual {v3}, Lcom/stagecoach/core/model/tickets/qr/QROrderItem;->getOrderItem()Lcom/stagecoach/core/model/tickets/OrderItem;
+    check-cast v4, Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
 
-    move-result-object v3
+    .line 8
+    invoke-virtual {v4}, Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;->isQrTicket()Z
 
-    const-string v4, "orderItem"
-
-    .line 7
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v3}, Lcom/stagecoach/core/model/tickets/OrderItem;->getTicket()Lcom/stagecoach/core/model/tickets/Ticket;
-
-    move-result-object v4
+    move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 8
-    iget-object v5, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
-
-    iget-object v6, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->e:Ljava/lang/String;
-
-    invoke-static {v5, v6, v3, v4, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->a(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Ljava/lang/String;Lcom/stagecoach/core/model/tickets/OrderItem;Lcom/stagecoach/core/model/tickets/Ticket;Ljava/util/List;)V
+    invoke-interface {v2, v3}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
     .line 9
     :cond_1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
+    new-instance v8, Ljava/util/ArrayList;
+
+    invoke-direct {v8}, Ljava/util/ArrayList;-><init>()V
+
+    .line 10
+    invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :cond_2
+    :goto_1
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    .line 11
+    check-cast v2, Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+
+    .line 12
+    invoke-virtual {v2}, Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;->getQrItemUuid()Ljava/lang/String;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_2
+
+    .line 13
+    invoke-interface {v8, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+
+    goto :goto_1
+
+    .line 14
+    :cond_3
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->d:Ljava/util/List;
+
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v9
+
+    :cond_4
+    :goto_2
+    invoke-interface {v9}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_5
+
+    invoke-interface {v9}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/stagecoach/core/model/tickets/qr/QROrderItem;
+
+    .line 15
+    invoke-virtual {v1}, Lcom/stagecoach/core/model/tickets/qr/QROrderItem;->getOrderItem()Lcom/stagecoach/core/model/tickets/OrderItem;
+
+    move-result-object v3
+
+    const-string v1, "orderItem"
+
+    .line 16
+    invoke-static {v3, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v3}, Lcom/stagecoach/core/model/tickets/OrderItem;->getTicket()Lcom/stagecoach/core/model/tickets/Ticket;
+
+    move-result-object v4
+
+    if-eqz v4, :cond_4
+
+    .line 17
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->e:Ljava/lang/String;
 
-    invoke-static {v0, v2}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->f(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Ljava/lang/String;)V
+    move-object v5, v0
 
-    .line 10
+    move-object v6, v8
+
+    invoke-static/range {v1 .. v6}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->a(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Ljava/lang/String;Lcom/stagecoach/core/model/tickets/OrderItem;Lcom/stagecoach/core/model/tickets/Ticket;Ljava/util/List;Ljava/util/List;)V
+
+    goto :goto_2
+
+    .line 18
+    :cond_5
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
+
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->e:Ljava/lang/String;
+
+    invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->f(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Ljava/lang/String;)V
+
+    .line 19
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
     invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->getContext()Landroid/content/Context;
@@ -169,26 +256,26 @@
 
     invoke-static {v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseManager;->e(Landroid/content/Context;)V
 
-    if-eqz v1, :cond_3
+    if-eqz v7, :cond_7
 
-    .line 11
+    .line 20
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->f:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$TicketDeleteListener;
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_7
 
     invoke-interface {v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$TicketDeleteListener;->b()V
 
-    goto :goto_1
+    goto :goto_3
 
-    .line 12
-    :cond_2
+    .line 21
+    :cond_6
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$addQROrderItems$1;->e:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->b(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Ljava/lang/String;)V
 
-    :cond_3
-    :goto_1
+    :cond_7
+    :goto_3
     return-void
 .end method

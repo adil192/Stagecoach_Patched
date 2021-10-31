@@ -33,10 +33,10 @@
     .end annotation
 .end field
 
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TR;>;>;"
@@ -46,14 +46,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/z;Lio/reactivex/c0/g;)V
+.method public constructor <init>(Lio/reactivex/z;Lio/reactivex/c0/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/z<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TR;>;>;)V"
@@ -67,14 +67,14 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable;->c:Lio/reactivex/z;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable;->d:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable;->d:Lio/reactivex/c0/i;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected s0(Lio/reactivex/t;)V
+.method protected A0(Lio/reactivex/t;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -87,9 +87,9 @@
     .line 1
     new-instance v0, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable$FlatMapObserver;
 
-    iget-object v1, p0, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable;->d:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable;->d:Lio/reactivex/c0/i;
 
-    invoke-direct {v0, p1, v1}, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable$FlatMapObserver;-><init>(Lio/reactivex/t;Lio/reactivex/c0/g;)V
+    invoke-direct {v0, p1, v1}, Lio/reactivex/internal/operators/mixed/SingleFlatMapObservable$FlatMapObserver;-><init>(Lio/reactivex/t;Lio/reactivex/c0/i;)V
 
     .line 2
     invoke-interface {p1, v0}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V

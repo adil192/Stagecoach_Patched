@@ -148,7 +148,7 @@
     .line 3
     iget v0, p5, Lcom/google/android/gms/internal/measurement/x4;->a:I
 
-    invoke-virtual {p4, v0}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {p4, v0}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     :goto_0
     if-ge p2, p3, :cond_0
@@ -171,7 +171,7 @@
     .line 7
     iget v0, p5, Lcom/google/android/gms/internal/measurement/x4;->a:I
 
-    invoke-virtual {p4, v0}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {p4, v0}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     goto :goto_0
 
@@ -796,7 +796,7 @@
     .line 5
     iget v1, p3, Lcom/google/android/gms/internal/measurement/x4;->a:I
 
-    invoke-virtual {p2, v1}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {p2, v1}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     goto :goto_0
 

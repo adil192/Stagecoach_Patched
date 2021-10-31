@@ -373,7 +373,7 @@
 
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->t0()Lkotlin/reflect/jvm/internal/impl/descriptors/q;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->o0()Lkotlin/reflect/jvm/internal/impl/descriptors/q;
 
     move-result-object v0
 
@@ -550,7 +550,7 @@
     if-eqz p0, :cond_3
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
 
     move-result-object v0
 

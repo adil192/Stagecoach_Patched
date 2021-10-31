@@ -3,7 +3,7 @@
 .source "KProperty0Impl.kt"
 
 # interfaces
-.implements Lkotlin/reflect/h;
+.implements Lkotlin/reflect/i;
 .implements Lkotlin/jvm/b/a;
 
 
@@ -40,20 +40,20 @@
         "V",
         "",
         "Lkotlin/reflect/jvm/internal/KPropertyImpl;",
-        "r",
+        "s",
         "()Ljava/lang/Object;",
         "invoke",
         "Lkotlin/e;",
-        "l",
+        "o",
         "Lkotlin/e;",
         "delegateFieldValue",
         "Lkotlin/reflect/jvm/internal/l$b;",
         "Lkotlin/reflect/jvm/internal/KProperty0Impl$a;",
         "kotlin.jvm.PlatformType",
-        "k",
+        "n",
         "Lkotlin/reflect/jvm/internal/l$b;",
         "_getter",
-        "s",
+        "t",
         "()Lkotlin/reflect/jvm/internal/KProperty0Impl$a;",
         "getter",
         "Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
@@ -80,7 +80,7 @@
 
 
 # instance fields
-.field private final k:Lkotlin/reflect/jvm/internal/l$b;
+.field private final n:Lkotlin/reflect/jvm/internal/l$b;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlin/reflect/jvm/internal/l$b<",
@@ -90,7 +90,7 @@
     .end annotation
 .end field
 
-.field private final l:Lkotlin/e;
+.field private final o:Lkotlin/e;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlin/e<",
@@ -133,7 +133,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->k:Lkotlin/reflect/jvm/internal/l$b;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->n:Lkotlin/reflect/jvm/internal/l$b;
 
     .line 6
     sget-object p1, Lkotlin/LazyThreadSafetyMode;->PUBLICATION:Lkotlin/LazyThreadSafetyMode;
@@ -146,7 +146,7 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->l:Lkotlin/e;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->o:Lkotlin/e;
 
     return-void
 .end method
@@ -178,7 +178,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->k:Lkotlin/reflect/jvm/internal/l$b;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->n:Lkotlin/reflect/jvm/internal/l$b;
 
     .line 3
     sget-object p1, Lkotlin/LazyThreadSafetyMode;->PUBLICATION:Lkotlin/LazyThreadSafetyMode;
@@ -191,7 +191,7 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->l:Lkotlin/e;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->o:Lkotlin/e;
 
     return-void
 .end method
@@ -207,25 +207,25 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty0Impl;->r()Ljava/lang/Object;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty0Impl;->s()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public bridge synthetic o()Lkotlin/reflect/jvm/internal/KPropertyImpl$Getter;
+.method public bridge synthetic p()Lkotlin/reflect/jvm/internal/KPropertyImpl$Getter;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty0Impl;->s()Lkotlin/reflect/jvm/internal/KProperty0Impl$a;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty0Impl;->t()Lkotlin/reflect/jvm/internal/KProperty0Impl$a;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public r()Ljava/lang/Object;
+.method public s()Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -234,7 +234,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty0Impl;->s()Lkotlin/reflect/jvm/internal/KProperty0Impl$a;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty0Impl;->t()Lkotlin/reflect/jvm/internal/KProperty0Impl$a;
 
     move-result-object v0
 
@@ -249,7 +249,7 @@
     return-object v0
 .end method
 
-.method public s()Lkotlin/reflect/jvm/internal/KProperty0Impl$a;
+.method public t()Lkotlin/reflect/jvm/internal/KProperty0Impl$a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -260,7 +260,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->k:Lkotlin/reflect/jvm/internal/l$b;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl;->n:Lkotlin/reflect/jvm/internal/l$b;
 
     invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/l$b;->invoke()Ljava/lang/Object;
 

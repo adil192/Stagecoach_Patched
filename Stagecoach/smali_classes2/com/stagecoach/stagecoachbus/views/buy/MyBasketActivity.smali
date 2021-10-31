@@ -232,6 +232,25 @@
 
 
 # virtual methods
+.method public A()V
+    .locals 4
+
+    .line 1
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->e4()Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->O0:Ljava/lang/String;
+
+    const v2, 0x7f11012c
+
+    const/4 v3, 0x0
+
+    invoke-virtual {p0, v0, v1, v2, v3}, Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;->A1(Landroidx/fragment/app/Fragment;Ljava/lang/String;IZ)V
+
+    return-void
+.end method
+
 .method public A1(Landroidx/fragment/app/Fragment;Ljava/lang/String;IZ)V
     .locals 2
 
@@ -320,7 +339,7 @@
     return-void
 .end method
 
-.method public C()V
+.method public D()V
     .locals 4
 
     const/4 v0, 0x0
@@ -328,7 +347,7 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;->b4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;
+    invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;->e4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;
 
     move-result-object v1
 
@@ -341,11 +360,11 @@
     return-void
 .end method
 
-.method public R()V
+.method public S()V
     .locals 4
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/MainCheckoutFragment;->s4()Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/MainCheckoutFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/MainCheckoutFragment;->v4()Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/MainCheckoutFragment;
 
     move-result-object v0
 
@@ -360,7 +379,7 @@
     return-void
 .end method
 
-.method public U()V
+.method public V()V
     .locals 1
 
     const/16 v0, 0x1b5e
@@ -375,11 +394,11 @@
     return-void
 .end method
 
-.method public W(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)V
+.method public X(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)V
     .locals 1
 
     .line 1
-    invoke-static {p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;->k4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;
+    invoke-static {p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;->n4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;
 
     move-result-object p1
 
@@ -398,7 +417,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;->b4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;
+    invoke-static {p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;->e4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentOrderreceiptAPIFailsFragment;
 
     move-result-object p1
 
@@ -417,30 +436,11 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->c5()Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->f5()Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->D1:Ljava/lang/String;
-
-    const v2, 0x7f110337
-
-    const/4 v3, 0x1
-
-    invoke-virtual {p0, v0, v1, v2, v3}, Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;->A1(Landroidx/fragment/app/Fragment;Ljava/lang/String;IZ)V
-
-    return-void
-.end method
-
-.method public c()V
-    .locals 4
-
-    .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;->X3()Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;->G0:Ljava/lang/String;
 
     const v2, 0x7f110337
 
@@ -461,7 +461,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/buy/q;-><init>(Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -470,7 +470,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -483,7 +483,7 @@
     invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/buy/s;-><init>(Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;)V
 
     .line 3
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -497,11 +497,11 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->k4()Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;->a4()Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;
 
     move-result-object v0
 
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->K0:Ljava/lang/String;
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;->G0:Ljava/lang/String;
 
     const v2, 0x7f110337
 
@@ -520,7 +520,7 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;->k4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;
+    invoke-static {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;->n4(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;
 
     move-result-object p1
 
@@ -537,7 +537,7 @@
     .locals 3
 
     .line 1
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->a4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->d4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;
 
     move-result-object p1
 
@@ -552,11 +552,30 @@
     return-void
 .end method
 
+.method public g()V
+    .locals 4
+
+    .line 1
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->n4()Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->K0:Ljava/lang/String;
+
+    const v2, 0x7f110337
+
+    const/4 v3, 0x1
+
+    invoke-virtual {p0, v0, v1, v2, v3}, Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;->A1(Landroidx/fragment/app/Fragment;Ljava/lang/String;IZ)V
+
+    return-void
+.end method
+
 .method public h()V
     .locals 4
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;->r4()Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;->u4()Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;
 
     move-result-object v0
 
@@ -575,7 +594,7 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->e4()Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->h4()Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;
 
     move-result-object v0
 
@@ -625,7 +644,7 @@
     const/4 p1, 0x1
 
     .line 6
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;->j3(I)Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;->m3(I)Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;
 
     move-result-object p1
 
@@ -635,13 +654,13 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;->s0:Ljava/lang/String;
 
-    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 7
     :cond_0
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->e4()Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->h4()Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;
 
     move-result-object p1
 
@@ -665,7 +684,15 @@
     return-object v0
 .end method
 
-.method public t()V
+.method public synthetic t1(Ljava/lang/Boolean;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;->s1(Ljava/lang/Boolean;)V
+
+    return-void
+.end method
+
+.method public u()V
     .locals 1
 
     const/16 v0, 0x1b60
@@ -680,27 +707,10 @@
     return-void
 .end method
 
-.method public synthetic t1(Ljava/lang/Boolean;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;->s1(Ljava/lang/Boolean;)V
-
-    return-void
-.end method
-
 .method public synthetic v1(Ljava/lang/Throwable;)V
     .locals 0
 
     invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;->u1(Ljava/lang/Throwable;)V
-
-    return-void
-.end method
-
-.method public x()V
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -713,21 +723,11 @@
     return-void
 .end method
 
-.method public z()V
-    .locals 4
+.method public y()V
+    .locals 0
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->b4()Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->O0:Ljava/lang/String;
-
-    const v2, 0x7f11012c
-
-    const/4 v3, 0x0
-
-    invoke-virtual {p0, v0, v1, v2, v3}, Lcom/stagecoach/stagecoachbus/views/buy/MyBasketActivity;->A1(Landroidx/fragment/app/Fragment;Ljava/lang/String;IZ)V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method

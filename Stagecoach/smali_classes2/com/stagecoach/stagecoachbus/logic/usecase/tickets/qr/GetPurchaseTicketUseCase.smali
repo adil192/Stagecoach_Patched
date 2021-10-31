@@ -130,7 +130,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -140,13 +140,13 @@
     :cond_0
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/qr/GetPurchaseTicketUseCase;->b:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->E(Ljava/lang/String;)Lio/reactivex/g;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->F(Ljava/lang/String;)Lio/reactivex/g;
 
     move-result-object p1
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/qr/a;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/qr/a;
 
-    invoke-virtual {p1, v0}, Lio/reactivex/g;->E(Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-virtual {p1, v0}, Lio/reactivex/g;->E(Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object p1
 

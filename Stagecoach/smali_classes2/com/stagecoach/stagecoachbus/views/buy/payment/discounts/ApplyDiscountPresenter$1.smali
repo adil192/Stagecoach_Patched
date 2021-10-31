@@ -48,12 +48,12 @@
     const v0, 0x7f1103e7
 
     .line 1
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountPresenter$ApplyDiscountView;->E(I)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountPresenter$ApplyDiscountView;->H(I)V
 
     const/4 v0, 0x0
 
     .line 2
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountPresenter$ApplyDiscountView;->V0(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountPresenter$ApplyDiscountView;->Y0(Z)V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountPresenter$ApplyDiscountView;->V0(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountPresenter$ApplyDiscountView;->Y0(Z)V
 
     return-void
 .end method

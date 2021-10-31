@@ -3,7 +3,7 @@
 .source "ClassReference.kt"
 
 # interfaces
-.implements Lkotlin/reflect/b;
+.implements Lkotlin/reflect/c;
 .implements Lkotlin/jvm/internal/c;
 
 
@@ -17,7 +17,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/reflect/b<",
+        "Lkotlin/reflect/c<",
         "Ljava/lang/Object;",
         ">;",
         "Lkotlin/jvm/internal/c;"
@@ -31,11 +31,11 @@
         0x3
     }
     d1 = {
-        "\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0018\u0000 \u00182\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u00020\u0003:\u0001\u0014B\u0013\u0012\n\u0010\u0013\u001a\u0006\u0012\u0002\u0008\u00030\u000e\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\u001a\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\u000f\u0010\u000c\u001a\u00020\u000bH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rR \u0010\u0013\u001a\u0006\u0012\u0002\u0008\u00030\u000e8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000f\u0010\u0010\u001a\u0004\u0008\u0011\u0010\u0012R\u0018\u0010\u0015\u001a\u0004\u0018\u00010\u000b8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0014\u0010\r\u00a8\u0006\u0019"
+        "\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0018\u0000 \u00172\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u00020\u0003:\u0001\u0018B\u0013\u0012\n\u0010\u0013\u001a\u0006\u0012\u0002\u0008\u00030\u000e\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u001a\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\u000f\u0010\u000c\u001a\u00020\u000bH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rR \u0010\u0013\u001a\u0006\u0012\u0002\u0008\u00030\u000e8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000f\u0010\u0010\u001a\u0004\u0008\u0011\u0010\u0012R\u0018\u0010\u0014\u001a\u0004\u0018\u00010\u000b8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000f\u0010\r\u00a8\u0006\u0019"
     }
     d2 = {
         "Lkotlin/jvm/internal/d;",
-        "Lkotlin/reflect/b;",
+        "Lkotlin/reflect/c;",
         "",
         "Lkotlin/jvm/internal/c;",
         "other",
@@ -51,14 +51,14 @@
         "Ljava/lang/Class;",
         "c",
         "Ljava/lang/Class;",
-        "b",
+        "d",
         "()Ljava/lang/Class;",
         "jClass",
-        "a",
         "qualifiedName",
         "<init>",
         "(Ljava/lang/Class;)V",
         "h",
+        "a",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -851,7 +851,7 @@
     return-void
 .end method
 
-.method public static final synthetic c()Ljava/util/HashMap;
+.method public static final synthetic e()Ljava/util/HashMap;
     .locals 1
 
     .line 1
@@ -862,13 +862,13 @@
 
 
 # virtual methods
-.method public a()Ljava/lang/String;
+.method public c()Ljava/lang/String;
     .locals 2
 
     .line 1
     sget-object v0, Lkotlin/jvm/internal/d;->h:Lkotlin/jvm/internal/d$a;
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/d;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/d;->d()Ljava/lang/Class;
 
     move-result-object v1
 
@@ -879,7 +879,7 @@
     return-object v0
 .end method
 
-.method public b()Ljava/lang/Class;
+.method public d()Ljava/lang/Class;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -903,13 +903,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p0}, Lkotlin/jvm/a;->c(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {p0}, Lkotlin/jvm/a;->c(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v0
 
-    check-cast p1, Lkotlin/reflect/b;
+    check-cast p1, Lkotlin/reflect/c;
 
-    invoke-static {p1}, Lkotlin/jvm/a;->c(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {p1}, Lkotlin/jvm/a;->c(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object p1
 
@@ -934,7 +934,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p0}, Lkotlin/jvm/a;->c(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {p0}, Lkotlin/jvm/a;->c(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v0
 
@@ -953,7 +953,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/d;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/d;->d()Ljava/lang/Class;
 
     move-result-object v1
 

@@ -288,7 +288,7 @@
     .line 2
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-virtual {p0, p1}, Lcom/google/protobuf/v;->k(Ljava/lang/Integer;)Z
+    invoke-virtual {p0, p1}, Lcom/google/protobuf/v;->j(Ljava/lang/Integer;)Z
 
     move-result p1
 
@@ -522,7 +522,7 @@
     return-void
 .end method
 
-.method public k(Ljava/lang/Integer;)Z
+.method public j(Ljava/lang/Integer;)Z
     .locals 0
 
     .line 1
@@ -530,14 +530,14 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lcom/google/protobuf/v;->l(I)V
+    invoke-virtual {p0, p1}, Lcom/google/protobuf/v;->k(I)V
 
     const/4 p1, 0x1
 
     return p1
 .end method
 
-.method public l(I)V
+.method public k(I)V
     .locals 4
 
     .line 1

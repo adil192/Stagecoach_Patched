@@ -840,11 +840,11 @@
 
     new-instance v1, Lkotlin/Pair;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->X0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->Q0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v2
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->Y0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->R0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 
@@ -880,7 +880,7 @@
     new-instance v10, Lkotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/d;
 
     .line 8
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v3
 
@@ -897,7 +897,7 @@
 
     .line 9
     :cond_1
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v3
 
@@ -939,7 +939,7 @@
 
     .line 12
     :goto_3
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p1
 
@@ -1187,7 +1187,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->o0()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->j0()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v2
 

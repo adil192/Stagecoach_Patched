@@ -88,7 +88,7 @@
     return-void
 .end method
 
-.method public static final synthetic K0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
+.method public static final synthetic D0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
     .locals 0
 
     .line 1
@@ -99,7 +99,7 @@
 
 
 # virtual methods
-.method public G0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
+.method public A0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
     .locals 10
 
     const-string v0, "components"
@@ -167,7 +167,7 @@
     throw p1
 .end method
 
-.method public N0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/t;
+.method public G0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/t;
     .locals 1
 
     .line 1
@@ -176,18 +176,18 @@
     return-object v0
 .end method
 
-.method public bridge synthetic R()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/g;
+.method public bridge synthetic M()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/g;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->N0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/t;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->G0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/t;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1

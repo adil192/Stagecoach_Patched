@@ -69,7 +69,7 @@
     iput-boolean v0, p1, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->u0:Z
 
     .line 3
-    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->b3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;Z)V
+    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->e3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;Z)V
 
     goto :goto_0
 
@@ -87,12 +87,12 @@
     iput-boolean v0, p1, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->u0:Z
 
     .line 6
-    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->b3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;Z)V
+    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->e3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;Z)V
 
     .line 7
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment$EventBusConsumer;->c:Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->c3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->f3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;)V
 
     :cond_1
     :goto_0

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/android/material/datepicker/MaterialCalendar;->d3()Landroidx/recyclerview/widget/RecyclerView$n;
+    value = Lcom/google/android/material/datepicker/MaterialCalendar;->g3()Landroidx/recyclerview/widget/RecyclerView$n;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -93,11 +93,11 @@
     .line 5
     iget-object v3, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    invoke-static {v3}, Lcom/google/android/material/datepicker/MaterialCalendar;->X2(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/DateSelector;
+    invoke-static {v3}, Lcom/google/android/material/datepicker/MaterialCalendar;->a3(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/DateSelector;
 
     move-result-object v3
 
-    invoke-interface {v3}, Lcom/google/android/material/datepicker/DateSelector;->l()Ljava/util/Collection;
+    invoke-interface {v3}, Lcom/google/android/material/datepicker/DateSelector;->k()Ljava/util/Collection;
 
     move-result-object v3
 
@@ -232,7 +232,7 @@
 
     iget-object v11, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->Z2(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/b;
+    invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->c3(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/b;
 
     move-result-object v11
 
@@ -251,7 +251,7 @@
 
     iget-object v11, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->Z2(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/b;
+    invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->c3(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/b;
 
     move-result-object v11
 
@@ -319,7 +319,7 @@
     .line 22
     iget-object v11, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->Z2(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/b;
+    invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->c3(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/b;
 
     move-result-object v11
 

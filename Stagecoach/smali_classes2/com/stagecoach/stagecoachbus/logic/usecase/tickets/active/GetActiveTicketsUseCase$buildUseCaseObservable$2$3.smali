@@ -3,7 +3,7 @@
 .source "GetActiveTicketsUseCase.kt"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;",
         "Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;",
         ">;"

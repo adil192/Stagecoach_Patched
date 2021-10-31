@@ -82,7 +82,7 @@
     return-void
 .end method
 
-.method private l(IZ)V
+.method private k(IZ)V
     .locals 4
 
     .line 1
@@ -288,7 +288,7 @@
     .line 2
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-virtual {p0, p1}, Lcom/google/protobuf/f;->k(Ljava/lang/Boolean;)Z
+    invoke-virtual {p0, p1}, Lcom/google/protobuf/f;->j(Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -521,12 +521,12 @@
 
     move-result p2
 
-    invoke-direct {p0, p1, p2}, Lcom/google/protobuf/f;->l(IZ)V
+    invoke-direct {p0, p1, p2}, Lcom/google/protobuf/f;->k(IZ)V
 
     return-void
 .end method
 
-.method public k(Ljava/lang/Boolean;)Z
+.method public j(Ljava/lang/Boolean;)Z
     .locals 0
 
     .line 1

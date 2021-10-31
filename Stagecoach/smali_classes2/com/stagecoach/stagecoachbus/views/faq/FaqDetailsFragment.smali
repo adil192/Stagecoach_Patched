@@ -41,7 +41,7 @@
     return-void
 .end method
 
-.method private V3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;
+.method private Y3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;
     .locals 4
 
     .line 1
@@ -125,7 +125,7 @@
     return-object p1
 .end method
 
-.method private synthetic W3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
+.method private synthetic Z3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -136,7 +136,7 @@
     .line 1
     new-instance v0, Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->V3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->Y3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;
 
     move-result-object p1
 
@@ -145,7 +145,7 @@
     return-object v0
 .end method
 
-.method private synthetic Y3(Lio/reactivex/disposables/b;)V
+.method private synthetic b4(Lio/reactivex/disposables/b;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -161,7 +161,7 @@
     return-void
 .end method
 
-.method private synthetic a4()V
+.method private synthetic d4()V
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -177,7 +177,7 @@
     return-void
 .end method
 
-.method private synthetic c4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+.method private synthetic f4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -202,13 +202,13 @@
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->F0:Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;
 
     .line 3
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->j4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->m4()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic e4(Ljava/lang/Throwable;)V
+.method static synthetic h4(Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -226,16 +226,16 @@
     return-void
 .end method
 
-.method private synthetic f4(Landroid/view/View;)V
+.method private synthetic i4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->r3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->u3()V
 
     return-void
 .end method
 
-.method public static h4(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;
+.method public static k4(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;
     .locals 2
 
     .line 1
@@ -269,7 +269,7 @@
     return-object p0
 .end method
 
-.method private i4(Landroid/os/Bundle;)V
+.method private l4(Landroid/os/Bundle;)V
     .locals 1
 
     if-nez p1, :cond_0
@@ -309,7 +309,7 @@
     return-void
 .end method
 
-.method private j4()V
+.method private m4()V
     .locals 3
 
     .line 1
@@ -439,14 +439,14 @@
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-direct {p0, p3}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->i4(Landroid/os/Bundle;)V
+    invoke-direct {p0, p3}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->l4(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0077
 
@@ -545,53 +545,45 @@
     return-object p1
 .end method
 
-.method public S1()V
+.method public V1()V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->S1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V1()V
 
     return-void
 .end method
 
-.method public synthetic X3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
+.method public synthetic a4(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->W3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->Z3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public synthetic Z3(Lio/reactivex/disposables/b;)V
+.method public synthetic c4(Lio/reactivex/disposables/b;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->Y3(Lio/reactivex/disposables/b;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->b4(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method
 
-.method public synthetic b4()V
+.method public synthetic e4()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->a4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->d4()V
 
     return-void
 .end method
 
-.method public synthetic d4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+.method public synthetic g4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->c4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
-
-    return-void
-.end method
-
-.method public synthetic g4(Landroid/view/View;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->f4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->f4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
 
     return-void
 .end method
@@ -611,7 +603,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -620,7 +612,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/faq/c;-><init>(Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;)V
 
     .line 3
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -629,7 +621,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -638,7 +630,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/faq/a;-><init>(Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;)V
 
     .line 5
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -647,7 +639,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/faq/b;-><init>(Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;)V
 
     .line 6
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->n(Lio/reactivex/c0/a;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->s(Lio/reactivex/c0/a;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -658,12 +650,12 @@
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/faq/f;->c:Lcom/stagecoach/stagecoachbus/views/faq/f;
 
     .line 7
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 8
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method
@@ -687,7 +679,7 @@
     :cond_0
     const v0, 0x7f1101c3
 
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -695,11 +687,19 @@
     return-object v0
 .end method
 
-.method public h2(Landroid/os/Bundle;)V
+.method public synthetic j4(Landroid/view/View;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->i4(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public k2(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->h2(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->k2(Landroid/os/Bundle;)V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->F0:Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;
@@ -725,11 +725,11 @@
     return-void
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->F0:Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;
@@ -737,7 +737,7 @@
     if-eqz p1, :cond_0
 
     .line 3
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->j4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->m4()V
 
     goto :goto_0
 
@@ -759,7 +759,7 @@
     return-void
 .end method
 
-.method public r3()V
+.method public u3()V
     .locals 1
 
     .line 1

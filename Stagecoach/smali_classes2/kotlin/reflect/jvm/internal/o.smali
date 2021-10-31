@@ -130,7 +130,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->h()Ljava/util/List;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->f()Ljava/util/List;
 
     move-result-object p1
 
@@ -445,7 +445,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->c1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Property;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->V0()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Property;
 
     move-result-object v2
 
@@ -467,11 +467,11 @@
     .line 5
     new-instance v6, Lkotlin/reflect/jvm/internal/d$c;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->c0()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->X()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
 
     move-result-object v4
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->U()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->P()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
 
     move-result-object v5
 
@@ -526,7 +526,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/n;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/n;->Q()Ljava/lang/reflect/Field;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/n;->L()Ljava/lang/reflect/Field;
 
     move-result-object p1
 
@@ -545,12 +545,12 @@
     .line 10
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/q;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/q;->Q()Ljava/lang/reflect/Method;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/q;->L()Ljava/lang/reflect/Method;
 
     move-result-object p1
 
     .line 11
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->b0()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->W()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
 
     move-result-object v1
 
@@ -598,7 +598,7 @@
 
     if-eqz v1, :cond_8
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/q;->Q()Ljava/lang/reflect/Method;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/q;->L()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
@@ -656,7 +656,7 @@
     move-result-object p1
 
     .line 15
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->b0()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->W()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
 
     move-result-object v1
 
@@ -711,7 +711,7 @@
 
     check-cast v1, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/b;
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->C()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->y()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
 
     move-result-object v2
 
@@ -727,11 +727,11 @@
 
     check-cast v4, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->c0()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->X()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
 
     move-result-object v5
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->U()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->P()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
 
     move-result-object v6
 
@@ -759,11 +759,11 @@
 
     check-cast v2, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Constructor;
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->c0()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->X()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
 
     move-result-object v4
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->U()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->P()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
 
     move-result-object v1
 
@@ -864,7 +864,7 @@
 
     if-eqz v1, :cond_7
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/q;->Q()Ljava/lang/reflect/Method;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/q;->L()Ljava/lang/reflect/Method;
 
     move-result-object p1
 
@@ -944,7 +944,7 @@
 
     check-cast v1, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/k;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/k;->Q()Ljava/lang/reflect/Constructor;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/k;->L()Ljava/lang/reflect/Constructor;
 
     move-result-object v0
 
@@ -962,7 +962,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;->r()Z
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;->n()Z
 
     move-result v4
 
@@ -971,7 +971,7 @@
     .line 22
     new-instance v0, Lkotlin/reflect/jvm/internal/JvmFunctionSignature$FakeJavaAnnotationConstructor;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;->P()Ljava/lang/Class;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;->K()Ljava/lang/Class;
 
     move-result-object p1
 

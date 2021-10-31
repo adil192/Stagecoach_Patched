@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/n;->c:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->o4(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->r4(Landroid/view/View;)V
 
     return-void
 .end method

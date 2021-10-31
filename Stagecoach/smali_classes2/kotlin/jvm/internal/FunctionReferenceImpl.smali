@@ -36,7 +36,7 @@
     return-void
 .end method
 
-.method public constructor <init>(ILkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(ILkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
     .locals 7
 
     .line 1
@@ -46,11 +46,11 @@
 
     check-cast v0, Lkotlin/jvm/internal/c;
 
-    invoke-interface {v0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
+    invoke-interface {v0}, Lkotlin/jvm/internal/c;->d()Ljava/lang/Class;
 
     move-result-object v3
 
-    instance-of p2, p2, Lkotlin/reflect/b;
+    instance-of p2, p2, Lkotlin/reflect/c;
 
     xor-int/lit8 v6, p2, 0x1
 

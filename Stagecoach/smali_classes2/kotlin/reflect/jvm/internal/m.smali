@@ -17,7 +17,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object p0
 
@@ -39,7 +39,7 @@
 
 
 # virtual methods
-.method public a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/e;
+.method public a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/f;
     .locals 4
 
     .line 1
@@ -66,7 +66,7 @@
     return-object v0
 .end method
 
-.method public b(Ljava/lang/Class;)Lkotlin/reflect/b;
+.method public b(Ljava/lang/Class;)Lkotlin/reflect/c;
     .locals 0
 
     .line 1
@@ -77,7 +77,7 @@
     return-object p1
 .end method
 
-.method public c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/d;
+.method public c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/e;
     .locals 1
 
     .line 1
@@ -88,7 +88,7 @@
     return-object v0
 .end method
 
-.method public d(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/f;
+.method public d(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/g;
     .locals 4
 
     .line 1
@@ -115,7 +115,7 @@
     return-object v0
 .end method
 
-.method public e(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+.method public e(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
     .locals 4
 
     .line 1
@@ -146,7 +146,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p1}, Lkotlin/reflect/jvm/ReflectLambdaKt;->a(Lkotlin/c;)Lkotlin/reflect/e;
+    invoke-static {p1}, Lkotlin/reflect/jvm/ReflectLambdaKt;->a(Lkotlin/c;)Lkotlin/reflect/f;
 
     move-result-object v0
 
@@ -162,7 +162,7 @@
     .line 3
     sget-object p1, Lkotlin/reflect/jvm/internal/ReflectionObjectRenderer;->b:Lkotlin/reflect/jvm/internal/ReflectionObjectRenderer;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object v0
 
@@ -192,16 +192,16 @@
     return-object p1
 .end method
 
-.method public h(Lkotlin/reflect/c;Ljava/util/List;Z)Lkotlin/reflect/i;
+.method public h(Lkotlin/reflect/d;Ljava/util/List;Z)Lkotlin/reflect/j;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/c;",
+            "Lkotlin/reflect/d;",
             "Ljava/util/List<",
-            "Lkotlin/reflect/k;",
+            "Lkotlin/reflect/l;",
             ">;Z)",
-            "Lkotlin/reflect/i;"
+            "Lkotlin/reflect/j;"
         }
     .end annotation
 
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, p2, p3, v0}, Lkotlin/reflect/full/b;->b(Lkotlin/reflect/c;Ljava/util/List;ZLjava/util/List;)Lkotlin/reflect/i;
+    invoke-static {p1, p2, p3, v0}, Lkotlin/reflect/full/b;->b(Lkotlin/reflect/d;Ljava/util/List;ZLjava/util/List;)Lkotlin/reflect/j;
 
     move-result-object p1
 

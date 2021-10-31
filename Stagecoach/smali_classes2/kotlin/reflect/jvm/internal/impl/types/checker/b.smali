@@ -31,7 +31,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v1
 

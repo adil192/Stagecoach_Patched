@@ -23,12 +23,12 @@
 
 
 # virtual methods
-.method public final K0(Lcom/google/android/gms/maps/c;)V
+.method public final N0(Lcom/google/android/gms/maps/c;)V
     .locals 1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/l;->c:Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->o4(Lcom/google/android/gms/maps/c;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->r4(Lcom/google/android/gms/maps/c;)V
 
     return-void
 .end method

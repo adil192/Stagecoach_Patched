@@ -72,11 +72,11 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl$fragments$2;->this$0:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->P0()Lkotlin/reflect/jvm/internal/impl/descriptors/x;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->I0()Lkotlin/reflect/jvm/internal/impl/descriptors/x;
 
     move-result-object v0
 

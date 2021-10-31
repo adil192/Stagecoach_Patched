@@ -457,7 +457,7 @@
     return p1
 .end method
 
-.method public w()Z
+.method public x()Z
     .locals 1
 
     const/4 v0, 0x1

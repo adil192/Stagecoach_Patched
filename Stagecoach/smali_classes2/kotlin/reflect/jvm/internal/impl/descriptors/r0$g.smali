@@ -96,7 +96,7 @@
     move-result-object v1
 
     .line 3
-    invoke-interface {v1, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->i0(Lkotlin/reflect/jvm/internal/impl/descriptors/u;)Z
+    invoke-interface {v1, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->d0(Lkotlin/reflect/jvm/internal/impl/descriptors/u;)Z
 
     move-result p1
 

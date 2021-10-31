@@ -31,16 +31,16 @@
     return-void
 .end method
 
-.method private synthetic f3(Landroid/view/View;)V
+.method private synthetic i3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method
 
-.method public static h3(Lcom/stagecoach/core/model/tickets/Ticket;)Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/CantActivateTicketNowOverlayFragment;
+.method public static k3(Lcom/stagecoach/core/model/tickets/Ticket;)Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/CantActivateTicketNowOverlayFragment;
     .locals 2
 
     .line 1
@@ -66,20 +66,20 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->O1(Landroid/os/Bundle;)V
 
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0067
 
@@ -170,7 +170,7 @@
 
     aput-object p2, v2, v0
 
-    invoke-virtual {p0, v1, v2}, Landroidx/fragment/app/Fragment;->z1(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, v1, v2}, Landroidx/fragment/app/Fragment;->C1(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -180,19 +180,19 @@
     return-object p1
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
 
     return-void
 .end method
 
-.method public synthetic g3(Landroid/view/View;)V
+.method public synthetic j3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/CantActivateTicketNowOverlayFragment;->f3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/CantActivateTicketNowOverlayFragment;->i3(Landroid/view/View;)V
 
     return-void
 .end method

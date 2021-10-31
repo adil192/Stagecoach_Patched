@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->a4()V
+    value = Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->d4()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -45,7 +45,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->b4(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
 
     move-result-object p1
 
@@ -56,7 +56,7 @@
 
     iget-object v0, p1, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->T0:Lcom/google/android/gms/maps/model/LatLngBounds;
 
-    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;Lcom/google/android/gms/maps/model/LatLngBounds;)Lcom/google/android/gms/maps/model/LatLngBounds;
+    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->c4(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;Lcom/google/android/gms/maps/model/LatLngBounds;)Lcom/google/android/gms/maps/model/LatLngBounds;
 
     move-result-object p1
 
@@ -74,7 +74,7 @@
     if-eqz v1, :cond_0
 
     .line 4
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->b4(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
 
     move-result-object v0
 
@@ -91,7 +91,7 @@
 
     .line 6
     :cond_0
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->b4(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
 
     move-result-object v0
 
@@ -112,7 +112,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->b4(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
 
     move-result-object p1
 
@@ -132,7 +132,7 @@
     .line 3
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment$2;->a:Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->b4(Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;)Lcom/google/android/gms/maps/c;
 
     move-result-object v0
 

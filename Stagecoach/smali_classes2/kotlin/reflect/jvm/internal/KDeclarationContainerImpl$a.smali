@@ -72,7 +72,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->d()Lkotlin/text/Regex;
+    invoke-static {}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->f()Lkotlin/text/Regex;
 
     move-result-object v0
 

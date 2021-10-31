@@ -47,7 +47,7 @@
 
 
 # virtual methods
-.method public b(Ljava/lang/Exception;)V
+.method public d(Ljava/lang/Exception;)V
     .locals 1
 
     const-string p1, "Image download failure "

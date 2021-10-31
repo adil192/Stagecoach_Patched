@@ -47,7 +47,7 @@
 
 
 # virtual methods
-.method public m(Lcom/braintreepayments/api/models/d;)V
+.method public n(Lcom/braintreepayments/api/models/d;)V
     .locals 3
 
     .line 1
@@ -66,7 +66,7 @@
 
     invoke-direct {v0, v1}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 
@@ -85,7 +85,7 @@
 
     const-string v0, "paypal.invalid-manifest"
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 5
     iget-object p1, p0, Lcom/braintreepayments/api/i$b;->c:Lcom/braintreepayments/api/a;
@@ -96,7 +96,7 @@
 
     invoke-direct {v0, v1}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 
@@ -134,7 +134,7 @@
     .line 8
     iget-object v0, p0, Lcom/braintreepayments/api/i$b;->c:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     :goto_0
     return-void

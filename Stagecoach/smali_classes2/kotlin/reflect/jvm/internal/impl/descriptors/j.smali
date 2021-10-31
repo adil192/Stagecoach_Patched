@@ -7,19 +7,16 @@
 
 
 # virtual methods
-.method public abstract A()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
-.end method
-
 .method public abstract b()Lkotlin/reflect/jvm/internal/impl/descriptors/g;
 .end method
 
 .method public abstract c(Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;)Lkotlin/reflect/jvm/internal/impl/descriptors/j;
 .end method
 
-.method public abstract g()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public abstract getReturnType()Lkotlin/reflect/jvm/internal/impl/types/y;
 .end method
 
-.method public abstract i()Ljava/util/List;
+.method public abstract getTypeParameters()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -30,5 +27,8 @@
     .end annotation
 .end method
 
-.method public abstract z()Z
+.method public abstract v()Z
+.end method
+
+.method public abstract w()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 .end method

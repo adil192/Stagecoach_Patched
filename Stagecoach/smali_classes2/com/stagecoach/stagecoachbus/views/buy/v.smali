@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/buy/v;->d:Lcom/stagecoach/stagecoachbus/model/tickets/GetCustomersRecentMobileTicketsQuery;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->Z3(Lcom/stagecoach/stagecoachbus/model/tickets/GetCustomersRecentMobileTicketsQuery;)Lcom/stagecoach/core/model/secureapi/TicketsResponse;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->c4(Lcom/stagecoach/stagecoachbus/model/tickets/GetCustomersRecentMobileTicketsQuery;)Lcom/stagecoach/core/model/secureapi/TicketsResponse;
 
     move-result-object v0
 

@@ -522,7 +522,7 @@
     .line 2
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m$a;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->d0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;)Lkotlin/reflect/jvm/internal/impl/storage/h;
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->Y(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;)Lkotlin/reflect/jvm/internal/impl/storage/h;
 
     move-result-object v1
 
@@ -665,7 +665,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m$a;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v0
 
@@ -684,7 +684,7 @@
 
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/types/y;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v0
 
@@ -838,7 +838,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m$a;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->d0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;)Lkotlin/reflect/jvm/internal/impl/storage/h;
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->Y(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;)Lkotlin/reflect/jvm/internal/impl/storage/h;
 
     move-result-object v0
 
@@ -1022,7 +1022,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m$a;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->d0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;)Lkotlin/reflect/jvm/internal/impl/storage/h;
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;->Y(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/m;)Lkotlin/reflect/jvm/internal/impl/storage/h;
 
     move-result-object v0
 

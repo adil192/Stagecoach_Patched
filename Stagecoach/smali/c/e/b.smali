@@ -313,7 +313,7 @@
     return-void
 .end method
 
-.method private static l([I[Ljava/lang/Object;I)V
+.method private static k([I[Ljava/lang/Object;I)V
     .locals 7
 
     .line 1
@@ -796,7 +796,7 @@
     :cond_4
     iget v0, p0, Lc/e/b;->e:I
 
-    invoke-static {v4, v3, v0}, Lc/e/b;->l([I[Ljava/lang/Object;I)V
+    invoke-static {v4, v3, v0}, Lc/e/b;->k([I[Ljava/lang/Object;I)V
 
     .line 11
     :cond_5
@@ -864,7 +864,7 @@
 
     add-int/2addr v0, v1
 
-    invoke-virtual {p0, v0}, Lc/e/b;->k(I)V
+    invoke-virtual {p0, v0}, Lc/e/b;->j(I)V
 
     .line 2
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
@@ -910,7 +910,7 @@
 
     iget-object v2, p0, Lc/e/b;->d:[Ljava/lang/Object;
 
-    invoke-static {v1, v2, v0}, Lc/e/b;->l([I[Ljava/lang/Object;I)V
+    invoke-static {v1, v2, v0}, Lc/e/b;->k([I[Ljava/lang/Object;I)V
 
     .line 3
     sget-object v0, Lc/e/b;->g:[I
@@ -1086,7 +1086,7 @@
 
     add-int/2addr v1, v0
 
-    invoke-virtual {p0, v1}, Lc/e/b;->k(I)V
+    invoke-virtual {p0, v1}, Lc/e/b;->j(I)V
 
     .line 3
     iget v1, p0, Lc/e/b;->e:I
@@ -1235,7 +1235,7 @@
     return-object v0
 .end method
 
-.method public k(I)V
+.method public j(I)V
     .locals 4
 
     .line 1
@@ -1274,7 +1274,7 @@
     :cond_0
     iget p1, p0, Lc/e/b;->e:I
 
-    invoke-static {v0, v1, p1}, Lc/e/b;->l([I[Ljava/lang/Object;I)V
+    invoke-static {v0, v1, p1}, Lc/e/b;->k([I[Ljava/lang/Object;I)V
 
     :cond_1
     return-void
@@ -1425,7 +1425,7 @@
     .line 3
     iget-object p1, p0, Lc/e/b;->c:[I
 
-    invoke-static {p1, v0, v2}, Lc/e/b;->l([I[Ljava/lang/Object;I)V
+    invoke-static {p1, v0, v2}, Lc/e/b;->k([I[Ljava/lang/Object;I)V
 
     .line 4
     sget-object p1, Lc/e/b;->g:[I

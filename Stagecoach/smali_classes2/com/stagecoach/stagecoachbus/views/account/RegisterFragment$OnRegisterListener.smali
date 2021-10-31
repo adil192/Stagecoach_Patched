@@ -15,11 +15,11 @@
 
 
 # virtual methods
-.method public abstract L()V
+.method public abstract M()V
 .end method
 
 .method public abstract j0()V
 .end method
 
-.method public abstract q()V
+.method public abstract r()V
 .end method

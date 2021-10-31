@@ -41,25 +41,25 @@
     return-void
 .end method
 
-.method private synthetic f3(Landroid/view/View;)V
+.method private synthetic i3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->k3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->n3()V
 
     return-void
 .end method
 
-.method private synthetic h3(Landroid/view/View;)V
+.method private synthetic k3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->l3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->o3()V
 
     return-void
 .end method
 
-.method public static j3(Lcom/stagecoach/core/model/tickets/Ticket;Lcom/stagecoach/stagecoachbus/model/tickets/TicketGroup;)Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;
+.method public static m3(Lcom/stagecoach/core/model/tickets/Ticket;Lcom/stagecoach/stagecoachbus/model/tickets/TicketGroup;)Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;
     .locals 2
 
     .line 1
@@ -90,20 +90,20 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->O1(Landroid/os/Bundle;)V
 
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0120
 
@@ -238,36 +238,36 @@
     return-object p1
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
 
     return-void
 .end method
 
-.method public synthetic g3(Landroid/view/View;)V
+.method public synthetic j3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->f3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->i3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic i3(Landroid/view/View;)V
+.method public synthetic l3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->h3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->k3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 4
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketsTermsAndConditionsFragment;->o0:Lcom/stagecoach/stagecoachbus/model/tickets/TicketGroup;
@@ -531,16 +531,16 @@
     return-void
 .end method
 
-.method k3()V
+.method n3()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method
 
-.method l3()V
+.method o3()V
     .locals 2
 
     .line 1
@@ -589,7 +589,7 @@
     :cond_1
     :goto_0
     :try_start_0
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->P2(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->S2(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -599,7 +599,7 @@
     const-string v0, "Please install a web browser application to continue."
 
     .line 7
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->e3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->h3(Ljava/lang/String;)V
 
     :goto_1
     return-void

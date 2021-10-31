@@ -18,7 +18,7 @@
 
     check-cast p0, Lkotlin/reflect/jvm/internal/impl/descriptors/d0;
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/b0;->C0()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/b0;->w0()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object p0
 
@@ -82,7 +82,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p0
 
@@ -184,7 +184,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object p0
 
@@ -238,13 +238,13 @@
 
     .line 2
     :cond_0
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
 
     move-result-object p0
 
     if-eqz p0, :cond_1
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->h()Ljava/util/List;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->f()Ljava/util/List;
 
     move-result-object p0
 
@@ -270,7 +270,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p0
 

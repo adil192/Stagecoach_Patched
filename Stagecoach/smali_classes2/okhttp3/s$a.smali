@@ -139,7 +139,7 @@
     if-ge v1, v0, :cond_0
 
     .line 2
-    invoke-virtual {p1, v1}, Lokhttp3/s;->l(I)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Lokhttp3/s;->k(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -342,7 +342,7 @@
 
     move-result v2
 
-    invoke-virtual {v0}, Lkotlin/r/a;->l()I
+    invoke-virtual {v0}, Lkotlin/r/a;->k()I
 
     move-result v0
 

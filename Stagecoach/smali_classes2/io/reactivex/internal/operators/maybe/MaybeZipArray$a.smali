@@ -3,7 +3,7 @@
 .source "MaybeZipArray.java"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "TT;TR;>;"
     }
 .end annotation
@@ -60,7 +60,7 @@
     .line 1
     iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeZipArray$a;->c:Lio/reactivex/internal/operators/maybe/MaybeZipArray;
 
-    iget-object v0, v0, Lio/reactivex/internal/operators/maybe/MaybeZipArray;->d:Lio/reactivex/c0/g;
+    iget-object v0, v0, Lio/reactivex/internal/operators/maybe/MaybeZipArray;->d:Lio/reactivex/c0/i;
 
     const/4 v1, 0x1
 
@@ -70,7 +70,7 @@
 
     aput-object p1, v1, v2
 
-    invoke-interface {v0, v1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

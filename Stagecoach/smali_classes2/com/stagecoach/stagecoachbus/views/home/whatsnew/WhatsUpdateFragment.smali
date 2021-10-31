@@ -33,7 +33,7 @@
         "container",
         "Landroid/os/Bundle;",
         "savedInstanceState",
-        "P1",
+        "S1",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "<init>",
         "()V",
@@ -155,7 +155,7 @@
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     const-string v0, "inflater"
@@ -163,7 +163,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c01a1
 
@@ -184,17 +184,17 @@
     return-object p1
 .end method
 
-.method public synthetic S1()V
+.method public synthetic V1()V
     .locals 0
 
-    invoke-super {p0}, Landroidx/fragment/app/b;->S1()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->V1()V
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/whatsnew/WhatsUpdateFragment;->b3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/whatsnew/WhatsUpdateFragment;->e3()V
 
     return-void
 .end method
 
-.method public b3()V
+.method public e3()V
     .locals 1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/whatsnew/WhatsUpdateFragment;->n0:Ljava/util/HashMap;

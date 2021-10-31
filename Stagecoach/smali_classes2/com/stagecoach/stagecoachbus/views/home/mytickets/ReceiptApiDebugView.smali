@@ -125,7 +125,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -134,7 +134,7 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/o2;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/ReceiptApiDebugView;)V
 
     .line 3
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->o0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->w0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 

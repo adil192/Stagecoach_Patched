@@ -22,10 +22,10 @@
 
 
 # instance fields
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-",
             "Lio/reactivex/p<",
             "Ljava/lang/Throwable;",
@@ -38,14 +38,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/g;)V
+.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/s<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-",
             "Lio/reactivex/p<",
             "Ljava/lang/Throwable;",
@@ -59,14 +59,14 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/observable/a;-><init>(Lio/reactivex/s;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableRetryWhen;->d:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableRetryWhen;->d:Lio/reactivex/c0/i;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected s0(Lio/reactivex/t;)V
+.method protected A0(Lio/reactivex/t;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -77,19 +77,19 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lio/reactivex/subjects/c;->L0()Lio/reactivex/subjects/c;
+    invoke-virtual {v0}, Lio/reactivex/subjects/c;->U0()Lio/reactivex/subjects/c;
 
     move-result-object v0
 
     .line 2
     :try_start_0
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableRetryWhen;->d:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableRetryWhen;->d:Lio/reactivex/c0/i;
 
-    invoke-interface {v1, v0}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 

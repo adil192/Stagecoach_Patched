@@ -18,7 +18,7 @@
 
 
 # virtual methods
-.method public abstract o1()V
+.method public abstract r1()V
 .end method
 
 .method public abstract setAlarmFor(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V

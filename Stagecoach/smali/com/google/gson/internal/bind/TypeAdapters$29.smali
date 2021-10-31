@@ -257,7 +257,7 @@
     if-eqz v0, :cond_3
 
     .line 3
-    invoke-virtual {p2}, Lcom/google/gson/i;->k()Lcom/google/gson/l;
+    invoke-virtual {p2}, Lcom/google/gson/i;->j()Lcom/google/gson/l;
 
     move-result-object p2
 

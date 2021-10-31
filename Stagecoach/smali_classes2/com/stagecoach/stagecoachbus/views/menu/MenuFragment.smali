@@ -53,25 +53,25 @@
     return-void
 .end method
 
-.method static synthetic b3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;Z)V
+.method static synthetic e3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;Z)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->e3(Z)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->h3(Z)V
 
     return-void
 .end method
 
-.method static synthetic c3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;)V
+.method static synthetic f3(Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->d3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->g3()V
 
     return-void
 .end method
 
-.method private d3()V
+.method private g3()V
     .locals 1
 
     .line 1
@@ -84,7 +84,7 @@
     return-void
 .end method
 
-.method private e3(Z)V
+.method private h3(Z)V
     .locals 1
 
     .line 1
@@ -126,16 +126,16 @@
     return-void
 .end method
 
-.method private synthetic f3(Landroid/view/View;)V
+.method private synthetic i3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->d3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->g3()V
 
     return-void
 .end method
 
-.method private synthetic h3(Landroid/view/View;)V
+.method private synthetic k3(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -150,7 +150,7 @@
     return-void
 .end method
 
-.method private synthetic j3(Lcom/stagecoach/stagecoachbus/model/menu/MenuItem;Landroid/view/View;)V
+.method private synthetic m3(Lcom/stagecoach/stagecoachbus/model/menu/MenuItem;Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -257,11 +257,11 @@
 
 
 # virtual methods
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 3
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/b;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/b;->L1(Landroid/content/Context;)V
 
     .line 2
     instance-of v0, p1, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment$MenuClickListener;
@@ -300,11 +300,11 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/b;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/b;->O1(Landroid/os/Bundle;)V
 
     const/4 p1, 0x1
 
@@ -316,11 +316,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0105
 
@@ -353,7 +353,7 @@
 
     iput-object p2, p0, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->q0:Landroid/widget/TextView;
 
-    const-string p3, "V2.1.20.377"
+    const-string p3, "V2.1.20.385"
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -433,7 +433,7 @@
     return-object p1
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     const/4 v0, 0x0
@@ -447,21 +447,21 @@
     invoke-virtual {v0}, Lio/reactivex/disposables/a;->e()V
 
     .line 3
-    invoke-super {p0}, Landroidx/fragment/app/b;->T1()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->W1()V
 
     return-void
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
 
     .line 2
     iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->u0:Z
 
-    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->e3(Z)V
+    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->h3(Z)V
 
     .line 3
     iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->u0:Z
@@ -471,19 +471,19 @@
     return-void
 .end method
 
-.method public synthetic g3(Landroid/view/View;)V
+.method public synthetic j3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->f3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->i3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public i2()V
+.method public l2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/b;->i2()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->l2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/b;->getDialog()Landroid/app/Dialog;
@@ -505,18 +505,18 @@
     return-void
 .end method
 
-.method public synthetic i3(Landroid/view/View;)V
+.method public synthetic l3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->h3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->k3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic k3(Lcom/stagecoach/stagecoachbus/model/menu/MenuItem;Landroid/view/View;)V
+.method public synthetic n3(Lcom/stagecoach/stagecoachbus/model/menu/MenuItem;Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->j3(Lcom/stagecoach/stagecoachbus/model/menu/MenuItem;Landroid/view/View;)V
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/menu/MenuFragment;->m3(Lcom/stagecoach/stagecoachbus/model/menu/MenuItem;Landroid/view/View;)V
 
     return-void
 .end method

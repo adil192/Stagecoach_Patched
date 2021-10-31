@@ -8,10 +8,10 @@
 
 
 # virtual methods
-.method public abstract a()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+.method public abstract W()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
 .end method
 
-.method public abstract b0()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
+.method public abstract a()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 .end method
 
 .method public abstract c(Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
@@ -32,13 +32,13 @@
 .method public abstract getGetter()Lkotlin/reflect/jvm/internal/impl/descriptors/d0;
 .end method
 
-.method public abstract q0()Lkotlin/reflect/jvm/internal/impl/descriptors/q;
+.method public abstract l0()Lkotlin/reflect/jvm/internal/impl/descriptors/q;
 .end method
 
-.method public abstract t0()Lkotlin/reflect/jvm/internal/impl/descriptors/q;
+.method public abstract o0()Lkotlin/reflect/jvm/internal/impl/descriptors/q;
 .end method
 
-.method public abstract u()Ljava/util/List;
+.method public abstract r()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

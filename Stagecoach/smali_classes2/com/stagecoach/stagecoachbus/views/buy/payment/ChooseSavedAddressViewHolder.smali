@@ -57,7 +57,7 @@
 
     move-result v1
 
-    invoke-interface {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/common/component/RecyclerViewClickListener;->B(Landroid/view/View;I)V
+    invoke-interface {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/common/component/RecyclerViewClickListener;->E(Landroid/view/View;I)V
 
     return-void
 .end method

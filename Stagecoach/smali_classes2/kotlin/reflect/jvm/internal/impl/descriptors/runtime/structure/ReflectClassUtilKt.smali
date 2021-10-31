@@ -8,7 +8,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "+",
             "Ljava/lang/Object;",
             ">;>;"
@@ -69,12 +69,12 @@
 
     const/16 v0, 0x8
 
-    new-array v1, v0, [Lkotlin/reflect/b;
+    new-array v1, v0, [Lkotlin/reflect/c;
 
     .line 1
     sget-object v2, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -84,7 +84,7 @@
 
     sget-object v2, Ljava/lang/Byte;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -94,7 +94,7 @@
 
     sget-object v2, Ljava/lang/Character;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -104,7 +104,7 @@
 
     sget-object v2, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -114,7 +114,7 @@
 
     sget-object v2, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -124,7 +124,7 @@
 
     sget-object v2, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -134,7 +134,7 @@
 
     sget-object v2, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -144,7 +144,7 @@
 
     sget-object v2, Ljava/lang/Short;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -186,14 +186,14 @@
     move-result-object v12
 
     .line 4
-    check-cast v12, Lkotlin/reflect/b;
+    check-cast v12, Lkotlin/reflect/c;
 
     .line 5
-    invoke-static {v12}, Lkotlin/jvm/a;->c(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v12}, Lkotlin/jvm/a;->c(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v13
 
-    invoke-static {v12}, Lkotlin/jvm/a;->d(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v12}, Lkotlin/jvm/a;->d(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v12
 
@@ -241,14 +241,14 @@
     move-result-object v12
 
     .line 9
-    check-cast v12, Lkotlin/reflect/b;
+    check-cast v12, Lkotlin/reflect/c;
 
     .line 10
-    invoke-static {v12}, Lkotlin/jvm/a;->d(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v12}, Lkotlin/jvm/a;->d(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v13
 
-    invoke-static {v12}, Lkotlin/jvm/a;->c(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v12}, Lkotlin/jvm/a;->c(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v12
 

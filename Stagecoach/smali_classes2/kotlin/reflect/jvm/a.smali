@@ -4,14 +4,14 @@
 
 
 # direct methods
-.method public static final a(Lkotlin/reflect/c;)Lkotlin/reflect/b;
+.method public static final a(Lkotlin/reflect/d;)Lkotlin/reflect/c;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/c;",
+            "Lkotlin/reflect/d;",
             ")",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "*>;"
         }
     .end annotation
@@ -21,24 +21,24 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    instance-of v0, p0, Lkotlin/reflect/b;
+    instance-of v0, p0, Lkotlin/reflect/c;
 
     if-eqz v0, :cond_0
 
-    check-cast p0, Lkotlin/reflect/b;
+    check-cast p0, Lkotlin/reflect/c;
 
     goto/16 :goto_3
 
     .line 2
     :cond_0
-    instance-of v0, p0, Lkotlin/reflect/j;
+    instance-of v0, p0, Lkotlin/reflect/k;
 
     if-eqz v0, :cond_7
 
     .line 3
-    check-cast p0, Lkotlin/reflect/j;
+    check-cast p0, Lkotlin/reflect/k;
 
-    invoke-interface {p0}, Lkotlin/reflect/j;->getUpperBounds()Ljava/util/List;
+    invoke-interface {p0}, Lkotlin/reflect/k;->getUpperBounds()Ljava/util/List;
 
     move-result-object p0
 
@@ -62,7 +62,7 @@
 
     move-object v3, v1
 
-    check-cast v3, Lkotlin/reflect/i;
+    check-cast v3, Lkotlin/reflect/j;
 
     const-string v4, "null cannot be cast to non-null type kotlin.reflect.jvm.internal.KTypeImpl"
 
@@ -71,11 +71,11 @@
 
     check-cast v3, Lkotlin/reflect/jvm/internal/KTypeImpl;
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/KTypeImpl;->e()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/KTypeImpl;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v3
 
@@ -98,7 +98,7 @@
     if-eqz v2, :cond_3
 
     .line 6
-    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
 
     move-result-object v3
 
@@ -106,7 +106,7 @@
 
     if-eq v3, v4, :cond_3
 
-    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
 
     move-result-object v2
 
@@ -128,7 +128,7 @@
 
     .line 7
     :cond_4
-    check-cast v2, Lkotlin/reflect/i;
+    check-cast v2, Lkotlin/reflect/j;
 
     if-eqz v2, :cond_5
 
@@ -142,13 +142,13 @@
 
     move-object v2, p0
 
-    check-cast v2, Lkotlin/reflect/i;
+    check-cast v2, Lkotlin/reflect/j;
 
     :goto_2
     if-eqz v2, :cond_6
 
     .line 9
-    invoke-static {v2}, Lkotlin/reflect/jvm/a;->b(Lkotlin/reflect/i;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/reflect/jvm/a;->b(Lkotlin/reflect/j;)Lkotlin/reflect/c;
 
     move-result-object p0
 
@@ -159,7 +159,7 @@
     :cond_6
     const-class p0, Ljava/lang/Object;
 
-    invoke-static {p0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {p0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object p0
 
@@ -189,14 +189,14 @@
     throw v0
 .end method
 
-.method public static final b(Lkotlin/reflect/i;)Lkotlin/reflect/b;
+.method public static final b(Lkotlin/reflect/j;)Lkotlin/reflect/c;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/i;",
+            "Lkotlin/reflect/j;",
             ")",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "*>;"
         }
     .end annotation
@@ -206,13 +206,13 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/i;->b()Lkotlin/reflect/c;
+    invoke-interface {p0}, Lkotlin/reflect/j;->b()Lkotlin/reflect/d;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/a;->a(Lkotlin/reflect/c;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/reflect/jvm/a;->a(Lkotlin/reflect/d;)Lkotlin/reflect/c;
 
     move-result-object v0
 

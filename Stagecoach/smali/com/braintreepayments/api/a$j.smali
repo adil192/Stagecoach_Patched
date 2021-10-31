@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/braintreepayments/api/a;->e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+    value = Lcom/braintreepayments/api/a;->h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -45,7 +45,7 @@
     .line 1
     iget-object v0, p0, Lcom/braintreepayments/api/a$j;->b:Lcom/braintreepayments/api/a;
 
-    invoke-static {v0}, Lcom/braintreepayments/api/a;->Y2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/l;
+    invoke-static {v0}, Lcom/braintreepayments/api/a;->b3(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/l;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
     .line 1
     iget-object v0, p0, Lcom/braintreepayments/api/a$j;->b:Lcom/braintreepayments/api/a;
 
-    invoke-static {v0}, Lcom/braintreepayments/api/a;->Y2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/l;
+    invoke-static {v0}, Lcom/braintreepayments/api/a;->b3(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/l;
 
     move-result-object v0
 

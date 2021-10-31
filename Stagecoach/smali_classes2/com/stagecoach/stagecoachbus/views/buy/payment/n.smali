@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/n;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->z4()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->C4()Ljava/util/List;
 
     move-result-object v0
 

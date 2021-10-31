@@ -47,12 +47,12 @@
 
     const-string v1, "three-d-secure.verification-flow.upgrade-payment-method.errored"
 
-    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lcom/braintreepayments/api/l$a;->b:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 .end method
@@ -84,10 +84,10 @@
 
     const-string v2, "three-d-secure.verification-flow.upgrade-payment-method.failure.returned-lookup-nonce"
 
-    invoke-virtual {v1, v2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 5
-    invoke-virtual {p1}, Lcom/braintreepayments/api/models/CardNonce;->j()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
+    invoke-virtual {p1}, Lcom/braintreepayments/api/models/CardNonce;->l()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
 
     move-result-object v1
 
@@ -110,7 +110,7 @@
 
     const-string v1, "three-d-secure.verification-flow.upgrade-payment-method.succeeded"
 
-    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 8
     iget-object v0, p0, Lcom/braintreepayments/api/l$a;->b:Lcom/braintreepayments/api/a;

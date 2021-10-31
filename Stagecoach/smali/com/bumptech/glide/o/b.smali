@@ -69,7 +69,7 @@
     return v0
 .end method
 
-.method public j(Lc/e/g;)V
+.method public k(Lc/e/g;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -85,7 +85,7 @@
     iput v0, p0, Lcom/bumptech/glide/o/b;->k:I
 
     .line 2
-    invoke-super {p0, p1}, Lc/e/g;->j(Lc/e/g;)V
+    invoke-super {p0, p1}, Lc/e/g;->k(Lc/e/g;)V
 
     return-void
 .end method

@@ -109,7 +109,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p1, p2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p1, p2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p1
 

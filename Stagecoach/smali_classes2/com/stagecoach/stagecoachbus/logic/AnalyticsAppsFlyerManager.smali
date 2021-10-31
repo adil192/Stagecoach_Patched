@@ -146,7 +146,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/logic/d;-><init>(Lcom/stagecoach/stagecoachbus/logic/AnalyticsAppsFlyerManager;Ljava/lang/String;Lcom/stagecoach/stagecoachbus/logic/AnalyticsAppsFlyerManager$AppsFlyerTag;)V
 
-    invoke-static {v0}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v0}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object p1
 
@@ -155,11 +155,11 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p1, p2}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {p1}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     return-void
 .end method

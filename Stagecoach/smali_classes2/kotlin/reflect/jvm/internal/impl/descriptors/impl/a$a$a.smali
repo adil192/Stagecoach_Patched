@@ -85,7 +85,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/l0;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v0
 
@@ -110,7 +110,7 @@
     if-eqz v1, :cond_2
 
     .line 6
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v1
 
@@ -121,7 +121,7 @@
     .line 7
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/r;
 
-    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/r;->G(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/r;->C(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object p1
 
@@ -133,7 +133,7 @@
 
     .line 8
     :cond_2
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object p1
 

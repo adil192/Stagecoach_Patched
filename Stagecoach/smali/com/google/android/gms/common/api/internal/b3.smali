@@ -194,35 +194,6 @@
 
 
 # virtual methods
-.method public final d0(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Lcom/google/android/gms/common/api/internal/LifecycleCallback;",
-            ">(",
-            "Ljava/lang/String;",
-            "Ljava/lang/Class<",
-            "TT;>;)TT;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b3;->c:Ljava/util/Map;
-
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    invoke-virtual {p2, p1}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
-
-    return-object p1
-.end method
-
 .method public final dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 2
 
@@ -262,7 +233,36 @@
     return-void
 .end method
 
-.method public final f0()Landroid/app/Activity;
+.method public final g0(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Lcom/google/android/gms/common/api/internal/LifecycleCallback;",
+            ">(",
+            "Ljava/lang/String;",
+            "Ljava/lang/Class<",
+            "TT;>;)TT;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b3;->c:Ljava/util/Map;
+
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-virtual {p2, p1}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+
+    return-object p1
+.end method
+
+.method public final i0()Landroid/app/Activity;
     .locals 1
 
     .line 1
@@ -625,7 +625,7 @@
     return-void
 .end method
 
-.method public final s(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
+.method public final v(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
     .locals 2
 
     .line 1

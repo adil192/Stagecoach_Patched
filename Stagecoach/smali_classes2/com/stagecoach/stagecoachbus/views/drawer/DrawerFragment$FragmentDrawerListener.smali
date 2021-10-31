@@ -15,20 +15,20 @@
 
 
 # virtual methods
-.method public abstract E()V
+.method public abstract F()V
 .end method
 
-.method public abstract H()V
+.method public abstract I()V
 .end method
 
-.method public abstract K()V
+.method public abstract L()V
 .end method
 
-.method public abstract Q(Lcom/stagecoach/stagecoachbus/views/menu/NavItem;)V
+.method public abstract R(Lcom/stagecoach/stagecoachbus/views/menu/NavItem;)V
 .end method
 
 .method public abstract m0()V
 .end method
 
-.method public abstract v()V
+.method public abstract w()V
 .end method

@@ -291,7 +291,7 @@
     iget-object v3, p0, Landroidx/recyclerview/widget/h$c;->d:Landroidx/recyclerview/widget/h$b;
 
     .line 11
-    invoke-virtual {v3, v1, v2}, Landroidx/recyclerview/widget/h$b;->c(II)Ljava/lang/Object;
+    invoke-virtual {v3, v1, v2}, Landroidx/recyclerview/widget/h$b;->getChangePayload(II)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -473,7 +473,7 @@
     iget-object v4, p0, Landroidx/recyclerview/widget/h$c;->d:Landroidx/recyclerview/widget/h$b;
 
     .line 11
-    invoke-virtual {v4, v2, v1}, Landroidx/recyclerview/widget/h$b;->c(II)Ljava/lang/Object;
+    invoke-virtual {v4, v2, v1}, Landroidx/recyclerview/widget/h$b;->getChangePayload(II)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -606,7 +606,7 @@
     .line 4
     iget-object p2, p0, Landroidx/recyclerview/widget/h$c;->d:Landroidx/recyclerview/widget/h$b;
 
-    invoke-virtual {p2, v1, v0}, Landroidx/recyclerview/widget/h$b;->b(II)Z
+    invoke-virtual {p2, v1, v0}, Landroidx/recyclerview/widget/h$b;->areItemsTheSame(II)Z
 
     move-result p2
 
@@ -615,7 +615,7 @@
     .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/h$c;->d:Landroidx/recyclerview/widget/h$b;
 
-    invoke-virtual {p1, v1, v0}, Landroidx/recyclerview/widget/h$b;->a(II)Z
+    invoke-virtual {p1, v1, v0}, Landroidx/recyclerview/widget/h$b;->areContentsTheSame(II)Z
 
     move-result p1
 
@@ -661,7 +661,7 @@
     .line 8
     iget-object v1, p0, Landroidx/recyclerview/widget/h$c;->d:Landroidx/recyclerview/widget/h$b;
 
-    invoke-virtual {v1, v0, p2}, Landroidx/recyclerview/widget/h$b;->b(II)Z
+    invoke-virtual {v1, v0, p2}, Landroidx/recyclerview/widget/h$b;->areItemsTheSame(II)Z
 
     move-result v1
 
@@ -670,7 +670,7 @@
     .line 9
     iget-object p3, p0, Landroidx/recyclerview/widget/h$c;->d:Landroidx/recyclerview/widget/h$b;
 
-    invoke-virtual {p3, v0, p2}, Landroidx/recyclerview/widget/h$b;->a(II)Z
+    invoke-virtual {p3, v0, p2}, Landroidx/recyclerview/widget/h$b;->areContentsTheSame(II)Z
 
     move-result p3
 
@@ -819,7 +819,7 @@
     iget-object v6, p0, Landroidx/recyclerview/widget/h$c;->d:Landroidx/recyclerview/widget/h$b;
 
     .line 14
-    invoke-virtual {v6, v1, v5}, Landroidx/recyclerview/widget/h$b;->a(II)Z
+    invoke-virtual {v6, v1, v5}, Landroidx/recyclerview/widget/h$b;->areContentsTheSame(II)Z
 
     move-result v6
 
@@ -1130,7 +1130,7 @@
     add-int/2addr v4, v11
 
     .line 16
-    invoke-virtual {v3, v2, v4}, Landroidx/recyclerview/widget/h$b;->c(II)Ljava/lang/Object;
+    invoke-virtual {v3, v2, v4}, Landroidx/recyclerview/widget/h$b;->getChangePayload(II)Ljava/lang/Object;
 
     move-result-object v2
 

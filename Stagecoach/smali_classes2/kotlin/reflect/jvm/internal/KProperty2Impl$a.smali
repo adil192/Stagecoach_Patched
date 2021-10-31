@@ -3,7 +3,7 @@
 .source "KProperty2Impl.kt"
 
 # interfaces
-.implements Lkotlin/reflect/e;
+.implements Lkotlin/reflect/f;
 .implements Lkotlin/jvm/b/p;
 
 
@@ -54,9 +54,9 @@
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "Lkotlin/reflect/jvm/internal/KProperty2Impl;",
-        "g",
+        "j",
         "Lkotlin/reflect/jvm/internal/KProperty2Impl;",
-        "n",
+        "o",
         "()Lkotlin/reflect/jvm/internal/KProperty2Impl;",
         "property",
         "<init>",
@@ -73,7 +73,7 @@
 
 
 # instance fields
-.field private final g:Lkotlin/reflect/jvm/internal/KProperty2Impl;
+.field private final j:Lkotlin/reflect/jvm/internal/KProperty2Impl;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlin/reflect/jvm/internal/KProperty2Impl<",
@@ -101,7 +101,7 @@
     .line 1
     invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$Getter;-><init>()V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->g:Lkotlin/reflect/jvm/internal/KProperty2Impl;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->j:Lkotlin/reflect/jvm/internal/KProperty2Impl;
 
     return-void
 .end method
@@ -117,29 +117,29 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->n()Lkotlin/reflect/jvm/internal/KProperty2Impl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->o()Lkotlin/reflect/jvm/internal/KProperty2Impl;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lkotlin/reflect/jvm/internal/KProperty2Impl;->r(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Lkotlin/reflect/jvm/internal/KProperty2Impl;->s(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+.method public bridge synthetic m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->n()Lkotlin/reflect/jvm/internal/KProperty2Impl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->o()Lkotlin/reflect/jvm/internal/KProperty2Impl;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public n()Lkotlin/reflect/jvm/internal/KProperty2Impl;
+.method public o()Lkotlin/reflect/jvm/internal/KProperty2Impl;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -150,7 +150,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->g:Lkotlin/reflect/jvm/internal/KProperty2Impl;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KProperty2Impl$a;->j:Lkotlin/reflect/jvm/internal/KProperty2Impl;
 
     return-object v0
 .end method

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/e0;->a:Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->N4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)V
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->Q4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)V
 
     return-void
 .end method

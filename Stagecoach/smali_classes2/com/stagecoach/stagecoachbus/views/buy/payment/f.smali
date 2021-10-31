@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/f;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->X3(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->a4(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 

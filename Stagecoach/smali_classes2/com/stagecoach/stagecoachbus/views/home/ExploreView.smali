@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract A(Ljava/util/List;)V
+.method public abstract D(Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -15,13 +15,13 @@
     .end annotation
 .end method
 
-.method public abstract C0(Lcom/stagecoach/stagecoachbus/model/busservice/BusResponse$ServiceData;)V
+.method public abstract F0(Lcom/stagecoach/stagecoachbus/model/busservice/BusResponse$ServiceData;)V
 .end method
 
-.method public abstract F0(I)V
+.method public abstract I0(I)V
 .end method
 
-.method public abstract P(Ljava/util/List;)V
+.method public abstract S(Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -32,10 +32,10 @@
     .end annotation
 .end method
 
-.method public abstract W(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public abstract Z(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 .end method
 
-.method public abstract X(Ljava/util/List;)V
+.method public abstract a0(Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -46,17 +46,17 @@
     .end annotation
 .end method
 
-.method public abstract b()V
+.method public abstract d()V
 .end method
 
-.method public abstract i()V
+.method public abstract k()V
 .end method
 
-.method public abstract i0(Lcom/stagecoach/stagecoachbus/model/sckml/Kml;Lcom/stagecoach/stagecoachbus/model/itinerary/Status;)V
-.end method
-
-.method public abstract r0()V
+.method public abstract l0(Lcom/stagecoach/stagecoachbus/model/sckml/Kml;Lcom/stagecoach/stagecoachbus/model/itinerary/Status;)V
 .end method
 
 .method public abstract setRouteOnMap(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+.end method
+
+.method public abstract u0()V
 .end method

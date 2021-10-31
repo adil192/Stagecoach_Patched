@@ -78,7 +78,7 @@
     if-eqz v4, :cond_1
 
     .line 3
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->O0()Ljava/util/List;
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->H0()Ljava/util/List;
 
     move-result-object v2
 
@@ -102,7 +102,7 @@
 
     .line 4
     :cond_1
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v2
 

@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lkotlin/jvm/internal/g;
-.implements Lkotlin/reflect/e;
+.implements Lkotlin/reflect/f;
 
 
 # instance fields
@@ -105,11 +105,11 @@
 
 
 # virtual methods
-.method protected b()Lkotlin/reflect/a;
+.method protected d()Lkotlin/reflect/b;
     .locals 1
 
     .line 1
-    invoke-static {p0}, Lkotlin/jvm/internal/k;->a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/e;
+    invoke-static {p0}, Lkotlin/jvm/internal/k;->a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/f;
 
     move-result-object v0
 
@@ -137,11 +137,11 @@
     check-cast p1, Lkotlin/jvm/internal/FunctionReference;
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object v3
 
@@ -215,12 +215,12 @@
 
     .line 4
     :cond_2
-    instance-of v0, p1, Lkotlin/reflect/e;
+    instance-of v0, p1, Lkotlin/reflect/f;
 
     if-eqz v0, :cond_3
 
     .line 5
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
 
     move-result-object v0
 
@@ -234,11 +234,44 @@
     return v2
 .end method
 
+.method public getArity()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lkotlin/jvm/internal/FunctionReference;->arity:I
+
+    return v0
+.end method
+
+.method protected bridge synthetic getReflected()Lkotlin/reflect/b;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/f;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method protected getReflected()Lkotlin/reflect/f;
+    .locals 1
+
+    .line 2
+    invoke-super {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    check-cast v0, Lkotlin/reflect/f;
+
+    return-object v0
+.end method
+
 .method public hashCode()I
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object v0
 
@@ -249,7 +282,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object v0
 
@@ -285,11 +318,86 @@
     return v0
 .end method
 
+.method public isExternal()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/f;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/f;->isExternal()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isInfix()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/f;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/f;->isInfix()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isInline()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/f;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/f;->isInline()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isOperator()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/f;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/f;->isOperator()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isSuspend()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/f;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/f;->isSuspend()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public toString()Ljava/lang/String;
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
 
     move-result-object v0
 

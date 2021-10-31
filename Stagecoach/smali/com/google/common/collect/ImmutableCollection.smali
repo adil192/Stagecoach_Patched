@@ -162,7 +162,7 @@
     return-object v0
 .end method
 
-.method k()I
+.method j()I
     .locals 1
 
     .line 1
@@ -173,7 +173,7 @@
     throw v0
 .end method
 
-.method l()I
+.method k()I
     .locals 1
 
     .line 1
@@ -286,11 +286,11 @@
     if-eqz v1, :cond_0
 
     .line 6
-    invoke-virtual {p0}, Lcom/google/common/collect/ImmutableCollection;->l()I
+    invoke-virtual {p0}, Lcom/google/common/collect/ImmutableCollection;->k()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/google/common/collect/ImmutableCollection;->k()I
+    invoke-virtual {p0}, Lcom/google/common/collect/ImmutableCollection;->j()I
 
     move-result v2
 

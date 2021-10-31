@@ -36,7 +36,7 @@
 
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;->W3(Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/PaymentOptionRadioView;Ljava/lang/Boolean;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/PaymentOptionRadioView;Ljava/lang/Boolean;)V
 
     return-void
 .end method

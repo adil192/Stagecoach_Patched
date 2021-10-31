@@ -38,7 +38,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketPresenter$MyBasketView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketPresenter$MyBasketView;->v()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketPresenter$MyBasketView;->y()V
 
     return-void
 .end method

@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/busstop/a;->d:Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->g4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->j4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
 
     move-result-object v0
 

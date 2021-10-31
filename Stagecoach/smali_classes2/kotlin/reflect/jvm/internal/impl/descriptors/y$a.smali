@@ -19,7 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/y;->H()Ljava/util/List;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/y;->D()Ljava/util/List;
 
     move-result-object p0
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->D3(Lcom/stagecoach/stagecoachbus/views/menu/NavItem;)V
+    value = Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->G3(Lcom/stagecoach/stagecoachbus/views/menu/NavItem;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -45,7 +45,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment$3;->b:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->y3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)Landroidx/recyclerview/widget/RecyclerView;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->B3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
 
@@ -68,7 +68,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment$3;->b:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->z3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)Landroid/widget/RelativeLayout;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->C3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)Landroid/widget/RelativeLayout;
 
     move-result-object p1
 
@@ -79,7 +79,7 @@
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment$3;->b:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->z3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)Landroid/widget/RelativeLayout;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->C3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)Landroid/widget/RelativeLayout;
 
     move-result-object p1
 

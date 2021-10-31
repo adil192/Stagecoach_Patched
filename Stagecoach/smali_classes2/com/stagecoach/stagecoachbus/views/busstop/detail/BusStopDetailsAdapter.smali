@@ -75,7 +75,7 @@
 
 
 # static fields
-.field static final synthetic e:[Lkotlin/reflect/h;
+.field static final synthetic e:[Lkotlin/reflect/i;
 
 
 # instance fields
@@ -102,7 +102,7 @@
 
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lkotlin/reflect/h;
+    new-array v0, v0, [Lkotlin/reflect/i;
 
     new-instance v1, Lkotlin/jvm/internal/MutablePropertyReference1Impl;
 
@@ -116,13 +116,13 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/MutablePropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->e(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/f;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->e(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/g;
 
     move-result-object v1
 
     aput-object v1, v0, v5
 
-    sput-object v0, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->e:[Lkotlin/reflect/h;
+    sput-object v0, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->e:[Lkotlin/reflect/i;
 
     return-void
 .end method
@@ -202,13 +202,13 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->c:Lkotlin/q/d;
 
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->e:[Lkotlin/reflect/h;
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->e:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 
     aget-object v1, v1, v2
 
-    invoke-interface {v0, p0, v1}, Lkotlin/q/d;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+    invoke-interface {v0, p0, v1}, Lkotlin/q/d;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -259,13 +259,13 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->c:Lkotlin/q/d;
 
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->e:[Lkotlin/reflect/h;
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusStopDetailsAdapter;->e:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 
     aget-object v1, v1, v2
 
-    invoke-interface {v0, p0, v1, p1}, Lkotlin/q/d;->setValue(Ljava/lang/Object;Lkotlin/reflect/h;Ljava/lang/Object;)V
+    invoke-interface {v0, p0, v1, p1}, Lkotlin/q/d;->setValue(Ljava/lang/Object;Lkotlin/reflect/i;Ljava/lang/Object;)V
 
     return-void
 .end method

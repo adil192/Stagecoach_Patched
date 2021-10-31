@@ -192,7 +192,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v4, v0}, Lcom/braintreepayments/api/models/PostalAddress;->j(Ljava/lang/String;)Lcom/braintreepayments/api/models/PostalAddress;
+    invoke-virtual {v4, v0}, Lcom/braintreepayments/api/models/PostalAddress;->l(Ljava/lang/String;)Lcom/braintreepayments/api/models/PostalAddress;
 
     const-string v0, "state"
 
@@ -269,7 +269,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/models/PostalAddress;->j(Ljava/lang/String;)Lcom/braintreepayments/api/models/PostalAddress;
+    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/models/PostalAddress;->l(Ljava/lang/String;)Lcom/braintreepayments/api/models/PostalAddress;
 
     const-string v1, "administrativeArea"
 

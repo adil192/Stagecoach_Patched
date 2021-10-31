@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->q(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->r(Ljava/util/List;)V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$3;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;

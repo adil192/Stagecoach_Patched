@@ -98,11 +98,11 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KCallableImpl$_typeParameters$1;->this$0:Lkotlin/reflect/jvm/internal/KCallableImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KCallableImpl;->i()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->i()Ljava/util/List;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->getTypeParameters()Ljava/util/List;
 
     move-result-object v0
 

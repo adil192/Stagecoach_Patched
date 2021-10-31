@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->k(Ljava/lang/String;Ljava/lang/String;)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    value = Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->n(Ljava/lang/String;Ljava/lang/String;)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

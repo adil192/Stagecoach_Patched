@@ -43,26 +43,7 @@
 
 
 # virtual methods
-.method public B()Ljava/util/List;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e$a;->b(Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e;)Ljava/util/List;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public J()Ljava/util/List;
+.method public E()Ljava/util/List;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -123,7 +104,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/j;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/j;->J()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
@@ -186,7 +167,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->B()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->x()Ljava/util/List;
 
     move-result-object v0
 
@@ -218,11 +199,22 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->J()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->E()Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
+.end method
+
+.method public bridge synthetic h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->k(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
+
+    move-result-object p1
+
+    return-object p1
 .end method
 
 .method public hashCode()I
@@ -238,18 +230,7 @@
     return v0
 .end method
 
-.method public bridge synthetic j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->n(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public m()Z
+.method public j()Z
     .locals 1
 
     .line 1
@@ -260,7 +241,7 @@
     return v0
 .end method
 
-.method public n(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
+.method public k(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
     .locals 1
 
     const-string v0, "fqName"
@@ -273,6 +254,24 @@
     move-result-object p1
 
     return-object p1
+.end method
+
+.method public r()Ljava/lang/reflect/AnnotatedElement;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->a:Ljava/lang/reflect/TypeVariable;
+
+    instance-of v1, v0, Ljava/lang/reflect/AnnotatedElement;
+
+    if-nez v1, :cond_0
+
+    const/4 v0, 0x0
+
+    :cond_0
+    check-cast v0, Ljava/lang/reflect/AnnotatedElement;
+
+    return-object v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -306,20 +305,21 @@
     return-object v0
 .end method
 
-.method public v()Ljava/lang/reflect/AnnotatedElement;
-    .locals 2
+.method public x()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;",
+            ">;"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/v;->a:Ljava/lang/reflect/TypeVariable;
+    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e$a;->b(Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e;)Ljava/util/List;
 
-    instance-of v1, v0, Ljava/lang/reflect/AnnotatedElement;
-
-    if-nez v1, :cond_0
-
-    const/4 v0, 0x0
-
-    :cond_0
-    check-cast v0, Ljava/lang/reflect/AnnotatedElement;
+    move-result-object v0
 
     return-object v0
 .end method

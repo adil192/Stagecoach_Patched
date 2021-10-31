@@ -21,7 +21,7 @@
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/b/p<",
         "TT;",
-        "Lkotlin/reflect/h<",
+        "Lkotlin/reflect/i<",
         "*>;",
         "Ljava/lang/String;",
         ">;"
@@ -40,11 +40,11 @@
     d2 = {
         "T",
         "t",
-        "Lkotlin/reflect/h;",
+        "Lkotlin/reflect/i;",
         "desc",
         "",
         "invoke",
-        "(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/String;",
+        "(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/String;",
         "<anonymous>"
     }
     k = 0x3
@@ -82,21 +82,21 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/reflect/h;
+    check-cast p2, Lkotlin/reflect/i;
 
-    invoke-virtual {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt$requiredString$1;->invoke(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt$requiredString$1;->invoke(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/String;
+.method public final invoke(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/String;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)",
             "Ljava/lang/String;"
         }
@@ -128,7 +128,7 @@
     :cond_0
     iget p1, p0, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt$requiredString$1;->$id:I
 
-    invoke-static {p1, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt;->access$notFound(ILkotlin/reflect/h;)Ljava/lang/Void;
+    invoke-static {p1, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt;->access$notFound(ILkotlin/reflect/i;)Ljava/lang/Void;
 
     new-instance p1, Lkotlin/KotlinNothingValueException;
 

@@ -15,13 +15,13 @@
 
 
 # virtual methods
-.method public a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/e;
+.method public a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/f;
     .locals 0
 
     return-object p1
 .end method
 
-.method public b(Ljava/lang/Class;)Lkotlin/reflect/b;
+.method public b(Ljava/lang/Class;)Lkotlin/reflect/c;
     .locals 1
 
     .line 1
@@ -32,7 +32,7 @@
     return-object v0
 .end method
 
-.method public c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/d;
+.method public c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/e;
     .locals 1
 
     .line 1
@@ -43,13 +43,13 @@
     return-object v0
 .end method
 
-.method public d(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/f;
+.method public d(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/g;
     .locals 0
 
     return-object p1
 .end method
 
-.method public e(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+.method public e(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
     .locals 0
 
     return-object p1
@@ -105,23 +105,23 @@
     return-object p1
 .end method
 
-.method public h(Lkotlin/reflect/c;Ljava/util/List;Z)Lkotlin/reflect/i;
+.method public h(Lkotlin/reflect/d;Ljava/util/List;Z)Lkotlin/reflect/j;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/c;",
+            "Lkotlin/reflect/d;",
             "Ljava/util/List<",
-            "Lkotlin/reflect/k;",
+            "Lkotlin/reflect/l;",
             ">;Z)",
-            "Lkotlin/reflect/i;"
+            "Lkotlin/reflect/j;"
         }
     .end annotation
 
     .line 1
     new-instance v0, Lkotlin/jvm/internal/TypeReference;
 
-    invoke-direct {v0, p1, p2, p3}, Lkotlin/jvm/internal/TypeReference;-><init>(Lkotlin/reflect/c;Ljava/util/List;Z)V
+    invoke-direct {v0, p1, p2, p3}, Lkotlin/jvm/internal/TypeReference;-><init>(Lkotlin/reflect/d;Ljava/util/List;Z)V
 
     return-object v0
 .end method

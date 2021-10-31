@@ -85,7 +85,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/g$a;->l(I)Ljava/lang/Integer;
+    invoke-virtual {p0, p1}, Lkotlin/collections/g$a;->k(I)Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -152,7 +152,7 @@
     return v0
 .end method
 
-.method public l(I)Ljava/lang/Integer;
+.method public k(I)Ljava/lang/Integer;
     .locals 1
 
     .line 1

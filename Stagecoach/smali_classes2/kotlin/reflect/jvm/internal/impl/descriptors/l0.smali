@@ -7,11 +7,11 @@
 
 
 # virtual methods
-.method public abstract X()Lkotlin/reflect/jvm/internal/impl/types/d0;
+.method public abstract S()Lkotlin/reflect/jvm/internal/impl/types/d0;
 .end method
 
-.method public abstract k0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+.method public abstract f0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 .end method
 
-.method public abstract p()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public abstract m()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 .end method

@@ -255,7 +255,7 @@
     .line 3
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v3, v4, v1, v2, v0}, Lio/reactivex/p;->T(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v3, v4, v1, v2, v0}, Lio/reactivex/p;->b0(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -264,7 +264,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -275,7 +275,7 @@
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/home/ticketview/s;->c:Lcom/stagecoach/stagecoachbus/views/home/ticketview/s;
 
     .line 5
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
@@ -320,7 +320,7 @@
     .line 5
     sget-object v2, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v0, v1, v0, v1, v2}, Lio/reactivex/p;->T(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v0, v1, v0, v1, v2}, Lio/reactivex/p;->b0(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -329,7 +329,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -340,7 +340,7 @@
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/home/ticketview/p;->c:Lcom/stagecoach/stagecoachbus/views/home/ticketview/p;
 
     .line 7
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
@@ -995,7 +995,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRActiveTicketView;->K:Lcom/stagecoach/core/model/tickets/OrderItem;
 
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->f1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->i1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
 
     return-void
 .end method
@@ -1122,7 +1122,7 @@
     .line 3
     sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v0, v1, v2}, Lio/reactivex/p;->A0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v0, v1, v2}, Lio/reactivex/p;->J0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1131,7 +1131,7 @@
     invoke-direct {v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/u;-><init>(Le/b/a/a/a/a/a;)V
 
     .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1264,7 +1264,7 @@
     .line 2
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRActiveTicketView;->K:Lcom/stagecoach/core/model/tickets/OrderItem;
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->f1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->i1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
 
     :cond_0
     return-void
@@ -1508,7 +1508,7 @@
     if-eqz v0, :cond_6
 
     .line 22
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->h(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->j(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 
     const/4 p1, 0x0
 
@@ -1616,7 +1616,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->t0(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRTicketOnClickListener;->w0(Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -1747,7 +1747,7 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {v0}, Lio/reactivex/p;->l()Lio/reactivex/p;
+    invoke-virtual {v0}, Lio/reactivex/p;->q()Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1756,7 +1756,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/k;-><init>(Lcom/stagecoach/stagecoachbus/views/home/ticketview/QRActiveTicketView;)V
 
     .line 12
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->w0(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->E0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1765,7 +1765,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1774,7 +1774,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1785,7 +1785,7 @@
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/home/ticketview/q;->c:Lcom/stagecoach/stagecoachbus/views/home/ticketview/q;
 
     .line 15
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 

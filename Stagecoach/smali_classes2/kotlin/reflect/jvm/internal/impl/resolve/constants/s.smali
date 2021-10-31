@@ -26,7 +26,7 @@
     new-array v0, v0, [Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v1
 
@@ -38,7 +38,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v1
 
@@ -50,7 +50,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v1
 
@@ -62,7 +62,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object p0
 

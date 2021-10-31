@@ -140,7 +140,7 @@
     return-void
 .end method
 
-.method private static k(Ljava/lang/Object;)Ljava/lang/String;
+.method private static j(Ljava/lang/Object;)Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -340,7 +340,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/google/protobuf/z;->l(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/google/protobuf/z;->k(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -368,7 +368,7 @@
     return-void
 .end method
 
-.method public l(I)Ljava/lang/String;
+.method public k(I)Ljava/lang/String;
     .locals 2
 
     .line 1
@@ -531,7 +531,7 @@
     iput v0, p0, Ljava/util/AbstractList;->modCount:I
 
     .line 4
-    invoke-static {p1}, Lcom/google/protobuf/z;->k(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/google/protobuf/z;->j(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -563,7 +563,7 @@
     move-result-object p1
 
     .line 3
-    invoke-static {p1}, Lcom/google/protobuf/z;->k(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/google/protobuf/z;->j(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/f;->c:Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;->o3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;->r3(Landroid/view/View;)V
 
     return-void
 .end method

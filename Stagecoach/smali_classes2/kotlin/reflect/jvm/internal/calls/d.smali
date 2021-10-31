@@ -19,7 +19,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/calls/b;->h()Ljava/util/List;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/calls/b;->b()Ljava/util/List;
 
     move-result-object p0
 

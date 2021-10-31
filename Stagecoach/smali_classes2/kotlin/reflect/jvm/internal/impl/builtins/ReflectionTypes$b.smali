@@ -67,7 +67,7 @@
     .line 3
     new-instance v1, Lkotlin/reflect/jvm/internal/impl/types/StarProjectionImpl;
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v2
 

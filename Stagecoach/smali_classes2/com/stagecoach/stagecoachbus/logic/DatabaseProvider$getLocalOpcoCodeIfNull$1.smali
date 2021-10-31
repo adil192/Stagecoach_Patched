@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->z(Ljava/util/List;)Ljava/util/List;
+    value = Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->A(Ljava/util/List;)Ljava/util/List;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

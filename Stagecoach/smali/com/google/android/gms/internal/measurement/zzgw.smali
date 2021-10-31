@@ -137,7 +137,7 @@
     return p1
 .end method
 
-.method protected final k(Ljava/nio/charset/Charset;)Ljava/lang/String;
+.method protected final j(Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 4
 
     .line 1
@@ -158,7 +158,7 @@
     return-object v0
 .end method
 
-.method final l(Lcom/google/android/gms/internal/measurement/y4;)V
+.method final k(Lcom/google/android/gms/internal/measurement/y4;)V
     .locals 3
     .annotation system Ldalvik/annotation/Throws;
         value = {

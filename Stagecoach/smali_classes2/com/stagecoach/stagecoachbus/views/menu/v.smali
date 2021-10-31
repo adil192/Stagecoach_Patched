@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/menu/v;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->X3(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->a4(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

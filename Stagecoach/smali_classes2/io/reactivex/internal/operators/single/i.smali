@@ -1,6 +1,6 @@
 .class public final Lio/reactivex/internal/operators/single/i;
 .super Lio/reactivex/v;
-.source "SingleOnErrorReturn.java"
+.source "SingleMap.java"
 
 
 # annotations
@@ -14,9 +14,11 @@
     value = {
         "<T:",
         "Ljava/lang/Object;",
+        "R:",
+        "Ljava/lang/Object;",
         ">",
         "Lio/reactivex/v<",
-        "TT;>;"
+        "TR;>;"
     }
 .end annotation
 
@@ -31,38 +33,26 @@
     .end annotation
 .end field
 
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
-            "-",
-            "Ljava/lang/Throwable;",
-            "+TT;>;"
-        }
-    .end annotation
-.end field
-
-.field final e:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
+            "Lio/reactivex/c0/i<",
+            "-TT;+TR;>;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/z;Lio/reactivex/c0/g;Ljava/lang/Object;)V
+.method public constructor <init>(Lio/reactivex/z;Lio/reactivex/c0/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/z<",
             "+TT;>;",
-            "Lio/reactivex/c0/g<",
-            "-",
-            "Ljava/lang/Throwable;",
-            "+TT;>;TT;)V"
+            "Lio/reactivex/c0/i<",
+            "-TT;+TR;>;)V"
         }
     .end annotation
 
@@ -73,23 +63,20 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/single/i;->c:Lio/reactivex/z;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/single/i;->d:Lio/reactivex/c0/g;
-
-    .line 4
-    iput-object p3, p0, Lio/reactivex/internal/operators/single/i;->e:Ljava/lang/Object;
+    iput-object p2, p0, Lio/reactivex/internal/operators/single/i;->d:Lio/reactivex/c0/i;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected E(Lio/reactivex/x;)V
-    .locals 2
+.method protected F(Lio/reactivex/x;)V
+    .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/x<",
-            "-TT;>;)V"
+            "-TR;>;)V"
         }
     .end annotation
 
@@ -98,7 +85,9 @@
 
     new-instance v1, Lio/reactivex/internal/operators/single/i$a;
 
-    invoke-direct {v1, p0, p1}, Lio/reactivex/internal/operators/single/i$a;-><init>(Lio/reactivex/internal/operators/single/i;Lio/reactivex/x;)V
+    iget-object v2, p0, Lio/reactivex/internal/operators/single/i;->d:Lio/reactivex/c0/i;
+
+    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/single/i$a;-><init>(Lio/reactivex/x;Lio/reactivex/c0/i;)V
 
     invoke-interface {v0, v1}, Lio/reactivex/z;->b(Lio/reactivex/x;)V
 

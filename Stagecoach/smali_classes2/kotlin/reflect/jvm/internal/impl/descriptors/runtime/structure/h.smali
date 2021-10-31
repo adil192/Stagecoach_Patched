@@ -26,7 +26,7 @@
     iput-object p1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->c:Ljava/lang/reflect/Type;
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->J()Ljava/lang/reflect/Type;
 
     move-result-object p1
 
@@ -99,7 +99,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->J()Ljava/lang/reflect/Type;
 
     move-result-object v1
 
@@ -113,7 +113,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->O()Ljava/lang/reflect/Type;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->J()Ljava/lang/reflect/Type;
 
     move-result-object v1
 
@@ -130,7 +130,7 @@
 
 
 # virtual methods
-.method protected O()Ljava/lang/reflect/Type;
+.method protected J()Ljava/lang/reflect/Type;
     .locals 1
 
     .line 1
@@ -139,7 +139,7 @@
     return-object v0
 .end method
 
-.method public P()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
+.method public K()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
     .locals 1
 
     .line 1
@@ -148,11 +148,11 @@
     return-object v0
 .end method
 
-.method public bridge synthetic n()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
+.method public bridge synthetic k()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->P()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/h;->K()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
 
     move-result-object v0
 

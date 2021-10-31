@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -89,7 +89,7 @@
     :cond_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment$onCreateView$1;->c:Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;
 
-    invoke-virtual {p1}, Landroidx/fragment/app/b;->V2()V
+    invoke-virtual {p1}, Landroidx/fragment/app/b;->Y2()V
 
     return-void
 .end method

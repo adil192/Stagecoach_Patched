@@ -117,33 +117,34 @@
     invoke-virtual {p1, v1, v2}, Lorg/parceler/a;->f(ILjava/lang/Object;)V
 
     .line 9
-    invoke-static {p0, p1}, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem$$Parcelable;->read(Landroid/os/Parcel;Lorg/parceler/a;)Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;
+    invoke-virtual {p0}, Landroid/os/Parcel;->readSerializable()Ljava/io/Serializable;
 
     move-result-object p0
 
-    .line 10
+    check-cast p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;
+
     iput-object p0, v2, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItemHolder;->qrTicketItem:Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;
 
-    .line 11
+    .line 10
     invoke-virtual {p1, v0, v2}, Lorg/parceler/a;->f(ILjava/lang/Object;)V
 
     return-object v2
 .end method
 
 .method public static write(Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItemHolder;Landroid/os/Parcel;ILorg/parceler/a;)V
-    .locals 2
+    .locals 1
 
     .line 1
     invoke-virtual {p3, p0}, Lorg/parceler/a;->c(Ljava/lang/Object;)I
 
-    move-result v0
+    move-result p2
 
-    const/4 v1, -0x1
+    const/4 v0, -0x1
 
-    if-eq v0, v1, :cond_0
+    if-eq p2, v0, :cond_0
 
     .line 2
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
     goto :goto_0
 
@@ -151,14 +152,14 @@
     :cond_0
     invoke-virtual {p3, p0}, Lorg/parceler/a;->e(Ljava/lang/Object;)I
 
-    move-result v0
+    move-result p2
 
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 4
     iget-object p0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItemHolder;->qrTicketItem:Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;
 
-    invoke-static {p0, p1, p2, p3}, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem$$Parcelable;->write(Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;Landroid/os/Parcel;ILorg/parceler/a;)V
+    invoke-virtual {p1, p0}, Landroid/os/Parcel;->writeSerializable(Ljava/io/Serializable;)V
 
     :goto_0
     return-void

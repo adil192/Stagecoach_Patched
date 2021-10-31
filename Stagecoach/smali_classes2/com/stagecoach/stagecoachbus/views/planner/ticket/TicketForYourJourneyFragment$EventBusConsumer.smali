@@ -127,17 +127,17 @@
     const p1, 0x7f1102dd
 
     .line 4
-    invoke-virtual {v0, p1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->S3(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->V3(Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 5
     :cond_0
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->E3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->H3()V
 
     :cond_1
     :goto_0

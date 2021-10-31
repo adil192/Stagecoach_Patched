@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/account/e0;->d:Lcom/stagecoach/stagecoachbus/model/customeraccount/StoreCustomerDetailsQuery;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/EditMyAccountFragment;->m4(Lcom/stagecoach/stagecoachbus/model/customeraccount/StoreCustomerDetailsQuery;)Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/EditMyAccountFragment;->p4(Lcom/stagecoach/stagecoachbus/model/customeraccount/StoreCustomerDetailsQuery;)Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
 
     move-result-object v0
 

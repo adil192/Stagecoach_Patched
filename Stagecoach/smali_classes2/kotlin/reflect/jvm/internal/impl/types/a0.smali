@@ -19,7 +19,7 @@
 
 
 # virtual methods
-.method public Q0()Z
+.method public J0()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -27,18 +27,18 @@
     return v0
 .end method
 
-.method public bridge synthetic a1(Lkotlin/reflect/jvm/internal/impl/types/d0;)Lkotlin/reflect/jvm/internal/impl/types/l;
+.method public bridge synthetic T0(Lkotlin/reflect/jvm/internal/impl/types/d0;)Lkotlin/reflect/jvm/internal/impl/types/l;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/a0;->c1(Lkotlin/reflect/jvm/internal/impl/types/d0;)Lkotlin/reflect/jvm/internal/impl/types/a0;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/a0;->V0(Lkotlin/reflect/jvm/internal/impl/types/d0;)Lkotlin/reflect/jvm/internal/impl/types/a0;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public c1(Lkotlin/reflect/jvm/internal/impl/types/d0;)Lkotlin/reflect/jvm/internal/impl/types/a0;
+.method public V0(Lkotlin/reflect/jvm/internal/impl/types/d0;)Lkotlin/reflect/jvm/internal/impl/types/a0;
     .locals 1
 
     const-string v0, "delegate"

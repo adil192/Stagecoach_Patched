@@ -18,5 +18,5 @@
 .method public abstract k()V
 .end method
 
-.method public abstract x()V
+.method public abstract y()V
 .end method

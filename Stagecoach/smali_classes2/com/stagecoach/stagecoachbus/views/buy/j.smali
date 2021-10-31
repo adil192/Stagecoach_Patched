@@ -36,7 +36,7 @@
 
     check-cast p1, Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->t4(Ljava/lang/String;Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->w4(Ljava/lang/String;Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;)V
 
     return-void
 .end method

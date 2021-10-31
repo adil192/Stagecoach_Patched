@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->g(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+    value = Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->g(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -77,13 +77,11 @@
 
 .field final synthetic n:Ljava/lang/String;
 
-.field final synthetic o:Ljava/util/Date;
-
-.field final synthetic p:I
+.field final synthetic o:I
 
 
 # direct methods
-.method constructor <init>(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/util/Date;Ljava/util/Date;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;I)V
+.method constructor <init>(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/util/Date;Ljava/util/Date;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
@@ -110,9 +108,7 @@
 
     iput-object p12, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->n:Ljava/lang/String;
 
-    iput-object p13, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->o:Ljava/util/Date;
-
-    iput p14, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->p:I
+    iput p13, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->o:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -275,19 +271,19 @@
     invoke-virtual {v0, v3}, Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;->setField14(Ljava/lang/String;)V
 
     .line 21
-    iget-object v3, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->o:Ljava/util/Date;
+    iget-object v3, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->f:Ljava/util/Date;
 
     invoke-virtual {v0, v3}, Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;->setValidFromUTC(Ljava/util/Date;)V
 
     .line 22
-    iget v3, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->p:I
+    iget v3, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->o:I
 
     invoke-virtual {v0, v3}, Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;->setRemainingActivations(I)V
 
     .line 23
     iget-object v3, p0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$activateQRTickets$1;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v3, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->S(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
+    invoke-virtual {v3, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->V(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
 
     new-array v2, v2, [Ljava/lang/Object;
 

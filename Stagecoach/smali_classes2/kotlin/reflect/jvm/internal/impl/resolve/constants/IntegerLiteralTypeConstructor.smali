@@ -147,14 +147,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/constants/IntegerLiteralTypeConstructor;->l()Z
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/constants/IntegerLiteralTypeConstructor;->m()Z
 
     move-result p0
 
     return p0
 .end method
 
-.method private final k()Ljava/util/List;
+.method private final l()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -176,7 +176,7 @@
     return-object v0
 .end method
 
-.method private final l()Z
+.method private final m()Z
     .locals 4
 
     .line 1
@@ -299,7 +299,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/constants/IntegerLiteralTypeConstructor;->k()Ljava/util/List;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/constants/IntegerLiteralTypeConstructor;->l()Ljava/util/List;
 
     move-result-object v0
 
@@ -396,7 +396,7 @@
     check-cast v1, Lkotlin/reflect/jvm/internal/impl/types/y;
 
     .line 4
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v1
 
@@ -413,7 +413,20 @@
     return v2
 .end method
 
-.method public final j()Ljava/util/Set;
+.method public j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/resolve/constants/IntegerLiteralTypeConstructor;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/u;
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final k()Ljava/util/Set;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -426,19 +439,6 @@
 
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/resolve/constants/IntegerLiteralTypeConstructor;->c:Ljava/util/Set;
-
-    return-object v0
-.end method
-
-.method public m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/resolve/constants/IntegerLiteralTypeConstructor;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/u;
-
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
-
-    move-result-object v0
 
     return-object v0
 .end method

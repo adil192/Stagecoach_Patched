@@ -24,7 +24,7 @@
 
 
 # virtual methods
-.method public abstract k(Ljava/lang/Object;)Ljava/lang/Object;
+.method public abstract j(Ljava/lang/Object;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"

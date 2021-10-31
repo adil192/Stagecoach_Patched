@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/b2;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->t4(Ljava/lang/String;Landroid/view/View;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->w4(Ljava/lang/String;Landroid/view/View;)V
 
     return-void
 .end method

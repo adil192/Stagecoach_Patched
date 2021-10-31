@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/r0;->a:Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->D3(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->G3(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
 
     move-result p1
 

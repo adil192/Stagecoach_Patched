@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method protected b(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)Z
+.method protected b(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;TT;TT;)Z"
         }
     .end annotation

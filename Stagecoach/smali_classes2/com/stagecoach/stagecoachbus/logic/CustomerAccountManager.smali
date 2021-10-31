@@ -657,7 +657,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/s;-><init>(Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;)V
 
-    invoke-static {v0}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v0}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object v0
 
@@ -1396,7 +1396,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/c;-><init>(Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;)V
 
-    invoke-static {v0}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v0}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object v0
 

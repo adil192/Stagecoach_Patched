@@ -7,5 +7,5 @@
 
 
 # virtual methods
-.method public abstract f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+.method public abstract getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 .end method

@@ -111,7 +111,7 @@
     return-void
 .end method
 
-.method private synthetic F3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
+.method private synthetic I3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
     .locals 1
 
     const/4 p1, 0x0
@@ -141,7 +141,7 @@
     if-eq p1, v0, :cond_0
 
     .line 3
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->E3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->H3()V
 
     goto :goto_0
 
@@ -152,11 +152,11 @@
     const p1, 0x7f1102d9
 
     .line 5
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->D3(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->G3(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->S3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->V3(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -167,11 +167,11 @@
     const p1, 0x7f1102da
 
     .line 7
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->D3(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->G3(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->S3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->V3(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -179,20 +179,20 @@
     const p1, 0x7f1102dd
 
     .line 8
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->D3(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->G3(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->S3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->V3(Ljava/lang/String;)V
 
     .line 9
     :goto_0
-    invoke-virtual {p0, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->y3(Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
+    invoke-virtual {p0, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->B3(Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
 
     return-void
 .end method
 
-.method private synthetic H3()V
+.method private synthetic K3()V
     .locals 3
 
     .line 1
@@ -201,7 +201,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivationInfoOverlayFragment;->h3()Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivationInfoOverlayFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivationInfoOverlayFragment;->k3()Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivationInfoOverlayFragment;
 
     move-result-object v0
 
@@ -215,7 +215,7 @@
 
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivationInfoOverlayFragment;->p0:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -224,19 +224,75 @@
 
 # virtual methods
 .method public A3()Z
-    .locals 1
+    .locals 3
+
+    .line 1
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->getTitle()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 2
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->getStagecoachTagManager()Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->Q3()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 4
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;->builder()Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->getGoogleTagName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;->u(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;
+
+    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;->b()Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;
+
+    move-result-object v1
+
+    const-string v2, "openScreen"
+
+    invoke-virtual {v0, v2, v1}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;->a(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)V
+
+    .line 5
+    :cond_0
+    iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->t0:Z
+
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_1
+
+    return v1
+
+    .line 6
+    :cond_1
+    iput-boolean v1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->u0:Z
 
     const/4 v0, 0x0
 
     return v0
 .end method
 
-.method public B3()Z
-    .locals 1
+.method protected B3(Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
+    .locals 0
 
-    const/4 v0, 0x0
-
-    return v0
+    return-void
 .end method
 
 .method public C3()Z
@@ -247,18 +303,42 @@
     return v0
 .end method
 
-.method public D3(I)Ljava/lang/String;
+.method public D3()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public E3()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public F3()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public G3(I)Ljava/lang/String;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public E3()V
+.method public H3()V
     .locals 1
 
     .line 1
@@ -273,11 +353,11 @@
     return-void
 .end method
 
-.method public F1(Landroid/os/Bundle;)V
+.method public I1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->F1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->I1(Landroid/os/Bundle;)V
 
     .line 2
     :goto_0
@@ -306,42 +386,42 @@
     return-void
 .end method
 
-.method public synthetic G3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
+.method public synthetic J3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->F3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->I3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
 
     return-void
 .end method
 
-.method public synthetic I3()V
+.method public synthetic L3()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->H3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->K3()V
 
     return-void
 .end method
 
-.method public J3()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public K3()V
+.method public M3()V
     .locals 0
 
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public N3()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -350,7 +430,7 @@
     return-void
 .end method
 
-.method public L3(Ljava/lang/Runnable;)V
+.method public O3(Ljava/lang/Runnable;)V
     .locals 1
 
     .line 1
@@ -375,7 +455,7 @@
     return-void
 .end method
 
-.method public M3()V
+.method public P3()V
     .locals 3
 
     .line 1
@@ -419,7 +499,7 @@
     return-void
 .end method
 
-.method public N3()Z
+.method public Q3()Z
     .locals 2
 
     .line 1
@@ -435,7 +515,7 @@
     return v0
 .end method
 
-.method public O3(Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;)Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
+.method public R3(Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;)Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
     .locals 1
 
     if-nez p1, :cond_0
@@ -478,7 +558,7 @@
     .line 6
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->C0:Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->A3()Z
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->D3()Z
 
     move-result v0
 
@@ -487,7 +567,7 @@
     .line 7
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->C0:Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->Q3()Z
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->T3()Z
 
     move-result v0
 
@@ -496,7 +576,7 @@
     .line 8
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->C0:Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->R3()Z
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->U3()Z
 
     move-result v0
 
@@ -505,7 +585,7 @@
     .line 9
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->C0:Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->B3()Z
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->E3()Z
 
     move-result v0
 
@@ -514,7 +594,7 @@
     .line 10
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->C0:Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->z3()Z
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->C3()Z
 
     move-result v0
 
@@ -546,7 +626,7 @@
     return-object p1
 .end method
 
-.method public P3()Z
+.method public S3()Z
     .locals 1
 
     const/4 v0, 0x1
@@ -554,7 +634,7 @@
     return v0
 .end method
 
-.method public Q1()V
+.method public T1()V
     .locals 1
 
     .line 1
@@ -563,12 +643,12 @@
     invoke-interface {v0}, Ljava/util/Queue;->clear()V
 
     .line 2
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->Q1()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->T1()V
 
     return-void
 .end method
 
-.method public Q3()Z
+.method public T3()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -576,7 +656,7 @@
     return v0
 .end method
 
-.method public R3()Z
+.method public U3()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -584,7 +664,7 @@
     return v0
 .end method
 
-.method public S3(Ljava/lang/String;)V
+.method public V3(Ljava/lang/String;)V
     .locals 1
 
     .line 1
@@ -599,7 +679,7 @@
     return-void
 .end method
 
-.method protected T3()V
+.method protected W3()V
     .locals 1
 
     .line 1
@@ -614,7 +694,7 @@
     return-void
 .end method
 
-.method protected U3()V
+.method protected X3()V
     .locals 1
 
     .line 1
@@ -654,11 +734,11 @@
     return-void
 .end method
 
-.method public b2()V
+.method public e2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->e2()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->x0:Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;
@@ -671,81 +751,6 @@
 
     invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/utils/framework/BaseObservableProperty;->deleteObserver(Ljava/lang/Object;)V
 
-    return-void
-.end method
-
-.method public g2()V
-    .locals 4
-
-    .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->g2()V
-
-    .line 2
-    iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->n0:Z
-
-    if-eqz v0, :cond_0
-
-    .line 3
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->E3()V
-
-    goto :goto_0
-
-    :cond_0
-    const v0, 0x7f1102dd
-
-    .line 4
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->D3(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->S3(Ljava/lang/String;)V
-
-    .line 5
-    :goto_0
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->x0:Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;
-
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;->getCurrentStateOfNotificationData()Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->B0:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty$Observer;
-
-    const/4 v2, 0x0
-
-    new-array v3, v2, [Lcom/stagecoach/stagecoachbus/utils/framework/BaseObservableProperty$Option;
-
-    invoke-virtual {v0, v1, v3}, Lcom/stagecoach/stagecoachbus/utils/framework/BaseObservableProperty;->addObserver(Ljava/lang/Object;[Lcom/stagecoach/stagecoachbus/utils/framework/BaseObservableProperty$Option;)Ljava/lang/Object;
-
-    .line 6
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->B0:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty$Observer;
-
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->x0:Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;
-
-    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;->getCurrentState()Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;
-
-    move-result-object v1
-
-    const/4 v3, 0x0
-
-    invoke-interface {v0, v3, v1, v3}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty$Observer;->update(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    const/4 v0, 0x1
-
-    .line 7
-    iput-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->t0:Z
-
-    .line 8
-    iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->u0:Z
-
-    if-eqz v0, :cond_1
-
-    .line 9
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->x3()Z
-
-    .line 10
-    iput-boolean v2, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->u0:Z
-
-    :cond_1
     return-void
 .end method
 
@@ -794,11 +799,86 @@
     return-object v0
 .end method
 
-.method public i2()V
+.method public j2()V
+    .locals 4
+
+    .line 1
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->j2()V
+
+    .line 2
+    iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->n0:Z
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->H3()V
+
+    goto :goto_0
+
+    :cond_0
+    const v0, 0x7f1102dd
+
+    .line 4
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->G3(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->V3(Ljava/lang/String;)V
+
+    .line 5
+    :goto_0
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->x0:Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;
+
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;->getCurrentStateOfNotificationData()Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->B0:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty$Observer;
+
+    const/4 v2, 0x0
+
+    new-array v3, v2, [Lcom/stagecoach/stagecoachbus/utils/framework/BaseObservableProperty$Option;
+
+    invoke-virtual {v0, v1, v3}, Lcom/stagecoach/stagecoachbus/utils/framework/BaseObservableProperty;->addObserver(Ljava/lang/Object;[Lcom/stagecoach/stagecoachbus/utils/framework/BaseObservableProperty$Option;)Ljava/lang/Object;
+
+    .line 6
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->B0:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty$Observer;
+
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->x0:Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;
+
+    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;->getCurrentState()Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;
+
+    move-result-object v1
+
+    const/4 v3, 0x0
+
+    invoke-interface {v0, v3, v1, v3}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty$Observer;->update(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    const/4 v0, 0x1
+
+    .line 7
+    iput-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->t0:Z
+
+    .line 8
+    iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->u0:Z
+
+    if-eqz v0, :cond_1
+
+    .line 9
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->A3()Z
+
+    .line 10
+    iput-boolean v2, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->u0:Z
+
+    :cond_1
+    return-void
+.end method
+
+.method public l2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->i2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->l2()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->A0:Lcom/stagecoach/stagecoachbus/views/network/NoNetworkConnectionAlertView;
@@ -823,84 +903,4 @@
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->z0:Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar$IOnEmptyResultListener;
 
     return-void
-.end method
-
-.method public x3()Z
-    .locals 3
-
-    .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->getTitle()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->getStagecoachTagManager()Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    .line 3
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->N3()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    .line 4
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;->builder()Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->getGoogleTagName()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;->u(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;
-
-    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag$TagBuilder;->b()Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;
-
-    move-result-object v1
-
-    const-string v2, "openScreen"
-
-    invoke-virtual {v0, v2, v1}, Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;->a(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)V
-
-    .line 5
-    :cond_0
-    iget-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->t0:Z
-
-    const/4 v1, 0x1
-
-    if-eqz v0, :cond_1
-
-    return v1
-
-    .line 6
-    :cond_1
-    iput-boolean v1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->u0:Z
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method protected y3(Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
-    .locals 0
-
-    return-void
-.end method
-
-.method public z3()Z
-    .locals 1
-
-    const/4 v0, 0x1
-
-    return v0
 .end method

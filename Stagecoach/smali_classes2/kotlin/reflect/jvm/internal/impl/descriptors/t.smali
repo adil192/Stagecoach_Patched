@@ -12,7 +12,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
 
     move-result-object v0
 
@@ -20,7 +20,7 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
 
     move-result-object p0
 

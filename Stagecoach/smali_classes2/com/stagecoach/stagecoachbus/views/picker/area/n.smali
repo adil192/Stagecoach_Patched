@@ -38,7 +38,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaPickerFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaPickerFragment;->b4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     return-void
 .end method

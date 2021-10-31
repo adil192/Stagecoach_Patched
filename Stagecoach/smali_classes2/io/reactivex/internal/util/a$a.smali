@@ -3,7 +3,7 @@
 .source "AppendOnlyLinkedArrayList.java"
 
 # interfaces
-.implements Lio/reactivex/c0/i;
+.implements Lio/reactivex/c0/k;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/i<",
+        "Lio/reactivex/c0/k<",
         "TT;>;"
     }
 .end annotation

@@ -1,6 +1,10 @@
 .class final Lio/reactivex/internal/operators/observable/z$a;
-.super Lio/reactivex/internal/observers/a;
-.source "ObservableMap.java"
+.super Ljava/lang/Object;
+.source "ObservableLastSingle.java"
+
+# interfaces
+.implements Lio/reactivex/t;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
@@ -17,144 +21,96 @@
     value = {
         "<T:",
         "Ljava/lang/Object;",
-        "U:",
-        "Ljava/lang/Object;",
         ">",
-        "Lio/reactivex/internal/observers/a<",
-        "TT;TU;>;"
+        "Ljava/lang/Object;",
+        "Lio/reactivex/t<",
+        "TT;>;",
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
 
 # instance fields
-.field final h:Lio/reactivex/c0/g;
+.field final c:Lio/reactivex/x;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
-            "-TT;+TU;>;"
+            "Lio/reactivex/x<",
+            "-TT;>;"
+        }
+    .end annotation
+.end field
+
+.field final d:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field e:Lio/reactivex/disposables/b;
+
+.field f:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/t;Lio/reactivex/c0/g;)V
+.method constructor <init>(Lio/reactivex/x;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/t<",
-            "-TU;>;",
-            "Lio/reactivex/c0/g<",
-            "-TT;+TU;>;)V"
+            "Lio/reactivex/x<",
+            "-TT;>;TT;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lio/reactivex/internal/observers/a;-><init>(Lio/reactivex/t;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/z$a;->h:Lio/reactivex/c0/g;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/z$a;->c:Lio/reactivex/x;
+
+    .line 3
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/z$a;->d:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onNext(Ljava/lang/Object;)V
+.method public dispose()V
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)V"
-        }
-    .end annotation
 
     .line 1
-    iget-boolean v0, p0, Lio/reactivex/internal/observers/a;->f:Z
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->e:Lio/reactivex/disposables/b;
 
-    if-eqz v0, :cond_0
-
-    return-void
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 2
-    :cond_0
-    iget v0, p0, Lio/reactivex/internal/observers/a;->g:I
+    sget-object v0, Lio/reactivex/internal/disposables/DisposableHelper;->DISPOSED:Lio/reactivex/internal/disposables/DisposableHelper;
 
-    if-eqz v0, :cond_1
-
-    .line 3
-    iget-object p1, p0, Lio/reactivex/internal/observers/a;->c:Lio/reactivex/t;
-
-    const/4 v0, 0x0
-
-    invoke-interface {p1, v0}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
-
-    return-void
-
-    .line 4
-    :cond_1
-    :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->h:Lio/reactivex/c0/g;
-
-    invoke-interface {v0, p1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    const-string v0, "The mapper function returned a null value."
-
-    invoke-static {p1, v0}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 5
-    iget-object v0, p0, Lio/reactivex/internal/observers/a;->c:Lio/reactivex/t;
-
-    invoke-interface {v0, p1}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
-
-    return-void
-
-    :catchall_0
-    move-exception p1
-
-    .line 6
-    invoke-virtual {p0, p1}, Lio/reactivex/internal/observers/a;->c(Ljava/lang/Throwable;)V
+    iput-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->e:Lio/reactivex/disposables/b;
 
     return-void
 .end method
 
-.method public poll()Ljava/lang/Object;
+.method public isDisposed()Z
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TU;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/observers/a;->e:Lio/reactivex/d0/a/e;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->e:Lio/reactivex/disposables/b;
 
-    invoke-interface {v0}, Lio/reactivex/d0/a/j;->poll()Ljava/lang/Object;
+    sget-object v1, Lio/reactivex/internal/disposables/DisposableHelper;->DISPOSED:Lio/reactivex/internal/disposables/DisposableHelper;
 
-    move-result-object v0
+    if-ne v0, v1, :cond_0
 
-    if-eqz v0, :cond_0
-
-    .line 2
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/z$a;->h:Lio/reactivex/c0/g;
-
-    invoke-interface {v1, v0}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    const-string v1, "The mapper function returned a null value."
-
-    invoke-static {v0, v1}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    const/4 v0, 0x1
 
     goto :goto_0
 
@@ -162,16 +118,116 @@
     const/4 v0, 0x0
 
     :goto_0
-    return-object v0
+    return v0
 .end method
 
-.method public requestFusion(I)I
-    .locals 0
+.method public onComplete()V
+    .locals 2
 
     .line 1
-    invoke-virtual {p0, p1}, Lio/reactivex/internal/observers/a;->d(I)I
+    sget-object v0, Lio/reactivex/internal/disposables/DisposableHelper;->DISPOSED:Lio/reactivex/internal/disposables/DisposableHelper;
 
-    move-result p1
+    iput-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->e:Lio/reactivex/disposables/b;
 
-    return p1
+    .line 2
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->f:Ljava/lang/Object;
+
+    if-eqz v0, :cond_0
+
+    const/4 v1, 0x0
+
+    .line 3
+    iput-object v1, p0, Lio/reactivex/internal/operators/observable/z$a;->f:Ljava/lang/Object;
+
+    .line 4
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/z$a;->c:Lio/reactivex/x;
+
+    invoke-interface {v1, v0}, Lio/reactivex/x;->onSuccess(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->d:Ljava/lang/Object;
+
+    if-eqz v0, :cond_1
+
+    .line 6
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/z$a;->c:Lio/reactivex/x;
+
+    invoke-interface {v1, v0}, Lio/reactivex/x;->onSuccess(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    .line 7
+    :cond_1
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->c:Lio/reactivex/x;
+
+    new-instance v1, Ljava/util/NoSuchElementException;
+
+    invoke-direct {v1}, Ljava/util/NoSuchElementException;-><init>()V
+
+    invoke-interface {v0, v1}, Lio/reactivex/x;->onError(Ljava/lang/Throwable;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public onError(Ljava/lang/Throwable;)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lio/reactivex/internal/disposables/DisposableHelper;->DISPOSED:Lio/reactivex/internal/disposables/DisposableHelper;
+
+    iput-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->e:Lio/reactivex/disposables/b;
+
+    const/4 v0, 0x0
+
+    .line 2
+    iput-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->f:Ljava/lang/Object;
+
+    .line 3
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->c:Lio/reactivex/x;
+
+    invoke-interface {v0, p1}, Lio/reactivex/x;->onError(Ljava/lang/Throwable;)V
+
+    return-void
+.end method
+
+.method public onNext(Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/z$a;->f:Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/z$a;->e:Lio/reactivex/disposables/b;
+
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lio/reactivex/disposables/b;Lio/reactivex/disposables/b;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/z$a;->e:Lio/reactivex/disposables/b;
+
+    .line 3
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/z$a;->c:Lio/reactivex/x;
+
+    invoke-interface {p1, p0}, Lio/reactivex/x;->onSubscribe(Lio/reactivex/disposables/b;)V
+
+    :cond_0
+    return-void
 .end method

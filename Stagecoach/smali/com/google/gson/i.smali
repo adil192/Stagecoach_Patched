@@ -95,7 +95,7 @@
     throw v0
 .end method
 
-.method public k()Lcom/google/gson/l;
+.method public j()Lcom/google/gson/l;
     .locals 3
 
     .line 1
@@ -135,7 +135,7 @@
     throw v0
 .end method
 
-.method public l()J
+.method public k()J
     .locals 2
 
     .line 1

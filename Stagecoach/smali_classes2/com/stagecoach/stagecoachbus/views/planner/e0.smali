@@ -30,7 +30,7 @@
 
     check-cast p1, Landroid/location/Location;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->L3(Landroid/location/Location;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->O3(Landroid/location/Location;)V
 
     return-void
 .end method

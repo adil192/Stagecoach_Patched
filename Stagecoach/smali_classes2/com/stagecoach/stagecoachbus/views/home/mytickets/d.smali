@@ -31,7 +31,7 @@
 
 
 # virtual methods
-.method public final T(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+.method public final W(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
     .locals 3
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/d;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment$1;

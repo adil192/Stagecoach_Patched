@@ -20,7 +20,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u0098\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0006\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\n\u0018\u00002\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00030\u0001B\u0017\u0012\u0006\u0010]\u001a\u00020Z\u0012\u0006\u0010Q\u001a\u00020N\u00a2\u0006\u0004\u0008f\u0010gJ\u000f\u0010\u0005\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\t\u001a\u00020\u00042\u0006\u0010\u0008\u001a\u00020\u0007H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0019\u0010\u000c\u001a\u00020\u00042\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u0003H\u0014\u00a2\u0006\u0004\u0008\u000c\u0010\rJ/\u0010\u0012\u001a\u0008\u0012\u0004\u0012\u00020\u00110\u000e2\u0018\u0010\u0010\u001a\u0014\u0012\u0010\u0012\u000e\u0012\u0004\u0012\u00020\u0007\u0012\u0004\u0012\u00020\u00070\u000f0\u000eH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u000f\u0010\u0015\u001a\u00020\u0014H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u000f\u0010\u0017\u001a\u00020\u0003H\u0014\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u000f\u0010\u0019\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0019\u0010\u0006J/\u0010\u001f\u001a\u00020\u00042\u0006\u0010\u001a\u001a\u00020\u00142\u000e\u0010\u001c\u001a\n\u0012\u0004\u0012\u00020\u001b\u0018\u00010\u000e2\u0008\u0010\u001e\u001a\u0004\u0018\u00010\u001d\u00a2\u0006\u0004\u0008\u001f\u0010 J\u001f\u0010$\u001a\u00020\u00042\u0006\u0010!\u001a\u00020\u00142\u0008\u0010#\u001a\u0004\u0018\u00010\"\u00a2\u0006\u0004\u0008$\u0010%R\"\u0010-\u001a\u00020&8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008\'\u0010(\u001a\u0004\u0008)\u0010*\"\u0004\u0008+\u0010,R\"\u00105\u001a\u00020.8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008/\u00100\u001a\u0004\u00081\u00102\"\u0004\u00083\u00104R\"\u0010=\u001a\u0002068\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u00087\u00108\u001a\u0004\u00089\u0010:\"\u0004\u0008;\u0010<R\"\u0010E\u001a\u00020>8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008?\u0010@\u001a\u0004\u0008A\u0010B\"\u0004\u0008C\u0010DR\"\u0010M\u001a\u00020F8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008G\u0010H\u001a\u0004\u0008I\u0010J\"\u0004\u0008K\u0010LR\u0016\u0010Q\u001a\u00020N8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008O\u0010PR\"\u0010Y\u001a\u00020R8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008S\u0010T\u001a\u0004\u0008U\u0010V\"\u0004\u0008W\u0010XR\u0016\u0010]\u001a\u00020Z8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008[\u0010\\R\"\u0010e\u001a\u00020^8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008_\u0010`\u001a\u0004\u0008a\u0010b\"\u0004\u0008c\u0010d\u00a8\u0006h"
+        "\u0000\u0098\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0006\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\n\u0018\u00002\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00030\u0001B\u0017\u0012\u0006\u0010M\u001a\u00020J\u0012\u0006\u0010A\u001a\u00020>\u00a2\u0006\u0004\u0008f\u0010gJ\u000f\u0010\u0005\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\t\u001a\u00020\u00042\u0006\u0010\u0008\u001a\u00020\u0007H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0019\u0010\u000c\u001a\u00020\u00042\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u0003H\u0014\u00a2\u0006\u0004\u0008\u000c\u0010\rJ/\u0010\u0012\u001a\u0008\u0012\u0004\u0012\u00020\u00110\u000e2\u0018\u0010\u0010\u001a\u0014\u0012\u0010\u0012\u000e\u0012\u0004\u0012\u00020\u0007\u0012\u0004\u0012\u00020\u00070\u000f0\u000eH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u000f\u0010\u0015\u001a\u00020\u0014H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u000f\u0010\u0017\u001a\u00020\u0003H\u0014\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u000f\u0010\u0019\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0019\u0010\u0006J/\u0010\u001f\u001a\u00020\u00042\u0006\u0010\u001a\u001a\u00020\u00142\u000e\u0010\u001c\u001a\n\u0012\u0004\u0012\u00020\u001b\u0018\u00010\u000e2\u0008\u0010\u001e\u001a\u0004\u0018\u00010\u001d\u00a2\u0006\u0004\u0008\u001f\u0010 J\u001f\u0010$\u001a\u00020\u00042\u0006\u0010!\u001a\u00020\u00142\u0008\u0010#\u001a\u0004\u0018\u00010\"\u00a2\u0006\u0004\u0008$\u0010%R\"\u0010-\u001a\u00020&8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008\'\u0010(\u001a\u0004\u0008)\u0010*\"\u0004\u0008+\u0010,R\"\u00105\u001a\u00020.8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008/\u00100\u001a\u0004\u00081\u00102\"\u0004\u00083\u00104R\"\u0010=\u001a\u0002068\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u00087\u00108\u001a\u0004\u00089\u0010:\"\u0004\u0008;\u0010<R\u0016\u0010A\u001a\u00020>8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008?\u0010@R\"\u0010I\u001a\u00020B8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008C\u0010D\u001a\u0004\u0008E\u0010F\"\u0004\u0008G\u0010HR\u0016\u0010M\u001a\u00020J8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008K\u0010LR\"\u0010U\u001a\u00020N8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008O\u0010P\u001a\u0004\u0008Q\u0010R\"\u0004\u0008S\u0010TR\"\u0010]\u001a\u00020V8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008W\u0010X\u001a\u0004\u0008Y\u0010Z\"\u0004\u0008[\u0010\\R\"\u0010e\u001a\u00020^8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008_\u0010`\u001a\u0004\u0008a\u0010b\"\u0004\u0008c\u0010d\u00a8\u0006h"
     }
     d2 = {
         "Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;",
@@ -61,38 +61,14 @@
         "journey",
         "X",
         "(ZLcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)V",
-        "Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;",
-        "s",
-        "Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;",
-        "getLocationManager",
-        "()Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;",
-        "setLocationManager",
-        "(Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;)V",
-        "locationManager",
-        "Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
-        "w",
-        "Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
-        "getCustomerAccountManager",
-        "()Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
-        "setCustomerAccountManager",
-        "(Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;)V",
-        "customerAccountManager",
-        "Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
-        "t",
-        "Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
-        "getDatabaseProvider",
-        "()Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
-        "setDatabaseProvider",
-        "(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;)V",
-        "databaseProvider",
-        "Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;",
-        "r",
-        "Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;",
-        "getFavouritesManager",
-        "()Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;",
-        "setFavouritesManager",
-        "(Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;)V",
-        "favouritesManager",
+        "Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
+        "q",
+        "Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
+        "getCacheTicketManager",
+        "()Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
+        "setCacheTicketManager",
+        "(Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;)V",
+        "cacheTicketManager",
         "Lcom/stagecoach/core/cache/SecureUserInfoManager;",
         "u",
         "Lcom/stagecoach/core/cache/SecureUserInfoManager;",
@@ -101,6 +77,14 @@
         "setSecureInfoManager",
         "(Lcom/stagecoach/core/cache/SecureUserInfoManager;)V",
         "secureInfoManager",
+        "Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
+        "t",
+        "Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
+        "getDatabaseProvider",
+        "()Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;",
+        "setDatabaseProvider",
+        "(Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;)V",
+        "databaseProvider",
         "Lcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;",
         "y",
         "Lcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;",
@@ -117,14 +101,30 @@
         "x",
         "Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;",
         "itinerary",
-        "Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
-        "q",
-        "Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
-        "getCacheTicketManager",
-        "()Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;",
-        "setCacheTicketManager",
-        "(Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;)V",
-        "cacheTicketManager",
+        "Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;",
+        "r",
+        "Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;",
+        "getFavouritesManager",
+        "()Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;",
+        "setFavouritesManager",
+        "(Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;)V",
+        "favouritesManager",
+        "Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
+        "w",
+        "Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
+        "getCustomerAccountManager",
+        "()Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
+        "setCustomerAccountManager",
+        "(Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;)V",
+        "customerAccountManager",
+        "Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;",
+        "s",
+        "Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;",
+        "getLocationManager",
+        "()Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;",
+        "setLocationManager",
+        "(Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;)V",
+        "locationManager",
         "<init>",
         "(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;Lcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;)V",
         "app_productionRelease"
@@ -272,7 +272,7 @@
     .line 3
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadCorporateTickets$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadCorporateTickets$1;
 
-    invoke-virtual {p1, v1}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p1, v1}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -281,7 +281,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadCorporateTickets$2;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
-    invoke-virtual {p1, v1}, Lio/reactivex/v;->x(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p1, v1}, Lio/reactivex/v;->y(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -290,7 +290,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, v1}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -299,7 +299,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, v1}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -314,7 +314,7 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadCorporateTickets$4;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
     .line 9
-    invoke-virtual {p1, v1, v2}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v1, v2}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -335,14 +335,14 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadStandardTickets$1;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
-    invoke-static {v1}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v1}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object v1
 
     .line 3
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadStandardTickets$2;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadStandardTickets$2;
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -351,7 +351,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -360,7 +360,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -375,7 +375,7 @@
     invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadStandardTickets$4;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
     .line 8
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -628,7 +628,7 @@
 
     invoke-direct {v1, v2, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadTicketsAndPromotion$$inlined$let$lambda$1;-><init>(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
-    invoke-static {v1}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v1}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -636,7 +636,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v3}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v3}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -645,7 +645,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v3}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v3}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -660,7 +660,7 @@
     invoke-direct {v4, v2, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadTicketsAndPromotion$$inlined$let$lambda$3;-><init>(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
     .line 9
-    invoke-virtual {v1, v3, v4}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v3, v4}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -821,7 +821,7 @@
 
     invoke-direct {p2, p0, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onAddToBasketClicked$2;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;Ljava/util/List;)V
 
-    invoke-static {p2}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {p2}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object p2
 
@@ -830,7 +830,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onAddToBasketClicked$3;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
-    invoke-virtual {p2, v0}, Lio/reactivex/v;->o(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p2, v0}, Lio/reactivex/v;->p(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p2
 
@@ -839,7 +839,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p2, v0}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p2
 
@@ -848,7 +848,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p2, v0}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p2
 
@@ -863,7 +863,7 @@
     invoke-direct {p3, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onAddToBasketClicked$5;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;)V
 
     .line 15
-    invoke-virtual {p2, v0, p3}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p2, v0, p3}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p2
 
@@ -897,7 +897,7 @@
 
     invoke-direct {v1, p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onFavoriteBtnClicked$$inlined$let$lambda$1;-><init>(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;Z)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -906,7 +906,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -915,7 +915,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -930,7 +930,7 @@
     invoke-direct {v2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onFavoriteBtnClicked$$inlined$let$lambda$3;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;Z)V
 
     .line 7
-    invoke-virtual {p2, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p2, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -948,7 +948,7 @@
 
     invoke-direct {v1, p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onFavoriteBtnClicked$$inlined$let$lambda$4;-><init>(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;Z)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -957,7 +957,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -966,7 +966,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -981,7 +981,7 @@
     invoke-direct {v2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onFavoriteBtnClicked$$inlined$let$lambda$6;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;Z)V
 
     .line 15
-    invoke-virtual {p2, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p2, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 

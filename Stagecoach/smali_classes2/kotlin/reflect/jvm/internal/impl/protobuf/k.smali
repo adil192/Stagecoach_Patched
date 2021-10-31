@@ -124,14 +124,14 @@
     :cond_1
     check-cast p0, [B
 
-    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/d;->l([B)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
+    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/d;->k([B)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static k(Ljava/lang/Object;)Ljava/lang/String;
+.method private static j(Ljava/lang/Object;)Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -337,14 +337,14 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/k;->l(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/k;->k(I)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public l(I)Ljava/lang/String;
+.method public k(I)Ljava/lang/String;
     .locals 2
 
     .line 1
@@ -436,7 +436,7 @@
     iput v0, p0, Ljava/util/AbstractList;->modCount:I
 
     .line 3
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/k;->k(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/k;->j(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -454,7 +454,7 @@
     move-result-object p1
 
     .line 2
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/k;->k(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/k;->j(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 

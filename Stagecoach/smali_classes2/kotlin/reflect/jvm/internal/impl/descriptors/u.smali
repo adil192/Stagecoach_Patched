@@ -16,10 +16,10 @@
 
 
 # virtual methods
-.method public abstract N(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/y;
+.method public abstract J(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/y;
 .end method
 
-.method public abstract W(Lkotlin/reflect/jvm/internal/impl/descriptors/u$a;)Ljava/lang/Object;
+.method public abstract R(Lkotlin/reflect/jvm/internal/impl/descriptors/u$a;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -31,13 +31,13 @@
     .end annotation
 .end method
 
-.method public abstract i0(Lkotlin/reflect/jvm/internal/impl/descriptors/u;)Z
+.method public abstract d0(Lkotlin/reflect/jvm/internal/impl/descriptors/u;)Z
 .end method
 
-.method public abstract m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public abstract j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 .end method
 
-.method public abstract n(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
+.method public abstract k(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -54,7 +54,7 @@
     .end annotation
 .end method
 
-.method public abstract v0()Ljava/util/List;
+.method public abstract q0()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

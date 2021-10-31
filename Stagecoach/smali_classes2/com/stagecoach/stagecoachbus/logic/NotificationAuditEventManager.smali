@@ -675,13 +675,36 @@
     :try_start_0
     new-instance v7, Lcom/stagecoach/stagecoachbus/model/auditevent/MobileTicketDeletedEvent;
 
-    const/4 v1, 0x0
+    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
 
-    const/4 v2, 0x0
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/UUID;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'"
+
+    .line 2
+    invoke-static {v0}, Lcom/stagecoach/core/utils/DateUtils;->getJsonFormatter(Ljava/lang/String;)Ljava/text/SimpleDateFormat;
+
+    move-result-object v0
+
+    new-instance v2, Ljava/util/Date;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v3
+
+    invoke-direct {v2, v3, v4}, Ljava/util/Date;-><init>(J)V
+
+    invoke-virtual {v0, v2}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+
+    move-result-object v2
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;->b:Lcom/stagecoach/core/cache/SecureUserInfoManager;
 
-    .line 2
+    .line 3
     invoke-virtual {v0}, Lcom/stagecoach/core/cache/SecureUserInfoManager;->getDeviceInfo()Lcom/stagecoach/core/model/device/DeviceInfo;
 
     move-result-object v3
@@ -698,12 +721,12 @@
 
     const/4 p1, 0x1
 
-    .line 3
+    .line 4
     invoke-direct {p0, v7, p1}, Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;->a(Lcom/stagecoach/stagecoachbus/model/auditevent/AuditEvent;Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
+    .line 5
     monitor-exit p0
 
     return-void

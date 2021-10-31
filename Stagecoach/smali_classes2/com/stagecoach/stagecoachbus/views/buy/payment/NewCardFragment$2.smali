@@ -47,7 +47,7 @@
 
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment$2;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCCheckBox;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->f4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCCheckBox;
 
     move-result-object p1
 
@@ -60,7 +60,7 @@
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment$2;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCCheckBox;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->f4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCCheckBox;
 
     move-result-object p1
 
@@ -73,7 +73,7 @@
     .line 3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment$2;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCCheckBox;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->f4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCCheckBox;
 
     move-result-object p1
 

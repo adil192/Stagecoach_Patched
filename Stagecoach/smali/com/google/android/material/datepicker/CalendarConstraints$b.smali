@@ -176,7 +176,7 @@
     if-nez v0, :cond_1
 
     .line 2
-    invoke-static {}, Lcom/google/android/material/datepicker/e;->s3()J
+    invoke-static {}, Lcom/google/android/material/datepicker/e;->v3()J
 
     move-result-wide v0
 

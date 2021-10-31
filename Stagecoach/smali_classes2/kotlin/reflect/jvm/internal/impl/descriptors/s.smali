@@ -8,17 +8,17 @@
 
 
 # virtual methods
-.method public abstract F0()Z
+.method public abstract H()Z
 .end method
 
-.method public abstract L()Z
+.method public abstract getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 .end method
 
-.method public abstract f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+.method public abstract h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
 .end method
 
-.method public abstract k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+.method public abstract isExternal()Z
 .end method
 
-.method public abstract w()Z
+.method public abstract z0()Z
 .end method

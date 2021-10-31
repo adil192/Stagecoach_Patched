@@ -3,34 +3,42 @@
 .source "lambda"
 
 # interfaces
-.implements Lio/reactivex/c0/f;
+.implements Lcom/stagecoach/stagecoachbus/logic/mvp/Viewing;
 
 
-# instance fields
-.field public final synthetic c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;
+# static fields
+.field public static final synthetic a:Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;
+
+    invoke-direct {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;-><init>()V
+
+    sput-object v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;->a:Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .locals 1
+.method public final a(Ljava/lang/Object;)V
+    .locals 0
 
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;
+    check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;
 
-    check-cast p1, Ljava/lang/Throwable;
-
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->T0(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->h0(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;)V
 
     return-void
 .end method

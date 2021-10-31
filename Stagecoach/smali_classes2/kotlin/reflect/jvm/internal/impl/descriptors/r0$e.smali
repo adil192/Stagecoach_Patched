@@ -139,7 +139,7 @@
     .line 6
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/i/f;
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/i/f;->p()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/i/f;->m()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
     move-result-object p1
 

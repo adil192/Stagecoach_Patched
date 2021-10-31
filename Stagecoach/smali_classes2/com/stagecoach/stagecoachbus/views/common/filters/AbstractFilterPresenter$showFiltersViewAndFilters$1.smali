@@ -93,12 +93,12 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->x()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->A()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/common/filters/AbstractFilterPresenter$showFiltersViewAndFilters$1;->a:Ljava/util/List;
 
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->q(Ljava/util/List;)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->t(Ljava/util/List;)V
 
     return-void
 .end method

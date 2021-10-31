@@ -42,7 +42,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {p1, p2, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->b4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Z)V
+    invoke-static {p1, p2, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->e4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Z)V
 
     return-void
 .end method

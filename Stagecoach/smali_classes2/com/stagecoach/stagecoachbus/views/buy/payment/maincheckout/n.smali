@@ -36,7 +36,7 @@
 .method public final a(Lcom/stagecoach/stagecoachbus/model/tickets/discounts/DiscountCode;)V
     .locals 0
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/MainCheckoutFragment;->r4(Lcom/stagecoach/stagecoachbus/model/tickets/discounts/DiscountCode;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/MainCheckoutFragment;->u4(Lcom/stagecoach/stagecoachbus/model/tickets/discounts/DiscountCode;)V
 
     return-void
 .end method

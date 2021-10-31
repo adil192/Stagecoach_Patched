@@ -21,11 +21,11 @@
     return-void
 .end method
 
-.method private synthetic b3(Landroid/content/DialogInterface;I)V
+.method private synthetic e3(Landroid/content/DialogInterface;I)V
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->g3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->j3()V
 
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->p0:Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;
@@ -43,7 +43,7 @@
     return-void
 .end method
 
-.method private synthetic d3(Landroid/content/DialogInterface;I)V
+.method private synthetic g3(Landroid/content/DialogInterface;I)V
     .locals 2
 
     .line 1
@@ -68,7 +68,7 @@
     return-void
 .end method
 
-.method public static f3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;
+.method public static i3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;
     .locals 1
 
     .line 1
@@ -79,7 +79,7 @@
     return-object v0
 .end method
 
-.method private g3()V
+.method private j3()V
     .locals 4
 
     .line 1
@@ -95,18 +95,18 @@
 
     const/4 v3, -0x1
 
-    invoke-virtual {v0, v2, v3, v1}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    invoke-virtual {v0, v2, v3, v1}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/b;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/b;->O1(Landroid/os/Bundle;)V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -128,7 +128,7 @@
     return-void
 .end method
 
-.method public X2(Landroid/os/Bundle;)Landroid/app/Dialog;
+.method public a3(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 4
 
     .line 1
@@ -221,18 +221,18 @@
     return-object p1
 .end method
 
-.method public synthetic c3(Landroid/content/DialogInterface;I)V
+.method public synthetic f3(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->b3(Landroid/content/DialogInterface;I)V
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->e3(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method
 
-.method public synthetic e3(Landroid/content/DialogInterface;I)V
+.method public synthetic h3(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->d3(Landroid/content/DialogInterface;I)V
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->g3(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

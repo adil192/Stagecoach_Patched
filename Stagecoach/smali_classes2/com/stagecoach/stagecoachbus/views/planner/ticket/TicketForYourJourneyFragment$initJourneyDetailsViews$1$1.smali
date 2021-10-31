@@ -65,7 +65,7 @@
 
     iget-object v0, v0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)V
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->b4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)V
 
     return-void
 .end method

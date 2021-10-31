@@ -145,7 +145,7 @@
     if-eqz p1, :cond_0
 
     .line 6
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->J4()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->M4()V
 
     goto :goto_0
 
@@ -161,7 +161,7 @@
 
     .line 8
     :cond_1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->z4()Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->C4()Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;
 
     move-result-object p2
 

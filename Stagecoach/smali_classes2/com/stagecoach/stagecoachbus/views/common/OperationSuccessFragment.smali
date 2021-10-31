@@ -28,7 +28,7 @@
     return-void
 .end method
 
-.method public static g3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;
+.method public static j3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;
     .locals 2
 
     .line 1
@@ -54,20 +54,20 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->O1(Landroid/os/Bundle;)V
 
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c010f
 
@@ -136,7 +136,7 @@
     return-object p1
 .end method
 
-.method public Q1()V
+.method public T1()V
     .locals 1
 
     .line 1
@@ -145,34 +145,34 @@
     invoke-virtual {v0}, Lio/reactivex/disposables/a;->e()V
 
     .line 2
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->Q1()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->T1()V
 
     return-void
 .end method
 
-.method public f3()V
+.method public i3()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
 
     return-void
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 3
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;->q0:Lio/reactivex/disposables/a;
@@ -185,7 +185,7 @@
 
     const-wide/16 v1, 0x2
 
-    invoke-static {v1, v2, p2, v0}, Lio/reactivex/a;->v(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-static {v1, v2, p2, v0}, Lio/reactivex/a;->u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p2
 
@@ -194,7 +194,7 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/common/e;-><init>(Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;)V
 
     .line 3
-    invoke-virtual {p2, v0}, Lio/reactivex/a;->r(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+    invoke-virtual {p2, v0}, Lio/reactivex/a;->q(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
 
     move-result-object p2
 

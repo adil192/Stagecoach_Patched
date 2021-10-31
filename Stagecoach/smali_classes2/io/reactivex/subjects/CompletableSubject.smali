@@ -81,7 +81,7 @@
     return-void
 .end method
 
-.method public static z()Lio/reactivex/subjects/CompletableSubject;
+.method public static y()Lio/reactivex/subjects/CompletableSubject;
     .locals 1
 
     .line 1
@@ -94,99 +94,6 @@
 
 
 # virtual methods
-.method A(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)V
-    .locals 6
-
-    .line 1
-    :cond_0
-    iget-object v0, p0, Lio/reactivex/subjects/CompletableSubject;->c:Ljava/util/concurrent/atomic/AtomicReference;
-
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, [Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;
-
-    .line 2
-    array-length v1, v0
-
-    if-nez v1, :cond_1
-
-    return-void
-
-    :cond_1
-    const/4 v2, -0x1
-
-    const/4 v3, 0x0
-
-    const/4 v4, 0x0
-
-    :goto_0
-    if-ge v4, v1, :cond_3
-
-    .line 3
-    aget-object v5, v0, v4
-
-    if-ne v5, p1, :cond_2
-
-    move v2, v4
-
-    goto :goto_1
-
-    :cond_2
-    add-int/lit8 v4, v4, 0x1
-
-    goto :goto_0
-
-    :cond_3
-    :goto_1
-    if-gez v2, :cond_4
-
-    return-void
-
-    :cond_4
-    const/4 v4, 0x1
-
-    if-ne v1, v4, :cond_5
-
-    .line 4
-    sget-object v1, Lio/reactivex/subjects/CompletableSubject;->f:[Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;
-
-    goto :goto_2
-
-    :cond_5
-    add-int/lit8 v5, v1, -0x1
-
-    .line 5
-    new-array v5, v5, [Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;
-
-    .line 6
-    invoke-static {v0, v3, v5, v3, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    add-int/lit8 v3, v2, 0x1
-
-    sub-int/2addr v1, v2
-
-    sub-int/2addr v1, v4
-
-    .line 7
-    invoke-static {v0, v3, v5, v2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    move-object v1, v5
-
-    .line 8
-    :goto_2
-    iget-object v2, p0, Lio/reactivex/subjects/CompletableSubject;->c:Ljava/util/concurrent/atomic/AtomicReference;
-
-    invoke-virtual {v2, v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return-void
-.end method
-
 .method public onComplete()V
     .locals 4
 
@@ -314,7 +221,7 @@
     return-void
 .end method
 
-.method protected t(Lio/reactivex/c;)V
+.method protected s(Lio/reactivex/c;)V
     .locals 2
 
     .line 1
@@ -326,7 +233,7 @@
     invoke-interface {p1, v0}, Lio/reactivex/c;->onSubscribe(Lio/reactivex/disposables/b;)V
 
     .line 3
-    invoke-virtual {p0, v0}, Lio/reactivex/subjects/CompletableSubject;->y(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)Z
+    invoke-virtual {p0, v0}, Lio/reactivex/subjects/CompletableSubject;->x(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)Z
 
     move-result v1
 
@@ -340,7 +247,7 @@
     if-eqz p1, :cond_2
 
     .line 5
-    invoke-virtual {p0, v0}, Lio/reactivex/subjects/CompletableSubject;->A(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)V
+    invoke-virtual {p0, v0}, Lio/reactivex/subjects/CompletableSubject;->z(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)V
 
     goto :goto_0
 
@@ -364,7 +271,7 @@
     return-void
 .end method
 
-.method y(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)Z
+.method x(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)Z
     .locals 4
 
     .line 1
@@ -413,4 +320,97 @@
     const/4 p1, 0x1
 
     return p1
+.end method
+
+.method z(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)V
+    .locals 6
+
+    .line 1
+    :cond_0
+    iget-object v0, p0, Lio/reactivex/subjects/CompletableSubject;->c:Ljava/util/concurrent/atomic/AtomicReference;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;
+
+    .line 2
+    array-length v1, v0
+
+    if-nez v1, :cond_1
+
+    return-void
+
+    :cond_1
+    const/4 v2, -0x1
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    :goto_0
+    if-ge v4, v1, :cond_3
+
+    .line 3
+    aget-object v5, v0, v4
+
+    if-ne v5, p1, :cond_2
+
+    move v2, v4
+
+    goto :goto_1
+
+    :cond_2
+    add-int/lit8 v4, v4, 0x1
+
+    goto :goto_0
+
+    :cond_3
+    :goto_1
+    if-gez v2, :cond_4
+
+    return-void
+
+    :cond_4
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_5
+
+    .line 4
+    sget-object v1, Lio/reactivex/subjects/CompletableSubject;->f:[Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;
+
+    goto :goto_2
+
+    :cond_5
+    add-int/lit8 v5, v1, -0x1
+
+    .line 5
+    new-array v5, v5, [Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;
+
+    .line 6
+    invoke-static {v0, v3, v5, v3, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    add-int/lit8 v3, v2, 0x1
+
+    sub-int/2addr v1, v2
+
+    sub-int/2addr v1, v4
+
+    .line 7
+    invoke-static {v0, v3, v5, v2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    move-object v1, v5
+
+    .line 8
+    :goto_2
+    iget-object v2, p0, Lio/reactivex/subjects/CompletableSubject;->c:Ljava/util/concurrent/atomic/AtomicReference;
+
+    invoke-virtual {v2, v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    return-void
 .end method

@@ -114,7 +114,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->Y3()Ljava/lang/String;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->b4()Ljava/lang/String;
 
     move-result-object v0
 

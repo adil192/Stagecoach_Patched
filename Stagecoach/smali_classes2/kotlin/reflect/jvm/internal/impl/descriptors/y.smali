@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract H()Ljava/util/List;
+.method public abstract D()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -32,8 +32,8 @@
 .method public abstract isEmpty()Z
 .end method
 
-.method public abstract o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public abstract l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 .end method
 
-.method public abstract x0()Lkotlin/reflect/jvm/internal/impl/descriptors/u;
+.method public abstract s0()Lkotlin/reflect/jvm/internal/impl/descriptors/u;
 .end method

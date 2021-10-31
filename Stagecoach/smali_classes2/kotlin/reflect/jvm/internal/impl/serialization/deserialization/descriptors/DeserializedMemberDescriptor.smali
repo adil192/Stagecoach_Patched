@@ -17,10 +17,7 @@
 
 
 # virtual methods
-.method public abstract C()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
-.end method
-
-.method public abstract L0()Ljava/util/List;
+.method public abstract E0()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -31,14 +28,17 @@
     .end annotation
 .end method
 
-.method public abstract U()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
+.method public abstract P()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
 .end method
 
-.method public abstract a0()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
+.method public abstract V()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
 .end method
 
-.method public abstract c0()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
+.method public abstract X()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
 .end method
 
-.method public abstract g0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
+.method public abstract b0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
+.end method
+
+.method public abstract y()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
 .end method

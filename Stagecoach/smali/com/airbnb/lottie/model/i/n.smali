@@ -78,7 +78,7 @@
 
 
 # virtual methods
-.method public k()Z
+.method public g()Z
     .locals 3
 
     .line 1
@@ -123,7 +123,7 @@
     return v1
 .end method
 
-.method public m()Ljava/util/List;
+.method public i()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

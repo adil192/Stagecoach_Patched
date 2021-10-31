@@ -27,7 +27,7 @@
     return-void
 .end method
 
-.method private synthetic V3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+.method private synthetic Y3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -75,7 +75,7 @@
     return-void
 .end method
 
-.method public static X3()Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;
+.method public static a4()Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;
     .locals 1
 
     .line 1
@@ -88,14 +88,14 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -104,11 +104,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0111
 
@@ -122,19 +122,32 @@
     return-object p1
 .end method
 
-.method public synthetic W3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+.method public synthetic Z3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;->V3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;->Y3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
 
     return-void
 .end method
 
-.method public g2()V
+.method public getTitle()Ljava/lang/String;
+    .locals 1
+
+    const v0, 0x7f110337
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public j2()V
     .locals 4
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
@@ -162,7 +175,7 @@
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->M3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()V
 
     .line 5
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedFraudFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;
@@ -176,7 +189,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -185,7 +198,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -200,25 +213,12 @@
     invoke-direct {v2, v3}, Lcom/stagecoach/stagecoachbus/utils/reactive/ErrorLoggingConsumer;-><init>(Ljava/lang/String;)V
 
     .line 8
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 9
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     return-void
-.end method
-
-.method public getTitle()Ljava/lang/String;
-    .locals 1
-
-    const v0, 0x7f110337
-
-    .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
 .end method

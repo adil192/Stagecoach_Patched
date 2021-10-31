@@ -612,7 +612,7 @@
     if-eqz v1, :cond_1
 
     .line 2
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/o;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/o;->getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 
     move-result-object v2
 
@@ -621,7 +621,7 @@
     if-eq v2, v3, :cond_1
 
     .line 3
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/o;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/o;->getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 
     move-result-object v2
 
@@ -654,7 +654,7 @@
     .line 6
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e0;
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e0;->s0()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e0;->n0()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
 
     move-result-object p1
 

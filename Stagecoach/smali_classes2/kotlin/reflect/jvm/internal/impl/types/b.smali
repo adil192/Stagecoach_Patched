@@ -485,7 +485,7 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/b;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/b;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v0
 
@@ -596,14 +596,14 @@
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
     .line 6
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v2
 
     invoke-interface {v1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     .line 7
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->V()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->Q()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
     move-result-object v0
 
@@ -612,7 +612,7 @@
     if-eqz v0, :cond_2
 
     .line 8
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object p1
 
@@ -622,7 +622,7 @@
     return-object v1
 .end method
 
-.method public m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
     .locals 1
 
     .line 1

@@ -151,7 +151,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v0}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v0
 
@@ -162,7 +162,7 @@
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/airbnb/lottie/model/i/m;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-interface {v1}, Lcom/airbnb/lottie/model/i/m;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v1
 
@@ -173,7 +173,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v2}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v2
 
@@ -184,7 +184,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v3}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v3
 
@@ -195,7 +195,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v4}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v4
 
@@ -211,7 +211,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v6}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v6}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v6
 
@@ -222,7 +222,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p3}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p3
 

@@ -114,7 +114,7 @@
     if-eqz p1, :cond_1
 
     .line 4
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/n;->E()Z
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/n;->A()Z
 
     move-result v0
 

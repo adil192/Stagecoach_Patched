@@ -95,34 +95,34 @@
     return-void
 .end method
 
-.method private synthetic V3(Landroid/view/View;)V
+.method private synthetic Y3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->f4()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->i4()V
 
     return-void
 .end method
 
-.method private synthetic X3(Landroid/view/View;)V
+.method private synthetic a4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->g4()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->j4()V
 
     return-void
 .end method
 
-.method private synthetic Z3(Landroid/view/View;)V
+.method private synthetic c4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->e4()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->h4()V
 
     return-void
 .end method
 
-.method private synthetic b4()I
+.method private synthetic e4()I
     .locals 1
 
     .line 1
@@ -135,7 +135,7 @@
     return v0
 .end method
 
-.method public static d4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;
+.method public static g4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;
     .locals 2
 
     .line 1
@@ -202,7 +202,7 @@
     return-object p0
 .end method
 
-.method private h4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+.method private k4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
     .locals 17
 
     move-object/from16 v11, p0
@@ -746,7 +746,7 @@
     return-void
 .end method
 
-.method private i4()V
+.method private l4()V
     .locals 3
 
     .line 1
@@ -775,7 +775,7 @@
 
 
 # virtual methods
-.method public H(Ljava/util/List;)V
+.method public K(Ljava/util/List;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -820,7 +820,7 @@
 
     .line 4
     :cond_0
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->h3(Ljava/util/ArrayList;)Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->k3(Ljava/util/ArrayList;)Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;
 
     move-result-object p1
 
@@ -834,19 +834,19 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->s0:Ljava/lang/String;
 
-    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -855,11 +855,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c019e
 
@@ -1369,63 +1369,63 @@
     if-eqz p2, :cond_b
 
     .line 53
-    invoke-direct {p0, p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->h4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+    invoke-direct {p0, p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->k4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
 
     .line 54
     :cond_b
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->i4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->l4()V
 
     return-object p1
 .end method
 
-.method public synthetic W3(Landroid/view/View;)V
+.method public synthetic Z3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->V3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->Y3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic Y3(Landroid/view/View;)V
+.method public synthetic b4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->X3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->a4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic a4(Landroid/view/View;)V
+.method public synthetic d4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->Z3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->c4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public c1()Ljava/lang/String;
+.method public f1()Ljava/lang/String;
     .locals 1
 
     const v0, 0x7f11031b
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public synthetic c4()I
+.method public synthetic f4()I
     .locals 1
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->b4()I
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->e4()I
 
     move-result v0
 
     return v0
 .end method
 
-.method e4()V
+.method h4()V
     .locals 1
 
     .line 1
@@ -1435,12 +1435,12 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->H(Ljava/util/List;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->K(Ljava/util/List;)V
 
     return-void
 .end method
 
-.method f4()V
+.method i4()V
     .locals 3
 
     .line 1
@@ -1470,7 +1470,7 @@
     return-void
 .end method
 
-.method public g0(Z)V
+.method public j0(Z)V
     .locals 3
 
     if-eqz p1, :cond_1
@@ -1562,12 +1562,12 @@
 
     .line 9
     :cond_2
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->i4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->l4()V
 
     return-void
 .end method
 
-.method g4()V
+.method j4()V
     .locals 9
 
     .line 1
@@ -1598,7 +1598,7 @@
     return-void
 .end method
 
-.method public j2()V
+.method public m2()V
     .locals 1
 
     .line 1
@@ -1607,7 +1607,7 @@
     invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;->g()V
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->j2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->m2()V
 
     return-void
 .end method
@@ -1642,7 +1642,7 @@
     if-eqz p1, :cond_0
 
     .line 6
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->h4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsSlidingFragment;->k4(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
 
     :cond_0
     return-void

@@ -1,6 +1,6 @@
 .class public final Lio/reactivex/internal/operators/observable/v;
 .super Lio/reactivex/internal/operators/observable/a;
-.source "ObservableIgnoreElements.java"
+.source "ObservableHide.java"
 
 
 # annotations
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public s0(Lio/reactivex/t;)V
+.method protected A0(Lio/reactivex/t;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {

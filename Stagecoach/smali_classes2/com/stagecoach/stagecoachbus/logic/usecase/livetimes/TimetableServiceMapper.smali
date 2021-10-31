@@ -265,7 +265,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -274,14 +274,14 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/h0;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/TimetableServiceMapper;)V
 
     .line 10
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v1
 
     sget-object v2, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/g0;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/g0;
 
     .line 11
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->F0(Ljava/util/Comparator;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->O0(Ljava/util/Comparator;)Lio/reactivex/v;
 
     move-result-object v1
 

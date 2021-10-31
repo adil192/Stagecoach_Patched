@@ -43,16 +43,16 @@
     return-void
 .end method
 
-.method private synthetic W3(Landroid/view/View;)V
+.method private synthetic Z3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->V3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->Y3()V
 
     return-void
 .end method
 
-.method private synthetic Y3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+.method private synthetic b4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -100,7 +100,7 @@
     return-void
 .end method
 
-.method public static a4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;
+.method public static d4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;
     .locals 2
 
     .line 1
@@ -126,11 +126,19 @@
 
 
 # virtual methods
-.method public G1(IILandroid/content/Intent;)V
+.method public C3()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public J1(IILandroid/content/Intent;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     const/16 v0, 0x7d3
 
@@ -148,7 +156,7 @@
     const p1, 0x7f1102c1
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     const-string p1, "orderNumber"
 
@@ -176,13 +184,13 @@
 
     if-eqz p1, :cond_2
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment$PaymentFailedRetryListener;->c()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment$PaymentFailedRetryListener;->e()V
 
     :cond_2
     const p1, 0x7f1102bb
 
     .line 6
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     goto :goto_0
 
@@ -196,24 +204,24 @@
 
     if-eqz p1, :cond_4
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment$PaymentFailedRetryListener;->C()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment$PaymentFailedRetryListener;->D()V
 
     :cond_4
     const p1, 0x7f1102bf
 
     .line 8
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     :cond_5
     :goto_0
     return-void
 .end method
 
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->L1(Landroid/content/Context;)V
 
     .line 2
     instance-of v0, p1, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment$PaymentFailedRetryListener;
@@ -229,14 +237,14 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -245,11 +253,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0112
 
@@ -305,7 +313,7 @@
     return-object p1
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     const/4 v0, 0x0
@@ -314,12 +322,12 @@
     iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->J0:Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment$PaymentFailedRetryListener;
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->T1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->W1()V
 
     return-void
 .end method
 
-.method V3()V
+.method Y3()V
     .locals 3
 
     .line 1
@@ -377,27 +385,40 @@
     return-void
 .end method
 
-.method public synthetic X3(Landroid/view/View;)V
+.method public synthetic a4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->W3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->Z3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic Z3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+.method public synthetic c4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->Y3(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->b4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
 
     return-void
 .end method
 
-.method public g2()V
+.method public getTitle()Ljava/lang/String;
+    .locals 1
+
+    const v0, 0x7f1102bc
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public j2()V
     .locals 4
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
@@ -425,7 +446,7 @@
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->M3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()V
 
     .line 5
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentFailedRetryFragment;->G0:Lcom/stagecoach/stagecoachbus/logic/BraintreePaymentManager;
@@ -439,7 +460,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -448,7 +469,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -463,33 +484,12 @@
     invoke-direct {v2, v3}, Lcom/stagecoach/stagecoachbus/utils/reactive/ErrorLoggingConsumer;-><init>(Ljava/lang/String;)V
 
     .line 8
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 9
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     return-void
-.end method
-
-.method public getTitle()Ljava/lang/String;
-    .locals 1
-
-    const v0, 0x7f1102bc
-
-    .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public z3()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
 .end method

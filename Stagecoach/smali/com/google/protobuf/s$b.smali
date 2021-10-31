@@ -44,5 +44,5 @@
 .method public abstract h()Z
 .end method
 
-.method public abstract m(Lcom/google/protobuf/k0$a;Lcom/google/protobuf/k0;)Lcom/google/protobuf/k0$a;
+.method public abstract l(Lcom/google/protobuf/k0$a;Lcom/google/protobuf/k0;)Lcom/google/protobuf/k0$a;
 .end method

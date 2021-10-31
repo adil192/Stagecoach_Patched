@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract G(Lcom/stagecoach/core/model/customer/CustomerDetails;)V
+.method public abstract H(Lcom/stagecoach/core/model/customer/CustomerDetails;)V
 .end method
 
 .method public abstract h0(Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAddress;)V
@@ -24,5 +24,5 @@
 .method public abstract i0()V
 .end method
 
-.method public abstract p()V
+.method public abstract q()V
 .end method

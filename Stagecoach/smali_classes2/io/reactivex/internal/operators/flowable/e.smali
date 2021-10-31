@@ -33,13 +33,13 @@
     .end annotation
 .end field
 
-.field private final f:Lio/reactivex/c0/h;
+.field private final f:Lio/reactivex/c0/j;
 
 .field private final g:Lio/reactivex/c0/a;
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/f;Lio/reactivex/c0/h;Lio/reactivex/c0/a;)V
+.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/f;Lio/reactivex/c0/j;Lio/reactivex/c0/a;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -50,7 +50,7 @@
             "-",
             "Lk/a/c;",
             ">;",
-            "Lio/reactivex/c0/h;",
+            "Lio/reactivex/c0/j;",
             "Lio/reactivex/c0/a;",
             ")V"
         }
@@ -63,7 +63,7 @@
     iput-object p2, p0, Lio/reactivex/internal/operators/flowable/e;->e:Lio/reactivex/c0/f;
 
     .line 3
-    iput-object p3, p0, Lio/reactivex/internal/operators/flowable/e;->f:Lio/reactivex/c0/h;
+    iput-object p3, p0, Lio/reactivex/internal/operators/flowable/e;->f:Lio/reactivex/c0/j;
 
     .line 4
     iput-object p4, p0, Lio/reactivex/internal/operators/flowable/e;->g:Lio/reactivex/c0/a;
@@ -90,11 +90,11 @@
 
     iget-object v2, p0, Lio/reactivex/internal/operators/flowable/e;->e:Lio/reactivex/c0/f;
 
-    iget-object v3, p0, Lio/reactivex/internal/operators/flowable/e;->f:Lio/reactivex/c0/h;
+    iget-object v3, p0, Lio/reactivex/internal/operators/flowable/e;->f:Lio/reactivex/c0/j;
 
     iget-object v4, p0, Lio/reactivex/internal/operators/flowable/e;->g:Lio/reactivex/c0/a;
 
-    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/e$a;-><init>(Lk/a/b;Lio/reactivex/c0/f;Lio/reactivex/c0/h;Lio/reactivex/c0/a;)V
+    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/e$a;-><init>(Lk/a/b;Lio/reactivex/c0/f;Lio/reactivex/c0/j;Lio/reactivex/c0/a;)V
 
     invoke-virtual {v0, v1}, Lio/reactivex/g;->X(Lio/reactivex/j;)V
 

@@ -64,7 +64,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;->i()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;->k()V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
 
     check-cast v0, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;->y0(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;->B0(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)V
 
     return-void
 .end method
@@ -107,7 +107,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqView;->d()V
 
     return-void
 .end method
@@ -131,7 +131,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -140,7 +140,7 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/faq/i;-><init>(Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;)V
 
     .line 3
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -153,7 +153,7 @@
     invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/faq/j;-><init>(Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;)V
 
     .line 4
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 

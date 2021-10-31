@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/s0;->a:Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->r4(Lcom/google/android/play/core/tasks/d;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->u4(Lcom/google/android/play/core/tasks/d;)V
 
     return-void
 .end method

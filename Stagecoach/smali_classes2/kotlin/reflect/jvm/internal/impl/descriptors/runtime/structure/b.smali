@@ -28,28 +28,7 @@
 
 
 # virtual methods
-.method public B()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
-    .locals 2
-
-    .line 1
-    new-instance v0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
-
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->a:Ljava/lang/annotation/Annotation;
-
-    invoke-static {v1}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;-><init>(Ljava/lang/Class;)V
-
-    return-object v0
-.end method
-
-.method public F()Ljava/util/Collection;
+.method public B()Ljava/util/Collection;
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -63,11 +42,11 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->a:Ljava/lang/annotation/Annotation;
 
-    invoke-static {v0}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v0
 
@@ -145,11 +124,11 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->a:Ljava/lang/annotation/Annotation;
 
-    invoke-static {v0}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v0
 
@@ -215,7 +194,7 @@
     return v0
 .end method
 
-.method public final n()Ljava/lang/annotation/Annotation;
+.method public final k()Ljava/lang/annotation/Annotation;
     .locals 1
 
     .line 1
@@ -255,13 +234,34 @@
     return-object v0
 .end method
 
-.method public bridge synthetic y()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+.method public bridge synthetic u()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->B()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->x()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
 
     move-result-object v0
+
+    return-object v0
+.end method
+
+.method public x()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
+
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->a:Ljava/lang/annotation/Annotation;
+
+    invoke-static {v1}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;-><init>(Ljava/lang/Class;)V
 
     return-object v0
 .end method

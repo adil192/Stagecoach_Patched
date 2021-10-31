@@ -1,28 +1,42 @@
 .class public final Lio/reactivex/internal/operators/completable/c;
 .super Lio/reactivex/a;
-.source "CompletableFromAction.java"
+.source "CompletableFromCallable.java"
 
 
 # instance fields
-.field final c:Lio/reactivex/c0/a;
+.field final c:Ljava/util/concurrent/Callable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/Callable<",
+            "*>;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/c0/a;)V
+.method public constructor <init>(Ljava/util/concurrent/Callable;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Callable<",
+            "*>;)V"
+        }
+    .end annotation
 
     .line 1
     invoke-direct {p0}, Lio/reactivex/a;-><init>()V
 
     .line 2
-    iput-object p1, p0, Lio/reactivex/internal/operators/completable/c;->c:Lio/reactivex/c0/a;
+    iput-object p1, p0, Lio/reactivex/internal/operators/completable/c;->c:Ljava/util/concurrent/Callable;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected t(Lio/reactivex/c;)V
+.method protected s(Lio/reactivex/c;)V
     .locals 2
 
     .line 1
@@ -35,9 +49,9 @@
 
     .line 3
     :try_start_0
-    iget-object v1, p0, Lio/reactivex/internal/operators/completable/c;->c:Lio/reactivex/c0/a;
+    iget-object v1, p0, Lio/reactivex/internal/operators/completable/c;->c:Ljava/util/concurrent/Callable;
 
-    invoke-interface {v1}, Lio/reactivex/c0/a;->run()V
+    invoke-interface {v1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

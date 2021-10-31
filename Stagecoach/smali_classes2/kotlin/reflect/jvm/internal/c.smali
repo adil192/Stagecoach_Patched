@@ -26,7 +26,7 @@
 .implements Lkotlin/jvm/b/u;
 .implements Lkotlin/jvm/b/v;
 .implements Lkotlin/jvm/b/w;
-.implements Lkotlin/reflect/a;
+.implements Lkotlin/reflect/b;
 
 
 # annotations
@@ -361,7 +361,7 @@
         "Ljava/lang/Object;",
         "Ljava/lang/Object;",
         ">;",
-        "Lkotlin/reflect/a<",
+        "Lkotlin/reflect/b<",
         "Ljava/lang/Object;",
         ">;"
     }

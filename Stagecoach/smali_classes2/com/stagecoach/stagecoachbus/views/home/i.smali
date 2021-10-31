@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/i;->b:Lcom/google/android/gms/maps/model/d;
 
-    invoke-static {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->R4(Landroid/graphics/Bitmap;Lcom/google/android/gms/maps/model/d;Landroid/animation/ValueAnimator;)V
+    invoke-static {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->U4(Landroid/graphics/Bitmap;Lcom/google/android/gms/maps/model/d;Landroid/animation/ValueAnimator;)V
 
     return-void
 .end method

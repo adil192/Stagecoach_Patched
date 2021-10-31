@@ -82,7 +82,7 @@
     return-void
 .end method
 
-.method public static k()Lcom/google/android/gms/internal/measurement/d6;
+.method public static j()Lcom/google/android/gms/internal/measurement/d6;
     .locals 1
 
     .line 1
@@ -262,7 +262,7 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     const/4 p1, 0x1
 
@@ -614,7 +614,7 @@
     return v1
 .end method
 
-.method public final l(I)V
+.method public final k(I)V
     .locals 4
 
     .line 1

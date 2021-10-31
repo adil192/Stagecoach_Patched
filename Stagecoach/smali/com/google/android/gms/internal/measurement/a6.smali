@@ -430,7 +430,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/d6;->k()Lcom/google/android/gms/internal/measurement/d6;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/d6;->j()Lcom/google/android/gms/internal/measurement/d6;
 
     move-result-object v0
 
@@ -441,7 +441,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/x6;->k()Lcom/google/android/gms/internal/measurement/x6;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/x6;->j()Lcom/google/android/gms/internal/measurement/x6;
 
     move-result-object v0
 
@@ -461,7 +461,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/x7;->l()Lcom/google/android/gms/internal/measurement/x7;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/x7;->k()Lcom/google/android/gms/internal/measurement/x7;
 
     move-result-object v0
 

@@ -42,10 +42,10 @@
     .end annotation
 .end field
 
-.field final predicate:Lio/reactivex/c0/i;
+.field final predicate:Lio/reactivex/c0/k;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-",
             "Ljava/lang/Throwable;",
             ">;"
@@ -68,14 +68,14 @@
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/t;JLio/reactivex/c0/i;Lio/reactivex/internal/disposables/SequentialDisposable;Lio/reactivex/s;)V
+.method constructor <init>(Lio/reactivex/t;JLio/reactivex/c0/k;Lio/reactivex/internal/disposables/SequentialDisposable;Lio/reactivex/s;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/t<",
             "-TT;>;J",
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-",
             "Ljava/lang/Throwable;",
             ">;",
@@ -98,7 +98,7 @@
     iput-object p6, p0, Lio/reactivex/internal/operators/observable/ObservableRetryPredicate$RepeatObserver;->source:Lio/reactivex/s;
 
     .line 5
-    iput-object p4, p0, Lio/reactivex/internal/operators/observable/ObservableRetryPredicate$RepeatObserver;->predicate:Lio/reactivex/c0/i;
+    iput-object p4, p0, Lio/reactivex/internal/operators/observable/ObservableRetryPredicate$RepeatObserver;->predicate:Lio/reactivex/c0/k;
 
     .line 6
     iput-wide p2, p0, Lio/reactivex/internal/operators/observable/ObservableRetryPredicate$RepeatObserver;->remaining:J
@@ -198,9 +198,9 @@
     .line 4
     :cond_1
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableRetryPredicate$RepeatObserver;->predicate:Lio/reactivex/c0/i;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableRetryPredicate$RepeatObserver;->predicate:Lio/reactivex/c0/k;
 
-    invoke-interface {v0, p1}, Lio/reactivex/c0/i;->a(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lio/reactivex/c0/k;->a(Ljava/lang/Object;)Z
 
     move-result v0
     :try_end_0

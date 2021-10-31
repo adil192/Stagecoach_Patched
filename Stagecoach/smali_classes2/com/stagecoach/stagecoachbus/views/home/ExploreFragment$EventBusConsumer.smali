@@ -98,7 +98,7 @@
     .line 3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment$EventBusConsumer;->d:Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->a4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->d4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)V
 
     goto :goto_0
 
@@ -129,13 +129,13 @@
     .line 7
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment$EventBusConsumer;->d:Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->c4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Lcom/google/android/play/core/review/c;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->f4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Lcom/google/android/play/core/review/c;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment$EventBusConsumer;->d:Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-static {v1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->b4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Lcom/google/android/play/core/review/ReviewInfo;
+    invoke-static {v1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->e4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Lcom/google/android/play/core/review/ReviewInfo;
 
     move-result-object v1
 

@@ -941,7 +941,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/k0;-><init>(Lcom/stagecoach/stagecoachbus/logic/TicketServiceRepository;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v0}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object p1
 

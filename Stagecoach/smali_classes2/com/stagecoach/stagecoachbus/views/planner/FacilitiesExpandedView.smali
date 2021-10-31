@@ -201,7 +201,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/FacilitiesExpandedView;->l:Lcom/stagecoach/stagecoachbus/views/planner/FacilitiesExpandedView$FacilitiesDisplayer;
 
-    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/FacilitiesExpandedView$FacilitiesDisplayer;->m1(Landroid/view/View;)V
+    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/FacilitiesExpandedView$FacilitiesDisplayer;->p1(Landroid/view/View;)V
 
     return-void
 .end method

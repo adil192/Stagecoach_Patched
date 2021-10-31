@@ -55,6 +55,17 @@
     return-object p1
 .end method
 
+.method public bridge synthetic h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/b;->g(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/a;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
 .method public isEmpty()Z
     .locals 1
 
@@ -84,17 +95,6 @@
     move-result-object v0
 
     return-object v0
-.end method
-
-.method public bridge synthetic j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/b;->g(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/a;
-
-    move-result-object p1
-
-    return-object p1
 .end method
 
 .method public w(Lkotlin/reflect/jvm/internal/impl/name/b;)Z

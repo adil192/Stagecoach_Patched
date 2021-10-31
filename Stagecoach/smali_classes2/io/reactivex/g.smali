@@ -281,11 +281,11 @@
 
     move-result-object p0
 
-    invoke-static {}, Lio/reactivex/internal/functions/Functions;->f()Lio/reactivex/c0/g;
+    invoke-static {}, Lio/reactivex/internal/functions/Functions;->f()Lio/reactivex/c0/i;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1, v2, v0}, Lio/reactivex/g;->u(Lio/reactivex/c0/g;ZI)Lio/reactivex/g;
+    invoke-virtual {p0, p1, v2, v0}, Lio/reactivex/g;->u(Lio/reactivex/c0/i;ZI)Lio/reactivex/g;
 
     move-result-object p0
 
@@ -551,14 +551,14 @@
 
 
 # virtual methods
-.method public final E(Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public final E(Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+TR;>;)",
             "Lio/reactivex/g<",
             "TR;>;"
@@ -573,7 +573,7 @@
     .line 2
     new-instance v0, Lio/reactivex/internal/operators/flowable/m;
 
-    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/flowable/m;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;)V
+    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/flowable/m;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -807,23 +807,23 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lio/reactivex/internal/functions/Functions;->b()Lio/reactivex/c0/i;
+    invoke-static {}, Lio/reactivex/internal/functions/Functions;->b()Lio/reactivex/c0/k;
 
     move-result-object v0
 
-    invoke-virtual {p0, p1, p2, v0}, Lio/reactivex/g;->P(JLio/reactivex/c0/i;)Lio/reactivex/g;
+    invoke-virtual {p0, p1, p2, v0}, Lio/reactivex/g;->P(JLio/reactivex/c0/k;)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final P(JLio/reactivex/c0/i;)Lio/reactivex/g;
+.method public final P(JLio/reactivex/c0/k;)Lio/reactivex/g;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(J",
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-",
             "Ljava/lang/Throwable;",
             ">;)",
@@ -846,7 +846,7 @@
     .line 2
     new-instance v0, Lio/reactivex/internal/operators/flowable/FlowableRetryPredicate;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/FlowableRetryPredicate;-><init>(Lio/reactivex/g;JLio/reactivex/c0/i;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/FlowableRetryPredicate;-><init>(Lio/reactivex/g;JLio/reactivex/c0/k;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -968,23 +968,23 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lio/reactivex/v;->H()Lio/reactivex/g;
+    invoke-virtual {v0}, Lio/reactivex/v;->I()Lio/reactivex/g;
 
     move-result-object v0
 
-    invoke-static {p1}, Lio/reactivex/internal/functions/Functions;->i(Ljava/util/Comparator;)Lio/reactivex/c0/g;
+    invoke-static {p1}, Lio/reactivex/internal/functions/Functions;->i(Ljava/util/Comparator;)Lio/reactivex/c0/i;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lio/reactivex/g;->E(Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-virtual {v0, p1}, Lio/reactivex/g;->E(Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object p1
 
-    invoke-static {}, Lio/reactivex/internal/functions/Functions;->f()Lio/reactivex/c0/g;
+    invoke-static {}, Lio/reactivex/internal/functions/Functions;->f()Lio/reactivex/c0/i;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/g;->w(Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-virtual {p1, v0}, Lio/reactivex/g;->w(Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object p1
 
@@ -1303,14 +1303,14 @@
     return-object p1
 .end method
 
-.method public final b0(Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public final b0(Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;)",
@@ -1324,21 +1324,21 @@
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lio/reactivex/g;->c0(Lio/reactivex/c0/g;I)Lio/reactivex/g;
+    invoke-virtual {p0, p1, v0}, Lio/reactivex/g;->c0(Lio/reactivex/c0/i;I)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final c0(Lio/reactivex/c0/g;I)Lio/reactivex/g;
+.method public final c0(Lio/reactivex/c0/i;I)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;I)",
@@ -1350,21 +1350,21 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, p2, v0}, Lio/reactivex/g;->d0(Lio/reactivex/c0/g;IZ)Lio/reactivex/g;
+    invoke-virtual {p0, p1, p2, v0}, Lio/reactivex/g;->d0(Lio/reactivex/c0/i;IZ)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final d(Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public final d(Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;)",
@@ -1376,21 +1376,21 @@
     const/4 v0, 0x2
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Lio/reactivex/g;->e(Lio/reactivex/c0/g;I)Lio/reactivex/g;
+    invoke-virtual {p0, p1, v0}, Lio/reactivex/g;->e(Lio/reactivex/c0/i;I)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method d0(Lio/reactivex/c0/g;IZ)Lio/reactivex/g;
+.method d0(Lio/reactivex/c0/i;IZ)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;IZ)",
@@ -1434,7 +1434,7 @@
 
     .line 6
     :cond_0
-    invoke-static {p2, p1}, Lio/reactivex/internal/operators/flowable/n;->a(Ljava/lang/Object;Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-static {p2, p1}, Lio/reactivex/internal/operators/flowable/n;->a(Ljava/lang/Object;Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object p1
 
@@ -1444,7 +1444,7 @@
     :cond_1
     new-instance v0, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;IZ)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/FlowableSwitchMap;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;IZ)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -1453,14 +1453,14 @@
     return-object p1
 .end method
 
-.method public final e(Lio/reactivex/c0/g;I)Lio/reactivex/g;
+.method public final e(Lio/reactivex/c0/i;I)Lio/reactivex/g;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;I)",
@@ -1504,7 +1504,7 @@
 
     .line 6
     :cond_0
-    invoke-static {p2, p1}, Lio/reactivex/internal/operators/flowable/n;->a(Ljava/lang/Object;Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-static {p2, p1}, Lio/reactivex/internal/operators/flowable/n;->a(Ljava/lang/Object;Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object p1
 
@@ -1516,7 +1516,7 @@
 
     sget-object v1, Lio/reactivex/internal/util/ErrorMode;->IMMEDIATE:Lio/reactivex/internal/util/ErrorMode;
 
-    invoke-direct {v0, p0, p1, p2, v1}, Lio/reactivex/internal/operators/flowable/FlowableConcatMap;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;ILio/reactivex/internal/util/ErrorMode;)V
+    invoke-direct {v0, p0, p1, p2, v1}, Lio/reactivex/internal/operators/flowable/FlowableConcatMap;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;ILio/reactivex/internal/util/ErrorMode;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -1525,12 +1525,12 @@
     return-object p1
 .end method
 
-.method public final e0(Lio/reactivex/c0/g;)Lio/reactivex/a;
+.method public final e0(Lio/reactivex/c0/i;)Lio/reactivex/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/e;",
             ">;)",
@@ -1548,7 +1548,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, p1, v1}, Lio/reactivex/internal/operators/mixed/FlowableSwitchMapCompletable;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;Z)V
+    invoke-direct {v0, p0, p1, v1}, Lio/reactivex/internal/operators/mixed/FlowableSwitchMapCompletable;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;Z)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->k(Lio/reactivex/a;)Lio/reactivex/a;
 
@@ -1568,25 +1568,25 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lio/reactivex/internal/functions/Functions;->f()Lio/reactivex/c0/g;
+    invoke-static {}, Lio/reactivex/internal/functions/Functions;->f()Lio/reactivex/c0/i;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lio/reactivex/g;->h(Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-virtual {p0, v0}, Lio/reactivex/g;->h(Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final h(Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public final h(Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;TK;>;)",
             "Lio/reactivex/g<",
             "TT;>;"
@@ -1605,7 +1605,7 @@
 
     move-result-object v1
 
-    invoke-direct {v0, p0, p1, v1}, Lio/reactivex/internal/operators/flowable/b;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;Lio/reactivex/c0/d;)V
+    invoke-direct {v0, p0, p1, v1}, Lio/reactivex/internal/operators/flowable/b;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;Lio/reactivex/c0/d;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -1705,9 +1705,9 @@
 
     move-result-object v0
 
-    sget-object v1, Lio/reactivex/internal/functions/Functions;->f:Lio/reactivex/c0/h;
+    sget-object v1, Lio/reactivex/internal/functions/Functions;->f:Lio/reactivex/c0/j;
 
-    invoke-virtual {p0, v0, v1, p1}, Lio/reactivex/g;->l(Lio/reactivex/c0/f;Lio/reactivex/c0/h;Lio/reactivex/c0/a;)Lio/reactivex/g;
+    invoke-virtual {p0, v0, v1, p1}, Lio/reactivex/g;->l(Lio/reactivex/c0/f;Lio/reactivex/c0/j;Lio/reactivex/c0/a;)Lio/reactivex/g;
 
     move-result-object p1
 
@@ -1743,7 +1743,7 @@
     return-object p1
 .end method
 
-.method public final l(Lio/reactivex/c0/f;Lio/reactivex/c0/h;Lio/reactivex/c0/a;)Lio/reactivex/g;
+.method public final l(Lio/reactivex/c0/f;Lio/reactivex/c0/j;Lio/reactivex/c0/a;)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1752,7 +1752,7 @@
             "-",
             "Lk/a/c;",
             ">;",
-            "Lio/reactivex/c0/h;",
+            "Lio/reactivex/c0/j;",
             "Lio/reactivex/c0/a;",
             ")",
             "Lio/reactivex/g<",
@@ -1778,7 +1778,7 @@
     .line 4
     new-instance v0, Lio/reactivex/internal/operators/flowable/e;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/e;-><init>(Lio/reactivex/g;Lio/reactivex/c0/f;Lio/reactivex/c0/h;Lio/reactivex/c0/a;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/e;-><init>(Lio/reactivex/g;Lio/reactivex/c0/f;Lio/reactivex/c0/j;Lio/reactivex/c0/a;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -1915,12 +1915,12 @@
     throw v0
 .end method
 
-.method public final q(Lio/reactivex/c0/i;)Lio/reactivex/g;
+.method public final q(Lio/reactivex/c0/k;)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-TT;>;)",
             "Lio/reactivex/g<",
             "TT;>;"
@@ -1935,7 +1935,7 @@
     .line 2
     new-instance v0, Lio/reactivex/internal/operators/flowable/i;
 
-    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/flowable/i;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;)V
+    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/flowable/i;-><init>(Lio/reactivex/g;Lio/reactivex/c0/k;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -1984,14 +1984,14 @@
     return-object v0
 .end method
 
-.method public final t(Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public final t(Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;)",
@@ -2011,21 +2011,21 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0, p1, v2, v0, v1}, Lio/reactivex/g;->v(Lio/reactivex/c0/g;ZII)Lio/reactivex/g;
+    invoke-virtual {p0, p1, v2, v0, v1}, Lio/reactivex/g;->v(Lio/reactivex/c0/i;ZII)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final u(Lio/reactivex/c0/g;ZI)Lio/reactivex/g;
+.method public final u(Lio/reactivex/c0/i;ZI)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;ZI)",
@@ -2039,21 +2039,21 @@
 
     move-result v0
 
-    invoke-virtual {p0, p1, p2, p3, v0}, Lio/reactivex/g;->v(Lio/reactivex/c0/g;ZII)Lio/reactivex/g;
+    invoke-virtual {p0, p1, p2, p3, v0}, Lio/reactivex/g;->v(Lio/reactivex/c0/i;ZII)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final v(Lio/reactivex/c0/g;ZII)Lio/reactivex/g;
+.method public final v(Lio/reactivex/c0/i;ZII)Lio/reactivex/g;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;ZII)",
@@ -2102,7 +2102,7 @@
 
     .line 7
     :cond_0
-    invoke-static {p2, p1}, Lio/reactivex/internal/operators/flowable/n;->a(Ljava/lang/Object;Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-static {p2, p1}, Lio/reactivex/internal/operators/flowable/n;->a(Ljava/lang/Object;Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object p1
 
@@ -2124,7 +2124,7 @@
 
     move v5, p4
 
-    invoke-direct/range {v0 .. v5}, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;ZII)V
+    invoke-direct/range {v0 .. v5}, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;ZII)V
 
     invoke-static {v6}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -2133,14 +2133,14 @@
     return-object p1
 .end method
 
-.method public final w(Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public final w(Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<U:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Ljava/lang/Iterable<",
             "+TU;>;>;)",
@@ -2154,21 +2154,21 @@
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lio/reactivex/g;->x(Lio/reactivex/c0/g;I)Lio/reactivex/g;
+    invoke-virtual {p0, p1, v0}, Lio/reactivex/g;->x(Lio/reactivex/c0/i;I)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final x(Lio/reactivex/c0/g;I)Lio/reactivex/g;
+.method public final x(Lio/reactivex/c0/i;I)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<U:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Ljava/lang/Iterable<",
             "+TU;>;>;I)",
@@ -2190,7 +2190,7 @@
     .line 3
     new-instance v0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;
 
-    invoke-direct {v0, p0, p1, p2}, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;I)V
+    invoke-direct {v0, p0, p1, p2}, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;I)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -2199,14 +2199,14 @@
     return-object p1
 .end method
 
-.method public final y(Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public final y(Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/o<",
             "+TR;>;>;)",
@@ -2220,21 +2220,21 @@
     const v1, 0x7fffffff
 
     .line 1
-    invoke-virtual {p0, p1, v0, v1}, Lio/reactivex/g;->z(Lio/reactivex/c0/g;ZI)Lio/reactivex/g;
+    invoke-virtual {p0, p1, v0, v1}, Lio/reactivex/g;->z(Lio/reactivex/c0/i;ZI)Lio/reactivex/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final z(Lio/reactivex/c0/g;ZI)Lio/reactivex/g;
+.method public final z(Lio/reactivex/c0/i;ZI)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/o<",
             "+TR;>;>;ZI)",
@@ -2256,7 +2256,7 @@
     .line 3
     new-instance v0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;-><init>(Lio/reactivex/g;Lio/reactivex/c0/g;ZI)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;-><init>(Lio/reactivex/g;Lio/reactivex/c0/i;ZI)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 

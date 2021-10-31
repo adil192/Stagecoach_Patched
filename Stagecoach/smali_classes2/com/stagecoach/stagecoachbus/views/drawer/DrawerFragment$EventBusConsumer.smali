@@ -64,7 +64,7 @@
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment$EventBusConsumer;->c:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->A3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->D3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)V
 
     goto :goto_0
 
@@ -77,7 +77,7 @@
     .line 4
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment$EventBusConsumer;->c:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->B3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->E3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)V
 
     :cond_1
     :goto_0

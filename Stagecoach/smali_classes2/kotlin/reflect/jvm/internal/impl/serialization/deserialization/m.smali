@@ -33,13 +33,13 @@
 
 
 # virtual methods
-.method public abstract G0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
+.method public abstract A0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
 .end method
 
-.method public abstract R()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/g;
+.method public abstract M()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/g;
 .end method
 
-.method public d0(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
+.method public Y(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
     .locals 2
 
     const-string v0, "name"
@@ -47,7 +47,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/w;->o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/w;->l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v0
 

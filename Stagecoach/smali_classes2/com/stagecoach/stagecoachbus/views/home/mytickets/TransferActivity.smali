@@ -110,7 +110,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->u4(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;
+    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->x4(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;
 
     move-result-object p1
 

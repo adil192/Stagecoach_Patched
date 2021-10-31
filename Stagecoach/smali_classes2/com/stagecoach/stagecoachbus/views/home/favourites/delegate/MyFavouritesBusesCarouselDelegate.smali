@@ -227,7 +227,7 @@
     const v3, 0x7f11031a
 
     .line 2
-    invoke-virtual {v2, v3}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -244,7 +244,7 @@
     const v2, 0x7f1100c3
 
     .line 3
-    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -392,7 +392,7 @@
 
     const v1, 0x7f11034c
 
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -500,7 +500,7 @@
     .line 6
     check-cast v0, Lcom/stagecoach/stagecoachbus/views/home/TabActivity;
 
-    invoke-static {v4, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->V5(ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
+    invoke-static {v4, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->Y5(ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
     move-result-object p1
 

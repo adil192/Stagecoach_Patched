@@ -177,7 +177,7 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView$AlertButtonListener;->g0(Z)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView$AlertButtonListener;->j0(Z)V
 
     goto :goto_0
 
@@ -185,7 +185,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView$AlertButtonListener;->g0(Z)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView$AlertButtonListener;->j0(Z)V
 
     :cond_1
     :goto_0
@@ -428,7 +428,7 @@
     .line 3
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;->h:Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView$AlertButtonListener;->c1()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView$AlertButtonListener;->f1()Ljava/lang/String;
 
     move-result-object p1
 

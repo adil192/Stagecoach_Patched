@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/m0;->c:Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;->i4(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;->l4(Landroid/view/View;)V
 
     return-void
 .end method

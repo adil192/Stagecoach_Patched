@@ -32,13 +32,13 @@
 
 
 # virtual methods
-.method public final a(Lkotlin/reflect/jvm/internal/impl/builtins/ReflectionTypes;Lkotlin/reflect/h;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public final a(Lkotlin/reflect/jvm/internal/impl/builtins/ReflectionTypes;Lkotlin/reflect/i;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkotlin/reflect/jvm/internal/impl/builtins/ReflectionTypes;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)",
             "Lkotlin/reflect/jvm/internal/impl/descriptors/d;"
         }
@@ -53,7 +53,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p2}, Lkotlin/reflect/a;->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lkotlin/reflect/b;->getName()Ljava/lang/String;
 
     move-result-object p2
 

@@ -43,33 +43,33 @@
     const/4 p1, 0x3
 
     .line 5
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->F(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x2
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->F(I)V
 
     throw v0
 
     :cond_2
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->F(I)V
 
     throw v0
 
     :cond_3
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->F(I)V
 
     throw v0
 .end method
 
-.method private static synthetic J(I)V
+.method private static synthetic F(I)V
     .locals 9
 
     const/4 v0, 0x5
@@ -221,7 +221,7 @@
     :cond_0
     const/4 v0, 0x4
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->F(I)V
 
     const/4 v0, 0x0
 
@@ -241,14 +241,14 @@
     :cond_0
     const/4 v0, 0x5
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f;->F(I)V
 
     const/4 v0, 0x0
 
     throw v0
 .end method
 
-.method public w()Z
+.method public isExternal()Z
     .locals 1
 
     .line 1

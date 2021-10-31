@@ -4,16 +4,10 @@
 
 # interfaces
 .implements Lkotlin/reflect/h;
-.implements Lkotlin/jvm/b/l;
+.implements Lkotlin/reflect/i;
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lkotlin/reflect/g$a;
-    }
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
@@ -23,28 +17,8 @@
         ">",
         "Ljava/lang/Object;",
         "Lkotlin/reflect/h<",
-        "TV;>;",
-        "Lkotlin/jvm/b/l<",
-        "TT;TV;>;"
+        "TT;TV;>;",
+        "Ljava/lang/Object<",
+        "TV;>;"
     }
 .end annotation
-
-
-# virtual methods
-.method public abstract get(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)TV;"
-        }
-    .end annotation
-.end method
-
-.method public abstract getGetter()Lkotlin/reflect/g$a;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lkotlin/reflect/g$a<",
-            "TT;TV;>;"
-        }
-    .end annotation
-.end method

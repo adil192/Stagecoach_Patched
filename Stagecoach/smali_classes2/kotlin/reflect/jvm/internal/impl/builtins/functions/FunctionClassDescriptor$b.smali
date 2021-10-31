@@ -30,7 +30,7 @@
     .line 1
     iput-object p1, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;->c:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->O0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/storage/m;
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->H0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/storage/m;
 
     move-result-object p1
 
@@ -74,7 +74,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;->c:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->T0()Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$Kind;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->M0()Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$Kind;
 
     move-result-object v0
 
@@ -107,7 +107,7 @@
     new-array v0, v3, [Lkotlin/reflect/jvm/internal/impl/name/a;
 
     .line 2
-    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->K0()Lkotlin/reflect/jvm/internal/impl/name/a;
+    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->D0()Lkotlin/reflect/jvm/internal/impl/name/a;
 
     move-result-object v3
 
@@ -121,7 +121,7 @@
 
     iget-object v5, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;->c:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;
 
-    invoke-virtual {v5}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->P0()I
+    invoke-virtual {v5}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->I0()I
 
     move-result v5
 
@@ -148,7 +148,7 @@
 
     .line 3
     :cond_1
-    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->G0()Lkotlin/reflect/jvm/internal/impl/name/a;
+    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->A0()Lkotlin/reflect/jvm/internal/impl/name/a;
 
     move-result-object v0
 
@@ -162,7 +162,7 @@
     new-array v0, v3, [Lkotlin/reflect/jvm/internal/impl/name/a;
 
     .line 4
-    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->K0()Lkotlin/reflect/jvm/internal/impl/name/a;
+    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->D0()Lkotlin/reflect/jvm/internal/impl/name/a;
 
     move-result-object v3
 
@@ -176,7 +176,7 @@
 
     iget-object v5, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;->c:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;
 
-    invoke-virtual {v5}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->P0()I
+    invoke-virtual {v5}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->I0()I
 
     move-result v5
 
@@ -196,7 +196,7 @@
 
     .line 5
     :cond_3
-    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->G0()Lkotlin/reflect/jvm/internal/impl/name/a;
+    invoke-static {}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->A0()Lkotlin/reflect/jvm/internal/impl/name/a;
 
     move-result-object v0
 
@@ -208,7 +208,7 @@
     :goto_0
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;->c:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->d0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/w;
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->Y(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/w;
 
     move-result-object v1
 
@@ -258,7 +258,7 @@
 
     move-result-object v4
 
-    invoke-interface {v5}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v5}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v6
 
@@ -309,7 +309,7 @@
     .line 15
     new-instance v8, Lkotlin/reflect/jvm/internal/impl/types/s0;
 
-    invoke-interface {v7}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v7}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v7
 
@@ -388,14 +388,14 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;->c:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->N0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Ljava/util/List;
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->G0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method protected j()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
+.method protected k()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
     .locals 1
 
     .line 1

@@ -4,7 +4,7 @@
 
 
 # static fields
-.field static final synthetic n:[Lkotlin/reflect/h;
+.field static final synthetic n:[Lkotlin/reflect/i;
 
 
 # instance fields
@@ -38,11 +38,11 @@
 
     const/4 v1, 0x2
 
-    new-array v1, v1, [Lkotlin/reflect/h;
+    new-array v1, v1, [Lkotlin/reflect/i;
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v3
 
@@ -50,9 +50,9 @@
 
     const-string v5, "getBinaryClasses$descriptors_jvm()Ljava/util/Map;"
 
-    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v2
 
@@ -62,7 +62,7 @@
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v0
 
@@ -70,9 +70,9 @@
 
     const-string v4, "getPartToFacade()Ljava/util/HashMap;"
 
-    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
 
     aput-object v0, v1, v2
 
-    sput-object v1, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->n:[Lkotlin/reflect/h;
+    sput-object v1, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->n:[Lkotlin/reflect/i;
 
     return-void
 .end method
@@ -219,7 +219,7 @@
     return-void
 .end method
 
-.method public static final synthetic R(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;
+.method public static final synthetic M(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;
     .locals 0
 
     .line 1
@@ -228,7 +228,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic d0(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/t;
+.method public static final synthetic Y(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/t;
     .locals 0
 
     .line 1
@@ -239,7 +239,7 @@
 
 
 # virtual methods
-.method public final G0(Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public final A0(Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 1
 
     const-string v0, "jClass"
@@ -260,7 +260,7 @@
     return-object p1
 .end method
 
-.method public final K0()Ljava/util/Map;
+.method public final D0()Ljava/util/Map;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -274,13 +274,13 @@
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->i:Lkotlin/reflect/jvm/internal/impl/storage/h;
 
-    sget-object v1, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->n:[Lkotlin/reflect/h;
+    sget-object v1, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->n:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 
     aget-object v1, v1, v2
 
-    invoke-static {v0, p0, v1}, Lkotlin/reflect/jvm/internal/impl/storage/l;->a(Lkotlin/reflect/jvm/internal/impl/storage/h;Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+    invoke-static {v0, p0, v1}, Lkotlin/reflect/jvm/internal/impl/storage/l;->a(Lkotlin/reflect/jvm/internal/impl/storage/h;Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -289,7 +289,7 @@
     return-object v0
 .end method
 
-.method public N0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/JvmPackageScope;
+.method public G0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/JvmPackageScope;
     .locals 1
 
     .line 1
@@ -298,7 +298,7 @@
     return-object v0
 .end method
 
-.method public final O0()Ljava/util/List;
+.method public final H0()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -341,11 +341,11 @@
     return-object v0
 .end method
 
-.method public bridge synthetic o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public bridge synthetic l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->N0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/JvmPackageScope;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->G0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/JvmPackageScope;
 
     move-result-object v0
 

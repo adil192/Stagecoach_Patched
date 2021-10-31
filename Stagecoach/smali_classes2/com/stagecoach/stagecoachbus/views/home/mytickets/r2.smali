@@ -38,7 +38,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->Q()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->T()V
 
     return-void
 .end method

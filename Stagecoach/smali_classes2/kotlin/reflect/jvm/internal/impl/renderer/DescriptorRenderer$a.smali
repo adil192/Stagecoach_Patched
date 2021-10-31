@@ -60,7 +60,7 @@
     .line 3
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->x()Z
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->t()Z
 
     move-result v0
 
@@ -72,7 +72,7 @@
 
     .line 4
     :cond_1
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
 
     move-result-object p1
 

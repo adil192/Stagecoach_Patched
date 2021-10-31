@@ -52,7 +52,7 @@
 
     check-cast v0, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->r0()V
+    invoke-interface {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->u0()V
 
     :cond_0
     return-void
@@ -87,7 +87,7 @@
 
     check-cast p2, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->F0(I)V
+    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->I0(I)V
 
     :cond_0
     return-void

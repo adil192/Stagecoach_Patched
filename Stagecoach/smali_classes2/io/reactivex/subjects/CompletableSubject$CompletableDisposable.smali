@@ -67,7 +67,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-virtual {v0, p0}, Lio/reactivex/subjects/CompletableSubject;->A(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)V
+    invoke-virtual {v0, p0}, Lio/reactivex/subjects/CompletableSubject;->z(Lio/reactivex/subjects/CompletableSubject$CompletableDisposable;)V
 
     :cond_0
     return-void

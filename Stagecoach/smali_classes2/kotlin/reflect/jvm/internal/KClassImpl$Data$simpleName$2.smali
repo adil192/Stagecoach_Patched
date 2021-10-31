@@ -89,7 +89,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KClassImpl$Data;->l:Lkotlin/reflect/jvm/internal/KClassImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KClassImpl;->b()Ljava/lang/Class;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KClassImpl;->d()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -109,7 +109,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KClassImpl$Data;->l:Lkotlin/reflect/jvm/internal/KClassImpl;
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/KClassImpl;->y(Lkotlin/reflect/jvm/internal/KClassImpl;)Lkotlin/reflect/jvm/internal/impl/name/a;
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/KClassImpl;->A(Lkotlin/reflect/jvm/internal/KClassImpl;)Lkotlin/reflect/jvm/internal/impl/name/a;
 
     move-result-object v0
 
@@ -124,7 +124,7 @@
 
     iget-object v1, v0, Lkotlin/reflect/jvm/internal/KClassImpl$Data;->l:Lkotlin/reflect/jvm/internal/KClassImpl;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KClassImpl;->b()Ljava/lang/Class;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KClassImpl;->d()Ljava/lang/Class;
 
     move-result-object v1
 

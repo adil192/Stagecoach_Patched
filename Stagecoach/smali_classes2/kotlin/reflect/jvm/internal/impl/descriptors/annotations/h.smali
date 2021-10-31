@@ -127,6 +127,43 @@
 
 
 # virtual methods
+.method public h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+    .locals 1
+
+    const-string v0, "fqName"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/h;->e:Lkotlin/jvm/b/l;
+
+    invoke-interface {v0, p1}, Lkotlin/jvm/b/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/h;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
+
+    invoke-interface {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;->h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return-object p1
+.end method
+
 .method public isEmpty()Z
     .locals 4
 
@@ -264,43 +301,6 @@
     move-result-object v0
 
     return-object v0
-.end method
-
-.method public j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-    .locals 1
-
-    const-string v0, "fqName"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/h;->e:Lkotlin/jvm/b/l;
-
-    invoke-interface {v0, p1}, Lkotlin/jvm/b/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Boolean;
-
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/h;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
-
-    invoke-interface {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;->j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-
-    move-result-object p1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    :goto_0
-    return-object p1
 .end method
 
 .method public w(Lkotlin/reflect/jvm/internal/impl/name/b;)Z

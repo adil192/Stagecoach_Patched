@@ -345,7 +345,7 @@
     check-cast v2, Lkotlin/reflect/jvm/internal/impl/types/y;
 
     .line 5
-    invoke-virtual {v2, p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v2, p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v2
 
@@ -374,7 +374,7 @@
     if-eqz v2, :cond_2
 
     .line 8
-    invoke-virtual {v2, p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v2, p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v0
 
@@ -384,7 +384,7 @@
 
     invoke-direct {p1, v1}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;-><init>(Ljava/util/Collection;)V
 
-    invoke-virtual {p1, v0}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->j(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
+    invoke-virtual {p1, v0}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->k(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
 
     move-result-object v0
 
@@ -400,20 +400,7 @@
     return-object v0
 .end method
 
-.method public final j(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
-    .locals 2
-
-    .line 1
-    new-instance v0, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
-
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->b:Ljava/util/LinkedHashSet;
-
-    invoke-direct {v0, v1, p1}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;-><init>(Ljava/util/Collection;Lkotlin/reflect/jvm/internal/impl/types/y;)V
-
-    return-object v0
-.end method
-
-.method public m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
     .locals 2
 
     .line 1
@@ -429,17 +416,30 @@
 
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/types/y;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/types/o0;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/types/o0;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v0
 
     const-string v1, "intersectedTypes.iterato\u2026xt().constructor.builtIns"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public final k(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
+
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->b:Ljava/util/LinkedHashSet;
+
+    invoke-direct {v0, v1, p1}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;-><init>(Ljava/util/Collection;Lkotlin/reflect/jvm/internal/impl/types/y;)V
 
     return-object v0
 .end method

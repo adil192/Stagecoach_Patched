@@ -79,7 +79,7 @@
     return-void
 .end method
 
-.method public static N0()Lio/reactivex/subjects/PublishSubject;
+.method public static W0()Lio/reactivex/subjects/PublishSubject;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -101,7 +101,64 @@
 
 
 # virtual methods
-.method M0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)Z
+.method protected A0(Lio/reactivex/t;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/t<",
+            "-TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lio/reactivex/subjects/PublishSubject$PublishDisposable;
+
+    invoke-direct {v0, p1, p0}, Lio/reactivex/subjects/PublishSubject$PublishDisposable;-><init>(Lio/reactivex/t;Lio/reactivex/subjects/PublishSubject;)V
+
+    .line 2
+    invoke-interface {p1, v0}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
+
+    .line 3
+    invoke-virtual {p0, v0}, Lio/reactivex/subjects/PublishSubject;->V0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 4
+    invoke-virtual {v0}, Lio/reactivex/subjects/PublishSubject$PublishDisposable;->isDisposed()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    .line 5
+    invoke-virtual {p0, v0}, Lio/reactivex/subjects/PublishSubject;->X0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)V
+
+    goto :goto_0
+
+    .line 6
+    :cond_0
+    iget-object v0, p0, Lio/reactivex/subjects/PublishSubject;->d:Ljava/lang/Throwable;
+
+    if-eqz v0, :cond_1
+
+    .line 7
+    invoke-interface {p1, v0}, Lio/reactivex/t;->onError(Ljava/lang/Throwable;)V
+
+    goto :goto_0
+
+    .line 8
+    :cond_1
+    invoke-interface {p1}, Lio/reactivex/t;->onComplete()V
+
+    :cond_2
+    :goto_0
+    return-void
+.end method
+
+.method V0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)Z
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -159,7 +216,7 @@
     return p1
 .end method
 
-.method O0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)V
+.method X0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -431,62 +488,5 @@
     invoke-interface {p1}, Lio/reactivex/disposables/b;->dispose()V
 
     :cond_0
-    return-void
-.end method
-
-.method protected s0(Lio/reactivex/t;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lio/reactivex/t<",
-            "-TT;>;)V"
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Lio/reactivex/subjects/PublishSubject$PublishDisposable;
-
-    invoke-direct {v0, p1, p0}, Lio/reactivex/subjects/PublishSubject$PublishDisposable;-><init>(Lio/reactivex/t;Lio/reactivex/subjects/PublishSubject;)V
-
-    .line 2
-    invoke-interface {p1, v0}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
-
-    .line 3
-    invoke-virtual {p0, v0}, Lio/reactivex/subjects/PublishSubject;->M0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    .line 4
-    invoke-virtual {v0}, Lio/reactivex/subjects/PublishSubject$PublishDisposable;->isDisposed()Z
-
-    move-result p1
-
-    if-eqz p1, :cond_2
-
-    .line 5
-    invoke-virtual {p0, v0}, Lio/reactivex/subjects/PublishSubject;->O0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)V
-
-    goto :goto_0
-
-    .line 6
-    :cond_0
-    iget-object v0, p0, Lio/reactivex/subjects/PublishSubject;->d:Ljava/lang/Throwable;
-
-    if-eqz v0, :cond_1
-
-    .line 7
-    invoke-interface {p1, v0}, Lio/reactivex/t;->onError(Ljava/lang/Throwable;)V
-
-    goto :goto_0
-
-    .line 8
-    :cond_1
-    invoke-interface {p1}, Lio/reactivex/t;->onComplete()V
-
-    :cond_2
-    :goto_0
     return-void
 .end method

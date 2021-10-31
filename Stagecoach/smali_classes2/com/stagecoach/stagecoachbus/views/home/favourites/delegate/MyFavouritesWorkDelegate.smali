@@ -98,7 +98,7 @@
 
     const v2, 0x7f110391
 
-    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -117,7 +117,7 @@
 
     const v2, 0x7f11005a
 
-    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -154,7 +154,7 @@
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/model/customeraccount/FavouriteTag;->work:Lcom/stagecoach/stagecoachbus/model/customeraccount/FavouriteTag;
 
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->B4(Lcom/stagecoach/stagecoachbus/model/customeraccount/FavouriteTag;)V
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->E4(Lcom/stagecoach/stagecoachbus/model/customeraccount/FavouriteTag;)V
 
     goto :goto_0
 
@@ -224,7 +224,7 @@
     const v1, 0x7f11031a
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -241,7 +241,7 @@
     const v1, 0x7f110142
 
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -258,7 +258,7 @@
     const v1, 0x7f1100c3
 
     .line 6
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 

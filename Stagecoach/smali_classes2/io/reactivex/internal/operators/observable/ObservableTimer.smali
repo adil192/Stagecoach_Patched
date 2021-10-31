@@ -48,7 +48,7 @@
 
 
 # virtual methods
-.method public s0(Lio/reactivex/t;)V
+.method public A0(Lio/reactivex/t;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {

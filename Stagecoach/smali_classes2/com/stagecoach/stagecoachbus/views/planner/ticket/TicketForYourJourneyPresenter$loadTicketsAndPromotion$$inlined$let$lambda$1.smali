@@ -85,7 +85,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$loadTicketsAndPromotion$$inlined$let$lambda$1;->c:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->w(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->x(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

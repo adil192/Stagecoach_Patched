@@ -102,7 +102,7 @@
     invoke-static {p6, v0}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 7
-    new-instance v0, Lio/reactivex/internal/operators/completable/f;
+    new-instance v0, Lio/reactivex/internal/operators/completable/e;
 
     move-object v1, v0
 
@@ -120,7 +120,7 @@
 
     move-object v8, p6
 
-    invoke-direct/range {v1 .. v8}, Lio/reactivex/internal/operators/completable/f;-><init>(Lio/reactivex/e;Lio/reactivex/c0/f;Lio/reactivex/c0/f;Lio/reactivex/c0/a;Lio/reactivex/c0/a;Lio/reactivex/c0/a;Lio/reactivex/c0/a;)V
+    invoke-direct/range {v1 .. v8}, Lio/reactivex/internal/operators/completable/e;-><init>(Lio/reactivex/e;Lio/reactivex/c0/f;Lio/reactivex/c0/f;Lio/reactivex/c0/a;Lio/reactivex/c0/a;Lio/reactivex/c0/a;Lio/reactivex/c0/a;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->k(Lio/reactivex/a;)Lio/reactivex/a;
 
@@ -129,27 +129,7 @@
     return-object p1
 .end method
 
-.method public static j(Ljava/lang/Throwable;)Lio/reactivex/a;
-    .locals 1
-
-    const-string v0, "error is null"
-
-    .line 1
-    invoke-static {p0, v0}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-
-    .line 2
-    new-instance v0, Lio/reactivex/internal/operators/completable/b;
-
-    invoke-direct {v0, p0}, Lio/reactivex/internal/operators/completable/b;-><init>(Ljava/lang/Throwable;)V
-
-    invoke-static {v0}, Lio/reactivex/g0/a;->k(Lio/reactivex/a;)Lio/reactivex/a;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+.method public static j(Lio/reactivex/c0/a;)Lio/reactivex/a;
     .locals 1
 
     const-string v0, "run is null"
@@ -158,9 +138,9 @@
     invoke-static {p0, v0}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 2
-    new-instance v0, Lio/reactivex/internal/operators/completable/c;
+    new-instance v0, Lio/reactivex/internal/operators/completable/b;
 
-    invoke-direct {v0, p0}, Lio/reactivex/internal/operators/completable/c;-><init>(Lio/reactivex/c0/a;)V
+    invoke-direct {v0, p0}, Lio/reactivex/internal/operators/completable/b;-><init>(Lio/reactivex/c0/a;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->k(Lio/reactivex/a;)Lio/reactivex/a;
 
@@ -169,7 +149,7 @@
     return-object p0
 .end method
 
-.method public static l(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
+.method public static k(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -186,9 +166,9 @@
     invoke-static {p0, v0}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 2
-    new-instance v0, Lio/reactivex/internal/operators/completable/d;
+    new-instance v0, Lio/reactivex/internal/operators/completable/c;
 
-    invoke-direct {v0, p0}, Lio/reactivex/internal/operators/completable/d;-><init>(Ljava/util/concurrent/Callable;)V
+    invoke-direct {v0, p0}, Lio/reactivex/internal/operators/completable/c;-><init>(Ljava/util/concurrent/Callable;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->k(Lio/reactivex/a;)Lio/reactivex/a;
 
@@ -197,7 +177,7 @@
     return-object p0
 .end method
 
-.method public static v(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
+.method public static u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
     .locals 1
 
     const-string v0, "unit is null"
@@ -222,7 +202,7 @@
     return-object p0
 .end method
 
-.method private static x(Ljava/lang/Throwable;)Ljava/lang/NullPointerException;
+.method private static w(Ljava/lang/Throwable;)Ljava/lang/NullPointerException;
     .locals 2
 
     .line 1
@@ -260,7 +240,7 @@
     invoke-static {p1, v0}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
-    invoke-virtual {p0, p1}, Lio/reactivex/a;->t(Lio/reactivex/c;)V
+    invoke-virtual {p0, p1}, Lio/reactivex/a;->s(Lio/reactivex/c;)V
     :try_end_0
     .catch Ljava/lang/NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -277,7 +257,7 @@
     invoke-static {p1}, Lio/reactivex/g0/a;->s(Ljava/lang/Throwable;)V
 
     .line 7
-    invoke-static {p1}, Lio/reactivex/a;->x(Ljava/lang/Throwable;)Ljava/lang/NullPointerException;
+    invoke-static {p1}, Lio/reactivex/a;->w(Ljava/lang/Throwable;)Ljava/lang/NullPointerException;
 
     move-result-object p1
 
@@ -407,7 +387,7 @@
     return-object p1
 .end method
 
-.method public final m(Lio/reactivex/u;)Lio/reactivex/a;
+.method public final l(Lio/reactivex/u;)Lio/reactivex/a;
     .locals 1
 
     const-string v0, "scheduler is null"
@@ -427,27 +407,27 @@
     return-object p1
 .end method
 
-.method public final n()Lio/reactivex/a;
+.method public final m()Lio/reactivex/a;
     .locals 1
 
     .line 1
-    invoke-static {}, Lio/reactivex/internal/functions/Functions;->b()Lio/reactivex/c0/i;
+    invoke-static {}, Lio/reactivex/internal/functions/Functions;->b()Lio/reactivex/c0/k;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lio/reactivex/a;->o(Lio/reactivex/c0/i;)Lio/reactivex/a;
+    invoke-virtual {p0, v0}, Lio/reactivex/a;->n(Lio/reactivex/c0/k;)Lio/reactivex/a;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final o(Lio/reactivex/c0/i;)Lio/reactivex/a;
+.method public final n(Lio/reactivex/c0/k;)Lio/reactivex/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-",
             "Ljava/lang/Throwable;",
             ">;)",
@@ -461,9 +441,9 @@
     invoke-static {p1, v0}, Lio/reactivex/internal/functions/a;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 2
-    new-instance v0, Lio/reactivex/internal/operators/completable/e;
+    new-instance v0, Lio/reactivex/internal/operators/completable/d;
 
-    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/completable/e;-><init>(Lio/reactivex/e;Lio/reactivex/c0/i;)V
+    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/completable/d;-><init>(Lio/reactivex/e;Lio/reactivex/c0/k;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->k(Lio/reactivex/a;)Lio/reactivex/a;
 
@@ -472,12 +452,12 @@
     return-object p1
 .end method
 
-.method public final p(Lio/reactivex/c0/g;)Lio/reactivex/a;
+.method public final o(Lio/reactivex/c0/i;)Lio/reactivex/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-",
             "Ljava/lang/Throwable;",
             "+",
@@ -495,7 +475,7 @@
     .line 2
     new-instance v0, Lio/reactivex/internal/operators/completable/CompletableResumeNext;
 
-    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/completable/CompletableResumeNext;-><init>(Lio/reactivex/e;Lio/reactivex/c0/g;)V
+    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/completable/CompletableResumeNext;-><init>(Lio/reactivex/e;Lio/reactivex/c0/i;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->k(Lio/reactivex/a;)Lio/reactivex/a;
 
@@ -504,7 +484,7 @@
     return-object p1
 .end method
 
-.method public final q()Lio/reactivex/disposables/b;
+.method public final p()Lio/reactivex/disposables/b;
     .locals 1
 
     .line 1
@@ -518,7 +498,7 @@
     return-object v0
 .end method
 
-.method public final r(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+.method public final q(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
     .locals 1
 
     const-string v0, "onComplete is null"
@@ -537,7 +517,7 @@
     return-object v0
 .end method
 
-.method public final s(Lio/reactivex/c0/a;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+.method public final r(Lio/reactivex/c0/a;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -572,10 +552,10 @@
     return-object v0
 .end method
 
-.method protected abstract t(Lio/reactivex/c;)V
+.method protected abstract s(Lio/reactivex/c;)V
 .end method
 
-.method public final u(Lio/reactivex/u;)Lio/reactivex/a;
+.method public final t(Lio/reactivex/u;)Lio/reactivex/a;
     .locals 1
 
     const-string v0, "scheduler is null"
@@ -595,7 +575,7 @@
     return-object p1
 .end method
 
-.method public final w()Lio/reactivex/k;
+.method public final v()Lio/reactivex/k;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

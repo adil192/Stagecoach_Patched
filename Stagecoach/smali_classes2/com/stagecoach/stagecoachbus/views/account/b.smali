@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/b;->a:Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;
 
-    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->A3(Landroid/view/View;Z)V
+    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->D3(Landroid/view/View;Z)V
 
     return-void
 .end method

@@ -84,7 +84,7 @@
     return-void
 .end method
 
-.method private final c1(Lkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
+.method private final V0(Lkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
     .locals 1
 
     .line 1
@@ -112,7 +112,7 @@
 
 
 # virtual methods
-.method public K0()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public D0()Lkotlin/reflect/jvm/internal/impl/types/y;
     .locals 3
 
     .line 1
@@ -130,14 +130,14 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, v0, v1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->c1(Lkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-direct {p0, v0, v1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->V0(Lkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public O0()Ljava/util/List;
+.method public H0()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -156,18 +156,18 @@
     return-object v0
 .end method
 
-.method public bridge synthetic P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+.method public bridge synthetic I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Y0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->R0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public Q0()Z
+.method public J0()Z
     .locals 1
 
     .line 1
@@ -176,7 +176,18 @@
     return v0
 .end method
 
-.method public R()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public bridge synthetic K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->T0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public M()Lkotlin/reflect/jvm/internal/impl/types/y;
     .locals 3
 
     .line 1
@@ -194,80 +205,69 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, v0, v1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->c1(Lkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-direct {p0, v0, v1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->V0(Lkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public bridge synthetic R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public bridge synthetic M0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->a1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->S0(Z)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic T0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic N0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Z0(Z)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->T0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic O0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->a1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->U0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic V0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic P0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->b1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->S0(Z)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic W0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
+.method public bridge synthetic Q0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/d0;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Z0(Z)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->U0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic X0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/d0;
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->b1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public Y0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
+.method public R0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
     .locals 1
 
     .line 1
@@ -276,11 +276,11 @@
     return-object v0
 .end method
 
-.method public Z0(Z)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+.method public S0(Z)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->J0()Z
 
     move-result v0
 
@@ -294,7 +294,7 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->d:Lkotlin/reflect/jvm/internal/impl/types/q0;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Y0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->R0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
 
     move-result-object v2
 
@@ -307,7 +307,7 @@
     return-object v0
 .end method
 
-.method public a1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+.method public T0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
     .locals 4
 
     const-string v0, "kotlinTypeRefiner"
@@ -327,11 +327,11 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Y0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->R0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->J0()Z
 
     move-result v2
 
@@ -344,7 +344,7 @@
     return-object v0
 .end method
 
-.method public b1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
+.method public U0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;
     .locals 4
 
     const-string v0, "newAnnotations"
@@ -356,11 +356,11 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->d:Lkotlin/reflect/jvm/internal/impl/types/q0;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Y0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->R0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->J0()Z
 
     move-result v3
 
@@ -369,7 +369,7 @@
     return-object v0
 .end method
 
-.method public d0(Lkotlin/reflect/jvm/internal/impl/types/y;)Z
+.method public Y(Lkotlin/reflect/jvm/internal/impl/types/y;)Z
     .locals 1
 
     const-string v0, "type"
@@ -377,11 +377,11 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Y0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->R0()Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/b;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p1
 
@@ -407,7 +407,7 @@
     return-object v0
 .end method
 
-.method public o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 2
 
     const-string v0, "No member resolution should be done on captured type, it used only during constraint system resolution"
@@ -446,7 +446,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/calls/inference/a;->J0()Z
 
     move-result v1
 

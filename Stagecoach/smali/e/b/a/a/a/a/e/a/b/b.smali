@@ -46,11 +46,11 @@
     iput-object v0, p0, Le/b/a/a/a/a/e/a/b/b;->c:Landroid/content/BroadcastReceiver;
 
     .line 4
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lio/reactivex/subjects/c;->L0()Lio/reactivex/subjects/c;
+    invoke-virtual {v0}, Lio/reactivex/subjects/c;->U0()Lio/reactivex/subjects/c;
 
     move-result-object v0
 
@@ -145,7 +145,7 @@
 
     sget-object v2, Lio/reactivex/BackpressureStrategy;->LATEST:Lio/reactivex/BackpressureStrategy;
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->C0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->L0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
 
     move-result-object v1
 
@@ -171,7 +171,7 @@
     invoke-direct {v1, p0}, Le/b/a/a/a/a/e/a/b/b$a;-><init>(Le/b/a/a/a/a/e/a/b/b;)V
 
     .line 11
-    invoke-virtual {v0, v1}, Lio/reactivex/g;->t(Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-virtual {v0, v1}, Lio/reactivex/g;->t(Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object v0
 

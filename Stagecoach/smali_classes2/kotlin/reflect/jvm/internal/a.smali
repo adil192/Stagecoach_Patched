@@ -154,7 +154,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->j0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->e0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object p2
 
@@ -173,7 +173,7 @@
 
     .line 2
     :goto_0
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->p0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->k0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object v2
 
@@ -185,7 +185,7 @@
     add-int/2addr p2, v0
 
     .line 3
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/p0;->n0()Z
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/p0;->i0()Z
 
     move-result v0
 

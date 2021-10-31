@@ -68,13 +68,13 @@
     if-eqz p0, :cond_0
 
     .line 1
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/e;->k()Z
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/e;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/e;->m()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/e;->i()Ljava/util/List;
 
     move-result-object p0
 
@@ -125,13 +125,13 @@
     if-nez v1, :cond_1
 
     .line 2
-    invoke-interface {p0}, Lcom/airbnb/lottie/model/i/m;->k()Z
+    invoke-interface {p0}, Lcom/airbnb/lottie/model/i/m;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-interface {p0}, Lcom/airbnb/lottie/model/i/m;->m()Ljava/util/List;
+    invoke-interface {p0}, Lcom/airbnb/lottie/model/i/m;->i()Ljava/util/List;
 
     move-result-object p0
 
@@ -168,13 +168,13 @@
     if-eqz p0, :cond_0
 
     .line 1
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->k()Z
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->m()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->i()Ljava/util/List;
 
     move-result-object p0
 
@@ -213,13 +213,13 @@
     if-eqz p0, :cond_0
 
     .line 1
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/g;->k()Z
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/g;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/g;->m()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/g;->i()Ljava/util/List;
 
     move-result-object p0
 
@@ -256,13 +256,13 @@
     if-eqz p0, :cond_0
 
     .line 1
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->k()Z
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->m()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->i()Ljava/util/List;
 
     move-result-object p0
 
@@ -301,13 +301,13 @@
     if-eqz p0, :cond_0
 
     .line 1
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->k()Z
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->m()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/airbnb/lottie/model/i/b;->i()Ljava/util/List;
 
     move-result-object p0
 
@@ -475,7 +475,7 @@
     move-result-object v17
 
     .line 14
-    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->m()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->i()Ljava/util/List;
 
     move-result-object v1
 
@@ -488,7 +488,7 @@
     if-eqz v1, :cond_2
 
     .line 15
-    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->m()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->i()Ljava/util/List;
 
     move-result-object v7
 
@@ -534,7 +534,7 @@
 
     .line 16
     :cond_2
-    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->m()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->i()Ljava/util/List;
 
     move-result-object v1
 
@@ -551,7 +551,7 @@
     if-nez v1, :cond_3
 
     .line 17
-    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->m()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/airbnb/lottie/model/i/b;->i()Ljava/util/List;
 
     move-result-object v9
 

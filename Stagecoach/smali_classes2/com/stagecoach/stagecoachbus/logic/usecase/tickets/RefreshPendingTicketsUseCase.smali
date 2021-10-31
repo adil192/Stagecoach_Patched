@@ -63,7 +63,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/g;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/RefreshPendingTicketsUseCase;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->k(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->p(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -72,19 +72,19 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/c;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/RefreshPendingTicketsUseCase;)V
 
     .line 2
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->L(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->S(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
     .line 3
-    invoke-virtual {v0}, Lio/reactivex/p;->D0()Lio/reactivex/v;
+    invoke-virtual {v0}, Lio/reactivex/p;->M0()Lio/reactivex/v;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/a;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/a;
 
     .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -93,7 +93,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/d;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/RefreshPendingTicketsUseCase;)V
 
     .line 5
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->k(Lio/reactivex/c0/f;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->l(Lio/reactivex/c0/f;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
 
     invoke-direct {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/RefreshResult;-><init>(Ljava/util/List;)V
 
-    invoke-static {p1}, Lio/reactivex/v;->t(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-static {p1}, Lio/reactivex/v;->u(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -203,7 +203,7 @@
     const-string v0, "Error during refresh"
 
     .line 3
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->z(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->A(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -358,7 +358,7 @@
 
     invoke-direct {p1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/b;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/RefreshPendingTicketsUseCase;)V
 
-    invoke-static {p1}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {p1}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -366,7 +366,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/e;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/RefreshPendingTicketsUseCase;)V
 
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->o(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->p(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 

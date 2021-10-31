@@ -15,29 +15,29 @@
 
 
 # virtual methods
-.method public abstract B0(Ljava/lang/String;)V
+.method public abstract E0(Ljava/lang/String;)V
 .end method
 
-.method public abstract E(I)V
+.method public abstract H(I)V
 .end method
 
-.method public abstract E0(Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract H0(Ljava/lang/String;Ljava/lang/String;)V
 .end method
 
-.method public abstract J0(I)V
+.method public abstract M0(I)V
 .end method
 
-.method public abstract Q0(Z)V
+.method public abstract T0(Z)V
 .end method
 
-.method public abstract V0(Z)V
+.method public abstract Y0(Z)V
 .end method
 
-.method public abstract b1(Ljava/lang/String;)V
+.method public abstract e1(Ljava/lang/String;)V
 .end method
 
-.method public abstract p0(Z)V
+.method public abstract s0(Z)V
 .end method
 
-.method public abstract q1()V
+.method public abstract t1()V
 .end method

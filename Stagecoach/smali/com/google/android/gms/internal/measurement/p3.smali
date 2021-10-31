@@ -83,7 +83,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/android/gms/internal/measurement/zzel;->j(Lcom/google/android/gms/internal/measurement/zzel;Ljava/lang/Object;)I
+    invoke-static {v0, v2}, Lcom/google/android/gms/internal/measurement/zzel;->k(Lcom/google/android/gms/internal/measurement/zzel;Ljava/lang/Object;)I
 
     move-result v0
 

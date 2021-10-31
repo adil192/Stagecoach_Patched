@@ -1,6 +1,6 @@
 .class public final Lio/reactivex/internal/operators/single/c;
 .super Lio/reactivex/v;
-.source "SingleDoOnSubscribe.java"
+.source "SingleDoOnEvent.java"
 
 
 # annotations
@@ -31,12 +31,12 @@
     .end annotation
 .end field
 
-.field final d:Lio/reactivex/c0/f;
+.field final d:Lio/reactivex/c0/b;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/f<",
-            "-",
-            "Lio/reactivex/disposables/b;",
+            "Lio/reactivex/c0/b<",
+            "-TT;-",
+            "Ljava/lang/Throwable;",
             ">;"
         }
     .end annotation
@@ -44,16 +44,16 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/z;Lio/reactivex/c0/f;)V
+.method public constructor <init>(Lio/reactivex/z;Lio/reactivex/c0/b;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/z<",
             "TT;>;",
-            "Lio/reactivex/c0/f<",
-            "-",
-            "Lio/reactivex/disposables/b;",
+            "Lio/reactivex/c0/b<",
+            "-TT;-",
+            "Ljava/lang/Throwable;",
             ">;)V"
         }
     .end annotation
@@ -65,15 +65,15 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/single/c;->c:Lio/reactivex/z;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/single/c;->d:Lio/reactivex/c0/f;
+    iput-object p2, p0, Lio/reactivex/internal/operators/single/c;->d:Lio/reactivex/c0/b;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected E(Lio/reactivex/x;)V
-    .locals 3
+.method protected F(Lio/reactivex/x;)V
+    .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -87,9 +87,7 @@
 
     new-instance v1, Lio/reactivex/internal/operators/single/c$a;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/single/c;->d:Lio/reactivex/c0/f;
-
-    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/single/c$a;-><init>(Lio/reactivex/x;Lio/reactivex/c0/f;)V
+    invoke-direct {v1, p0, p1}, Lio/reactivex/internal/operators/single/c$a;-><init>(Lio/reactivex/internal/operators/single/c;Lio/reactivex/x;)V
 
     invoke-interface {v0, v1}, Lio/reactivex/z;->b(Lio/reactivex/x;)V
 

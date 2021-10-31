@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/h;->c:Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->d4(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->g4(Landroid/view/View;)V
 
     return-void
 .end method

@@ -88,7 +88,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     goto :goto_1
 
@@ -107,7 +107,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     goto :goto_1
 
@@ -201,7 +201,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     :goto_1
     return-void
@@ -225,7 +225,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     return-void
 .end method

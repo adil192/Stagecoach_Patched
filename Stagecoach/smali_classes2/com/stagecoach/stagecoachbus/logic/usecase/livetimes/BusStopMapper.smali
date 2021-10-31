@@ -215,26 +215,26 @@
     invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel$BusWithEventsUIModelBuilder;->f(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel$BusWithEventsUIModelBuilder;
 
     .line 6
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 
     const-wide/16 v1, 0x3
 
     .line 7
-    invoke-virtual {p1, v1, v2}, Lio/reactivex/p;->y0(J)Lio/reactivex/p;
+    invoke-virtual {p1, v1, v2}, Lio/reactivex/p;->H0(J)Lio/reactivex/p;
 
     move-result-object p1
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/a;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/a;
 
     .line 8
-    invoke-virtual {p1, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 9
-    invoke-virtual {p1}, Lio/reactivex/p;->D0()Lio/reactivex/v;
+    invoke-virtual {p1}, Lio/reactivex/p;->M0()Lio/reactivex/v;
 
     move-result-object p1
 
@@ -278,7 +278,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -308,21 +308,21 @@
     move-result-object p1
 
     :goto_0
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 
     sget-object p2, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/c;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/c;
 
     .line 3
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->l0(Ljava/util/Comparator;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->t0(Ljava/util/Comparator;)Lio/reactivex/p;
 
     move-result-object p1
 
     sget-object p2, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/i0;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/i0;
 
     .line 4
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -334,7 +334,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -342,7 +342,7 @@
     :goto_1
     sget-object p2, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/b;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/b;
 
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->B(Lio/reactivex/c0/i;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->H(Lio/reactivex/c0/k;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -351,12 +351,12 @@
     invoke-direct {p2, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/k0;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/BusStopMapper;)V
 
     .line 7
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 8
-    invoke-virtual {p1}, Lio/reactivex/p;->D0()Lio/reactivex/v;
+    invoke-virtual {p1}, Lio/reactivex/p;->M0()Lio/reactivex/v;
 
     move-result-object p1
 

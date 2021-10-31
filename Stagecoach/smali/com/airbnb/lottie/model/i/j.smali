@@ -48,7 +48,7 @@
     return-object v0
 .end method
 
-.method public bridge synthetic l()Lcom/airbnb/lottie/s/c/a;
+.method public bridge synthetic h()Lcom/airbnb/lottie/s/c/a;
     .locals 1
 
     .line 1

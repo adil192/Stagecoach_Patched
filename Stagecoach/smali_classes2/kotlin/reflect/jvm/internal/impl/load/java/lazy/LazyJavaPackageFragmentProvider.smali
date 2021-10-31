@@ -174,7 +174,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->O0()Ljava/util/List;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->H0()Ljava/util/List;
 
     move-result-object p1
 
@@ -197,7 +197,7 @@
     return-object p1
 .end method
 
-.method public bridge synthetic n(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
+.method public bridge synthetic k(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
     .locals 0
 
     .line 1

@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/i;->d:Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/PaymentOptionsEditView;
 
-    invoke-virtual {v0, v1, p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->f4(Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/PaymentOptionsEditView;Landroid/content/DialogInterface;I)V
+    invoke-virtual {v0, v1, p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/EditPaymentOptionsFragment;->i4(Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/PaymentOptionsEditView;Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

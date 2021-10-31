@@ -25,13 +25,13 @@
 
 
 # virtual methods
-.method public I(ILjava/lang/Object;)V
+.method public J(ILjava/lang/Object;)V
     .locals 1
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsNavigationProvider;->c:Lcom/stagecoach/stagecoachbus/views/base/NavigationProvider;
 
-    invoke-interface {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/NavigationProvider;->I(ILjava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/NavigationProvider;->J(ILjava/lang/Object;)V
 
     return-void
 .end method

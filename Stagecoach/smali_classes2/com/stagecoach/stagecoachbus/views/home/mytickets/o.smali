@@ -36,7 +36,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/logic/BasketErrorCode;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->O4(Lcom/stagecoach/core/model/tickets/Ticket;Lcom/stagecoach/stagecoachbus/logic/BasketErrorCode;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->R4(Lcom/stagecoach/core/model/tickets/Ticket;Lcom/stagecoach/stagecoachbus/logic/BasketErrorCode;)V
 
     return-void
 .end method

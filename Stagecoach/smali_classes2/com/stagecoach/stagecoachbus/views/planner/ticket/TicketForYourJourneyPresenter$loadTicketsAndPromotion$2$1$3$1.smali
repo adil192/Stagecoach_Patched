@@ -87,10 +87,10 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->K()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->N()V
 
     .line 2
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->z()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->C()V
 
     return-void
 .end method

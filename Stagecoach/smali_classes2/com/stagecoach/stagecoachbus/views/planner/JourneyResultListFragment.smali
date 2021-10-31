@@ -151,359 +151,7 @@
     return-void
 .end method
 
-.method static synthetic V3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->z4(Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
-
-    return-void
-.end method
-
-.method private X3()V
-    .locals 3
-
-    .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    .line 2
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->N0:Lcom/google/android/play/core/review/c;
-
-    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->O0:Lcom/google/android/play/core/review/ReviewInfo;
-
-    invoke-interface {v1, v0, v2}, Lcom/google/android/play/core/review/c;->a(Landroid/app/Activity;Lcom/google/android/play/core/review/ReviewInfo;)Lcom/google/android/play/core/tasks/d;
-
-    move-result-object v0
-
-    .line 3
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/planner/a1;
-
-    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/a1;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
-
-    invoke-virtual {v0, v1}, Lcom/google/android/play/core/tasks/d;->a(Lcom/google/android/play/core/tasks/a;)Lcom/google/android/play/core/tasks/d;
-
-    :cond_0
-    return-void
-.end method
-
-.method public static synthetic Z3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
-    .locals 0
-
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->X3()V
-
-    return-void
-.end method
-
-.method private synthetic a4(Ljava/lang/Throwable;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->l1:Ljava/lang/String;
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1, p1}, Lcom/stagecoach/core/utils/CLog;->CLe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    const p1, 0x7f11017c
-
-    .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
-
-    return-void
-.end method
-
-.method private synthetic c4(Lcom/google/android/play/core/tasks/d;)V
-    .locals 1
-
-    .line 1
-    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->G0:Lcom/stagecoach/stagecoachbus/logic/RatingManager;
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/RatingManager;->c(Z)V
-
-    return-void
-.end method
-
-.method private synthetic e4()Ljava/lang/Boolean;
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
-
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->W0:Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;
-
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->o(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)Z
-
-    move-result v0
-
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method private synthetic g4(Ljava/lang/Boolean;)V
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const p1, 0x7f11017e
-
-    .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
-
-    :cond_0
-    return-void
-.end method
-
-.method private synthetic i4(Lcom/google/android/play/core/tasks/d;)V
-    .locals 1
-
-    .line 1
-    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->G0:Lcom/stagecoach/stagecoachbus/logic/RatingManager;
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/RatingManager;->d(Z)V
-
-    return-void
-.end method
-
-.method private synthetic k4()Ljava/lang/Boolean;
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
-
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->W0:Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;
-
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->a(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)Z
-
-    move-result v0
-
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method private synthetic m4(Ljava/lang/Boolean;)V
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const p1, 0x7f11017d
-
-    .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
-
-    :cond_0
-    return-void
-.end method
-
-.method private synthetic o4(Ljava/lang/Throwable;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->l1:Ljava/lang/String;
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1, p1}, Lcom/stagecoach/core/utils/CLog;->CLe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    const p1, 0x7f11017c
-
-    .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
-
-    return-void
-.end method
-
-.method private synthetic q4(Lcom/google/android/play/core/tasks/d;)V
-    .locals 1
-
-    .line 1
-    invoke-virtual {p1}, Lcom/google/android/play/core/tasks/d;->g()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 2
-    invoke-virtual {p1}, Lcom/google/android/play/core/tasks/d;->e()Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/google/android/play/core/review/ReviewInfo;
-
-    iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->O0:Lcom/google/android/play/core/review/ReviewInfo;
-
-    :cond_0
-    return-void
-.end method
-
-.method private synthetic s4(Landroid/view/View;)V
-    .locals 0
-
-    .line 1
-    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->e1:Landroid/widget/ImageButton;
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Landroid/widget/ImageButton;->getVisibility()I
-
-    move-result p1
-
-    if-nez p1, :cond_0
-
-    .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->Y3()V
-
-    goto :goto_0
-
-    .line 3
-    :cond_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->W3()V
-
-    :goto_0
-    return-void
-.end method
-
-.method private synthetic u4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
-    .locals 0
-
-    .line 1
-    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
-
-    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->g1:Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;
-
-    invoke-static {p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;->a(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;)Z
-
-    move-result p2
-
-    if-eqz p2, :cond_0
-
-    if-nez p3, :cond_0
-
-    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->h1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
-
-    invoke-virtual {p2}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->get()Ljava/lang/Object;
-
-    move-result-object p2
-
-    check-cast p2, Ljava/lang/Boolean;
-
-    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p2
-
-    if-nez p2, :cond_0
-
-    .line 2
-    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->h1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
-
-    invoke-virtual {p2, p1}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->set(Ljava/lang/Object;)V
-
-    .line 3
-    sget-object p1, Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;->Before:Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;
-
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->w4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
-
-    goto :goto_0
-
-    .line 4
-    :cond_0
-    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->g1:Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;
-
-    invoke-virtual {p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;->getCount()I
-
-    move-result p2
-
-    add-int/lit8 p2, p2, -0x1
-
-    if-ne p3, p2, :cond_1
-
-    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->i1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
-
-    invoke-virtual {p2}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->get()Ljava/lang/Object;
-
-    move-result-object p2
-
-    check-cast p2, Ljava/lang/Boolean;
-
-    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p2
-
-    if-nez p2, :cond_1
-
-    .line 5
-    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->i1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
-
-    invoke-virtual {p2, p1}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->set(Ljava/lang/Object;)V
-
-    .line 6
-    sget-object p1, Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;->After:Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;
-
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->w4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
-.method public static x4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Ljava/io/Serializable;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;ZZ)Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;
+.method public static A4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Ljava/io/Serializable;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;ZZ)Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;
     .locals 2
 
     .line 1
@@ -580,7 +228,7 @@
     return-object p0
 .end method
 
-.method private y4(Landroid/os/Bundle;)V
+.method private B4(Landroid/os/Bundle;)V
     .locals 1
 
     if-nez p1, :cond_0
@@ -683,7 +331,7 @@
     return-void
 .end method
 
-.method private z4(Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+.method private C4(Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -740,13 +388,365 @@
     return-void
 .end method
 
+.method static synthetic Y3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+    .locals 0
 
-# virtual methods
-.method public G1(IILandroid/content/Intent;)V
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->C4(Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+
+    return-void
+.end method
+
+.method private a4()V
+    .locals 3
+
+    .line 1
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->N0:Lcom/google/android/play/core/review/c;
+
+    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->O0:Lcom/google/android/play/core/review/ReviewInfo;
+
+    invoke-interface {v1, v0, v2}, Lcom/google/android/play/core/review/c;->a(Landroid/app/Activity;Lcom/google/android/play/core/review/ReviewInfo;)Lcom/google/android/play/core/tasks/d;
+
+    move-result-object v0
+
+    .line 3
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/planner/a1;
+
+    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/a1;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
+
+    invoke-virtual {v0, v1}, Lcom/google/android/play/core/tasks/d;->a(Lcom/google/android/play/core/tasks/a;)Lcom/google/android/play/core/tasks/d;
+
+    :cond_0
+    return-void
+.end method
+
+.method public static synthetic c4(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->a4()V
+
+    return-void
+.end method
+
+.method private synthetic d4(Ljava/lang/Throwable;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->l1:Ljava/lang/String;
+
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1, p1}, Lcom/stagecoach/core/utils/CLog;->CLe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    const p1, 0x7f11017c
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
+
+    return-void
+.end method
+
+.method private synthetic f4(Lcom/google/android/play/core/tasks/d;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->G0:Lcom/stagecoach/stagecoachbus/logic/RatingManager;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/RatingManager;->c(Z)V
+
+    return-void
+.end method
+
+.method private synthetic h4()Ljava/lang/Boolean;
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
+
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->W0:Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;
+
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->o(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)Z
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method private synthetic j4(Ljava/lang/Boolean;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const p1, 0x7f11017e
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
+
+    :cond_0
+    return-void
+.end method
+
+.method private synthetic l4(Lcom/google/android/play/core/tasks/d;)V
+    .locals 1
+
+    .line 1
+    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->G0:Lcom/stagecoach/stagecoachbus/logic/RatingManager;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/logic/RatingManager;->d(Z)V
+
+    return-void
+.end method
+
+.method private synthetic n4()Ljava/lang/Boolean;
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
+
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->W0:Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;
+
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->a(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)Z
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method private synthetic p4(Ljava/lang/Boolean;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const p1, 0x7f11017d
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
+
+    :cond_0
+    return-void
+.end method
+
+.method private synthetic r4(Ljava/lang/Throwable;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->l1:Ljava/lang/String;
+
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1, p1}, Lcom/stagecoach/core/utils/CLog;->CLe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    const p1, 0x7f11017c
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
+
+    return-void
+.end method
+
+.method private synthetic t4(Lcom/google/android/play/core/tasks/d;)V
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Lcom/google/android/play/core/tasks/d;->g()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    invoke-virtual {p1}, Lcom/google/android/play/core/tasks/d;->e()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/google/android/play/core/review/ReviewInfo;
+
+    iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->O0:Lcom/google/android/play/core/review/ReviewInfo;
+
+    :cond_0
+    return-void
+.end method
+
+.method private synthetic v4(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->e1:Landroid/widget/ImageButton;
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p1}, Landroid/widget/ImageButton;->getVisibility()I
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    .line 2
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->b4()V
+
+    goto :goto_0
+
+    .line 3
+    :cond_0
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->Z3()V
+
+    :goto_0
+    return-void
+.end method
+
+.method private synthetic x4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    .locals 0
+
+    .line 1
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->g1:Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;
+
+    invoke-static {p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;->a(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    if-nez p3, :cond_0
+
+    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->h1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
+
+    invoke-virtual {p2}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->get()Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Ljava/lang/Boolean;
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p2
+
+    if-nez p2, :cond_0
+
+    .line 2
+    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->h1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
+
+    invoke-virtual {p2, p1}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->set(Ljava/lang/Object;)V
+
+    .line 3
+    sget-object p1, Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;->Before:Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;
+
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->z4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->g1:Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;
+
+    invoke-virtual {p2}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListAdapter;->getCount()I
+
+    move-result p2
+
+    add-int/lit8 p2, p2, -0x1
+
+    if-ne p3, p2, :cond_1
+
+    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->i1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
+
+    invoke-virtual {p2}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->get()Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Ljava/lang/Boolean;
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p2
+
+    if-nez p2, :cond_1
+
+    .line 5
+    iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->i1:Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;
+
+    invoke-virtual {p2, p1}, Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;->set(Ljava/lang/Object;)V
+
+    .line 6
+    sget-object p1, Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;->After:Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;
+
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->z4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
+
+# virtual methods
+.method public J1(IILandroid/content/Intent;)V
+    .locals 1
+
+    .line 1
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     const/16 p3, 0x3041
 
@@ -796,11 +796,11 @@
     return-void
 .end method
 
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->L1(Landroid/content/Context;)V
 
     .line 2
     instance-of v0, p1, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListlistener;
@@ -816,14 +816,14 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -832,14 +832,14 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 6
 
     .line 1
-    invoke-direct {p0, p3}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->y4(Landroid/os/Bundle;)V
+    invoke-direct {p0, p3}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->B4(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0100
 
@@ -1222,7 +1222,7 @@
     .line 43
     iget-object p3, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->X0:Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
 
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -1269,7 +1269,7 @@
     .line 46
     iget-object p3, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->Y0:Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
 
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1414,7 +1414,7 @@
     return-object p1
 .end method
 
-.method public Q1()V
+.method public T1()V
     .locals 1
 
     .line 1
@@ -1423,12 +1423,12 @@
     invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/usecase/UseCaseSingle;->b()V
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->Q1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->T1()V
 
     return-void
 .end method
 
-.method public R(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+.method public U(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
     .locals 2
 
     .line 1
@@ -1476,7 +1476,7 @@
     if-eqz p1, :cond_1
 
     .line 5
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->h3(Ljava/util/ArrayList;)Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->k3(Ljava/util/ArrayList;)Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;
 
     move-result-object v0
 
@@ -1486,13 +1486,13 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->s0:Ljava/lang/String;
 
-    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     :cond_1
     return-void
 .end method
 
-.method public R0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+.method public U0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
     .locals 13
 
     .line 1
@@ -1534,13 +1534,13 @@
 
     move-object v11, p1
 
-    invoke-interface/range {v3 .. v12}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListlistener;->r(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;Z)V
+    invoke-interface/range {v3 .. v12}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListlistener;->s(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;Z)V
 
     :cond_1
     return-void
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     const/4 v0, 0x0
@@ -1549,12 +1549,12 @@
     iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->k1:Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListlistener;
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->T1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->W1()V
 
     return-void
 .end method
 
-.method public W3()V
+.method public Z3()V
     .locals 3
 
     .line 1
@@ -1620,7 +1620,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/planner/d1;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1629,7 +1629,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1638,7 +1638,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1651,18 +1651,18 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/planner/v0;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
 
     .line 11
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 12
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     :cond_3
     return-void
 .end method
 
-.method public Y3()V
+.method public b4()V
     .locals 3
 
     .line 1
@@ -1696,7 +1696,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/planner/y0;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1705,7 +1705,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1714,7 +1714,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1727,48 +1727,61 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/planner/w0;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
 
     .line 8
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 9
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     :cond_2
     return-void
 .end method
 
-.method public synthetic b4(Ljava/lang/Throwable;)V
+.method public synthetic e4(Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->a4(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->d4(Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method public synthetic d4(Lcom/google/android/play/core/tasks/d;)V
+.method public synthetic g4(Lcom/google/android/play/core/tasks/d;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->c4(Lcom/google/android/play/core/tasks/d;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->f4(Lcom/google/android/play/core/tasks/d;)V
 
     return-void
 .end method
 
-.method public synthetic f4()Ljava/lang/Boolean;
+.method public getTitle()Ljava/lang/String;
     .locals 1
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->e4()Ljava/lang/Boolean;
+    const v0, 0x7f11037c
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public g2()V
+.method public synthetic i4()Ljava/lang/Boolean;
+    .locals 1
+
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->h4()Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public j2()V
     .locals 4
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->G0:Lcom/stagecoach/stagecoachbus/logic/RatingManager;
@@ -1809,7 +1822,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v1, v2, v3}, Lio/reactivex/a;->v(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-static {v0, v1, v2, v3}, Lio/reactivex/a;->u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v0
 
@@ -1818,35 +1831,22 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/b1;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;)V
 
     .line 6
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->r(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1}, Lio/reactivex/a;->q(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 7
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     .line 8
     :cond_1
     :goto_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->M3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()V
 
     return-void
 .end method
 
-.method public getTitle()Ljava/lang/String;
-    .locals 1
-
-    const v0, 0x7f11037c
-
-    .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public h0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+.method public k0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
     .locals 10
 
     .line 1
@@ -1877,7 +1877,7 @@
     move-object v1, p1
 
     .line 4
-    invoke-interface/range {v0 .. v9}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListlistener;->D(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Ljava/io/Serializable;Ljava/lang/String;)V
+    invoke-interface/range {v0 .. v9}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$JourneyResultListlistener;->E(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;ILcom/stagecoach/stagecoachbus/model/tickets/PassengerClassFilters;Ljava/util/Date;Lcom/stagecoach/stagecoachbus/views/picker/daytimepicker/DateTimePickerActivity$TargetTimeType;Ljava/io/Serializable;Ljava/lang/String;)V
 
     .line 5
     :cond_0
@@ -1898,11 +1898,11 @@
     return-void
 .end method
 
-.method public h2(Landroid/os/Bundle;)V
+.method public k2(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->h2(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->k2(Landroid/os/Bundle;)V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->L0:Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
@@ -1971,33 +1971,33 @@
     return-void
 .end method
 
-.method public synthetic h4(Ljava/lang/Boolean;)V
+.method public synthetic k4(Ljava/lang/Boolean;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->g4(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->j4(Ljava/lang/Boolean;)V
 
     return-void
 .end method
 
-.method public synthetic j4(Lcom/google/android/play/core/tasks/d;)V
+.method public synthetic m4(Lcom/google/android/play/core/tasks/d;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->i4(Lcom/google/android/play/core/tasks/d;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->l4(Lcom/google/android/play/core/tasks/d;)V
 
     return-void
 .end method
 
-.method public synthetic l4()Ljava/lang/Boolean;
+.method public synthetic o4()Ljava/lang/Boolean;
     .locals 1
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->k4()Ljava/lang/Boolean;
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->n4()Ljava/lang/Boolean;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public m0()V
+.method public p0()V
     .locals 9
 
     .line 1
@@ -2078,7 +2078,7 @@
     .line 7
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->c1:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerOutsideAlertFragment;->j3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerOutsideAlertFragment;
+    invoke-static {v1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerOutsideAlertFragment;->m3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerOutsideAlertFragment;
 
     move-result-object v1
 
@@ -2090,53 +2090,53 @@
     .line 9
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerOutsideAlertFragment;->r0:Ljava/lang/String;
 
-    invoke-virtual {v1, v0, v2}, Landroidx/fragment/app/b;->Z2(Landroidx/fragment/app/s;Ljava/lang/String;)I
+    invoke-virtual {v1, v0, v2}, Landroidx/fragment/app/b;->c3(Landroidx/fragment/app/s;Ljava/lang/String;)I
 
     :cond_1
     return-void
 .end method
 
-.method public synthetic n4(Ljava/lang/Boolean;)V
+.method public synthetic q4(Ljava/lang/Boolean;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->m4(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->p4(Ljava/lang/Boolean;)V
 
     return-void
 .end method
 
-.method public synthetic p4(Ljava/lang/Throwable;)V
+.method public synthetic s4(Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->o4(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->r4(Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method public synthetic r4(Lcom/google/android/play/core/tasks/d;)V
+.method public synthetic u4(Lcom/google/android/play/core/tasks/d;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->q4(Lcom/google/android/play/core/tasks/d;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->t4(Lcom/google/android/play/core/tasks/d;)V
 
     return-void
 .end method
 
-.method public synthetic t4(Landroid/view/View;)V
+.method public synthetic w4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->s4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->v4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic v4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+.method public synthetic y4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 0
 
-    invoke-direct/range {p0 .. p5}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->u4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    invoke-direct/range {p0 .. p5}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->x4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     return-void
 .end method
 
-.method w4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+.method z4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
     .locals 5
 
     .line 1

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/n;->c:Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->x4()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->A4()Ljava/util/List;
 
     move-result-object v0
 

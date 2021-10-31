@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/p0;->c:Lcom/stagecoach/stagecoachbus/views/home/SetLocationPromptScreenFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/SetLocationPromptScreenFragment;->k3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/SetLocationPromptScreenFragment;->n3(Landroid/view/View;)V
 
     return-void
 .end method

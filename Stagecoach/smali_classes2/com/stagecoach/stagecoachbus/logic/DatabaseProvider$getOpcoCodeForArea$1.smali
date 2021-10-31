@@ -3,12 +3,12 @@
 .source "DatabaseProvider.kt"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->B(Ljava/lang/String;)Lio/reactivex/g;
+    value = Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->C(Ljava/lang/String;)Lio/reactivex/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Ljava/util/List<",
         "+",
         "Lcom/stagecoach/stagecoachbus/model/opco/OpcoItem;",

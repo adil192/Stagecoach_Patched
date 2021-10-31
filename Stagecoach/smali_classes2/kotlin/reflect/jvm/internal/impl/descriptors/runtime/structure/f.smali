@@ -28,11 +28,11 @@
     aget-object v3, p0, v1
 
     .line 2
-    invoke-static {v3}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+    invoke-static {v3}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
 
     move-result-object v4
 
-    invoke-static {v4}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v4}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v4
 

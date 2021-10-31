@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public a(II)Z
+.method public areContentsTheSame(II)Z
     .locals 1
 
     .line 1
@@ -92,7 +92,7 @@
     throw p1
 .end method
 
-.method public b(II)Z
+.method public areItemsTheSame(II)Z
     .locals 1
 
     .line 1
@@ -150,7 +150,7 @@
     return p1
 .end method
 
-.method public c(II)Ljava/lang/Object;
+.method public getChangePayload(II)Ljava/lang/Object;
     .locals 1
 
     .line 1

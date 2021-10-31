@@ -68,7 +68,25 @@
 
 
 # virtual methods
-.method M0()V
+.method protected A0(Lio/reactivex/t;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/t<",
+            "-TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lio/reactivex/subjects/b;->c:Lio/reactivex/subjects/c;
+
+    invoke-virtual {v0, p1}, Lio/reactivex/p;->subscribe(Lio/reactivex/t;)V
+
+    return-void
+.end method
+
+.method V0()V
     .locals 2
 
     .line 1
@@ -408,7 +426,7 @@
     invoke-interface {v0, p1}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
 
     .line 14
-    invoke-virtual {p0}, Lio/reactivex/subjects/b;->M0()V
+    invoke-virtual {p0}, Lio/reactivex/subjects/b;->V0()V
 
     return-void
 
@@ -518,26 +536,8 @@
     invoke-interface {v0, p1}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
 
     .line 14
-    invoke-virtual {p0}, Lio/reactivex/subjects/b;->M0()V
+    invoke-virtual {p0}, Lio/reactivex/subjects/b;->V0()V
 
     :goto_2
-    return-void
-.end method
-
-.method protected s0(Lio/reactivex/t;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lio/reactivex/t<",
-            "-TT;>;)V"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lio/reactivex/subjects/b;->c:Lio/reactivex/subjects/c;
-
-    invoke-virtual {v0, p1}, Lio/reactivex/p;->subscribe(Lio/reactivex/t;)V
-
     return-void
 .end method

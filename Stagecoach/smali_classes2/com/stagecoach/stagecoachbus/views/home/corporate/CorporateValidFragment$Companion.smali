@@ -105,7 +105,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->d3()Ljava/lang/String;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->g3()Ljava/lang/String;
 
     move-result-object v0
 

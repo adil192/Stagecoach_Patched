@@ -153,7 +153,7 @@
     if-eqz p1, :cond_3
 
     .line 7
-    invoke-virtual {v0, p1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, p1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -166,7 +166,7 @@
     .line 9
     sget-object p1, Lio/reactivex/BackpressureStrategy;->LATEST:Lio/reactivex/BackpressureStrategy;
 
-    invoke-virtual {v0, p1}, Lio/reactivex/p;->C0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
+    invoke-virtual {v0, p1}, Lio/reactivex/p;->L0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
 
     move-result-object p1
 
@@ -179,7 +179,7 @@
     if-eqz p1, :cond_5
 
     .line 11
-    invoke-virtual {v0}, Lio/reactivex/p;->j0()Lio/reactivex/v;
+    invoke-virtual {v0}, Lio/reactivex/p;->r0()Lio/reactivex/v;
 
     move-result-object p1
 
@@ -192,7 +192,7 @@
     if-eqz p1, :cond_6
 
     .line 13
-    invoke-virtual {v0}, Lio/reactivex/p;->i0()Lio/reactivex/k;
+    invoke-virtual {v0}, Lio/reactivex/p;->q0()Lio/reactivex/k;
 
     move-result-object p1
 
@@ -205,7 +205,7 @@
     if-eqz p1, :cond_7
 
     .line 15
-    invoke-virtual {v0}, Lio/reactivex/p;->S()Lio/reactivex/a;
+    invoke-virtual {v0}, Lio/reactivex/p;->a0()Lio/reactivex/a;
 
     move-result-object p1
 

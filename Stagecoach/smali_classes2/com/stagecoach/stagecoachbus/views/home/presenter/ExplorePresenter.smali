@@ -128,7 +128,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->i()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->k()V
 
     return-void
 .end method
@@ -151,14 +151,14 @@
 
     check-cast v0, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->A(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->D(Ljava/util/List;)V
 
     .line 3
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->P(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->S(Ljava/util/List;)V
 
     return-void
 .end method
@@ -183,7 +183,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     return-void
 .end method
@@ -201,7 +201,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->i()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->k()V
 
     return-void
 .end method
@@ -223,7 +223,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->A(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->D(Ljava/util/List;)V
 
     return-void
 .end method
@@ -259,7 +259,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->i()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->k()V
 
     return-void
 .end method
@@ -281,7 +281,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->A(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->D(Ljava/util/List;)V
 
     return-void
 .end method
@@ -317,7 +317,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->i()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->k()V
 
     return-void
 .end method
@@ -411,7 +411,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1, v2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->C0(Lcom/stagecoach/stagecoachbus/model/busservice/BusResponse$ServiceData;)V
+    invoke-interface {p1, v2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->F0(Lcom/stagecoach/stagecoachbus/model/busservice/BusResponse$ServiceData;)V
 
     goto :goto_1
 
@@ -421,7 +421,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     :goto_1
     return-void
@@ -447,7 +447,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     return-void
 .end method
@@ -467,7 +467,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->i()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->k()V
 
     :cond_0
     return-void
@@ -495,7 +495,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->X(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->a0(Ljava/util/List;)V
 
     :cond_0
     return-void
@@ -578,7 +578,7 @@
 
     move-result-object p1
 
-    invoke-interface {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->i0(Lcom/stagecoach/stagecoachbus/model/sckml/Kml;Lcom/stagecoach/stagecoachbus/model/itinerary/Status;)V
+    invoke-interface {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->l0(Lcom/stagecoach/stagecoachbus/model/sckml/Kml;Lcom/stagecoach/stagecoachbus/model/itinerary/Status;)V
 
     return-void
 .end method
@@ -776,7 +776,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -785,7 +785,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -794,7 +794,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/presenter/o;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;)V
 
     .line 6
-    invoke-virtual {p1, v1}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {p1, v1}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -807,7 +807,7 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/home/presenter/p;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;)V
 
     .line 7
-    invoke-virtual {p1, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -873,7 +873,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -882,7 +882,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -891,7 +891,7 @@
     invoke-direct {p2, p0}, Lcom/stagecoach/stagecoachbus/views/home/presenter/g;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;)V
 
     .line 10
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -902,7 +902,7 @@
     sget-object p3, Lcom/stagecoach/stagecoachbus/views/home/presenter/l;->c:Lcom/stagecoach/stagecoachbus/views/home/presenter/l;
 
     .line 11
-    invoke-virtual {p1, p2, p3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, p2, p3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -966,7 +966,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -975,7 +975,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -984,7 +984,7 @@
     invoke-direct {p2, p0}, Lcom/stagecoach/stagecoachbus/views/home/presenter/a;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;)V
 
     .line 10
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -995,7 +995,7 @@
     sget-object p3, Lcom/stagecoach/stagecoachbus/views/home/presenter/c;->c:Lcom/stagecoach/stagecoachbus/views/home/presenter/c;
 
     .line 11
-    invoke-virtual {p1, p2, p3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, p2, p3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -1035,7 +1035,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1044,7 +1044,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1053,7 +1053,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/presenter/d;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;)V
 
     .line 6
-    invoke-virtual {p1, v1}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {p1, v1}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1066,7 +1066,7 @@
     invoke-direct {p2, p0}, Lcom/stagecoach/stagecoachbus/views/home/presenter/m;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;)V
 
     .line 7
-    invoke-virtual {p1, v1, p2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v1, p2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -1119,7 +1119,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1128,7 +1128,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1137,7 +1137,7 @@
     invoke-direct {p2, p0}, Lcom/stagecoach/stagecoachbus/views/home/presenter/i;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;)V
 
     .line 9
-    invoke-virtual {p1, p2}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {p1, p2}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1148,7 +1148,7 @@
     sget-object p3, Lcom/stagecoach/stagecoachbus/views/home/presenter/f;->c:Lcom/stagecoach/stagecoachbus/views/home/presenter/f;
 
     .line 10
-    invoke-virtual {p1, p2, p3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, p2, p3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -1364,14 +1364,14 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/presenter/k;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/home/presenter/s;->c:Lcom/stagecoach/stagecoachbus/views/home/presenter/s;
 
     .line 5
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->B(Lio/reactivex/c0/i;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->H(Lio/reactivex/c0/k;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1380,7 +1380,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1389,7 +1389,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1398,7 +1398,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/presenter/j;-><init>(Lcom/stagecoach/stagecoachbus/views/home/presenter/ExplorePresenter;Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
 
     .line 8
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->o0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->w0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -1471,7 +1471,7 @@
 
     const/16 v1, 0x64
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->F0(I)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->I0(I)V
 
     :cond_0
     return-void

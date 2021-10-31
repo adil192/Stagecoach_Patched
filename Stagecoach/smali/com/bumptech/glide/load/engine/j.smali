@@ -874,7 +874,7 @@
     .line 10
     iget-object v2, p0, Lcom/bumptech/glide/load/engine/j;->c:Lcom/bumptech/glide/load/engine/j$e;
 
-    invoke-virtual {v2}, Lcom/bumptech/glide/load/engine/j$e;->k()Lcom/bumptech/glide/load/engine/j$e;
+    invoke-virtual {v2}, Lcom/bumptech/glide/load/engine/j$e;->j()Lcom/bumptech/glide/load/engine/j$e;
 
     move-result-object v2
 
@@ -1038,7 +1038,7 @@
     .line 11
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/j;->c:Lcom/bumptech/glide/load/engine/j$e;
 
-    invoke-virtual {v1}, Lcom/bumptech/glide/load/engine/j$e;->k()Lcom/bumptech/glide/load/engine/j$e;
+    invoke-virtual {v1}, Lcom/bumptech/glide/load/engine/j$e;->j()Lcom/bumptech/glide/load/engine/j$e;
 
     move-result-object v1
 

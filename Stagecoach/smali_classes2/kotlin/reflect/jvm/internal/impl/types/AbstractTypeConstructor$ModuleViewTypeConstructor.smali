@@ -220,13 +220,13 @@
     return v0
 .end method
 
-.method public m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
     .locals 2
 
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor$ModuleViewTypeConstructor;->c:Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/types/o0;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/types/o0;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v0
 

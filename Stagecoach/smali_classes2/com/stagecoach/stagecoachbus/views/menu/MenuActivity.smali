@@ -79,7 +79,7 @@
 
     .line 1
     :pswitch_0
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/MainCheckoutTermsAndConditionsFragment;->b4()Lcom/stagecoach/stagecoachbus/views/buy/payment/MainCheckoutTermsAndConditionsFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/payment/MainCheckoutTermsAndConditionsFragment;->e4()Lcom/stagecoach/stagecoachbus/views/buy/payment/MainCheckoutTermsAndConditionsFragment;
 
     move-result-object p1
 
@@ -91,7 +91,7 @@
 
     .line 2
     :pswitch_1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;->k4()Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;->n4()Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;
 
     move-result-object p1
 
@@ -103,7 +103,7 @@
 
     .line 3
     :pswitch_2
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->b4()Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->e4()Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;
 
     move-result-object p1
 
@@ -115,7 +115,7 @@
 
     .line 4
     :pswitch_3
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/termsandconditions/TermsAndConditionsFragment;->b4()Lcom/stagecoach/stagecoachbus/views/menu/termsandconditions/TermsAndConditionsFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/termsandconditions/TermsAndConditionsFragment;->e4()Lcom/stagecoach/stagecoachbus/views/menu/termsandconditions/TermsAndConditionsFragment;
 
     move-result-object p1
 
@@ -127,7 +127,7 @@
 
     .line 5
     :pswitch_4
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;->b4()Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;->e4()Lcom/stagecoach/stagecoachbus/views/menu/AboutFragment;
 
     move-result-object p1
 
@@ -139,7 +139,7 @@
 
     .line 6
     :pswitch_5
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->a4()Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->d4()Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;
 
     move-result-object p1
 
@@ -151,7 +151,7 @@
 
     .line 7
     :pswitch_6
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->w4()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->z4()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;
 
     move-result-object p1
 
@@ -163,7 +163,7 @@
 
     .line 8
     :cond_0
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;->X3()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;->a4()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;
 
     move-result-object p1
 
@@ -209,11 +209,11 @@
 
 
 # virtual methods
-.method public A()V
+.method public B()V
     .locals 2
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->b4()Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->e4()Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;
 
     move-result-object v0
 
@@ -224,11 +224,11 @@
     return-void
 .end method
 
-.method public F(Z)V
+.method public G(Z)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;->I4(Z)Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;->L4(Z)Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;
 
     move-result-object p1
 
@@ -239,11 +239,11 @@
     return-void
 .end method
 
-.method public G(Lcom/stagecoach/core/model/customer/CustomerDetails;)V
+.method public H(Lcom/stagecoach/core/model/customer/CustomerDetails;)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/EditMyAccountFragment;->s4(Lcom/stagecoach/core/model/customer/CustomerDetails;)Lcom/stagecoach/stagecoachbus/views/account/EditMyAccountFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/EditMyAccountFragment;->v4(Lcom/stagecoach/core/model/customer/CustomerDetails;)Lcom/stagecoach/stagecoachbus/views/account/EditMyAccountFragment;
 
     move-result-object p1
 
@@ -254,11 +254,11 @@
     return-void
 .end method
 
-.method public P()V
+.method public Q()V
     .locals 2
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;->X3()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;->a4()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsDescriptionFragment;
 
     move-result-object v0
 
@@ -269,11 +269,11 @@
     return-void
 .end method
 
-.method public S(Z)V
+.method public T(Z)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->S4(Z)Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->V4(Z)Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;
 
     move-result-object p1
 
@@ -288,7 +288,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/faq/FaqSecondListLevelFragment;->a4(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse$FaqResponseObj;[ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/faq/FaqSecondListLevelFragment;
+    invoke-static {p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/faq/FaqSecondListLevelFragment;->d4(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse$FaqResponseObj;[ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/faq/FaqSecondListLevelFragment;
 
     move-result-object p1
 
@@ -303,7 +303,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->z4(Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAddress;)Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->C4(Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAddress;)Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;
 
     move-result-object p1
 
@@ -318,7 +318,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->v4()Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->y4()Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;
 
     move-result-object v0
 
@@ -329,32 +329,17 @@
     return-void
 .end method
 
-.method public n(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)V
+.method public o(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->h4(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;
+    invoke-static {p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->k4(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;
 
     move-result-object p1
 
     sget-object p2, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->N0:Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/menu/MenuActivity;->s1(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public o()V
-    .locals 2
-
-    .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->b4()Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->J0:Ljava/lang/String;
-
-    invoke-virtual {p0, v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuActivity;->s1(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -472,7 +457,7 @@
     if-ne v0, v3, :cond_0
 
     .line 4
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->g5()Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->j5()Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;
 
     move-result-object v0
 
@@ -549,7 +534,22 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;->k4()Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->e4()Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/menu/privacypolicy/PrivacyPolicyFragment;->J0:Ljava/lang/String;
+
+    invoke-virtual {p0, v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/MenuActivity;->s1(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public q()V
+    .locals 2
+
+    .line 1
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;->n4()Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;
 
     move-result-object v0
 

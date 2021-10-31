@@ -130,7 +130,7 @@
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d0;->c:Lkotlin/reflect/jvm/internal/impl/name/b;
 
-    invoke-interface {p1, v0, p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->n(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
+    invoke-interface {p1, v0, p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->k(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
 
     move-result-object p1
 
@@ -229,7 +229,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->N(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/y;
+    invoke-interface {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->J(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/y;
 
     move-result-object p1
 

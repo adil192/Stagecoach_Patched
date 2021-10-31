@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lkotlin/jvm/internal/g;
-.implements Lkotlin/reflect/e;
+.implements Lkotlin/reflect/f;
 .implements Lkotlin/reflect/jvm/internal/c;
 
 
@@ -17,7 +17,7 @@
         "Lkotlin/jvm/internal/g<",
         "Ljava/lang/Object;",
         ">;",
-        "Lkotlin/reflect/e<",
+        "Lkotlin/reflect/f<",
         "Ljava/lang/Object;",
         ">;",
         "Lkotlin/reflect/jvm/internal/c;"
@@ -31,27 +31,27 @@
         0x3
     }
     d1 = {
-        "\u0000`\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\n\u0008\u0000\u0018\u00002\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020\u00012\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020\u00032\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020\u00042\u00020\u0005B\u0019\u0008\u0016\u0012\u0006\u00108\u001a\u000204\u0012\u0006\u0010\u000f\u001a\u00020\u000e\u00a2\u0006\u0004\u00089\u0010:B7\u0008\u0002\u0012\u0006\u00108\u001a\u000204\u0012\u0006\u00103\u001a\u00020\u001a\u0012\u0006\u00101\u001a\u00020\u001a\u0012\u0008\u0010;\u001a\u0004\u0018\u00010\u000e\u0012\n\u0008\u0002\u0010\u001f\u001a\u0004\u0018\u00010\u0002\u00a2\u0006\u0004\u00089\u0010<B+\u0008\u0016\u0012\u0006\u00108\u001a\u000204\u0012\u0006\u00103\u001a\u00020\u001a\u0012\u0006\u00101\u001a\u00020\u001a\u0012\u0008\u0010%\u001a\u0004\u0018\u00010\u0002\u00a2\u0006\u0004\u00089\u0010=J\u0017\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0017\u0010\u000b\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\nJ\u0017\u0010\u000c\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\nJ-\u0010\u0011\u001a\u000c\u0012\u0008\u0012\u0006\u0012\u0002\u0008\u00030\r0\u00102\n\u0010\u0007\u001a\u0006\u0012\u0002\u0008\u00030\r2\u0006\u0010\u000f\u001a\u00020\u000eH\u0002\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u001a\u0010\u0015\u001a\u00020\u00142\u0008\u0010\u0013\u001a\u0004\u0018\u00010\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u000f\u0010\u0018\u001a\u00020\u0017H\u0016\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\u000f\u0010\u001b\u001a\u00020\u001aH\u0016\u00a2\u0006\u0004\u0008\u001b\u0010\u001cR\u0018\u0010\u001f\u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001d\u0010\u001eR\u0016\u0010\"\u001a\u00020\u00148V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008 \u0010!R\u0018\u0010%\u001a\u0004\u0018\u00010\u00028B@\u0002X\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008#\u0010$R!\u0010+\u001a\u0006\u0012\u0002\u0008\u00030&8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\'\u0010(\u001a\u0004\u0008)\u0010*R\u001d\u0010\u000f\u001a\u00020\u000e8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008)\u0010,\u001a\u0004\u0008-\u0010.R\u0016\u00101\u001a\u00020\u001a8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008/\u00100R\u0016\u00103\u001a\u00020\u001a8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u00082\u0010\u001cR\u001c\u00108\u001a\u0002048\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u00085\u00106\u001a\u0004\u0008\'\u00107\u00a8\u0006>"
+        "\u0000`\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0012\n\u0002\u0018\u0002\n\u0002\u0008\u0013\u0008\u0000\u0018\u00002\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020\u00012\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020\u00032\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020\u00042\u00020\u0005B\u0019\u0008\u0016\u0012\u0006\u00105\u001a\u000200\u0012\u0006\u0010\u000f\u001a\u00020\u000e\u00a2\u0006\u0004\u0008>\u0010?B7\u0008\u0002\u0012\u0006\u00105\u001a\u000200\u0012\u0006\u0010\'\u001a\u00020\u001a\u0012\u0006\u0010*\u001a\u00020\u001a\u0012\u0008\u0010@\u001a\u0004\u0018\u00010\u000e\u0012\n\u0008\u0002\u0010.\u001a\u0004\u0018\u00010\u0002\u00a2\u0006\u0004\u0008>\u0010AB+\u0008\u0016\u0012\u0006\u00105\u001a\u000200\u0012\u0006\u0010\'\u001a\u00020\u001a\u0012\u0006\u0010*\u001a\u00020\u001a\u0012\u0008\u00108\u001a\u0004\u0018\u00010\u0002\u00a2\u0006\u0004\u0008>\u0010BJ\u0017\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0017\u0010\u000b\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\nJ\u0017\u0010\u000c\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\nJ-\u0010\u0011\u001a\u000c\u0012\u0008\u0012\u0006\u0012\u0002\u0008\u00030\r0\u00102\n\u0010\u0007\u001a\u0006\u0012\u0002\u0008\u00030\r2\u0006\u0010\u000f\u001a\u00020\u000eH\u0002\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u001a\u0010\u0015\u001a\u00020\u00142\u0008\u0010\u0013\u001a\u0004\u0018\u00010\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u000f\u0010\u0018\u001a\u00020\u0017H\u0016\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\u000f\u0010\u001b\u001a\u00020\u001aH\u0016\u00a2\u0006\u0004\u0008\u001b\u0010\u001cR!\u0010\"\u001a\u0006\u0012\u0002\u0008\u00030\u001d8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u001f\u001a\u0004\u0008 \u0010!R\u0016\u0010#\u001a\u00020\u00148V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008#\u0010$R\u0016\u0010%\u001a\u00020\u00148V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008%\u0010$R\u0016\u0010\'\u001a\u00020\u001a8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008&\u0010\u001cR\u0016\u0010*\u001a\u00020\u001a8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008(\u0010)R\u0016\u0010,\u001a\u00020\u00148V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008+\u0010$R\u0018\u0010.\u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008+\u0010-R\u0016\u0010/\u001a\u00020\u00148V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008/\u0010$R\u001c\u00105\u001a\u0002008\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u00081\u00102\u001a\u0004\u00083\u00104R\u0018\u00108\u001a\u0004\u0018\u00010\u00028B@\u0002X\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u00086\u00107R\u001d\u0010\u000f\u001a\u00020\u000e8V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u00083\u00109\u001a\u0004\u0008:\u0010;R\u0016\u0010<\u001a\u00020\u00148V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008<\u0010$R\u0016\u0010=\u001a\u00020\u00148V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008=\u0010$\u00a8\u0006C"
     }
     d2 = {
         "Lkotlin/reflect/jvm/internal/KFunctionImpl;",
         "Lkotlin/reflect/jvm/internal/KCallableImpl;",
         "",
-        "Lkotlin/reflect/e;",
+        "Lkotlin/reflect/f;",
         "Lkotlin/jvm/internal/g;",
         "Lkotlin/reflect/jvm/internal/c;",
         "Ljava/lang/reflect/Method;",
         "member",
         "Lkotlin/reflect/jvm/internal/calls/c$h;",
-        "s",
+        "t",
         "(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;",
+        "s",
         "r",
-        "q",
         "Ljava/lang/reflect/Constructor;",
         "Lkotlin/reflect/jvm/internal/impl/descriptors/r;",
         "descriptor",
         "Lkotlin/reflect/jvm/internal/calls/c;",
-        "p",
+        "q",
         "(Ljava/lang/reflect/Constructor;Lkotlin/reflect/jvm/internal/impl/descriptors/r;)Lkotlin/reflect/jvm/internal/calls/c;",
         "other",
         "",
@@ -63,34 +63,39 @@
         "",
         "toString",
         "()Ljava/lang/String;",
-        "h",
-        "Ljava/lang/Object;",
-        "rawBoundReceiver",
-        "j",
-        "()Z",
-        "isBound",
-        "t",
-        "()Ljava/lang/Object;",
-        "boundReceiver",
         "Lkotlin/reflect/jvm/internal/calls/b;",
-        "e",
+        "h",
         "Lkotlin/reflect/jvm/internal/l$b;",
-        "d",
+        "f",
         "()Lkotlin/reflect/jvm/internal/calls/b;",
         "caller",
+        "isInline",
+        "()Z",
+        "isInfix",
+        "getName",
+        "name",
+        "j",
+        "Ljava/lang/String;",
+        "signature",
+        "k",
+        "isBound",
+        "Ljava/lang/Object;",
+        "rawBoundReceiver",
+        "isOperator",
+        "Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
+        "i",
+        "Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
+        "g",
+        "()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
+        "container",
+        "u",
+        "()Ljava/lang/Object;",
+        "boundReceiver",
         "Lkotlin/reflect/jvm/internal/l$a;",
         "getDescriptor",
         "()Lorg/jetbrains/kotlin/descriptors/FunctionDescriptor;",
-        "g",
-        "Ljava/lang/String;",
-        "signature",
-        "getName",
-        "name",
-        "Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
-        "f",
-        "Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
-        "()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
-        "container",
+        "isSuspend",
+        "isExternal",
         "<init>",
         "(Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;Lorg/jetbrains/kotlin/descriptors/FunctionDescriptor;)V",
         "descriptorInitialValue",
@@ -108,19 +113,19 @@
 
 
 # static fields
-.field static final synthetic i:[Lkotlin/reflect/h;
+.field static final synthetic l:[Lkotlin/reflect/i;
 
 
 # instance fields
-.field private final d:Lkotlin/reflect/jvm/internal/l$a;
+.field private final g:Lkotlin/reflect/jvm/internal/l$a;
 
-.field private final e:Lkotlin/reflect/jvm/internal/l$b;
+.field private final h:Lkotlin/reflect/jvm/internal/l$b;
 
-.field private final f:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+.field private final i:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
-.field private final g:Ljava/lang/String;
+.field private final j:Ljava/lang/String;
 
-.field private final h:Ljava/lang/Object;
+.field private final k:Ljava/lang/Object;
 
 
 # direct methods
@@ -131,11 +136,11 @@
 
     const/4 v1, 0x3
 
-    new-array v1, v1, [Lkotlin/reflect/h;
+    new-array v1, v1, [Lkotlin/reflect/i;
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v3
 
@@ -143,9 +148,9 @@
 
     const-string v5, "getDescriptor()Lorg/jetbrains/kotlin/descriptors/FunctionDescriptor;"
 
-    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v2
 
@@ -155,7 +160,7 @@
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v3
 
@@ -163,9 +168,9 @@
 
     const-string v5, "getCaller()Lkotlin/reflect/jvm/internal/calls/Caller;"
 
-    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v2
 
@@ -175,7 +180,7 @@
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v0
 
@@ -183,9 +188,9 @@
 
     const-string v4, "getDefaultCaller()Lkotlin/reflect/jvm/internal/calls/Caller;"
 
-    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v0
 
@@ -193,7 +198,7 @@
 
     aput-object v0, v1, v2
 
-    sput-object v1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->i:[Lkotlin/reflect/h;
+    sput-object v1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->l:[Lkotlin/reflect/i;
 
     return-void
 .end method
@@ -237,11 +242,11 @@
     .line 2
     invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KCallableImpl;-><init>()V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->f:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->i:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
-    iput-object p3, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g:Ljava/lang/String;
+    iput-object p3, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j:Ljava/lang/String;
 
-    iput-object p5, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->h:Ljava/lang/Object;
+    iput-object p5, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k:Ljava/lang/Object;
 
     .line 3
     new-instance p1, Lkotlin/reflect/jvm/internal/KFunctionImpl$descriptor$2;
@@ -252,7 +257,7 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->d:Lkotlin/reflect/jvm/internal/l$a;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g:Lkotlin/reflect/jvm/internal/l$a;
 
     .line 4
     new-instance p1, Lkotlin/reflect/jvm/internal/KFunctionImpl$caller$2;
@@ -263,7 +268,7 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->e:Lkotlin/reflect/jvm/internal/l$b;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->h:Lkotlin/reflect/jvm/internal/l$b;
 
     .line 5
     new-instance p1, Lkotlin/reflect/jvm/internal/KFunctionImpl$defaultCaller$2;
@@ -356,22 +361,11 @@
     return-void
 .end method
 
-.method public static final synthetic k(Lkotlin/reflect/jvm/internal/KFunctionImpl;Ljava/lang/reflect/Constructor;Lkotlin/reflect/jvm/internal/impl/descriptors/r;)Lkotlin/reflect/jvm/internal/calls/c;
+.method public static final synthetic l(Lkotlin/reflect/jvm/internal/KFunctionImpl;Ljava/lang/reflect/Constructor;Lkotlin/reflect/jvm/internal/impl/descriptors/r;)Lkotlin/reflect/jvm/internal/calls/c;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->p(Ljava/lang/reflect/Constructor;Lkotlin/reflect/jvm/internal/impl/descriptors/r;)Lkotlin/reflect/jvm/internal/calls/c;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final synthetic l(Lkotlin/reflect/jvm/internal/KFunctionImpl;Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
-    .locals 0
-
-    .line 1
-    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->q(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
+    invoke-direct {p0, p1, p2}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->q(Ljava/lang/reflect/Constructor;Lkotlin/reflect/jvm/internal/impl/descriptors/r;)Lkotlin/reflect/jvm/internal/calls/c;
 
     move-result-object p0
 
@@ -400,16 +394,27 @@
     return-object p0
 .end method
 
-.method public static final synthetic o(Lkotlin/reflect/jvm/internal/KFunctionImpl;)Ljava/lang/String;
+.method public static final synthetic o(Lkotlin/reflect/jvm/internal/KFunctionImpl;Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g:Ljava/lang/String;
+    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->t(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
+
+    move-result-object p0
 
     return-object p0
 .end method
 
-.method private final p(Ljava/lang/reflect/Constructor;Lkotlin/reflect/jvm/internal/impl/descriptors/r;)Lkotlin/reflect/jvm/internal/calls/c;
+.method public static final synthetic p(Lkotlin/reflect/jvm/internal/KFunctionImpl;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method private final q(Ljava/lang/reflect/Constructor;Lkotlin/reflect/jvm/internal/impl/descriptors/r;)Lkotlin/reflect/jvm/internal/calls/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -432,7 +437,7 @@
     if-eqz p2, :cond_1
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k()Z
 
     move-result p2
 
@@ -441,7 +446,7 @@
     .line 3
     new-instance p2, Lkotlin/reflect/jvm/internal/calls/c$a;
 
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->t()Ljava/lang/Object;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -459,7 +464,7 @@
 
     .line 5
     :cond_1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k()Z
 
     move-result p2
 
@@ -468,7 +473,7 @@
     .line 6
     new-instance p2, Lkotlin/reflect/jvm/internal/calls/c$c;
 
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->t()Ljava/lang/Object;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -486,11 +491,11 @@
     return-object p2
 .end method
 
-.method private final q(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
+.method private final r(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k()Z
 
     move-result v0
 
@@ -498,7 +503,7 @@
 
     new-instance v0, Lkotlin/reflect/jvm/internal/calls/c$h$a;
 
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->t()Ljava/lang/Object;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -515,11 +520,11 @@
     return-object v0
 .end method
 
-.method private final r(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
+.method private final s(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k()Z
 
     move-result v0
 
@@ -540,11 +545,11 @@
     return-object v0
 .end method
 
-.method private final s(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
+.method private final t(Ljava/lang/reflect/Method;)Lkotlin/reflect/jvm/internal/calls/c$h;
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k()Z
 
     move-result v0
 
@@ -552,7 +557,7 @@
 
     new-instance v0, Lkotlin/reflect/jvm/internal/calls/c$h$c;
 
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->t()Ljava/lang/Object;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -569,13 +574,13 @@
     return-object v0
 .end method
 
-.method private final t()Ljava/lang/Object;
+.method private final u()Ljava/lang/Object;
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->h:Ljava/lang/Object;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k:Ljava/lang/Object;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object v1
 
@@ -588,42 +593,6 @@
 
 
 # virtual methods
-.method public d()Lkotlin/reflect/jvm/internal/calls/b;
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lkotlin/reflect/jvm/internal/calls/b<",
-            "*>;"
-        }
-    .end annotation
-
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->e:Lkotlin/reflect/jvm/internal/l$b;
-
-    sget-object v1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->i:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x1
-
-    aget-object v1, v1, v2
-
-    invoke-virtual {v0, p0, v1}, Lkotlin/reflect/jvm/internal/l$c;->b(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lkotlin/reflect/jvm/internal/calls/b;
-
-    return-object v0
-.end method
-
-.method public e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->f:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
-
-    return-object v0
-.end method
-
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
@@ -637,11 +606,11 @@
     if-eqz p1, :cond_0
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v2
 
@@ -665,9 +634,9 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g:Ljava/lang/String;
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j:Ljava/lang/String;
 
-    iget-object v2, p1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g:Ljava/lang/String;
+    iget-object v2, p1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -675,9 +644,9 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->h:Ljava/lang/Object;
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k:Ljava/lang/Object;
 
-    iget-object p1, p1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->h:Ljava/lang/Object;
+    iget-object p1, p1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k:Ljava/lang/Object;
 
     invoke-static {v1, p1}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -691,13 +660,38 @@
     return v0
 .end method
 
-.method public bridge synthetic f()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
+.method public f()Lkotlin/reflect/jvm/internal/calls/b;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/reflect/jvm/internal/calls/b<",
+            "*>;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->h:Lkotlin/reflect/jvm/internal/l$b;
+
+    sget-object v1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->l:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x1
+
+    aget-object v1, v1, v2
+
+    invoke-virtual {v0, p0, v1}, Lkotlin/reflect/jvm/internal/l$c;->b(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lkotlin/reflect/jvm/internal/calls/b;
+
+    return-object v0
+.end method
+
+.method public g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
-
-    move-result-object v0
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->i:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     return-object v0
 .end method
@@ -706,7 +700,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object v0
 
@@ -729,7 +723,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v0
 
@@ -751,7 +745,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g:Ljava/lang/String;
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->j:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
 
@@ -760,6 +754,17 @@
     add-int/2addr v0, v1
 
     return v0
+.end method
+
+.method public bridge synthetic i()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+
+    move-result-object v0
+
+    return-object v0
 .end method
 
 .method public invoke()Ljava/lang/Object;
@@ -806,11 +811,86 @@
     return-object p1
 .end method
 
-.method public j()Z
+.method public isExternal()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->isExternal()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isInfix()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->isInfix()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isInline()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->isInline()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isOperator()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->isOperator()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isSuspend()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->isSuspend()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public k()Z
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->h:Ljava/lang/Object;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->k:Ljava/lang/Object;
 
     sget-object v1, Lkotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
 
@@ -829,7 +909,7 @@
     .line 1
     sget-object v0, Lkotlin/reflect/jvm/internal/ReflectionObjectRenderer;->b:Lkotlin/reflect/jvm/internal/ReflectionObjectRenderer;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->u()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object v1
 
@@ -840,12 +920,12 @@
     return-object v0
 .end method
 
-.method public u()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+.method public v()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
     .locals 3
 
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->d:Lkotlin/reflect/jvm/internal/l$a;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g:Lkotlin/reflect/jvm/internal/l$a;
 
-    sget-object v1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->i:[Lkotlin/reflect/h;
+    sget-object v1, Lkotlin/reflect/jvm/internal/KFunctionImpl;->l:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 

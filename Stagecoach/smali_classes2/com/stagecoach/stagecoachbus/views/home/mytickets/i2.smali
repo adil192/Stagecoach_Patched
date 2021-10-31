@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/i2;->a:Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->d4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->g4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
 
     move-result p1
 

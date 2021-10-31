@@ -109,7 +109,7 @@
     check-cast v3, Lkotlin/reflect/jvm/internal/impl/load/java/structure/n;
 
     .line 5
-    invoke-interface {v3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/n;->E()Z
+    invoke-interface {v3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/n;->A()Z
 
     move-result v3
 

@@ -100,7 +100,7 @@
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x7;->k(I)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x7;->j(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -109,7 +109,7 @@
     throw v0
 .end method
 
-.method private final k(I)Ljava/lang/String;
+.method private final j(I)Ljava/lang/String;
     .locals 3
 
     .line 1
@@ -140,7 +140,7 @@
     return-object p1
 .end method
 
-.method public static l()Lcom/google/android/gms/internal/measurement/x7;
+.method public static k()Lcom/google/android/gms/internal/measurement/x7;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -250,7 +250,7 @@
     :cond_1
     new-instance p2, Ljava/lang/IndexOutOfBoundsException;
 
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x7;->k(I)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x7;->j(I)Ljava/lang/String;
 
     move-result-object p1
 

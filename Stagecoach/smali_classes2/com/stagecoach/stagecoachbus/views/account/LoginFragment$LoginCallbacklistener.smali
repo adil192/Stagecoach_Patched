@@ -15,11 +15,11 @@
 
 
 # virtual methods
-.method public abstract T()V
+.method public abstract U()V
 .end method
 
 .method public abstract d0()V
 .end method
 
-.method public abstract s(Ljava/lang/String;)V
+.method public abstract t(Ljava/lang/String;)V
 .end method

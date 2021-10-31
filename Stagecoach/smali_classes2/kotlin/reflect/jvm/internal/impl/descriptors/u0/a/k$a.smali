@@ -270,7 +270,7 @@
     aput-object v13, v3, v4
 
     .line 20
-    invoke-virtual {v13, v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->X0([Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;)V
+    invoke-virtual {v13, v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->Q0([Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;)V
 
     .line 21
     new-instance v3, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h;
@@ -293,7 +293,7 @@
 
     invoke-direct {v3, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h;-><init>(Ljava/util/List;)V
 
-    invoke-virtual {v13, v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->R0(Lkotlin/reflect/jvm/internal/impl/descriptors/x;)V
+    invoke-virtual {v13, v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/x;)V
 
     .line 22
     new-instance v2, Lkotlin/reflect/jvm/internal/impl/descriptors/u0/a/k;

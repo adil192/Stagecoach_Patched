@@ -72,7 +72,7 @@
     if-nez v0, :cond_1
 
     .line 5
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 6
     new-instance p2, Lcom/braintreepayments/api/exceptions/BraintreeException;
@@ -93,16 +93,16 @@
 
     invoke-direct {p2, p1}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     goto :goto_0
 
     .line 7
     :cond_1
-    invoke-virtual {p0, v2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 8
-    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->g3(I)V
+    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->j3(I)V
 
     goto :goto_0
 
@@ -110,16 +110,16 @@
     const-string p1, "paypal-two-factor.browser-switch.succeeded"
 
     .line 9
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 10
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 
     goto :goto_0
 
     .line 11
     :cond_3
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 12
     new-instance p1, Lcom/braintreepayments/api/exceptions/BraintreeException;
@@ -128,16 +128,16 @@
 
     invoke-direct {p1, p2}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     goto :goto_0
 
     .line 13
     :cond_4
-    invoke-virtual {p0, v2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 14
-    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->g3(I)V
+    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->j3(I)V
 
     :goto_0
     return-void

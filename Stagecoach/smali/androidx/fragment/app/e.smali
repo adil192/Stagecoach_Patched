@@ -21,7 +21,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p2, p3}, Landroidx/fragment/app/Fragment;->D1(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/fragment/app/Fragment;
+    invoke-static {p1, p2, p3}, Landroidx/fragment/app/Fragment;->G1(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/fragment/app/Fragment;
 
     move-result-object p1
 

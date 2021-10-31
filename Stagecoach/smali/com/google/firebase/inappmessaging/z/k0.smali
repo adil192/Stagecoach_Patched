@@ -50,7 +50,7 @@
     iput-boolean v0, p0, Lcom/google/firebase/inappmessaging/z/k0;->e:Z
 
     .line 4
-    invoke-static {}, Lio/reactivex/subjects/a;->N0()Lio/reactivex/subjects/a;
+    invoke-static {}, Lio/reactivex/subjects/a;->W0()Lio/reactivex/subjects/a;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
 
     sget-object v1, Lio/reactivex/BackpressureStrategy;->BUFFER:Lio/reactivex/BackpressureStrategy;
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->C0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->L0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
 
     move-result-object v0
 

@@ -8,16 +8,7 @@
 
 
 # virtual methods
-.method public abstract B()Z
-.end method
-
-.method public abstract B0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
-.end method
-
-.method public abstract E0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
-.end method
-
-.method public abstract I()Ljava/util/Collection;
+.method public abstract E()Ljava/util/Collection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -28,28 +19,25 @@
     .end annotation
 .end method
 
-.method public abstract M0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+.method public abstract F0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 .end method
 
-.method public abstract S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+.method public abstract N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
 .end method
 
-.method public abstract T()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public abstract O()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 .end method
 
-.method public abstract V()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public abstract Q()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.end method
+
+.method public abstract Z(Lkotlin/reflect/jvm/internal/impl/types/t0;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 .end method
 
 .method public abstract a()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 .end method
 
 .method public abstract b()Lkotlin/reflect/jvm/internal/impl/descriptors/k;
-.end method
-
-.method public abstract e0(Lkotlin/reflect/jvm/internal/impl/types/t0;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
-.end method
-
-.method public abstract f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 .end method
 
 .method public abstract getConstructors()Ljava/util/Collection;
@@ -63,22 +51,25 @@
     .end annotation
 .end method
 
+.method public abstract getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+.end method
+
+.method public abstract h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+.end method
+
 .method public abstract isData()Z
 .end method
 
 .method public abstract isInline()Z
 .end method
 
-.method public abstract k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+.method public abstract n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
 .end method
 
-.method public abstract q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+.method public abstract o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 .end method
 
-.method public abstract r()Lkotlin/reflect/jvm/internal/impl/types/d0;
-.end method
-
-.method public abstract t()Ljava/util/List;
+.method public abstract q()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -89,5 +80,14 @@
     .end annotation
 .end method
 
+.method public abstract t()Z
+.end method
+
+.method public abstract v0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.end method
+
 .method public abstract x()Z
+.end method
+
+.method public abstract y0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 .end method

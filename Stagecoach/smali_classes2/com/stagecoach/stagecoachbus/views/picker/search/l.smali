@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/l;->b:Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->y4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->B4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
 
     return-void
 .end method

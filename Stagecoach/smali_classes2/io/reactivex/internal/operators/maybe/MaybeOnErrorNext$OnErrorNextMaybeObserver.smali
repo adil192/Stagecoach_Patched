@@ -54,10 +54,10 @@
     .end annotation
 .end field
 
-.field final resumeFunction:Lio/reactivex/c0/g;
+.field final resumeFunction:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-",
             "Ljava/lang/Throwable;",
             "+",
@@ -69,14 +69,14 @@
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/m;Lio/reactivex/c0/g;Z)V
+.method constructor <init>(Lio/reactivex/m;Lio/reactivex/c0/i;Z)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/m<",
             "-TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-",
             "Ljava/lang/Throwable;",
             "+",
@@ -92,7 +92,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeOnErrorNext$OnErrorNextMaybeObserver;->downstream:Lio/reactivex/m;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeOnErrorNext$OnErrorNextMaybeObserver;->resumeFunction:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeOnErrorNext$OnErrorNextMaybeObserver;->resumeFunction:Lio/reactivex/c0/i;
 
     .line 4
     iput-boolean p3, p0, Lio/reactivex/internal/operators/maybe/MaybeOnErrorNext$OnErrorNextMaybeObserver;->allowFatal:Z
@@ -161,9 +161,9 @@
     .line 3
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeOnErrorNext$OnErrorNextMaybeObserver;->resumeFunction:Lio/reactivex/c0/g;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeOnErrorNext$OnErrorNextMaybeObserver;->resumeFunction:Lio/reactivex/c0/i;
 
-    invoke-interface {v0, p1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

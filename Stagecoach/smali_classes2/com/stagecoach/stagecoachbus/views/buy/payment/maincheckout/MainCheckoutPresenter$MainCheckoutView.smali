@@ -15,25 +15,25 @@
 
 
 # virtual methods
-.method public abstract A0(Ljava/lang/String;Ljava/lang/String;ILcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)V
+.method public abstract D0(Ljava/lang/String;Ljava/lang/String;ILcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)V
 .end method
 
-.method public abstract F()V
+.method public abstract I()V
 .end method
 
-.method public abstract M(Ljava/lang/String;)V
+.method public abstract P(Ljava/lang/String;)V
 .end method
 
-.method public abstract O(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/GetBasketItemsGroupedUseCase$BasketUI;)V
+.method public abstract R(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/GetBasketItemsGroupedUseCase$BasketUI;)V
 .end method
 
-.method public abstract S()V
+.method public abstract V()V
 .end method
 
 .method public abstract a(Z)V
 .end method
 
-.method public abstract b0(Ljava/util/List;)V
+.method public abstract e0(Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -44,22 +44,22 @@
     .end annotation
 .end method
 
-.method public abstract e0(Z)V
+.method public abstract h(I)V
 .end method
 
-.method public abstract f(I)V
+.method public abstract h0(Z)V
 .end method
 
-.method public abstract h1(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;I)V
+.method public abstract k1(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;I)V
 .end method
 
-.method public abstract k0(Z)V
+.method public abstract n0(Z)V
 .end method
 
-.method public abstract l(Z)V
+.method public abstract o(Z)V
 .end method
 
-.method public abstract o0(Ljava/util/List;)V
+.method public abstract r0(Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -70,13 +70,13 @@
     .end annotation
 .end method
 
-.method public abstract q0(Z)V
+.method public abstract t0(Z)V
 .end method
 
-.method public abstract r1(Z)V
+.method public abstract u1(Z)V
 .end method
 
-.method public abstract u0(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+.method public abstract x0(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -87,5 +87,5 @@
     .end annotation
 .end method
 
-.method public abstract w(I)V
+.method public abstract z(I)V
 .end method

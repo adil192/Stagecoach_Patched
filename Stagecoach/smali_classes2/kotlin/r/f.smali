@@ -134,7 +134,7 @@
 
     move-result v2
 
-    invoke-virtual {p0}, Lkotlin/r/a;->l()I
+    invoke-virtual {p0}, Lkotlin/r/a;->k()I
 
     move-result p0
 

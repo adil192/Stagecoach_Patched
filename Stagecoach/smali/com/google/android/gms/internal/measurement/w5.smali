@@ -32,10 +32,10 @@
 .method public abstract d()Z
 .end method
 
-.method public abstract n(Lcom/google/android/gms/internal/measurement/i7;Lcom/google/android/gms/internal/measurement/j7;)Lcom/google/android/gms/internal/measurement/i7;
+.method public abstract m(Lcom/google/android/gms/internal/measurement/i7;Lcom/google/android/gms/internal/measurement/j7;)Lcom/google/android/gms/internal/measurement/i7;
 .end method
 
-.method public abstract o(Lcom/google/android/gms/internal/measurement/o7;Lcom/google/android/gms/internal/measurement/o7;)Lcom/google/android/gms/internal/measurement/o7;
+.method public abstract n(Lcom/google/android/gms/internal/measurement/o7;Lcom/google/android/gms/internal/measurement/o7;)Lcom/google/android/gms/internal/measurement/o7;
 .end method
 
 .method public abstract zza()I

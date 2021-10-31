@@ -1935,7 +1935,7 @@
     :cond_0
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/protobuf/g;->a:Lkotlin/reflect/jvm/internal/impl/protobuf/s;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->j()Ljava/lang/Iterable;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->k()Ljava/lang/Iterable;
 
     move-result-object v1
 
@@ -2176,7 +2176,7 @@
     :cond_0
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/protobuf/g;->a:Lkotlin/reflect/jvm/internal/impl/protobuf/s;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->j()Ljava/lang/Iterable;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->k()Ljava/lang/Iterable;
 
     move-result-object v0
 
@@ -2306,7 +2306,7 @@
     :cond_1
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/protobuf/g;->a:Lkotlin/reflect/jvm/internal/impl/protobuf/s;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->j()Ljava/lang/Iterable;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->k()Ljava/lang/Iterable;
 
     move-result-object v1
 
@@ -2455,7 +2455,7 @@
     :cond_0
     iget-object p1, p1, Lkotlin/reflect/jvm/internal/impl/protobuf/g;->a:Lkotlin/reflect/jvm/internal/impl/protobuf/s;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->j()Ljava/lang/Iterable;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->k()Ljava/lang/Iterable;
 
     move-result-object p1
 

@@ -44,28 +44,7 @@
 
 
 # virtual methods
-.method public B()Ljava/util/List;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->b:[Ljava/lang/annotation/Annotation;
-
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/f;->b([Ljava/lang/annotation/Annotation;)Ljava/util/List;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public J()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
+.method public E()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
     .locals 1
 
     .line 1
@@ -78,7 +57,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->B()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->x()Ljava/util/List;
 
     move-result-object v0
 
@@ -110,25 +89,25 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->J()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->E()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public bridge synthetic j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
+.method public bridge synthetic h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->n(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->k(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public m()Z
+.method public j()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -136,7 +115,7 @@
     return v0
 .end method
 
-.method public n(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
+.method public k(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;
     .locals 1
 
     const-string v0, "fqName"
@@ -153,7 +132,7 @@
     return-object p1
 .end method
 
-.method public t()Z
+.method public p()Z
     .locals 1
 
     .line 1
@@ -182,7 +161,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->t()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->p()Z
 
     move-result v2
 
@@ -206,13 +185,34 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->J()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->E()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public x()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/w;->b:[Ljava/lang/annotation/Annotation;
+
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/f;->b([Ljava/lang/annotation/Annotation;)Ljava/util/List;
 
     move-result-object v0
 

@@ -382,7 +382,7 @@
     move-result-object p1
 
     .line 6
-    invoke-virtual {p0}, Lcom/paypal/android/sdk/onetouch/core/Request;->j()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/paypal/android/sdk/onetouch/core/Request;->l()Ljava/lang/String;
 
     move-result-object v0
 

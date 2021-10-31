@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/b;->c:Lcom/stagecoach/stagecoachbus/views/account/infoscreens/DeleteAddressOverlayFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/DeleteAddressOverlayFragment;->j3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/DeleteAddressOverlayFragment;->m3(Landroid/view/View;)V
 
     return-void
 .end method

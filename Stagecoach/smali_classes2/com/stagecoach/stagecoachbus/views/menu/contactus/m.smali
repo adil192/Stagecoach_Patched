@@ -36,7 +36,7 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->k4(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->n4(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 .end method

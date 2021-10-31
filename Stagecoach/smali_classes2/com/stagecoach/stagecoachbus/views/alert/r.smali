@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/alert/r;->c:Lcom/stagecoach/stagecoachbus/views/alert/PickBusStopForAlertFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/alert/PickBusStopForAlertFragment;->G3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/alert/PickBusStopForAlertFragment;->J3(Landroid/view/View;)V
 
     return-void
 .end method

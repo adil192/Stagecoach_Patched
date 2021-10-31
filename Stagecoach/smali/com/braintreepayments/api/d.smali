@@ -106,7 +106,7 @@
 
     const-string v1, "crash"
 
-    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 6
     :cond_1

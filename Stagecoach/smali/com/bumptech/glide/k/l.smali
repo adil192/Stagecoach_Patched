@@ -416,12 +416,12 @@
     invoke-direct {v1}, Lcom/bumptech/glide/k/o;-><init>()V
 
     .line 4
-    invoke-virtual {v1, p2}, Lcom/bumptech/glide/k/o;->d3(Landroidx/fragment/app/Fragment;)V
+    invoke-virtual {v1, p2}, Lcom/bumptech/glide/k/o;->g3(Landroidx/fragment/app/Fragment;)V
 
     if-eqz p3, :cond_0
 
     .line 5
-    invoke-virtual {v1}, Lcom/bumptech/glide/k/o;->V2()Lcom/bumptech/glide/k/a;
+    invoke-virtual {v1}, Lcom/bumptech/glide/k/o;->Y2()Lcom/bumptech/glide/k/a;
 
     move-result-object p2
 
@@ -498,7 +498,7 @@
     move-result-object p2
 
     .line 2
-    invoke-virtual {p2}, Lcom/bumptech/glide/k/o;->X2()Lcom/bumptech/glide/g;
+    invoke-virtual {p2}, Lcom/bumptech/glide/k/o;->a3()Lcom/bumptech/glide/g;
 
     move-result-object p3
 
@@ -513,11 +513,11 @@
     iget-object p4, p0, Lcom/bumptech/glide/k/l;->e:Lcom/bumptech/glide/k/l$b;
 
     .line 5
-    invoke-virtual {p2}, Lcom/bumptech/glide/k/o;->V2()Lcom/bumptech/glide/k/a;
+    invoke-virtual {p2}, Lcom/bumptech/glide/k/o;->Y2()Lcom/bumptech/glide/k/a;
 
     move-result-object v0
 
-    invoke-virtual {p2}, Lcom/bumptech/glide/k/o;->Y2()Lcom/bumptech/glide/k/m;
+    invoke-virtual {p2}, Lcom/bumptech/glide/k/o;->b3()Lcom/bumptech/glide/k/m;
 
     move-result-object v1
 
@@ -527,7 +527,7 @@
     move-result-object p3
 
     .line 7
-    invoke-virtual {p2, p3}, Lcom/bumptech/glide/k/o;->e3(Lcom/bumptech/glide/g;)V
+    invoke-virtual {p2, p3}, Lcom/bumptech/glide/k/o;->h3(Lcom/bumptech/glide/g;)V
 
     :cond_0
     return-object p3

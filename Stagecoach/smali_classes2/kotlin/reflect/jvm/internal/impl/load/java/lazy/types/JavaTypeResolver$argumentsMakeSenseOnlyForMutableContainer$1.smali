@@ -90,13 +90,13 @@
 
     if-eqz p1, :cond_1
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/z;->B()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/z;->x()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/z;->J()Z
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/z;->E()Z
 
     move-result p1
 

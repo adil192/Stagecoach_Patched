@@ -108,7 +108,7 @@
     if-eqz p1, :cond_0
 
     .line 11
-    invoke-virtual {p0, p1}, Lc/e/g;->j(Lc/e/g;)V
+    invoke-virtual {p0, p1}, Lc/e/g;->k(Lc/e/g;)V
 
     :cond_0
     return-void
@@ -1219,7 +1219,7 @@
     return v0
 .end method
 
-.method public j(Lc/e/g;)V
+.method public k(Lc/e/g;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {

@@ -100,7 +100,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->s0(Ljava/lang/String;)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->v0(Ljava/lang/String;)V
 
     return-void
 .end method

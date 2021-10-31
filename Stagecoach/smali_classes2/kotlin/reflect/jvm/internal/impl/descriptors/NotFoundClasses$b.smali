@@ -135,7 +135,7 @@
     move-object v6, p1
 
     .line 6
-    invoke-static/range {v0 .. v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f0;->Q0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;ZLkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/name/f;ILkotlin/reflect/jvm/internal/impl/storage/m;)Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+    invoke-static/range {v0 .. v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f0;->J0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;ZLkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/name/f;ILkotlin/reflect/jvm/internal/impl/storage/m;)Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
 
     move-result-object p4
 
@@ -158,7 +158,7 @@
 
     move-result-object p4
 
-    invoke-interface {p4}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {p4}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object p4
 
@@ -179,34 +179,7 @@
 
 
 # virtual methods
-.method public B()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public F0()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public bridge synthetic G(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses$b;->K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public G0()Lkotlin/reflect/jvm/internal/impl/types/h;
+.method public A0()Lkotlin/reflect/jvm/internal/impl/types/h;
     .locals 1
 
     .line 1
@@ -215,7 +188,31 @@
     return-object v0
 .end method
 
-.method public I()Ljava/util/Collection;
+.method public bridge synthetic C(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses$b;->D0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method protected D0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+    .locals 1
+
+    const-string v0, "kotlinTypeRefiner"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    sget-object p1, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;->b:Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+
+    return-object p1
+.end method
+
+.method public E()Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -234,20 +231,7 @@
     return-object v0
 .end method
 
-.method protected K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
-    .locals 1
-
-    const-string v0, "kotlinTypeRefiner"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    sget-object p1, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;->b:Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
-
-    return-object p1
-.end method
-
-.method public L()Z
+.method public H()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -255,7 +239,7 @@
     return v0
 .end method
 
-.method public M()Z
+.method public I()Z
     .locals 1
 
     .line 1
@@ -264,7 +248,7 @@
     return v0
 .end method
 
-.method public S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+.method public N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
     .locals 1
 
     const/4 v0, 0x0
@@ -272,18 +256,18 @@
     return-object v0
 .end method
 
-.method public bridge synthetic T()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public bridge synthetic O()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses$b;->d0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses$b;->Y()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public V()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public Q()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 1
 
     const/4 v0, 0x0
@@ -291,7 +275,7 @@
     return-object v0
 .end method
 
-.method public d0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+.method public Y()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
     .locals 1
 
     .line 1
@@ -300,15 +284,13 @@
     return-object v0
 .end method
 
-.method public f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
-    .locals 2
+.method public bridge synthetic g()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses$b;->A0()Lkotlin/reflect/jvm/internal/impl/types/h;
 
-    const-string v1, "Visibilities.PUBLIC"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    move-result-object v0
 
     return-object v0
 .end method
@@ -345,7 +327,37 @@
     return-object v0
 .end method
 
+.method public getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    .locals 2
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    const-string v1, "Visibilities.PUBLIC"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;->FINAL:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+
+    return-object v0
+.end method
+
 .method public isData()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public isExternal()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -361,27 +373,7 @@
     return v0
 .end method
 
-.method public bridge synthetic j()Lkotlin/reflect/jvm/internal/impl/types/o0;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses$b;->G0()Lkotlin/reflect/jvm/internal/impl/types/h;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-    .locals 1
-
-    .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;->FINAL:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-
-    return-object v0
-.end method
-
-.method public q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+.method public n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
     .locals 1
 
     .line 1
@@ -390,7 +382,7 @@
     return-object v0
 .end method
 
-.method public t()Ljava/util/List;
+.method public q()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -405,6 +397,14 @@
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses$b;->k:Ljava/util/List;
 
     return-object v0
+.end method
+
+.method public t()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -436,7 +436,7 @@
     return-object v0
 .end method
 
-.method public w()Z
+.method public x()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -444,7 +444,7 @@
     return v0
 .end method
 
-.method public x()Z
+.method public z0()Z
     .locals 1
 
     const/4 v0, 0x0

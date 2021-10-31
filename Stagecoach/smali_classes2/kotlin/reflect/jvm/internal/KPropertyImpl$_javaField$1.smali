@@ -88,7 +88,7 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$_javaField$1;->this$0:Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->o()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object v1
 
@@ -180,11 +180,11 @@
     :cond_1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$_javaField$1;->this$0:Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
+    invoke-interface {v0}, Lkotlin/jvm/internal/c;->d()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -195,11 +195,11 @@
     :goto_0
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImpl$_javaField$1;->this$0:Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
+    invoke-interface {v0}, Lkotlin/jvm/internal/c;->d()Ljava/lang/Class;
 
     move-result-object v0
 

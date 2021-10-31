@@ -399,7 +399,7 @@
     move-object/from16 v2, v22
 
     .line 23
-    invoke-virtual {v1, v2}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->G0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
+    invoke-virtual {v1, v2}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->A0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
 
     goto :goto_1
 

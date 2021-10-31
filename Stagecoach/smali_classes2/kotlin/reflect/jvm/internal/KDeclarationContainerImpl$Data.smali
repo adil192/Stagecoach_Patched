@@ -45,7 +45,7 @@
 
 
 # static fields
-.field static final synthetic c:[Lkotlin/reflect/h;
+.field static final synthetic c:[Lkotlin/reflect/i;
 
 
 # instance fields
@@ -60,13 +60,13 @@
 
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lkotlin/reflect/h;
+    new-array v0, v0, [Lkotlin/reflect/i;
 
     new-instance v1, Lkotlin/jvm/internal/PropertyReference1Impl;
 
     const-class v2, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$Data;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -74,9 +74,9 @@
 
     const-string v4, "getModuleData()Lorg/jetbrains/kotlin/descriptors/runtime/components/RuntimeModuleData;"
 
-    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -84,7 +84,7 @@
 
     aput-object v1, v0, v2
 
-    sput-object v0, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$Data;->c:[Lkotlin/reflect/h;
+    sput-object v0, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$Data;->c:[Lkotlin/reflect/i;
 
     return-void
 .end method
@@ -123,7 +123,7 @@
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$Data;->a:Lkotlin/reflect/jvm/internal/l$a;
 
-    sget-object v1, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$Data;->c:[Lkotlin/reflect/h;
+    sget-object v1, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$Data;->c:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 

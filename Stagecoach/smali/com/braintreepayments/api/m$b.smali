@@ -51,7 +51,7 @@
 
     const-string v1, "card.graphql.tokenization.failure"
 
-    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lcom/braintreepayments/api/m$b;->a:Lcom/braintreepayments/api/q/k;
@@ -85,7 +85,7 @@
 
     const-string v0, "card.graphql.tokenization.success"
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 

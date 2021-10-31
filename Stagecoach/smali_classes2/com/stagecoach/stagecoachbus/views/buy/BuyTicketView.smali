@@ -20,10 +20,10 @@
         "Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketView;",
         "Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;",
         "Lkotlin/m;",
-        "Y",
+        "b0",
         "()V",
-        "x0",
-        "U0",
+        "A0",
+        "X0",
         "app_productionRelease"
     }
     k = 0x1
@@ -36,11 +36,11 @@
 
 
 # virtual methods
-.method public abstract U0()V
+.method public abstract A0()V
 .end method
 
-.method public abstract Y()V
+.method public abstract X0()V
 .end method
 
-.method public abstract x0()V
+.method public abstract b0()V
 .end method

@@ -17,7 +17,7 @@
         0x3
     }
     d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0008\u0016\u0018\u0000 +2\u00020\u0001:\u0001,B\u0007\u00a2\u0006\u0004\u0008*\u0010\u0008J\u0019\u0010\u0005\u001a\u00020\u00042\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0007\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\t\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0008J\u000f\u0010\n\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u0008J-\u0010\u0010\u001a\u0004\u0018\u00010\u000f2\u0006\u0010\u000c\u001a\u00020\u000b2\u0008\u0010\u000e\u001a\u0004\u0018\u00010\r2\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011R\"\u0010\u0019\u001a\u00020\u00128\u0004@\u0004X\u0084\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0018R\"\u0010!\u001a\u00020\u001a8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008\u001b\u0010\u001c\u001a\u0004\u0008\u001d\u0010\u001e\"\u0004\u0008\u001f\u0010 R\"\u0010)\u001a\u00020\"8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008#\u0010$\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(\u00a8\u0006-"
+        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0008\u0016\u0018\u0000 +2\u00020\u0001:\u0001,B\u0007\u00a2\u0006\u0004\u0008*\u0010\u0008J\u0019\u0010\u0005\u001a\u00020\u00042\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0007\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\t\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0008J\u000f\u0010\n\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u0008J-\u0010\u0010\u001a\u0004\u0018\u00010\u000f2\u0006\u0010\u000c\u001a\u00020\u000b2\u0008\u0010\u000e\u001a\u0004\u0018\u00010\r2\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011R\"\u0010\u0019\u001a\u00020\u00128\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0018R\"\u0010!\u001a\u00020\u001a8\u0006@\u0006X\u0087.\u00a2\u0006\u0012\n\u0004\u0008\u001b\u0010\u001c\u001a\u0004\u0008\u001d\u0010\u001e\"\u0004\u0008\u001f\u0010 R\"\u0010)\u001a\u00020\"8\u0004@\u0004X\u0084\u000e\u00a2\u0006\u0012\n\u0004\u0008#\u0010$\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(\u00a8\u0006-"
     }
     d2 = {
         "Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;",
@@ -25,35 +25,19 @@
         "Landroid/os/Bundle;",
         "savedInstanceState",
         "Lkotlin/m;",
-        "L1",
+        "O1",
         "(Landroid/os/Bundle;)V",
-        "i2",
+        "l2",
         "()V",
-        "g2",
         "j2",
+        "m2",
         "Landroid/view/LayoutInflater;",
         "inflater",
         "Landroid/view/ViewGroup;",
         "container",
         "Landroid/view/View;",
-        "P1",
+        "S1",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "Lio/reactivex/disposables/a;",
-        "p0",
-        "Lio/reactivex/disposables/a;",
-        "getCompositeDisposable",
-        "()Lio/reactivex/disposables/a;",
-        "setCompositeDisposable",
-        "(Lio/reactivex/disposables/a;)V",
-        "compositeDisposable",
-        "Lcom/stagecoach/core/cache/SecureUserInfoManager;",
-        "n0",
-        "Lcom/stagecoach/core/cache/SecureUserInfoManager;",
-        "getSecureUserInfoManager",
-        "()Lcom/stagecoach/core/cache/SecureUserInfoManager;",
-        "setSecureUserInfoManager",
-        "(Lcom/stagecoach/core/cache/SecureUserInfoManager;)V",
-        "secureUserInfoManager",
         "Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
         "o0",
         "Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;",
@@ -62,6 +46,22 @@
         "setCustomerAccountManager",
         "(Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;)V",
         "customerAccountManager",
+        "Lcom/stagecoach/core/cache/SecureUserInfoManager;",
+        "n0",
+        "Lcom/stagecoach/core/cache/SecureUserInfoManager;",
+        "getSecureUserInfoManager",
+        "()Lcom/stagecoach/core/cache/SecureUserInfoManager;",
+        "setSecureUserInfoManager",
+        "(Lcom/stagecoach/core/cache/SecureUserInfoManager;)V",
+        "secureUserInfoManager",
+        "Lio/reactivex/disposables/a;",
+        "p0",
+        "Lio/reactivex/disposables/a;",
+        "getCompositeDisposable",
+        "()Lio/reactivex/disposables/a;",
+        "setCompositeDisposable",
+        "(Lio/reactivex/disposables/a;)V",
+        "compositeDisposable",
         "<init>",
         "s0",
         "Companion",
@@ -128,7 +128,7 @@
     return-void
 .end method
 
-.method public static final synthetic d3()Ljava/lang/String;
+.method public static final synthetic g3()Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -137,7 +137,15 @@
     return-object v0
 .end method
 
-.method public static final e3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;
+.method public static final getKEY()Ljava/lang/String;
+    .locals 1
+
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->r0:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public static final h3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;
     .locals 1
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->s0:Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment$Companion;
@@ -149,21 +157,13 @@
     return-object p0
 .end method
 
-.method public static final getKEY()Ljava/lang/String;
-    .locals 1
-
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->r0:Ljava/lang/String;
-
-    return-object v0
-.end method
-
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/b;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/b;->O1(Landroid/os/Bundle;)V
 
     const/4 p1, 0x1
 
@@ -211,7 +211,7 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
 
     const-string v0, "inflater"
@@ -219,7 +219,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c006d
 
@@ -278,7 +278,7 @@
 
     aput-object p2, v2, v0
 
-    invoke-virtual {p0, v1, v2}, Landroidx/fragment/app/Fragment;->z1(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, v1, v2}, Landroidx/fragment/app/Fragment;->C1(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -335,17 +335,17 @@
     return-object p1
 .end method
 
-.method public synthetic S1()V
+.method public synthetic V1()V
     .locals 0
 
-    invoke-super {p0}, Landroidx/fragment/app/b;->S1()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->V1()V
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->b3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->e3()V
 
     return-void
 .end method
 
-.method public b3()V
+.method public e3()V
     .locals 1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->q0:Ljava/util/HashMap;
@@ -358,7 +358,7 @@
     return-void
 .end method
 
-.method public c3(I)Landroid/view/View;
+.method public f3(I)Landroid/view/View;
     .locals 2
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->q0:Ljava/util/HashMap;
@@ -413,58 +413,6 @@
     return-object v0
 .end method
 
-.method public g2()V
-    .locals 3
-
-    .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
-
-    .line 2
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->n0:Lcom/stagecoach/core/cache/SecureUserInfoManager;
-
-    const/4 v1, 0x0
-
-    const-string v2, "secureUserInfoManager"
-
-    if-eqz v0, :cond_2
-
-    invoke-virtual {v0}, Lcom/stagecoach/core/cache/SecureUserInfoManager;->isLoggedIn()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->n0:Lcom/stagecoach/core/cache/SecureUserInfoManager;
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Lcom/stagecoach/core/cache/SecureUserInfoManager;->isCorporateEnabled()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    .line 3
-    invoke-virtual {p0}, Landroidx/fragment/app/b;->V2()V
-
-    goto :goto_0
-
-    .line 4
-    :cond_0
-    invoke-static {v2}, Lkotlin/jvm/internal/i;->q(Ljava/lang/String;)V
-
-    throw v1
-
-    :cond_1
-    :goto_0
-    return-void
-
-    :cond_2
-    invoke-static {v2}, Lkotlin/jvm/internal/i;->q(Ljava/lang/String;)V
-
-    throw v1
-.end method
-
 .method protected final getCompositeDisposable()Lio/reactivex/disposables/a;
     .locals 1
 
@@ -514,11 +462,63 @@
     throw v0
 .end method
 
-.method public i2()V
+.method public j2()V
+    .locals 3
+
+    .line 1
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
+
+    .line 2
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->n0:Lcom/stagecoach/core/cache/SecureUserInfoManager;
+
+    const/4 v1, 0x0
+
+    const-string v2, "secureUserInfoManager"
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {v0}, Lcom/stagecoach/core/cache/SecureUserInfoManager;->isLoggedIn()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->n0:Lcom/stagecoach/core/cache/SecureUserInfoManager;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/stagecoach/core/cache/SecureUserInfoManager;->isCorporateEnabled()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 3
+    invoke-virtual {p0}, Landroidx/fragment/app/b;->Y2()V
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    invoke-static {v2}, Lkotlin/jvm/internal/i;->q(Ljava/lang/String;)V
+
+    throw v1
+
+    :cond_1
+    :goto_0
+    return-void
+
+    :cond_2
+    invoke-static {v2}, Lkotlin/jvm/internal/i;->q(Ljava/lang/String;)V
+
+    throw v1
+.end method
+
+.method public l2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/b;->i2()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->l2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/b;->getDialog()Landroid/app/Dialog;
@@ -542,11 +542,11 @@
     return-void
 .end method
 
-.method public j2()V
+.method public m2()V
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/b;->j2()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->m2()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->p0:Lio/reactivex/disposables/a;

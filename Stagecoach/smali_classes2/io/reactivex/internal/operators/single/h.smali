@@ -1,58 +1,36 @@
 .class public final Lio/reactivex/internal/operators/single/h;
 .super Lio/reactivex/v;
-.source "SingleMap.java"
+.source "SingleJust.java"
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lio/reactivex/internal/operators/single/h$a;
-    }
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
         "Ljava/lang/Object;",
-        "R:",
-        "Ljava/lang/Object;",
         ">",
         "Lio/reactivex/v<",
-        "TR;>;"
+        "TT;>;"
     }
 .end annotation
 
 
 # instance fields
-.field final c:Lio/reactivex/z;
+.field final c:Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/z<",
-            "+TT;>;"
-        }
-    .end annotation
-.end field
-
-.field final d:Lio/reactivex/c0/g;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lio/reactivex/c0/g<",
-            "-TT;+TR;>;"
+            "TT;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/z;Lio/reactivex/c0/g;)V
+.method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(",
-            "Lio/reactivex/z<",
-            "+TT;>;",
-            "Lio/reactivex/c0/g<",
-            "-TT;+TR;>;)V"
+            "(TT;)V"
         }
     .end annotation
 
@@ -60,36 +38,34 @@
     invoke-direct {p0}, Lio/reactivex/v;-><init>()V
 
     .line 2
-    iput-object p1, p0, Lio/reactivex/internal/operators/single/h;->c:Lio/reactivex/z;
-
-    .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/single/h;->d:Lio/reactivex/c0/g;
+    iput-object p1, p0, Lio/reactivex/internal/operators/single/h;->c:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected E(Lio/reactivex/x;)V
-    .locals 3
+.method protected F(Lio/reactivex/x;)V
+    .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/x<",
-            "-TR;>;)V"
+            "-TT;>;)V"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/h;->c:Lio/reactivex/z;
+    invoke-static {}, Lio/reactivex/disposables/c;->a()Lio/reactivex/disposables/b;
 
-    new-instance v1, Lio/reactivex/internal/operators/single/h$a;
+    move-result-object v0
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/single/h;->d:Lio/reactivex/c0/g;
+    invoke-interface {p1, v0}, Lio/reactivex/x;->onSubscribe(Lio/reactivex/disposables/b;)V
 
-    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/single/h$a;-><init>(Lio/reactivex/x;Lio/reactivex/c0/g;)V
+    .line 2
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/h;->c:Ljava/lang/Object;
 
-    invoke-interface {v0, v1}, Lio/reactivex/z;->b(Lio/reactivex/x;)V
+    invoke-interface {p1, v0}, Lio/reactivex/x;->onSuccess(Ljava/lang/Object;)V
 
     return-void
 .end method

@@ -15,8 +15,8 @@
 
 
 # virtual methods
-.method public abstract c1()Ljava/lang/String;
+.method public abstract f1()Ljava/lang/String;
 .end method
 
-.method public abstract g0(Z)V
+.method public abstract j0(Z)V
 .end method

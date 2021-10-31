@@ -102,7 +102,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/airbnb/lottie/model/i/h;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v2}, Lcom/airbnb/lottie/model/i/h;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v2
 
@@ -122,7 +122,7 @@
     .line 8
     iget-object v2, p0, Lcom/airbnb/lottie/s/c/g;->b:Ljava/util/List;
 
-    invoke-virtual {v1}, Lcom/airbnb/lottie/model/i/d;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v1}, Lcom/airbnb/lottie/model/i/d;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v1
 

@@ -3,7 +3,7 @@
 .source "Functions.java"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Lio/reactivex/c0/f;
 
 
 # annotations
@@ -14,6 +14,15 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x18
     name = "g"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lio/reactivex/c0/f<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
 .end annotation
 
 
@@ -29,7 +38,7 @@
 
 
 # virtual methods
-.method public run()V
+.method public accept(Ljava/lang/Object;)V
     .locals 0
 
     return-void
@@ -38,7 +47,7 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "EmptyRunnable"
+    const-string v0, "EmptyConsumer"
 
     return-object v0
 .end method

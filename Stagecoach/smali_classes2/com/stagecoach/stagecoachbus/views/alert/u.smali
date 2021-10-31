@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/alert/u;->c:Lcom/stagecoach/stagecoachbus/views/alert/SetGetOffAlertConfirmationFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/alert/SetGetOffAlertConfirmationFragment;->g3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/alert/SetGetOffAlertConfirmationFragment;->j3(Landroid/view/View;)V
 
     return-void
 .end method

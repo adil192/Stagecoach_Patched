@@ -96,7 +96,7 @@
 
     .line 7
     :cond_1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->j()Ljava/lang/Iterable;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s;->k()Ljava/lang/Iterable;
 
     move-result-object v0
 

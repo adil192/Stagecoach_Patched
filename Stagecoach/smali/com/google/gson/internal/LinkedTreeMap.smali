@@ -278,7 +278,7 @@
 
     .line 9
     :cond_4
-    invoke-direct {p0, v1}, Lcom/google/gson/internal/LinkedTreeMap;->j(Lcom/google/gson/internal/LinkedTreeMap$e;)V
+    invoke-direct {p0, v1}, Lcom/google/gson/internal/LinkedTreeMap;->k(Lcom/google/gson/internal/LinkedTreeMap$e;)V
 
     .line 10
     invoke-direct {p0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->i(Lcom/google/gson/internal/LinkedTreeMap$e;)V
@@ -340,14 +340,14 @@
     invoke-direct {p0, v0}, Lcom/google/gson/internal/LinkedTreeMap;->i(Lcom/google/gson/internal/LinkedTreeMap$e;)V
 
     .line 17
-    invoke-direct {p0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->j(Lcom/google/gson/internal/LinkedTreeMap$e;)V
+    invoke-direct {p0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->k(Lcom/google/gson/internal/LinkedTreeMap$e;)V
 
     goto :goto_8
 
     .line 18
     :cond_a
     :goto_7
-    invoke-direct {p0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->j(Lcom/google/gson/internal/LinkedTreeMap$e;)V
+    invoke-direct {p0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->k(Lcom/google/gson/internal/LinkedTreeMap$e;)V
 
     :goto_8
     if-eqz p2, :cond_d
@@ -534,7 +534,7 @@
     return-void
 .end method
 
-.method private j(Lcom/google/gson/internal/LinkedTreeMap$e;)V
+.method private k(Lcom/google/gson/internal/LinkedTreeMap$e;)V
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {

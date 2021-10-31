@@ -120,7 +120,7 @@
     return-object p0
 .end method
 
-.method public static k(Ljava/lang/Iterable;)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
+.method public static j(Ljava/lang/Iterable;)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -202,7 +202,7 @@
     return-object p0
 .end method
 
-.method public static l([B)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
+.method public static k([B)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
     .locals 2
 
     .line 1

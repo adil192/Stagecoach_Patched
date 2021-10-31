@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lio/reactivex/c0/i;
+.implements Lio/reactivex/c0/k;
 
 
 # instance fields

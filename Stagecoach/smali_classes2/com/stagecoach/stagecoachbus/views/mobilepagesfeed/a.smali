@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/secureapi/MobilePagesFeedResponse;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->W3(Lcom/stagecoach/stagecoachbus/model/secureapi/MobilePagesFeedResponse;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/mobilepagesfeed/MobilePagesFeedBaseFragment;->Z3(Lcom/stagecoach/stagecoachbus/model/secureapi/MobilePagesFeedResponse;)V
 
     return-void
 .end method

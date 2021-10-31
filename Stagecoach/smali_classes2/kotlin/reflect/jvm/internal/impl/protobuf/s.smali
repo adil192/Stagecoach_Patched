@@ -162,7 +162,7 @@
 
     check-cast v1, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->l()Ljava/lang/Comparable;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->o()Ljava/lang/Comparable;
 
     move-result-object v1
 
@@ -203,7 +203,7 @@
 
     check-cast v3, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->l()Ljava/lang/Comparable;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->o()Ljava/lang/Comparable;
 
     move-result-object v3
 
@@ -616,7 +616,7 @@
     return v0
 .end method
 
-.method public j()Ljava/lang/Iterable;
+.method public k()Ljava/lang/Iterable;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -789,7 +789,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->l()Ljava/lang/Comparable;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->o()Ljava/lang/Comparable;
 
     move-result-object v3
 

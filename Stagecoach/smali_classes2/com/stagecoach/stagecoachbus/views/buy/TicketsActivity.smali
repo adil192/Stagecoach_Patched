@@ -113,7 +113,7 @@
     if-eqz p1, :cond_1
 
     .line 7
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;->p3(Lcom/stagecoach/core/model/tickets/OrderItem;)Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;->s3(Lcom/stagecoach/core/model/tickets/OrderItem;)Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;
 
     move-result-object p1
 
@@ -123,7 +123,7 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/home/ticketview/infoscreen/ActivateTicketNowFragment;->t0:Ljava/lang/String;
 
-    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -135,7 +135,7 @@
     const/4 p1, 0x1
 
     .line 8
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;->j3(I)Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;->m3(I)Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;
 
     move-result-object p1
 
@@ -145,7 +145,7 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/infoscreens/TicketAddedFragment;->s0:Ljava/lang/String;
 
-    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     :cond_1
     :goto_0

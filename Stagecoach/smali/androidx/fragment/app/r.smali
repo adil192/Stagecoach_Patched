@@ -308,7 +308,7 @@
     invoke-virtual {p3, v2}, Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
 
     .line 9
-    invoke-virtual {v2, v0, p2, p3, p4}, Landroidx/fragment/app/Fragment;->u1(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+    invoke-virtual {v2, v0, p2, p3, p4}, Landroidx/fragment/app/Fragment;->x1(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -622,7 +622,7 @@
     move-result-object v1
 
     .line 3
-    invoke-virtual {v1, p1}, Landroidx/fragment/app/Fragment;->w1(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v1, p1}, Landroidx/fragment/app/Fragment;->z1(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     move-result-object v1
 

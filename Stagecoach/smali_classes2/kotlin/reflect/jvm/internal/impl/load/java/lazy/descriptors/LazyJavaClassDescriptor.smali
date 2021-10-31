@@ -189,12 +189,12 @@
     invoke-interface {v0, p3, p0}, Lkotlin/reflect/jvm/internal/impl/load/java/components/d;->c(Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;Lkotlin/reflect/jvm/internal/impl/descriptors/d;)V
 
     .line 7
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->I()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->D()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
 
     move-result-object v0
 
     .line 8
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->r()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->n()Z
 
     move-result v0
 
@@ -206,7 +206,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->G()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->C()Z
 
     move-result v0
 
@@ -218,7 +218,7 @@
 
     .line 10
     :cond_1
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->A()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->w()Z
 
     move-result v0
 
@@ -237,7 +237,7 @@
     iput-object v0, v8, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->l:Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
 
     .line 13
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->r()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->n()Z
 
     move-result v0
 
@@ -247,7 +247,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->A()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->w()Z
 
     move-result v0
 
@@ -259,13 +259,13 @@
     :cond_3
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;->Companion:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality$a;
 
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->H()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->isAbstract()Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->G()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->C()Z
 
     move-result v3
 
@@ -283,7 +283,7 @@
     const/4 v3, 0x1
 
     :goto_2
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->o()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->isFinal()Z
 
     move-result v4
 
@@ -304,20 +304,20 @@
     iput-object v0, v8, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->m:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
 
     .line 16
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 
     move-result-object v0
 
     iput-object v0, v8, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->n:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 
     .line 17
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->l()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->i()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
     move-result-object v0
 
     if-eqz v0, :cond_7
 
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->k()Z
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->g()Z
 
     move-result v0
 
@@ -455,7 +455,7 @@
     return-void
 .end method
 
-.method public static final synthetic G0(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;
+.method public static final synthetic A0(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;
     .locals 0
 
     .line 1
@@ -464,7 +464,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic K0(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
+.method public static final synthetic D0(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
     .locals 0
 
     .line 1
@@ -473,7 +473,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic d0(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public static final synthetic Y(Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 0
 
     .line 1
@@ -484,54 +484,18 @@
 
 
 # virtual methods
-.method public B()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public B0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->s:Lkotlin/reflect/jvm/internal/impl/resolve/scopes/e;
-
-    return-object v0
-.end method
-
-.method public bridge synthetic E0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->Q0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public F0()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public bridge synthetic G(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public bridge synthetic C(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public I()Ljava/util/Collection;
+.method public E()Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -550,24 +514,7 @@
     return-object v0
 .end method
 
-.method public L()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public M()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->o:Z
-
-    return v0
-.end method
-
-.method public final N0(Lkotlin/reflect/jvm/internal/impl/load/java/components/d;Lkotlin/reflect/jvm/internal/impl/descriptors/d;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;
+.method public final G0(Lkotlin/reflect/jvm/internal/impl/load/java/components/d;Lkotlin/reflect/jvm/internal/impl/descriptors/d;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;
     .locals 3
 
     const-string v0, "javaResolverCache"
@@ -609,7 +556,15 @@
     return-object v0
 .end method
 
-.method public O0()Ljava/util/List;
+.method public H()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public H0()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -636,7 +591,16 @@
     return-object v0
 .end method
 
-.method public final P0()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+.method public I()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->o:Z
+
+    return v0
+.end method
+
+.method public final I0()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
     .locals 1
 
     .line 1
@@ -645,11 +609,11 @@
     return-object v0
 .end method
 
-.method public Q0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
+.method public J0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
     .locals 2
 
     .line 1
-    invoke-super {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/a;->E0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-super {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/a;->y0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v0
 
@@ -662,7 +626,7 @@
     return-object v0
 .end method
 
-.method protected R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
+.method protected K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
     .locals 1
 
     const-string v0, "kotlinTypeRefiner"
@@ -681,7 +645,7 @@
     return-object p1
 .end method
 
-.method public S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+.method public N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
     .locals 1
 
     const/4 v0, 0x0
@@ -689,7 +653,7 @@
     return-object v0
 .end method
 
-.method public T()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public O()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
@@ -698,7 +662,7 @@
     return-object v0
 .end method
 
-.method public V()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public Q()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 1
 
     const/4 v0, 0x0
@@ -706,7 +670,36 @@
     return-object v0
 .end method
 
-.method public f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+.method public g()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->p:Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor$LazyJavaClassTypeConstructor;
+
+    return-object v0
+.end method
+
+.method public getAnnotations()Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->u:Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic getConstructors()Ljava/util/Collection;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->H0()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
     .locals 2
 
     .line 1
@@ -722,7 +715,7 @@
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->x:Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->l()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->i()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
     move-result-object v0
 
@@ -743,22 +736,11 @@
     return-object v0
 .end method
 
-.method public getAnnotations()Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
+.method public h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->u:Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
-
-    return-object v0
-.end method
-
-.method public bridge synthetic getConstructors()Ljava/util/Collection;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->O0()Ljava/util/List;
-
-    move-result-object v0
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->m:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
 
     return-object v0
 .end method
@@ -779,25 +761,7 @@
     return v0
 .end method
 
-.method public j()Lkotlin/reflect/jvm/internal/impl/types/o0;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->p:Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor$LazyJavaClassTypeConstructor;
-
-    return-object v0
-.end method
-
-.method public k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->m:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-
-    return-object v0
-.end method
-
-.method public q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+.method public n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
     .locals 1
 
     .line 1
@@ -806,7 +770,7 @@
     return-object v0
 .end method
 
-.method public t()Ljava/util/List;
+.method public q()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -827,6 +791,14 @@
     check-cast v0, Ljava/util/List;
 
     return-object v0
+.end method
+
+.method public t()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -854,7 +826,35 @@
     return-object v0
 .end method
 
+.method public v0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->s:Lkotlin/reflect/jvm/internal/impl/resolve/scopes/e;
+
+    return-object v0
+.end method
+
 .method public x()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public bridge synthetic y0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor;->J0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassMemberScope;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public z0()Z
     .locals 1
 
     const/4 v0, 0x0

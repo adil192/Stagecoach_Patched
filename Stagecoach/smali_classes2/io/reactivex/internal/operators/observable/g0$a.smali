@@ -1,6 +1,6 @@
 .class final Lio/reactivex/internal/operators/observable/g0$a;
 .super Ljava/lang/Object;
-.source "ObservableToList.java"
+.source "ObservableTakeWhile.java"
 
 # interfaces
 .implements Lio/reactivex/t;
@@ -21,9 +21,7 @@
     value = {
         "<T:",
         "Ljava/lang/Object;",
-        "U::",
-        "Ljava/util/Collection<",
-        "-TT;>;>",
+        ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/t<",
         "TT;>;",
@@ -37,30 +35,35 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lio/reactivex/t<",
-            "-TU;>;"
+            "-TT;>;"
         }
     .end annotation
 .end field
 
-.field d:Lio/reactivex/disposables/b;
-
-.field e:Ljava/util/Collection;
+.field final d:Lio/reactivex/c0/k;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "TU;"
+            "Lio/reactivex/c0/k<",
+            "-TT;>;"
         }
     .end annotation
 .end field
+
+.field e:Lio/reactivex/disposables/b;
+
+.field f:Z
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/t;Ljava/util/Collection;)V
+.method constructor <init>(Lio/reactivex/t;Lio/reactivex/c0/k;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/t<",
-            "-TU;>;TU;)V"
+            "-TT;>;",
+            "Lio/reactivex/c0/k<",
+            "-TT;>;)V"
         }
     .end annotation
 
@@ -71,7 +74,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/observable/g0$a;->c:Lio/reactivex/t;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Ljava/util/Collection;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/g0$a;->d:Lio/reactivex/c0/k;
 
     return-void
 .end method
@@ -82,7 +85,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->d:Lio/reactivex/disposables/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Lio/reactivex/disposables/b;
 
     invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
@@ -93,7 +96,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->d:Lio/reactivex/disposables/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Lio/reactivex/disposables/b;
 
     invoke-interface {v0}, Lio/reactivex/disposables/b;->isDisposed()Z
 
@@ -103,22 +106,22 @@
 .end method
 
 .method public onComplete()V
-    .locals 2
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Ljava/util/Collection;
+    iget-boolean v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->f:Z
 
-    const/4 v1, 0x0
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x1
 
     .line 2
-    iput-object v1, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Ljava/util/Collection;
+    iput-boolean v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->f:Z
 
     .line 3
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/g0$a;->c:Lio/reactivex/t;
-
-    invoke-interface {v1, v0}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
-
-    .line 4
     iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->c:Lio/reactivex/t;
 
     invoke-interface {v0}, Lio/reactivex/t;->onComplete()V
@@ -129,12 +132,23 @@
 .method public onError(Ljava/lang/Throwable;)V
     .locals 1
 
-    const/4 v0, 0x0
-
     .line 1
-    iput-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Ljava/util/Collection;
+    iget-boolean v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->f:Z
+
+    if-eqz v0, :cond_0
 
     .line 2
+    invoke-static {p1}, Lio/reactivex/g0/a;->s(Ljava/lang/Throwable;)V
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x1
+
+    .line 3
+    iput-boolean v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->f:Z
+
+    .line 4
     iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->c:Lio/reactivex/t;
 
     invoke-interface {v0, p1}, Lio/reactivex/t;->onError(Ljava/lang/Throwable;)V
@@ -151,9 +165,63 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Ljava/util/Collection;
+    iget-boolean v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->f:Z
 
-    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    if-eqz v0, :cond_0
+
+    return-void
+
+    .line 2
+    :cond_0
+    :try_start_0
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->d:Lio/reactivex/c0/k;
+
+    invoke-interface {v0, p1}, Lio/reactivex/c0/k;->a(Ljava/lang/Object;)Z
+
+    move-result v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-nez v0, :cond_1
+
+    const/4 p1, 0x1
+
+    .line 3
+    iput-boolean p1, p0, Lio/reactivex/internal/operators/observable/g0$a;->f:Z
+
+    .line 4
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Lio/reactivex/disposables/b;
+
+    invoke-interface {p1}, Lio/reactivex/disposables/b;->dispose()V
+
+    .line 5
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/g0$a;->c:Lio/reactivex/t;
+
+    invoke-interface {p1}, Lio/reactivex/t;->onComplete()V
+
+    return-void
+
+    .line 6
+    :cond_1
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->c:Lio/reactivex/t;
+
+    invoke-interface {v0, p1}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    .line 7
+    invoke-static {p1}, Lio/reactivex/exceptions/a;->b(Ljava/lang/Throwable;)V
+
+    .line 8
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Lio/reactivex/disposables/b;
+
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
+
+    .line 9
+    invoke-virtual {p0, p1}, Lio/reactivex/internal/operators/observable/g0$a;->onError(Ljava/lang/Throwable;)V
 
     return-void
 .end method
@@ -162,7 +230,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->d:Lio/reactivex/disposables/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Lio/reactivex/disposables/b;
 
     invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lio/reactivex/disposables/b;Lio/reactivex/disposables/b;)Z
 
@@ -171,7 +239,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/g0$a;->d:Lio/reactivex/disposables/b;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/g0$a;->e:Lio/reactivex/disposables/b;
 
     .line 3
     iget-object p1, p0, Lio/reactivex/internal/operators/observable/g0$a;->c:Lio/reactivex/t;

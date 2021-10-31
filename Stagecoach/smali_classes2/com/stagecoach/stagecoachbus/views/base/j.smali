@@ -32,7 +32,7 @@
 
     check-cast p3, Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->G3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->J3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager$RuleState;)V
 
     return-void
 .end method

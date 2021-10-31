@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract F()Ljava/util/Collection;
+.method public abstract B()Ljava/util/Collection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -32,5 +32,5 @@
 .method public abstract e()Z
 .end method
 
-.method public abstract y()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+.method public abstract u()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 .end method

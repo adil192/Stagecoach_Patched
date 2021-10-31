@@ -80,10 +80,10 @@
 
 .field lastIndex:I
 
-.field final mapper:Lio/reactivex/c0/g;
+.field final mapper:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TU;>;>;"
@@ -143,14 +143,14 @@
     return-void
 .end method
 
-.method constructor <init>(Lk/a/b;Lio/reactivex/c0/g;ZII)V
+.method constructor <init>(Lk/a/b;Lio/reactivex/c0/i;ZII)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lk/a/b<",
             "-TU;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TU;>;>;ZII)V"
@@ -185,7 +185,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;->downstream:Lk/a/b;
 
     .line 6
-    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;->mapper:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;->mapper:Lio/reactivex/c0/i;
 
     .line 7
     iput-boolean p3, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;->delayErrors:Z
@@ -1794,9 +1794,9 @@
     .line 2
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;->mapper:Lio/reactivex/c0/g;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;->mapper:Lio/reactivex/c0/i;
 
-    invoke-interface {v0, p1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

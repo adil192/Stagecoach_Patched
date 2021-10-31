@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/m;->c:Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->n4(Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;)V
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->q4(Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;)V
 
     return-void
 .end method

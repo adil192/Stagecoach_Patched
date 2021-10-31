@@ -77,7 +77,7 @@
     return-object v0
 .end method
 
-.method static synthetic o(Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;)Lcom/stagecoach/stagecoachbus/persistence/converter/Converters;
+.method static synthetic p(Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;)Lcom/stagecoach/stagecoachbus/persistence/converter/Converters;
     .locals 0
 
     .line 1
@@ -86,7 +86,7 @@
     return-object p0
 .end method
 
-.method static synthetic p(Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;)Landroidx/room/RoomDatabase;
+.method static synthetic q(Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;)Landroidx/room/RoomDatabase;
     .locals 0
 
     .line 1
@@ -7609,7 +7609,129 @@
     throw v0
 .end method
 
-.method public h(Ljava/lang/String;)Ljava/util/List;
+.method public h(Ljava/util/List;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;->a:Landroidx/room/RoomDatabase;
+
+    invoke-virtual {v0}, Landroidx/room/RoomDatabase;->b()V
+
+    .line 2
+    invoke-static {}, Landroidx/room/x0/f;->b()Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "DELETE FROM ticketItems WHERE qrItemUuid IN ("
+
+    .line 3
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 4
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    .line 5
+    invoke-static {v0, v1}, Landroidx/room/x0/f;->a(Ljava/lang/StringBuilder;I)V
+
+    const-string v1, ") AND activationTime IS NULL"
+
+    .line 6
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 7
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 8
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;->a:Landroidx/room/RoomDatabase;
+
+    invoke-virtual {v1, v0}, Landroidx/room/RoomDatabase;->d(Ljava/lang/String;)Lc/s/a/f;
+
+    move-result-object v0
+
+    .line 9
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    const/4 v1, 0x1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    if-nez v2, :cond_0
+
+    .line 10
+    invoke-interface {v0, v1}, Lc/s/a/d;->n0(I)V
+
+    goto :goto_1
+
+    .line 11
+    :cond_0
+    invoke-interface {v0, v1, v2}, Lc/s/a/d;->s(ILjava/lang/String;)V
+
+    :goto_1
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    .line 12
+    :cond_1
+    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;->a:Landroidx/room/RoomDatabase;
+
+    invoke-virtual {p1}, Landroidx/room/RoomDatabase;->c()V
+
+    .line 13
+    :try_start_0
+    invoke-interface {v0}, Lc/s/a/f;->u()I
+
+    .line 14
+    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;->a:Landroidx/room/RoomDatabase;
+
+    invoke-virtual {p1}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 15
+    iget-object p1, p0, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;->a:Landroidx/room/RoomDatabase;
+
+    invoke-virtual {p1}, Landroidx/room/RoomDatabase;->g()V
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao_Impl;->a:Landroidx/room/RoomDatabase;
+
+    invoke-virtual {v0}, Landroidx/room/RoomDatabase;->g()V
+
+    .line 16
+    throw p1
+.end method
+
+.method public i(Ljava/lang/String;)Ljava/util/List;
     .locals 44
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -8941,7 +9063,7 @@
     throw v0
 .end method
 
-.method public i(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
+.method public j(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
     .locals 1
 
     .line 1
@@ -8985,7 +9107,7 @@
     throw p1
 .end method
 
-.method public j(Ljava/lang/String;J)Ljava/util/List;
+.method public k(Ljava/lang/String;J)Ljava/util/List;
     .locals 44
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -10328,7 +10450,7 @@
     throw v0
 .end method
 
-.method public k(Ljava/lang/String;)Lio/reactivex/g;
+.method public l(Ljava/lang/String;)Lio/reactivex/g;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -10383,7 +10505,7 @@
     return-object p1
 .end method
 
-.method public l(Ljava/util/List;)V
+.method public m(Ljava/util/List;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -10505,7 +10627,7 @@
     throw p1
 .end method
 
-.method public m(Ljava/lang/String;)Ljava/util/List;
+.method public n(Ljava/lang/String;)Ljava/util/List;
     .locals 44
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -11802,7 +11924,7 @@
     throw v0
 .end method
 
-.method public n(Ljava/util/List;)V
+.method public o(Ljava/util/List;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

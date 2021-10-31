@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract I(ILjava/lang/Object;)V
+.method public abstract J(ILjava/lang/Object;)V
 .end method
 
 .method public abstract getBackPreviousOverlay()V

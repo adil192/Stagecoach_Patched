@@ -12,7 +12,7 @@
 
 
 # direct methods
-.method public static a(Ljava/lang/Object;Lio/reactivex/c0/g;)Lio/reactivex/g;
+.method public static a(Ljava/lang/Object;Lio/reactivex/c0/i;)Lio/reactivex/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -21,7 +21,7 @@
             "U:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TU;>;>;)",
@@ -33,7 +33,7 @@
     .line 1
     new-instance v0, Lio/reactivex/internal/operators/flowable/n$a;
 
-    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/flowable/n$a;-><init>(Ljava/lang/Object;Lio/reactivex/c0/g;)V
+    invoke-direct {v0, p0, p1}, Lio/reactivex/internal/operators/flowable/n$a;-><init>(Ljava/lang/Object;Lio/reactivex/c0/i;)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->l(Lio/reactivex/g;)Lio/reactivex/g;
 
@@ -42,7 +42,7 @@
     return-object p0
 .end method
 
-.method public static b(Lk/a/a;Lk/a/b;Lio/reactivex/c0/g;)Z
+.method public static b(Lk/a/a;Lk/a/b;Lio/reactivex/c0/i;)Z
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -55,7 +55,7 @@
             "TT;>;",
             "Lk/a/b<",
             "-TR;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;)Z"
@@ -89,7 +89,7 @@
     .line 4
     :cond_0
     :try_start_1
-    invoke-interface {p2, p0}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

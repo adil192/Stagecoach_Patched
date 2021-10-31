@@ -370,7 +370,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object p1
 
@@ -394,7 +394,7 @@
     if-nez v1, :cond_1
 
     .line 4
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v1
 

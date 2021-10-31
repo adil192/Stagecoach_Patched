@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/braintreepayments/api/a;->g3(I)V
+    value = Lcom/braintreepayments/api/a;->j3(I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -45,7 +45,7 @@
     .line 1
     iget-object v0, p0, Lcom/braintreepayments/api/a$i;->b:Lcom/braintreepayments/api/a;
 
-    invoke-static {v0}, Lcom/braintreepayments/api/a;->X2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/b;
+    invoke-static {v0}, Lcom/braintreepayments/api/a;->a3(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/b;
 
     move-result-object v0
 
@@ -68,13 +68,13 @@
     .line 1
     iget-object v0, p0, Lcom/braintreepayments/api/a$i;->b:Lcom/braintreepayments/api/a;
 
-    invoke-static {v0}, Lcom/braintreepayments/api/a;->X2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/b;
+    invoke-static {v0}, Lcom/braintreepayments/api/a;->a3(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/b;
 
     move-result-object v0
 
     iget v1, p0, Lcom/braintreepayments/api/a$i;->a:I
 
-    invoke-interface {v0, v1}, Lcom/braintreepayments/api/q/b;->N(I)V
+    invoke-interface {v0, v1}, Lcom/braintreepayments/api/q/b;->O(I)V
 
     return-void
 .end method

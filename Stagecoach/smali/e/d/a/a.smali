@@ -33,7 +33,30 @@
 
 
 # virtual methods
-.method protected abstract L0()Ljava/lang/Object;
+.method protected final A0(Lio/reactivex/t;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/t<",
+            "-TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1}, Le/d/a/a;->W0(Lio/reactivex/t;)V
+
+    .line 2
+    invoke-virtual {p0}, Le/d/a/a;->U0()Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method protected abstract U0()Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()TT;"
@@ -41,7 +64,7 @@
     .end annotation
 .end method
 
-.method public final M0()Lio/reactivex/p;
+.method public final V0()Lio/reactivex/p;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -59,7 +82,7 @@
     return-object v0
 .end method
 
-.method protected abstract N0(Lio/reactivex/t;)V
+.method protected abstract W0(Lio/reactivex/t;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -67,27 +90,4 @@
             "-TT;>;)V"
         }
     .end annotation
-.end method
-
-.method protected final s0(Lio/reactivex/t;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lio/reactivex/t<",
-            "-TT;>;)V"
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0, p1}, Le/d/a/a;->N0(Lio/reactivex/t;)V
-
-    .line 2
-    invoke-virtual {p0}, Le/d/a/a;->L0()Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-interface {p1, v0}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
-
-    return-void
 .end method

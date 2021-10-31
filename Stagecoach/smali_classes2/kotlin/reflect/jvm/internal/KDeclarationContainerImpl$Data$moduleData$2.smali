@@ -88,7 +88,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$Data;->b:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
-    invoke-interface {v0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
+    invoke-interface {v0}, Lkotlin/jvm/internal/c;->d()Ljava/lang/Class;
 
     move-result-object v0
 

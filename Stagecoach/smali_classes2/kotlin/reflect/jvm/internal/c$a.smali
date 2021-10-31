@@ -23,7 +23,7 @@
     new-array v0, v0, [Ljava/lang/Object;
 
     .line 1
-    invoke-interface {p0, v0}, Lkotlin/reflect/a;->a([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lkotlin/reflect/b;->a([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -42,7 +42,7 @@
     aput-object p1, v0, v1
 
     .line 1
-    invoke-interface {p0, v0}, Lkotlin/reflect/a;->a([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lkotlin/reflect/b;->a([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -65,7 +65,7 @@
     aput-object p2, v0, p1
 
     .line 1
-    invoke-interface {p0, v0}, Lkotlin/reflect/a;->a([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lkotlin/reflect/b;->a([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -92,7 +92,7 @@
     aput-object p3, v0, p1
 
     .line 1
-    invoke-interface {p0, v0}, Lkotlin/reflect/a;->a([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lkotlin/reflect/b;->a([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

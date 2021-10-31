@@ -78,7 +78,7 @@
 
 
 # virtual methods
-.method public G0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;
+.method public A0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;
     .locals 1
 
     .line 1
@@ -87,7 +87,7 @@
     return-object v0
 .end method
 
-.method protected R(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+.method protected M(Lkotlin/reflect/jvm/internal/impl/types/y;)V
     .locals 1
 
     const-string v0, "type"
@@ -97,7 +97,7 @@
     return-void
 .end method
 
-.method protected d0()Ljava/util/List;
+.method protected Y()Ljava/util/List;
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v0
 
@@ -148,7 +148,7 @@
 
     move-result-object v1
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v1
 
@@ -238,7 +238,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/e;->G0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/e;->A0()Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;
 
     move-result-object v0
 

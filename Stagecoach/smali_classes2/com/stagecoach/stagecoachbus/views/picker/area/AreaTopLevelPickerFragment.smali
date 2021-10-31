@@ -55,7 +55,7 @@
     return-void
 .end method
 
-.method private synthetic W3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method private synthetic Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 7
 
     .line 1
@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaPickerFragment;->Z3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/picker/area/AreaPickerFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaPickerFragment;->c4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/picker/area/AreaPickerFragment;
 
     move-result-object v1
 
@@ -104,7 +104,7 @@
     return-void
 .end method
 
-.method static synthetic Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method static synthetic b4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 1
 
     if-eqz p0, :cond_0
@@ -127,7 +127,7 @@
     return-void
 .end method
 
-.method public static Z3()Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;
+.method public static c4()Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;
     .locals 1
 
     .line 1
@@ -140,11 +140,11 @@
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c002b
 
@@ -215,7 +215,7 @@
     return-object p1
 .end method
 
-.method V3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;
+.method Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;
     .locals 1
 
     if-nez p1, :cond_0
@@ -233,19 +233,39 @@
     return-object v0
 .end method
 
-.method public synthetic X3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method public synthetic a4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;->W3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     return-void
 .end method
 
-.method public g2()V
+.method public getOpcoAreaCodeMap()Ljava/util/HashMap;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;->J0:Ljava/util/HashMap;
+
+    return-object v0
+.end method
+
+.method public j2()V
     .locals 6
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
@@ -313,7 +333,7 @@
     const v2, 0x7f110073
 
     .line 9
-    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -353,7 +373,7 @@
     invoke-virtual {v5, v4}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setIconResId(I)V
 
     .line 16
-    invoke-virtual {p0, v5}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;->V3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;
+    invoke-virtual {p0, v5}, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;
 
     move-result-object v4
 
@@ -379,26 +399,6 @@
 
     :cond_1
     return-void
-.end method
-
-.method public getOpcoAreaCodeMap()Ljava/util/HashMap;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;>;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/area/AreaTopLevelPickerFragment;->J0:Ljava/util/HashMap;
-
-    return-object v0
 .end method
 
 .method public setOpcoAreaCodeMap(Ljava/util/HashMap;)V

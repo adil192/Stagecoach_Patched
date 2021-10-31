@@ -358,7 +358,7 @@
     .line 3
     check-cast v0, Lcom/google/android/gms/internal/measurement/q6;
 
-    invoke-interface {v0}, Lcom/google/android/gms/internal/measurement/q6;->h()Lcom/google/android/gms/internal/measurement/q6;
+    invoke-interface {v0}, Lcom/google/android/gms/internal/measurement/q6;->l()Lcom/google/android/gms/internal/measurement/q6;
 
     move-result-object v0
 

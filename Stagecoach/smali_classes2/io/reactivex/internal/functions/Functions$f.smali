@@ -3,7 +3,7 @@
 .source "Functions.java"
 
 # interfaces
-.implements Lio/reactivex/c0/h;
+.implements Lio/reactivex/c0/a;
 
 
 # annotations
@@ -29,8 +29,16 @@
 
 
 # virtual methods
-.method public a(J)V
+.method public run()V
     .locals 0
 
     return-void
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "EmptyAction"
+
+    return-object v0
 .end method

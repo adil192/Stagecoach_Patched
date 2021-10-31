@@ -32,19 +32,19 @@
     const/4 p1, 0x1
 
     .line 3
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->B(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->B(I)V
 
     throw v0
 .end method
 
-.method private static synthetic F(I)V
+.method private static synthetic B(I)V
     .locals 9
 
     const/4 v0, 0x6
@@ -215,7 +215,7 @@
     .end packed-switch
 .end method
 
-.method public static G(Lkotlin/reflect/jvm/internal/impl/descriptors/k;)Ljava/lang/String;
+.method public static C(Lkotlin/reflect/jvm/internal/impl/descriptors/k;)Ljava/lang/String;
     .locals 3
 
     const/4 v0, 0x0
@@ -281,7 +281,7 @@
     :cond_0
     const/4 p0, 0x5
 
-    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->F(I)V
+    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->B(I)V
 
     throw v0
 
@@ -324,7 +324,7 @@
     :cond_1
     const/4 p0, 0x6
 
-    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->F(I)V
+    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->B(I)V
 
     throw v0
 
@@ -332,7 +332,7 @@
     const/4 p0, 0x4
 
     .line 3
-    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->F(I)V
+    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->B(I)V
 
     throw v0
 .end method
@@ -358,7 +358,7 @@
     :cond_0
     const/4 v0, 0x2
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->F(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->B(I)V
 
     const/4 v0, 0x0
 
@@ -369,7 +369,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->G(Lkotlin/reflect/jvm/internal/impl/descriptors/k;)Ljava/lang/String;
+    invoke-static {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/i;->C(Lkotlin/reflect/jvm/internal/impl/descriptors/k;)Ljava/lang/String;
 
     move-result-object v0
 

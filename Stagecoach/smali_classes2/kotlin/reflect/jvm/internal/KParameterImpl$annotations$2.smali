@@ -97,7 +97,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KParameterImpl$annotations$2;->this$0:Lkotlin/reflect/jvm/internal/KParameterImpl;
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/KParameterImpl;->a(Lkotlin/reflect/jvm/internal/KParameterImpl;)Lkotlin/reflect/jvm/internal/impl/descriptors/z;
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/KParameterImpl;->d(Lkotlin/reflect/jvm/internal/KParameterImpl;)Lkotlin/reflect/jvm/internal/impl/descriptors/z;
 
     move-result-object v0
 

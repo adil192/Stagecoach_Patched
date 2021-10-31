@@ -29,7 +29,7 @@
         "Landroid/os/Bundle;",
         "savedInstanceState",
         "Landroid/view/View;",
-        "P1",
+        "S1",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "<init>",
         "()V",
@@ -85,27 +85,6 @@
     return-void
 .end method
 
-.method public static final synthetic f3()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->p0:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public static final g3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;
-    .locals 1
-
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->q0:Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment$Companion;
-
-    invoke-virtual {v0, p0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment$Companion;->a(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
 .method public static final getInstance()Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;
     .locals 1
 
@@ -126,9 +105,30 @@
     return-object v0
 .end method
 
+.method public static final synthetic i3()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->p0:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public static final j3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;
+    .locals 1
+
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->q0:Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment$Companion;
+
+    invoke-virtual {v0, p0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment$Companion;->a(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     const-string v0, "inflater"
@@ -136,7 +136,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c006c
 
@@ -205,17 +205,17 @@
     return-object p1
 .end method
 
-.method public synthetic S1()V
+.method public synthetic V1()V
     .locals 0
 
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->S1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->V1()V
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->b3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->e3()V
 
     return-void
 .end method
 
-.method public b3()V
+.method public e3()V
     .locals 1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateInvalidFragment;->o0:Ljava/util/HashMap;

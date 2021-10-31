@@ -44,7 +44,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment$2;->a:Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAddress;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->o5(Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAddress;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->r5(Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAddress;)V
 
     return-void
 .end method

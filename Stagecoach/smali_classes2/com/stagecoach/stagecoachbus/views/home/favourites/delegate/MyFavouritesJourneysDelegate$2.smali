@@ -48,7 +48,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/delegate/MyFavouritesJourneysDelegate$2;->a:Lcom/stagecoach/stagecoachbus/views/home/favourites/FavouritesModel;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->z3(Lcom/stagecoach/stagecoachbus/views/home/favourites/FavouritesModel;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->C3(Lcom/stagecoach/stagecoachbus/views/home/favourites/FavouritesModel;)V
 
     return-void
 .end method

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/b;->c:Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->g3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/DisruptionsDialogFragment;->j3(Landroid/view/View;)V
 
     return-void
 .end method

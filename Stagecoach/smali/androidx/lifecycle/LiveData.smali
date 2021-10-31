@@ -315,7 +315,7 @@
     iget-object v1, p0, Landroidx/lifecycle/LiveData;->b:Lc/b/a/b/b;
 
     .line 7
-    invoke-virtual {v1}, Lc/b/a/b/b;->k()Lc/b/a/b/b$d;
+    invoke-virtual {v1}, Lc/b/a/b/b;->j()Lc/b/a/b/b$d;
 
     move-result-object v1
 

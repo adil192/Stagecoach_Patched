@@ -427,7 +427,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/protobuf/d$b;->d:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/protobuf/d;->k(Ljava/lang/Iterable;)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/protobuf/d;->j(Ljava/lang/Iterable;)Lkotlin/reflect/jvm/internal/impl/protobuf/d;
 
     move-result-object v0
     :try_end_0

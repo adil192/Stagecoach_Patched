@@ -258,7 +258,7 @@
 
     invoke-static {v0, v4}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v3, v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->c1(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
+    invoke-virtual {v3, v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->V0(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
 
     move-result v0
 
@@ -268,7 +268,7 @@
 
     .line 12
     :cond_5
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->W0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->P0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
 
     move-result-object v0
 
@@ -333,7 +333,7 @@
 
     invoke-static {v7, v4}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v6, v7}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/m;->d0(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
+    invoke-virtual {v6, v7}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/m;->Y(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
 
     move-result v6
 

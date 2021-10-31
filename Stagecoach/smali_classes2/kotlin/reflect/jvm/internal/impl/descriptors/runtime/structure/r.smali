@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract C()I
+.method public abstract y()I
 .end method

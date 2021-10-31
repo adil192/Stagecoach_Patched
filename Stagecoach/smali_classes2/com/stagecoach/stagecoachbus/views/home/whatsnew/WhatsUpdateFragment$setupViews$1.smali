@@ -66,7 +66,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/whatsnew/WhatsUpdateFragment$setupViews$1;->c:Lcom/stagecoach/stagecoachbus/views/home/whatsnew/WhatsUpdateFragment;
 
-    invoke-virtual {p1}, Landroidx/fragment/app/b;->V2()V
+    invoke-virtual {p1}, Landroidx/fragment/app/b;->Y2()V
 
     return-void
 .end method

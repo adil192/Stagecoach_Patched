@@ -73,14 +73,14 @@
     iput-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y$a;->a:Lkotlin/reflect/jvm/internal/impl/descriptors/k;
 
     .line 3
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
 
     move-result-object v0
 
     iput-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y$a;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
 
     .line 4
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 
     move-result-object v0
 
@@ -97,7 +97,7 @@
     iput-boolean v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y$a;->e:Z
 
     .line 7
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
 
     move-result-object v1
 
@@ -114,7 +114,7 @@
     iput-boolean v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y$a;->h:Z
 
     .line 10
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;)Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->D0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;)Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object v1
 
@@ -657,7 +657,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y$a;->m:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;
 
-    invoke-virtual {v0, p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->Q0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y$a;)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {v0, p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->J0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y$a;)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object v0
 
@@ -699,7 +699,7 @@
 
     .line 2
     :cond_0
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->b0()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;->W()Lkotlin/reflect/jvm/internal/impl/descriptors/e0;
 
     move-result-object v0
 

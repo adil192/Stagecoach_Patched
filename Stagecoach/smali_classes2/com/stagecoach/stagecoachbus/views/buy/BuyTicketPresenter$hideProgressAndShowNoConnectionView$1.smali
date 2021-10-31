@@ -96,13 +96,13 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->Y0()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->b1()V
 
     .line 2
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketView;->U0()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketView;->X0()V
 
     .line 3
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketView;->Y()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketView;->b0()V
 
     return-void
 .end method

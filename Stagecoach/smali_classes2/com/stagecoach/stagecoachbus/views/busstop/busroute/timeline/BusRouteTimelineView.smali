@@ -4,23 +4,23 @@
 
 
 # virtual methods
-.method public abstract D(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+.method public abstract B()V
 .end method
 
-.method public abstract D0(IDLandroid/location/Location;)V
+.method public abstract G(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
 .end method
 
-.method public abstract L()V
+.method public abstract G0(IDLandroid/location/Location;)V
 .end method
 
-.method public abstract d(Z)V
+.method public abstract O()V
 .end method
 
-.method public abstract t(ZZ)V
+.method public abstract f(Z)V
 .end method
 
-.method public abstract v0(Z)V
+.method public abstract w(ZZ)V
 .end method
 
-.method public abstract y()V
+.method public abstract y0(Z)V
 .end method

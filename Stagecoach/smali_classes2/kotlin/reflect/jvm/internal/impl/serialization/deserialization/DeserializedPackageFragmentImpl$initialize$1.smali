@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->G0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
+    value = Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->A0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -72,7 +72,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl$initialize$1;->this$0:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->N0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/t;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedPackageFragmentImpl;->G0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/t;
 
     move-result-object v0
 

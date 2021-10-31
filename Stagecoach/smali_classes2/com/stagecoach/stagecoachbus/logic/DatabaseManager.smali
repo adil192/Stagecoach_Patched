@@ -587,7 +587,7 @@
 
     move-result-object v7
 
-    invoke-interface {v7, v6}, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao;->i(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
+    invoke-interface {v7, v6}, Lcom/stagecoach/stagecoachbus/persistence/TicketsDao;->j(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
 
     add-int/lit8 v5, v5, 0x1
 

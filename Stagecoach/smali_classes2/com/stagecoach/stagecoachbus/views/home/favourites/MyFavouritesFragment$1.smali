@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->v4(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)V
+    value = Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->y4(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -55,7 +55,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment$1;->f:Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->t3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->w3()V
 
     .line 2
     invoke-super {p0}, Lio/reactivex/f0/c;->a()V
@@ -81,7 +81,7 @@
 
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment$1;->e:Ljava/util/Date;
 
-    invoke-static {v0, v1, p1, v2}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->x3(Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/utils/cache/CacheableList;Ljava/util/Date;)V
+    invoke-static {v0, v1, p1, v2}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->A3(Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;Lcom/stagecoach/stagecoachbus/utils/cache/CacheableList;Ljava/util/Date;)V
 
     return-void
 .end method
@@ -92,7 +92,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment$1;->f:Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Z2()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->c3()V
 
     .line 2
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;

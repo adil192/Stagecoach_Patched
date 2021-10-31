@@ -3,7 +3,7 @@
 .source "GetActiveTicketsUseCase.kt"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Ljava/util/List<",
         "+",
         "Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;",
@@ -104,7 +104,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -113,14 +113,14 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2$1;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2;)V
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->B(Lio/reactivex/c0/i;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->H(Lio/reactivex/c0/k;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 3
     sget-object v0, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2$2;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2$2;
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -129,19 +129,19 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2$3;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2;)V
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
     .line 5
     sget-object v0, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2$4;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetActiveTicketsUseCase$buildUseCaseObservable$2$4;
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->F0(Ljava/util/Comparator;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->O0(Ljava/util/Comparator;)Lio/reactivex/v;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1}, Lio/reactivex/v;->I()Lio/reactivex/p;
+    invoke-virtual {p1}, Lio/reactivex/v;->J()Lio/reactivex/p;
 
     move-result-object p1
 

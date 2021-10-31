@@ -21,7 +21,7 @@
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/b/p<",
         "TT;",
-        "Lkotlin/reflect/h<",
+        "Lkotlin/reflect/i<",
         "*>;",
         "Ljava/util/List<",
         "+TV;>;>;"
@@ -42,11 +42,11 @@
         "Landroid/view/View;",
         "V",
         "t",
-        "Lkotlin/reflect/h;",
+        "Lkotlin/reflect/i;",
         "desc",
         "",
         "invoke",
-        "(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/util/List;",
+        "(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/util/List;",
         "<anonymous>"
     }
     k = 0x3
@@ -84,21 +84,21 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/reflect/h;
+    check-cast p2, Lkotlin/reflect/i;
 
-    invoke-virtual {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt$required$2;->invoke(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/util/List;
+    invoke-virtual {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt$required$2;->invoke(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/util/List;
+.method public final invoke(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/util/List;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)",
             "Ljava/util/List<",
             "TV;>;"
@@ -151,7 +151,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v4, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt;->access$notFound(ILkotlin/reflect/h;)Ljava/lang/Void;
+    invoke-static {v4, p2}, Lcom/stagecoach/stagecoachbus/utils/KotterKnifeKt;->access$notFound(ILkotlin/reflect/i;)Ljava/lang/Void;
 
     new-instance p1, Lkotlin/KotlinNothingValueException;
 

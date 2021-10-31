@@ -35,10 +35,10 @@
     .end annotation
 .end field
 
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/e;",
             ">;"
@@ -50,14 +50,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/g;Z)V
+.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/i;Z)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/s<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/e;",
             ">;Z)V"
@@ -71,7 +71,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->c:Lio/reactivex/s;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->d:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->d:Lio/reactivex/c0/i;
 
     .line 4
     iput-boolean p3, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->e:Z
@@ -96,11 +96,11 @@
 
     iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->c:Lio/reactivex/s;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->d:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->d:Lio/reactivex/c0/i;
 
     iget-boolean v3, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->e:Z
 
-    invoke-direct {v0, v1, v2, v3}, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletable;-><init>(Lio/reactivex/s;Lio/reactivex/c0/g;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletable;-><init>(Lio/reactivex/s;Lio/reactivex/c0/i;Z)V
 
     invoke-static {v0}, Lio/reactivex/g0/a;->n(Lio/reactivex/p;)Lio/reactivex/p;
 
@@ -109,7 +109,7 @@
     return-object v0
 .end method
 
-.method protected t(Lio/reactivex/c;)V
+.method protected s(Lio/reactivex/c;)V
     .locals 4
 
     .line 1
@@ -117,11 +117,11 @@
 
     new-instance v1, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable$FlatMapCompletableMainObserver;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->d:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->d:Lio/reactivex/c0/i;
 
     iget-boolean v3, p0, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable;->e:Z
 
-    invoke-direct {v1, p1, v2, v3}, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable$FlatMapCompletableMainObserver;-><init>(Lio/reactivex/c;Lio/reactivex/c0/g;Z)V
+    invoke-direct {v1, p1, v2, v3}, Lio/reactivex/internal/operators/observable/ObservableFlatMapCompletableCompletable$FlatMapCompletableMainObserver;-><init>(Lio/reactivex/c;Lio/reactivex/c0/i;Z)V
 
     invoke-interface {v0, v1}, Lio/reactivex/s;->subscribe(Lio/reactivex/t;)V
 

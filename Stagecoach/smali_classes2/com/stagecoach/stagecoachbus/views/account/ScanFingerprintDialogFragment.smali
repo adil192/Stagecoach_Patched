@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method private synthetic b3(Landroid/content/DialogInterface;I)V
+.method private synthetic e3(Landroid/content/DialogInterface;I)V
     .locals 1
 
     if-eqz p1, :cond_0
@@ -49,7 +49,7 @@
     return-void
 .end method
 
-.method public static d3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;
+.method public static g3()Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;
     .locals 1
 
     .line 1
@@ -62,11 +62,75 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public C0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
+    .locals 3
+
+    .line 1
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;->getErrorType()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    if-ne v0, v2, :cond_0
+
+    .line 2
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const v2, 0x7f110193
+
+    invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+
+    goto :goto_0
+
+    .line 3
+    :cond_0
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;->getMessage()Ljava/lang/CharSequence;
+
+    move-result-object v2
+
+    invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+
+    .line 4
+    :goto_0
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;->isShouldFinish()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    .line 5
+    invoke-virtual {p0}, Landroidx/fragment/app/b;->getDialog()Landroid/app/Dialog;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/b;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/b;->O1(Landroid/os/Bundle;)V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -88,7 +152,7 @@
     return-void
 .end method
 
-.method public X2(Landroid/os/Bundle;)Landroid/app/Dialog;
+.method public a3(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 4
 
     .line 1
@@ -174,7 +238,7 @@
     return-object p1
 .end method
 
-.method public a0()V
+.method public d0()V
     .locals 4
 
     .line 1
@@ -203,7 +267,7 @@
 
     invoke-direct {v3}, Landroid/content/Intent;-><init>()V
 
-    invoke-virtual {v0, v1, v2, v3}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    invoke-virtual {v0, v1, v2, v3}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     .line 4
     invoke-virtual {p0}, Landroidx/fragment/app/b;->getDialog()Landroid/app/Dialog;
@@ -215,11 +279,11 @@
     return-void
 .end method
 
-.method public b2()V
+.method public e2()V
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->b2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->e2()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;->o0:Lcom/stagecoach/stagecoachbus/logic/TouchIdManager;
@@ -244,88 +308,24 @@
     return-void
 .end method
 
-.method public synthetic c3(Landroid/content/DialogInterface;I)V
+.method public synthetic f3(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;->b3(Landroid/content/DialogInterface;I)V
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;->e3(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintDialogFragment;->o0:Lcom/stagecoach/stagecoachbus/logic/TouchIdManager;
 
     invoke-virtual {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager;->f(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$TouchIdScanListener;)V
 
-    return-void
-.end method
-
-.method public z0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
-    .locals 3
-
-    .line 1
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;->getErrorType()I
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    const/4 v2, 0x1
-
-    if-ne v0, v2, :cond_0
-
-    .line 2
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    const v2, 0x7f110193
-
-    invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
-
-    goto :goto_0
-
-    .line 3
-    :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;->getMessage()Ljava/lang/CharSequence;
-
-    move-result-object v2
-
-    invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
-
-    .line 4
-    :goto_0
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;->isShouldFinish()Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    .line 5
-    invoke-virtual {p0}, Landroidx/fragment/app/b;->getDialog()Landroid/app/Dialog;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
-
-    :cond_1
     return-void
 .end method

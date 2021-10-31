@@ -67,12 +67,12 @@
     .line 6
     sget-object v7, Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;->ABSTRACT:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
 
-    invoke-virtual {v8, v7}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;)V
+    invoke-virtual {v8, v7}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->D0(Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;)V
 
     .line 7
     sget-object v15, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 
-    invoke-virtual {v8, v15}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->O0(Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)V
+    invoke-virtual {v8, v15}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->H0(Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)V
 
     .line 8
     sget-object v18, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e$a;
@@ -98,7 +98,7 @@
     move-object/from16 v6, v23
 
     .line 9
-    invoke-static/range {v0 .. v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f0;->Q0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;ZLkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/name/f;ILkotlin/reflect/jvm/internal/impl/storage/m;)Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+    invoke-static/range {v0 .. v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f0;->J0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;ZLkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/name/f;ILkotlin/reflect/jvm/internal/impl/storage/m;)Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
 
     move-result-object v0
 
@@ -108,10 +108,10 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {v8, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->N0(Ljava/util/List;)V
+    invoke-virtual {v8, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->G0(Ljava/util/List;)V
 
     .line 12
-    invoke-virtual {v8}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->d0()V
+    invoke-virtual {v8}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->Y()V
 
     .line 13
     sput-object v8, Lkotlin/reflect/jvm/internal/impl/builtins/h;->a:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;
@@ -159,10 +159,10 @@
     invoke-direct/range {v10 .. v17}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;-><init>(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;ZZLkotlin/reflect/jvm/internal/impl/name/f;Lkotlin/reflect/jvm/internal/impl/descriptors/h0;Lkotlin/reflect/jvm/internal/impl/storage/m;)V
 
     .line 18
-    invoke-virtual {v0, v7}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;)V
+    invoke-virtual {v0, v7}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->D0(Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;)V
 
     .line 19
-    invoke-virtual {v0, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->O0(Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)V
+    invoke-virtual {v0, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->H0(Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)V
 
     .line 20
     invoke-virtual/range {v18 .. v18}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e$a;->b()Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
@@ -180,7 +180,7 @@
     move-object/from16 v17, v0
 
     .line 21
-    invoke-static/range {v17 .. v23}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f0;->Q0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;ZLkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/name/f;ILkotlin/reflect/jvm/internal/impl/storage/m;)Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+    invoke-static/range {v17 .. v23}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/f0;->J0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;ZLkotlin/reflect/jvm/internal/impl/types/Variance;Lkotlin/reflect/jvm/internal/impl/name/f;ILkotlin/reflect/jvm/internal/impl/storage/m;)Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
 
     move-result-object v1
 
@@ -190,10 +190,10 @@
     move-result-object v1
 
     .line 23
-    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->N0(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->G0(Ljava/util/List;)V
 
     .line 24
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->d0()V
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->Y()V
 
     .line 25
     sput-object v0, Lkotlin/reflect/jvm/internal/impl/builtins/h;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;
@@ -309,7 +309,7 @@
     .line 11
     sget-object p1, Lkotlin/reflect/jvm/internal/impl/builtins/h;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p1
 
@@ -319,7 +319,7 @@
     :cond_1
     sget-object p1, Lkotlin/reflect/jvm/internal/impl/builtins/h;->a:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/v;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p1
 
@@ -387,11 +387,11 @@
     move-result-object p1
 
     .line 19
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result p0
 
-    invoke-virtual {p1, p0}, Lkotlin/reflect/jvm/internal/impl/types/d0;->W0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {p1, p0}, Lkotlin/reflect/jvm/internal/impl/types/d0;->P0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object p0
 

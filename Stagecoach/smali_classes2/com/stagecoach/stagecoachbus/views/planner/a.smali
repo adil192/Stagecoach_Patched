@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/sckml/Kml;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->v4(Lcom/stagecoach/stagecoachbus/model/sckml/Kml;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->y4(Lcom/stagecoach/stagecoachbus/model/sckml/Kml;)V
 
     return-void
 .end method

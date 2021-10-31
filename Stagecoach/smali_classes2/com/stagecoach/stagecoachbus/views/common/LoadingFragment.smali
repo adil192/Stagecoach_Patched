@@ -32,30 +32,6 @@
     return-void
 .end method
 
-.method public static g3(Z)Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;
-    .locals 2
-
-    .line 1
-    new-instance v0, Landroid/os/Bundle;
-
-    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
-
-    const-string v1, "opaqueBackground"
-
-    .line 2
-    invoke-virtual {v0, v1, p0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
-
-    .line 3
-    new-instance p0, Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;
-
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;-><init>()V
-
-    .line 4
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
-
-    return-object p0
-.end method
-
 .method private getLogoAnimationDrawable()Landroid/graphics/drawable/AnimationDrawable;
     .locals 8
 
@@ -192,13 +168,37 @@
     return-object v1
 .end method
 
+.method public static j3(Z)Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;
+    .locals 2
+
+    .line 1
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    const-string v1, "opaqueBackground"
+
+    .line 2
+    invoke-virtual {v0, v1, p0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+
+    .line 3
+    new-instance p0, Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;
+
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;-><init>()V
+
+    .line 4
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+
+    return-object p0
+.end method
+
 
 # virtual methods
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/b;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/b;->L1(Landroid/content/Context;)V
 
     .line 2
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;->o0:Landroid/content/Context;
@@ -206,11 +206,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c016d
 
@@ -280,7 +280,7 @@
     return-object p1
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     .line 1
@@ -301,12 +301,12 @@
 
     .line 3
     :cond_0
-    invoke-super {p0}, Landroidx/fragment/app/b;->T1()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->W1()V
 
     return-void
 .end method
 
-.method public f3()V
+.method public i3()V
     .locals 1
 
     .line 1
@@ -327,16 +327,16 @@
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 3
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;->q0:Landroid/graphics/drawable/AnimationDrawable;
@@ -393,7 +393,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v1, p2, v2}, Lio/reactivex/a;->v(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-static {v0, v1, p2, v2}, Lio/reactivex/a;->u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p2
 
@@ -402,7 +402,7 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/common/a;-><init>(Lcom/stagecoach/stagecoachbus/views/common/LoadingFragment;)V
 
     .line 9
-    invoke-virtual {p2, v0}, Lio/reactivex/a;->r(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+    invoke-virtual {p2, v0}, Lio/reactivex/a;->q(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
 
     move-result-object p2
 

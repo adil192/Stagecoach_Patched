@@ -112,7 +112,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->y0()Z
+    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->t0()Z
 
     move-result v2
 
@@ -136,7 +136,7 @@
 
     if-eqz v5, :cond_4
 
-    invoke-interface {v5}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->y0()Z
+    invoke-interface {v5}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->t0()Z
 
     move-result v5
 
@@ -159,7 +159,7 @@
     if-eqz v0, :cond_5
 
     .line 6
-    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->y0()Z
+    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->t0()Z
 
     move-result v2
 
@@ -174,7 +174,7 @@
 
     if-eqz v2, :cond_a
 
-    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->h0()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/r;->c0()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object v2
 

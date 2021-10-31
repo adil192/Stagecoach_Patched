@@ -89,7 +89,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter$onAddToBasketClicked$$inlined$let$lambda$1;->a:Ljava/lang/String;
 
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->Z0(Ljava/lang/String;)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->c1(Ljava/lang/String;)V
 
     return-void
 .end method

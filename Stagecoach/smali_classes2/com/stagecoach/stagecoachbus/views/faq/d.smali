@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->d4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->g4(Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
 
     return-void
 .end method

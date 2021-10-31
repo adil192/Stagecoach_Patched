@@ -76,11 +76,23 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/s;->n()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/s;->k()Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
+.end method
+
+.method public h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
+    .locals 1
+
+    const-string v0, "fqName"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p1, 0x0
+
+    return-object p1
 .end method
 
 .method public hashCode()I
@@ -98,19 +110,7 @@
     return v0
 .end method
 
-.method public j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
-    .locals 1
-
-    const-string v0, "fqName"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 p1, 0x0
-
-    return-object p1
-.end method
-
-.method public m()Z
+.method public j()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -118,7 +118,7 @@
     return v0
 .end method
 
-.method public n()Ljava/util/List;
+.method public k()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -137,7 +137,7 @@
     return-object v0
 .end method
 
-.method public q(Lkotlin/jvm/b/l;)Ljava/util/Collection;
+.method public m(Lkotlin/jvm/b/l;)Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -198,7 +198,7 @@
     return-object v0
 .end method
 
-.method public z()Ljava/util/Collection;
+.method public v()Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

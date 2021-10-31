@@ -26,13 +26,13 @@
 
 
 # virtual methods
-.method public abstract a(II)Z
+.method public abstract areContentsTheSame(II)Z
 .end method
 
-.method public abstract b(II)Z
+.method public abstract areItemsTheSame(II)Z
 .end method
 
-.method public c(II)Ljava/lang/Object;
+.method public getChangePayload(II)Ljava/lang/Object;
     .locals 0
 
     const/4 p1, 0x0

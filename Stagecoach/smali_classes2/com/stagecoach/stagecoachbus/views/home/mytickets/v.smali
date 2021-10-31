@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/v;->a:Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->V4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;)V
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->Y4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;)V
 
     return-void
 .end method

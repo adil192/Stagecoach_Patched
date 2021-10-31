@@ -105,7 +105,7 @@
 
     sget-object v2, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$MemberBelonginess;->DECLARED:Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$MemberBelonginess;
 
-    invoke-virtual {v1, v0, v2}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->p(Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$MemberBelonginess;)Ljava/util/Collection;
+    invoke-virtual {v1, v0, v2}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->r(Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl$MemberBelonginess;)Ljava/util/Collection;
 
     move-result-object v0
 

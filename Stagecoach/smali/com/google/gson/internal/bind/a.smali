@@ -678,7 +678,7 @@
 
     check-cast v0, Lcom/google/gson/l;
 
-    invoke-virtual {v0}, Lcom/google/gson/l;->l()J
+    invoke-virtual {v0}, Lcom/google/gson/l;->k()J
 
     move-result-wide v0
 

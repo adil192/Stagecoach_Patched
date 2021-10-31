@@ -3,7 +3,7 @@
 .source "InAppMessageStreamManager.java"
 
 # interfaces
-.implements Lio/reactivex/c0/i;
+.implements Lio/reactivex/c0/k;
 
 
 # static fields
@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method public static b()Lio/reactivex/c0/i;
+.method public static b()Lio/reactivex/c0/k;
     .locals 1
 
     sget-object v0, Lcom/google/firebase/inappmessaging/z/x1;->c:Lcom/google/firebase/inappmessaging/z/x1;

@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/g0;->d:Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->I5(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->L5(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
 
     return-void
 .end method

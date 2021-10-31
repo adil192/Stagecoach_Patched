@@ -1,12 +1,14 @@
 .class public interface abstract Lio/reactivex/c0/i;
 .super Ljava/lang/Object;
-.source "Predicate.java"
+.source "Function.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
+        "Ljava/lang/Object;",
+        "R:",
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;"
@@ -15,10 +17,10 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/Object;)Z
+.method public abstract apply(Ljava/lang/Object;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TT;)Z"
+            "(TT;)TR;"
         }
     .end annotation
 

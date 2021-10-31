@@ -174,7 +174,7 @@
     const-string v0, "units"
 
     .line 1
-    invoke-static {p2, v0}, Lio/grpc/q;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, v0}, Lio/grpc/q;->o(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     new-instance v0, Lio/grpc/q;
@@ -190,7 +190,7 @@
     return-object v0
 .end method
 
-.method private static l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+.method private static o(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {

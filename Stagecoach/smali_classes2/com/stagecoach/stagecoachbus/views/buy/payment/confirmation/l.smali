@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/l;->a:Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;)V
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/payment/confirmation/PaymentSuccessfulFragment;)V
 
     return-void
 .end method

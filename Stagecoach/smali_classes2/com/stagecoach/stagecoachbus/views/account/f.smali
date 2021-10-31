@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/account/f;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->s4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->v4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
 
     move-result-object v0
 

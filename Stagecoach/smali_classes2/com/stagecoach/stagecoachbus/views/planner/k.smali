@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/k;->b:Lcom/google/android/gms/maps/a;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->q4(Lcom/google/android/gms/maps/a;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->t4(Lcom/google/android/gms/maps/a;)V
 
     return-void
 .end method

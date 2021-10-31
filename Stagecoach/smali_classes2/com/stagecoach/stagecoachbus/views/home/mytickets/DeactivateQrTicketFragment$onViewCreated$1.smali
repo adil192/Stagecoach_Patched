@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    value = Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -82,7 +82,7 @@
     :cond_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment$onViewCreated$1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;
 
-    invoke-virtual {p1}, Landroidx/fragment/app/b;->V2()V
+    invoke-virtual {p1}, Landroidx/fragment/app/b;->Y2()V
 
     return-void
 .end method

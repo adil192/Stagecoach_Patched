@@ -7,7 +7,7 @@
 
 
 # static fields
-.field static final synthetic i:[Lkotlin/reflect/h;
+.field static final synthetic i:[Lkotlin/reflect/i;
 
 
 # instance fields
@@ -26,13 +26,13 @@
 
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lkotlin/reflect/h;
+    new-array v0, v0, [Lkotlin/reflect/i;
 
     new-instance v1, Lkotlin/jvm/internal/PropertyReference1Impl;
 
     const-class v2, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
@@ -40,9 +40,9 @@
 
     const-string v4, "getFragments()Ljava/util/List;"
 
-    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -50,7 +50,7 @@
 
     aput-object v1, v0, v2
 
-    sput-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->i:[Lkotlin/reflect/h;
+    sput-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->i:[Lkotlin/reflect/i;
 
     return-void
 .end method
@@ -114,7 +114,7 @@
 
 
 # virtual methods
-.method public H()Ljava/util/List;
+.method public D()Ljava/util/List;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -127,13 +127,13 @@
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->e:Lkotlin/reflect/jvm/internal/impl/storage/h;
 
-    sget-object v1, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->i:[Lkotlin/reflect/h;
+    sget-object v1, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->i:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 
     aget-object v1, v1, v2
 
-    invoke-static {v0, p0, v1}, Lkotlin/reflect/jvm/internal/impl/storage/l;->a(Lkotlin/reflect/jvm/internal/impl/storage/h;Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+    invoke-static {v0, p0, v1}, Lkotlin/reflect/jvm/internal/impl/storage/l;->a(Lkotlin/reflect/jvm/internal/impl/storage/h;Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -142,7 +142,7 @@
     return-object v0
 .end method
 
-.method public J()Lkotlin/reflect/jvm/internal/impl/descriptors/y;
+.method public F()Lkotlin/reflect/jvm/internal/impl/descriptors/y;
     .locals 3
 
     .line 1
@@ -161,7 +161,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
 
     move-result-object v0
 
@@ -177,7 +177,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->N(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/y;
+    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;->J(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/y;
 
     move-result-object v0
 
@@ -185,7 +185,7 @@
     return-object v0
 .end method
 
-.method public K(Lkotlin/reflect/jvm/internal/impl/descriptors/m;Ljava/lang/Object;)Ljava/lang/Object;
+.method public G(Lkotlin/reflect/jvm/internal/impl/descriptors/m;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -211,7 +211,7 @@
     return-object p1
 .end method
 
-.method public R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+.method public M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
     .locals 1
 
     .line 1
@@ -224,7 +224,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->J()Lkotlin/reflect/jvm/internal/impl/descriptors/y;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->F()Lkotlin/reflect/jvm/internal/impl/descriptors/y;
 
     move-result-object v0
 
@@ -272,11 +272,11 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
 
     move-result-object v1
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/y;->x0()Lkotlin/reflect/jvm/internal/impl/descriptors/u;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/y;->s0()Lkotlin/reflect/jvm/internal/impl/descriptors/u;
 
     move-result-object p1
 
@@ -296,7 +296,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
 
     move-result-object v0
 
@@ -331,7 +331,7 @@
     return v0
 .end method
 
-.method public o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
@@ -340,11 +340,11 @@
     return-object v0
 .end method
 
-.method public bridge synthetic x0()Lkotlin/reflect/jvm/internal/impl/descriptors/u;
+.method public bridge synthetic s0()Lkotlin/reflect/jvm/internal/impl/descriptors/u;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
 
     move-result-object v0
 

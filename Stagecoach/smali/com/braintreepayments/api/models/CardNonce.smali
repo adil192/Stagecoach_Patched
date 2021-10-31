@@ -545,7 +545,7 @@
     return-object v0
 .end method
 
-.method public j()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
+.method public l()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
     .locals 1
 
     .line 1

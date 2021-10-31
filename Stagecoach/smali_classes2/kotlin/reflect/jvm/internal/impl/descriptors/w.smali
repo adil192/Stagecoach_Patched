@@ -13,5 +13,5 @@
 .method public abstract d()Lkotlin/reflect/jvm/internal/impl/name/b;
 .end method
 
-.method public abstract o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public abstract l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 .end method

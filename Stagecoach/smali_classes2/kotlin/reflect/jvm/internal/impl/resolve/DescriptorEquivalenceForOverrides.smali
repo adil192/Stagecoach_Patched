@@ -94,11 +94,11 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p1
 
-    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p2
 
@@ -311,7 +311,7 @@
 
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
 
     move-result-object v1
 
@@ -422,7 +422,7 @@
 
     check-cast p4, Lkotlin/reflect/jvm/internal/impl/descriptors/s;
 
-    invoke-interface {p4}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->L()Z
+    invoke-interface {p4}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->H()Z
 
     move-result p4
 
@@ -430,7 +430,7 @@
 
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/s;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->L()Z
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->H()Z
 
     move-result v0
 

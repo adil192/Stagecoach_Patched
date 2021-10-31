@@ -42,7 +42,7 @@
     return-void
 .end method
 
-.method private synthetic z3(Landroid/view/View;Z)V
+.method private synthetic C3(Landroid/view/View;Z)V
     .locals 0
 
     if-eqz p2, :cond_0
@@ -72,10 +72,88 @@
 
 
 # virtual methods
-.method public synthetic A3(Landroid/view/View;Z)V
+.method protected A3()V
+    .locals 6
+
+    .line 1
+    new-instance v0, Lcom/stagecoach/stagecoachbus/views/validation/MultiValidator;
+
+    const/4 v1, 0x2
+
+    new-array v1, v1, [Lcom/stagecoach/stagecoachbus/views/validation/Validator;
+
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/validation/NonEmptyValidator;
+
+    iget-object v3, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
+
+    const v4, 0x7f110400
+
+    invoke-virtual {p0, v4}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-direct {v2, v3, v5}, Lcom/stagecoach/stagecoachbus/views/validation/NonEmptyValidator;-><init>(Landroid/widget/EditText;Ljava/lang/String;)V
+
+    const/4 v3, 0x0
+
+    aput-object v2, v1, v3
+
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/validation/EmailValidator;
+
+    iget-object v5, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
+
+    .line 2
+    invoke-virtual {p0, v4}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-direct {v2, v5, v4}, Lcom/stagecoach/stagecoachbus/views/validation/EmailValidator;-><init>(Landroid/widget/EditText;Ljava/lang/String;)V
+
+    const/4 v4, 0x1
+
+    aput-object v2, v1, v4
+
+    invoke-direct {v0, v1}, Lcom/stagecoach/stagecoachbus/views/validation/MultiValidator;-><init>([Lcom/stagecoach/stagecoachbus/views/validation/Validator;)V
+
+    iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->s0:Lcom/stagecoach/stagecoachbus/views/validation/Validator;
+
+    .line 3
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
+
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/account/b;
+
+    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/account/b;-><init>(Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;)V
+
+    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+
+    .line 4
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
+
+    new-array v1, v4, [Landroid/text/InputFilter;
+
+    new-instance v2, Landroid/text/InputFilter$LengthFilter;
+
+    const/16 v4, 0x64
+
+    invoke-direct {v2, v4}, Landroid/text/InputFilter$LengthFilter;-><init>(I)V
+
+    aput-object v2, v1, v3
+
+    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
+
+    .line 5
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->B3()V
+
+    return-void
+.end method
+
+.method protected abstract B3()V
+.end method
+
+.method public synthetic D3(Landroid/view/View;Z)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->z3(Landroid/view/View;Z)V
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->C3(Landroid/view/View;Z)V
 
     return-void
 .end method
@@ -135,82 +213,4 @@
     const/4 v0, 0x1
 
     return v0
-.end method
-
-.method protected x3()V
-    .locals 6
-
-    .line 1
-    new-instance v0, Lcom/stagecoach/stagecoachbus/views/validation/MultiValidator;
-
-    const/4 v1, 0x2
-
-    new-array v1, v1, [Lcom/stagecoach/stagecoachbus/views/validation/Validator;
-
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/validation/NonEmptyValidator;
-
-    iget-object v3, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
-
-    const v4, 0x7f110400
-
-    invoke-virtual {p0, v4}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-direct {v2, v3, v5}, Lcom/stagecoach/stagecoachbus/views/validation/NonEmptyValidator;-><init>(Landroid/widget/EditText;Ljava/lang/String;)V
-
-    const/4 v3, 0x0
-
-    aput-object v2, v1, v3
-
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/validation/EmailValidator;
-
-    iget-object v5, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
-
-    .line 2
-    invoke-virtual {p0, v4}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-direct {v2, v5, v4}, Lcom/stagecoach/stagecoachbus/views/validation/EmailValidator;-><init>(Landroid/widget/EditText;Ljava/lang/String;)V
-
-    const/4 v4, 0x1
-
-    aput-object v2, v1, v4
-
-    invoke-direct {v0, v1}, Lcom/stagecoach/stagecoachbus/views/validation/MultiValidator;-><init>([Lcom/stagecoach/stagecoachbus/views/validation/Validator;)V
-
-    iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->s0:Lcom/stagecoach/stagecoachbus/views/validation/Validator;
-
-    .line 3
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
-
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/account/b;
-
-    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/account/b;-><init>(Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;)V
-
-    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
-
-    .line 4
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->t0:Lcom/stagecoach/stagecoachbus/views/common/component/SCEditText;
-
-    new-array v1, v4, [Landroid/text/InputFilter;
-
-    new-instance v2, Landroid/text/InputFilter$LengthFilter;
-
-    const/16 v4, 0x64
-
-    invoke-direct {v2, v4}, Landroid/text/InputFilter$LengthFilter;-><init>(I)V
-
-    aput-object v2, v1, v3
-
-    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
-
-    .line 5
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/BaseFormWithEmailFragment;->y3()V
-
-    return-void
-.end method
-
-.method protected abstract y3()V
 .end method

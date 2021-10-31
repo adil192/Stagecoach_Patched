@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/Fragment;->B1()V
+    value = Landroidx/fragment/app/Fragment;->E1()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

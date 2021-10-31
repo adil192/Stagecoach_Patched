@@ -38,5 +38,5 @@
     .end annotation
 .end method
 
-.method public abstract m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public abstract j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 .end method

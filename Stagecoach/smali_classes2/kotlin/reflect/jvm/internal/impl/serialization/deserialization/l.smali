@@ -80,7 +80,7 @@
     :cond_1
     check-cast v1, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/m;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/m;->R()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/g;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/m;->M()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/g;
 
     move-result-object v1
 

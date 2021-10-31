@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->H(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->I(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
 
     move-result-object v0
 
@@ -237,7 +237,7 @@
     .line 17
     iget-object p2, p0, Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;->a:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {p2, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->S(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
+    invoke-virtual {p2, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->V(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
 
     .line 18
     iget-object p2, p0, Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;->c:Lcom/stagecoach/stagecoachbus/logic/NotificationAuditEventManager;
@@ -312,7 +312,7 @@
 
     .line 3
     :cond_0
-    invoke-static {p2}, Lio/reactivex/v;->t(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-static {p2}, Lio/reactivex/v;->u(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -410,7 +410,7 @@
     .line 11
     iget-object v11, v0, Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;->a:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v11, v10}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->T(Ljava/util/List;)V
+    invoke-virtual {v11, v10}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->W(Ljava/util/List;)V
 
     :cond_2
     const-wide/16 v10, -0x1
@@ -432,7 +432,7 @@
     :cond_3
     iget-object v10, v0, Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;->a:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v10, v2, v3}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->D(J)Ljava/util/List;
+    invoke-virtual {v10, v2, v3}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->E(J)Ljava/util/List;
 
     move-result-object v10
 
@@ -837,7 +837,7 @@
     :goto_7
     iget-object v4, v0, Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;->a:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v4, v13}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->S(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
+    invoke-virtual {v4, v13}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->V(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
 
     .line 52
     invoke-static/range {p10 .. p10}, Lcom/stagecoach/stagecoachbus/logic/DatabaseManager;->e(Landroid/content/Context;)V
@@ -1299,7 +1299,7 @@
 
     invoke-direct {v0, p0, p2, p3, p1}, Lcom/stagecoach/stagecoachbus/logic/d0;-><init>(Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;Ljava/lang/String;Ljava/lang/Long;Landroid/content/Context;)V
 
-    invoke-static {v0}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v0}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object p2
 
@@ -1315,7 +1315,7 @@
     invoke-direct {p3, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/g0;-><init>(Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;Landroid/content/Context;)V
 
     .line 3
-    invoke-virtual {p2, p3}, Lio/reactivex/v;->o(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p2, p3}, Lio/reactivex/v;->p(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -1324,7 +1324,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -1488,7 +1488,7 @@
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/logic/i0;-><init>(Lcom/stagecoach/stagecoachbus/logic/TicketActivationKeeper;Landroid/content/Context;J)V
 
-    invoke-static {v0}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v0}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object p2
 
@@ -1506,7 +1506,7 @@
     invoke-direct {p3, p1}, Lcom/stagecoach/stagecoachbus/logic/e0;-><init>(Landroid/content/Context;)V
 
     .line 3
-    invoke-virtual {p2, p3}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p2, p3}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 

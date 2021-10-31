@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract h(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+.method public abstract j(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 .end method
 
-.method public abstract j0(Ljava/lang/String;)V
+.method public abstract m0(Ljava/lang/String;)V
 .end method
 
-.method public abstract n1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
+.method public abstract q1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
 .end method

@@ -99,7 +99,7 @@
     iput-boolean v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->u:Z
 
     .line 5
-    invoke-static {}, Lio/reactivex/subjects/a;->N0()Lio/reactivex/subjects/a;
+    invoke-static {}, Lio/reactivex/subjects/a;->W0()Lio/reactivex/subjects/a;
 
     move-result-object v0
 
@@ -160,7 +160,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/a1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
-    invoke-static {v1}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v1}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object v1
 
@@ -169,7 +169,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {v1, v2}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v1
 
@@ -178,7 +178,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/a;->m(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {v1, v2}, Lio/reactivex/a;->l(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v1
 
@@ -187,7 +187,7 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/q2;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
     .line 5
-    invoke-virtual {v1, v2}, Lio/reactivex/a;->r(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2}, Lio/reactivex/a;->q(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -588,9 +588,9 @@
     invoke-direct {p3, p4, v0}, Lcom/stagecoach/core/model/secureapi/ErrorInfo;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
-    new-instance p4, Lcom/stagecoach/stagecoachbus/views/home/mytickets/l1;
+    new-instance p4, Lcom/stagecoach/stagecoachbus/views/home/mytickets/k1;
 
-    invoke-direct {p4, p3, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/l1;-><init>(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-direct {p4, p3, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/k1;-><init>(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     invoke-virtual {p0, p4}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->n(Lcom/stagecoach/stagecoachbus/logic/mvp/Viewing;)V
 
@@ -715,12 +715,12 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, v0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->g1(ZI)V
+    invoke-interface {p0, v0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->j1(ZI)V
 
     const/4 v0, 0x1
 
     .line 2
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->o(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->r(Z)V
 
     return-void
 .end method
@@ -831,7 +831,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->i:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->s(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->t(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 
     return-void
 .end method
@@ -876,12 +876,12 @@
     .locals 0
 
     .line 1
-    invoke-interface {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->n0(J)V
+    invoke-interface {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->q0(J)V
 
     return-void
 .end method
 
-.method private synthetic S0(Ljava/lang/Throwable;)V
+.method private synthetic S0(Ljava/lang/Throwable;)Lio/reactivex/e;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -910,8 +910,13 @@
     .line 3
     invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->j1()V
 
+    .line 4
     :cond_0
-    return-void
+    invoke-static {}, Lio/reactivex/a;->e()Lio/reactivex/a;
+
+    move-result-object p1
+
+    return-object p1
 .end method
 
 .method private synthetic T(Ljava/lang/String;)Ljava/lang/Boolean;
@@ -936,8 +941,8 @@
     return-object p1
 .end method
 
-.method private synthetic U0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
-    .locals 15
+.method private synthetic U0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+    .locals 14
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Exception;
@@ -949,7 +954,7 @@
     .line 1
     iget-object v1, v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->i:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    move-object/from16 v2, p1
+    move-object v2, p1
 
     move-object/from16 v3, p2
 
@@ -973,9 +978,7 @@
 
     move/from16 v13, p12
 
-    move-object/from16 v14, p13
-
-    invoke-virtual/range {v1 .. v14}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->g(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+    invoke-virtual/range {v1 .. v13}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->g(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
 
     move-result-object v1
 
@@ -1008,9 +1011,9 @@
 
     .line 3
     :cond_0
-    new-instance p2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/o1;
+    new-instance p2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/n1;
 
-    invoke-direct {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/o1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/n1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Ljava/lang/String;)V
 
     invoke-virtual {p0, p2}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->n(Lcom/stagecoach/stagecoachbus/logic/mvp/Viewing;)V
 
@@ -1105,7 +1108,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/f1;->a:Lcom/stagecoach/stagecoachbus/views/home/mytickets/f1;
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;->a:Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;
 
     invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->n(Lcom/stagecoach/stagecoachbus/logic/mvp/Viewing;)V
 
@@ -1425,7 +1428,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->G0(I)V
+    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->J0(I)V
 
     return-void
 .end method
@@ -1445,7 +1448,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->p1(Ljava/util/List;)V
+    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->s1(Ljava/util/List;)V
 
     .line 2
     iget-boolean p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->t:Z
@@ -1462,7 +1465,7 @@
     iput-boolean p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->t:Z
 
     .line 4
-    invoke-interface {p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->d1()V
+    invoke-interface {p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->g1()V
 
     :cond_0
     return-void
@@ -1492,7 +1495,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->e1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-interface {p3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->h1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     return-void
 .end method
@@ -1526,13 +1529,13 @@
     .locals 0
 
     .line 1
-    invoke-interface {p3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->e1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-interface {p3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->h1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     return-void
 .end method
 
 .method private l1(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/qr/order/ActivateTicketResponse;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
-    .locals 15
+    .locals 14
 
     .line 1
     invoke-virtual/range {p2 .. p2}, Lcom/stagecoach/stagecoachbus/model/qr/order/ActivateTicketResponse;->getField3()Ljava/lang/String;
@@ -1581,18 +1584,14 @@
 
     move-result v12
 
-    invoke-virtual/range {p2 .. p2}, Lcom/stagecoach/stagecoachbus/model/qr/order/ActivateTicketResponse;->getValidFromUTC()Ljava/util/Date;
-
-    move-result-object v13
-
     move-object v0, p0
 
-    move-object/from16 v1, p1
+    move-object v1, p1
 
-    move-object/from16 v14, p3
+    move-object/from16 v13, p3
 
     .line 4
-    invoke-direct/range {v0 .. v14}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->m1(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-direct/range {v0 .. v13}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->m1(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     return-void
 .end method
@@ -1601,41 +1600,34 @@
     .locals 0
 
     .line 1
-    invoke-interface {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->N0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-interface {p2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->Q0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     return-void
 .end method
 
-.method private m1(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+.method private m1(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
     .locals 18
 
-    move-object/from16 v15, p0
+    move-object/from16 v14, p0
 
-    move-object/from16 v14, p1
+    move-object/from16 v15, p1
 
     .line 1
-    iget-object v13, v15, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->g:Lio/reactivex/disposables/a;
+    iget-object v13, v14, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->g:Lio/reactivex/disposables/a;
 
-    iget-object v0, v15, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->o:Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;
+    iget-object v0, v14, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->o:Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;
 
     .line 2
     invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/CustomerAccountManager;->a()Lio/reactivex/a;
 
     move-result-object v0
 
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/o1;
 
-    invoke-direct {v1, v15}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
+    invoke-direct {v1, v14}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/o1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
     .line 3
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->h(Lio/reactivex/c0/f;)Lio/reactivex/a;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/s2;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/s2;
-
-    .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->p(Lio/reactivex/c0/g;)Lio/reactivex/a;
+    invoke-virtual {v0, v1}, Lio/reactivex/a;->o(Lio/reactivex/c0/i;)Lio/reactivex/a;
 
     move-result-object v12
 
@@ -1665,7 +1657,7 @@
 
     move-object/from16 v11, p10
 
-    move-object v15, v12
+    move-object v14, v12
 
     move-object/from16 v12, p11
 
@@ -1673,35 +1665,33 @@
 
     move/from16 v13, p12
 
-    move-object/from16 v14, p13
+    invoke-direct/range {v0 .. v13}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)V
 
-    invoke-direct/range {v0 .. v14}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)V
+    .line 4
+    invoke-static/range {v16 .. v16}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+
+    move-result-object v0
 
     .line 5
-    invoke-static/range {v16 .. v16}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-virtual {v14, v0}, Lio/reactivex/a;->d(Lio/reactivex/s;)Lio/reactivex/p;
 
     move-result-object v0
 
     .line 6
-    invoke-virtual {v15, v0}, Lio/reactivex/a;->d(Lio/reactivex/s;)Lio/reactivex/p;
-
-    move-result-object v0
-
-    .line 7
     invoke-static {}, Lio/reactivex/h0/a;->c()Lio/reactivex/u;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
-    .line 8
+    .line 7
     invoke-static {}, Lio/reactivex/a0/c/a;->c()Lio/reactivex/u;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1709,24 +1699,22 @@
 
     move-object/from16 v2, p0
 
-    move-object/from16 v3, p1
+    invoke-direct {v1, v2, v15}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/q0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 
-    invoke-direct {v1, v2, v3}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/q0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+    new-instance v3, Lcom/stagecoach/stagecoachbus/views/home/mytickets/u0;
 
-    new-instance v4, Lcom/stagecoach/stagecoachbus/views/home/mytickets/u0;
+    move-object/from16 v4, p13
 
-    move-object/from16 v5, p14
+    invoke-direct {v3, v2, v15, v4}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/u0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
-    invoke-direct {v4, v2, v3, v5}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/u0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
-
-    .line 9
-    invoke-virtual {v0, v1, v4}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    .line 8
+    invoke-virtual {v0, v1, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     move-object/from16 v1, v17
 
-    .line 10
+    .line 9
     invoke-virtual {v1, v0}, Lio/reactivex/disposables/a;->b(Lio/reactivex/disposables/b;)Z
 
     return-void
@@ -1763,7 +1751,7 @@
     invoke-direct {v0, v1, p0}, Lcom/stagecoach/core/model/secureapi/ErrorInfo;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3
-    invoke-interface {p3, v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->e1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-interface {p3, v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->h1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     return-void
 .end method
@@ -1774,7 +1762,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->o(Z)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->r(Z)V
 
     .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1783,10 +1771,10 @@
 
     const/4 v1, 0x1
 
-    invoke-interface {p1, v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->g1(ZI)V
+    invoke-interface {p1, v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->j1(ZI)V
 
     .line 3
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->c0(Z)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->f0(Z)V
 
     return-void
 .end method
@@ -1809,10 +1797,10 @@
     invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/ViewAuditEventsRepository;->c()V
 
     .line 2
-    invoke-interface {p3, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->U(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
+    invoke-interface {p3, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->X(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
 
     .line 3
-    invoke-interface {p3}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->H0()V
+    invoke-interface {p3}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->K0()V
 
     return-void
 .end method
@@ -1839,7 +1827,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->e1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-interface {p3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->h1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     return-void
 .end method
@@ -1859,15 +1847,15 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, v0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->g1(ZI)V
+    invoke-interface {p0, v0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->j1(ZI)V
 
     const/4 v1, 0x1
 
     .line 2
-    invoke-interface {p0, v1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->c0(Z)V
+    invoke-interface {p0, v1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->f0(Z)V
 
     .line 3
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->o(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->r(Z)V
 
     return-void
 .end method
@@ -1889,7 +1877,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->Z()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->c0()V
 
     return-void
 .end method
@@ -1911,7 +1899,7 @@
 
     check-cast p2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;
 
-    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->l0(Ljava/lang/String;)V
+    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->o0(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1924,7 +1912,7 @@
 
     check-cast p2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;
 
-    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->l0(Ljava/lang/String;)V
+    invoke-interface {p2, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter$MyTicketsView;->o0(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1999,7 +1987,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/n0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {v1}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v1}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -2008,7 +1996,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -2017,20 +2005,20 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/h1;
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/g1;
 
-    invoke-direct {v2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/h1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Ljava/lang/String;)V
+    invoke-direct {v2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/g1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Ljava/lang/String;)V
 
     new-instance v3, Lcom/stagecoach/stagecoachbus/views/home/mytickets/b1;
 
     invoke-direct {v3, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/b1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Ljava/lang/String;)V
 
     .line 5
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -2138,12 +2126,14 @@
     return-void
 .end method
 
-.method public synthetic T0(Ljava/lang/Throwable;)V
+.method public synthetic T0(Ljava/lang/Throwable;)Lio/reactivex/e;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->S0(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->S0(Ljava/lang/Throwable;)Lio/reactivex/e;
 
-    return-void
+    move-result-object p1
+
+    return-object p1
 .end method
 
 .method public synthetic U(Ljava/lang/String;)Ljava/lang/Boolean;
@@ -2156,10 +2146,10 @@
     return-object p1
 .end method
 
-.method public synthetic V0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+.method public synthetic V0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
     .locals 0
 
-    invoke-direct/range {p0 .. p13}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->U0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;ILjava/util/Date;)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
+    invoke-direct/range {p0 .. p12}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->U0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;I)Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;
 
     move-result-object p1
 
@@ -2216,7 +2206,7 @@
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->v:Lio/reactivex/subjects/a;
 
     .line 3
-    invoke-virtual {p1}, Lio/reactivex/p;->D()Lio/reactivex/k;
+    invoke-virtual {p1}, Lio/reactivex/p;->J()Lio/reactivex/k;
 
     move-result-object p1
 
@@ -2225,7 +2215,7 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/j0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
     .line 4
-    invoke-virtual {p1, v0}, Lio/reactivex/k;->v(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v0}, Lio/reactivex/k;->w(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -2282,12 +2272,12 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->g:Lio/reactivex/disposables/a;
 
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/j1;
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/i1;
 
-    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/j1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
+    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/i1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
     .line 2
-    invoke-static {v1}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v1}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -2296,7 +2286,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {v1, v2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object v1
 
@@ -2305,7 +2295,7 @@
     sget-object v3, Lcom/stagecoach/stagecoachbus/views/home/mytickets/c1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/c1;
 
     .line 4
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -2348,7 +2338,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {v0, v1}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v0
 
@@ -2357,20 +2347,20 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->m(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {v0, v1}, Lio/reactivex/a;->l(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v0
 
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/m1;
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/l1;
 
-    invoke-direct {v1, p0, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/m1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;I)V
+    invoke-direct {v1, p0, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/l1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;I)V
 
     new-instance v2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/o0;
 
     invoke-direct {v2, p0, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/o0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;I)V
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/a;->s(Lio/reactivex/c0/a;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/a;->r(Lio/reactivex/c0/a;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p2
 
@@ -2437,7 +2427,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/k0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -2446,7 +2436,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -2455,7 +2445,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -2464,18 +2454,18 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/z;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
     .line 6
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->u(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->z(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object v1
 
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/n1;
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/m1;
 
-    invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/n1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
+    invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/m1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
-    sget-object v3, Lcom/stagecoach/stagecoachbus/views/home/mytickets/i1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/i1;
+    sget-object v3, Lcom/stagecoach/stagecoachbus/views/home/mytickets/h1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/h1;
 
     .line 7
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -2514,7 +2504,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/d0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
-    sget-object v2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/k1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/k1;
+    sget-object v2, Lcom/stagecoach/stagecoachbus/views/home/mytickets/j1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/j1;
 
     const/4 v3, 0x0
 
@@ -2544,7 +2534,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/x;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 
-    invoke-static {v1}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v1}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object p1
 
@@ -2553,11 +2543,11 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p1, v1}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {p1}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -2718,9 +2708,9 @@
 
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/e0;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;)V
 
-    new-instance v3, Lcom/stagecoach/stagecoachbus/views/home/mytickets/g1;
+    new-instance v3, Lcom/stagecoach/stagecoachbus/views/home/mytickets/f1;
 
-    invoke-direct {v3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/g1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+    invoke-direct {v3, p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/f1;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
     new-instance p1, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/qr/ActivateQrTicketUseCase$ActivateQrTicketUseCaseParams;
 
@@ -2761,7 +2751,7 @@
 
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;->i:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-static {v2}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {v2}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object v2
 
@@ -2770,7 +2760,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v2, v3}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v2
 
@@ -2779,7 +2769,7 @@
     invoke-direct {v3, p0, v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/y;-><init>(Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsPresenter;Ljava/lang/String;Ljava/util/List;)V
 
     .line 5
-    invoke-virtual {v2, v3}, Lio/reactivex/p;->o0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v2, v3}, Lio/reactivex/p;->w0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 

@@ -70,11 +70,11 @@
     :cond_0
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment$3;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->d4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)[I
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->g4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;)[I
 
     move-result-object v1
 
-    invoke-static {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->e4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;Landroid/text/Editable;[I)V
+    invoke-static {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->h4(Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;Landroid/text/Editable;[I)V
 
     return-void
 .end method

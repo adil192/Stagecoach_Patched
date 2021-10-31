@@ -41,7 +41,7 @@
     .line 1
     iget-object p1, p0, Landroidx/fragment/app/b$c;->c:Landroidx/fragment/app/b;
 
-    invoke-static {p1}, Landroidx/fragment/app/b;->T2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
+    invoke-static {p1}, Landroidx/fragment/app/b;->W2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
 
     move-result-object p1
 
@@ -50,7 +50,7 @@
     .line 2
     iget-object p1, p0, Landroidx/fragment/app/b$c;->c:Landroidx/fragment/app/b;
 
-    invoke-static {p1}, Landroidx/fragment/app/b;->T2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
+    invoke-static {p1}, Landroidx/fragment/app/b;->W2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
 
     move-result-object v0
 

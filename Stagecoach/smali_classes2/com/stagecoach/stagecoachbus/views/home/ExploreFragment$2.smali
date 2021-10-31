@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -49,7 +49,7 @@
     :cond_0
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment$2;->a:Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->X3(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Ljava/util/List;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->a4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Ljava/util/List;
 
     move-result-object v0
 
@@ -125,7 +125,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment$2;->a:Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->I4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
+    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->L4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
 
     return-void
 .end method
@@ -147,7 +147,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment$2;->a:Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->X3(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Ljava/util/List;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->a4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;)Ljava/util/List;
 
     move-result-object v0
 

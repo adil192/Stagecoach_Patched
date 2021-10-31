@@ -11,7 +11,7 @@
 .method public abstract d()Lkotlin/reflect/jvm/internal/impl/name/b;
 .end method
 
-.method public abstract q(Lkotlin/jvm/b/l;)Ljava/util/Collection;
+.method public abstract m(Lkotlin/jvm/b/l;)Ljava/util/Collection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -27,7 +27,7 @@
     .end annotation
 .end method
 
-.method public abstract z()Ljava/util/Collection;
+.method public abstract v()Ljava/util/Collection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

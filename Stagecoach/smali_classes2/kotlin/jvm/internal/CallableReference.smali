@@ -3,7 +3,7 @@
 .source "CallableReference.java"
 
 # interfaces
-.implements Lkotlin/reflect/a;
+.implements Lkotlin/reflect/b;
 .implements Ljava/io/Serializable;
 
 
@@ -20,7 +20,7 @@
 
 
 # instance fields
-.field private transient c:Lkotlin/reflect/a;
+.field private transient c:Lkotlin/reflect/b;
 
 .field private final isTopLevel:Z
 
@@ -105,47 +105,49 @@
 
 
 # virtual methods
-.method protected abstract b()Lkotlin/reflect/a;
-.end method
-
-.method protected c()Lkotlin/reflect/a;
+.method public compute()Lkotlin/reflect/b;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/a;
-
-    move-result-object v0
-
-    if-eq v0, p0, :cond_0
-
-    return-object v0
-
-    .line 2
-    :cond_0
-    new-instance v0, Lkotlin/jvm/KotlinReflectionNotSupportedError;
-
-    invoke-direct {v0}, Lkotlin/jvm/KotlinReflectionNotSupportedError;-><init>()V
-
-    throw v0
-.end method
-
-.method public compute()Lkotlin/reflect/a;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->c:Lkotlin/reflect/a;
+    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->c:Lkotlin/reflect/b;
 
     if-nez v0, :cond_0
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->b()Lkotlin/reflect/a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->d()Lkotlin/reflect/b;
 
     move-result-object v0
 
     .line 3
-    iput-object v0, p0, Lkotlin/jvm/internal/CallableReference;->c:Lkotlin/reflect/a;
+    iput-object v0, p0, Lkotlin/jvm/internal/CallableReference;->c:Lkotlin/reflect/b;
 
     :cond_0
+    return-object v0
+.end method
+
+.method protected abstract d()Lkotlin/reflect/b;
+.end method
+
+.method public getAnnotations()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/annotation/Annotation;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/a;->getAnnotations()Ljava/util/List;
+
+    move-result-object v0
+
     return-object v0
 .end method
 
@@ -167,7 +169,7 @@
     return-object v0
 .end method
 
-.method public getOwner()Lkotlin/reflect/d;
+.method public getOwner()Lkotlin/reflect/e;
     .locals 2
 
     .line 1
@@ -184,18 +186,77 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->c(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->c(Ljava/lang/Class;)Lkotlin/reflect/e;
 
     move-result-object v0
 
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v0
 
     :goto_0
+    return-object v0
+.end method
+
+.method public getParameters()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lkotlin/reflect/KParameter;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->getParameters()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method protected getReflected()Lkotlin/reflect/b;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    if-eq v0, p0, :cond_0
+
+    return-object v0
+
+    .line 2
+    :cond_0
+    new-instance v0, Lkotlin/jvm/KotlinReflectionNotSupportedError;
+
+    invoke-direct {v0}, Lkotlin/jvm/KotlinReflectionNotSupportedError;-><init>()V
+
+    throw v0
+.end method
+
+.method public getReturnType()Lkotlin/reflect/j;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->getReturnType()Lkotlin/reflect/j;
+
+    move-result-object v0
+
     return-object v0
 .end method
 
@@ -206,4 +267,102 @@
     iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->signature:Ljava/lang/String;
 
     return-object v0
+.end method
+
+.method public getTypeParameters()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lkotlin/reflect/k;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->getTypeParameters()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getVisibility()Lkotlin/reflect/KVisibility;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->getVisibility()Lkotlin/reflect/KVisibility;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public isAbstract()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->isAbstract()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isFinal()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->isFinal()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isOpen()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->isOpen()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isSuspend()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/b;->isSuspend()Z
+
+    move-result v0
+
+    return v0
 .end method

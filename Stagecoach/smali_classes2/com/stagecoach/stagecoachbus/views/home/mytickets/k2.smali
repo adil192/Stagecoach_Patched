@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/k2;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->i3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->l3(Landroid/view/View;)V
 
     return-void
 .end method

@@ -19,7 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/q;->s()Lkotlin/reflect/jvm/internal/impl/load/java/structure/b;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/q;->o()Lkotlin/reflect/jvm/internal/impl/load/java/structure/b;
 
     move-result-object p0
 

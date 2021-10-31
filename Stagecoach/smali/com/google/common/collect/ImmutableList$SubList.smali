@@ -100,13 +100,13 @@
     return-object v0
 .end method
 
-.method k()I
+.method j()I
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
-    invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->l()I
+    invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->k()I
 
     move-result v0
 
@@ -121,13 +121,13 @@
     return v0
 .end method
 
-.method l()I
+.method k()I
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
-    invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->l()I
+    invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->k()I
 
     move-result v0
 

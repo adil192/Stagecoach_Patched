@@ -148,7 +148,7 @@
 
     iget-object p1, p1, Lcom/bumptech/glide/load/e;->b:Lc/e/a;
 
-    invoke-virtual {v0, p1}, Lc/e/g;->j(Lc/e/g;)V
+    invoke-virtual {v0, p1}, Lc/e/g;->k(Lc/e/g;)V
 
     return-void
 .end method

@@ -53,7 +53,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/persistence/DurationCategoriesDao$saveTicketDurationCategories$1;-><init>(Lcom/stagecoach/stagecoachbus/persistence/DurationCategoriesDao;Ljava/util/List;)V
 
-    invoke-static {v0}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v0}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object p0
 

@@ -71,7 +71,7 @@
     if-ge v0, v1, :cond_1
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {p0, v0}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v1
 

@@ -364,7 +364,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->v4(Ljava/lang/String;Z)Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;
+    invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->y4(Ljava/lang/String;Z)Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;
 
     move-result-object v0
 

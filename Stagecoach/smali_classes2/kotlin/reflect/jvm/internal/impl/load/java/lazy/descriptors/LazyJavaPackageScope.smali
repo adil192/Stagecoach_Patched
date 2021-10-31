@@ -572,7 +572,7 @@
     move-result-object p2
 
     :goto_1
-    invoke-interface {p1, p2}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/t;->q(Lkotlin/jvm/b/l;)Ljava/util/Collection;
+    invoke-interface {p1, p2}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/t;->m(Lkotlin/jvm/b/l;)Ljava/util/Collection;
 
     move-result-object p1
 
@@ -601,7 +601,7 @@
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
     .line 10
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->I()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->D()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
 
     move-result-object v1
 

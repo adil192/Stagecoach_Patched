@@ -39,7 +39,7 @@
         "Lkotlin/collections/RandomAccess;",
         "",
         "index",
-        "l",
+        "k",
         "(I)Lokio/ByteString;",
         "",
         "d",
@@ -169,7 +169,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lokio/r;->l(I)Lokio/ByteString;
+    invoke-virtual {p0, p1}, Lokio/r;->k(I)Lokio/ByteString;
 
     move-result-object p1
 
@@ -209,7 +209,7 @@
     return p1
 .end method
 
-.method public l(I)Lokio/ByteString;
+.method public k(I)Lokio/ByteString;
     .locals 1
 
     .line 1

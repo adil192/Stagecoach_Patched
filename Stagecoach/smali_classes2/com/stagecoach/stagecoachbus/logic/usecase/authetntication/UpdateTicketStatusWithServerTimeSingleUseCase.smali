@@ -114,7 +114,7 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/e;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/UpdateTicketStatusWithServerTimeSingleUseCase;)V
 
     .line 2
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->o(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->p(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 

@@ -630,7 +630,7 @@
     check-cast v4, Ljava/lang/String;
 
     .line 7
-    invoke-static {p0, v3, v4}, Lio/card/payment/CardType;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {p0, v3, v4}, Lio/card/payment/CardType;->o(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v3
 
@@ -800,7 +800,7 @@
     return-object v0
 .end method
 
-.method private static l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+.method private static o(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 4
 
     .line 1

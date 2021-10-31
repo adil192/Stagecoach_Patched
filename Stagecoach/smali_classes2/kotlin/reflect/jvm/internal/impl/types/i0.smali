@@ -23,7 +23,7 @@
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/g;
 
     .line 2
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
     .line 6
     invoke-static {v2, v3}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v2
 

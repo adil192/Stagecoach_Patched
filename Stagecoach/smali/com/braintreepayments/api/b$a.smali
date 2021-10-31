@@ -41,14 +41,14 @@
     .line 1
     iget-object v0, p0, Lcom/braintreepayments/api/b$a;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     .line 2
     iget-object p1, p0, Lcom/braintreepayments/api/b$a;->a:Lcom/braintreepayments/api/a;
 
     const-string v0, "card.nonce-failed"
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -64,14 +64,14 @@
     .line 2
     iget-object v0, p0, Lcom/braintreepayments/api/b$a;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 
     .line 3
     iget-object p1, p0, Lcom/braintreepayments/api/b$a;->a:Lcom/braintreepayments/api/a;
 
     const-string v0, "card.nonce-received"
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     return-void
 .end method

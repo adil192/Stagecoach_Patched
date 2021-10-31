@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/core/model/secureapi/OperationResponse;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->A4(Lcom/stagecoach/core/model/secureapi/OperationResponse;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->D4(Lcom/stagecoach/core/model/secureapi/OperationResponse;)V
 
     return-void
 .end method

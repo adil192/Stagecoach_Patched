@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p2, v0}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p2
 
@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lio/reactivex/a;->m(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p2, v0}, Lio/reactivex/a;->l(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p2
 

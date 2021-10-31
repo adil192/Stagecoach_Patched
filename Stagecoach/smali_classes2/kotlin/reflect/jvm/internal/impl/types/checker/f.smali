@@ -117,7 +117,7 @@
     :cond_3
     check-cast v7, Lkotlin/reflect/jvm/internal/impl/types/t;
 
-    invoke-virtual {v7}, Lkotlin/reflect/jvm/internal/impl/types/t;->X0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v7}, Lkotlin/reflect/jvm/internal/impl/types/t;->Q0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v7
 

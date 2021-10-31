@@ -39,7 +39,7 @@
 
 
 # virtual methods
-.method public m(Lcom/braintreepayments/api/models/d;)V
+.method public n(Lcom/braintreepayments/api/models/d;)V
     .locals 4
 
     .line 1
@@ -68,7 +68,7 @@
 
     invoke-direct {v0, v1}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 
@@ -85,7 +85,7 @@
 
     const-string v1, "google-payment.started"
 
-    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 5
     iget-object v0, p0, Lcom/braintreepayments/api/f$b;->d:Lcom/braintreepayments/api/models/GooglePaymentRequest;

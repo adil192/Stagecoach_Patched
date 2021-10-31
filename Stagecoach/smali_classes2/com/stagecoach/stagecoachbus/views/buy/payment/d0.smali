@@ -30,7 +30,7 @@
 
     check-cast p1, Lio/reactivex/disposables/b;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->B4(Lio/reactivex/disposables/b;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->E4(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method

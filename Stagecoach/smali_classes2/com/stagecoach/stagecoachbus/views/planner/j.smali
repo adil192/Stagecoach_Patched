@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/j;->c:Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->f4()Lcom/stagecoach/stagecoachbus/model/sckml/Kml;
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->i4()Lcom/stagecoach/stagecoachbus/model/sckml/Kml;
 
     move-result-object v0
 

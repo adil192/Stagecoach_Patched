@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lcom/braintreepayments/api/i$e;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 .end method
@@ -59,7 +59,7 @@
     check-cast v0, Lcom/braintreepayments/api/models/PayPalAccountNonce;
 
     .line 2
-    invoke-virtual {v0}, Lcom/braintreepayments/api/models/PayPalAccountNonce;->j()Lcom/braintreepayments/api/models/PayPalCreditFinancing;
+    invoke-virtual {v0}, Lcom/braintreepayments/api/models/PayPalAccountNonce;->l()Lcom/braintreepayments/api/models/PayPalCreditFinancing;
 
     move-result-object v0
 
@@ -70,13 +70,13 @@
 
     const-string v1, "paypal.credit.accepted"
 
-    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 4
     :cond_0
     iget-object v0, p0, Lcom/braintreepayments/api/i$e;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 
     return-void
 .end method

@@ -36,7 +36,7 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    invoke-static {p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->p4(Landroid/content/DialogInterface;I)V
+    invoke-static {p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->s4(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

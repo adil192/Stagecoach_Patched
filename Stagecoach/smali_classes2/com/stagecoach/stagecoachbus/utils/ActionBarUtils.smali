@@ -19,7 +19,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O3(Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;)Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->R3(Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;)Lcom/stagecoach/stagecoachbus/views/toolbar/ToolbarWithBasketView;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
 
     invoke-direct {v0, p1, p0, p2}, Lcom/stagecoach/stagecoachbus/utils/a;-><init>(Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;Landroidx/appcompat/app/a;Z)V
 
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L3(Ljava/lang/Runnable;)V
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O3(Ljava/lang/Runnable;)V
 
     :cond_0
     return-void

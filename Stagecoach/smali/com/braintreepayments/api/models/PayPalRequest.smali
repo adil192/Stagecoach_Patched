@@ -438,7 +438,7 @@
     return-object v0
 .end method
 
-.method public j()Lcom/braintreepayments/api/models/PayPalProductAttributes;
+.method public l()Lcom/braintreepayments/api/models/PayPalProductAttributes;
     .locals 1
 
     .line 1

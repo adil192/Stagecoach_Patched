@@ -316,7 +316,7 @@
     :cond_0
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView;->h:Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;
 
-    invoke-interface {p1, v0, p2}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView$BusStopDelegate;->e(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
+    invoke-interface {p1, v0, p2}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView$BusStopDelegate;->g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
 
     return-void
 .end method
@@ -343,7 +343,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/c;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -352,7 +352,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -361,7 +361,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -374,7 +374,7 @@
     invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/d;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView;)V
 
     .line 6
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -405,7 +405,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/b;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -414,7 +414,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -423,7 +423,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -436,7 +436,7 @@
     invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/i;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView;)V
 
     .line 6
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -792,7 +792,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView;->h:Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView$BusStopDelegate;->g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/nearby/NearbyBusSingleMainView$BusStopDelegate;->i(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 
     return-void
 .end method

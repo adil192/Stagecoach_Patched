@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract d0(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+.method public abstract g0(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
     .param p1    # Ljava/lang/String;
         .annotation build Landroidx/annotation/RecentlyNonNull;
         .end annotation
@@ -28,20 +28,9 @@
     .end annotation
 .end method
 
-.method public abstract f0()Landroid/app/Activity;
+.method public abstract i0()Landroid/app/Activity;
     .annotation build Landroidx/annotation/RecentlyNonNull;
     .end annotation
-.end method
-
-.method public abstract s(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/RecentlyNonNull;
-        .end annotation
-    .end param
-    .param p2    # Lcom/google/android/gms/common/api/internal/LifecycleCallback;
-        .annotation build Landroidx/annotation/RecentlyNonNull;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract startActivityForResult(Landroid/content/Intent;I)V
@@ -50,6 +39,17 @@
         .end annotation
     .end param
     .param p2    # I
+        .annotation build Landroidx/annotation/RecentlyNonNull;
+        .end annotation
+    .end param
+.end method
+
+.method public abstract v(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
+    .param p1    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/RecentlyNonNull;
+        .end annotation
+    .end param
+    .param p2    # Lcom/google/android/gms/common/api/internal/LifecycleCallback;
         .annotation build Landroidx/annotation/RecentlyNonNull;
         .end annotation
     .end param

@@ -1,6 +1,6 @@
 .class public final Lio/reactivex/internal/operators/single/d;
 .super Lio/reactivex/v;
-.source "SingleDoOnSuccess.java"
+.source "SingleDoOnSubscribe.java"
 
 
 # annotations
@@ -35,7 +35,9 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lio/reactivex/c0/f<",
-            "-TT;>;"
+            "-",
+            "Lio/reactivex/disposables/b;",
+            ">;"
         }
     .end annotation
 .end field
@@ -50,7 +52,9 @@
             "Lio/reactivex/z<",
             "TT;>;",
             "Lio/reactivex/c0/f<",
-            "-TT;>;)V"
+            "-",
+            "Lio/reactivex/disposables/b;",
+            ">;)V"
         }
     .end annotation
 
@@ -68,8 +72,8 @@
 
 
 # virtual methods
-.method protected E(Lio/reactivex/x;)V
-    .locals 2
+.method protected F(Lio/reactivex/x;)V
+    .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -83,7 +87,9 @@
 
     new-instance v1, Lio/reactivex/internal/operators/single/d$a;
 
-    invoke-direct {v1, p0, p1}, Lio/reactivex/internal/operators/single/d$a;-><init>(Lio/reactivex/internal/operators/single/d;Lio/reactivex/x;)V
+    iget-object v2, p0, Lio/reactivex/internal/operators/single/d;->d:Lio/reactivex/c0/f;
+
+    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/single/d$a;-><init>(Lio/reactivex/x;Lio/reactivex/c0/f;)V
 
     invoke-interface {v0, v1}, Lio/reactivex/z;->b(Lio/reactivex/x;)V
 

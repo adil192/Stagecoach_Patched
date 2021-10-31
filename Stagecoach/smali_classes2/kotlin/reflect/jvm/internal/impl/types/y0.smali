@@ -18,7 +18,7 @@
 
     check-cast p0, Lkotlin/reflect/jvm/internal/impl/types/x0;
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/types/x0;->G()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/types/x0;->C()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object p0
 

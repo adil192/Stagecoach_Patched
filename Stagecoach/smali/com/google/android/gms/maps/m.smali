@@ -35,7 +35,7 @@
 
     invoke-direct {v1, p1}, Lcom/google/android/gms/maps/c;-><init>(Lcom/google/android/gms/maps/j/b;)V
 
-    invoke-interface {v0, v1}, Lcom/google/android/gms/maps/e;->K0(Lcom/google/android/gms/maps/c;)V
+    invoke-interface {v0, v1}, Lcom/google/android/gms/maps/e;->N0(Lcom/google/android/gms/maps/c;)V
 
     return-void
 .end method

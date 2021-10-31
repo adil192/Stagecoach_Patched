@@ -115,7 +115,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/google/protobuf/v0;->k()Lcom/google/protobuf/v0;
+    invoke-static {}, Lcom/google/protobuf/v0;->j()Lcom/google/protobuf/v0;
 
     move-result-object v0
 

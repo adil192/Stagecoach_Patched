@@ -198,7 +198,7 @@
 
     check-cast v1, Lcom/google/protobuf/b1$e;
 
-    invoke-virtual {v1}, Lcom/google/protobuf/b1$e;->l()Ljava/lang/Comparable;
+    invoke-virtual {v1}, Lcom/google/protobuf/b1$e;->o()Ljava/lang/Comparable;
 
     move-result-object v1
 
@@ -239,7 +239,7 @@
 
     check-cast v3, Lcom/google/protobuf/b1$e;
 
-    invoke-virtual {v3}, Lcom/google/protobuf/b1$e;->l()Ljava/lang/Comparable;
+    invoke-virtual {v3}, Lcom/google/protobuf/b1$e;->o()Ljava/lang/Comparable;
 
     move-result-object v3
 
@@ -657,11 +657,11 @@
     if-ge v4, v2, :cond_5
 
     .line 9
-    invoke-virtual {p0, v4}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {p0, v4}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v5
 
-    invoke-virtual {p1, v4}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {p1, v4}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v6
 
@@ -829,7 +829,7 @@
     return v2
 .end method
 
-.method public j(I)Ljava/util/Map$Entry;
+.method public k(I)Ljava/util/Map$Entry;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1151,7 +1151,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1}, Lcom/google/protobuf/b1$e;->l()Ljava/lang/Comparable;
+    invoke-virtual {v1}, Lcom/google/protobuf/b1$e;->o()Ljava/lang/Comparable;
 
     move-result-object v3
 

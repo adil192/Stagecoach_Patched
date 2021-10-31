@@ -83,7 +83,7 @@
 
     check-cast p2, Lcom/stagecoach/core/model/tickets/Ticket;
 
-    invoke-virtual {p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketCardFragment;->d4(Lcom/stagecoach/core/model/tickets/Ticket;)V
+    invoke-virtual {p1, p2}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketCardFragment;->g4(Lcom/stagecoach/core/model/tickets/Ticket;)V
 
     .line 3
     new-instance p2, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment$RecentlyPurchasedPagerAdapter$1;
@@ -99,7 +99,7 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketCardFragment;->b4()Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketCardFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketCardFragment;->e4()Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/TicketCardFragment;
 
     move-result-object p1
 

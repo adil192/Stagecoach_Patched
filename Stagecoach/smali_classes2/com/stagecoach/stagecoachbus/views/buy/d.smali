@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterItem;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->x4(Lcom/stagecoach/stagecoachbus/views/common/filters/FilterItem;)Lkotlin/m;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->A4(Lcom/stagecoach/stagecoachbus/views/common/filters/FilterItem;)Lkotlin/m;
 
     move-result-object p1
 

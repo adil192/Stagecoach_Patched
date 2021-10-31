@@ -30,7 +30,7 @@
 
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->h4(Ljava/lang/Boolean;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->k4(Ljava/lang/Boolean;)V
 
     return-void
 .end method

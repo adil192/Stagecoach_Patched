@@ -616,7 +616,7 @@
     :cond_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {p1, p2}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->C(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, p2}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->D(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1004,7 +1004,7 @@
     .line 5
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v1, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->u(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v1, v0}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->v(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
@@ -1102,14 +1102,14 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->w(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->x(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 2
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v1, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->x(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->y(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1137,14 +1137,14 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->w(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->x(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 2
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->c:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v1, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->x(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->y(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

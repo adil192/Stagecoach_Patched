@@ -59,7 +59,7 @@
 
 
 # virtual methods
-.method public M(Landroid/view/KeyEvent;)Z
+.method public N(Landroid/view/KeyEvent;)Z
     .locals 0
 
     .line 1

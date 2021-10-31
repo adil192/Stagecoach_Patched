@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract c()Lkotlin/reflect/jvm/internal/impl/descriptors/f;
+.method public abstract e()Lkotlin/reflect/jvm/internal/impl/descriptors/f;
 .end method

@@ -15,14 +15,14 @@
 
 
 # virtual methods
-.method public abstract R(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+.method public abstract U(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
 .end method
 
-.method public abstract R0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+.method public abstract U0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
 .end method
 
-.method public abstract h0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
+.method public abstract k0(Lcom/stagecoach/stagecoachbus/model/itinerary/Itinerary;)V
 .end method
 
-.method public abstract m0()V
+.method public abstract p0()V
 .end method

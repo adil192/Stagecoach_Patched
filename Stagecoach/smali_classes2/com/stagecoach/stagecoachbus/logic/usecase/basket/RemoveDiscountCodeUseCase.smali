@@ -85,14 +85,14 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/basket/y;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/RemoveDiscountCodeUseCase;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v0}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object p1
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/logic/usecase/basket/z;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/basket/z;
 
     .line 2
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 

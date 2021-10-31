@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v0
 
@@ -139,7 +139,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v9, v0, v1, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->d0(Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;Ljava/util/Set;Lkotlin/reflect/jvm/internal/impl/descriptors/c;)V
+    invoke-virtual {v9, v0, v1, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->Y(Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;Ljava/util/Set;Lkotlin/reflect/jvm/internal/impl/descriptors/c;)V
 
     return-object v9
 .end method

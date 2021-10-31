@@ -276,7 +276,7 @@
 
     check-cast v5, Lkotlin/reflect/jvm/internal/impl/descriptors/g;
 
-    invoke-interface {v5}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->L()Z
+    invoke-interface {v5}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->H()Z
 
     move-result v5
 

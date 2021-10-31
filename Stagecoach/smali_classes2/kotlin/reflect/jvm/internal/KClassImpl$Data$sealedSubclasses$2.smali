@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->I()Ljava/util/Collection;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->E()Ljava/util/Collection;
 
     move-result-object v0
 

@@ -1,8 +1,19 @@
 .class public interface abstract Lkotlin/reflect/i;
 .super Ljava/lang/Object;
-.source "KType.kt"
+.source "KProperty.kt"
+
+# interfaces
+.implements Lkotlin/reflect/b;
 
 
-# virtual methods
-.method public abstract b()Lkotlin/reflect/c;
-.end method
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lkotlin/reflect/b<",
+        "TV;>;"
+    }
+.end annotation

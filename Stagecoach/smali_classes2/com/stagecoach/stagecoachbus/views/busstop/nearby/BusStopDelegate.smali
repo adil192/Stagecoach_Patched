@@ -19,16 +19,16 @@
         "Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;",
         "currentStop",
         "Lkotlin/m;",
-        "g",
+        "i",
         "(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V",
         "nearestBusStop",
         "Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;",
         "busWithEventsUIModel",
-        "e",
+        "g",
         "(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V",
         "item",
-        "G",
-        "I0",
+        "J",
+        "L0",
         "app_productionRelease"
     }
     k = 0x1
@@ -41,14 +41,14 @@
 
 
 # virtual methods
-.method public abstract G(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public abstract J(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 .end method
 
-.method public abstract I0(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public abstract L0(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 .end method
 
-.method public abstract e(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
+.method public abstract g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
 .end method
 
-.method public abstract g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public abstract i(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 .end method

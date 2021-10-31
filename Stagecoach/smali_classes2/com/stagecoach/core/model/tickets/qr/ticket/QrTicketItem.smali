@@ -26,61 +26,13 @@
     .end annotation
 .end field
 
-.field field11:Ljava/lang/String;
+.field fullCode:Lcom/stagecoach/core/model/tickets/qr/ticket/FullCode;
     .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field11"
-    .end annotation
-.end field
-
-.field field14:Ljava/lang/String;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field14"
-    .end annotation
-.end field
-
-.field field3:Ljava/lang/String;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field3"
-    .end annotation
-.end field
-
-.field field4:Ljava/lang/String;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field4"
-    .end annotation
-.end field
-
-.field field5:Ljava/lang/String;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field5"
-    .end annotation
-.end field
-
-.field field6:Ljava/lang/String;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field6"
-    .end annotation
-.end field
-
-.field field7:Ljava/lang/String;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field7"
-    .end annotation
-.end field
-
-.field field8:Ljava/lang/String;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "field8"
+        value = "fullCode"
     .end annotation
 .end field
 
 .field public pickUpStatus:Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem$PickUpStatus;
-
-.field remainingActivations:I
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "remainingActivations"
-    .end annotation
-.end field
 
 .field secret:Ljava/lang/String;
     .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
@@ -103,18 +55,6 @@
 .field uuid:Ljava/lang/String;
     .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
         value = "uuid"
-    .end annotation
-.end field
-
-.field validFromUTC:Ljava/util/Date;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "validFromUTC"
-    .end annotation
-.end field
-
-.field validToUTC:Ljava/util/Date;
-    .annotation runtime Lcom/fasterxml/jackson/annotation/JsonProperty;
-        value = "validToUTC"
     .end annotation
 .end field
 
@@ -159,85 +99,13 @@
     return-object v0
 .end method
 
-.method public getField11()Ljava/lang/String;
+.method public getFullCode()Lcom/stagecoach/core/model/tickets/qr/ticket/FullCode;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field11:Ljava/lang/String;
+    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->fullCode:Lcom/stagecoach/core/model/tickets/qr/ticket/FullCode;
 
     return-object v0
-.end method
-
-.method public getField14()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field14:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getField3()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field3:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getField4()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field4:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getField5()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field5:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getField6()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field6:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getField7()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field7:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getField8()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field8:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getRemainingActivations()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->remainingActivations:I
-
-    return v0
 .end method
 
 .method public getSecret()Ljava/lang/String;
@@ -272,24 +140,6 @@
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->uuid:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getValidFromUTC()Ljava/util/Date;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->validFromUTC:Ljava/util/Date;
-
-    return-object v0
-.end method
-
-.method public getValidToUTC()Ljava/util/Date;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->validToUTC:Ljava/util/Date;
 
     return-object v0
 .end method
@@ -368,83 +218,11 @@
     return-void
 .end method
 
-.method public setField11(Ljava/lang/String;)V
+.method public setFullCode(Lcom/stagecoach/core/model/tickets/qr/ticket/FullCode;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field11:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setField14(Ljava/lang/String;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field14:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setField3(Ljava/lang/String;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field3:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setField4(Ljava/lang/String;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field4:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setField5(Ljava/lang/String;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field5:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setField6(Ljava/lang/String;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field6:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setField7(Ljava/lang/String;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field7:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setField8(Ljava/lang/String;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field8:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setRemainingActivations(I)V
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->remainingActivations:I
+    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->fullCode:Lcom/stagecoach/core/model/tickets/qr/ticket/FullCode;
 
     return-void
 .end method
@@ -481,24 +259,6 @@
 
     .line 1
     iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->uuid:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public setValidFromUTC(Ljava/util/Date;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->validFromUTC:Ljava/util/Date;
-
-    return-void
-.end method
-
-.method public setValidToUTC(Ljava/util/Date;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->validToUTC:Ljava/util/Date;
 
     return-void
 .end method
@@ -543,125 +303,21 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    const-string v2, ", expiryDate="
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->expiryDate:Ljava/util/Date;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v2, ", status="
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->status:Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem$QRTicketTypeStatus;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field3=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field3:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field4=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field4:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field5=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field5:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field6=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field6:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field7=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field7:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field8=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field8:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field11=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field11:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v2, ", field14=\'"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->field14:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    const-string v1, ", validFromUTC="
+    const-string v1, ", expiryDate="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->validFromUTC:Ljava/util/Date;
+    iget-object v1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->expiryDate:Ljava/util/Date;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    const-string v1, ", validToUTC="
+    const-string v1, ", status="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->validToUTC:Ljava/util/Date;
+    iget-object v1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->status:Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem$QRTicketTypeStatus;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v1, ", remainingActivations="
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v1, p0, Lcom/stagecoach/core/model/tickets/qr/ticket/QrTicketItem;->remainingActivations:I
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const/16 v1, 0x7d
 

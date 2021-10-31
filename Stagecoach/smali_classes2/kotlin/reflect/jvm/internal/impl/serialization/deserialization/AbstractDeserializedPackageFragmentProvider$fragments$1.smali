@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/m;->G0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
+    invoke-virtual {p1, v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/m;->A0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/i;)V
 
     goto :goto_0
 

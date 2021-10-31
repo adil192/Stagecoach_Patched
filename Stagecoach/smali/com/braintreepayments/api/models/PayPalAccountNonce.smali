@@ -541,7 +541,7 @@
     return-object v0
 .end method
 
-.method public j()Lcom/braintreepayments/api/models/PayPalCreditFinancing;
+.method public l()Lcom/braintreepayments/api/models/PayPalCreditFinancing;
     .locals 1
 
     .line 1

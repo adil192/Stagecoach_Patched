@@ -64,7 +64,7 @@
     const-wide/16 v0, 0x3
 
     .line 2
-    invoke-virtual {p1, v0, v1}, Lio/reactivex/v;->A(J)Lio/reactivex/v;
+    invoke-virtual {p1, v0, v1}, Lio/reactivex/v;->B(J)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -113,7 +113,7 @@
     invoke-direct {v1, p0, p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/a;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/ActivateTicketSingleUseCase;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->o(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->p(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 

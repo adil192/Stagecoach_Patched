@@ -115,7 +115,7 @@
     return-void
 .end method
 
-.method static synthetic U2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/internal/a;
+.method static synthetic X2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/internal/a;
     .locals 0
 
     .line 1
@@ -124,7 +124,7 @@
     return-object p0
 .end method
 
-.method static synthetic V2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/g;
+.method static synthetic Y2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/g;
     .locals 0
 
     .line 1
@@ -133,7 +133,7 @@
     return-object p0
 .end method
 
-.method static synthetic W2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/f;
+.method static synthetic Z2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/f;
     .locals 0
 
     .line 1
@@ -142,7 +142,7 @@
     return-object p0
 .end method
 
-.method static synthetic X2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/b;
+.method static synthetic a3(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/b;
     .locals 0
 
     .line 1
@@ -151,7 +151,7 @@
     return-object p0
 .end method
 
-.method static synthetic Y2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/l;
+.method static synthetic b3(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/l;
     .locals 0
 
     .line 1
@@ -160,7 +160,7 @@
     return-object p0
 .end method
 
-.method static synthetic Z2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/c;
+.method static synthetic c3(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/c;
     .locals 0
 
     .line 1
@@ -169,7 +169,7 @@
     return-object p0
 .end method
 
-.method private c3()V
+.method private f3()V
     .locals 5
 
     .line 1
@@ -292,7 +292,7 @@
 
 
 # virtual methods
-.method public G1(IILandroid/content/Intent;)V
+.method public J1(IILandroid/content/Intent;)V
     .locals 1
 
     const/16 v0, 0x34af
@@ -359,7 +359,7 @@
     if-nez p2, :cond_4
 
     .line 8
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->g3(I)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->j3(I)V
 
     :cond_4
     return-void
@@ -374,11 +374,11 @@
     .end packed-switch
 .end method
 
-.method public H1(Landroid/app/Activity;)V
+.method public K1(Landroid/app/Activity;)V
     .locals 3
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->H1(Landroid/app/Activity;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->K1(Landroid/app/Activity;)V
 
     const/4 v0, 0x1
 
@@ -439,27 +439,27 @@
     return-void
 .end method
 
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/content/Context;)V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->H1(Landroid/app/Activity;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->K1(Landroid/app/Activity;)V
 
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Le/a/a/e;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Le/a/a/e;->O1(Landroid/os/Bundle;)V
 
     const/4 v0, 0x1
 
@@ -600,7 +600,7 @@
     const-string p1, "started.client-key"
 
     .line 16
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -608,17 +608,17 @@
     const-string p1, "started.client-token"
 
     .line 17
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 18
     :catch_0
     :goto_0
-    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->b3()V
+    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->e3()V
 
     return-void
 .end method
 
-.method public O0(ILe/a/a/j;Landroid/net/Uri;)V
+.method public R0(ILe/a/a/j;Landroid/net/Uri;)V
     .locals 5
 
     .line 1
@@ -689,7 +689,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -720,7 +720,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -765,7 +765,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -785,7 +785,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 12
     :cond_6
@@ -794,21 +794,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p0, p1, v2, p2}, Lcom/braintreepayments/api/a;->G1(IILandroid/content/Intent;)V
-
-    return-void
-.end method
-
-.method public Q1()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->Q1()V
-
-    .line 2
-    iget-object v0, p0, Lcom/braintreepayments/api/a;->e0:Lcom/braintreepayments/api/d;
-
-    invoke-virtual {v0}, Lcom/braintreepayments/api/d;->b()V
+    invoke-virtual {p0, p1, v2, p2}, Lcom/braintreepayments/api/a;->J1(IILandroid/content/Intent;)V
 
     return-void
 .end method
@@ -818,6 +804,20 @@
 
     .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->T1()V
+
+    .line 2
+    iget-object v0, p0, Lcom/braintreepayments/api/a;->e0:Lcom/braintreepayments/api/d;
+
+    invoke-virtual {v0}, Lcom/braintreepayments/api/d;->b()V
+
+    return-void
+.end method
+
+.method public W1()V
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->W1()V
 
     .line 2
     iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
@@ -836,7 +836,7 @@
     return-void
 .end method
 
-.method public a3(Lcom/braintreepayments/api/q/d;)V
+.method public d3(Lcom/braintreepayments/api/q/d;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -962,16 +962,16 @@
 
     .line 19
     :cond_8
-    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->d3()V
+    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->g3()V
 
     return-void
 .end method
 
-.method public b2()V
+.method public e2()V
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->b2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->e2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
@@ -989,13 +989,13 @@
 
     check-cast v0, Lcom/braintreepayments/api/q/d;
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->j3(Lcom/braintreepayments/api/q/d;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->m3(Lcom/braintreepayments/api/q/d;)V
 
     :cond_0
     return-void
 .end method
 
-.method protected b3()V
+.method protected e3()V
     .locals 2
 
     .line 1
@@ -1036,7 +1036,7 @@
 
     invoke-direct {v0, v1}, Lcom/braintreepayments/api/exceptions/ConfigurationException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 
@@ -1062,7 +1062,7 @@
     return-void
 .end method
 
-.method protected d3()V
+.method protected g3()V
     .locals 4
 
     .line 1
@@ -1128,128 +1128,6 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     throw v1
-.end method
-
-.method protected e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/braintreepayments/api/a;->i0:Ljava/util/List;
-
-    const/4 v1, 0x0
-
-    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
-
-    .line 2
-    new-instance v0, Lcom/braintreepayments/api/a$j;
-
-    invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/a$j;-><init>(Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
-
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Lcom/braintreepayments/api/q/o;)V
-
-    return-void
-.end method
-
-.method protected f3(Ljava/lang/Exception;)V
-    .locals 1
-
-    .line 1
-    new-instance v0, Lcom/braintreepayments/api/a$a;
-
-    invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/a$a;-><init>(Lcom/braintreepayments/api/a;Ljava/lang/Exception;)V
-
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Lcom/braintreepayments/api/q/o;)V
-
-    return-void
-.end method
-
-.method public g2()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Le/a/a/e;->g2()V
-
-    .line 2
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
-
-    move-result-object v0
-
-    instance-of v0, v0, Lcom/braintreepayments/api/q/d;
-
-    if-eqz v0, :cond_0
-
-    .line 3
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/braintreepayments/api/q/d;
-
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->a3(Lcom/braintreepayments/api/q/d;)V
-
-    .line 4
-    iget-boolean v0, p0, Lcom/braintreepayments/api/a;->k0:Z
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->getConfiguration()Lcom/braintreepayments/api/models/d;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x0
-
-    .line 5
-    iput-boolean v0, p0, Lcom/braintreepayments/api/a;->k0:Z
-
-    .line 6
-    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->h3()V
-
-    .line 7
-    :cond_0
-    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->d3()V
-
-    .line 8
-    iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/d;->i()Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
-
-    .line 9
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/d;->j()Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    .line 10
-    iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
-
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/d;->c()V
-
-    :cond_1
-    return-void
-.end method
-
-.method protected g3(I)V
-    .locals 1
-
-    .line 1
-    new-instance v0, Lcom/braintreepayments/api/a$i;
-
-    invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/a$i;-><init>(Lcom/braintreepayments/api/a;I)V
-
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Lcom/braintreepayments/api/q/o;)V
-
-    return-void
 .end method
 
 .method protected getApplicationContext()Landroid/content/Context;
@@ -1387,7 +1265,7 @@
 
     invoke-direct {v0, v2, v1}, Lcom/braintreepayments/api/exceptions/GoogleApiClientException;-><init>(Lcom/braintreepayments/api/exceptions/GoogleApiClientException$ErrorType;I)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     const/4 v0, 0x0
 
@@ -1640,11 +1518,144 @@
     return-object v0
 .end method
 
-.method public h2(Landroid/os/Bundle;)V
+.method protected h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->h2(Landroid/os/Bundle;)V
+    iget-object v0, p0, Lcom/braintreepayments/api/a;->i0:Ljava/util/List;
+
+    const/4 v1, 0x0
+
+    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
+
+    .line 2
+    new-instance v0, Lcom/braintreepayments/api/a$j;
+
+    invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/a$j;-><init>(Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/o;)V
+
+    return-void
+.end method
+
+.method protected i3(Ljava/lang/Exception;)V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/braintreepayments/api/a$a;
+
+    invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/a$a;-><init>(Lcom/braintreepayments/api/a;Ljava/lang/Exception;)V
+
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/o;)V
+
+    return-void
+.end method
+
+.method public isActive()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public j2()V
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Le/a/a/e;->j2()V
+
+    .line 2
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
+
+    move-result-object v0
+
+    instance-of v0, v0, Lcom/braintreepayments/api/q/d;
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/braintreepayments/api/q/d;
+
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->d3(Lcom/braintreepayments/api/q/d;)V
+
+    .line 4
+    iget-boolean v0, p0, Lcom/braintreepayments/api/a;->k0:Z
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->getConfiguration()Lcom/braintreepayments/api/models/d;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    .line 5
+    iput-boolean v0, p0, Lcom/braintreepayments/api/a;->k0:Z
+
+    .line 6
+    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->k3()V
+
+    .line 7
+    :cond_0
+    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->g3()V
+
+    .line 8
+    iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/d;->i()Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
+
+    .line 9
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/d;->j()Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    .line 10
+    iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
+
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/d;->c()V
+
+    :cond_1
+    return-void
+.end method
+
+.method protected j3(I)V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/braintreepayments/api/a$i;
+
+    invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/a$i;-><init>(Lcom/braintreepayments/api/a;I)V
+
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/o;)V
+
+    return-void
+.end method
+
+.method public k2(Landroid/os/Bundle;)V
+    .locals 2
+
+    .line 1
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->k2(Landroid/os/Bundle;)V
 
     .line 2
     iget-object v0, p0, Lcom/braintreepayments/api/a;->i0:Ljava/util/List;
@@ -1680,7 +1691,7 @@
     return-void
 .end method
 
-.method protected h3()V
+.method protected k3()V
     .locals 1
 
     .line 1
@@ -1688,12 +1699,12 @@
 
     invoke-direct {v0, p0}, Lcom/braintreepayments/api/a$h;-><init>(Lcom/braintreepayments/api/a;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Lcom/braintreepayments/api/q/o;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/o;)V
 
     return-void
 .end method
 
-.method protected i3(Lcom/braintreepayments/api/q/o;)V
+.method protected l3(Lcom/braintreepayments/api/q/o;)V
     .locals 2
 
     .line 1
@@ -1736,22 +1747,11 @@
     return-void
 .end method
 
-.method public isActive()Z
+.method public m2()V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public j2()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->m2()V
 
     .line 2
     iget-object v0, p0, Lcom/braintreepayments/api/a;->d0:Lcom/google/android/gms/common/api/d;
@@ -1763,12 +1763,12 @@
 
     .line 4
     :cond_0
-    invoke-direct {p0}, Lcom/braintreepayments/api/a;->c3()V
+    invoke-direct {p0}, Lcom/braintreepayments/api/a;->f3()V
 
     return-void
 .end method
 
-.method public j3(Lcom/braintreepayments/api/q/d;)V
+.method public m3(Lcom/braintreepayments/api/q/d;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1864,7 +1864,7 @@
     return-void
 .end method
 
-.method public k3(Ljava/lang/String;)V
+.method public n3(Ljava/lang/String;)V
     .locals 4
 
     .line 1
@@ -1885,23 +1885,23 @@
 
     invoke-direct {p1, p0, v0}, Lcom/braintreepayments/api/a$g;-><init>(Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/internal/b;)V
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 
     return-void
 .end method
 
-.method protected l3(Lcom/braintreepayments/api/q/g;)V
+.method protected o3(Lcom/braintreepayments/api/q/g;)V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->b3()V
+    invoke-virtual {p0}, Lcom/braintreepayments/api/a;->e3()V
 
     .line 2
     new-instance v0, Lcom/braintreepayments/api/a$d;
 
     invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/a$d;-><init>(Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/q/g;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Lcom/braintreepayments/api/q/o;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/o;)V
 
     return-void
 .end method
@@ -1994,7 +1994,7 @@
 
     invoke-direct {p1, p2}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     goto :goto_0
 

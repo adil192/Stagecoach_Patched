@@ -278,7 +278,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d$c;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->d0()Ljava/util/List;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->Y()Ljava/util/List;
 
     move-result-object v0
 
@@ -339,27 +339,7 @@
     return-object v0
 .end method
 
-.method protected j()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d$c;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
-
-    if-eqz v0, :cond_0
-
-    return-object v0
-
-    :cond_0
-    const/4 v0, 0x5
-
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d$c;->o(I)V
-
-    const/4 v0, 0x0
-
-    throw v0
-.end method
-
-.method public m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
     .locals 1
 
     .line 1
@@ -383,6 +363,26 @@
     throw v0
 .end method
 
+.method protected k()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d$c;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x5
+
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d$c;->o(I)V
+
+    const/4 v0, 0x0
+
+    throw v0
+.end method
+
 .method protected n(Lkotlin/reflect/jvm/internal/impl/types/y;)V
     .locals 1
 
@@ -391,7 +391,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d$c;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;
 
-    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->R(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->M(Lkotlin/reflect/jvm/internal/impl/types/y;)V
 
     return-void
 

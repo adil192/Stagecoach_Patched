@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/braintreepayments/api/f$a;->m(Lcom/braintreepayments/api/models/d;)V
+    value = Lcom/braintreepayments/api/f$a;->n(Lcom/braintreepayments/api/models/d;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

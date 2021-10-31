@@ -81,7 +81,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->k()Z
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/r;->g()Z
 
     move-result p1
 

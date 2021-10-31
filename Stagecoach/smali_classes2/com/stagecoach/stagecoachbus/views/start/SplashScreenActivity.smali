@@ -541,12 +541,12 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {v1, v2}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v1
 
     .line 5
-    invoke-virtual {v1}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {v1}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -765,7 +765,7 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/start/c;-><init>(Lcom/stagecoach/stagecoachbus/views/start/SplashScreenActivity;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -774,7 +774,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -783,7 +783,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -796,7 +796,7 @@
     invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/start/b;-><init>(Lcom/stagecoach/stagecoachbus/views/start/SplashScreenActivity;)V
 
     .line 5
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -939,7 +939,7 @@
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/views/start/h;->a:Lcom/stagecoach/stagecoachbus/views/start/h;
 
-    invoke-static {v0}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v0}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object v0
 
@@ -948,11 +948,11 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {v0, v1}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {v0}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     move-result-object v0
 

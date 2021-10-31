@@ -229,7 +229,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, v1}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -238,7 +238,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, v1}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -251,7 +251,7 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/buy/braintreepayments/f;-><init>(Lcom/stagecoach/stagecoachbus/views/buy/braintreepayments/BraintreeGooglePayActivity;)V
 
     .line 4
-    invoke-virtual {p1, v1, v2}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v1, v2}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -341,7 +341,15 @@
     return-void
 .end method
 
-.method public b(Ljava/lang/Exception;)V
+.method public synthetic b1(Ljava/lang/Boolean;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/braintreepayments/BraintreeGooglePayActivity;->a1(Ljava/lang/Boolean;)V
+
+    return-void
+.end method
+
+.method public d(Ljava/lang/Exception;)V
     .locals 2
 
     .line 1
@@ -383,14 +391,6 @@
     return-void
 .end method
 
-.method public synthetic b1(Ljava/lang/Boolean;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/braintreepayments/BraintreeGooglePayActivity;->a1(Ljava/lang/Boolean;)V
-
-    return-void
-.end method
-
 .method public synthetic d1(Ljava/lang/String;)V
     .locals 0
 
@@ -413,7 +413,7 @@
     check-cast v0, Lcom/braintreepayments/api/models/GooglePaymentCardNonce;
 
     .line 3
-    invoke-virtual {v0}, Lcom/braintreepayments/api/models/GooglePaymentCardNonce;->j()Lcom/braintreepayments/api/models/PostalAddress;
+    invoke-virtual {v0}, Lcom/braintreepayments/api/models/GooglePaymentCardNonce;->l()Lcom/braintreepayments/api/models/PostalAddress;
 
     move-result-object v1
 
@@ -518,7 +518,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -527,7 +527,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, p2}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -540,7 +540,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/buy/braintreepayments/f;-><init>(Lcom/stagecoach/stagecoachbus/views/buy/braintreepayments/BraintreeGooglePayActivity;)V
 
     .line 14
-    invoke-virtual {p1, p2, v1}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, p2, v1}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 

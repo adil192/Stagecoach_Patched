@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/f3;->c:Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->o4()Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->r4()Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
 
     move-result-object v0
 

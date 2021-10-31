@@ -38,7 +38,7 @@
     .line 2
     check-cast p0, Lkotlin/collections/x;
 
-    invoke-interface {p0, p1}, Lkotlin/collections/x;->k(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lkotlin/collections/x;->j(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

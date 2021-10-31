@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
 
-    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->E3(Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
+    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->H3(Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
 
     return-void
 .end method

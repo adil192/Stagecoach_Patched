@@ -3,7 +3,7 @@
 .source "TicketForYourJourneyPresenter.kt"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Ljava/lang/Throwable;",
         "Lio/reactivex/z<",
         "+",
@@ -123,7 +123,7 @@
 
     .line 3
     :cond_0
-    invoke-static {p1}, Lio/reactivex/v;->l(Ljava/lang/Throwable;)Lio/reactivex/v;
+    invoke-static {p1}, Lio/reactivex/v;->m(Ljava/lang/Throwable;)Lio/reactivex/v;
 
     move-result-object p1
 

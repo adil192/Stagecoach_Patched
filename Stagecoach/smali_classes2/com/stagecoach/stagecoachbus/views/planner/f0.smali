@@ -36,7 +36,7 @@
 .method public final a()V
     .locals 0
 
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->Y3()V
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->b4()V
 
     return-void
 .end method

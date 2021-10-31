@@ -87,7 +87,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->E:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->l4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->o4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
 
     move-result-object p1
 
@@ -99,7 +99,7 @@
 
     .line 2
     :cond_0
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->N3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->Q3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
 
     move-result-object p1
 
@@ -111,7 +111,7 @@
 
     .line 3
     :cond_1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->o4()Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->r4()Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;
 
     move-result-object p1
 
@@ -184,12 +184,12 @@
 
     const-wide/16 v3, 0x2
 
-    invoke-static {v3, v4, v1, v2}, Lio/reactivex/a;->v(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-static {v3, v4, v1, v2}, Lio/reactivex/a;->u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v1
 
     .line 3
-    invoke-virtual {v1, p1}, Lio/reactivex/a;->r(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, p1}, Lio/reactivex/a;->q(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -207,7 +207,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;->g3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;->j3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/common/OperationSuccessFragment;
 
     move-result-object p1
 
@@ -217,20 +217,20 @@
 
     const-string v1, "OperationSuccessFragment"
 
-    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public L()V
+.method public M()V
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->E:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->l4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->o4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
 
     move-result-object v0
 
@@ -241,7 +241,7 @@
     return-void
 .end method
 
-.method public T()V
+.method public U()V
     .locals 3
 
     .line 1
@@ -321,7 +321,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->N3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->Q3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
 
     move-result-object v0
 
@@ -344,7 +344,7 @@
 
     move-result v0
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/account/RegisterFragment;->U3(Z)Lcom/stagecoach/stagecoachbus/views/account/RegisterFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/account/RegisterFragment;->X3(Z)Lcom/stagecoach/stagecoachbus/views/account/RegisterFragment;
 
     move-result-object v0
 
@@ -459,7 +459,7 @@
     :cond_2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->E:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->l4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->o4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
 
     move-result-object p1
 
@@ -473,7 +473,7 @@
     :cond_3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->E:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->l4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->o4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
 
     move-result-object p1
 
@@ -511,32 +511,17 @@
     return-void
 .end method
 
-.method public q()V
+.method public r()V
     .locals 2
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->N3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->Q3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->E0:Ljava/lang/String;
 
     invoke-virtual {p0, v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->v1(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public s(Ljava/lang/String;)V
-    .locals 1
-
-    .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->N3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->E0:Ljava/lang/String;
-
-    invoke-virtual {p0, p1, v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->v1(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -549,13 +534,28 @@
     return-void
 .end method
 
-.method public u()V
+.method public t(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->Q3()Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->E0:Ljava/lang/String;
+
+    invoke-virtual {p0, p1, v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->v1(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public v()V
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/LoginRegisterActivity;->E:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->l4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->o4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
 
     move-result-object v0
 

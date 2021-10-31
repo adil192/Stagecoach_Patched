@@ -17,13 +17,13 @@
         0x3
     }
     d1 = {
-        "\u0000R\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0010\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u000b\u0018\u0000 92\u00020\u0001:\u0001:B\u0007\u00a2\u0006\u0004\u00088\u0010\u0004J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J-\u0010\u000c\u001a\u0004\u0018\u00010\u000b2\u0006\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ!\u0010\u000f\u001a\u00020\u00022\u0006\u0010\u000e\u001a\u00020\u000b2\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0014\u001a\u00020\u00118\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013R\u0018\u0010\u0018\u001a\u0004\u0018\u00010\u00158\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0016\u0010\u0017R\u0016\u0010\u001c\u001a\u00020\u00198\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u001a\u0010\u001bR\u0016\u0010\u001e\u001a\u00020\u00118\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u001d\u0010\u0013R\u0016\u0010 \u001a\u00020\u00118\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010\u0013R\u0018\u0010\"\u001a\u0004\u0018\u00010\u00158\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008!\u0010\u0017R\"\u0010)\u001a\u00020\u000b8\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008#\u0010$\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(R\u0016\u0010-\u001a\u00020*8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008+\u0010,R\u0016\u0010/\u001a\u00020\u00118\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008.\u0010\u0013R\u0016\u00103\u001a\u0002008\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u00081\u00102R\u0016\u00105\u001a\u00020\u00198\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u00084\u0010\u001bR\u0016\u00107\u001a\u00020*8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u00086\u0010,\u00a8\u0006;"
+        "\u0000R\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u0007\n\u0002\u0010\u000b\n\u0002\u0008\u0012\u0018\u0000 92\u00020\u0001:\u0001:B\u0007\u00a2\u0006\u0004\u00088\u0010\u0004J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J-\u0010\u000c\u001a\u0004\u0018\u00010\u000b2\u0006\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ!\u0010\u000f\u001a\u00020\u00022\u0006\u0010\u000e\u001a\u00020\u000b2\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0014\u001a\u00020\u00118\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013R\u0016\u0010\u0018\u001a\u00020\u00158\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u0016\u0010\u0017R\u0016\u0010\u001a\u001a\u00020\u00118\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u0019\u0010\u0013R\u0018\u0010\u001e\u001a\u0004\u0018\u00010\u001b8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u001dR\u0018\u0010 \u001a\u0004\u0018\u00010\u001b8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010\u001dR\u0016\u0010$\u001a\u00020!8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\"\u0010#R\u0016\u0010&\u001a\u00020\u00158\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008%\u0010\u0017R\u0016\u0010(\u001a\u00020\u00158\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\'\u0010\u0017R\u0016\u0010,\u001a\u00020)8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008*\u0010+R\u0016\u0010.\u001a\u00020)8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008-\u0010+R\u0016\u00100\u001a\u00020\u00158\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008/\u0010\u0017R\"\u00107\u001a\u00020\u000b8\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u00081\u00102\u001a\u0004\u00083\u00104\"\u0004\u00085\u00106\u00a8\u0006;"
     }
     d2 = {
         "Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;",
         "Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;",
         "Lkotlin/m;",
-        "h3",
+        "k3",
         "()V",
         "Landroid/view/LayoutInflater;",
         "inflater",
@@ -32,29 +32,43 @@
         "Landroid/os/Bundle;",
         "savedInstanceState",
         "Landroid/view/View;",
-        "P1",
+        "S1",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "view",
-        "k2",
+        "n2",
         "(Landroid/view/View;Landroid/os/Bundle;)V",
-        "Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
-        "v0",
-        "Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
-        "qrTitleTV",
-        "",
-        "q0",
-        "Ljava/lang/String;",
-        "nonQrTicketTitle",
         "Landroid/widget/LinearLayout;",
-        "u0",
+        "t0",
         "Landroid/widget/LinearLayout;",
-        "nonQrLayout",
+        "qrLayout",
+        "Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
         "y0",
+        "Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
         "nonQrSubtitleTV",
+        "u0",
+        "nonQrLayout",
+        "",
+        "p0",
+        "Ljava/lang/String;",
+        "qrTicketTitle",
+        "q0",
+        "nonQrTicketTitle",
+        "",
+        "o0",
+        "I",
+        "ticketType",
         "w0",
         "nonQrTitleTV",
-        "p0",
-        "qrTicketTitle",
+        "x0",
+        "qrSubtitleTV",
+        "",
+        "s0",
+        "Z",
+        "multipleNonQRTicket",
+        "r0",
+        "multipleQRTicket",
+        "v0",
+        "qrTitleTV",
         "z0",
         "Landroid/view/View;",
         "getSeparator",
@@ -62,20 +76,6 @@
         "setSeparator",
         "(Landroid/view/View;)V",
         "separator",
-        "",
-        "s0",
-        "Z",
-        "multipleNonQRTicket",
-        "x0",
-        "qrSubtitleTV",
-        "",
-        "o0",
-        "I",
-        "ticketType",
-        "t0",
-        "qrLayout",
-        "r0",
-        "multipleQRTicket",
         "<init>",
         "C0",
         "Companion",
@@ -158,16 +158,16 @@
     return-void
 .end method
 
-.method public static final synthetic f3(Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;)V
+.method public static final synthetic i3(Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->h3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->k3()V
 
     return-void
 .end method
 
-.method public static final g3(ILjava/lang/String;Ljava/lang/String;ZZ)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;
+.method public static final j3(ILjava/lang/String;Ljava/lang/String;ZZ)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;
     .locals 6
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->C0:Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment$Companion;
@@ -189,7 +189,7 @@
     return-object p0
 .end method
 
-.method private final h3()V
+.method private final k3()V
     .locals 4
 
     .line 1
@@ -207,18 +207,18 @@
 
     invoke-direct {v3}, Landroid/content/Intent;-><init>()V
 
-    invoke-virtual {v0, v1, v2, v3}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    invoke-virtual {v0, v1, v2, v3}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     const-string v0, "inflater"
@@ -226,7 +226,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c00e1
 
@@ -469,17 +469,17 @@
     return-object p1
 .end method
 
-.method public synthetic S1()V
+.method public synthetic V1()V
     .locals 0
 
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->S1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->V1()V
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->b3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->e3()V
 
     return-void
 .end method
 
-.method public b3()V
+.method public e3()V
     .locals 1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->A0:Ljava/util/HashMap;
@@ -512,7 +512,7 @@
     throw v0
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 13
 
     const-string v0, "view"
@@ -520,7 +520,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     iget p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketNoteFragment;->o0:I

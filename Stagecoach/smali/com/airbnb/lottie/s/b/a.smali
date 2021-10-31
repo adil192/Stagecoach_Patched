@@ -189,14 +189,14 @@
     invoke-virtual {v0, p5}, Landroid/graphics/Paint;->setStrokeMiter(F)V
 
     .line 14
-    invoke-virtual {p6}, Lcom/airbnb/lottie/model/i/d;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p6}, Lcom/airbnb/lottie/model/i/d;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/airbnb/lottie/s/b/a;->k:Lcom/airbnb/lottie/s/c/a;
 
     .line 15
-    invoke-virtual {p7}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p7}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 
@@ -213,7 +213,7 @@
 
     .line 17
     :cond_0
-    invoke-virtual {p9}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p9}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 
@@ -261,7 +261,7 @@
 
     check-cast p5, Lcom/airbnb/lottie/model/i/b;
 
-    invoke-virtual {p5}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p5}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p5
 

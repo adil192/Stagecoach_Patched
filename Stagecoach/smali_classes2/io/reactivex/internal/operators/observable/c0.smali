@@ -1,6 +1,6 @@
 .class public final Lio/reactivex/internal/operators/observable/c0;
-.super Lio/reactivex/v;
-.source "ObservableSingleSingle.java"
+.super Lio/reactivex/k;
+.source "ObservableSingleMaybe.java"
 
 
 # annotations
@@ -15,7 +15,7 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lio/reactivex/v<",
+        "Lio/reactivex/k<",
         "TT;>;"
     }
 .end annotation
@@ -26,51 +26,40 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lio/reactivex/s<",
-            "+TT;>;"
-        }
-    .end annotation
-.end field
-
-.field final d:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
+            "TT;>;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/s;Ljava/lang/Object;)V
+.method public constructor <init>(Lio/reactivex/s;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/s<",
-            "+TT;>;TT;)V"
+            "TT;>;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lio/reactivex/v;-><init>()V
+    invoke-direct {p0}, Lio/reactivex/k;-><init>()V
 
     .line 2
     iput-object p1, p0, Lio/reactivex/internal/operators/observable/c0;->c:Lio/reactivex/s;
-
-    .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/c0;->d:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public E(Lio/reactivex/x;)V
-    .locals 3
+.method public z(Lio/reactivex/m;)V
+    .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/x<",
+            "Lio/reactivex/m<",
             "-TT;>;)V"
         }
     .end annotation
@@ -80,9 +69,7 @@
 
     new-instance v1, Lio/reactivex/internal/operators/observable/c0$a;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/c0;->d:Ljava/lang/Object;
-
-    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/observable/c0$a;-><init>(Lio/reactivex/x;Ljava/lang/Object;)V
+    invoke-direct {v1, p1}, Lio/reactivex/internal/operators/observable/c0$a;-><init>(Lio/reactivex/m;)V
 
     invoke-interface {v0, v1}, Lio/reactivex/s;->subscribe(Lio/reactivex/t;)V
 

@@ -29,9 +29,9 @@
         "oldItemPosition",
         "newItemPosition",
         "",
-        "b",
+        "areItemsTheSame",
         "(II)Z",
-        "a",
+        "areContentsTheSame",
         "getOldListSize",
         "()I",
         "getNewListSize",
@@ -72,7 +72,7 @@
 
 
 # virtual methods
-.method public a(II)Z
+.method public areContentsTheSame(II)Z
     .locals 1
 
     .line 1
@@ -95,7 +95,7 @@
     return p1
 .end method
 
-.method public b(II)Z
+.method public areItemsTheSame(II)Z
     .locals 2
 
     .line 1

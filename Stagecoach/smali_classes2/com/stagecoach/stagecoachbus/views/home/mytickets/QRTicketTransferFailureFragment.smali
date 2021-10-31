@@ -19,25 +19,25 @@
     return-void
 .end method
 
-.method private synthetic i3(Landroid/view/View;)V
+.method private synthetic l3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->g3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->j3()V
 
     return-void
 .end method
 
-.method private synthetic k3(Landroid/view/View;)V
+.method private synthetic n3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->f3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->i3()V
 
     return-void
 .end method
 
-.method public static m3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;
+.method public static p3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;
     .locals 2
 
     .line 1
@@ -63,11 +63,11 @@
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c008d
 
@@ -153,21 +153,21 @@
     invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 10
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->h3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->k3()V
 
     return-object p1
 .end method
 
-.method f3()V
+.method i3()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/b;->V2()V
+    invoke-virtual {p0}, Landroidx/fragment/app/b;->Y2()V
 
     return-void
 .end method
 
-.method g3()V
+.method j3()V
     .locals 2
 
     .line 1
@@ -178,12 +178,12 @@
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->P2(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->S2(Landroid/content/Intent;)V
 
     return-void
 .end method
 
-.method h3()V
+.method k3()V
     .locals 2
 
     .line 1
@@ -206,18 +206,18 @@
     return-void
 .end method
 
-.method public synthetic j3(Landroid/view/View;)V
+.method public synthetic m3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->i3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->l3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic l3(Landroid/view/View;)V
+.method public synthetic o3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->k3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFailureFragment;->n3(Landroid/view/View;)V
 
     return-void
 .end method

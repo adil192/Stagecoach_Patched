@@ -86,11 +86,11 @@
 
     invoke-direct/range {v1 .. v7}, Lkotlin/reflect/jvm/internal/impl/types/checker/a;-><init>(ZZZLkotlin/reflect/jvm/internal/impl/types/checker/i;ILkotlin/jvm/internal/f;)V
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p1
 
-    invoke-virtual {p2}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p2}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p2
 
@@ -143,11 +143,11 @@
     invoke-direct/range {v1 .. v7}, Lkotlin/reflect/jvm/internal/impl/types/checker/a;-><init>(ZZZLkotlin/reflect/jvm/internal/impl/types/checker/i;ILkotlin/jvm/internal/f;)V
 
     .line 2
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p1
 
-    invoke-virtual {p2}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p2}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p2
 
@@ -230,7 +230,7 @@
     invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v1
 
@@ -284,7 +284,7 @@
 
     if-eqz v2, :cond_2
 
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object v6
 
@@ -336,7 +336,7 @@
     check-cast v3, Lkotlin/reflect/jvm/internal/impl/types/y;
 
     .line 9
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object v3
 
@@ -377,7 +377,7 @@
 
     move-result-object v11
 
-    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v12
 
@@ -436,7 +436,7 @@
     check-cast v3, Lkotlin/reflect/jvm/internal/impl/types/y;
 
     .line 19
-    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v5
 
@@ -468,7 +468,7 @@
     move-result-object v3
 
     .line 22
-    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v0
 
@@ -485,7 +485,7 @@
 
     if-eqz v2, :cond_c
 
-    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual/range {p1 .. p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v2
 
@@ -563,7 +563,7 @@
 
     invoke-direct {v0, v2}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;-><init>(Ljava/util/Collection;)V
 
-    invoke-virtual {v0, v6}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->j(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
+    invoke-virtual {v0, v6}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->k(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
 
     move-result-object v6
 
@@ -615,7 +615,7 @@
 
     check-cast v0, Lkotlin/reflect/jvm/internal/impl/types/t;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->X0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->Q0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v1
 
@@ -624,7 +624,7 @@
     move-result-object v1
 
     .line 4
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->Y0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->R0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v2
 
@@ -633,13 +633,13 @@
     move-result-object v2
 
     .line 5
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->X0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->Q0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v3
 
     if-ne v1, v3, :cond_2
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->Y0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/t;->R0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 

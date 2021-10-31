@@ -89,7 +89,7 @@
     return-void
 .end method
 
-.method static synthetic T2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
+.method static synthetic W2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
     .locals 0
 
     .line 1
@@ -98,7 +98,7 @@
     return-object p0
 .end method
 
-.method static synthetic U2(Landroidx/fragment/app/b;)Landroid/content/DialogInterface$OnDismissListener;
+.method static synthetic X2(Landroidx/fragment/app/b;)Landroid/content/DialogInterface$OnDismissListener;
     .locals 0
 
     .line 1
@@ -107,7 +107,7 @@
     return-object p0
 .end method
 
-.method private W2(ZZ)V
+.method private Z2(ZZ)V
     .locals 3
 
     .line 1
@@ -229,11 +229,11 @@
 
 
 # virtual methods
-.method public F1(Landroid/os/Bundle;)V
+.method public I1(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->F1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->I1(Landroid/os/Bundle;)V
 
     .line 2
     iget-boolean v0, p0, Landroidx/fragment/app/b;->g0:Z
@@ -335,11 +335,11 @@
     return-void
 .end method
 
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/content/Context;)V
 
     .line 2
     iget-boolean p1, p0, Landroidx/fragment/app/b;->m0:Z
@@ -355,11 +355,11 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 3
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->O1(Landroid/os/Bundle;)V
 
     .line 2
     new-instance v0, Landroid/os/Handler;
@@ -442,11 +442,11 @@
     return-void
 .end method
 
-.method public S1()V
+.method public V1()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->S1()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->V1()V
 
     .line 2
     iget-object v0, p0, Landroidx/fragment/app/b;->j0:Landroid/app/Dialog;
@@ -486,11 +486,11 @@
     return-void
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->T1()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->W1()V
 
     .line 2
     iget-boolean v0, p0, Landroidx/fragment/app/b;->m0:Z
@@ -510,11 +510,11 @@
     return-void
 .end method
 
-.method public U1(Landroid/os/Bundle;)Landroid/view/LayoutInflater;
+.method public X1(Landroid/os/Bundle;)Landroid/view/LayoutInflater;
     .locals 3
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->U1(Landroid/os/Bundle;)Landroid/view/LayoutInflater;
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->X1(Landroid/os/Bundle;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -539,7 +539,7 @@
     iput-boolean v1, p0, Landroidx/fragment/app/b;->i0:Z
 
     .line 4
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/b;->X2(Landroid/os/Bundle;)Landroid/app/Dialog;
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/b;->a3(Landroid/os/Bundle;)Landroid/app/Dialog;
 
     move-result-object p1
 
@@ -556,7 +556,7 @@
     iput-boolean v2, p0, Landroidx/fragment/app/b;->i0:Z
 
     .line 7
-    invoke-virtual {p0}, Landroidx/fragment/app/b;->Y2()Landroid/app/Dialog;
+    invoke-virtual {p0}, Landroidx/fragment/app/b;->b3()Landroid/app/Dialog;
 
     move-result-object p1
 
@@ -584,24 +584,24 @@
     return-object v0
 .end method
 
-.method public V2()V
+.method public Y2()V
     .locals 1
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0, v0}, Landroidx/fragment/app/b;->W2(ZZ)V
+    invoke-direct {p0, v0, v0}, Landroidx/fragment/app/b;->Z2(ZZ)V
 
     return-void
 .end method
 
-.method public X2(Landroid/os/Bundle;)Landroid/app/Dialog;
+.method public a3(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 2
 
     .line 1
     new-instance p1, Landroid/app/Dialog;
 
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->L2()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->O2()Landroid/content/Context;
 
     move-result-object v0
 
@@ -614,7 +614,7 @@
     return-object p1
 .end method
 
-.method public final Y2()Landroid/app/Dialog;
+.method public final b3()Landroid/app/Dialog;
     .locals 3
 
     .line 1
@@ -653,7 +653,7 @@
     throw v0
 .end method
 
-.method public Z2(Landroidx/fragment/app/s;Ljava/lang/String;)I
+.method public c3(Landroidx/fragment/app/s;Ljava/lang/String;)I
     .locals 2
 
     const/4 v0, 0x0
@@ -682,7 +682,7 @@
     return p1
 .end method
 
-.method public a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+.method public d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
     .locals 1
 
     const/4 v0, 0x0
@@ -736,11 +736,20 @@
     return v0
 .end method
 
-.method public h2(Landroid/os/Bundle;)V
+.method public isCancelable()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Landroidx/fragment/app/b;->f0:Z
+
+    return v0
+.end method
+
+.method public k2(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->h2(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->k2(Landroid/os/Bundle;)V
 
     .line 2
     iget-object v0, p0, Landroidx/fragment/app/b;->j0:Landroid/app/Dialog;
@@ -818,11 +827,11 @@
     return-void
 .end method
 
-.method public i2()V
+.method public l2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->i2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->l2()V
 
     .line 2
     iget-object v0, p0, Landroidx/fragment/app/b;->j0:Landroid/app/Dialog;
@@ -841,20 +850,11 @@
     return-void
 .end method
 
-.method public isCancelable()Z
+.method public m2()V
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/fragment/app/b;->f0:Z
-
-    return v0
-.end method
-
-.method public j2()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->m2()V
 
     .line 2
     iget-object v0, p0, Landroidx/fragment/app/b;->j0:Landroid/app/Dialog;
@@ -885,7 +885,7 @@
     const/4 p1, 0x1
 
     .line 2
-    invoke-direct {p0, p1, p1}, Landroidx/fragment/app/b;->W2(ZZ)V
+    invoke-direct {p0, p1, p1}, Landroidx/fragment/app/b;->Z2(ZZ)V
 
     :cond_0
     return-void

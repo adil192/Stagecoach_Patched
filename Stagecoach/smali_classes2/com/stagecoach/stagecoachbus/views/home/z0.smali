@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/z0;->c:Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->I3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->L3()V
 
     return-void
 .end method

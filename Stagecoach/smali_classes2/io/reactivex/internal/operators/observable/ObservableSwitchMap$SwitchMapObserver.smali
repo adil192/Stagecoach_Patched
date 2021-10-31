@@ -77,10 +77,10 @@
 
 .field final errors:Lio/reactivex/internal/util/AtomicThrowable;
 
-.field final mapper:Lio/reactivex/c0/g;
+.field final mapper:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TR;>;>;"
@@ -116,14 +116,14 @@
     return-void
 .end method
 
-.method constructor <init>(Lio/reactivex/t;Lio/reactivex/c0/g;IZ)V
+.method constructor <init>(Lio/reactivex/t;Lio/reactivex/c0/i;IZ)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/t<",
             "-TR;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TR;>;>;IZ)V"
@@ -144,7 +144,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSwitchMap$SwitchMapObserver;->downstream:Lio/reactivex/t;
 
     .line 4
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableSwitchMap$SwitchMapObserver;->mapper:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableSwitchMap$SwitchMapObserver;->mapper:Lio/reactivex/c0/i;
 
     .line 5
     iput p3, p0, Lio/reactivex/internal/operators/observable/ObservableSwitchMap$SwitchMapObserver;->bufferSize:I
@@ -725,9 +725,9 @@
     .line 5
     :cond_0
     :try_start_0
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableSwitchMap$SwitchMapObserver;->mapper:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableSwitchMap$SwitchMapObserver;->mapper:Lio/reactivex/c0/i;
 
-    invoke-interface {v2, p1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, p1}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

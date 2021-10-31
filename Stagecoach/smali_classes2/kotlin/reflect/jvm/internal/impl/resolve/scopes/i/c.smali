@@ -40,7 +40,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/i/c;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 
@@ -104,7 +104,7 @@
     return v0
 .end method
 
-.method public final p()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public final m()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 1
 
     .line 1

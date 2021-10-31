@@ -426,7 +426,7 @@
     .line 3
     iget-object v0, p0, Lio/reactivex/subjects/a$a;->d:Lio/reactivex/subjects/a;
 
-    invoke-virtual {v0, p0}, Lio/reactivex/subjects/a;->Q0(Lio/reactivex/subjects/a$a;)V
+    invoke-virtual {v0, p0}, Lio/reactivex/subjects/a;->a1(Lio/reactivex/subjects/a$a;)V
 
     :cond_0
     return-void

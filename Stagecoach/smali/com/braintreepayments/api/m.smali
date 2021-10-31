@@ -37,7 +37,7 @@
 
     invoke-direct {v0, p1, p0, p2}, Lcom/braintreepayments/api/m$a;-><init>(Lcom/braintreepayments/api/models/l;Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/q/k;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 
     return-void
 .end method
@@ -48,7 +48,7 @@
     const-string v0, "card.graphql.tokenization.started"
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 2
     :try_start_0

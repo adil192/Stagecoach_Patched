@@ -82,7 +82,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->W(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->Z(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 
     return-void
 .end method
@@ -111,7 +111,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->b()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreView;->d()V
 
     return-void
 .end method

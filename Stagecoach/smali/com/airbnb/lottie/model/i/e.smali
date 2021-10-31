@@ -81,7 +81,7 @@
 
 
 # virtual methods
-.method public k()Z
+.method public g()Z
     .locals 3
 
     .line 1
@@ -117,7 +117,7 @@
     return v1
 .end method
 
-.method public l()Lcom/airbnb/lottie/s/c/a;
+.method public h()Lcom/airbnb/lottie/s/c/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -166,7 +166,7 @@
     return-object v0
 .end method
 
-.method public m()Ljava/util/List;
+.method public i()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

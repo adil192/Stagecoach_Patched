@@ -15,10 +15,7 @@
 
 
 # virtual methods
-.method public abstract L0(Lcom/stagecoach/stagecoachbus/model/busservice/ServiceResult;)V
-.end method
-
-.method public abstract s1(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
+.method public abstract O0(Lcom/stagecoach/stagecoachbus/model/busservice/ServiceResult;)V
 .end method
 
 .method public abstract setBusSuggestions(Ljava/util/List;ZZ)V
@@ -30,4 +27,7 @@
             ">;ZZ)V"
         }
     .end annotation
+.end method
+
+.method public abstract v1(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
 .end method

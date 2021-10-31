@@ -4343,7 +4343,7 @@
 
     .line 7
     :try_start_0
-    invoke-interface {v0, p1}, Landroidx/appcompat/app/e;->B(Lc/a/o/b$a;)Lc/a/o/b;
+    invoke-interface {v0, p1}, Landroidx/appcompat/app/e;->C(Lc/a/o/b$a;)Lc/a/o/b;
 
     move-result-object v0
     :try_end_0

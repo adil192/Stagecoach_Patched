@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/q0;->a:Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;->q4(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/LostPropertyFragment;->t4(Ljava/lang/String;)Z
 
     move-result p1
 

@@ -77,17 +77,17 @@
     if-eqz v1, :cond_0
 
     .line 3
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->X3(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->a4(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;
 
     move-result-object p1
 
     if-eqz p1, :cond_4
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->X3(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->a4(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->W3()V
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->Z3()V
 
     goto :goto_0
 
@@ -107,19 +107,19 @@
     if-eqz p1, :cond_1
 
     .line 6
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->E3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->H3()V
 
     goto :goto_0
 
     .line 7
     :cond_1
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Z
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->b4(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Landroid/view/View;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;)Landroid/view/View;
 
     move-result-object p1
 
@@ -133,11 +133,11 @@
     const p1, 0x7f1102dd
 
     .line 8
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->D3(I)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->G3(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->S3(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->V3(Ljava/lang/String;)V
 
     goto :goto_0
 

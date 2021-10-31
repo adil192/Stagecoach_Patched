@@ -3,7 +3,7 @@
 .source "PropertyReference.java"
 
 # interfaces
-.implements Lkotlin/reflect/h;
+.implements Lkotlin/reflect/i;
 
 
 # direct methods
@@ -62,15 +62,15 @@
 
 
 # virtual methods
-.method protected d()Lkotlin/reflect/h;
+.method protected e()Lkotlin/reflect/i;
     .locals 1
 
     .line 1
-    invoke-super {p0}, Lkotlin/jvm/internal/CallableReference;->c()Lkotlin/reflect/a;
+    invoke-super {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/reflect/h;
+    check-cast v0, Lkotlin/reflect/i;
 
     return-object v0
 .end method
@@ -96,11 +96,11 @@
     check-cast p1, Lkotlin/jvm/internal/PropertyReference;
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object v3
 
@@ -162,12 +162,12 @@
 
     .line 4
     :cond_2
-    instance-of v0, p1, Lkotlin/reflect/h;
+    instance-of v0, p1, Lkotlin/reflect/i;
 
     if-eqz v0, :cond_3
 
     .line 5
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
 
     move-result-object v0
 
@@ -181,11 +181,22 @@
     return v2
 .end method
 
+.method protected bridge synthetic getReflected()Lkotlin/reflect/b;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference;->e()Lkotlin/reflect/i;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
 .method public hashCode()I
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/d;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/e;
 
     move-result-object v0
 
@@ -224,7 +235,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
 
     move-result-object v0
 

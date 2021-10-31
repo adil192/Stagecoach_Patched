@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 
     check-cast p1, Ljava/lang/Long;
 
-    invoke-static {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->J3(JLjava/lang/Long;)Ljava/lang/Boolean;
+    invoke-static {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->M3(JLjava/lang/Long;)Ljava/lang/Boolean;
 
     move-result-object p1
 

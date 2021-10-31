@@ -372,7 +372,7 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->j:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 17
-    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->j(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
+    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->l(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
 
@@ -398,7 +398,7 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->j:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 18
-    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->j(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
+    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->l(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
 
@@ -434,7 +434,7 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->j:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 20
-    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->j(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
+    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->l(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
 
@@ -460,7 +460,7 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->j:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 21
-    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->j(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
+    invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->l(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
 

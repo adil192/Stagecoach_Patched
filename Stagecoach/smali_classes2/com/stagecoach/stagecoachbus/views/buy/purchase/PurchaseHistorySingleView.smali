@@ -84,7 +84,7 @@
     .line 2
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/buy/purchase/PurchaseHistorySingleView;->l:Lcom/stagecoach/core/model/tickets/Ticket;
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/purchase/PurchaseHistoryListener;->N(Lcom/stagecoach/core/model/tickets/Ticket;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/buy/purchase/PurchaseHistoryListener;->Q(Lcom/stagecoach/core/model/tickets/Ticket;)V
 
     :cond_0
     return-void

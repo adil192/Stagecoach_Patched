@@ -110,7 +110,7 @@
 
     iget-object v3, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$loadProperty$3;->$property:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->getReturnType()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v3
 

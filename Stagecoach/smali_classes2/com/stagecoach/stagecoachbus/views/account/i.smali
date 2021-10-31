@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/account/i;->d:Lcom/stagecoach/stagecoachbus/model/customeraccount/StoreCustomerDetailsQuery$Builder;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->h4(Lcom/stagecoach/stagecoachbus/model/customeraccount/StoreCustomerDetailsQuery$Builder;)Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->k4(Lcom/stagecoach/stagecoachbus/model/customeraccount/StoreCustomerDetailsQuery$Builder;)Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
 
     move-result-object v0
 

@@ -75,6 +75,50 @@
 
 
 # virtual methods
+.method public h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+    .locals 3
+
+    const-string v0, "fqName"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->e:Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;
+
+    invoke-interface {v0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->c:Lkotlin/reflect/jvm/internal/impl/storage/g;
+
+    invoke-interface {v1, v0}, Lkotlin/jvm/b/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/load/java/components/b;->k:Lkotlin/reflect/jvm/internal/impl/load/java/components/b;
+
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->e:Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;
+
+    iget-object v2, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->d:Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;
+
+    invoke-virtual {v0, p1, v1, v2}, Lkotlin/reflect/jvm/internal/impl/load/java/components/b;->a(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+
+    move-result-object v0
+
+    :goto_0
+    return-object v0
+.end method
+
 .method public isEmpty()Z
     .locals 1
 
@@ -93,7 +137,7 @@
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->e:Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->m()Z
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->j()Z
 
     move-result v0
 
@@ -175,50 +219,6 @@
 
     move-result-object v0
 
-    return-object v0
-.end method
-
-.method public j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-    .locals 3
-
-    const-string v0, "fqName"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->e:Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;
-
-    invoke-interface {v0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->c:Lkotlin/reflect/jvm/internal/impl/storage/g;
-
-    invoke-interface {v1, v0}, Lkotlin/jvm/b/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-
-    if-eqz v0, :cond_0
-
-    goto :goto_0
-
-    .line 2
-    :cond_0
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/load/java/components/b;->k:Lkotlin/reflect/jvm/internal/impl/load/java/components/b;
-
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->e:Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;
-
-    iget-object v2, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations;->d:Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;
-
-    invoke-virtual {v0, p1, v1, v2}, Lkotlin/reflect/jvm/internal/impl/load/java/components/b;->a(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;Lkotlin/reflect/jvm/internal/impl/load/java/lazy/e;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-
-    move-result-object v0
-
-    :goto_0
     return-object v0
 .end method
 

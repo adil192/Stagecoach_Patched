@@ -85,7 +85,7 @@
 
     move-result-object v2
 
-    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/u;->j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
 
     move-result-object v3
 
@@ -113,7 +113,7 @@
 
     move-result-object v1
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;->y()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;->u()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
     move-result-object v1
 
@@ -157,7 +157,7 @@
 
     .line 6
     :goto_1
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 

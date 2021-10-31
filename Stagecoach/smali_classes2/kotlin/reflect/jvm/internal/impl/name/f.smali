@@ -406,7 +406,7 @@
     .line 1
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/name/f;
 
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/name/f;->l(Lkotlin/reflect/jvm/internal/impl/name/f;)I
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/name/f;->o(Lkotlin/reflect/jvm/internal/impl/name/f;)I
 
     move-result p1
 
@@ -503,7 +503,7 @@
     throw v0
 .end method
 
-.method public l(Lkotlin/reflect/jvm/internal/impl/name/f;)I
+.method public o(Lkotlin/reflect/jvm/internal/impl/name/f;)I
     .locals 1
 
     .line 1

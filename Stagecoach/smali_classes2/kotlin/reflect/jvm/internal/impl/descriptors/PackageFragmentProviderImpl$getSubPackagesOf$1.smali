@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/jvm/internal/impl/descriptors/PackageFragmentProviderImpl;->n(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
+    value = Lkotlin/reflect/jvm/internal/impl/descriptors/PackageFragmentProviderImpl;->k(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

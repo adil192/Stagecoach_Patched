@@ -224,7 +224,7 @@
     return-void
 .end method
 
-.method public static final synthetic G0()Lkotlin/reflect/jvm/internal/impl/name/a;
+.method public static final synthetic A0()Lkotlin/reflect/jvm/internal/impl/name/a;
     .locals 1
 
     .line 1
@@ -233,7 +233,7 @@
     return-object v0
 .end method
 
-.method public static final synthetic K0()Lkotlin/reflect/jvm/internal/impl/name/a;
+.method public static final synthetic D0()Lkotlin/reflect/jvm/internal/impl/name/a;
     .locals 1
 
     .line 1
@@ -242,7 +242,7 @@
     return-object v0
 .end method
 
-.method public static final synthetic N0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Ljava/util/List;
+.method public static final synthetic G0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Ljava/util/List;
     .locals 0
 
     .line 1
@@ -251,7 +251,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic O0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/storage/m;
+.method public static final synthetic H0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/storage/m;
     .locals 0
 
     .line 1
@@ -260,7 +260,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic d0(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/w;
+.method public static final synthetic Y(Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/w;
     .locals 0
 
     .line 1
@@ -271,45 +271,29 @@
 
 
 # virtual methods
-.method public B()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public F0()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public bridge synthetic G(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public bridge synthetic C(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/builtins/functions/d;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->P0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/builtins/functions/d;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic I()Ljava/util/Collection;
+.method public bridge synthetic E()Ljava/util/Collection;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->U0()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->N0()Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public L()Z
+.method public H()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -317,7 +301,7 @@
     return v0
 .end method
 
-.method public M()Z
+.method public I()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -325,7 +309,7 @@
     return v0
 .end method
 
-.method public final P0()I
+.method public final I0()I
     .locals 1
 
     .line 1
@@ -334,7 +318,7 @@
     return v0
 .end method
 
-.method public Q0()Ljava/lang/Void;
+.method public J0()Ljava/lang/Void;
     .locals 1
 
     const/4 v0, 0x0
@@ -342,7 +326,7 @@
     return-object v0
 .end method
 
-.method public R0()Ljava/util/List;
+.method public K0()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -361,20 +345,7 @@
     return-object v0
 .end method
 
-.method public bridge synthetic S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->X0()Ljava/lang/Void;
-
-    move-result-object v0
-
-    check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/c;
-
-    return-object v0
-.end method
-
-.method public S0()Lkotlin/reflect/jvm/internal/impl/descriptors/w;
+.method public L0()Lkotlin/reflect/jvm/internal/impl/descriptors/w;
     .locals 1
 
     .line 1
@@ -383,18 +354,7 @@
     return-object v0
 .end method
 
-.method public bridge synthetic T()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->V0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final T0()Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$Kind;
+.method public final M0()Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$Kind;
     .locals 1
 
     .line 1
@@ -403,7 +363,20 @@
     return-object v0
 .end method
 
-.method public U0()Ljava/util/List;
+.method public bridge synthetic N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->Q0()Ljava/lang/Void;
+
+    move-result-object v0
+
+    check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+
+    return-object v0
+.end method
+
+.method public N0()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -422,20 +395,18 @@
     return-object v0
 .end method
 
-.method public bridge synthetic V()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public bridge synthetic O()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->Q0()Ljava/lang/Void;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->O0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
 
     move-result-object v0
-
-    check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
     return-object v0
 .end method
 
-.method public V0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+.method public O0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
     .locals 1
 
     .line 1
@@ -444,7 +415,7 @@
     return-object v0
 .end method
 
-.method protected W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/builtins/functions/d;
+.method protected P0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/builtins/functions/d;
     .locals 1
 
     const-string v0, "kotlinTypeRefiner"
@@ -457,7 +428,20 @@
     return-object p1
 .end method
 
-.method public X0()Ljava/lang/Void;
+.method public bridge synthetic Q()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->J0()Ljava/lang/Void;
+
+    move-result-object v0
+
+    check-cast v0, Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+
+    return-object v0
+.end method
+
+.method public Q0()Ljava/lang/Void;
     .locals 1
 
     const/4 v0, 0x0
@@ -469,22 +453,18 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->S0()Lkotlin/reflect/jvm/internal/impl/descriptors/w;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->L0()Lkotlin/reflect/jvm/internal/impl/descriptors/w;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
-    .locals 2
+.method public g()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
-
-    const-string v1, "Visibilities.PUBLIC"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->h:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;
 
     return-object v0
 .end method
@@ -506,7 +486,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->R0()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->K0()Ljava/util/List;
 
     move-result-object v0
 
@@ -526,7 +506,37 @@
     return-object v0
 .end method
 
+.method public getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    .locals 2
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    const-string v1, "Visibilities.PUBLIC"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;->ABSTRACT:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+
+    return-object v0
+.end method
+
 .method public isData()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public isExternal()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -542,25 +552,7 @@
     return v0
 .end method
 
-.method public j()Lkotlin/reflect/jvm/internal/impl/types/o0;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->h:Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor$b;
-
-    return-object v0
-.end method
-
-.method public k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-    .locals 1
-
-    .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;->ABSTRACT:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-
-    return-object v0
-.end method
-
-.method public q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+.method public n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
     .locals 1
 
     .line 1
@@ -569,7 +561,7 @@
     return-object v0
 .end method
 
-.method public t()Ljava/util/List;
+.method public q()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -584,6 +576,14 @@
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/builtins/functions/FunctionClassDescriptor;->j:Ljava/util/List;
 
     return-object v0
+.end method
+
+.method public t()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -605,7 +605,7 @@
     return-object v0
 .end method
 
-.method public w()Z
+.method public x()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -613,7 +613,7 @@
     return v0
 .end method
 
-.method public x()Z
+.method public z0()Z
     .locals 1
 
     const/4 v0, 0x0

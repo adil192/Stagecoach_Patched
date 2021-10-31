@@ -136,7 +136,7 @@
 
     invoke-direct {v1, p1}, Lcom/stagecoach/stagecoachbus/views/base/activeviewpager/a;-><init>(Lcom/stagecoach/stagecoachbus/views/base/activeviewpager/ActiveViewPager$ActiveFragmentInterface;)V
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L3(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O3(Ljava/lang/Runnable;)V
 
     goto :goto_0
 

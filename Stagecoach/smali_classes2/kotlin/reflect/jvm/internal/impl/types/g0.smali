@@ -12,7 +12,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p0
 
@@ -42,7 +42,7 @@
 
     if-eqz p0, :cond_0
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/a;->b1()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/a;->U0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object p0
 
@@ -63,7 +63,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p0
 
@@ -121,7 +121,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object v3
 
@@ -157,7 +157,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p0
 
@@ -174,7 +174,7 @@
 
     invoke-direct {p0, v1}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;-><init>(Ljava/util/Collection;)V
 
-    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->j(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
+    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;->k(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/jvm/internal/impl/types/IntersectionTypeConstructor;
 
     move-result-object v0
 
@@ -215,7 +215,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/types/a1;->T0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/types/a1;->M0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object v0
 
@@ -227,7 +227,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p0
 
@@ -295,7 +295,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/types/d0;->W0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/types/d0;->P0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 
@@ -342,15 +342,15 @@
     .line 1
     new-instance v0, Lkotlin/reflect/jvm/internal/impl/types/checker/k;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Y0()Lkotlin/reflect/jvm/internal/impl/types/model/CaptureStatus;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->R0()Lkotlin/reflect/jvm/internal/impl/types/model/CaptureStatus;
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Z0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->S0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
 
     move-result-object v3
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->a1()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->T0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object v4
 
@@ -358,7 +358,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->J0()Z
 
     move-result v6
 

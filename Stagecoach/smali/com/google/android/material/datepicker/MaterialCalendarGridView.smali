@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/google/android/material/datepicker/e;->q3(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/google/android/material/datepicker/e;->t3(Landroid/content/Context;)Z
 
     move-result p1
 
@@ -273,7 +273,7 @@
     move-result-object v5
 
     .line 7
-    invoke-interface {v2}, Lcom/google/android/material/datepicker/DateSelector;->l()Ljava/util/Collection;
+    invoke-interface {v2}, Lcom/google/android/material/datepicker/DateSelector;->k()Ljava/util/Collection;
 
     move-result-object v2
 

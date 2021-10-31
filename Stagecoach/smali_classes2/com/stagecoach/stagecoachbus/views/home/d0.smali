@@ -40,7 +40,7 @@
 
     iget-boolean v2, p0, Lcom/stagecoach/stagecoachbus/views/home/d0;->c:Z
 
-    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->V4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Z)V
+    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->Y4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Z)V
 
     return-void
 .end method

@@ -42,7 +42,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2, p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->l4(Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2, p1}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->o4(Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

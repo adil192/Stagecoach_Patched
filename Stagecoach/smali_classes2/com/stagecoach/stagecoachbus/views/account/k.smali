@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->l4(Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ChangePasswordFragment;->o4(Lcom/stagecoach/stagecoachbus/model/customeraccount/CustomerAccountResponse;)V
 
     return-void
 .end method

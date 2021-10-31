@@ -24,10 +24,10 @@
 
 
 # instance fields
-.field final e:Lio/reactivex/c0/g;
+.field final e:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/o<",
             "+TR;>;>;"
@@ -41,14 +41,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/g;ZI)V
+.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/i;ZI)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/g<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/o<",
             "+TR;>;>;ZI)V"
@@ -59,7 +59,7 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/flowable/a;-><init>(Lio/reactivex/g;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;->e:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;->e:Lio/reactivex/c0/i;
 
     .line 3
     iput-boolean p3, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;->f:Z
@@ -87,13 +87,13 @@
 
     new-instance v1, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe$FlatMapMaybeSubscriber;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;->e:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;->e:Lio/reactivex/c0/i;
 
     iget-boolean v3, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;->f:Z
 
     iget v4, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe;->g:I
 
-    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe$FlatMapMaybeSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/g;ZI)V
+    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/FlowableFlatMapMaybe$FlatMapMaybeSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/i;ZI)V
 
     invoke-virtual {v0, v1}, Lio/reactivex/g;->X(Lio/reactivex/j;)V
 

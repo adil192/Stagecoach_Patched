@@ -3691,7 +3691,7 @@
 
     move-result v4
 
-    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     goto :goto_4
 
@@ -3726,7 +3726,7 @@
 
     move-result v4
 
-    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     :goto_5
     if-ge v1, v5, :cond_33
@@ -3753,7 +3753,7 @@
 
     move-result v4
 
-    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     goto :goto_5
 
@@ -4355,7 +4355,7 @@
 
     move-result v4
 
-    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {v12, v4}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     add-int/lit8 v1, v1, 0x4
 
@@ -4385,7 +4385,7 @@
 
     move-result v1
 
-    invoke-virtual {v12, v1}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {v12, v1}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     :goto_14
     add-int/lit8 v1, v4, 0x4
@@ -4407,7 +4407,7 @@
 
     move-result v1
 
-    invoke-virtual {v12, v1}, Lcom/google/android/gms/internal/measurement/d6;->l(I)V
+    invoke-virtual {v12, v1}, Lcom/google/android/gms/internal/measurement/d6;->k(I)V
 
     goto :goto_14
 
@@ -11618,7 +11618,7 @@
     :goto_11
     iget-object v2, v1, Lcom/google/android/gms/internal/measurement/v5;->a:Lcom/google/android/gms/internal/measurement/e8;
 
-    invoke-virtual {v2}, Lcom/google/android/gms/internal/measurement/e8;->j()I
+    invoke-virtual {v2}, Lcom/google/android/gms/internal/measurement/e8;->k()I
 
     move-result v2
 

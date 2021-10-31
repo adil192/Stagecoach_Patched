@@ -23,7 +23,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/OverlayFragment;->x3()Z
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/OverlayFragment;->A3()Z
 
     move-result v0
 
@@ -32,7 +32,7 @@
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseSingleFragmentActivity;->H:Lcom/stagecoach/stagecoachbus/views/base/OverlayFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->r3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3()V
 
     .line 3
     invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseSingleFragmentActivity;->onBackPressed()V
@@ -46,12 +46,12 @@
     if-eqz v0, :cond_1
 
     .line 5
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->r3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3()V
 
     .line 6
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseSingleFragmentActivity;->G:Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->C3()Z
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->F3()Z
 
     move-result v0
 

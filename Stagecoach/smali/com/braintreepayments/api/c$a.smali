@@ -115,7 +115,7 @@
     .line 6
     iget-object v1, p0, Lcom/braintreepayments/api/c$a;->c:Lcom/braintreepayments/api/q/g;
 
-    invoke-interface {v1, p1}, Lcom/braintreepayments/api/q/g;->m(Lcom/braintreepayments/api/models/d;)V
+    invoke-interface {v1, p1}, Lcom/braintreepayments/api/q/g;->n(Lcom/braintreepayments/api/models/d;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 

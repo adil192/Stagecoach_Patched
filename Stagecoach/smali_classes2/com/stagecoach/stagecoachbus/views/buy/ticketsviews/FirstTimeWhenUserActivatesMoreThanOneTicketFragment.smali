@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public static f3()Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/FirstTimeWhenUserActivatesMoreThanOneTicketFragment;
+.method public static i3()Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/FirstTimeWhenUserActivatesMoreThanOneTicketFragment;
     .locals 1
 
     .line 1
@@ -36,20 +36,20 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->O1(Landroid/os/Bundle;)V
 
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c00f7
 
@@ -63,11 +63,11 @@
     return-object p1
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 4
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
 
     .line 2
     new-instance v0, Landroid/os/Handler;

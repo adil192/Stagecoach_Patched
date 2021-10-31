@@ -48,11 +48,11 @@
 
 
 # virtual methods
-.method public F1(Landroid/os/Bundle;)V
+.method public I1(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->F1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->I1(Landroid/os/Bundle;)V
 
     .line 2
     invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->getPresenterFactory()Lcom/stagecoach/stagecoachbus/logic/mvp/PresenterFactory;
@@ -92,7 +92,7 @@
     :cond_0
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
 
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->V3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->Y3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
 
     if-eqz p1, :cond_1
 
@@ -115,7 +115,7 @@
     return-void
 .end method
 
-.method protected abstract V3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
+.method protected abstract Y3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TP;)V"
@@ -144,11 +144,11 @@
     return-object p0
 .end method
 
-.method public h2(Landroid/os/Bundle;)V
+.method public k2(Landroid/os/Bundle;)V
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->h2(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->k2(Landroid/os/Bundle;)V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->G0:Lcom/stagecoach/stagecoachbus/logic/mvp/ViewState;
@@ -168,11 +168,11 @@
     return-void
 .end method
 
-.method public i2()V
+.method public l2()V
     .locals 3
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->i2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->l2()V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
@@ -188,7 +188,7 @@
     return-void
 .end method
 
-.method public j2()V
+.method public m2()V
     .locals 1
 
     .line 1
@@ -206,7 +206,7 @@
     invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;->o()V
 
     .line 3
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->j2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->m2()V
 
     return-void
 .end method

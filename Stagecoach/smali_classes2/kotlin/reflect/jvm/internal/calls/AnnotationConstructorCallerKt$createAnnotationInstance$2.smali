@@ -116,13 +116,13 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {v0}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v1
 

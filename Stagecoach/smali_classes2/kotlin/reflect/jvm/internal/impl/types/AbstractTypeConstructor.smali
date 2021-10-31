@@ -149,7 +149,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->k()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->l()Ljava/util/List;
 
     move-result-object v0
 
@@ -212,10 +212,10 @@
     return-object p1
 .end method
 
-.method protected abstract j()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
+.method protected abstract k()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
 .end method
 
-.method public k()Ljava/util/List;
+.method public l()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -242,7 +242,7 @@
     return-object v0
 .end method
 
-.method protected l(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+.method protected m(Lkotlin/reflect/jvm/internal/impl/types/y;)V
     .locals 1
 
     const-string v0, "type"

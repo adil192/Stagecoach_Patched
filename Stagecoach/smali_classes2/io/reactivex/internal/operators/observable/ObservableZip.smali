@@ -46,10 +46,10 @@
     .end annotation
 .end field
 
-.field final e:Lio/reactivex/c0/g;
+.field final e:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-[",
             "Ljava/lang/Object;",
             "+TR;>;"
@@ -63,7 +63,7 @@
 
 
 # direct methods
-.method public constructor <init>([Lio/reactivex/s;Ljava/lang/Iterable;Lio/reactivex/c0/g;IZ)V
+.method public constructor <init>([Lio/reactivex/s;Ljava/lang/Iterable;Lio/reactivex/c0/i;IZ)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -74,7 +74,7 @@
             "+",
             "Lio/reactivex/s<",
             "+TT;>;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-[",
             "Ljava/lang/Object;",
             "+TR;>;IZ)V"
@@ -91,7 +91,7 @@
     iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->d:Ljava/lang/Iterable;
 
     .line 4
-    iput-object p3, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->e:Lio/reactivex/c0/g;
+    iput-object p3, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->e:Lio/reactivex/c0/i;
 
     .line 5
     iput p4, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->f:I
@@ -104,7 +104,7 @@
 
 
 # virtual methods
-.method public s0(Lio/reactivex/t;)V
+.method public A0(Lio/reactivex/t;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -190,11 +190,11 @@
     :cond_3
     new-instance v1, Lio/reactivex/internal/operators/observable/ObservableZip$ZipCoordinator;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->e:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->e:Lio/reactivex/c0/i;
 
     iget-boolean v4, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->g:Z
 
-    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/observable/ObservableZip$ZipCoordinator;-><init>(Lio/reactivex/t;Lio/reactivex/c0/g;IZ)V
+    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/observable/ObservableZip$ZipCoordinator;-><init>(Lio/reactivex/t;Lio/reactivex/c0/i;IZ)V
 
     .line 10
     iget p1, p0, Lio/reactivex/internal/operators/observable/ObservableZip;->f:I

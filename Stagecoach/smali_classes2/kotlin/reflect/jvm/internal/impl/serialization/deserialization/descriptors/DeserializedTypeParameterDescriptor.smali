@@ -96,7 +96,7 @@
     return-void
 .end method
 
-.method public static final synthetic G0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedTypeParameterDescriptor;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
+.method public static final synthetic A0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedTypeParameterDescriptor;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
     .locals 0
 
     .line 1
@@ -107,7 +107,7 @@
 
 
 # virtual methods
-.method public K0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/a;
+.method public D0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/a;
     .locals 1
 
     .line 1
@@ -116,7 +116,7 @@
     return-object v0
 .end method
 
-.method public final N0()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$TypeParameter;
+.method public final G0()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$TypeParameter;
     .locals 1
 
     .line 1
@@ -125,7 +125,7 @@
     return-object v0
 .end method
 
-.method protected O0(Lkotlin/reflect/jvm/internal/impl/types/y;)Ljava/lang/Void;
+.method protected H0(Lkotlin/reflect/jvm/internal/impl/types/y;)Ljava/lang/Void;
     .locals 2
 
     const-string v0, "type"
@@ -156,18 +156,18 @@
     throw p1
 .end method
 
-.method public bridge synthetic R(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+.method public bridge synthetic M(Lkotlin/reflect/jvm/internal/impl/types/y;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedTypeParameterDescriptor;->O0(Lkotlin/reflect/jvm/internal/impl/types/y;)Ljava/lang/Void;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedTypeParameterDescriptor;->H0(Lkotlin/reflect/jvm/internal/impl/types/y;)Ljava/lang/Void;
 
     const/4 p1, 0x0
 
     throw p1
 .end method
 
-.method protected d0()Ljava/util/List;
+.method protected Y()Ljava/util/List;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -268,7 +268,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedTypeParameterDescriptor;->K0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/a;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedTypeParameterDescriptor;->D0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/a;
 
     move-result-object v0
 

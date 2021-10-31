@@ -41,33 +41,33 @@
     const/4 p1, 0x3
 
     .line 4
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->B(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x2
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->B(I)V
 
     throw v0
 
     :cond_2
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->B(I)V
 
     throw v0
 
     :cond_3
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->B(I)V
 
     throw v0
 .end method
 
-.method private static synthetic F(I)V
+.method private static synthetic B(I)V
     .locals 9
 
     const/4 v0, 0x6
@@ -225,7 +225,7 @@
 
 
 # virtual methods
-.method public J()Lkotlin/reflect/jvm/internal/impl/descriptors/n;
+.method public F()Lkotlin/reflect/jvm/internal/impl/descriptors/n;
     .locals 1
 
     .line 1
@@ -242,7 +242,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->J()Lkotlin/reflect/jvm/internal/impl/descriptors/n;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->F()Lkotlin/reflect/jvm/internal/impl/descriptors/n;
 
     move-result-object v0
 
@@ -262,7 +262,7 @@
     :cond_0
     const/4 v0, 0x5
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->F(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->B(I)V
 
     const/4 v0, 0x0
 
@@ -282,7 +282,7 @@
     :cond_0
     const/4 v0, 0x6
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->F(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/j;->B(I)V
 
     const/4 v0, 0x0
 

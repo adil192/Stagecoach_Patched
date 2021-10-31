@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/common/d;->c:Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;->i3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;->l3(Landroid/view/View;)V
 
     return-void
 .end method

@@ -25,10 +25,10 @@
 
 
 # instance fields
-.field final e:Lio/reactivex/c0/g;
+.field final e:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TU;>;>;"
@@ -44,14 +44,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/g;ZII)V
+.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/i;ZII)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/g<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TU;>;>;ZII)V"
@@ -62,7 +62,7 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/flowable/a;-><init>(Lio/reactivex/g;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->e:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->e:Lio/reactivex/c0/i;
 
     .line 3
     iput-boolean p3, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->f:Z
@@ -76,7 +76,7 @@
     return-void
 .end method
 
-.method public static k0(Lk/a/b;Lio/reactivex/c0/g;ZII)Lio/reactivex/j;
+.method public static k0(Lk/a/b;Lio/reactivex/c0/i;ZII)Lio/reactivex/j;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -87,7 +87,7 @@
             ">(",
             "Lk/a/b<",
             "-TU;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TU;>;>;ZII)",
@@ -111,7 +111,7 @@
 
     move v5, p4
 
-    invoke-direct/range {v0 .. v5}, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/g;ZII)V
+    invoke-direct/range {v0 .. v5}, Lio/reactivex/internal/operators/flowable/FlowableFlatMap$MergeSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/i;ZII)V
 
     return-object v6
 .end method
@@ -131,9 +131,9 @@
     .line 1
     iget-object v0, p0, Lio/reactivex/internal/operators/flowable/a;->d:Lio/reactivex/g;
 
-    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->e:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->e:Lio/reactivex/c0/i;
 
-    invoke-static {v0, p1, v1}, Lio/reactivex/internal/operators/flowable/n;->b(Lk/a/a;Lk/a/b;Lio/reactivex/c0/g;)Z
+    invoke-static {v0, p1, v1}, Lio/reactivex/internal/operators/flowable/n;->b(Lk/a/a;Lk/a/b;Lio/reactivex/c0/i;)Z
 
     move-result v0
 
@@ -145,7 +145,7 @@
     :cond_0
     iget-object v0, p0, Lio/reactivex/internal/operators/flowable/a;->d:Lio/reactivex/g;
 
-    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->e:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->e:Lio/reactivex/c0/i;
 
     iget-boolean v2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->f:Z
 
@@ -153,7 +153,7 @@
 
     iget v4, p0, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->h:I
 
-    invoke-static {p1, v1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->k0(Lk/a/b;Lio/reactivex/c0/g;ZII)Lio/reactivex/j;
+    invoke-static {p1, v1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/FlowableFlatMap;->k0(Lk/a/b;Lio/reactivex/c0/i;ZII)Lio/reactivex/j;
 
     move-result-object p1
 

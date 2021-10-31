@@ -141,7 +141,7 @@
     check-cast v0, Landroidx/core/app/a$d;
 
     .line 6
-    invoke-interface {v0, p2}, Landroidx/core/app/a$d;->d(I)V
+    invoke-interface {v0, p2}, Landroidx/core/app/a$d;->f(I)V
 
     .line 7
     :cond_1

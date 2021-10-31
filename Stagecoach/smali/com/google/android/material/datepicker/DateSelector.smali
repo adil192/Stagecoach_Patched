@@ -19,10 +19,10 @@
 
 
 # virtual methods
-.method public abstract k(Landroid/content/Context;)Ljava/lang/String;
+.method public abstract j(Landroid/content/Context;)Ljava/lang/String;
 .end method
 
-.method public abstract l()Ljava/util/Collection;
+.method public abstract k()Ljava/util/Collection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

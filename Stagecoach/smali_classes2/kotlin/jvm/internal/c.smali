@@ -3,11 +3,11 @@
 .source "ClassBasedDeclarationContainer.kt"
 
 # interfaces
-.implements Lkotlin/reflect/d;
+.implements Lkotlin/reflect/e;
 
 
 # virtual methods
-.method public abstract b()Ljava/lang/Class;
+.method public abstract d()Ljava/lang/Class;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

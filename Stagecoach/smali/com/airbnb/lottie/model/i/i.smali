@@ -42,13 +42,13 @@
 
 
 # virtual methods
-.method public k()Z
+.method public g()Z
     .locals 1
 
     .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/i;->a:Lcom/airbnb/lottie/model/i/b;
 
-    invoke-virtual {v0}, Lcom/airbnb/lottie/model/i/b;->k()Z
+    invoke-virtual {v0}, Lcom/airbnb/lottie/model/i/b;->g()Z
 
     move-result v0
 
@@ -56,7 +56,7 @@
 
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/i;->b:Lcom/airbnb/lottie/model/i/b;
 
-    invoke-virtual {v0}, Lcom/airbnb/lottie/model/i/b;->k()Z
+    invoke-virtual {v0}, Lcom/airbnb/lottie/model/i/b;->g()Z
 
     move-result v0
 
@@ -73,7 +73,7 @@
     return v0
 .end method
 
-.method public l()Lcom/airbnb/lottie/s/c/a;
+.method public h()Lcom/airbnb/lottie/s/c/a;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -91,13 +91,13 @@
     iget-object v1, p0, Lcom/airbnb/lottie/model/i/i;->a:Lcom/airbnb/lottie/model/i/b;
 
     .line 2
-    invoke-virtual {v1}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v1}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/airbnb/lottie/model/i/i;->b:Lcom/airbnb/lottie/model/i/b;
 
-    invoke-virtual {v2}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {v2}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object v2
 
@@ -106,7 +106,7 @@
     return-object v0
 .end method
 
-.method public m()Ljava/util/List;
+.method public i()Ljava/util/List;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {

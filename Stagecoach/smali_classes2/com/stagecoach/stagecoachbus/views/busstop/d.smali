@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/busstop/d;->d:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->q4(Ljava/util/ArrayList;)Ljava/util/List;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->t4(Ljava/util/ArrayList;)Ljava/util/List;
 
     return-object v1
 .end method

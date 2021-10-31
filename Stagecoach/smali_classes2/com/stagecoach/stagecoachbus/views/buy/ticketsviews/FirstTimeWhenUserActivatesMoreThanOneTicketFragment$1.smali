@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/FirstTimeWhenUserActivatesMoreThanOneTicketFragment;->g2()V
+    value = Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/FirstTimeWhenUserActivatesMoreThanOneTicketFragment;->j2()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/FirstTimeWhenUserActivatesMoreThanOneTicketFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/FirstTimeWhenUserActivatesMoreThanOneTicketFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method

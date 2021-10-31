@@ -59,7 +59,7 @@
     move-result-object p1
 
     .line 2
-    invoke-static {p3}, Lio/reactivex/k;->n(Ljava/util/concurrent/Callable;)Lio/reactivex/k;
+    invoke-static {p3}, Lio/reactivex/k;->o(Ljava/util/concurrent/Callable;)Lio/reactivex/k;
 
     move-result-object p3
 
@@ -88,7 +88,7 @@
     invoke-direct {p1, p3}, Landroidx/room/r0$b;-><init>(Lio/reactivex/k;)V
 
     .line 7
-    invoke-virtual {p0, p1}, Lio/reactivex/g;->y(Lio/reactivex/c0/g;)Lio/reactivex/g;
+    invoke-virtual {p0, p1}, Lio/reactivex/g;->y(Lio/reactivex/c0/i;)Lio/reactivex/g;
 
     move-result-object p0
 

@@ -16,13 +16,10 @@
 
 
 # virtual methods
-.method public abstract L()Z
+.method public abstract G()Z
 .end method
 
-.method public abstract g()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
-.end method
-
-.method public abstract h()Ljava/util/List;
+.method public abstract f()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -33,5 +30,8 @@
     .end annotation
 .end method
 
-.method public abstract s()Lkotlin/reflect/jvm/internal/impl/load/java/structure/b;
+.method public abstract getReturnType()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
+.end method
+
+.method public abstract o()Lkotlin/reflect/jvm/internal/impl/load/java/structure/b;
 .end method

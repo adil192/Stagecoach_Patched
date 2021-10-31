@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/jvm/internal/impl/descriptors/impl/q;->R()Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;
+    value = Lkotlin/reflect/jvm/internal/impl/descriptors/impl/q;->M()Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -43,7 +43,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->r0()Z
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->m0()Z
 
     move-result p1
 

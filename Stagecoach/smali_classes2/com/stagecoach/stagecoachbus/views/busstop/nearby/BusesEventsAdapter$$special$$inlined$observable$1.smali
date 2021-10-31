@@ -35,13 +35,13 @@
     d2 = {
         "kotlin/properties/Delegates$observable$1",
         "Lkotlin/q/b;",
-        "Lkotlin/reflect/h;",
+        "Lkotlin/reflect/i;",
         "property",
         "oldValue",
         "newValue",
         "Lkotlin/m;",
         "a",
-        "(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)V",
+        "(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -75,12 +75,12 @@
 
 
 # virtual methods
-.method protected a(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)V
+.method protected a(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;",
             "Ljava/util/List<",
             "+",

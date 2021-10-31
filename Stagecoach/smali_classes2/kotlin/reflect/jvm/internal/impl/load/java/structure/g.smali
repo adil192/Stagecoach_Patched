@@ -9,16 +9,13 @@
 
 
 # virtual methods
-.method public abstract A()Z
+.method public abstract C()Z
 .end method
 
-.method public abstract G()Z
+.method public abstract D()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
 .end method
 
-.method public abstract I()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
-.end method
-
-.method public abstract K()Ljava/util/Collection;
+.method public abstract F()Ljava/util/Collection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -76,11 +73,14 @@
     .end annotation
 .end method
 
-.method public abstract l()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+.method public abstract i()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 .end method
 
-.method public abstract r()Z
+.method public abstract n()Z
 .end method
 
-.method public abstract u()Z
+.method public abstract q()Z
+.end method
+
+.method public abstract w()Z
 .end method

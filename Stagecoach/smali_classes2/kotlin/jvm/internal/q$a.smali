@@ -25,11 +25,11 @@
     d2 = {
         "kotlin/jvm/internal/q$a",
         "",
-        "Lkotlin/reflect/j;",
+        "Lkotlin/reflect/k;",
         "typeParameter",
         "",
         "a",
-        "(Lkotlin/reflect/j;)Ljava/lang/String;",
+        "(Lkotlin/reflect/k;)Ljava/lang/String;",
         "<init>",
         "()V",
         "kotlin-stdlib"
@@ -64,7 +64,7 @@
 
 
 # virtual methods
-.method public final a(Lkotlin/reflect/j;)Ljava/lang/String;
+.method public final a(Lkotlin/reflect/k;)Ljava/lang/String;
     .locals 3
 
     const-string v0, "typeParameter"
@@ -77,7 +77,7 @@
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 2
-    invoke-interface {p1}, Lkotlin/reflect/j;->l()Lkotlin/reflect/KVariance;
+    invoke-interface {p1}, Lkotlin/reflect/k;->i()Lkotlin/reflect/KVariance;
 
     move-result-object v1
 
@@ -115,7 +115,7 @@
 
     .line 5
     :goto_0
-    invoke-interface {p1}, Lkotlin/reflect/j;->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lkotlin/reflect/k;->getName()Ljava/lang/String;
 
     move-result-object p1
 

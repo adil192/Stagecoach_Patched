@@ -217,7 +217,7 @@
     return p0
 .end method
 
-.method static synthetic k(Lkotlin/reflect/jvm/internal/impl/utils/f;)Ljava/lang/Object;
+.method static synthetic j(Lkotlin/reflect/jvm/internal/impl/utils/f;)Ljava/lang/Object;
     .locals 0
 
     .line 1
@@ -226,7 +226,7 @@
     return-object p0
 .end method
 
-.method static synthetic l(Lkotlin/reflect/jvm/internal/impl/utils/f;)I
+.method static synthetic k(Lkotlin/reflect/jvm/internal/impl/utils/f;)I
     .locals 0
 
     .line 1

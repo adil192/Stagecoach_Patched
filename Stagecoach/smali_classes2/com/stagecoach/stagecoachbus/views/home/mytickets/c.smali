@@ -36,7 +36,7 @@
 
     move-wide v4, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->J4(Landroid/widget/ExpandableListView;Landroid/view/View;IJ)Z
+    invoke-virtual/range {v0 .. v5}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->M4(Landroid/widget/ExpandableListView;Landroid/view/View;IJ)Z
 
     move-result p1
 

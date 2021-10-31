@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract B(Lc/a/o/b$a;)Lc/a/o/b;
+.method public abstract C(Lc/a/o/b$a;)Lc/a/o/b;
 .end method
 
 .method public abstract j(Lc/a/o/b;)V

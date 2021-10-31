@@ -75,7 +75,82 @@
     return-void
 .end method
 
-.method public static A4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
+.method private synthetic A4(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->d4()V
+
+    return-void
+.end method
+
+.method private C4(Ljava/util/ArrayList;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/ArrayList<",
+            "Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/stagecoach/stagecoachbus/views/busstop/d;
+
+    invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/d;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Ljava/util/ArrayList;)V
+
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+
+    move-result-object v0
+
+    .line 2
+    invoke-static {}, Lio/reactivex/h0/a;->c()Lio/reactivex/u;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
+
+    move-result-object v0
+
+    .line 3
+    invoke-static {}, Lio/reactivex/a0/c/a;->c()Lio/reactivex/u;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/busstop/f;
+
+    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/f;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)V
+
+    .line 4
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->A(Lio/reactivex/c0/a;)Lio/reactivex/p;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/busstop/k;
+
+    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/k;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)V
+
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/busstop/c;
+
+    invoke-direct {v2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/c;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Ljava/util/ArrayList;)V
+
+    .line 5
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+
+    move-result-object p1
+
+    .line 6
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
+
+    return-void
+.end method
+
+.method public static D4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
     .locals 2
 
     .line 1
@@ -110,7 +185,7 @@
     return-object p0
 .end method
 
-.method private B4()V
+.method private E4()V
     .locals 4
 
     .line 1
@@ -159,7 +234,7 @@
     return-void
 .end method
 
-.method private C4()Z
+.method private F4()Z
     .locals 9
 
     .line 1
@@ -233,7 +308,7 @@
     return v0
 .end method
 
-.method static synthetic V3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
+.method static synthetic Y3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
     .locals 0
 
     .line 1
@@ -242,7 +317,7 @@
     return-object p0
 .end method
 
-.method static synthetic W3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
+.method static synthetic Z3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
     .locals 0
 
     .line 1
@@ -251,7 +326,7 @@
     return-object p1
 .end method
 
-.method private X3()V
+.method private a4()V
     .locals 2
 
     .line 1
@@ -272,7 +347,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -281,7 +356,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/g;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)V
 
     .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->o0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->w0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
@@ -290,16 +365,16 @@
     return-void
 .end method
 
-.method private Z3()V
+.method private c4()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->B4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->E4()V
 
     return-void
 .end method
 
-.method private a4()V
+.method private d4()V
     .locals 9
 
     .line 1
@@ -372,7 +447,7 @@
     const v3, 0x7f110005
 
     .line 9
-    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -441,7 +516,7 @@
     const v3, 0x7f1100d1
 
     .line 19
-    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -494,7 +569,7 @@
     return-void
 .end method
 
-.method private synthetic b4(Ljava/lang/Boolean;)V
+.method private synthetic e4(Ljava/lang/Boolean;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -512,13 +587,13 @@
     const p1, 0x7f11017e
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic d4(Ljava/lang/Throwable;)V
+.method private synthetic g4(Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -538,12 +613,12 @@
     const p1, 0x7f11017c
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     return-void
 .end method
 
-.method private synthetic f4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
+.method private synthetic i4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -569,7 +644,7 @@
     return-object p1
 .end method
 
-.method private synthetic h4(Ljava/lang/Boolean;)V
+.method private synthetic k4(Ljava/lang/Boolean;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -585,19 +660,19 @@
     if-eqz p1, :cond_0
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->T3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->W3()V
 
     goto :goto_0
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->U3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->X3()V
 
     :goto_0
     return-void
 .end method
 
-.method private synthetic j4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
+.method private synthetic m4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -623,7 +698,7 @@
     return-object p1
 .end method
 
-.method private synthetic l4(Ljava/lang/Boolean;)V
+.method private synthetic o4(Ljava/lang/Boolean;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -641,13 +716,13 @@
     const p1, 0x7f11017d
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic n4(Ljava/lang/Throwable;)V
+.method private synthetic q4(Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -667,12 +742,12 @@
     const p1, 0x7f11017c
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     return-void
 .end method
 
-.method private synthetic p4(Ljava/util/ArrayList;)Ljava/util/List;
+.method private synthetic s4(Ljava/util/ArrayList;)Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -686,22 +761,6 @@
     invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->n(Ljava/util/List;)Ljava/util/List;
 
     return-object p1
-.end method
-
-.method private synthetic r4()V
-    .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    const/4 v0, 0x0
-
-    .line 1
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->a(Z)V
-
-    return-void
 .end method
 
 .method private setUpViewWhenGPSDisabled()V
@@ -772,7 +831,23 @@
     return-void
 .end method
 
-.method private synthetic t4(Ljava/util/List;)V
+.method private synthetic u4()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->a(Z)V
+
+    return-void
+.end method
+
+.method private synthetic w4(Ljava/util/List;)V
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -788,7 +863,7 @@
     return-void
 .end method
 
-.method private synthetic v4(Ljava/util/ArrayList;Ljava/lang/Throwable;)V
+.method private synthetic y4(Ljava/util/ArrayList;Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -813,84 +888,17 @@
     return-void
 .end method
 
-.method private synthetic x4(Landroid/view/View;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->a4()V
-
-    return-void
-.end method
-
-.method private z4(Ljava/util/ArrayList;)V
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/ArrayList<",
-            "Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Lcom/stagecoach/stagecoachbus/views/busstop/d;
-
-    invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/d;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Ljava/util/ArrayList;)V
-
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
-
-    move-result-object v0
-
-    .line 2
-    invoke-static {}, Lio/reactivex/h0/a;->c()Lio/reactivex/u;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
-
-    move-result-object v0
-
-    .line 3
-    invoke-static {}, Lio/reactivex/a0/c/a;->c()Lio/reactivex/u;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/busstop/f;
-
-    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/f;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)V
-
-    .line 4
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->v(Lio/reactivex/c0/a;)Lio/reactivex/p;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/busstop/k;
-
-    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/k;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)V
-
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/busstop/c;
-
-    invoke-direct {v2, p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/c;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Ljava/util/ArrayList;)V
-
-    .line 5
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
-
-    move-result-object p1
-
-    .line 6
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
-
-    return-void
-.end method
-
 
 # virtual methods
-.method public D4(Ljava/util/List;)V
+.method public synthetic B4(Landroid/view/View;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->A4(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public G4(Ljava/util/List;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -931,7 +939,7 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     .line 6
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->C4()Z
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->F4()Z
 
     move-result v0
 
@@ -1002,7 +1010,7 @@
 
     .line 13
     :cond_3
-    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->z4(Ljava/util/ArrayList;)V
+    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->C4(Ljava/util/ArrayList;)V
 
     goto :goto_3
 
@@ -1033,7 +1041,7 @@
 
     const v0, 0x7f11026f
 
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1083,13 +1091,13 @@
 
     .line 26
     :goto_2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->Y3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->b4()V
 
     :goto_3
     return-void
 .end method
 
-.method public G(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public J(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
     .locals 2
 
     .line 1
@@ -1097,7 +1105,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/l;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1106,7 +1114,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1115,7 +1123,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1128,17 +1136,17 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/j;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)V
 
     .line 4
-    invoke-virtual {p1, v0, v1}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v0, v1}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method
 
-.method public I0(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public L0(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
     .locals 2
 
     .line 1
@@ -1146,7 +1154,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/a;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1155,7 +1163,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1164,7 +1172,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -1177,33 +1185,33 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/i;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)V
 
     .line 4
-    invoke-virtual {p1, v0, v1}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v0, v1}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method
 
-.method public K3()V
+.method public N3()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->Z3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->c4()V
 
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -1212,11 +1220,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c00e8
 
@@ -1410,7 +1418,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p0, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     .line 20
     iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->N0:Landroidx/recyclerview/widget/RecyclerView;
@@ -1437,35 +1445,12 @@
     return-object p1
 .end method
 
-.method public Q3()Z
+.method public T3()Z
     .locals 1
 
     const/4 v0, 0x1
 
     return v0
-.end method
-
-.method Y3()V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->O0:Landroid/view/View;
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    const/4 v0, 0x0
-
-    .line 2
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->a(Z)V
-
-    :cond_0
-    return-void
 .end method
 
 .method public a(Z)V
@@ -1493,7 +1478,30 @@
     return-void
 .end method
 
-.method public b2()V
+.method b4()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->O0:Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->a(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public e2()V
     .locals 1
 
     .line 1
@@ -1511,20 +1519,20 @@
     invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/logic/usecase/UseCase;->b()V
 
     .line 4
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->b2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->e2()V
 
     return-void
 .end method
 
-.method public synthetic c4(Ljava/lang/Boolean;)V
+.method public synthetic f4(Ljava/lang/Boolean;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->b4(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->e4(Ljava/lang/Boolean;)V
 
     return-void
 .end method
 
-.method public e(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
+.method public g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
     .locals 2
 
     .line 1
@@ -1553,21 +1561,34 @@
     .line 4
     check-cast v0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->I4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
+    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->L4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
 
     :cond_0
     return-void
 .end method
 
-.method public synthetic e4(Ljava/lang/Throwable;)V
+.method public getTitle()Ljava/lang/String;
+    .locals 1
+
+    const v0, 0x7f110384
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public synthetic h4(Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->d4(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->g4(Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method public g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public i(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
     .locals 2
 
     .line 1
@@ -1604,17 +1625,17 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->b6(Lcom/stagecoach/stagecoachbus/model/common/GeoCode;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->e6(Lcom/stagecoach/stagecoachbus/model/common/GeoCode;Ljava/lang/String;)V
 
     :cond_0
     return-void
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
@@ -1648,13 +1669,13 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->D4(Ljava/util/List;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->G4(Ljava/util/List;)V
 
     goto :goto_0
 
     .line 6
     :cond_0
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->B4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->E4()V
 
     goto :goto_0
 
@@ -1676,104 +1697,83 @@
 
     .line 10
     :goto_0
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->X3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->a4()V
 
     return-void
 .end method
 
-.method public synthetic g4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
+.method public synthetic j4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->f4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->i4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getTitle()Ljava/lang/String;
-    .locals 1
-
-    const v0, 0x7f110384
-
-    .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public synthetic i4(Ljava/lang/Boolean;)V
+.method public synthetic l4(Ljava/lang/Boolean;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->h4(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->k4(Ljava/lang/Boolean;)V
 
     return-void
 .end method
 
-.method public synthetic k4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
+.method public synthetic n4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->j4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->m4(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)Ljava/lang/Boolean;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public synthetic m4(Ljava/lang/Boolean;)V
+.method public synthetic p4(Ljava/lang/Boolean;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->l4(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->o4(Ljava/lang/Boolean;)V
 
     return-void
 .end method
 
-.method public synthetic o4(Ljava/lang/Throwable;)V
+.method public synthetic r4(Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->n4(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->q4(Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method public synthetic q4(Ljava/util/ArrayList;)Ljava/util/List;
+.method public synthetic t4(Ljava/util/ArrayList;)Ljava/util/List;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->p4(Ljava/util/ArrayList;)Ljava/util/List;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->s4(Ljava/util/ArrayList;)Ljava/util/List;
 
     return-object p1
 .end method
 
-.method public synthetic s4()V
+.method public synthetic v4()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->r4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->u4()V
 
     return-void
 .end method
 
-.method public synthetic u4(Ljava/util/List;)V
+.method public synthetic x4(Ljava/util/List;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->t4(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->w4(Ljava/util/List;)V
 
     return-void
 .end method
 
-.method public synthetic w4(Ljava/util/ArrayList;Ljava/lang/Throwable;)V
+.method public synthetic z4(Ljava/util/ArrayList;Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->v4(Ljava/util/ArrayList;Ljava/lang/Throwable;)V
-
-    return-void
-.end method
-
-.method public synthetic y4(Landroid/view/View;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->x4(Landroid/view/View;)V
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->y4(Ljava/util/ArrayList;Ljava/lang/Throwable;)V
 
     return-void
 .end method

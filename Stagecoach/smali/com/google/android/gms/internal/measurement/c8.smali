@@ -42,7 +42,7 @@
 
     .line 2
     :goto_0
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/e8;->j()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/e8;->k()I
 
     move-result v1
 

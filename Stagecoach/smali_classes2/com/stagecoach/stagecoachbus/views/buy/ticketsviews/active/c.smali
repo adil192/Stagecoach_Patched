@@ -30,7 +30,7 @@
 
     check-cast p1, Lkotlin/Pair;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->f4(Lkotlin/Pair;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->i4(Lkotlin/Pair;)V
 
     return-void
 .end method

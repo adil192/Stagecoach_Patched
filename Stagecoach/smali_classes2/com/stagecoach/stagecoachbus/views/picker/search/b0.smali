@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/b0;->d:Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->s4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->v4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
 
     move-result-object v0
 

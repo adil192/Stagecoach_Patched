@@ -216,7 +216,7 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->I(I)Lcom/stagecoach/core/model/database/word/Word;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->J(I)Lcom/stagecoach/core/model/database/word/Word;
 
     move-result-object p1
 
@@ -236,7 +236,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/b;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetWordOfTheDayUseCase;)V
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->E(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->L(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -258,7 +258,7 @@
 
     sget-object p1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v0, v1, p1}, Lio/reactivex/p;->A0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v0, v1, p1}, Lio/reactivex/p;->J0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -298,7 +298,7 @@
 
     invoke-direct {p1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/c;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetWordOfTheDayUseCase;)V
 
-    invoke-static {p1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -307,14 +307,14 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/a;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetWordOfTheDayUseCase;)V
 
     .line 2
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/e;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/e;
 
     .line 3
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -323,7 +323,7 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/d;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/tickets/active/GetWordOfTheDayUseCase;)V
 
     .line 4
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->e0(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->m0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object p1
 

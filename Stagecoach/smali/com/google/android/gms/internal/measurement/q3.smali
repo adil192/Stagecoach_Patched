@@ -90,7 +90,7 @@
 
     iget-object v1, p0, Lcom/google/android/gms/internal/measurement/q3;->c:Ljava/lang/Object;
 
-    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzel;->j(Lcom/google/android/gms/internal/measurement/zzel;Ljava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzel;->k(Lcom/google/android/gms/internal/measurement/zzel;Ljava/lang/Object;)I
 
     move-result v0
 

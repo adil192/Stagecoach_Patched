@@ -36,10 +36,10 @@
     .end annotation
 .end field
 
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-[",
             "Ljava/lang/Object;",
             "+TR;>;"
@@ -49,14 +49,14 @@
 
 
 # direct methods
-.method public constructor <init>([Lio/reactivex/o;Lio/reactivex/c0/g;)V
+.method public constructor <init>([Lio/reactivex/o;Lio/reactivex/c0/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
             "Lio/reactivex/o<",
             "+TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-[",
             "Ljava/lang/Object;",
             "+TR;>;)V"
@@ -70,14 +70,14 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeZipArray;->c:[Lio/reactivex/o;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeZipArray;->d:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeZipArray;->d:Lio/reactivex/c0/i;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected y(Lio/reactivex/m;)V
+.method protected z(Lio/reactivex/m;)V
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -108,7 +108,7 @@
 
     invoke-direct {v2, p0}, Lio/reactivex/internal/operators/maybe/MaybeZipArray$a;-><init>(Lio/reactivex/internal/operators/maybe/MaybeZipArray;)V
 
-    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/maybe/k$a;-><init>(Lio/reactivex/m;Lio/reactivex/c0/g;)V
+    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/maybe/k$a;-><init>(Lio/reactivex/m;Lio/reactivex/c0/i;)V
 
     invoke-interface {v0, v1}, Lio/reactivex/o;->b(Lio/reactivex/m;)V
 
@@ -118,9 +118,9 @@
     :cond_0
     new-instance v3, Lio/reactivex/internal/operators/maybe/MaybeZipArray$ZipCoordinator;
 
-    iget-object v4, p0, Lio/reactivex/internal/operators/maybe/MaybeZipArray;->d:Lio/reactivex/c0/g;
+    iget-object v4, p0, Lio/reactivex/internal/operators/maybe/MaybeZipArray;->d:Lio/reactivex/c0/i;
 
-    invoke-direct {v3, p1, v1, v4}, Lio/reactivex/internal/operators/maybe/MaybeZipArray$ZipCoordinator;-><init>(Lio/reactivex/m;ILio/reactivex/c0/g;)V
+    invoke-direct {v3, p1, v1, v4}, Lio/reactivex/internal/operators/maybe/MaybeZipArray$ZipCoordinator;-><init>(Lio/reactivex/m;ILio/reactivex/c0/i;)V
 
     .line 5
     invoke-interface {p1, v3}, Lio/reactivex/m;->onSubscribe(Lio/reactivex/disposables/b;)V

@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/account/p1;->d:Lcom/stagecoach/stagecoachbus/model/pcapredict/PCAAddress;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->g4(Lcom/stagecoach/stagecoachbus/model/pcapredict/PCAAddress;)Lcom/stagecoach/stagecoachbus/model/pcapredict/PCARetrievedAddress;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->j4(Lcom/stagecoach/stagecoachbus/model/pcapredict/PCAAddress;)Lcom/stagecoach/stagecoachbus/model/pcapredict/PCARetrievedAddress;
 
     move-result-object v0
 

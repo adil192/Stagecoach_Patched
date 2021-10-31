@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/m0;->c:Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->k3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->n3(Landroid/view/View;)V
 
     return-void
 .end method

@@ -60,15 +60,15 @@
     const/4 p1, 0x1
 
     .line 6
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->e1(Z)V
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->X0(Z)V
 
     .line 7
-    invoke-virtual {p0, p4}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->g1(Z)V
+    invoke-virtual {p0, p4}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->Z0(Z)V
 
     const/4 p1, 0x0
 
     .line 8
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->X0(Z)V
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->Q0(Z)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
     return-void
 .end method
 
-.method private final o1(Ljava/util/List;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+.method private final h1(Ljava/util/List;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -95,7 +95,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->h()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->f()Ljava/util/List;
 
     move-result-object v0
 
@@ -112,7 +112,7 @@
     const/4 v1, 0x1
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->h()Ljava/util/List;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->f()Ljava/util/List;
 
     move-result-object v2
 
@@ -185,7 +185,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {v4, p0, v5, v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->H0(Lkotlin/reflect/jvm/internal/impl/descriptors/a;Lkotlin/reflect/jvm/internal/impl/name/f;I)Lkotlin/reflect/jvm/internal/impl/descriptors/o0;
+    invoke-interface {v4, p0, v5, v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->B0(Lkotlin/reflect/jvm/internal/impl/descriptors/a;Lkotlin/reflect/jvm/internal/impl/name/f;I)Lkotlin/reflect/jvm/internal/impl/descriptors/o0;
 
     move-result-object v4
 
@@ -197,7 +197,7 @@
     :cond_1
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;->b:Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;
 
-    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->R0(Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;
+    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->K0(Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;
 
     move-result-object v0
 
@@ -258,7 +258,7 @@
     invoke-virtual {v0, v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;->T(Ljava/util/List;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;
 
     .line 15
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;->l1()Lkotlin/reflect/jvm/internal/impl/descriptors/g0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;->e1()Lkotlin/reflect/jvm/internal/impl/descriptors/g0;
 
     move-result-object p1
 
@@ -269,7 +269,7 @@
     invoke-static {v0, p1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
-    invoke-super {p0, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-super {p0, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->D0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object p1
 
@@ -280,7 +280,7 @@
 
 
 # virtual methods
-.method protected G0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/r;Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;Lkotlin/reflect/jvm/internal/impl/name/f;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;Lkotlin/reflect/jvm/internal/impl/descriptors/h0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;
+.method protected A0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/r;Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;Lkotlin/reflect/jvm/internal/impl/name/f;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;Lkotlin/reflect/jvm/internal/impl/descriptors/h0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;
     .locals 0
 
     const-string p4, "newOwner"
@@ -304,7 +304,7 @@
 
     check-cast p2, Lkotlin/reflect/jvm/internal/impl/builtins/functions/e;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->z0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->isSuspend()Z
 
     move-result p5
 
@@ -313,7 +313,7 @@
     return-object p4
 .end method
 
-.method protected K0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+.method protected D0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
     .locals 7
 
     const-string v0, "configuration"
@@ -321,7 +321,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-super {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->D0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object p1
 
@@ -330,7 +330,7 @@
     if-eqz p1, :cond_6
 
     .line 2
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->h()Ljava/util/List;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->f()Ljava/util/List;
 
     move-result-object v0
 
@@ -413,7 +413,7 @@
 
     .line 6
     :cond_4
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->h()Ljava/util/List;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->f()Ljava/util/List;
 
     move-result-object v0
 
@@ -468,7 +468,7 @@
 
     .line 11
     :cond_5
-    invoke-direct {p1, v1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/e;->o1(Ljava/util/List;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-direct {p1, v1}, Lkotlin/reflect/jvm/internal/impl/builtins/functions/e;->h1(Ljava/util/List;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object p1
 
@@ -480,7 +480,15 @@
     return-object p1
 .end method
 
-.method public P()Z
+.method public L()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public isExternal()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -489,14 +497,6 @@
 .end method
 
 .method public isInline()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public w()Z
     .locals 1
 
     const/4 v0, 0x0

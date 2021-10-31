@@ -86,7 +86,7 @@
     .line 2
     sget-object v0, Lio/reactivex/BackpressureStrategy;->LATEST:Lio/reactivex/BackpressureStrategy;
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->C0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->L0(Lio/reactivex/BackpressureStrategy;)Lio/reactivex/g;
 
     move-result-object p1
 

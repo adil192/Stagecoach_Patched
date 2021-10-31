@@ -15,25 +15,25 @@
 
 
 # virtual methods
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/braintreepayments/api/a;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Lcom/braintreepayments/api/a;->L1(Landroid/content/Context;)V
 
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/braintreepayments/api/a;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/braintreepayments/api/a;->O1(Landroid/os/Bundle;)V
 
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     const p3, 0x7f0c00e9

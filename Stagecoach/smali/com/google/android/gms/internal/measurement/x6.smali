@@ -82,7 +82,7 @@
     return-void
 .end method
 
-.method public static k()Lcom/google/android/gms/internal/measurement/x6;
+.method public static j()Lcom/google/android/gms/internal/measurement/x6;
     .locals 1
 
     .line 1
@@ -91,7 +91,7 @@
     return-object v0
 .end method
 
-.method private final l(I)V
+.method private final k(I)V
     .locals 1
 
     if-ltz p1, :cond_0
@@ -377,7 +377,7 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x6;->l(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x6;->k(I)V
 
     .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/x6;->d:[J
@@ -677,7 +677,7 @@
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/s4;->g()V
 
     .line 8
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x6;->l(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x6;->k(I)V
 
     .line 9
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/x6;->d:[J
@@ -855,7 +855,7 @@
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/s4;->g()V
 
     .line 4
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x6;->l(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/x6;->k(I)V
 
     .line 5
     iget-object p2, p0, Lcom/google/android/gms/internal/measurement/x6;->d:[J

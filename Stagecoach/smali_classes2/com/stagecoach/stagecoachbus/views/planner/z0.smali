@@ -36,7 +36,7 @@
 
     move-wide v4, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->v4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    invoke-virtual/range {v0 .. v5}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->y4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     return-void
 .end method

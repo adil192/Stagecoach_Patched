@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    value = Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -78,7 +78,7 @@
     .line 3
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment$1;->a:Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;
 
-    invoke-static {v2}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->V3(Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;)I
+    invoke-static {v2}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;)I
 
     move-result v2
 
@@ -106,7 +106,7 @@
     :cond_1
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment$1;->a:Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;
 
-    invoke-static {v2}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->V3(Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;)I
+    invoke-static {v2}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;)I
 
     move-result v2
 

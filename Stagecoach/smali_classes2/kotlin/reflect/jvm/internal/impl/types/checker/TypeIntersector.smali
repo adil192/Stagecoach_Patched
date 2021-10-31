@@ -373,7 +373,7 @@
     check-cast v2, Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     .line 4
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v3
 
@@ -382,7 +382,7 @@
     if-eqz v3, :cond_2
 
     .line 5
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v3
 
@@ -433,13 +433,13 @@
 
     move-result-object v5
 
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v6
 
     if-eqz v6, :cond_0
 
-    invoke-virtual {v5, v1}, Lkotlin/reflect/jvm/internal/impl/types/d0;->W0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {v5, v1}, Lkotlin/reflect/jvm/internal/impl/types/d0;->P0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v5
 

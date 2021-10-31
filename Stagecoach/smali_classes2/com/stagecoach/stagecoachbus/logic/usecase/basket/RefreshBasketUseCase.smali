@@ -72,7 +72,7 @@
 
     invoke-direct {p1, p0}, Lcom/stagecoach/stagecoachbus/logic/usecase/basket/x;-><init>(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/RefreshBasketUseCase;)V
 
-    invoke-static {p1}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {p1}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object p1
 

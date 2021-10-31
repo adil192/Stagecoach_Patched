@@ -28,22 +28,11 @@
 
 
 # virtual methods
-.method public bridge synthetic B()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->P()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public J()Z
+.method public E()Z
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->Q()Ljava/lang/reflect/WildcardType;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->L()Ljava/lang/reflect/WildcardType;
 
     move-result-object v0
 
@@ -72,22 +61,22 @@
     return v0
 .end method
 
-.method public bridge synthetic O()Ljava/lang/reflect/Type;
+.method public bridge synthetic J()Ljava/lang/reflect/Type;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->Q()Ljava/lang/reflect/WildcardType;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->L()Ljava/lang/reflect/WildcardType;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public P()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
+.method public K()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->Q()Ljava/lang/reflect/WildcardType;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->L()Ljava/lang/reflect/WildcardType;
 
     move-result-object v0
 
@@ -96,7 +85,7 @@
     move-result-object v0
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->Q()Ljava/lang/reflect/WildcardType;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->L()Ljava/lang/reflect/WildcardType;
 
     move-result-object v1
 
@@ -198,7 +187,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->Q()Ljava/lang/reflect/WildcardType;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->L()Ljava/lang/reflect/WildcardType;
 
     move-result-object v2
 
@@ -213,11 +202,22 @@
     throw v0
 .end method
 
-.method protected Q()Ljava/lang/reflect/WildcardType;
+.method protected L()Ljava/lang/reflect/WildcardType;
     .locals 1
 
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->b:Ljava/lang/reflect/WildcardType;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic x()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/x;->K()Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/u;
+
+    move-result-object v0
 
     return-object v0
 .end method

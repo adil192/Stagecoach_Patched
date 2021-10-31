@@ -252,7 +252,7 @@
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/passengers/PlusMinusSelector$PassengerNumberChangeListener;->p(Z)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/passengers/PlusMinusSelector$PassengerNumberChangeListener;->s(Z)V
 
     :cond_0
     return-void
@@ -275,7 +275,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/passengers/PlusMinusSelector$PassengerNumberChangeListener;->p(Z)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/passengers/PlusMinusSelector$PassengerNumberChangeListener;->s(Z)V
 
     .line 3
     :cond_0

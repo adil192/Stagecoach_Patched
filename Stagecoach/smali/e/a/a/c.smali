@@ -368,7 +368,7 @@
 
     .line 10
     :goto_0
-    invoke-interface {p2, p1, v2, v3}, Le/a/a/f;->O0(ILe/a/a/j;Landroid/net/Uri;)V
+    invoke-interface {p2, p1, v2, v3}, Le/a/a/f;->R0(ILe/a/a/j;Landroid/net/Uri;)V
 
     :cond_1
     return-void
@@ -513,7 +513,7 @@
     const/4 p2, 0x0
 
     .line 13
-    invoke-interface {p3, v1, p1, p2}, Le/a/a/f;->O0(ILe/a/a/j;Landroid/net/Uri;)V
+    invoke-interface {p3, v1, p1, p2}, Le/a/a/f;->R0(ILe/a/a/j;Landroid/net/Uri;)V
 
     :goto_1
     return-void

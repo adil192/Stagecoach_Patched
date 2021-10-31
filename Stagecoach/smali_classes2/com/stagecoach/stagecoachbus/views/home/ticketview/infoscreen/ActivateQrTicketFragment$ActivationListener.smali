@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract T(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+.method public abstract W(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 .end method

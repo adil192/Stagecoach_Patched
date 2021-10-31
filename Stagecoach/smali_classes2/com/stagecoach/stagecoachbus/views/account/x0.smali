@@ -40,7 +40,7 @@
 
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/account/x0;->e:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->g4(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
+    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->j4(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
 
     move-result-object v0
 

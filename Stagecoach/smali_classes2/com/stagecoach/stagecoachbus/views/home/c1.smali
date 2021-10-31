@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 
     check-cast p1, Lkotlin/Pair;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->O3(Lkotlin/Pair;)Lk/a/a;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->R3(Lkotlin/Pair;)Lk/a/a;
 
     move-result-object p1
 

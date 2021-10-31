@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/m;->a:Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->v4(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->y4(Ljava/lang/String;)Z
 
     move-result p1
 

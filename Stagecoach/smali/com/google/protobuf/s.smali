@@ -1455,7 +1455,7 @@
 
     check-cast p1, Lcom/google/protobuf/k0;
 
-    invoke-interface {v0, v1, p1}, Lcom/google/protobuf/s$b;->m(Lcom/google/protobuf/k0$a;Lcom/google/protobuf/k0;)Lcom/google/protobuf/k0$a;
+    invoke-interface {v0, v1, p1}, Lcom/google/protobuf/s$b;->l(Lcom/google/protobuf/k0$a;Lcom/google/protobuf/k0;)Lcom/google/protobuf/k0$a;
 
     move-result-object p1
 
@@ -1661,7 +1661,7 @@
     .line 3
     iget-object v2, p0, Lcom/google/protobuf/s;->a:Lcom/google/protobuf/b1;
 
-    invoke-virtual {v2, v1}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {v2, v1}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v2
 
@@ -1897,7 +1897,7 @@
     .line 2
     iget-object v2, p0, Lcom/google/protobuf/s;->a:Lcom/google/protobuf/b1;
 
-    invoke-virtual {v2, v0}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {v2, v0}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v2
 
@@ -1969,7 +1969,7 @@
     .line 2
     iget-object v2, p0, Lcom/google/protobuf/s;->a:Lcom/google/protobuf/b1;
 
-    invoke-virtual {v2, v0}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {v2, v0}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v2
 
@@ -2084,7 +2084,7 @@
     .line 2
     iget-object v2, p0, Lcom/google/protobuf/s;->a:Lcom/google/protobuf/b1;
 
-    invoke-virtual {v2, v1}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {v2, v1}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v2
 
@@ -2240,7 +2240,7 @@
     .line 2
     iget-object v1, p1, Lcom/google/protobuf/s;->a:Lcom/google/protobuf/b1;
 
-    invoke-virtual {v1, v0}, Lcom/google/protobuf/b1;->j(I)Ljava/util/Map$Entry;
+    invoke-virtual {v1, v0}, Lcom/google/protobuf/b1;->k(I)Ljava/util/Map$Entry;
 
     move-result-object v1
 

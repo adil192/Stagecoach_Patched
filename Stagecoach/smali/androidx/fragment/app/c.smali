@@ -392,25 +392,6 @@
     return-void
 .end method
 
-.method public final d(I)V
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Landroidx/fragment/app/c;->p:Z
-
-    if-nez v0, :cond_0
-
-    const/4 v0, -0x1
-
-    if-eq p1, v0, :cond_0
-
-    .line 2
-    invoke-static {p1}, Landroidx/fragment/app/c;->s0(I)V
-
-    :cond_0
-    return-void
-.end method
-
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 2
 
@@ -512,6 +493,25 @@
     return-void
 .end method
 
+.method public final f(I)V
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Landroidx/fragment/app/c;->p:Z
+
+    if-nez v0, :cond_0
+
+    const/4 v0, -0x1
+
+    if-eq p1, v0, :cond_0
+
+    .line 2
+    invoke-static {p1}, Landroidx/fragment/app/c;->s0(I)V
+
+    :cond_0
+    return-void
+.end method
+
 .method public getSupportFragmentManager()Landroidx/fragment/app/l;
     .locals 1
 
@@ -601,7 +601,7 @@
     and-int/2addr p1, v1
 
     .line 6
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     :goto_0
     return-void
@@ -1133,7 +1133,7 @@
     and-int/2addr p1, v1
 
     .line 6
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->f2(I[Ljava/lang/String;[I)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->i2(I[Ljava/lang/String;[I)V
 
     :cond_2
     :goto_0

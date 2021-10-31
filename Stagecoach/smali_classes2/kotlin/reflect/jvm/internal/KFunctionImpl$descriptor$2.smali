@@ -90,7 +90,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl$descriptor$2;->this$0:Lkotlin/reflect/jvm/internal/KFunctionImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v0
 
@@ -98,11 +98,11 @@
 
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/KFunctionImpl$descriptor$2;->this$0:Lkotlin/reflect/jvm/internal/KFunctionImpl;
 
-    invoke-static {v2}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->o(Lkotlin/reflect/jvm/internal/KFunctionImpl;)Ljava/lang/String;
+    invoke-static {v2}, Lkotlin/reflect/jvm/internal/KFunctionImpl;->p(Lkotlin/reflect/jvm/internal/KFunctionImpl;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->i(Ljava/lang/String;Ljava/lang/String;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-virtual {v0, v1, v2}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->l(Ljava/lang/String;Ljava/lang/String;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object v0
 

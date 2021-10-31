@@ -32,7 +32,7 @@
 .method public abstract k()V
 .end method
 
-.method public abstract l(Lcom/bumptech/glide/load/c;Ljava/lang/Object;Lcom/bumptech/glide/load/i/d;Lcom/bumptech/glide/load/DataSource;Lcom/bumptech/glide/load/c;)V
+.method public abstract o(Lcom/bumptech/glide/load/c;Ljava/lang/Object;Lcom/bumptech/glide/load/i/d;Lcom/bumptech/glide/load/DataSource;Lcom/bumptech/glide/load/c;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

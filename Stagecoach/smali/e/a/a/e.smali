@@ -27,11 +27,11 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->O1(Landroid/os/Bundle;)V
 
     .line 2
     invoke-virtual {p0}, Le/a/a/e;->getReturnUrlScheme()Ljava/lang/String;
@@ -47,7 +47,7 @@
     return-void
 .end method
 
-.method public T2(ILandroid/content/Intent;)V
+.method public W2(ILandroid/content/Intent;)V
     .locals 1
 
     .line 1
@@ -65,20 +65,6 @@
     iget-object p1, p0, Le/a/a/e;->Z:Le/a/a/c;
 
     invoke-virtual {p1, v0, p0}, Le/a/a/c;->j(Le/a/a/g;Landroidx/fragment/app/Fragment;)V
-
-    return-void
-.end method
-
-.method public g2()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
-
-    .line 2
-    iget-object v0, p0, Le/a/a/e;->Z:Le/a/a/c;
-
-    invoke-virtual {v0, p0}, Le/a/a/c;->d(Landroidx/fragment/app/Fragment;)V
 
     return-void
 .end method
@@ -135,4 +121,18 @@
     const/4 v0, 0x0
 
     return-object v0
+.end method
+
+.method public j2()V
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
+
+    .line 2
+    iget-object v0, p0, Le/a/a/e;->Z:Le/a/a/c;
+
+    invoke-virtual {v0, p0}, Le/a/a/c;->d(Landroidx/fragment/app/Fragment;)V
+
+    return-void
 .end method

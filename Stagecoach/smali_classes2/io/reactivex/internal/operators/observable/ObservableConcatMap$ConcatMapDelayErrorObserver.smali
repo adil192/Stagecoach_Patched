@@ -62,10 +62,10 @@
 
 .field final error:Lio/reactivex/internal/util/AtomicThrowable;
 
-.field final mapper:Lio/reactivex/c0/g;
+.field final mapper:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TR;>;>;"
@@ -99,14 +99,14 @@
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/t;Lio/reactivex/c0/g;IZ)V
+.method constructor <init>(Lio/reactivex/t;Lio/reactivex/c0/i;IZ)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/t<",
             "-TR;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TR;>;>;IZ)V"
@@ -120,7 +120,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;->downstream:Lio/reactivex/t;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;->mapper:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;->mapper:Lio/reactivex/c0/i;
 
     .line 4
     iput p3, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;->bufferSize:I
@@ -271,9 +271,9 @@
 
     .line 19
     :try_start_1
-    iget-object v3, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;->mapper:Lio/reactivex/c0/g;
+    iget-object v3, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;->mapper:Lio/reactivex/c0/i;
 
-    invoke-interface {v3, v5}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, v5}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 

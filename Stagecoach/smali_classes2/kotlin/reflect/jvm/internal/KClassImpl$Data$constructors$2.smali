@@ -22,7 +22,7 @@
         "Lkotlin/jvm/b/a<",
         "Ljava/util/List<",
         "+",
-        "Lkotlin/reflect/e<",
+        "Lkotlin/reflect/f<",
         "+TT;>;>;>;"
     }
 .end annotation
@@ -40,7 +40,7 @@
         "",
         "T",
         "",
-        "Lkotlin/reflect/e;",
+        "Lkotlin/reflect/f;",
         "kotlin.jvm.PlatformType",
         "invoke",
         "()Ljava/util/List;",
@@ -91,7 +91,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/reflect/e<",
+            "Lkotlin/reflect/f<",
             "TT;>;>;"
         }
     .end annotation
@@ -101,7 +101,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KClassImpl$Data;->l:Lkotlin/reflect/jvm/internal/KClassImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KClassImpl;->m()Ljava/util/Collection;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KClassImpl;->o()Ljava/util/Collection;
 
     move-result-object v0
 

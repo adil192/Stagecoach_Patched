@@ -56,7 +56,7 @@
 
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 1
+    .locals 7
 
     const-string v0, "customerUuid"
 
@@ -68,7 +68,19 @@
     .line 2
     new-instance v0, Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketQuery$GetQrTicketRequest;
 
-    invoke-direct {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketQuery$GetQrTicketRequest;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    const/4 v4, 0x0
+
+    const/4 v5, 0x4
+
+    const/4 v6, 0x0
+
+    move-object v1, v0
+
+    move-object v2, p1
+
+    move-object v3, p2
+
+    invoke-direct/range {v1 .. v6}, Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketQuery$GetQrTicketRequest;-><init>(Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/internal/f;)V
 
     iput-object v0, p0, Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketQuery;->request:Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketQuery$GetQrTicketRequest;
 

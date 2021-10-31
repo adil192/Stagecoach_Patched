@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->u4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->x4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
 
     return-void
 .end method

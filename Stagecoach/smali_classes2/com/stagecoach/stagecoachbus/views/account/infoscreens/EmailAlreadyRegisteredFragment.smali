@@ -21,40 +21,48 @@
     return-void
 .end method
 
-.method private synthetic X3(Landroid/view/View;)V
+.method private synthetic a4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->d4()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->g4()V
 
     return-void
 .end method
 
-.method private synthetic Z3(Landroid/view/View;)V
+.method private synthetic c4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->W3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->Z3()V
 
     return-void
 .end method
 
-.method private synthetic b4(Landroid/view/View;)V
+.method private synthetic e4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->V3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->Y3()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public C3()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0074
 
@@ -142,7 +150,7 @@
     return-object p1
 .end method
 
-.method V3()V
+.method Y3()V
     .locals 1
 
     .line 1
@@ -163,7 +171,7 @@
     return-void
 .end method
 
-.method W3()V
+.method Z3()V
     .locals 2
 
     .line 1
@@ -193,31 +201,31 @@
     return-void
 .end method
 
-.method public synthetic Y3(Landroid/view/View;)V
+.method public synthetic b4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->X3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->a4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic a4(Landroid/view/View;)V
+.method public synthetic d4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->Z3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->c4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic c4(Landroid/view/View;)V
+.method public synthetic f4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->b4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/infoscreens/EmailAlreadyRegisteredFragment;->e4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method d4()V
+.method g4()V
     .locals 2
 
     .line 1
@@ -247,19 +255,11 @@
     return-void
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     return-void
-.end method
-
-.method public z3()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
 .end method

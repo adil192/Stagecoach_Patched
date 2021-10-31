@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/drawer/h;->a:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->X3(Landroid/view/View;Lcom/stagecoach/stagecoachbus/views/menu/NavItem;)V
+    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->a4(Landroid/view/View;Lcom/stagecoach/stagecoachbus/views/menu/NavItem;)V
 
     return-void
 .end method

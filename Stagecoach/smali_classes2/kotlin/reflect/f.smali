@@ -1,24 +1,39 @@
 .class public interface abstract Lkotlin/reflect/f;
 .super Ljava/lang/Object;
-.source "KProperty.kt"
+.source "KFunction.kt"
 
 # interfaces
-.implements Lkotlin/reflect/g;
-.implements Lkotlin/reflect/h;
+.implements Lkotlin/reflect/b;
+.implements Lkotlin/c;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        "V:",
+        "<R:",
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lkotlin/reflect/g<",
-        "TT;TV;>;",
-        "Ljava/lang/Object<",
-        "TV;>;"
+        "Lkotlin/reflect/b<",
+        "TR;>;",
+        "Lkotlin/c<",
+        "TR;>;"
     }
 .end annotation
+
+
+# virtual methods
+.method public abstract isExternal()Z
+.end method
+
+.method public abstract isInfix()Z
+.end method
+
+.method public abstract isInline()Z
+.end method
+
+.method public abstract isOperator()Z
+.end method
+
+.method public abstract isSuspend()Z
+.end method

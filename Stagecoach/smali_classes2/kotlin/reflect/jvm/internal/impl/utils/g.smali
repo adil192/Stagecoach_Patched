@@ -262,7 +262,7 @@
 
     add-int/2addr p1, v1
 
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/utils/g;->k(I)V
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/utils/g;->j(I)V
 
     return v1
 .end method
@@ -278,7 +278,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/utils/g;->k(I)V
+    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/impl/utils/g;->j(I)V
 
     return-void
 .end method
@@ -455,7 +455,7 @@
     return-object v0
 .end method
 
-.method public k(I)V
+.method public j(I)V
     .locals 0
 
     .line 1

@@ -7,5 +7,5 @@
 
 
 # virtual methods
-.method public abstract O()Z
+.method public abstract K()Z
 .end method

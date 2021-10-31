@@ -312,14 +312,14 @@
     .line 2
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/load/java/components/b;->c:Lkotlin/reflect/jvm/internal/impl/name/b;
 
-    invoke-interface {p2, v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
+    invoke-interface {p2, v0}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
     .line 3
-    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->m()Z
+    invoke-interface {p2}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->j()Z
 
     move-result v1
 
@@ -348,7 +348,7 @@
     if-eqz p1, :cond_2
 
     .line 6
-    invoke-interface {p2, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
+    invoke-interface {p2, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/d;->h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/load/java/structure/a;
 
     move-result-object p1
 

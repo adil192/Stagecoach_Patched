@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract J(Ljava/util/List;II)V
+.method public abstract M(Ljava/util/List;II)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -26,5 +26,5 @@
     .end annotation
 .end method
 
-.method public abstract m1(Landroid/view/View;)V
+.method public abstract p1(Landroid/view/View;)V
 .end method

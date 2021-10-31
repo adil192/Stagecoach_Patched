@@ -7,14 +7,14 @@
 
 
 # virtual methods
-.method public abstract H()Z
+.method public abstract g()Z
 .end method
 
-.method public abstract f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+.method public abstract getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 .end method
 
-.method public abstract k()Z
+.method public abstract isAbstract()Z
 .end method
 
-.method public abstract o()Z
+.method public abstract isFinal()Z
 .end method

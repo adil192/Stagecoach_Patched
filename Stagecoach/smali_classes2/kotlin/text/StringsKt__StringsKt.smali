@@ -1034,7 +1034,7 @@
 
     move-result v1
 
-    invoke-virtual {p4}, Lkotlin/r/a;->l()I
+    invoke-virtual {p4}, Lkotlin/r/a;->k()I
 
     move-result p4
 
@@ -1127,7 +1127,7 @@
 
     move-result v1
 
-    invoke-virtual {p4}, Lkotlin/r/a;->l()I
+    invoke-virtual {p4}, Lkotlin/r/a;->k()I
 
     move-result p4
 
@@ -1419,7 +1419,7 @@
 
     move-result p3
 
-    invoke-virtual {p5}, Lkotlin/r/a;->l()I
+    invoke-virtual {p5}, Lkotlin/r/a;->k()I
 
     move-result p5
 
@@ -1477,7 +1477,7 @@
 
     move-result p3
 
-    invoke-virtual {p5}, Lkotlin/r/a;->l()I
+    invoke-virtual {p5}, Lkotlin/r/a;->k()I
 
     move-result p5
 

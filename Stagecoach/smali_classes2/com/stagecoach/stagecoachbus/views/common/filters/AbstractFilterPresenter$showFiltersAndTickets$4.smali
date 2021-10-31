@@ -103,10 +103,10 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->V()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->Y()V
 
     .line 2
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->P0()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/common/filters/FilterView;->S0()V
 
     return-void
 .end method

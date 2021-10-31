@@ -45,11 +45,11 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->q()Ljava/lang/String;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->r()Ljava/lang/String;
 
     move-result-object v1
 
@@ -83,11 +83,11 @@
     .line 6
     sget-object v1, Lkotlin/reflect/jvm/internal/o;->b:Lkotlin/reflect/jvm/internal/o;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->o()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object v3
 
@@ -145,11 +145,11 @@
     if-eqz p1, :cond_3
 
     .line 11
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v3
 
@@ -180,7 +180,7 @@
     move-result-object p1
 
     .line 14
-    invoke-virtual {v3, v5, p1}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->j(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v5, p1}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/reflect/Method;
 
     move-result-object p1
 
@@ -193,11 +193,11 @@
     if-nez p1, :cond_8
 
     .line 15
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->o()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object p1
 
@@ -207,15 +207,15 @@
 
     if-eqz p1, :cond_6
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->o()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/s;->getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
 
     move-result-object p1
 
@@ -228,11 +228,11 @@
     if-eqz p1, :cond_6
 
     .line 16
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->o()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object p1
 
@@ -246,11 +246,11 @@
 
     if-eqz p1, :cond_5
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->o()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object v0
 
@@ -261,7 +261,7 @@
     if-eqz p1, :cond_5
 
     .line 17
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->k()Z
 
     move-result v0
 
@@ -297,7 +297,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p0
 
@@ -317,11 +317,11 @@
 
     .line 20
     :cond_6
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->p()Ljava/lang/reflect/Field;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->q()Ljava/lang/reflect/Field;
 
     move-result-object p1
 
@@ -346,7 +346,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p0
 
@@ -373,7 +373,7 @@
     if-nez v1, :cond_a
 
     .line 24
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->k()Z
 
     move-result v0
 
@@ -406,7 +406,7 @@
     if-eqz v0, :cond_c
 
     .line 27
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->k()Z
 
     move-result v0
 
@@ -428,7 +428,7 @@
 
     .line 29
     :cond_c
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->k()Z
 
     move-result v0
 
@@ -500,7 +500,7 @@
 
     .line 36
     :goto_2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->k()Z
 
     move-result v0
 
@@ -524,7 +524,7 @@
 
     .line 38
     :goto_3
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->k()Lkotlin/reflect/jvm/internal/impl/descriptors/b0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/impl/descriptors/b0;
 
     move-result-object p0
 
@@ -595,11 +595,11 @@
 
     .line 45
     :goto_4
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->e()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->g()Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;
 
     move-result-object v0
 
@@ -611,7 +611,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v1, p1}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->j(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v1, p1}, Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/reflect/Method;
 
     move-result-object p1
 
@@ -625,7 +625,7 @@
     invoke-static {v0}, Ljava/lang/reflect/Modifier;->isStatic(I)Z
 
     .line 47
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->j()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->k()Z
 
     move-result v0
 
@@ -662,7 +662,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p0
 
@@ -688,7 +688,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p0
 
@@ -727,11 +727,11 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->l()Ljava/lang/Object;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->m()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -799,7 +799,7 @@
 
     check-cast p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->c1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Property;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->V0()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Property;
 
     move-result-object p0
 

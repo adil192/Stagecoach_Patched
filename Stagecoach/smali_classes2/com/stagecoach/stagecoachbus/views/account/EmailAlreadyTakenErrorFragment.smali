@@ -41,7 +41,7 @@
     return-void
 .end method
 
-.method private synthetic f3(Landroid/view/View;)V
+.method private synthetic i3(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -49,13 +49,13 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment$EmailTakenListener;->c()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment$EmailTakenListener;->e()V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic h3(Landroid/view/View;)V
+.method private synthetic k3(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -63,22 +63,22 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment$EmailTakenListener;->k1()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment$EmailTakenListener;->n1()V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic j3(Landroid/view/View;)V
+.method private synthetic m3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method
 
-.method public static l3()Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;
+.method public static o3()Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;
     .locals 1
 
     .line 1
@@ -91,11 +91,11 @@
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0074
 
@@ -163,26 +163,26 @@
     return-object p1
 .end method
 
-.method public synthetic g3(Landroid/view/View;)V
+.method public synthetic j3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->f3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->i3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic i3(Landroid/view/View;)V
+.method public synthetic l3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->h3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->k3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic k3(Landroid/view/View;)V
+.method public synthetic n3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->j3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/EmailAlreadyTakenErrorFragment;->m3(Landroid/view/View;)V
 
     return-void
 .end method

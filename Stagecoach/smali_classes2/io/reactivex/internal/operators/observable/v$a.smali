@@ -1,6 +1,6 @@
 .class final Lio/reactivex/internal/operators/observable/v$a;
 .super Ljava/lang/Object;
-.source "ObservableIgnoreElements.java"
+.source "ObservableHide.java"
 
 # interfaces
 .implements Lio/reactivex/t;
@@ -112,26 +112,41 @@
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
-    .locals 0
+    .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)V"
         }
     .end annotation
 
+    .line 1
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/v$a;->c:Lio/reactivex/t;
+
+    invoke-interface {v0, p1}, Lio/reactivex/t;->onNext(Ljava/lang/Object;)V
+
     return-void
 .end method
 
 .method public onSubscribe(Lio/reactivex/disposables/b;)V
-    .locals 0
+    .locals 1
 
     .line 1
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/v$a;->d:Lio/reactivex/disposables/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/v$a;->d:Lio/reactivex/disposables/b;
+
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lio/reactivex/disposables/b;Lio/reactivex/disposables/b;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
 
     .line 2
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/v$a;->d:Lio/reactivex/disposables/b;
+
+    .line 3
     iget-object p1, p0, Lio/reactivex/internal/operators/observable/v$a;->c:Lio/reactivex/t;
 
     invoke-interface {p1, p0}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
 
+    :cond_0
     return-void
 .end method

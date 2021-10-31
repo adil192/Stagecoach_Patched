@@ -638,7 +638,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/persistence/FailActivatedTicketsDao_Impl$4;-><init>(Lcom/stagecoach/stagecoachbus/persistence/FailActivatedTicketsDao_Impl;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
-    invoke-static {v0}, Lio/reactivex/a;->l(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
+    invoke-static {v0}, Lio/reactivex/a;->k(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
 
     move-result-object p1
 
@@ -821,7 +821,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/persistence/FailActivatedTicketsDao_Impl$3;-><init>(Lcom/stagecoach/stagecoachbus/persistence/FailActivatedTicketsDao_Impl;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 
-    invoke-static {v0}, Lio/reactivex/a;->l(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
+    invoke-static {v0}, Lio/reactivex/a;->k(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
 
     move-result-object p1
 

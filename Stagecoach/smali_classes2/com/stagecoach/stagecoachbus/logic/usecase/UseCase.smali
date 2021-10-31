@@ -89,7 +89,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p3, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p3, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p3
 
@@ -98,12 +98,12 @@
 
     move-result-object v1
 
-    invoke-virtual {p3, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p3, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p3
 
     .line 4
-    invoke-virtual {p3, p1, p2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p3, p1, p2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
@@ -135,7 +135,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -144,12 +144,12 @@
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
     .line 4
-    invoke-virtual {p2, p1}, Lio/reactivex/p;->u0(Lio/reactivex/t;)Lio/reactivex/t;
+    invoke-virtual {p2, p1}, Lio/reactivex/p;->C0(Lio/reactivex/t;)Lio/reactivex/t;
 
     check-cast p1, Lio/reactivex/disposables/b;
 

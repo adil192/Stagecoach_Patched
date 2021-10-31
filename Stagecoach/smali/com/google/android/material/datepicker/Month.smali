@@ -314,7 +314,7 @@
     .line 1
     check-cast p1, Lcom/google/android/material/datepicker/Month;
 
-    invoke-virtual {p0, p1}, Lcom/google/android/material/datepicker/Month;->j(Lcom/google/android/material/datepicker/Month;)I
+    invoke-virtual {p0, p1}, Lcom/google/android/material/datepicker/Month;->o(Lcom/google/android/material/datepicker/Month;)I
 
     move-result p1
 
@@ -410,7 +410,7 @@
     return v0
 .end method
 
-.method public j(Lcom/google/android/material/datepicker/Month;)I
+.method public o(Lcom/google/android/material/datepicker/Month;)I
     .locals 1
 
     .line 1

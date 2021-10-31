@@ -409,7 +409,7 @@
 
     move-object v2, p1
 
-    invoke-interface/range {v0 .. v5}, Lcom/bumptech/glide/load/engine/e$a;->l(Lcom/bumptech/glide/load/c;Ljava/lang/Object;Lcom/bumptech/glide/load/i/d;Lcom/bumptech/glide/load/DataSource;Lcom/bumptech/glide/load/c;)V
+    invoke-interface/range {v0 .. v5}, Lcom/bumptech/glide/load/engine/e$a;->o(Lcom/bumptech/glide/load/c;Ljava/lang/Object;Lcom/bumptech/glide/load/i/d;Lcom/bumptech/glide/load/DataSource;Lcom/bumptech/glide/load/c;)V
 
     return-void
 .end method

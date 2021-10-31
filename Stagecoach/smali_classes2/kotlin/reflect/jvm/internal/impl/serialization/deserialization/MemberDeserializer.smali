@@ -114,7 +114,7 @@
 
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->b1()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/u$a;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->U0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/u$a;
 
     move-result-object v0
 
@@ -439,7 +439,7 @@
 
     if-eqz v0, :cond_10
 
-    invoke-virtual {p4}, Lkotlin/reflect/jvm/internal/impl/types/y;->O0()Ljava/util/List;
+    invoke-virtual {p4}, Lkotlin/reflect/jvm/internal/impl/types/y;->H0()Ljava/util/List;
 
     move-result-object v0
 
@@ -452,7 +452,7 @@
     if-gt v0, v1, :cond_10
 
     .line 19
-    invoke-virtual {p4}, Lkotlin/reflect/jvm/internal/impl/types/y;->O0()Ljava/util/List;
+    invoke-virtual {p4}, Lkotlin/reflect/jvm/internal/impl/types/y;->H0()Ljava/util/List;
 
     move-result-object p4
 
@@ -586,7 +586,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$containsSuspendFunctionType$1;->INSTANCE:Lkotlin/reflect/g;
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$containsSuspendFunctionType$1;->INSTANCE:Lkotlin/reflect/h;
 
     invoke-static {p1, v0}, Lkotlin/reflect/jvm/internal/impl/types/typeUtil/TypeUtilsKt;->c(Lkotlin/reflect/jvm/internal/impl/types/y;Lkotlin/jvm/b/l;)Z
 
@@ -697,7 +697,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->M0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->F0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object v2
 
@@ -832,7 +832,7 @@
     move-object/from16 v9, p9
 
     .line 2
-    invoke-virtual/range {v1 .. v10}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->q1(Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Ljava/util/List;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/y;Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;Ljava/util/Map;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;
+    invoke-virtual/range {v1 .. v10}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->j1(Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Ljava/util/List;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/y;Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;Ljava/util/Map;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;
 
     return-void
 .end method
@@ -1213,7 +1213,7 @@
 
     if-eqz v0, :cond_4
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->L0()Ljava/util/List;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->E0()Ljava/util/List;
 
     move-result-object p1
 
@@ -1457,14 +1457,14 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {v6, v2, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;->o1(Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;
+    invoke-virtual {v6, v2, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;->h1(Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;
 
     .line 11
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 
-    invoke-virtual {v6, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->f1(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+    invoke-virtual {v6, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->Y0(Lkotlin/reflect/jvm/internal/impl/types/y;)V
 
     .line 12
     iget-object v0, v7, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer;->b:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
@@ -1486,7 +1486,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->W0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->P0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
 
     move-result-object v0
 
@@ -1529,7 +1529,7 @@
     const/4 v2, 0x0
 
     .line 14
-    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->h()Ljava/util/List;
+    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->f()Ljava/util/List;
 
     move-result-object v3
 
@@ -1537,7 +1537,7 @@
 
     invoke-static {v3, v0}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->i()Ljava/util/List;
+    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->getTypeParameters()Ljava/util/List;
 
     move-result-object v4
 
@@ -1546,7 +1546,7 @@
     invoke-static {v4, v0}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
-    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->getReturnType()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v5
 
@@ -1567,7 +1567,7 @@
 
     .line 17
     :goto_1
-    invoke-virtual {v9, v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/c;->t1(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)V
+    invoke-virtual {v9, v0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/c;->m1(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)V
 
     return-object v9
 .end method
@@ -1983,7 +1983,7 @@
 
     move-result v0
 
-    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->e1(Z)V
+    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->X0(Z)V
 
     .line 27
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->o:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
@@ -2000,7 +2000,7 @@
 
     move-result v0
 
-    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->b1(Z)V
+    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->U0(Z)V
 
     .line 28
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->r:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
@@ -2017,7 +2017,7 @@
 
     move-result v0
 
-    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->W0(Z)V
+    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->P0(Z)V
 
     .line 29
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->p:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
@@ -2034,7 +2034,7 @@
 
     move-result v0
 
-    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->d1(Z)V
+    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->W0(Z)V
 
     .line 30
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->q:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
@@ -2051,7 +2051,7 @@
 
     move-result v0
 
-    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->h1(Z)V
+    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->a1(Z)V
 
     .line 31
     invoke-virtual {v11, v14}, Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;->g(I)Ljava/lang/Boolean;
@@ -2064,7 +2064,7 @@
 
     move-result v0
 
-    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->g1(Z)V
+    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->Z0(Z)V
 
     .line 32
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->t:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
@@ -2081,7 +2081,7 @@
 
     move-result v0
 
-    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->V0(Z)V
+    invoke-virtual {v13, v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->O0(Z)V
 
     move-object/from16 v0, p0
 
@@ -2123,7 +2123,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v13, v2, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->T0(Lkotlin/reflect/jvm/internal/impl/descriptors/a$a;Ljava/lang/Object;)V
+    invoke-virtual {v13, v2, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->M0(Lkotlin/reflect/jvm/internal/impl/descriptors/a$a;Ljava/lang/Object;)V
 
     :cond_4
     return-object v13
@@ -2556,7 +2556,7 @@
 
     .line 30
     :goto_2
-    invoke-virtual {v13, v3, v4, v5, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->a1(Lkotlin/reflect/jvm/internal/impl/types/y;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;)V
+    invoke-virtual {v13, v3, v4, v5, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->T0(Lkotlin/reflect/jvm/internal/impl/types/y;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;)V
 
     .line 31
     sget-object v2, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->b:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
@@ -2711,7 +2711,7 @@
     xor-int/lit8 v18, v2, 0x1
 
     .line 43
-    invoke-virtual {v13}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
+    invoke-virtual {v13}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
 
     move-result-object v20
 
@@ -2760,11 +2760,11 @@
 
     .line 46
     :goto_4
-    invoke-virtual {v13}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v13}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->getReturnType()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/z;->Q0(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+    invoke-virtual {v1, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/z;->J0(Lkotlin/reflect/jvm/internal/impl/types/y;)V
 
     move-object/from16 v20, v1
 
@@ -2897,7 +2897,7 @@
     xor-int/lit8 v6, v2, 0x1
 
     .line 56
-    invoke-virtual {v13}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
+    invoke-virtual {v13}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/y;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;
 
     move-result-object v9
 
@@ -2989,7 +2989,7 @@
 
     move-object/from16 v4, v21
 
-    invoke-virtual {v4, v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/a0;->R0(Lkotlin/reflect/jvm/internal/impl/descriptors/o0;)V
+    invoke-virtual {v4, v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/a0;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/o0;)V
 
     move-object v3, v4
 
@@ -3067,7 +3067,7 @@
     move-result-object v2
 
     .line 67
-    invoke-virtual {v7, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->G0(Lkotlin/reflect/jvm/internal/impl/storage/i;)V
+    invoke-virtual {v7, v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/h0;->A0(Lkotlin/reflect/jvm/internal/impl/storage/i;)V
 
     .line 68
     :cond_9
@@ -3108,7 +3108,7 @@
     move-object v6, v8
 
     .line 71
-    invoke-virtual/range {v1 .. v6}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->d1(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/z;Lkotlin/reflect/jvm/internal/impl/descriptors/e0;Lkotlin/reflect/jvm/internal/impl/descriptors/q;Lkotlin/reflect/jvm/internal/impl/descriptors/q;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)V
+    invoke-virtual/range {v1 .. v6}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/f;->W0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/z;Lkotlin/reflect/jvm/internal/impl/descriptors/e0;Lkotlin/reflect/jvm/internal/impl/descriptors/q;Lkotlin/reflect/jvm/internal/impl/descriptors/q;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)V
 
     return-object v7
 .end method
@@ -3366,7 +3366,7 @@
     move-result-object v1
 
     .line 18
-    invoke-virtual {v2, v3, v4, v5, v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/h;->Q0(Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/d0;Lkotlin/reflect/jvm/internal/impl/types/d0;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)V
+    invoke-virtual {v2, v3, v4, v5, v1}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/h;->J0(Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/d0;Lkotlin/reflect/jvm/internal/impl/types/d0;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)V
 
     return-object v2
 .end method

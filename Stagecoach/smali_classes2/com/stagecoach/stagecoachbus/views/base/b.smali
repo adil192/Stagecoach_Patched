@@ -32,7 +32,7 @@
 
     check-cast p3, Ljava/lang/Integer;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->c3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Ljava/lang/Integer;Ljava/lang/Integer;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->f3(Lcom/stagecoach/stagecoachbus/utils/framework/ObservableProperty;Ljava/lang/Integer;Ljava/lang/Integer;)V
 
     return-void
 .end method

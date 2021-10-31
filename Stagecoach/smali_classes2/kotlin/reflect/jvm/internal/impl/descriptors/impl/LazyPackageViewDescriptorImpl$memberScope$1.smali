@@ -62,7 +62,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl$memberScope$1;->this$0:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->H()Ljava/util/List;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->D()Ljava/util/List;
 
     move-result-object v0
 
@@ -81,7 +81,7 @@
     :cond_0
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl$memberScope$1;->this$0:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->H()Ljava/util/List;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->D()Ljava/util/List;
 
     move-result-object v0
 
@@ -116,7 +116,7 @@
     check-cast v2, Lkotlin/reflect/jvm/internal/impl/descriptors/w;
 
     .line 8
-    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/w;->o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/w;->l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v2
 
@@ -129,7 +129,7 @@
 
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl$memberScope$1;->this$0:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;
 
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
 
     move-result-object v2
 
@@ -170,7 +170,7 @@
 
     iget-object v3, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl$memberScope$1;->this$0:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;
 
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->R()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/LazyPackageViewDescriptorImpl;->M()Lkotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDescriptorImpl;
 
     move-result-object v3
 

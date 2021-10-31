@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->k(Ljava/util/List;)V
+    value = Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->n(Ljava/util/List;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,13 +36,13 @@
 
 
 # virtual methods
-.method public a(II)Z
+.method public areContentsTheSame(II)Z
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment$2;->b:Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketTicketListViewAdapter;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketTicketListViewAdapter;
 
     move-result-object v0
 
@@ -126,13 +126,13 @@
     return v1
 .end method
 
-.method public b(II)Z
+.method public areItemsTheSame(II)Z
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment$2;->b:Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketTicketListViewAdapter;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketTicketListViewAdapter;
 
     move-result-object v0
 
@@ -236,7 +236,7 @@
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment$2;->b:Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketTicketListViewAdapter;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;->c4(Lcom/stagecoach/stagecoachbus/views/buy/basket/MyBasketFragment;)Lcom/stagecoach/stagecoachbus/views/buy/basket/BasketTicketListViewAdapter;
 
     move-result-object v0
 

@@ -514,7 +514,7 @@
     add-int v5, p3, v15
 
     .line 8
-    invoke-virtual {v0, v10, v5}, Landroidx/recyclerview/widget/h$b;->b(II)Z
+    invoke-virtual {v0, v10, v5}, Landroidx/recyclerview/widget/h$b;->areItemsTheSame(II)Z
 
     move-result v5
 
@@ -688,7 +688,7 @@
     add-int/lit8 v3, v17, -0x1
 
     .line 20
-    invoke-virtual {v0, v13, v3}, Landroidx/recyclerview/widget/h$b;->b(II)Z
+    invoke-virtual {v0, v13, v3}, Landroidx/recyclerview/widget/h$b;->areItemsTheSame(II)Z
 
     move-result v3
 

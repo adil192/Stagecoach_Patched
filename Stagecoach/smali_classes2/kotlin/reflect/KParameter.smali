@@ -2,6 +2,9 @@
 .super Ljava/lang/Object;
 .source "KParameter.kt"
 
+# interfaces
+.implements Lkotlin/reflect/a;
+
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;

@@ -41,13 +41,13 @@
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/b$a;->c:Landroidx/fragment/app/b;
 
-    invoke-static {v0}, Landroidx/fragment/app/b;->U2(Landroidx/fragment/app/b;)Landroid/content/DialogInterface$OnDismissListener;
+    invoke-static {v0}, Landroidx/fragment/app/b;->X2(Landroidx/fragment/app/b;)Landroid/content/DialogInterface$OnDismissListener;
 
     move-result-object v0
 
     iget-object v1, p0, Landroidx/fragment/app/b$a;->c:Landroidx/fragment/app/b;
 
-    invoke-static {v1}, Landroidx/fragment/app/b;->T2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
+    invoke-static {v1}, Landroidx/fragment/app/b;->W2(Landroidx/fragment/app/b;)Landroid/app/Dialog;
 
     move-result-object v1
 

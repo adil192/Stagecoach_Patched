@@ -52,7 +52,7 @@
     return-void
 .end method
 
-.method public static L0(Lio/reactivex/t;)Lio/reactivex/x;
+.method public static U0(Lio/reactivex/t;)Lio/reactivex/x;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -76,7 +76,7 @@
 
 
 # virtual methods
-.method public s0(Lio/reactivex/t;)V
+.method public A0(Lio/reactivex/t;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -89,7 +89,7 @@
     .line 1
     iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleToObservable;->c:Lio/reactivex/z;
 
-    invoke-static {p1}, Lio/reactivex/internal/operators/single/SingleToObservable;->L0(Lio/reactivex/t;)Lio/reactivex/x;
+    invoke-static {p1}, Lio/reactivex/internal/operators/single/SingleToObservable;->U0(Lio/reactivex/t;)Lio/reactivex/x;
 
     move-result-object p1
 

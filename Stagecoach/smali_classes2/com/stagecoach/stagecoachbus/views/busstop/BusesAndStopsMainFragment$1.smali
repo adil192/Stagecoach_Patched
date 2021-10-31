@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->B4()V
+    value = Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->E4()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -86,7 +86,7 @@
     :cond_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->V3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
 
     move-result-object p1
 
@@ -94,7 +94,7 @@
 
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->V3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
 
     move-result-object p1
 
@@ -107,7 +107,7 @@
     .line 3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->V3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
 
     move-result-object v0
 
@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->D4(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->G4(Ljava/util/List;)V
 
     goto :goto_0
 
@@ -127,13 +127,13 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->D4(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->G4(Ljava/util/List;)V
 
     .line 5
     :goto_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
 
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->Y3()V
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->b4()V
 
     goto :goto_1
 
@@ -141,7 +141,7 @@
     :cond_2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
 
-    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->W3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
+    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;)Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;
 
     .line 7
     invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/logic/usecase/livetimes/GetNearbyStopsResults;->getStopUIModels()Ljava/util/List;
@@ -153,7 +153,7 @@
     .line 8
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->D4(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/BusesAndStopsMainFragment;->G4(Ljava/util/List;)V
 
     :cond_3
     :goto_1

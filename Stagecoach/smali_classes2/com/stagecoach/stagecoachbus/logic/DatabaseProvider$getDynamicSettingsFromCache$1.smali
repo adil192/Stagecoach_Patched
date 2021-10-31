@@ -3,7 +3,7 @@
 .source "DatabaseProvider.kt"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Ljava/lang/String;",
         "Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;",
         ">;"
@@ -96,7 +96,7 @@
     const-class v2, Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;
 
     .line 3
-    invoke-virtual {v0, v1, p1, v2}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->L(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
+    invoke-virtual {v0, v1, p1, v2}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->O(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
 
     move-result-object p1
 

@@ -72,7 +72,7 @@
 
     invoke-direct {v1, p0, p1, v0}, Le/b/a/a/a/a/e/a/b/c$a;-><init>(Le/b/a/a/a/a/e/a/b/c;Landroid/content/Context;Landroid/content/IntentFilter;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->j(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->o(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 

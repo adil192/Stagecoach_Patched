@@ -69,7 +69,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor$supertypes$3;->this$0:Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->j()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->k()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
     :goto_1
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor$supertypes$3;->this$0:Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->j()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->k()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
 
     move-result-object v1
 

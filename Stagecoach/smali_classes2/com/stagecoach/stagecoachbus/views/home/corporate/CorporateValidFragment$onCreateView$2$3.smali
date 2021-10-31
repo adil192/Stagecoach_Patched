@@ -102,7 +102,7 @@
 
     iget-object p1, p1, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment$onCreateView$2;->c:Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;
 
-    invoke-virtual {p1}, Landroidx/fragment/app/b;->V2()V
+    invoke-virtual {p1}, Landroidx/fragment/app/b;->Y2()V
 
     return-void
 .end method

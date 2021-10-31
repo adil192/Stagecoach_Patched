@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/b4;->c:Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;
 
-    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->c3(Landroid/content/DialogInterface;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/account/ScanFingerprintEnableDialogFragment;->f3(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

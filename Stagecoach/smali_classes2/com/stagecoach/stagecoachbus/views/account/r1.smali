@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/r1;->c:Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->s4()Lcom/stagecoach/core/model/secureapi/OperationResponse;
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->v4()Lcom/stagecoach/core/model/secureapi/OperationResponse;
 
     move-result-object v0
 

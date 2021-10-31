@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract K0()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public abstract D0()Lkotlin/reflect/jvm/internal/impl/types/y;
 .end method
 
-.method public abstract R()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public abstract M()Lkotlin/reflect/jvm/internal/impl/types/y;
 .end method
 
-.method public abstract d0(Lkotlin/reflect/jvm/internal/impl/types/y;)Z
+.method public abstract Y(Lkotlin/reflect/jvm/internal/impl/types/y;)Z
 .end method

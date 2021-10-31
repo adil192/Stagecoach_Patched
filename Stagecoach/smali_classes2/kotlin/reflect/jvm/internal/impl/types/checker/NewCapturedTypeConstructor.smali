@@ -484,7 +484,7 @@
     return-object v3
 .end method
 
-.method public m()Lkotlin/reflect/jvm/internal/impl/builtins/f;
+.method public j()Lkotlin/reflect/jvm/internal/impl/builtins/f;
     .locals 2
 
     .line 1

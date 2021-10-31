@@ -159,7 +159,7 @@
     if-eqz v4, :cond_1
 
     .line 6
-    invoke-virtual {v3}, Landroidx/fragment/app/Fragment;->S2()V
+    invoke-virtual {v3}, Landroidx/fragment/app/Fragment;->V2()V
 
     goto :goto_1
 

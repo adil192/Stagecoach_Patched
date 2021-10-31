@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lokhttp3/s;->l(I)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lokhttp3/s;->k(I)Ljava/lang/String;
 
     move-result-object p1
 

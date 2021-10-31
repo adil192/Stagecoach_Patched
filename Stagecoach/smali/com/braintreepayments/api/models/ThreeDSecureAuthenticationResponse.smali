@@ -368,7 +368,7 @@
     .line 14
     :cond_3
     :goto_2
-    invoke-virtual {p1}, Lcom/braintreepayments/api/models/CardNonce;->j()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
+    invoke-virtual {p1}, Lcom/braintreepayments/api/models/CardNonce;->l()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
 
     move-result-object p0
 

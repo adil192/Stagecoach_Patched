@@ -126,7 +126,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->b([Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->c([Ljava/lang/Object;)V
 
     .line 2
     invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/calls/c;->getMember()Ljava/lang/reflect/Member;

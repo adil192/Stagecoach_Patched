@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final a(Lkotlin/reflect/jvm/internal/impl/storage/h;Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+.method public static final a(Lkotlin/reflect/jvm/internal/impl/storage/h;Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -14,7 +14,7 @@
             "Lkotlin/reflect/jvm/internal/impl/storage/h<",
             "+TT;>;",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)TT;"
         }
     .end annotation
@@ -35,7 +35,7 @@
     return-object p0
 .end method
 
-.method public static final b(Lkotlin/reflect/jvm/internal/impl/storage/i;Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+.method public static final b(Lkotlin/reflect/jvm/internal/impl/storage/i;Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -45,7 +45,7 @@
             "Lkotlin/reflect/jvm/internal/impl/storage/i<",
             "+TT;>;",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)TT;"
         }
     .end annotation

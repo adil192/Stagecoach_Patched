@@ -48,7 +48,7 @@
     iput-boolean p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/NoMethodDefinedSection;->c:Z
 
     .line 3
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object p1
 
@@ -255,7 +255,7 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/d;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/button/d;
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -268,11 +268,11 @@
 
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/c;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/button/c;
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->Z(Lio/reactivex/s;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->h0(Lio/reactivex/s;)Lio/reactivex/p;
 
     move-result-object v0
 

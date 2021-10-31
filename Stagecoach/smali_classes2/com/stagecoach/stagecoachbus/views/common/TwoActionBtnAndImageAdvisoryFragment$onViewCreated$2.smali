@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/common/TwoActionBtnAndImageAdvisoryFragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    value = Lcom/stagecoach/stagecoachbus/views/common/TwoActionBtnAndImageAdvisoryFragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public final L0()Lio/reactivex/subjects/c;
+.method public final U0()Lio/reactivex/subjects/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

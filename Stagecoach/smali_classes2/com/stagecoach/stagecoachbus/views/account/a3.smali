@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/a3;->c:Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->Z3()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->c4()Ljava/util/List;
 
     move-result-object v0
 

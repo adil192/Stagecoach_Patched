@@ -42,18 +42,18 @@
 
 
 # virtual methods
-.method public bridge synthetic O()Ljava/lang/reflect/Type;
+.method public bridge synthetic J()Ljava/lang/reflect/Type;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/t;->P()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/t;->K()Ljava/lang/Class;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method protected P()Ljava/lang/Class;
+.method protected K()Ljava/lang/Class;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -73,7 +73,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/t;->P()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/t;->K()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -91,7 +91,7 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/t;->P()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/t;->K()Ljava/lang/Class;
 
     move-result-object v0
 

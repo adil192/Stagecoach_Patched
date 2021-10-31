@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->X3(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqDetailsFragment;->a4(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
 
     move-result-object p1
 

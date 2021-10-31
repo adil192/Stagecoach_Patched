@@ -16,7 +16,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->t()Ljava/util/List;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Ljava/util/List;
 
     move-result-object v0
 
@@ -24,7 +24,7 @@
 
     move-result v0
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->t()Ljava/util/List;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Ljava/util/List;
 
     move-result-object v1
 
@@ -36,7 +36,7 @@
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/types/p0;->b:Lkotlin/reflect/jvm/internal/impl/types/p0$a;
 
     .line 3
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->t()Ljava/util/List;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Ljava/util/List;
 
     move-result-object p0
 
@@ -75,7 +75,7 @@
     check-cast v3, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
 
     .line 7
-    invoke-interface {v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v3}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v3
 
@@ -85,7 +85,7 @@
 
     .line 8
     :cond_0
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->t()Ljava/util/List;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Ljava/util/List;
 
     move-result-object p0
 
@@ -126,7 +126,7 @@
     .line 12
     invoke-static {v2, v3}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {v2}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v2
 

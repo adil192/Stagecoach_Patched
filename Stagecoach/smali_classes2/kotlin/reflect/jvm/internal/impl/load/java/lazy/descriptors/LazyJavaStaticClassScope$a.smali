@@ -91,7 +91,7 @@
 
     .line 2
     :cond_0
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->T()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->O()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object p1
 

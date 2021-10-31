@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->C4()V
+    value = Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->F4()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -38,7 +38,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;
 
-    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->K2()Landroidx/fragment/app/c;
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->N2()Landroidx/fragment/app/c;
 
     move-result-object p1
 

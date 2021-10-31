@@ -30,10 +30,10 @@
     .end annotation
 .end field
 
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/e;",
             ">;"
@@ -43,14 +43,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/o;Lio/reactivex/c0/g;)V
+.method public constructor <init>(Lio/reactivex/o;Lio/reactivex/c0/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/o<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/e;",
             ">;)V"
@@ -64,22 +64,22 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable;->c:Lio/reactivex/o;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable;->d:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable;->d:Lio/reactivex/c0/i;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected t(Lio/reactivex/c;)V
+.method protected s(Lio/reactivex/c;)V
     .locals 2
 
     .line 1
     new-instance v0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable$FlatMapCompletableObserver;
 
-    iget-object v1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable;->d:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable;->d:Lio/reactivex/c0/i;
 
-    invoke-direct {v0, p1, v1}, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable$FlatMapCompletableObserver;-><init>(Lio/reactivex/c;Lio/reactivex/c0/g;)V
+    invoke-direct {v0, p1, v1}, Lio/reactivex/internal/operators/maybe/MaybeFlatMapCompletable$FlatMapCompletableObserver;-><init>(Lio/reactivex/c;Lio/reactivex/c0/i;)V
 
     .line 2
     invoke-interface {p1, v0}, Lio/reactivex/c;->onSubscribe(Lio/reactivex/disposables/b;)V

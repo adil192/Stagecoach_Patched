@@ -312,7 +312,7 @@
 
     iget-object p3, v0, Landroidx/fragment/app/Fragment;->d:Landroid/os/Bundle;
 
-    invoke-virtual {v0, p1, p4, p3}, Landroidx/fragment/app/Fragment;->X1(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1, p4, p3}, Landroidx/fragment/app/Fragment;->a2(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
 
     .line 31
     iget-object p1, p0, Landroidx/fragment/app/j;->c:Landroidx/fragment/app/l;
@@ -349,7 +349,7 @@
 
     iget-object p3, v0, Landroidx/fragment/app/Fragment;->d:Landroid/os/Bundle;
 
-    invoke-virtual {v0, p1, p4, p3}, Landroidx/fragment/app/Fragment;->X1(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1, p4, p3}, Landroidx/fragment/app/Fragment;->a2(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
 
     .line 37
     :goto_3

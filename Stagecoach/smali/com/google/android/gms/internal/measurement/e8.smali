@@ -784,12 +784,12 @@
 
     .line 6
     :cond_2
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/e8;->j()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/e8;->k()I
 
     move-result v2
 
     .line 7
-    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/e8;->j()I
+    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/e8;->k()I
 
     move-result v4
 
@@ -928,7 +928,7 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/e8;->j()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/e8;->k()I
 
     move-result v0
 
@@ -990,7 +990,7 @@
     return v0
 .end method
 
-.method public final j()I
+.method public final k()I
     .locals 1
 
     .line 1

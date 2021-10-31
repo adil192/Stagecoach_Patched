@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -85,18 +85,18 @@
     if-nez v2, :cond_2
 
     .line 6
-    invoke-static {v0, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->V3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;Z)V
+    invoke-static {v0, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;Z)V
 
     return-void
 
     .line 7
     :cond_2
-    invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->V3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;Z)V
+    invoke-static {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;Z)V
 
     .line 8
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->W3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
 
     move-result-object v0
 
@@ -108,7 +108,7 @@
 
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;
 
-    invoke-static {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->W3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+    invoke-static {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
 
     move-result-object v2
 
@@ -125,7 +125,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->A4(Ljava/lang/String;Z)V
+    invoke-virtual {v0, p1, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->D4(Ljava/lang/String;Z)V
 
     goto :goto_1
 
@@ -133,7 +133,7 @@
     :cond_3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;
 
-    invoke-static {p1, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->X3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;Z)V
+    invoke-static {p1, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->a4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;Z)V
 
     .line 11
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;
@@ -143,7 +143,7 @@
     if-eqz v0, :cond_4
 
     .line 12
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/NoResultsFoundHeaderView;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->b4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/NoResultsFoundHeaderView;
 
     move-result-object p1
 

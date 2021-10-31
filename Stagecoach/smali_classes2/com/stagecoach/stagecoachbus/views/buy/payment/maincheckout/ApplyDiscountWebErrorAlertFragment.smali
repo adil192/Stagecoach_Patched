@@ -40,25 +40,25 @@
     return-void
 .end method
 
-.method private synthetic f3(Landroid/view/View;)V
+.method private synthetic i3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->l3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->o3()V
 
     return-void
 .end method
 
-.method private synthetic h3(Landroid/view/View;)V
+.method private synthetic k3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->k3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->n3()V
 
     return-void
 .end method
 
-.method public static j3(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;
+.method public static m3(Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;
     .locals 2
 
     .line 1
@@ -89,11 +89,11 @@
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0065
 
@@ -202,41 +202,41 @@
     return-object p1
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->j2()V
 
     return-void
 .end method
 
-.method public synthetic g3(Landroid/view/View;)V
+.method public synthetic j3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->f3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->i3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic i3(Landroid/view/View;)V
+.method public synthetic l3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->h3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/maincheckout/ApplyDiscountWebErrorAlertFragment;->k3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public k3()V
+.method public n3()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method
 
-.method public l3()V
+.method public o3()V
     .locals 6
 
     .line 1
@@ -270,7 +270,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-virtual {p0, v2, v3}, Landroidx/fragment/app/Fragment;->z1(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, v2, v3}, Landroidx/fragment/app/Fragment;->C1(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -290,11 +290,11 @@
     if-eqz v0, :cond_0
 
     .line 5
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->P2(Landroid/content/Intent;)V
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->S2(Landroid/content/Intent;)V
 
     .line 6
     :cond_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->c3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->f3()V
 
     return-void
 .end method

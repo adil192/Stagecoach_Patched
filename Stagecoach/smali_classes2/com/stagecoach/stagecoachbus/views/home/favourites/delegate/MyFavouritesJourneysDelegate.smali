@@ -99,7 +99,7 @@
 
     const v2, 0x7f1102d3
 
-    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -157,12 +157,12 @@
     if-eqz v0, :cond_1
 
     .line 5
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->t3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->w3()V
 
     .line 6
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/delegate/MyFavouritesJourneysDelegate;->b:Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->v4(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->y4(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)V
 
     goto :goto_0
 
@@ -170,7 +170,7 @@
     :cond_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/delegate/MyFavouritesJourneysDelegate;->b:Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;
 
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->E3()V
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->H3()V
 
     :cond_1
     :goto_0
@@ -203,7 +203,7 @@
     const v2, 0x7f11031a
 
     .line 3
-    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -220,7 +220,7 @@
     const v1, 0x7f1100c3
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 

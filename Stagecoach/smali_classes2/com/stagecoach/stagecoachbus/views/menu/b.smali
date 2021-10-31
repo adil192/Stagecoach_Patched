@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/b;->a:Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->r3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/menu/FeedbackFragment;->u3()V
 
     return-void
 .end method

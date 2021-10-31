@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/jvm/internal/impl/descriptors/impl/AbstractTypeAliasDescriptor;->R()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    value = Lkotlin/reflect/jvm/internal/impl/descriptors/impl/AbstractTypeAliasDescriptor;->M()Lkotlin/reflect/jvm/internal/impl/types/d0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -71,7 +71,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object p1
 

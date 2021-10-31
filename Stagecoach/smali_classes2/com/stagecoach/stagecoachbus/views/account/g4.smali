@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/g4;->a:Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->V3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->Y3()V
 
     return-void
 .end method

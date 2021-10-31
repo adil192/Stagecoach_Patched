@@ -226,7 +226,7 @@
     :cond_0
     new-instance p1, Ljava/util/Date;
 
-    invoke-virtual {p0}, Lcom/google/gson/i;->l()J
+    invoke-virtual {p0}, Lcom/google/gson/i;->k()J
 
     move-result-wide v0
 

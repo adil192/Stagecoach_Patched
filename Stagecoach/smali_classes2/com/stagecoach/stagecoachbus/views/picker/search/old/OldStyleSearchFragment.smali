@@ -105,16 +105,80 @@
     return-void
 .end method
 
-.method static synthetic V3(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;Z)V
-    .locals 0
+.method private B4(Z)V
+    .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->z4(Z)V
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->L0:Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
+
+    const v1, 0x7f110363
+
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 2
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->K0:Landroid/widget/LinearLayout;
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    const/16 p1, 0x8
+
+    :goto_0
+    invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
     return-void
 .end method
 
-.method static synthetic W3(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+.method private C4(Z)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->L0:Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
+
+    const v1, 0x7f110364
+
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 2
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->K0:Landroid/widget/LinearLayout;
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    const/16 p1, 0x8
+
+    :goto_0
+    invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->setVisibility(I)V
+
+    return-void
+.end method
+
+.method static synthetic Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;Z)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->C4(Z)V
+
+    return-void
+.end method
+
+.method static synthetic Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
     .locals 0
 
     .line 1
@@ -123,16 +187,16 @@
     return-object p0
 .end method
 
-.method static synthetic X3(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;Z)V
+.method static synthetic a4(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;Z)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->y4(Z)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->B4(Z)V
 
     return-void
 .end method
 
-.method static synthetic Y3(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/NoResultsFoundHeaderView;
+.method static synthetic b4(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)Lcom/stagecoach/stagecoachbus/views/picker/search/NoResultsFoundHeaderView;
     .locals 0
 
     .line 1
@@ -141,7 +205,7 @@
     return-object p0
 .end method
 
-.method private Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method private c4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 1
 
     .line 1
@@ -154,18 +218,18 @@
     return-void
 .end method
 
-.method private synthetic a4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method private synthetic d4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 1
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->J(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->K(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     return-void
 .end method
 
-.method private synthetic c4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+.method private synthetic f4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
     .locals 2
 
     const/4 v0, 0x0
@@ -199,25 +263,25 @@
 
     move-result-object p1
 
-    invoke-virtual {p0, p1, v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->A4(Ljava/lang/String;Z)V
+    invoke-virtual {p0, p1, v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->D4(Ljava/lang/String;Z)V
 
     .line 3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->F0:Landroid/widget/EditText;
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->a3(Landroid/view/View;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->d3(Landroid/view/View;)V
 
     const/4 p1, 0x1
 
     return p1
 .end method
 
-.method private synthetic e4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method private synthetic h4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 1
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->F0:Landroid/widget/EditText;
 
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->a3(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->d3(Landroid/view/View;)V
 
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
@@ -227,18 +291,18 @@
     .line 3
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
 
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->J(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->K(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     return-void
 .end method
 
-.method private synthetic g4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method private synthetic j4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 1
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->F0:Landroid/widget/EditText;
 
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->a3(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->d3(Landroid/view/View;)V
 
     if-eqz p1, :cond_0
 
@@ -260,7 +324,7 @@
     return-void
 .end method
 
-.method private synthetic i4(Ljava/util/List;)V
+.method private synthetic l4(Ljava/util/List;)V
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -289,7 +353,7 @@
     return-void
 .end method
 
-.method static synthetic k4(Ljava/lang/Throwable;)V
+.method static synthetic n4(Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -309,7 +373,7 @@
     return-void
 .end method
 
-.method private synthetic l4()V
+.method private synthetic o4()V
     .locals 3
 
     .line 1
@@ -347,13 +411,13 @@
     if-eqz v0, :cond_0
 
     .line 3
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->w4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->z4()V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic n4()V
+.method private synthetic q4()V
     .locals 1
 
     .line 1
@@ -367,7 +431,7 @@
     return-void
 .end method
 
-.method private synthetic p4(Ljava/lang/Throwable;)V
+.method private synthetic s4(Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -387,27 +451,9 @@
     const/4 p1, 0x1
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->y4(Z)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->B4(Z)V
 
     return-void
-.end method
-
-.method private synthetic r4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
-    .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->Q0:Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;
-
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;->X(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
-
-    move-result-object p1
-
-    return-object p1
 .end method
 
 .method private setSuggestions(Ljava/util/List;)V
@@ -443,7 +489,7 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->y4(Z)V
+    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->B4(Z)V
 
     goto :goto_0
 
@@ -495,7 +541,7 @@
 
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/n;-><init>(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)V
 
-    invoke-static {v0}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -504,7 +550,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -513,7 +559,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -524,17 +570,35 @@
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/picker/search/old/i;->c:Lcom/stagecoach/stagecoachbus/views/picker/search/old/i;
 
     .line 4
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method
 
-.method private synthetic t4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
+.method private synthetic u4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->Q0:Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;
+
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/TisServiceManager;->X(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method private synthetic w4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
     .locals 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -613,12 +677,12 @@
     const/4 p1, 0x1
 
     .line 10
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->y4(Z)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->B4(Z)V
 
     return-void
 .end method
 
-.method public static v4(Ljava/lang/String;Z)Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;
+.method public static y4(Ljava/lang/String;Z)Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;
     .locals 2
 
     .line 1
@@ -647,7 +711,7 @@
     return-object p0
 .end method
 
-.method private w4()V
+.method private z4()V
     .locals 8
 
     .line 1
@@ -727,7 +791,7 @@
     const v0, 0x7f110112
 
     .line 12
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -742,7 +806,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->J(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->K(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     goto :goto_1
 
@@ -750,80 +814,364 @@
     const v0, 0x7f11035c
 
     .line 15
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     :cond_2
     :goto_1
     return-void
 .end method
 
-.method private y4(Z)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->L0:Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
-
-    const v1, 0x7f110363
-
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    .line 2
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->K0:Landroid/widget/LinearLayout;
-
-    if-eqz p1, :cond_0
-
-    const/4 p1, 0x0
-
-    goto :goto_0
-
-    :cond_0
-    const/16 p1, 0x8
-
-    :goto_0
-    invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->setVisibility(I)V
-
-    return-void
-.end method
-
-.method private z4(Z)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->L0:Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
-
-    const v1, 0x7f110364
-
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    .line 2
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->K0:Landroid/widget/LinearLayout;
-
-    if-eqz p1, :cond_0
-
-    const/4 p1, 0x0
-
-    goto :goto_0
-
-    :cond_0
-    const/16 p1, 0x8
-
-    :goto_0
-    invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->setVisibility(I)V
-
-    return-void
-.end method
-
 
 # virtual methods
-.method A4(Ljava/lang/String;Z)V
+.method public A4()Ljava/util/List;
+    .locals 9
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 2
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->z()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 3
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
+
+    invoke-direct {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
+
+    const v2, 0x7f1103ed
+
+    .line 4
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
+
+    const v2, 0x7f080247
+
+    .line 5
+    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setIconResId(I)V
+
+    .line 6
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/picker/search/old/d;
+
+    invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/d;-><init>(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)V
+
+    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setCallback(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;)V
+
+    .line 7
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 8
+    :cond_0
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+
+    if-eqz v1, :cond_3
+
+    invoke-interface {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->x()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_3
+
+    .line 9
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->O0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
+
+    const-string v2, "favourite_home"
+
+    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->f(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;
+
+    move-result-object v1
+
+    .line 10
+    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->O0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
+
+    const-string v3, "favourite_work"
+
+    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->f(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;
+
+    move-result-object v2
+
+    if-nez v1, :cond_1
+
+    if-eqz v2, :cond_3
+
+    .line 11
+    :cond_1
+    new-instance v3, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
+
+    invoke-direct {v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
+
+    const v4, 0x7f110254
+
+    .line 12
+    invoke-virtual {p0, v4}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
+
+    .line 13
+    sget-object v4, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;->HEADER:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;
+
+    invoke-virtual {v3, v4}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setType(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;)V
+
+    .line 14
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x1
+
+    if-eqz v1, :cond_2
+
+    .line 15
+    new-instance v5, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
+
+    invoke-direct {v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
+
+    const v6, 0x7f1101c9
+
+    .line 16
+    invoke-virtual {p0, v6}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
+
+    const v6, 0x7f080249
+
+    .line 17
+    invoke-virtual {v5, v6}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setIconResId(I)V
+
+    .line 18
+    new-instance v6, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
+
+    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;->getScLocation()Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
+
+    move-result-object v1
+
+    invoke-direct {v6, v1}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;-><init>(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+
+    .line 19
+    invoke-virtual {v6}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v5, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setAddress(Ljava/lang/String;)V
+
+    const v1, 0x7f1101ca
+
+    .line 20
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-array v7, v4, [Ljava/lang/Object;
+
+    invoke-virtual {v6}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
+
+    move-result-object v8
+
+    aput-object v8, v7, v3
+
+    invoke-static {v1, v7}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v6, v1}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->setName(Ljava/lang/String;)V
+
+    .line 21
+    invoke-virtual {v5, v6}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setScLocation(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+
+    .line 22
+    invoke-direct {p0, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->c4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+
+    .line 23
+    invoke-interface {v0, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :cond_2
+    if-eqz v2, :cond_3
+
+    .line 24
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
+
+    invoke-direct {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
+
+    const v5, 0x7f110445
+
+    .line 25
+    invoke-virtual {p0, v5}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v1, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
+
+    const v5, 0x7f08024c
+
+    .line 26
+    invoke-virtual {v1, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setIconResId(I)V
+
+    .line 27
+    new-instance v5, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
+
+    invoke-virtual {v2}, Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;->getScLocation()Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
+
+    move-result-object v2
+
+    invoke-direct {v5, v2}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;-><init>(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+
+    .line 28
+    invoke-virtual {v5}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setAddress(Ljava/lang/String;)V
+
+    const v2, 0x7f110446
+
+    .line 29
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    new-array v4, v4, [Ljava/lang/Object;
+
+    invoke-virtual {v5}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    aput-object v6, v4, v3
+
+    invoke-static {v2, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v5, v2}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->setName(Ljava/lang/String;)V
+
+    .line 30
+    invoke-virtual {v1, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setScLocation(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+
+    .line 31
+    invoke-direct {p0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->c4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+
+    .line 32
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :cond_3
+    const/4 v1, 0x0
+
+    .line 33
+    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+
+    if-eqz v2, :cond_4
+
+    .line 34
+    invoke-interface {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->getSearchHistoryElements()Ljava/util/List;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_4
+
+    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+
+    invoke-interface {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->getSearchHistoryElements()Ljava/util/List;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v2
+
+    if-lez v2, :cond_4
+
+    .line 35
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+
+    invoke-interface {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->getSearchHistoryElements()Ljava/util/List;
+
+    move-result-object v1
+
+    :cond_4
+    if-eqz v1, :cond_5
+
+    .line 36
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v2
+
+    if-lez v2, :cond_5
+
+    .line 37
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
+
+    invoke-direct {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
+
+    const v3, 0x7f11030c
+
+    .line 38
+    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
+
+    .line 39
+    sget-object v3, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;->HEADER:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;
+
+    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setType(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;)V
+
+    const v3, 0x7f1100da
+
+    .line 40
+    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setExtraName(Ljava/lang/String;)V
+
+    .line 41
+    new-instance v3, Lcom/stagecoach/stagecoachbus/views/picker/search/old/a;
+
+    invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/a;-><init>(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)V
+
+    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setExtraCallback(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;)V
+
+    .line 42
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 43
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v2
+
+    if-lez v2, :cond_5
+
+    .line 44
+    invoke-interface {v0, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+
+    :cond_5
+    return-object v0
+.end method
+
+.method D4(Ljava/lang/String;Z)V
     .locals 7
 
     .line 1
@@ -854,7 +1202,7 @@
 
     invoke-direct {p2, p0, v6}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/c;-><init>(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)V
 
-    invoke-static {p2}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {p2}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -863,7 +1211,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v0}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -872,7 +1220,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {p2, v0}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object p2
 
@@ -885,7 +1233,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/g;-><init>(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)V
 
     .line 5
-    invoke-virtual {p2, v0, v1}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p2, v0, v1}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p2
 
@@ -895,7 +1243,7 @@
     return-void
 .end method
 
-.method B4(Ljava/lang/String;Z)V
+.method E4(Ljava/lang/String;Z)V
     .locals 3
 
     .line 1
@@ -925,17 +1273,17 @@
     if-eqz v0, :cond_1
 
     .line 3
-    invoke-virtual {p0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->A4(Ljava/lang/String;Z)V
+    invoke-virtual {p0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->D4(Ljava/lang/String;Z)V
 
     :cond_1
     return-void
 .end method
 
-.method public F1(Landroid/os/Bundle;)V
+.method public I1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->F1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->I1(Landroid/os/Bundle;)V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getParentFragment()Landroidx/fragment/app/Fragment;
@@ -981,14 +1329,14 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -997,11 +1345,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 8
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c00d0
 
@@ -1361,59 +1709,36 @@
     return-object p1
 .end method
 
-.method public b2()V
+.method public e2()V
     .locals 1
 
     .line 1
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->F0:Landroid/widget/EditText;
 
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->a3(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->d3(Landroid/view/View;)V
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->b2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->e2()V
 
     return-void
 .end method
 
-.method public synthetic b4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method public synthetic e4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->a4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->d4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     return-void
 .end method
 
-.method public synthetic d4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+.method public synthetic g4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
     .locals 0
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->c4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+    invoke-direct {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->f4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
 
     move-result p1
 
     return p1
-.end method
-
-.method public synthetic f4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->e4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
-
-    return-void
-.end method
-
-.method public g2()V
-    .locals 0
-
-    .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
-
-    .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->M3()V
-
-    .line 3
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->setUpHistory()V
-
-    return-void
 .end method
 
 .method public getGoogleTagName()Ljava/lang/String;
@@ -1425,68 +1750,59 @@
     return-object v0
 .end method
 
-.method public synthetic h4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method public synthetic i4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->g4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->h4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     return-void
 .end method
 
-.method public synthetic j4(Ljava/util/List;)V
+.method public j2()V
     .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->i4(Ljava/util/List;)V
-
-    return-void
-.end method
-
-.method public synthetic m4()V
-    .locals 0
-
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->l4()V
-
-    return-void
-.end method
-
-.method public synthetic o4()V
-    .locals 0
-
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->n4()V
-
-    return-void
-.end method
-
-.method public synthetic q4(Ljava/lang/Throwable;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->p4(Ljava/lang/Throwable;)V
-
-    return-void
-.end method
-
-.method public r3()V
-    .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->F0:Landroid/widget/EditText;
-
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->a3(Landroid/view/View;)V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->r3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()V
+
+    .line 3
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->setUpHistory()V
 
     return-void
 .end method
 
-.method public synthetic s4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
+.method public synthetic k4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->r4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->j4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
-    move-result-object p1
+    return-void
+.end method
 
-    return-object p1
+.method public synthetic m4(Ljava/util/List;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->l4(Ljava/util/List;)V
+
+    return-void
+.end method
+
+.method public synthetic p4()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->o4()V
+
+    return-void
+.end method
+
+.method public synthetic r4()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->q4()V
+
+    return-void
 .end method
 
 .method public setSearchDelegate(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;)V
@@ -1498,358 +1814,42 @@
     return-void
 .end method
 
-.method public synthetic u4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
+.method public synthetic t4(Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->t4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->s4(Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method public x4()Ljava/util/List;
-    .locals 9
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;",
-            ">;"
-        }
-    .end annotation
+.method public u3()V
+    .locals 1
 
     .line 1
-    new-instance v0, Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->F0:Landroid/widget/EditText;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->d3(Landroid/view/View;)V
 
     .line 2
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3()V
 
-    if-eqz v1, :cond_0
+    return-void
+.end method
 
-    invoke-interface {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->y()Z
+.method public synthetic v4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
+    .locals 0
 
-    move-result v1
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->u4(Lcom/stagecoach/stagecoachbus/model/location/LocationQuery;)Lcom/stagecoach/stagecoachbus/model/location/LocationResults;
 
-    if-eqz v1, :cond_0
+    move-result-object p1
 
-    .line 3
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
+    return-object p1
+.end method
 
-    invoke-direct {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
+.method public synthetic x4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
+    .locals 0
 
-    const v2, 0x7f1103ed
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->w4(Lcom/stagecoach/stagecoachbus/model/location/LocationResults;)V
 
-    .line 4
-    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
-
-    const v2, 0x7f080247
-
-    .line 5
-    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setIconResId(I)V
-
-    .line 6
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/picker/search/old/d;
-
-    invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/d;-><init>(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)V
-
-    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setCallback(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;)V
-
-    .line 7
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 8
-    :cond_0
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
-
-    if-eqz v1, :cond_3
-
-    invoke-interface {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->w()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_3
-
-    .line 9
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->O0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
-
-    const-string v2, "favourite_home"
-
-    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->f(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;
-
-    move-result-object v1
-
-    .line 10
-    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->O0:Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;
-
-    const-string v3, "favourite_work"
-
-    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/logic/FavouritesManager;->f(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;
-
-    move-result-object v2
-
-    if-nez v1, :cond_1
-
-    if-eqz v2, :cond_3
-
-    .line 11
-    :cond_1
-    new-instance v3, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
-
-    invoke-direct {v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
-
-    const v4, 0x7f110254
-
-    .line 12
-    invoke-virtual {p0, v4}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v3, v4}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
-
-    .line 13
-    sget-object v4, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;->HEADER:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;
-
-    invoke-virtual {v3, v4}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setType(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;)V
-
-    .line 14
-    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    const/4 v3, 0x0
-
-    const/4 v4, 0x1
-
-    if-eqz v1, :cond_2
-
-    .line 15
-    new-instance v5, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
-
-    invoke-direct {v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
-
-    const v6, 0x7f1101c9
-
-    .line 16
-    invoke-virtual {p0, v6}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-virtual {v5, v6}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
-
-    const v6, 0x7f080249
-
-    .line 17
-    invoke-virtual {v5, v6}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setIconResId(I)V
-
-    .line 18
-    new-instance v6, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
-
-    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;->getScLocation()Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
-
-    move-result-object v1
-
-    invoke-direct {v6, v1}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;-><init>(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
-
-    .line 19
-    invoke-virtual {v6}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v5, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setAddress(Ljava/lang/String;)V
-
-    const v1, 0x7f1101ca
-
-    .line 20
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    new-array v7, v4, [Ljava/lang/Object;
-
-    invoke-virtual {v6}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
-
-    move-result-object v8
-
-    aput-object v8, v7, v3
-
-    invoke-static {v1, v7}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v6, v1}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->setName(Ljava/lang/String;)V
-
-    .line 21
-    invoke-virtual {v5, v6}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setScLocation(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
-
-    .line 22
-    invoke-direct {p0, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
-
-    .line 23
-    invoke-interface {v0, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    :cond_2
-    if-eqz v2, :cond_3
-
-    .line 24
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
-
-    invoke-direct {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
-
-    const v5, 0x7f110445
-
-    .line 25
-    invoke-virtual {p0, v5}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v1, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
-
-    const v5, 0x7f08024c
-
-    .line 26
-    invoke-virtual {v1, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setIconResId(I)V
-
-    .line 27
-    new-instance v5, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
-
-    invoke-virtual {v2}, Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteLocation;->getScLocation()Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
-
-    move-result-object v2
-
-    invoke-direct {v5, v2}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;-><init>(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
-
-    .line 28
-    invoke-virtual {v5}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setAddress(Ljava/lang/String;)V
-
-    const v2, 0x7f110446
-
-    .line 29
-    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    new-array v4, v4, [Ljava/lang/Object;
-
-    invoke-virtual {v5}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->getName()Ljava/lang/String;
-
-    move-result-object v6
-
-    aput-object v6, v4, v3
-
-    invoke-static {v2, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v5, v2}, Lcom/stagecoach/stagecoachbus/model/common/SCLocation;->setName(Ljava/lang/String;)V
-
-    .line 30
-    invoke-virtual {v1, v5}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setScLocation(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
-
-    .line 31
-    invoke-direct {p0, v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
-
-    .line 32
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    :cond_3
-    const/4 v1, 0x0
-
-    .line 33
-    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
-
-    if-eqz v2, :cond_4
-
-    .line 34
-    invoke-interface {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->getSearchHistoryElements()Ljava/util/List;
-
-    move-result-object v2
-
-    if-eqz v2, :cond_4
-
-    iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
-
-    invoke-interface {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->getSearchHistoryElements()Ljava/util/List;
-
-    move-result-object v2
-
-    invoke-interface {v2}, Ljava/util/List;->size()I
-
-    move-result v2
-
-    if-lez v2, :cond_4
-
-    .line 35
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->S0:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;
-
-    invoke-interface {v1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchDelegate;->getSearchHistoryElements()Ljava/util/List;
-
-    move-result-object v1
-
-    :cond_4
-    if-eqz v1, :cond_5
-
-    .line 36
-    invoke-interface {v1}, Ljava/util/List;->size()I
-
-    move-result v2
-
-    if-lez v2, :cond_5
-
-    .line 37
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
-
-    invoke-direct {v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;-><init>()V
-
-    const v3, 0x7f11030c
-
-    .line 38
-    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setName(Ljava/lang/String;)V
-
-    .line 39
-    sget-object v3, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;->HEADER:Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;
-
-    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setType(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor$LocationPickerRowDescriptorType;)V
-
-    const v3, 0x7f1100da
-
-    .line 40
-    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setExtraName(Ljava/lang/String;)V
-
-    .line 41
-    new-instance v3, Lcom/stagecoach/stagecoachbus/views/picker/search/old/a;
-
-    invoke-direct {v3, p0}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/a;-><init>(Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;)V
-
-    invoke-virtual {v2, v3}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;->setExtraCallback(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowCallback;)V
-
-    .line 42
-    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 43
-    invoke-interface {v1}, Ljava/util/List;->size()I
-
-    move-result v2
-
-    if-lez v2, :cond_5
-
-    .line 44
-    invoke-interface {v0, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
-
-    :cond_5
-    return-object v0
+    return-void
 .end method

@@ -28,7 +28,7 @@
         "",
         "args",
         "Lkotlin/m;",
-        "b",
+        "c",
         "([Ljava/lang/Object;)V",
         "Ljava/lang/reflect/Field;",
         "field",
@@ -65,7 +65,7 @@
 
 
 # virtual methods
-.method public b([Ljava/lang/Object;)V
+.method public c([Ljava/lang/Object;)V
     .locals 1
 
     const-string v0, "args"
@@ -73,14 +73,14 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->b([Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->c([Ljava/lang/Object;)V
 
     .line 2
     invoke-static {p1}, Lkotlin/collections/d;->s([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->c(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->d(Ljava/lang/Object;)V
 
     return-void
 .end method

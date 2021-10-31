@@ -96,7 +96,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->n()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->q()V
 
     return-void
 .end method

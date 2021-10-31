@@ -39,7 +39,7 @@
 
 
 # virtual methods
-.method protected s0(Lio/reactivex/t;)V
+.method protected A0(Lio/reactivex/t;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -52,7 +52,7 @@
     .line 1
     iget-object v0, p0, Le/d/a/a$a;->c:Le/d/a/a;
 
-    invoke-virtual {v0, p1}, Le/d/a/a;->N0(Lio/reactivex/t;)V
+    invoke-virtual {v0, p1}, Le/d/a/a;->W0(Lio/reactivex/t;)V
 
     return-void
 .end method

@@ -90,7 +90,7 @@
     .line 1
     check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/a;
 
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->i()Ljava/util/List;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->getTypeParameters()Ljava/util/List;
 
     move-result-object p1
 

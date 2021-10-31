@@ -66,11 +66,11 @@
     :try_start_0
     new-instance p2, Ljava/util/Date;
 
-    invoke-virtual {p1}, Lcom/google/gson/i;->k()Lcom/google/gson/l;
+    invoke-virtual {p1}, Lcom/google/gson/i;->j()Lcom/google/gson/l;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/google/gson/l;->l()J
+    invoke-virtual {p3}, Lcom/google/gson/l;->k()J
 
     move-result-wide v0
 
@@ -90,7 +90,7 @@
 
     .line 3
     :try_start_1
-    invoke-virtual {p1}, Lcom/google/gson/i;->k()Lcom/google/gson/l;
+    invoke-virtual {p1}, Lcom/google/gson/i;->j()Lcom/google/gson/l;
 
     move-result-object p1
 

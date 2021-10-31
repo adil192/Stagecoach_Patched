@@ -24,10 +24,10 @@
 
 
 # instance fields
-.field final d:Lio/reactivex/c0/i;
+.field final d:Lio/reactivex/c0/k;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-TT;>;"
         }
     .end annotation
@@ -35,14 +35,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/i;)V
+.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/k;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/s<",
             "TT;>;",
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-TT;>;)V"
         }
     .end annotation
@@ -51,14 +51,14 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/observable/a;-><init>(Lio/reactivex/s;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/b;->d:Lio/reactivex/c0/i;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/b;->d:Lio/reactivex/c0/k;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected s0(Lio/reactivex/t;)V
+.method protected A0(Lio/reactivex/t;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -75,9 +75,9 @@
 
     new-instance v1, Lio/reactivex/internal/operators/observable/b$a;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/b;->d:Lio/reactivex/c0/i;
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/b;->d:Lio/reactivex/c0/k;
 
-    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/observable/b$a;-><init>(Lio/reactivex/t;Lio/reactivex/c0/i;)V
+    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/observable/b$a;-><init>(Lio/reactivex/t;Lio/reactivex/c0/k;)V
 
     invoke-interface {v0, v1}, Lio/reactivex/s;->subscribe(Lio/reactivex/t;)V
 

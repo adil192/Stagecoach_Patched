@@ -118,7 +118,7 @@
     return-object v0
 .end method
 
-.method k()I
+.method j()I
     .locals 1
 
     .line 1
@@ -127,7 +127,7 @@
     return v0
 .end method
 
-.method l()I
+.method k()I
     .locals 1
 
     const/4 v0, 0x0

@@ -233,7 +233,7 @@
     return-object v0
 .end method
 
-.method public j(Ljava/lang/String;)Lcom/braintreepayments/api/models/PostalAddress;
+.method public l(Ljava/lang/String;)Lcom/braintreepayments/api/models/PostalAddress;
     .locals 0
 
     .line 1

@@ -33,7 +33,7 @@
         "Ljava/lang/Class;",
         "c",
         "Ljava/lang/Class;",
-        "b",
+        "d",
         "()Ljava/lang/Class;",
         "jClass",
         "moduleName",
@@ -92,7 +92,7 @@
 
 
 # virtual methods
-.method public b()Ljava/lang/Class;
+.method public d()Ljava/lang/Class;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -116,13 +116,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/j;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/j;->d()Ljava/lang/Class;
 
     move-result-object v0
 
     check-cast p1, Lkotlin/jvm/internal/j;
 
-    invoke-virtual {p1}, Lkotlin/jvm/internal/j;->b()Ljava/lang/Class;
+    invoke-virtual {p1}, Lkotlin/jvm/internal/j;->d()Ljava/lang/Class;
 
     move-result-object p1
 
@@ -147,7 +147,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/j;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/j;->d()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -166,7 +166,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/j;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/j;->d()Ljava/lang/Class;
 
     move-result-object v1
 

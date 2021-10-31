@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public t(Lio/reactivex/c;)V
+.method public s(Lio/reactivex/c;)V
     .locals 0
 
     .line 1

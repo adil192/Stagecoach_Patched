@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method T2(Lcom/google/android/material/datepicker/j;)Z
+.method W2(Lcom/google/android/material/datepicker/j;)Z
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -65,7 +65,7 @@
     return p1
 .end method
 
-.method U2()V
+.method X2()V
     .locals 1
 
     .line 1

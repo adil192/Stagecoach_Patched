@@ -66,7 +66,7 @@
     return-void
 .end method
 
-.method public static final synthetic V0(Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;)Lkotlin/jvm/b/a;
+.method public static final synthetic O0(Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;)Lkotlin/jvm/b/a;
     .locals 0
 
     .line 1
@@ -77,18 +77,18 @@
 
 
 # virtual methods
-.method public bridge synthetic R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public bridge synthetic K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;->W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;->P0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method protected T0()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method protected M0()Lkotlin/reflect/jvm/internal/impl/types/y;
     .locals 1
 
     .line 1
@@ -103,7 +103,7 @@
     return-object v0
 .end method
 
-.method public U0()Z
+.method public N0()Z
     .locals 1
 
     .line 1
@@ -116,7 +116,7 @@
     return v0
 .end method
 
-.method public W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;
+.method public P0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/LazyWrappedType;
     .locals 3
 
     const-string v0, "kotlinTypeRefiner"

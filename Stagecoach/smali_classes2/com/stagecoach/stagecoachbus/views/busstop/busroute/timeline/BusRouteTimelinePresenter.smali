@@ -76,7 +76,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->d(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->f(Z)V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->D(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+    invoke-interface {p1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->G(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
 
     return-void
 .end method
@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v1, v2, v3, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->D0(IDLandroid/location/Location;)V
+    invoke-interface {p1, v1, v2, v3, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->G0(IDLandroid/location/Location;)V
 
     return-void
 .end method
@@ -153,7 +153,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-interface {p1, v1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->t(ZZ)V
+    invoke-interface {p1, v1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->w(ZZ)V
 
     return-void
 .end method
@@ -219,7 +219,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -228,12 +228,12 @@
     invoke-direct {v2, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/c;-><init>(Lcom/stagecoach/stagecoachbus/model/common/GeoCode;)V
 
     .line 6
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->X(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->f0(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Lio/reactivex/p;->k0()Lio/reactivex/p;
+    invoke-virtual {v0}, Lio/reactivex/p;->s0()Lio/reactivex/p;
 
     move-result-object v0
 
@@ -244,14 +244,14 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->C(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->I(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/d;->c:Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/d;
 
     .line 9
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->n(Lio/reactivex/c0/i;)Lio/reactivex/k;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->o(Lio/reactivex/c0/k;)Lio/reactivex/k;
 
     move-result-object v0
 
@@ -260,7 +260,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/k;->z(Lio/reactivex/u;)Lio/reactivex/k;
+    invoke-virtual {v0, v1}, Lio/reactivex/k;->A(Lio/reactivex/u;)Lio/reactivex/k;
 
     move-result-object v0
 
@@ -269,7 +269,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/k;->r(Lio/reactivex/u;)Lio/reactivex/k;
+    invoke-virtual {v0, v1}, Lio/reactivex/k;->s(Lio/reactivex/u;)Lio/reactivex/k;
 
     move-result-object v0
 
@@ -278,7 +278,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/h;-><init>(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;)V
 
     .line 12
-    invoke-virtual {v0, v1}, Lio/reactivex/k;->v(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1}, Lio/reactivex/k;->w(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
@@ -302,12 +302,12 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->v0(Z)V
+    invoke-interface {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->y0(Z)V
 
     const/4 v0, 0x0
 
     .line 2
-    invoke-interface {p0, v0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->t(ZZ)V
+    invoke-interface {p0, v0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->w(ZZ)V
 
     return-void
 .end method
@@ -394,7 +394,7 @@
 
     move-result-object p1
 
-    invoke-interface {p2, v0, v1, v2, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->D0(IDLandroid/location/Location;)V
+    invoke-interface {p2, v0, v1, v2, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;->G0(IDLandroid/location/Location;)V
 
     return-void
 .end method

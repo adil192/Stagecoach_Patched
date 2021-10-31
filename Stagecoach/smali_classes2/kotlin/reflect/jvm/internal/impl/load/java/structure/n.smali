@@ -7,10 +7,10 @@
 
 
 # virtual methods
-.method public abstract E()Z
+.method public abstract A()Z
 .end method
 
-.method public abstract M()Z
+.method public abstract H()Z
 .end method
 
 .method public abstract getType()Lkotlin/reflect/jvm/internal/impl/load/java/structure/v;

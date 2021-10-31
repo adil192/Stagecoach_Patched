@@ -31,7 +31,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u00b4\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u0006\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000f\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0010\u0018\u0000 \u0080\u00012\u001a\u0012\u0006\u0012\u0004\u0018\u00010\u0002\u0012\u0006\u0012\u0004\u0018\u00010\u0003\u0012\u0006\u0012\u0004\u0018\u00010\u00040\u00012\u00020\u0003:\u0002\u0081\u0001B\u0007\u00a2\u0006\u0004\u0008\u007f\u0010\u0007J\u000f\u0010\u0006\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0017\u0010\n\u001a\u00020\u00052\u0006\u0010\t\u001a\u00020\u0008H\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u0017\u0010\u000e\u001a\u00020\u00052\u0006\u0010\r\u001a\u00020\u000cH\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u0017\u0010\u0012\u001a\u00020\u00052\u0006\u0010\u0011\u001a\u00020\u0010H\u0002\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0017\u0010\u0016\u001a\u00020\u00052\u0006\u0010\u0015\u001a\u00020\u0014H\u0002\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\u000f\u0010\u0018\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0018\u0010\u0007J\u000f\u0010\u0019\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0019\u0010\u0007J\u0019\u0010\u001c\u001a\u00020\u00052\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001aH\u0016\u00a2\u0006\u0004\u0008\u001c\u0010\u001dJ-\u0010#\u001a\u0004\u0018\u00010\"2\u0006\u0010\u001f\u001a\u00020\u001e2\u0008\u0010!\u001a\u0004\u0018\u00010 2\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001aH\u0016\u00a2\u0006\u0004\u0008#\u0010$J!\u0010&\u001a\u00020\u00052\u0006\u0010%\u001a\u00020\"2\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001aH\u0016\u00a2\u0006\u0004\u0008&\u0010\'J\u000f\u0010(\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008(\u0010\u0007J\u000f\u0010)\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008)\u0010\u0007J\u0017\u0010+\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020*H\u0014\u00a2\u0006\u0004\u0008+\u0010,J\u0017\u0010.\u001a\u00020\u00052\u0006\u0010-\u001a\u00020\u0002H\u0014\u00a2\u0006\u0004\u0008.\u0010/J\u000f\u00100\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u00080\u0010\u0007J\u0017\u00102\u001a\u00020\u00052\u0008\u00101\u001a\u0004\u0018\u00010\u0014\u00a2\u0006\u0004\u00082\u0010\u0017J)\u00109\u001a\u00020\u00052\u0006\u00104\u001a\u0002032\u0006\u00106\u001a\u0002052\u0008\u00108\u001a\u0004\u0018\u000107H\u0016\u00a2\u0006\u0004\u00089\u0010:J\u000f\u0010;\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008;\u0010\u0007J\u001f\u0010>\u001a\u00020\u00052\u0006\u0010<\u001a\u00020\u000c2\u0006\u0010=\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008>\u0010?J\u0017\u0010@\u001a\u00020\u00052\u0006\u0010\u0015\u001a\u00020\u0014H\u0016\u00a2\u0006\u0004\u0008@\u0010\u0017J\u000f\u0010A\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008A\u0010\u0007J\u0017\u0010C\u001a\u00020\u00052\u0006\u0010B\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008C\u0010\u000fJ\u000f\u0010D\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008D\u0010\u0007J\u0017\u0010F\u001a\u00020\u00052\u0006\u0010E\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008F\u0010\u000fR\u0018\u0010J\u001a\u0004\u0018\u00010G8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008H\u0010IR\u001d\u0010P\u001a\u00020K8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008L\u0010M\u001a\u0004\u0008N\u0010OR\u0018\u0010\u0015\u001a\u0004\u0018\u00010\u00148\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008Q\u0010RR\u001d\u0010W\u001a\u00020S8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008T\u0010M\u001a\u0004\u0008U\u0010VR\u001d\u0010\\\u001a\u00020X8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008Y\u0010M\u001a\u0004\u0008Z\u0010[R\u0016\u0010_\u001a\u0002038\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008]\u0010^R\u001d\u0010c\u001a\u00020 8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008`\u0010M\u001a\u0004\u0008a\u0010bR\u0018\u0010g\u001a\u0004\u0018\u00010d8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008e\u0010fR\u001d\u0010l\u001a\u00020h8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008i\u0010M\u001a\u0004\u0008j\u0010kR\u001d\u0010q\u001a\u00020m8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008n\u0010M\u001a\u0004\u0008o\u0010pR\u0016\u0010u\u001a\u00020r8\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008s\u0010tR\u0016\u0010x\u001a\u00020\u000c8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008v\u0010wR\u001d\u0010{\u001a\u00020h8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008y\u0010M\u001a\u0004\u0008z\u0010kR\u001d\u0010~\u001a\u00020 8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008|\u0010M\u001a\u0004\u0008}\u0010b\u00a8\u0006\u0082\u0001"
+        "\u0000\u00b4\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u0006\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0012\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\u000e\u0018\u0000 \u0080\u00012\u001a\u0012\u0006\u0012\u0004\u0018\u00010\u0002\u0012\u0006\u0012\u0004\u0018\u00010\u0003\u0012\u0006\u0012\u0004\u0018\u00010\u00040\u00012\u00020\u0003:\u0002\u0081\u0001B\u0007\u00a2\u0006\u0004\u0008\u007f\u0010\u0007J\u000f\u0010\u0006\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0017\u0010\n\u001a\u00020\u00052\u0006\u0010\t\u001a\u00020\u0008H\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u0017\u0010\u000e\u001a\u00020\u00052\u0006\u0010\r\u001a\u00020\u000cH\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u0017\u0010\u0012\u001a\u00020\u00052\u0006\u0010\u0011\u001a\u00020\u0010H\u0002\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0017\u0010\u0016\u001a\u00020\u00052\u0006\u0010\u0015\u001a\u00020\u0014H\u0002\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\u000f\u0010\u0018\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0018\u0010\u0007J\u000f\u0010\u0019\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0019\u0010\u0007J\u0019\u0010\u001c\u001a\u00020\u00052\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001aH\u0016\u00a2\u0006\u0004\u0008\u001c\u0010\u001dJ-\u0010#\u001a\u0004\u0018\u00010\"2\u0006\u0010\u001f\u001a\u00020\u001e2\u0008\u0010!\u001a\u0004\u0018\u00010 2\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001aH\u0016\u00a2\u0006\u0004\u0008#\u0010$J!\u0010&\u001a\u00020\u00052\u0006\u0010%\u001a\u00020\"2\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001aH\u0016\u00a2\u0006\u0004\u0008&\u0010\'J\u000f\u0010(\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008(\u0010\u0007J\u000f\u0010)\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008)\u0010\u0007J\u0017\u0010+\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020*H\u0014\u00a2\u0006\u0004\u0008+\u0010,J\u0017\u0010.\u001a\u00020\u00052\u0006\u0010-\u001a\u00020\u0002H\u0014\u00a2\u0006\u0004\u0008.\u0010/J\u000f\u00100\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u00080\u0010\u0007J\u0017\u00102\u001a\u00020\u00052\u0008\u00101\u001a\u0004\u0018\u00010\u0014\u00a2\u0006\u0004\u00082\u0010\u0017J)\u00109\u001a\u00020\u00052\u0006\u00104\u001a\u0002032\u0006\u00106\u001a\u0002052\u0008\u00108\u001a\u0004\u0018\u000107H\u0016\u00a2\u0006\u0004\u00089\u0010:J\u000f\u0010;\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008;\u0010\u0007J\u001f\u0010>\u001a\u00020\u00052\u0006\u0010<\u001a\u00020\u000c2\u0006\u0010=\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008>\u0010?J\u0017\u0010@\u001a\u00020\u00052\u0006\u0010\u0015\u001a\u00020\u0014H\u0016\u00a2\u0006\u0004\u0008@\u0010\u0017J\u000f\u0010A\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008A\u0010\u0007J\u0017\u0010C\u001a\u00020\u00052\u0006\u0010B\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008C\u0010\u000fJ\u000f\u0010D\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008D\u0010\u0007J\u0017\u0010F\u001a\u00020\u00052\u0006\u0010E\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008F\u0010\u000fR\u0016\u0010I\u001a\u00020\u000c8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008G\u0010HR\u001d\u0010O\u001a\u00020J8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008K\u0010L\u001a\u0004\u0008M\u0010NR\u0016\u0010S\u001a\u00020P8\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008Q\u0010RR\u001d\u0010X\u001a\u00020T8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008U\u0010L\u001a\u0004\u0008V\u0010WR\u001d\u0010[\u001a\u00020T8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008Y\u0010L\u001a\u0004\u0008Z\u0010WR\u0018\u0010_\u001a\u0004\u0018\u00010\\8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008]\u0010^R\u001d\u0010d\u001a\u00020`8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008a\u0010L\u001a\u0004\u0008b\u0010cR\u001d\u0010i\u001a\u00020e8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008f\u0010L\u001a\u0004\u0008g\u0010hR\u0018\u0010m\u001a\u0004\u0018\u00010j8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008k\u0010lR\u001d\u0010q\u001a\u00020 8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008n\u0010L\u001a\u0004\u0008o\u0010pR\u0018\u0010\u0015\u001a\u0004\u0018\u00010\u00148\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008r\u0010sR\u001d\u0010x\u001a\u00020t8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008u\u0010L\u001a\u0004\u0008v\u0010wR\u001d\u0010{\u001a\u00020 8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008y\u0010L\u001a\u0004\u0008z\u0010pR\u0016\u0010~\u001a\u0002038\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008|\u0010}\u00a8\u0006\u0082\u0001"
     }
     d2 = {
         "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;",
@@ -40,49 +40,49 @@
         "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineView;",
         "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusTimelineViewState;",
         "Lkotlin/m;",
-        "d4",
+        "g4",
         "()V",
         "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;",
         "routeRowUIModel",
-        "g4",
+        "j4",
         "(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V",
         "",
         "show",
-        "h4",
+        "k4",
         "(Z)V",
         "Ljava/util/Date;",
         "refreshTime",
-        "i4",
+        "l4",
         "(Ljava/util/Date;)V",
         "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;",
         "busRouteUIModel",
-        "j4",
+        "m4",
         "(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V",
-        "b4",
-        "c4",
+        "e4",
+        "f4",
         "Landroid/os/Bundle;",
         "savedInstanceState",
-        "L1",
+        "O1",
         "(Landroid/os/Bundle;)V",
         "Landroid/view/LayoutInflater;",
         "inflater",
         "Landroid/view/ViewGroup;",
         "container",
         "Landroid/view/View;",
-        "P1",
+        "S1",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "view",
-        "k2",
+        "n2",
         "(Landroid/view/View;Landroid/os/Bundle;)V",
-        "i2",
-        "S1",
+        "l2",
+        "V1",
         "Lcom/stagecoach/stagecoachbus/logic/mvp/PresenterFactory;",
         "getPresenterFactory",
         "()Lcom/stagecoach/stagecoachbus/logic/mvp/PresenterFactory;",
         "presenter",
-        "f4",
+        "i4",
         "(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;)V",
-        "b2",
+        "e2",
         "results",
         "setTimetable",
         "",
@@ -91,76 +91,76 @@
         "progress",
         "Landroid/location/Location;",
         "userLocation",
-        "D0",
+        "G0",
         "(IDLandroid/location/Location;)V",
-        "y",
+        "B",
         "visible",
         "animate",
-        "t",
+        "w",
         "(ZZ)V",
-        "D",
-        "K3",
+        "G",
+        "N3",
         "isLocationEnabled",
-        "v0",
-        "L",
+        "y0",
+        "O",
         "visibile",
-        "d",
+        "f",
+        "S0",
+        "Z",
+        "showGetOfAlert",
+        "Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;",
+        "N0",
+        "Lkotlin/q/c;",
+        "getButtonSetAlertView",
+        "()Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;",
+        "buttonSetAlertView",
+        "Landroidx/recyclerview/widget/m;",
+        "H0",
+        "Landroidx/recyclerview/widget/m;",
+        "smoothScroller",
+        "Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
+        "Q0",
+        "getLocationAlertText",
+        "()Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
+        "locationAlertText",
+        "P0",
+        "getLastUpdateTime",
+        "lastUpdateTime",
         "",
         "J0",
         "Ljava/lang/String;",
         "nextStopId",
-        "Landroid/widget/TextView;",
-        "R0",
-        "Lkotlin/q/c;",
-        "getStatusText",
-        "()Landroid/widget/TextView;",
-        "statusText",
-        "I0",
-        "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;",
-        "Landroidx/recyclerview/widget/RecyclerView;",
-        "K0",
-        "getBusTripView",
-        "()Landroidx/recyclerview/widget/RecyclerView;",
-        "busTripView",
-        "Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;",
-        "N0",
-        "getButtonSetAlertView",
-        "()Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;",
-        "buttonSetAlertView",
-        "T0",
-        "I",
-        "timeTablesRowsCount",
-        "M0",
-        "getNoResultsPanel",
-        "()Landroid/view/ViewGroup;",
-        "noResultsPanel",
-        "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusTimelineAdapter;",
-        "U0",
-        "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusTimelineAdapter;",
-        "busDetailsAdapter",
-        "Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
-        "P0",
-        "getLastUpdateTime",
-        "()Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;",
-        "lastUpdateTime",
         "Landroid/widget/LinearLayout;",
         "L0",
         "getStatusLayout",
         "()Landroid/widget/LinearLayout;",
         "statusLayout",
-        "Landroidx/recyclerview/widget/m;",
-        "H0",
-        "Landroidx/recyclerview/widget/m;",
-        "smoothScroller",
-        "S0",
-        "Z",
-        "showGetOfAlert",
-        "Q0",
-        "getLocationAlertText",
-        "locationAlertText",
+        "Landroidx/recyclerview/widget/RecyclerView;",
+        "K0",
+        "getBusTripView",
+        "()Landroidx/recyclerview/widget/RecyclerView;",
+        "busTripView",
+        "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusTimelineAdapter;",
+        "U0",
+        "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusTimelineAdapter;",
+        "busDetailsAdapter",
         "O0",
         "getProgressPanel",
+        "()Landroid/view/ViewGroup;",
         "progressPanel",
+        "I0",
+        "Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;",
+        "Landroid/widget/TextView;",
+        "R0",
+        "getStatusText",
+        "()Landroid/widget/TextView;",
+        "statusText",
+        "M0",
+        "getNoResultsPanel",
+        "noResultsPanel",
+        "T0",
+        "I",
+        "timeTablesRowsCount",
         "<init>",
         "Y0",
         "Companion",
@@ -176,7 +176,7 @@
 
 
 # static fields
-.field static final synthetic W0:[Lkotlin/reflect/h;
+.field static final synthetic W0:[Lkotlin/reflect/i;
 
 .field private static final X0:Ljava/lang/String;
 
@@ -221,7 +221,7 @@
 
     const/16 v0, 0x8
 
-    new-array v0, v0, [Lkotlin/reflect/h;
+    new-array v0, v0, [Lkotlin/reflect/i;
 
     new-instance v1, Lkotlin/jvm/internal/PropertyReference1Impl;
 
@@ -235,7 +235,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -251,7 +251,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -269,7 +269,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -287,7 +287,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -305,7 +305,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -323,7 +323,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -341,7 +341,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -359,7 +359,7 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v1
 
@@ -367,7 +367,7 @@
 
     aput-object v1, v0, v2
 
-    sput-object v0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
+    sput-object v0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
 
     new-instance v0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment$Companion;
 
@@ -466,7 +466,7 @@
     return-void
 .end method
 
-.method public static final synthetic X3(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;)Landroidx/recyclerview/widget/RecyclerView;
+.method public static final synthetic a4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;)Landroidx/recyclerview/widget/RecyclerView;
     .locals 0
 
     .line 1
@@ -477,7 +477,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic Y3()Ljava/lang/String;
+.method public static final synthetic b4()Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -486,7 +486,7 @@
     return-object v0
 .end method
 
-.method public static final synthetic Z3(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;)Landroidx/recyclerview/widget/m;
+.method public static final synthetic c4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;)Landroidx/recyclerview/widget/m;
     .locals 0
 
     .line 1
@@ -506,16 +506,16 @@
     throw p0
 .end method
 
-.method public static final synthetic a4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
+.method public static final synthetic d4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->g4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->j4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
 
     return-void
 .end method
 
-.method private final b4()V
+.method private final e4()V
     .locals 1
 
     .line 1
@@ -528,7 +528,7 @@
     return-void
 .end method
 
-.method private final c4()V
+.method private final f4()V
     .locals 1
 
     .line 1
@@ -541,7 +541,7 @@
     return-void
 .end method
 
-.method private final d4()V
+.method private final g4()V
     .locals 3
 
     .line 1
@@ -583,7 +583,175 @@
     return-void
 .end method
 
-.method public static final e4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;
+.method private final getBusTripView()Landroidx/recyclerview/widget/RecyclerView;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->K0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x0
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
+
+    return-object v0
+.end method
+
+.method private final getButtonSetAlertView()Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->N0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x3
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;
+
+    return-object v0
+.end method
+
+.method public static final getEXTRA_KEY()Ljava/lang/String;
+    .locals 1
+
+    sget-object v0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->X0:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method private final getLastUpdateTime()Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->P0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x5
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
+
+    return-object v0
+.end method
+
+.method private final getLocationAlertText()Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->Q0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x6
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
+
+    return-object v0
+.end method
+
+.method private final getNoResultsPanel()Landroid/view/ViewGroup;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->M0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x2
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/ViewGroup;
+
+    return-object v0
+.end method
+
+.method private final getProgressPanel()Landroid/view/ViewGroup;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->O0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x4
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/ViewGroup;
+
+    return-object v0
+.end method
+
+.method private final getStatusLayout()Landroid/widget/LinearLayout;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->L0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x1
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    return-object v0
+.end method
+
+.method private final getStatusText()Landroid/widget/TextView;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->R0:Lkotlin/q/c;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x7
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    return-object v0
+.end method
+
+.method public static final h4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;
     .locals 1
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->Y0:Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment$Companion;
@@ -595,7 +763,7 @@
     return-object p0
 .end method
 
-.method private final g4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
+.method private final j4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
     .locals 2
 
     .line 1
@@ -627,181 +795,13 @@
     .line 3
     check-cast v0, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->Y5(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->b6(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteRowUIModel;)V
 
     :cond_0
     return-void
 .end method
 
-.method private final getBusTripView()Landroidx/recyclerview/widget/RecyclerView;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->K0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x0
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
-
-    return-object v0
-.end method
-
-.method private final getButtonSetAlertView()Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->N0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x3
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;
-
-    return-object v0
-.end method
-
-.method public static final getEXTRA_KEY()Ljava/lang/String;
-    .locals 1
-
-    sget-object v0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->X0:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method private final getLastUpdateTime()Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->P0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x5
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
-
-    return-object v0
-.end method
-
-.method private final getLocationAlertText()Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->Q0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x6
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
-
-    return-object v0
-.end method
-
-.method private final getNoResultsPanel()Landroid/view/ViewGroup;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->M0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x2
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/view/ViewGroup;
-
-    return-object v0
-.end method
-
-.method private final getProgressPanel()Landroid/view/ViewGroup;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->O0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x4
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/view/ViewGroup;
-
-    return-object v0
-.end method
-
-.method private final getStatusLayout()Landroid/widget/LinearLayout;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->L0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x1
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/LinearLayout;
-
-    return-object v0
-.end method
-
-.method private final getStatusText()Landroid/widget/TextView;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->R0:Lkotlin/q/c;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x7
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/c;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    return-object v0
-.end method
-
-.method private final h4(Z)V
+.method private final k4(Z)V
     .locals 3
 
     const/4 v0, 0x0
@@ -848,7 +848,7 @@
     return-void
 .end method
 
-.method private final i4(Ljava/util/Date;)V
+.method private final l4(Ljava/util/Date;)V
     .locals 6
 
     .line 1
@@ -881,7 +881,7 @@
 
     const v2, 0x7f1101f4
 
-    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -916,12 +916,12 @@
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 4
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->U3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->X3()V
 
     return-void
 .end method
 
-.method private final j4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+.method private final m4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
     .locals 3
 
     .line 1
@@ -1187,7 +1187,20 @@
 
 
 # virtual methods
-.method public D(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+.method public B()V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    .line 1
+    invoke-virtual {p0, v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->w(ZZ)V
+
+    return-void
+.end method
+
+.method public G(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
     .locals 2
 
     const-string v0, "busRouteUIModel"
@@ -1201,10 +1214,10 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->i4(Ljava/util/Date;)V
+    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->l4(Ljava/util/Date;)V
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->j4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->m4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
 
     .line 3
     iget-object v0, p1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;->nextStopId:Ljava/lang/String;
@@ -1232,7 +1245,7 @@
     const/4 v0, 0x1
 
     .line 6
-    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->h4(Z)V
+    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->k4(Z)V
 
     .line 7
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->U0:Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusTimelineAdapter;
@@ -1249,7 +1262,7 @@
 
     .line 8
     :cond_0
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->d4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->g4()V
 
     .line 9
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
@@ -1273,42 +1286,42 @@
     const/4 p1, 0x0
 
     .line 11
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->h4(Z)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->k4(Z)V
 
     :cond_2
     :goto_0
     return-void
 .end method
 
-.method public D0(IDLandroid/location/Location;)V
+.method public G0(IDLandroid/location/Location;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->d4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->g4()V
 
     return-void
 .end method
 
-.method public K3()V
+.method public N3()V
     .locals 0
 
     return-void
 .end method
 
-.method public L()V
+.method public O()V
     .locals 0
 
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -1317,7 +1330,7 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     const-string v0, "inflater"
@@ -1325,7 +1338,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c00e6
 
@@ -1402,7 +1415,7 @@
     return-object p1
 .end method
 
-.method public S1()V
+.method public V1()V
     .locals 2
 
     .line 1
@@ -1427,26 +1440,26 @@
     invoke-virtual {v0, p0}, Lcom/stagecoach/stagecoachbus/utils/KotterKnife;->reset(Ljava/lang/Object;)V
 
     .line 4
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->S1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V1()V
 
     .line 5
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->W3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->Z3()V
 
     return-void
 .end method
 
-.method public bridge synthetic V3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
+.method public bridge synthetic Y3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
     .locals 0
 
     .line 1
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->f4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->i4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;)V
 
     return-void
 .end method
 
-.method public W3()V
+.method public Z3()V
     .locals 1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->V0:Ljava/util/HashMap;
@@ -1459,11 +1472,11 @@
     return-void
 .end method
 
-.method public b2()V
+.method public e2()V
     .locals 1
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->b2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->e2()V
 
     .line 2
     invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->getButtonSetAlertView()Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;
@@ -1475,40 +1488,21 @@
     return-void
 .end method
 
-.method public d(Z)V
+.method public f(Z)V
     .locals 0
 
     if-nez p1, :cond_0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->b4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->e4()V
 
     goto :goto_0
 
     .line 2
     :cond_0
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->c4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->f4()V
 
     :goto_0
-    return-void
-.end method
-
-.method protected f4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;)V
-    .locals 1
-
-    const-string v0, "presenter"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->I0:Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;
-
-    if-eqz v0, :cond_0
-
-    .line 2
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;->I(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
-
-    :cond_0
     return-void
 .end method
 
@@ -1545,11 +1539,30 @@
     return-object v0
 .end method
 
-.method public i2()V
+.method protected i4(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;)V
+    .locals 1
+
+    const-string v0, "presenter"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->I0:Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelinePresenter;->I(Lcom/stagecoach/stagecoachbus/views/busstop/busroute/BusRouteUIModel;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public l2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->i2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->l2()V
 
     .line 2
     invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->getButtonSetAlertView()Lcom/stagecoach/stagecoachbus/views/alert/ButtonSetAlertView;
@@ -1573,7 +1586,7 @@
     return-void
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 2
 
     const-string v0, "view"
@@ -1581,7 +1594,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     new-instance p1, Landroidx/recyclerview/widget/LinearLayoutManager;
@@ -1642,13 +1655,13 @@
     return-void
 .end method
 
-.method public t(ZZ)V
+.method public w(ZZ)V
     .locals 0
 
     return-void
 .end method
 
-.method public v0(Z)V
+.method public y0(Z)V
     .locals 1
 
     if-nez p1, :cond_0
@@ -1684,18 +1697,5 @@
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_0
-    return-void
-.end method
-
-.method public y()V
-    .locals 2
-
-    const/4 v0, 0x0
-
-    const/4 v1, 0x1
-
-    .line 1
-    invoke-virtual {p0, v0, v1}, Lcom/stagecoach/stagecoachbus/views/busstop/busroute/timeline/BusRouteTimelineFragment;->t(ZZ)V
-
     return-void
 .end method

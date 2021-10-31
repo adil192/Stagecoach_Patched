@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/e2;->c:Lcom/stagecoach/stagecoachbus/views/account/MyAccountFindAddressFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFindAddressFragment;->g3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFindAddressFragment;->j3(Landroid/view/View;)V
 
     return-void
 .end method

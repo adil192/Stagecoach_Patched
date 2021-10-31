@@ -89,7 +89,7 @@
     if-eqz p2, :cond_0
 
     .line 7
-    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p2
 

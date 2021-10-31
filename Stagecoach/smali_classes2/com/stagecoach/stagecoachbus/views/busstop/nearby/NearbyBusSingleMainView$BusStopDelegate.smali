@@ -15,8 +15,8 @@
 
 
 # virtual methods
-.method public abstract e(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
+.method public abstract g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;Lcom/stagecoach/stagecoachbus/views/busstop/detail/BusWithEventsUIModel;)V
 .end method
 
-.method public abstract g(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
+.method public abstract i(Lcom/stagecoach/stagecoachbus/views/busstop/detail/StopUIModel;)V
 .end method

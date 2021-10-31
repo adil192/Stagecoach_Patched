@@ -201,7 +201,7 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayDeque;->add(Ljava/lang/Object;)Z
 
     .line 3
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p0
 
@@ -226,7 +226,7 @@
     move-result-object v1
 
     .line 7
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v3
 
@@ -238,7 +238,7 @@
     if-eqz v4, :cond_a
 
     .line 9
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v0
 
@@ -256,7 +256,7 @@
     move-result-object v3
 
     .line 12
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->O0()Ljava/util/List;
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->H0()Ljava/util/List;
 
     move-result-object v4
 
@@ -383,7 +383,7 @@
     if-nez v0, :cond_7
 
     .line 23
-    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->Q0()Z
+    invoke-virtual {v3}, Lkotlin/reflect/jvm/internal/impl/types/y;->J0()Z
 
     move-result v0
 
@@ -410,7 +410,7 @@
 
     .line 25
     :cond_8
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p1
 

@@ -81,14 +81,14 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->b([Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/c;->c([Ljava/lang/Object;)V
 
     .line 2
     invoke-static {p1}, Lkotlin/collections/d;->s([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/calls/c;->c(Ljava/lang/Object;)V
+    invoke-virtual {p0, v0}, Lkotlin/reflect/jvm/internal/calls/c;->d(Ljava/lang/Object;)V
 
     .line 3
     array-length v0, p1
@@ -118,7 +118,7 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-virtual {p0, v0, p1}, Lkotlin/reflect/jvm/internal/calls/c$h;->e(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, p1}, Lkotlin/reflect/jvm/internal/calls/c$h;->f(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

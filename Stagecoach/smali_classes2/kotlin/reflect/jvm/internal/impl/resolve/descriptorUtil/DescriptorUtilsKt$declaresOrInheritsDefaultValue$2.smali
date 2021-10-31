@@ -64,12 +64,12 @@
     return-object v0
 .end method
 
-.method public final getOwner()Lkotlin/reflect/d;
+.method public final getOwner()Lkotlin/reflect/e;
     .locals 1
 
     const-class v0, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v0
 
@@ -108,7 +108,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->w0()Z
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->r0()Z
 
     move-result p1
 

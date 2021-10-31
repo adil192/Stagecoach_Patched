@@ -1,6 +1,6 @@
 .class final Lio/reactivex/internal/operators/observable/w$a;
 .super Ljava/lang/Object;
-.source "ObservableIgnoreElementsCompletable.java"
+.source "ObservableIgnoreElements.java"
 
 # interfaces
 .implements Lio/reactivex/t;
@@ -31,20 +31,34 @@
 
 
 # instance fields
-.field final c:Lio/reactivex/c;
+.field final c:Lio/reactivex/t;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/t<",
+            "-TT;>;"
+        }
+    .end annotation
+.end field
 
 .field d:Lio/reactivex/disposables/b;
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/c;)V
+.method constructor <init>(Lio/reactivex/t;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/t<",
+            "-TT;>;)V"
+        }
+    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/c;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/t;
 
     return-void
 .end method
@@ -79,9 +93,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/c;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/t;
 
-    invoke-interface {v0}, Lio/reactivex/c;->onComplete()V
+    invoke-interface {v0}, Lio/reactivex/t;->onComplete()V
 
     return-void
 .end method
@@ -90,9 +104,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/c;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/t;
 
-    invoke-interface {v0, p1}, Lio/reactivex/c;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Lio/reactivex/t;->onError(Ljava/lang/Throwable;)V
 
     return-void
 .end method
@@ -115,9 +129,9 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/observable/w$a;->d:Lio/reactivex/disposables/b;
 
     .line 2
-    iget-object p1, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/c;
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/w$a;->c:Lio/reactivex/t;
 
-    invoke-interface {p1, p0}, Lio/reactivex/c;->onSubscribe(Lio/reactivex/disposables/b;)V
+    invoke-interface {p1, p0}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method

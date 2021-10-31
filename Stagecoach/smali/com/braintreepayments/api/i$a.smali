@@ -53,7 +53,7 @@
     .line 1
     iget-object v0, p0, Lcom/braintreepayments/api/i$a;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 .end method
@@ -139,7 +139,7 @@
     .line 10
     iget-object v0, p0, Lcom/braintreepayments/api/i$a;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 .end method

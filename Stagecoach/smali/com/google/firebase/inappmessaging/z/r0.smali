@@ -3,7 +3,7 @@
 .source "ImpressionStorageClient.java"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # static fields
@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method public static a()Lio/reactivex/c0/g;
+.method public static a()Lio/reactivex/c0/i;
     .locals 1
 
     sget-object v0, Lcom/google/firebase/inappmessaging/z/r0;->c:Lcom/google/firebase/inappmessaging/z/r0;
@@ -46,7 +46,7 @@
 
     check-cast p1, Ljava/util/List;
 
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 

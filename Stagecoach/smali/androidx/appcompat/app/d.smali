@@ -115,7 +115,7 @@
 
 
 # virtual methods
-.method public B(Lc/a/o/b$a;)Lc/a/o/b;
+.method public C(Lc/a/o/b$a;)Lc/a/o/b;
     .locals 0
 
     const/4 p1, 0x0
@@ -183,7 +183,7 @@
     if-eqz v1, :cond_0
 
     .line 3
-    invoke-static {p0}, Landroidx/core/app/m;->l(Landroid/content/Context;)Landroidx/core/app/m;
+    invoke-static {p0}, Landroidx/core/app/m;->k(Landroid/content/Context;)Landroidx/core/app/m;
 
     move-result-object v0
 

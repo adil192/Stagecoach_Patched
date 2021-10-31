@@ -154,7 +154,7 @@
 
     iget-object v0, v0, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider$checkActiveTicketsExpirationStatusAndUpdateIt$1;->a:Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->T(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->W(Ljava/util/List;)V
 
     return-void
 .end method

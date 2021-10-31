@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/u;->c:Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->f4(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->i4(Landroid/view/View;)V
 
     return-void
 .end method

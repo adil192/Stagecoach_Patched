@@ -90,7 +90,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/text/h$a;->l(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lkotlin/text/h$a;->k(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -130,7 +130,7 @@
     return p1
 .end method
 
-.method public l(I)Ljava/lang/String;
+.method public k(I)Ljava/lang/String;
     .locals 1
 
     .line 1

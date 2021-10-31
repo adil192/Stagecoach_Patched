@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->w4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+    value = Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->z4(Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -61,7 +61,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment$1;->d:Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;
 
-    invoke-static {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->V3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
+    invoke-static {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/planner/JourneyResultListFragment;Ljava/util/List;Lcom/stagecoach/stagecoachbus/model/itinerary/ItineraryQuery$MoreItinerariesType;)V
 
     return-void
 .end method

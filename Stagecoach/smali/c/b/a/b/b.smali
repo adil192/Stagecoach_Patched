@@ -355,7 +355,7 @@
     return-object v0
 .end method
 
-.method public k()Lc/b/a/b/b$d;
+.method public j()Lc/b/a/b/b$d;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -380,7 +380,7 @@
     return-object v0
 .end method
 
-.method public l()Ljava/util/Map$Entry;
+.method public k()Ljava/util/Map$Entry;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

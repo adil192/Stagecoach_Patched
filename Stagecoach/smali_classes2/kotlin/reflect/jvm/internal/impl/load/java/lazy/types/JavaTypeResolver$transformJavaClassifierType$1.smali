@@ -70,7 +70,7 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/types/JavaTypeResolver$transformJavaClassifierType$1;->$javaType:Lkotlin/reflect/jvm/internal/impl/load/java/structure/j;
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/j;->p()Ljava/lang/String;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/j;->l()Ljava/lang/String;
 
     move-result-object v1
 

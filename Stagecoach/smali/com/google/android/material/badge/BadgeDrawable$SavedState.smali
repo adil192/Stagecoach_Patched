@@ -292,7 +292,7 @@
     return p1
 .end method
 
-.method static synthetic j(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
+.method static synthetic l(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
     .locals 0
 
     .line 1

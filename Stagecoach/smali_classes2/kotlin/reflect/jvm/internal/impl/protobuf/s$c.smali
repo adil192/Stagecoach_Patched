@@ -200,7 +200,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->l()Ljava/lang/Comparable;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->o()Ljava/lang/Comparable;
 
     move-result-object v0
 
@@ -269,11 +269,11 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->l()Ljava/lang/Comparable;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->o()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->l()Ljava/lang/Comparable;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/protobuf/s$c;->o()Ljava/lang/Comparable;
 
     move-result-object p1
 
@@ -284,7 +284,7 @@
     return p1
 .end method
 
-.method public l()Ljava/lang/Comparable;
+.method public o()Ljava/lang/Comparable;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {

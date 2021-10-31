@@ -57,7 +57,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->I()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->D()Lkotlin/reflect/jvm/internal/impl/load/java/structure/LightClassOriginKind;
 
     move-result-object v1
 
@@ -76,7 +76,7 @@
 
     .line 4
     :cond_0
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->l()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;->i()Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;
 
     move-result-object v1
 
@@ -91,7 +91,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->B0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->v0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v0
 
@@ -163,7 +163,7 @@
 
     if-eqz v0, :cond_6
 
-    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->G0(Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->A0(Lkotlin/reflect/jvm/internal/impl/load/java/structure/g;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
     move-result-object v2
 

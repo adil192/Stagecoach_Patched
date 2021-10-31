@@ -74,28 +74,28 @@
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->f:Lio/reactivex/disposables/a;
 
     .line 4
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->g:Lio/reactivex/subjects/PublishSubject;
 
     .line 5
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->h:Lio/reactivex/subjects/PublishSubject;
 
     .line 6
-    invoke-static {}, Lio/reactivex/subjects/CompletableSubject;->z()Lio/reactivex/subjects/CompletableSubject;
+    invoke-static {}, Lio/reactivex/subjects/CompletableSubject;->y()Lio/reactivex/subjects/CompletableSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->i:Lio/reactivex/subjects/CompletableSubject;
 
     .line 7
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     return-void
 .end method
@@ -119,28 +119,28 @@
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->f:Lio/reactivex/disposables/a;
 
     .line 11
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->g:Lio/reactivex/subjects/PublishSubject;
 
     .line 12
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->h:Lio/reactivex/subjects/PublishSubject;
 
     .line 13
-    invoke-static {}, Lio/reactivex/subjects/CompletableSubject;->z()Lio/reactivex/subjects/CompletableSubject;
+    invoke-static {}, Lio/reactivex/subjects/CompletableSubject;->y()Lio/reactivex/subjects/CompletableSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->i:Lio/reactivex/subjects/CompletableSubject;
 
     .line 14
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     return-void
 .end method
@@ -164,28 +164,28 @@
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->f:Lio/reactivex/disposables/a;
 
     .line 18
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->g:Lio/reactivex/subjects/PublishSubject;
 
     .line 19
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->h:Lio/reactivex/subjects/PublishSubject;
 
     .line 20
-    invoke-static {}, Lio/reactivex/subjects/CompletableSubject;->z()Lio/reactivex/subjects/CompletableSubject;
+    invoke-static {}, Lio/reactivex/subjects/CompletableSubject;->y()Lio/reactivex/subjects/CompletableSubject;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;->i:Lio/reactivex/subjects/CompletableSubject;
 
     .line 21
-    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->N0()Lio/reactivex/subjects/PublishSubject;
+    invoke-static {}, Lio/reactivex/subjects/PublishSubject;->W0()Lio/reactivex/subjects/PublishSubject;
 
     return-void
 .end method
@@ -403,7 +403,7 @@
 
     sget-object v4, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/o;->a:Lcom/stagecoach/stagecoachbus/views/buy/payment/button/o;
 
-    invoke-virtual {v1, v2, v3, v4}, Lio/reactivex/p;->q0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+    invoke-virtual {v1, v2, v3, v4}, Lio/reactivex/p;->y0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
 
     move-result-object v1
 
@@ -501,7 +501,7 @@
 
     invoke-direct {v4, p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/button/m;-><init>(Lcom/stagecoach/stagecoachbus/views/buy/payment/button/PaymentButtonsSectionView;)V
 
-    invoke-virtual {v3, v4}, Lio/reactivex/p;->o0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v3, v4}, Lio/reactivex/p;->w0(Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v3
 

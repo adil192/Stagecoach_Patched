@@ -24,10 +24,10 @@
 
 
 # virtual methods
-.method public abstract M()Z
+.method public abstract I()Z
 .end method
 
-.method public abstract t()Ljava/util/List;
+.method public abstract q()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

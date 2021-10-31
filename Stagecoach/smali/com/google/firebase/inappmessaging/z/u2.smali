@@ -246,7 +246,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lio/reactivex/k;->n(Ljava/util/concurrent/Callable;)Lio/reactivex/k;
+    invoke-static {p1}, Lio/reactivex/k;->o(Ljava/util/concurrent/Callable;)Lio/reactivex/k;
 
     move-result-object p1
 
@@ -261,7 +261,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lio/reactivex/a;->l(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
+    invoke-static {p1}, Lio/reactivex/a;->k(Ljava/util/concurrent/Callable;)Lio/reactivex/a;
 
     move-result-object p1
 

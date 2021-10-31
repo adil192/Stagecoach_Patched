@@ -15,8 +15,8 @@
 
 
 # virtual methods
-.method public abstract a0()V
+.method public abstract C0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
 .end method
 
-.method public abstract z0(Lcom/stagecoach/stagecoachbus/logic/TouchIdManager$ScanError;)V
+.method public abstract d0()V
 .end method

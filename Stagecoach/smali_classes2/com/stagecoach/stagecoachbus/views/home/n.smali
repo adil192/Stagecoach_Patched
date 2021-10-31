@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/n;->b:Landroid/content/Context;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->Q5(Landroid/content/Context;Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->T5(Landroid/content/Context;Landroid/graphics/Bitmap;)V
 
     return-void
 .end method

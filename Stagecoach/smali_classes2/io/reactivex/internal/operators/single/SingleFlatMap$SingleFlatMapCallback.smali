@@ -54,10 +54,10 @@
     .end annotation
 .end field
 
-.field final mapper:Lio/reactivex/c0/g;
+.field final mapper:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/z<",
             "+TR;>;>;"
@@ -67,14 +67,14 @@
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/x;Lio/reactivex/c0/g;)V
+.method constructor <init>(Lio/reactivex/x;Lio/reactivex/c0/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/x<",
             "-TR;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/z<",
             "+TR;>;>;)V"
@@ -88,7 +88,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/single/SingleFlatMap$SingleFlatMapCallback;->downstream:Lio/reactivex/x;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/single/SingleFlatMap$SingleFlatMapCallback;->mapper:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/single/SingleFlatMap$SingleFlatMapCallback;->mapper:Lio/reactivex/c0/i;
 
     return-void
 .end method
@@ -161,9 +161,9 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleFlatMap$SingleFlatMapCallback;->mapper:Lio/reactivex/c0/g;
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleFlatMap$SingleFlatMapCallback;->mapper:Lio/reactivex/c0/i;
 
-    invoke-interface {v0, p1}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

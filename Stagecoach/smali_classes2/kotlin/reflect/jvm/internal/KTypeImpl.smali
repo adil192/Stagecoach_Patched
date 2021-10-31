@@ -3,7 +3,7 @@
 .source "KTypeImpl.kt"
 
 # interfaces
-.implements Lkotlin/reflect/i;
+.implements Lkotlin/reflect/j;
 
 
 # annotations
@@ -14,16 +14,16 @@
         0x3
     }
     d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u0000\u0018\u00002\u00020\u0001B!\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0010\u0008\u0002\u0010\u001a\u001a\n\u0012\u0004\u0012\u00020\u0015\u0018\u00010!\u00a2\u0006\u0004\u0008\"\u0010#J\u0019\u0010\u0005\u001a\u0004\u0018\u00010\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u001a\u0010\t\u001a\u00020\u00082\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0001H\u0096\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u000f\u0010\u000c\u001a\u00020\u000bH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u000f\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0019\u0010\u0003\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010\u0011\u001a\u0004\u0008\u0012\u0010\u0013R$\u0010\u001a\u001a\n\u0012\u0004\u0012\u00020\u0015\u0018\u00010\u00148\u0002@\u0002X\u0082\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\u0017\u0012\u0004\u0008\u0018\u0010\u0019R\u001f\u0010\u001d\u001a\u0004\u0018\u00010\u00048V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001b\u0010\u0017\u001a\u0004\u0008\u001b\u0010\u001cR\u0018\u0010 \u001a\u0004\u0018\u00010\u00158V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001e\u0010\u001f\u00a8\u0006$"
+        "\u0000F\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u0000\u0018\u00002\u00020\u0001B!\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0010\u0008\u0002\u0010!\u001a\n\u0012\u0004\u0012\u00020\u0011\u0018\u00010\"\u00a2\u0006\u0004\u0008#\u0010$J\u0019\u0010\u0005\u001a\u0004\u0018\u00010\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u001a\u0010\t\u001a\u00020\u00082\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0001H\u0096\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u000f\u0010\u000c\u001a\u00020\u000bH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u000f\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0018\u0010\u0014\u001a\u0004\u0018\u00010\u00118V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0012\u0010\u0013R\u0019\u0010\u0003\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017R\u001f\u0010\u001c\u001a\u0004\u0018\u00010\u00048V@\u0016X\u0096\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0018\u0010\u0019\u001a\u0004\u0008\u001a\u0010\u001bR$\u0010!\u001a\n\u0012\u0004\u0012\u00020\u0011\u0018\u00010\u001d8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u0019\u0012\u0004\u0008\u001f\u0010 \u00a8\u0006%"
     }
     d2 = {
         "Lkotlin/reflect/jvm/internal/KTypeImpl;",
         "",
         "Lkotlin/reflect/jvm/internal/impl/types/y;",
         "type",
-        "Lkotlin/reflect/c;",
-        "c",
-        "(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/c;",
+        "Lkotlin/reflect/d;",
+        "e",
+        "(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/d;",
         "other",
         "",
         "equals",
@@ -34,22 +34,23 @@
         "",
         "toString",
         "()Ljava/lang/String;",
+        "Ljava/lang/reflect/Type;",
+        "f",
+        "()Ljava/lang/reflect/Type;",
+        "javaType",
         "Lkotlin/reflect/jvm/internal/impl/types/y;",
         "getType",
         "()Lorg/jetbrains/kotlin/types/KotlinType;",
+        "d",
         "Lkotlin/reflect/jvm/internal/l$a;",
-        "Ljava/lang/reflect/Type;",
-        "a",
+        "b",
+        "()Lkotlin/reflect/d;",
+        "classifier",
         "Lkotlin/reflect/jvm/internal/l$a;",
+        "c",
         "getComputeJavaType$annotations",
         "()V",
         "computeJavaType",
-        "b",
-        "()Lkotlin/reflect/c;",
-        "classifier",
-        "d",
-        "()Ljava/lang/reflect/Type;",
-        "javaType",
         "Lkotlin/Function0;",
         "<init>",
         "(Lorg/jetbrains/kotlin/types/KotlinType;Lkotlin/jvm/b/a;)V",
@@ -65,11 +66,11 @@
 
 
 # static fields
-.field static final synthetic d:[Lkotlin/reflect/h;
+.field static final synthetic f:[Lkotlin/reflect/i;
 
 
 # instance fields
-.field private final a:Lkotlin/reflect/jvm/internal/l$a;
+.field private final c:Lkotlin/reflect/jvm/internal/l$a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlin/reflect/jvm/internal/l$a<",
@@ -79,9 +80,9 @@
     .end annotation
 .end field
 
-.field private final b:Lkotlin/reflect/jvm/internal/l$a;
+.field private final d:Lkotlin/reflect/jvm/internal/l$a;
 
-.field private final c:Lkotlin/reflect/jvm/internal/impl/types/y;
+.field private final e:Lkotlin/reflect/jvm/internal/impl/types/y;
 
 
 # direct methods
@@ -92,11 +93,11 @@
 
     const/4 v1, 0x2
 
-    new-array v1, v1, [Lkotlin/reflect/h;
+    new-array v1, v1, [Lkotlin/reflect/i;
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v3
 
@@ -104,9 +105,9 @@
 
     const-string v5, "getClassifier()Lkotlin/reflect/KClassifier;"
 
-    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v2
 
@@ -116,7 +117,7 @@
 
     new-instance v2, Lkotlin/jvm/internal/PropertyReference1Impl;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {v0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v0
 
@@ -124,9 +125,9 @@
 
     const-string v4, "getArguments()Ljava/util/List;"
 
-    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v0, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-static {v2}, Lkotlin/jvm/internal/k;->g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object v0
 
@@ -134,7 +135,7 @@
 
     aput-object v0, v1, v2
 
-    sput-object v1, Lkotlin/reflect/jvm/internal/KTypeImpl;->d:[Lkotlin/reflect/h;
+    sput-object v1, Lkotlin/reflect/jvm/internal/KTypeImpl;->f:[Lkotlin/reflect/i;
 
     return-void
 .end method
@@ -159,7 +160,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/impl/types/y;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->e:Lkotlin/reflect/jvm/internal/impl/types/y;
 
     .line 2
     instance-of p1, p2, Lkotlin/reflect/jvm/internal/l$a;
@@ -193,7 +194,7 @@
 
     :cond_2
     :goto_1
-    iput-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->a:Lkotlin/reflect/jvm/internal/l$a;
+    iput-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/l$a;
 
     .line 3
     new-instance p1, Lkotlin/reflect/jvm/internal/KTypeImpl$classifier$2;
@@ -204,7 +205,7 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->b:Lkotlin/reflect/jvm/internal/l$a;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->d:Lkotlin/reflect/jvm/internal/l$a;
 
     .line 4
     new-instance p1, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;
@@ -232,22 +233,22 @@
     return-void
 .end method
 
-.method public static final synthetic a(Lkotlin/reflect/jvm/internal/KTypeImpl;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/c;
+.method public static final synthetic d(Lkotlin/reflect/jvm/internal/KTypeImpl;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/d;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/KTypeImpl;->c(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/c;
+    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/KTypeImpl;->e(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/d;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private final c(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/c;
+.method private final e(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/d;
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v0
 
@@ -279,7 +280,7 @@
     if-eqz v1, :cond_2
 
     .line 5
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->O0()Ljava/util/List;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->H0()Ljava/util/List;
 
     move-result-object p1
 
@@ -302,7 +303,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
-    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/KTypeImpl;->c(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/c;
+    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/KTypeImpl;->e(Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/d;
 
     move-result-object p1
 
@@ -311,11 +312,11 @@
     .line 7
     new-instance v0, Lkotlin/reflect/jvm/internal/KClassImpl;
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/a;->a(Lkotlin/reflect/c;)Lkotlin/reflect/b;
+    invoke-static {p1}, Lkotlin/reflect/jvm/a;->a(Lkotlin/reflect/d;)Lkotlin/reflect/c;
 
     move-result-object p1
 
-    invoke-static {p1}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {p1}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object p1
 
@@ -440,12 +441,12 @@
 
 
 # virtual methods
-.method public b()Lkotlin/reflect/c;
+.method public b()Lkotlin/reflect/d;
     .locals 3
 
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->b:Lkotlin/reflect/jvm/internal/l$a;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->d:Lkotlin/reflect/jvm/internal/l$a;
 
-    sget-object v1, Lkotlin/reflect/jvm/internal/KTypeImpl;->d:[Lkotlin/reflect/h;
+    sget-object v1, Lkotlin/reflect/jvm/internal/KTypeImpl;->f:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 
@@ -455,39 +456,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/reflect/c;
-
-    return-object v0
-.end method
-
-.method public d()Ljava/lang/reflect/Type;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->a:Lkotlin/reflect/jvm/internal/l$a;
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/l$a;->invoke()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/reflect/Type;
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return-object v0
-.end method
-
-.method public final e()Lkotlin/reflect/jvm/internal/impl/types/y;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/impl/types/y;
+    check-cast v0, Lkotlin/reflect/d;
 
     return-object v0
 .end method
@@ -500,11 +469,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/impl/types/y;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->e:Lkotlin/reflect/jvm/internal/impl/types/y;
 
     check-cast p1, Lkotlin/reflect/jvm/internal/KTypeImpl;
 
-    iget-object p1, p1, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/impl/types/y;
+    iget-object p1, p1, Lkotlin/reflect/jvm/internal/KTypeImpl;->e:Lkotlin/reflect/jvm/internal/impl/types/y;
 
     invoke-static {v0, p1}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -523,11 +492,43 @@
     return p1
 .end method
 
+.method public f()Ljava/lang/reflect/Type;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/l$a;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/l$a;->invoke()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/reflect/Type;
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return-object v0
+.end method
+
+.method public final g()Lkotlin/reflect/jvm/internal/impl/types/y;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->e:Lkotlin/reflect/jvm/internal/impl/types/y;
+
+    return-object v0
+.end method
+
 .method public hashCode()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/impl/types/y;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->e:Lkotlin/reflect/jvm/internal/impl/types/y;
 
     invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->hashCode()I
 
@@ -542,7 +543,7 @@
     .line 1
     sget-object v0, Lkotlin/reflect/jvm/internal/ReflectionObjectRenderer;->b:Lkotlin/reflect/jvm/internal/ReflectionObjectRenderer;
 
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->c:Lkotlin/reflect/jvm/internal/impl/types/y;
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/KTypeImpl;->e:Lkotlin/reflect/jvm/internal/impl/types/y;
 
     invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/ReflectionObjectRenderer;->h(Lkotlin/reflect/jvm/internal/impl/types/y;)Ljava/lang/String;
 

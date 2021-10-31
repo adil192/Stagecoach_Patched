@@ -170,7 +170,7 @@
     return-void
 .end method
 
-.method public static N0()Lio/reactivex/subjects/a;
+.method public static W0()Lio/reactivex/subjects/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -190,7 +190,7 @@
     return-object v0
 .end method
 
-.method public static O0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
+.method public static X0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -212,7 +212,76 @@
 
 
 # virtual methods
-.method M0(Lio/reactivex/subjects/a$a;)Z
+.method protected A0(Lio/reactivex/t;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/t<",
+            "-TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lio/reactivex/subjects/a$a;
+
+    invoke-direct {v0, p1, p0}, Lio/reactivex/subjects/a$a;-><init>(Lio/reactivex/t;Lio/reactivex/subjects/a;)V
+
+    .line 2
+    invoke-interface {p1, v0}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
+
+    .line 3
+    invoke-virtual {p0, v0}, Lio/reactivex/subjects/a;->V0(Lio/reactivex/subjects/a$a;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 4
+    iget-boolean p1, v0, Lio/reactivex/subjects/a$a;->i:Z
+
+    if-eqz p1, :cond_0
+
+    .line 5
+    invoke-virtual {p0, v0}, Lio/reactivex/subjects/a;->a1(Lio/reactivex/subjects/a$a;)V
+
+    goto :goto_0
+
+    .line 6
+    :cond_0
+    invoke-virtual {v0}, Lio/reactivex/subjects/a$a;->b()V
+
+    goto :goto_0
+
+    .line 7
+    :cond_1
+    iget-object v0, p0, Lio/reactivex/subjects/a;->h:Ljava/util/concurrent/atomic/AtomicReference;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Throwable;
+
+    .line 8
+    sget-object v1, Lio/reactivex/internal/util/ExceptionHelper;->a:Ljava/lang/Throwable;
+
+    if-ne v0, v1, :cond_2
+
+    .line 9
+    invoke-interface {p1}, Lio/reactivex/t;->onComplete()V
+
+    goto :goto_0
+
+    .line 10
+    :cond_2
+    invoke-interface {p1, v0}, Lio/reactivex/t;->onError(Ljava/lang/Throwable;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method V0(Lio/reactivex/subjects/a$a;)Z
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -270,7 +339,7 @@
     return p1
 .end method
 
-.method public P0()Ljava/lang/Object;
+.method public Y0()Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -313,7 +382,43 @@
     return-object v0
 .end method
 
-.method Q0(Lio/reactivex/subjects/a$a;)V
+.method public Z0()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lio/reactivex/subjects/a;->c:Ljava/util/concurrent/atomic/AtomicReference;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    invoke-static {v0}, Lio/reactivex/internal/util/NotificationLite;->isComplete(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    invoke-static {v0}, Lio/reactivex/internal/util/NotificationLite;->isError(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+.end method
+
+.method a1(Lio/reactivex/subjects/a$a;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -413,7 +518,7 @@
     return-void
 .end method
 
-.method R0(Ljava/lang/Object;)V
+.method b1(Ljava/lang/Object;)V
     .locals 4
 
     .line 1
@@ -443,7 +548,7 @@
     return-void
 .end method
 
-.method S0(Ljava/lang/Object;)[Lio/reactivex/subjects/a$a;
+.method c1(Ljava/lang/Object;)[Lio/reactivex/subjects/a$a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -469,7 +574,7 @@
     if-eq v0, v1, :cond_0
 
     .line 2
-    invoke-virtual {p0, p1}, Lio/reactivex/subjects/a;->R0(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lio/reactivex/subjects/a;->b1(Ljava/lang/Object;)V
 
     :cond_0
     return-object v0
@@ -500,7 +605,7 @@
     move-result-object v0
 
     .line 3
-    invoke-virtual {p0, v0}, Lio/reactivex/subjects/a;->S0(Ljava/lang/Object;)[Lio/reactivex/subjects/a$a;
+    invoke-virtual {p0, v0}, Lio/reactivex/subjects/a;->c1(Ljava/lang/Object;)[Lio/reactivex/subjects/a$a;
 
     move-result-object v1
 
@@ -557,7 +662,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Lio/reactivex/subjects/a;->S0(Ljava/lang/Object;)[Lio/reactivex/subjects/a$a;
+    invoke-virtual {p0, p1}, Lio/reactivex/subjects/a;->c1(Ljava/lang/Object;)[Lio/reactivex/subjects/a$a;
 
     move-result-object v0
 
@@ -612,7 +717,7 @@
     invoke-static {p1}, Lio/reactivex/internal/util/NotificationLite;->next(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
-    invoke-virtual {p0, p1}, Lio/reactivex/subjects/a;->R0(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lio/reactivex/subjects/a;->b1(Ljava/lang/Object;)V
 
     .line 5
     iget-object v0, p0, Lio/reactivex/subjects/a;->d:Ljava/util/concurrent/atomic/AtomicReference;
@@ -661,74 +766,5 @@
     invoke-interface {p1}, Lio/reactivex/disposables/b;->dispose()V
 
     :cond_0
-    return-void
-.end method
-
-.method protected s0(Lio/reactivex/t;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lio/reactivex/t<",
-            "-TT;>;)V"
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Lio/reactivex/subjects/a$a;
-
-    invoke-direct {v0, p1, p0}, Lio/reactivex/subjects/a$a;-><init>(Lio/reactivex/t;Lio/reactivex/subjects/a;)V
-
-    .line 2
-    invoke-interface {p1, v0}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
-
-    .line 3
-    invoke-virtual {p0, v0}, Lio/reactivex/subjects/a;->M0(Lio/reactivex/subjects/a$a;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 4
-    iget-boolean p1, v0, Lio/reactivex/subjects/a$a;->i:Z
-
-    if-eqz p1, :cond_0
-
-    .line 5
-    invoke-virtual {p0, v0}, Lio/reactivex/subjects/a;->Q0(Lio/reactivex/subjects/a$a;)V
-
-    goto :goto_0
-
-    .line 6
-    :cond_0
-    invoke-virtual {v0}, Lio/reactivex/subjects/a$a;->b()V
-
-    goto :goto_0
-
-    .line 7
-    :cond_1
-    iget-object v0, p0, Lio/reactivex/subjects/a;->h:Ljava/util/concurrent/atomic/AtomicReference;
-
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Throwable;
-
-    .line 8
-    sget-object v1, Lio/reactivex/internal/util/ExceptionHelper;->a:Ljava/lang/Throwable;
-
-    if-ne v0, v1, :cond_2
-
-    .line 9
-    invoke-interface {p1}, Lio/reactivex/t;->onComplete()V
-
-    goto :goto_0
-
-    .line 10
-    :cond_2
-    invoke-interface {p1, v0}, Lio/reactivex/t;->onError(Ljava/lang/Throwable;)V
-
-    :goto_0
     return-void
 .end method

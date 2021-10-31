@@ -436,12 +436,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/stagecoach/core/model/secureapi/TicketsResponse;
-
-    .line 6
     check-cast v0, Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketResponse;
 
-    .line 7
+    .line 6
     invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/logic/qr/QrOrderManager;->d(Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketResponse;)Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketResponse;
 
     move-result-object v0
@@ -451,7 +448,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 8
+    .line 7
     invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/logic/qr/QrOrderManager;->d(Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketResponse;)Lcom/stagecoach/stagecoachbus/model/qr/order/GetQrTicketResponse;
 
     move-result-object v0

@@ -52,7 +52,7 @@
 
     const-string p2, "ConnectionlessLifecycleHelper"
 
-    invoke-interface {p1, p2, p0}, Lcom/google/android/gms/common/api/internal/j;->s(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
+    invoke-interface {p1, p2, p0}, Lcom/google/android/gms/common/api/internal/j;->v(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
     const-string v1, "ConnectionlessLifecycleHelper"
 
     .line 3
-    invoke-interface {p0, v1, v0}, Lcom/google/android/gms/common/api/internal/j;->d0(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    invoke-interface {p0, v1, v0}, Lcom/google/android/gms/common/api/internal/j;->g0(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     move-result-object v0
 

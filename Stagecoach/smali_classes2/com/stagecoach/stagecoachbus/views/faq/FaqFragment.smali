@@ -55,25 +55,25 @@
     return-void
 .end method
 
-.method private synthetic W3(Landroid/view/View;)V
+.method private synthetic Z3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->r3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->u3()V
 
     return-void
 .end method
 
-.method private synthetic Y3(Ljava/util/List;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+.method private synthetic b4(Ljava/util/List;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p4}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->c4(Ljava/util/List;I)V
+    invoke-direct {p0, p1, p4}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->f4(Ljava/util/List;I)V
 
     return-void
 .end method
 
-.method public static a4()Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;
+.method public static d4()Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;
     .locals 1
 
     .line 1
@@ -84,7 +84,7 @@
     return-object v0
 .end method
 
-.method private c4(Ljava/util/List;I)V
+.method private f4(Ljava/util/List;I)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -100,12 +100,12 @@
     new-array v0, v0, [I
 
     .line 1
-    invoke-direct {p0, p1, p2, v0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->d4(Ljava/util/List;I[I)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->g4(Ljava/util/List;I[I)V
 
     return-void
 .end method
 
-.method private d4(Ljava/util/List;I[I)V
+.method private g4(Ljava/util/List;I[I)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -222,7 +222,7 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p3, v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment$FaqListener;->n(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)V
+    invoke-interface {v1, p3, v0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment$FaqListener;->o(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)V
 
     :cond_2
     :goto_0
@@ -290,11 +290,39 @@
 
 
 # virtual methods
-.method public I1(Landroid/content/Context;)V
+.method public B0(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->a(Z)V
+
+    if-eqz p1, :cond_0
+
+    .line 2
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;->getFaqResponseObj()Ljava/util/List;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;->getFaqResponseObj()Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->setUpViews(Ljava/util/List;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public L1(Landroid/content/Context;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->L1(Landroid/content/Context;)V
 
     .line 2
     instance-of v0, p1, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment$FaqListener;
@@ -310,11 +338,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c0076
 
@@ -342,7 +370,7 @@
     return-object p1
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     const/4 v0, 0x0
@@ -351,39 +379,39 @@
     iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->K0:Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment$FaqListener;
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->T1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->W1()V
 
     return-void
 .end method
 
-.method protected bridge synthetic V3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
+.method protected bridge synthetic Y3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
     .locals 0
 
     .line 1
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->b4(Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->e4(Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;)V
 
     return-void
 .end method
 
-.method public synthetic X3(Landroid/view/View;)V
+.method public synthetic a4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->W3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->Z3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic Z3(Ljava/util/List;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+.method public synthetic c4(Ljava/util/List;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 0
 
-    invoke-direct/range {p0 .. p6}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->Y3(Ljava/util/List;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    invoke-direct/range {p0 .. p6}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->b4(Ljava/util/List;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     return-void
 .end method
 
-.method public b()V
+.method public d()V
     .locals 1
 
     const/4 v0, 0x0
@@ -394,24 +422,8 @@
     return-void
 .end method
 
-.method protected b4(Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;)V
+.method protected e4(Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;)V
     .locals 0
-
-    return-void
-.end method
-
-.method public g2()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
-
-    .line 2
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
-
-    check-cast v0, Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;
-
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;->getFaqData()V
 
     return-void
 .end method
@@ -445,36 +457,36 @@
     const v0, 0x7f1101c3
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public i()V
+.method public j2()V
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
+
+    .line 2
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenterFragment;->F0:Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
+
+    check-cast v0, Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;
+
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/faq/FaqPresenter;->getFaqData()V
+
+    return-void
+.end method
+
+.method public k()V
     .locals 1
 
     const/4 v0, 0x1
 
     .line 1
     invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->a(Z)V
-
-    return-void
-.end method
-
-.method public r3()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->r3()V
-
-    .line 2
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -519,30 +531,18 @@
     return-void
 .end method
 
-.method public y0(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)V
+.method public u3()V
     .locals 1
 
-    const/4 v0, 0x0
-
     .line 1
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->a(Z)V
-
-    if-eqz p1, :cond_0
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3()V
 
     .line 2
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;->getFaqResponseObj()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/c;
 
     move-result-object v0
 
-    if-eqz v0, :cond_0
+    invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
-    .line 3
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;->getFaqResponseObj()Ljava/util/List;
-
-    move-result-object p1
-
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/faq/FaqFragment;->setUpViews(Ljava/util/List;)V
-
-    :cond_0
     return-void
 .end method

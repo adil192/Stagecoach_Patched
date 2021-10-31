@@ -69,7 +69,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->h()Ljava/util/List;
+    invoke-interface {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->f()Ljava/util/List;
 
     move-result-object p1
 
@@ -127,7 +127,7 @@
 
     if-nez v3, :cond_3
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->o0()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/o0;->j0()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v0
 

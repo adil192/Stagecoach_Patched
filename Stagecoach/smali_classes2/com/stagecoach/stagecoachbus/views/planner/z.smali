@@ -38,7 +38,7 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->o4(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->r4(Ljava/lang/Throwable;)V
 
     return-void
 .end method

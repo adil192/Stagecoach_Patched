@@ -157,7 +157,7 @@
     return-object v0
 .end method
 
-.method k()I
+.method j()I
     .locals 1
 
     .line 1
@@ -168,7 +168,7 @@
     throw v0
 .end method
 
-.method l()I
+.method k()I
     .locals 1
 
     .line 1
@@ -278,11 +278,11 @@
     if-eqz v1, :cond_0
 
     .line 6
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzex;->k()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzex;->j()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzex;->l()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzex;->k()I
 
     move-result v2
 

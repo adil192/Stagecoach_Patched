@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/h2;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->j4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/qr/order/TransferTicketResponse;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->m4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/qr/order/TransferTicketResponse;
 
     move-result-object v0
 

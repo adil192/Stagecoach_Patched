@@ -1411,7 +1411,7 @@
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/measurement/zzhf;->O(I)V
 
     .line 2
-    invoke-virtual {p1, p0}, Lcom/google/android/gms/internal/measurement/zzgm;->l(Lcom/google/android/gms/internal/measurement/y4;)V
+    invoke-virtual {p1, p0}, Lcom/google/android/gms/internal/measurement/zzgm;->k(Lcom/google/android/gms/internal/measurement/y4;)V
 
     return-void
 .end method

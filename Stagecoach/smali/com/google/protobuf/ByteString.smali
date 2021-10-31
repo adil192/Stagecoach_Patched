@@ -479,10 +479,10 @@
     return-object v0
 .end method
 
-.method protected abstract k([BIII)V
+.method protected abstract j([BIII)V
 .end method
 
-.method abstract l(I)B
+.method abstract k(I)B
 .end method
 
 .method public abstract newCodedInput()Lcom/google/protobuf/h;
@@ -531,7 +531,7 @@
     const/4 v2, 0x0
 
     .line 4
-    invoke-virtual {p0, v1, v2, v2, v0}, Lcom/google/protobuf/ByteString;->k([BIII)V
+    invoke-virtual {p0, v1, v2, v2, v0}, Lcom/google/protobuf/ByteString;->j([BIII)V
 
     return-object v1
 .end method

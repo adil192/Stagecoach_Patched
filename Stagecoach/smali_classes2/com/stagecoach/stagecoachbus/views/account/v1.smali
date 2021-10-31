@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/pcapredict/PCARetrievedAddress;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->i4(Lcom/stagecoach/stagecoachbus/model/pcapredict/PCARetrievedAddress;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountAddAddressesFragment;->l4(Lcom/stagecoach/stagecoachbus/model/pcapredict/PCARetrievedAddress;)V
 
     return-void
 .end method

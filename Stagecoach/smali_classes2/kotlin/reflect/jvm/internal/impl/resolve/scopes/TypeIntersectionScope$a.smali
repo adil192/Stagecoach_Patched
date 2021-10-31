@@ -88,7 +88,7 @@
     check-cast v1, Lkotlin/reflect/jvm/internal/impl/types/y;
 
     .line 4
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/types/y;->l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v1
 

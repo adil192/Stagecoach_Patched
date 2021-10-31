@@ -66,7 +66,7 @@
     return-void
 .end method
 
-.method private V3()Z
+.method private Y3()Z
     .locals 3
 
     .line 1
@@ -81,7 +81,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->F0:Lcom/stagecoach/stagecoachbus/views/validation/Validator;
 
-    invoke-direct {p0, v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->u4(Lcom/stagecoach/stagecoachbus/views/field/RegisterFormPasswordField;Lcom/stagecoach/stagecoachbus/views/validation/Validator;)Z
+    invoke-direct {p0, v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->x4(Lcom/stagecoach/stagecoachbus/views/field/RegisterFormPasswordField;Lcom/stagecoach/stagecoachbus/views/validation/Validator;)Z
 
     move-result v0
 
@@ -103,7 +103,7 @@
     return v0
 .end method
 
-.method private synthetic W3()V
+.method private synthetic Z3()V
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -119,7 +119,7 @@
     return-void
 .end method
 
-.method private synthetic Y3()V
+.method private synthetic b4()V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -137,7 +137,7 @@
     return-void
 .end method
 
-.method private synthetic a4(Landroid/view/View;)V
+.method private synthetic d4(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -150,25 +150,7 @@
     return-void
 .end method
 
-.method private synthetic c4(Landroid/view/View;)V
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->p4()V
-
-    return-void
-.end method
-
-.method private synthetic e4(Landroid/view/View;)V
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->q4()V
-
-    return-void
-.end method
-
-.method private synthetic g4(Landroid/view/View;)V
+.method private synthetic f4(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -177,7 +159,25 @@
     return-void
 .end method
 
-.method private synthetic i4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
+.method private synthetic h4(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->t4()V
+
+    return-void
+.end method
+
+.method private synthetic j4(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->v4()V
+
+    return-void
+.end method
+
+.method private synthetic l4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -201,7 +201,7 @@
     return-object p1
 .end method
 
-.method private synthetic k4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
+.method private synthetic n4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -212,13 +212,13 @@
     if-eqz p1, :cond_0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->w4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->z4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic m4(Ljava/lang/Throwable;)V
+.method private synthetic p4(Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -245,7 +245,7 @@
     return-void
 .end method
 
-.method public static o4()Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;
+.method public static r4()Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;
     .locals 1
 
     .line 1
@@ -256,7 +256,7 @@
     return-object v0
 .end method
 
-.method private r4()V
+.method private u4()V
     .locals 3
 
     .line 1
@@ -303,7 +303,7 @@
     return-void
 .end method
 
-.method private t4()V
+.method private w4()V
     .locals 3
 
     .line 1
@@ -325,12 +325,12 @@
 
     const-string v2, "FINGERPRINT_DIALOG"
 
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/b;->a3(Landroidx/fragment/app/l;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/b;->d3(Landroidx/fragment/app/l;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method private u4(Lcom/stagecoach/stagecoachbus/views/field/RegisterFormPasswordField;Lcom/stagecoach/stagecoachbus/views/validation/Validator;)Z
+.method private x4(Lcom/stagecoach/stagecoachbus/views/field/RegisterFormPasswordField;Lcom/stagecoach/stagecoachbus/views/validation/Validator;)Z
     .locals 1
 
     .line 1
@@ -370,7 +370,15 @@
 
 
 # virtual methods
-.method public G1(IILandroid/content/Intent;)V
+.method public C3()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public J1(IILandroid/content/Intent;)V
     .locals 1
 
     const/16 p3, 0x3e9
@@ -393,7 +401,7 @@
 
     invoke-direct {p1, p0}, Lcom/stagecoach/stagecoachbus/views/account/t;-><init>(Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;)V
 
-    invoke-static {p1}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {p1}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object p1
 
@@ -402,20 +410,20 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p1, p2}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p1
 
     .line 3
-    invoke-virtual {p1}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {p1}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     move-result-object p1
 
     .line 4
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     .line 5
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->t4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->w4()V
 
     goto :goto_0
 
@@ -423,14 +431,14 @@
     if-ne p2, v0, :cond_2
 
     .line 6
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->r4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->u4()V
 
     .line 7
     new-instance p1, Lcom/stagecoach/stagecoachbus/views/account/p;
 
     invoke-direct {p1, p0}, Lcom/stagecoach/stagecoachbus/views/account/p;-><init>(Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;)V
 
-    invoke-static {p1}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {p1}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object p1
 
@@ -439,28 +447,28 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {p1, p2}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object p1
 
     .line 9
-    invoke-virtual {p1}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {p1}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     move-result-object p1
 
     .line 10
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     :cond_2
     :goto_0
     return-void
 .end method
 
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->L1(Landroid/content/Context;)V
 
     .line 2
     instance-of v0, p1, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment$ComfirmPasswordListener;
@@ -476,14 +484,14 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -492,11 +500,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c00ec
 
@@ -650,7 +658,7 @@
     return-object p1
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     const/4 v0, 0x0
@@ -659,59 +667,72 @@
     iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->S0:Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment$ComfirmPasswordListener;
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->T1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->W1()V
 
     return-void
 .end method
 
-.method public synthetic X3()V
+.method public synthetic a4()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->W3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->Z3()V
 
     return-void
 .end method
 
-.method public synthetic Z3()V
+.method public synthetic c4()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->Y3()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->b4()V
 
     return-void
 .end method
 
-.method public synthetic b4(Landroid/view/View;)V
+.method public synthetic e4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->a4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->d4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic d4(Landroid/view/View;)V
+.method public synthetic g4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->c4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->f4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic f4(Landroid/view/View;)V
+.method public getTitle()Ljava/lang/String;
+    .locals 1
+
+    const v0, 0x7f1100f6
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public synthetic i4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->e4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->h4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public g2()V
+.method public j2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->M3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()V
 
     .line 3
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->P0:Lcom/stagecoach/stagecoachbus/logic/TouchIdManager;
@@ -732,7 +753,7 @@
 
     .line 4
     :cond_0
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->t4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->w4()V
 
     goto :goto_0
 
@@ -748,42 +769,29 @@
     return-void
 .end method
 
-.method public getTitle()Ljava/lang/String;
-    .locals 1
-
-    const v0, 0x7f1100f6
-
-    .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public synthetic h4(Landroid/view/View;)V
+.method public synthetic k4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->g4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->j4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic j4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
+.method public synthetic m4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->i4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->l4(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 5
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->G0:Ljava/lang/String;
@@ -826,7 +834,7 @@
 
     const v3, 0x7f110408
 
-    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -845,7 +853,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -882,7 +890,7 @@
 
     const p2, 0x7f110094
 
-    invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p2
 
@@ -892,23 +900,23 @@
     return-void
 .end method
 
-.method public synthetic l4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
+.method public synthetic o4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->k4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->n4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
 
     return-void
 .end method
 
-.method public synthetic n4(Ljava/lang/Throwable;)V
+.method public synthetic q4(Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->m4(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->p4(Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method p4()V
+.method s4()V
     .locals 3
 
     .line 1
@@ -955,14 +963,14 @@
 
     .line 7
     :cond_0
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->V3()Z
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->Y3()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 8
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->v4()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->y4()V
 
     goto :goto_0
 
@@ -986,7 +994,7 @@
     return-void
 .end method
 
-.method q4()V
+.method t4()V
     .locals 1
 
     .line 1
@@ -1000,11 +1008,11 @@
     return-void
 .end method
 
-.method s4()V
+.method v4()V
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->t4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->w4()V
 
     .line 2
     invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->getStagecoachTagManager()Lcom/stagecoach/stagecoachbus/logic/StagecoachTagManager;
@@ -1024,7 +1032,7 @@
     return-void
 .end method
 
-.method v4()V
+.method y4()V
     .locals 3
 
     .line 1
@@ -1054,7 +1062,7 @@
 
     invoke-direct {v1, p0, v0}, Lcom/stagecoach/stagecoachbus/views/account/s;-><init>(Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1063,7 +1071,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1072,7 +1080,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1085,18 +1093,18 @@
     invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/account/v;-><init>(Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;)V
 
     .line 8
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 9
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     :cond_0
     return-void
 .end method
 
-.method w4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
+.method z4(Lcom/stagecoach/stagecoachbus/model/authentication/AuthenticationResponse;)V
     .locals 1
 
     if-eqz p1, :cond_2
@@ -1175,20 +1183,12 @@
     .line 10
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->I0:Lcom/stagecoach/stagecoachbus/views/field/RegisterFormPasswordField;
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->a3(Landroid/view/View;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->d3(Landroid/view/View;)V
 
     .line 11
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->r4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/account/ConfirmPasswordFragment;->u4()V
 
     :cond_2
     :goto_0
     return-void
-.end method
-
-.method public z3()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
 .end method

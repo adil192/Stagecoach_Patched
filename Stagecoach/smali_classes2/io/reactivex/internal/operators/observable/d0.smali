@@ -1,6 +1,6 @@
 .class public final Lio/reactivex/internal/operators/observable/d0;
-.super Lio/reactivex/internal/operators/observable/a;
-.source "ObservableSwitchIfEmpty.java"
+.super Lio/reactivex/v;
+.source "ObservableSingleSingle.java"
 
 
 # annotations
@@ -15,14 +15,14 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lio/reactivex/internal/operators/observable/a<",
-        "TT;TT;>;"
+        "Lio/reactivex/v<",
+        "TT;>;"
     }
 .end annotation
 
 
 # instance fields
-.field final d:Lio/reactivex/s;
+.field final c:Lio/reactivex/s;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lio/reactivex/s<",
@@ -31,57 +31,60 @@
     .end annotation
 .end field
 
+.field final d:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/s;)V
+.method public constructor <init>(Lio/reactivex/s;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/s<",
-            "TT;>;",
-            "Lio/reactivex/s<",
-            "+TT;>;)V"
+            "+TT;>;TT;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lio/reactivex/internal/operators/observable/a;-><init>(Lio/reactivex/s;)V
+    invoke-direct {p0}, Lio/reactivex/v;-><init>()V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/d0;->d:Lio/reactivex/s;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/d0;->c:Lio/reactivex/s;
+
+    .line 3
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/d0;->d:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public s0(Lio/reactivex/t;)V
-    .locals 2
+.method public F(Lio/reactivex/x;)V
+    .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/t<",
+            "Lio/reactivex/x<",
             "-TT;>;)V"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lio/reactivex/internal/operators/observable/d0$a;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/d0;->c:Lio/reactivex/s;
 
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/d0;->d:Lio/reactivex/s;
+    new-instance v1, Lio/reactivex/internal/operators/observable/d0$a;
 
-    invoke-direct {v0, p1, v1}, Lio/reactivex/internal/operators/observable/d0$a;-><init>(Lio/reactivex/t;Lio/reactivex/s;)V
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/d0;->d:Ljava/lang/Object;
 
-    .line 2
-    iget-object v1, v0, Lio/reactivex/internal/operators/observable/d0$a;->e:Lio/reactivex/internal/disposables/SequentialDisposable;
+    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/observable/d0$a;-><init>(Lio/reactivex/x;Ljava/lang/Object;)V
 
-    invoke-interface {p1, v1}, Lio/reactivex/t;->onSubscribe(Lio/reactivex/disposables/b;)V
-
-    .line 3
-    iget-object p1, p0, Lio/reactivex/internal/operators/observable/a;->c:Lio/reactivex/s;
-
-    invoke-interface {p1, v0}, Lio/reactivex/s;->subscribe(Lio/reactivex/t;)V
+    invoke-interface {v0, v1}, Lio/reactivex/s;->subscribe(Lio/reactivex/t;)V
 
     return-void
 .end method

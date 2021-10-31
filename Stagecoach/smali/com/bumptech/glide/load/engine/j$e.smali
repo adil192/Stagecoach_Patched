@@ -74,7 +74,7 @@
     return-void
 .end method
 
-.method private static l(Lcom/bumptech/glide/request/f;)Lcom/bumptech/glide/load/engine/j$d;
+.method private static k(Lcom/bumptech/glide/request/f;)Lcom/bumptech/glide/load/engine/j$d;
     .locals 2
 
     .line 1
@@ -123,7 +123,7 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->c:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/bumptech/glide/load/engine/j$e;->l(Lcom/bumptech/glide/request/f;)Lcom/bumptech/glide/load/engine/j$d;
+    invoke-static {p1}, Lcom/bumptech/glide/load/engine/j$e;->k(Lcom/bumptech/glide/request/f;)Lcom/bumptech/glide/load/engine/j$d;
 
     move-result-object p1
 
@@ -168,7 +168,7 @@
     return-object v0
 .end method
 
-.method k()Lcom/bumptech/glide/load/engine/j$e;
+.method j()Lcom/bumptech/glide/load/engine/j$e;
     .locals 3
 
     .line 1
@@ -191,7 +191,7 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->c:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/bumptech/glide/load/engine/j$e;->l(Lcom/bumptech/glide/request/f;)Lcom/bumptech/glide/load/engine/j$d;
+    invoke-static {p1}, Lcom/bumptech/glide/load/engine/j$e;->k(Lcom/bumptech/glide/request/f;)Lcom/bumptech/glide/load/engine/j$d;
 
     move-result-object p1
 

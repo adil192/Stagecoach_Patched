@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/t;->a:Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;
 
-    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->O4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;Lcom/google/android/gms/maps/model/d;)Z
+    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->R4(Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;Lcom/google/android/gms/maps/model/d;)Z
 
     move-result p1
 

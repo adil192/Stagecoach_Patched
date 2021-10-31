@@ -40,7 +40,7 @@
 
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/i;->e:Ljava/util/List;
 
-    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->p4(ZLjava/util/List;)V
+    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/views/picker/search/ExplorerSearchFragment;->s4(ZLjava/util/List;)V
 
     return-void
 .end method

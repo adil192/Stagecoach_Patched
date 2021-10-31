@@ -59,7 +59,7 @@
 
 
 # virtual methods
-.method public l()Lcom/airbnb/lottie/s/c/a;
+.method public h()Lcom/airbnb/lottie/s/c/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {

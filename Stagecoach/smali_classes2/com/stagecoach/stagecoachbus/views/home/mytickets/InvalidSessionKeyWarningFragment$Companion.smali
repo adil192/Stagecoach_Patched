@@ -79,7 +79,7 @@
     invoke-direct {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;-><init>()V
 
     .line 2
-    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->f3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->i3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;Ljava/lang/String;)V
 
     return-object v0
 .end method

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/r;->a:Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->G4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/buy/payment/NewCardFragment;->J4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
 
     move-result p1
 

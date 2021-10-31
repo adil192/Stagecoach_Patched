@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/Fragment;->S2()V
+    value = Landroidx/fragment/app/Fragment;->V2()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/Fragment$a;->c:Landroidx/fragment/app/Fragment;
 
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->t1()V
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->w1()V
 
     return-void
 .end method

@@ -23,7 +23,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e;->v()Ljava/lang/reflect/AnnotatedElement;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e;->r()Ljava/lang/reflect/AnnotatedElement;
 
     move-result-object p0
 
@@ -62,7 +62,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e;->v()Ljava/lang/reflect/AnnotatedElement;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/e;->r()Ljava/lang/reflect/AnnotatedElement;
 
     move-result-object p0
 

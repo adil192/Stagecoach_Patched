@@ -74,10 +74,10 @@
 
 .field final limit:I
 
-.field final mapper:Lio/reactivex/c0/g;
+.field final mapper:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Ljava/lang/Iterable<",
             "+TR;>;>;"
@@ -102,14 +102,14 @@
 
 
 # direct methods
-.method constructor <init>(Lk/a/b;Lio/reactivex/c0/g;I)V
+.method constructor <init>(Lk/a/b;Lio/reactivex/c0/i;I)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lk/a/b<",
             "-TR;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Ljava/lang/Iterable<",
             "+TR;>;>;I)V"
@@ -123,7 +123,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->downstream:Lk/a/b;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->mapper:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->mapper:Lio/reactivex/c0/i;
 
     .line 4
     iput p3, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->prefetch:I
@@ -400,9 +400,9 @@
 
     .line 9
     :try_start_1
-    iget-object v6, v1, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->mapper:Lio/reactivex/c0/g;
+    iget-object v6, v1, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->mapper:Lio/reactivex/c0/i;
 
-    invoke-interface {v6, v10}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v6, v10}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -996,9 +996,9 @@
 
     .line 3
     :cond_0
-    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->mapper:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;->mapper:Lio/reactivex/c0/i;
 
-    invoke-interface {v2, v0}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v0}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

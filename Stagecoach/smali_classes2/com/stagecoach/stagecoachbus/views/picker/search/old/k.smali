@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/picker/search/old/k;->a:Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->d4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+    invoke-virtual {v0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/views/picker/search/old/OldStyleSearchFragment;->g4(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
 
     move-result p1
 

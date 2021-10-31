@@ -41,6 +41,19 @@
     return-object p1
 .end method
 
+.method public bridge synthetic h(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e$a$a;->g(Lkotlin/reflect/jvm/internal/impl/name/b;)Ljava/lang/Void;
+
+    move-result-object p1
+
+    check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
+
+    return-object p1
+.end method
+
 .method public isEmpty()Z
     .locals 1
 
@@ -70,19 +83,6 @@
     move-result-object v0
 
     return-object v0
-.end method
-
-.method public bridge synthetic j(Lkotlin/reflect/jvm/internal/impl/name/b;)Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e$a$a;->g(Lkotlin/reflect/jvm/internal/impl/name/b;)Ljava/lang/Void;
-
-    move-result-object p1
-
-    check-cast p1, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/c;
-
-    return-object p1
 .end method
 
 .method public toString()Ljava/lang/String;

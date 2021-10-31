@@ -60,7 +60,7 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d$b;->d:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v1
 

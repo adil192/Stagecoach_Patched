@@ -50,7 +50,7 @@
     iget-object v0, p0, Lcom/bumptech/glide/k/o$a;->a:Lcom/bumptech/glide/k/o;
 
     .line 2
-    invoke-virtual {v0}, Lcom/bumptech/glide/k/o;->U2()Ljava/util/Set;
+    invoke-virtual {v0}, Lcom/bumptech/glide/k/o;->X2()Ljava/util/Set;
 
     move-result-object v0
 
@@ -83,14 +83,14 @@
     check-cast v2, Lcom/bumptech/glide/k/o;
 
     .line 5
-    invoke-virtual {v2}, Lcom/bumptech/glide/k/o;->X2()Lcom/bumptech/glide/g;
+    invoke-virtual {v2}, Lcom/bumptech/glide/k/o;->a3()Lcom/bumptech/glide/g;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
     .line 6
-    invoke-virtual {v2}, Lcom/bumptech/glide/k/o;->X2()Lcom/bumptech/glide/g;
+    invoke-virtual {v2}, Lcom/bumptech/glide/k/o;->a3()Lcom/bumptech/glide/g;
 
     move-result-object v2
 

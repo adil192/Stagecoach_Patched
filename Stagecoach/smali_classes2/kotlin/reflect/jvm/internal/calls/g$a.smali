@@ -88,12 +88,12 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/g;->c([Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/calls/g;->d([Ljava/lang/Object;)V
 
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/calls/g$a;->d:Ljava/lang/Object;
 
-    invoke-virtual {p0, v0, p1}, Lkotlin/reflect/jvm/internal/calls/g;->b(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, p1}, Lkotlin/reflect/jvm/internal/calls/g;->c(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

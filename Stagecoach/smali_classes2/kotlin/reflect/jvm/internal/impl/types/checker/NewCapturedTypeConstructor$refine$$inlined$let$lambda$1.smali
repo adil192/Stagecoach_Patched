@@ -113,7 +113,7 @@
     .line 6
     iget-object v3, p0, Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor$refine$$inlined$let$lambda$1;->$kotlinTypeRefiner$inlined:Lkotlin/reflect/jvm/internal/impl/types/checker/i;
 
-    invoke-virtual {v2, v3}, Lkotlin/reflect/jvm/internal/impl/types/a1;->U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {v2, v3}, Lkotlin/reflect/jvm/internal/impl/types/a1;->N0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object v2
 

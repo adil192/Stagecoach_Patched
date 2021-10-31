@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->D3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->G3()V
 
     return-void
 .end method

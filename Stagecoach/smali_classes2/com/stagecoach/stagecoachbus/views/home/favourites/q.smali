@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/q;->d:Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->G3(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->J3(Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;)Ljava/lang/Boolean;
 
     move-result-object v0
 

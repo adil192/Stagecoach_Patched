@@ -1,27 +1,42 @@
 .class public final Lio/reactivex/internal/operators/completable/d;
 .super Lio/reactivex/a;
-.source "CompletableFromCallable.java"
+.source "CompletableOnErrorComplete.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lio/reactivex/internal/operators/completable/d$a;
+    }
+.end annotation
 
 
 # instance fields
-.field final c:Ljava/util/concurrent/Callable;
+.field final c:Lio/reactivex/e;
+
+.field final d:Lio/reactivex/c0/k;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljava/util/concurrent/Callable<",
-            "*>;"
+            "Lio/reactivex/c0/k<",
+            "-",
+            "Ljava/lang/Throwable;",
+            ">;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/concurrent/Callable;)V
+.method public constructor <init>(Lio/reactivex/e;Lio/reactivex/c0/k;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljava/util/concurrent/Callable<",
-            "*>;)V"
+            "Lio/reactivex/e;",
+            "Lio/reactivex/c0/k<",
+            "-",
+            "Ljava/lang/Throwable;",
+            ">;)V"
         }
     .end annotation
 
@@ -29,67 +44,27 @@
     invoke-direct {p0}, Lio/reactivex/a;-><init>()V
 
     .line 2
-    iput-object p1, p0, Lio/reactivex/internal/operators/completable/d;->c:Ljava/util/concurrent/Callable;
+    iput-object p1, p0, Lio/reactivex/internal/operators/completable/d;->c:Lio/reactivex/e;
+
+    .line 3
+    iput-object p2, p0, Lio/reactivex/internal/operators/completable/d;->d:Lio/reactivex/c0/k;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected t(Lio/reactivex/c;)V
+.method protected s(Lio/reactivex/c;)V
     .locals 2
 
     .line 1
-    invoke-static {}, Lio/reactivex/disposables/c;->b()Lio/reactivex/disposables/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/completable/d;->c:Lio/reactivex/e;
 
-    move-result-object v0
+    new-instance v1, Lio/reactivex/internal/operators/completable/d$a;
 
-    .line 2
-    invoke-interface {p1, v0}, Lio/reactivex/c;->onSubscribe(Lio/reactivex/disposables/b;)V
+    invoke-direct {v1, p0, p1}, Lio/reactivex/internal/operators/completable/d$a;-><init>(Lio/reactivex/internal/operators/completable/d;Lio/reactivex/c;)V
 
-    .line 3
-    :try_start_0
-    iget-object v1, p0, Lio/reactivex/internal/operators/completable/d;->c:Ljava/util/concurrent/Callable;
+    invoke-interface {v0, v1}, Lio/reactivex/e;->b(Lio/reactivex/c;)V
 
-    invoke-interface {v1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 4
-    invoke-interface {v0}, Lio/reactivex/disposables/b;->isDisposed()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    .line 5
-    invoke-interface {p1}, Lio/reactivex/c;->onComplete()V
-
-    :cond_0
-    return-void
-
-    :catchall_0
-    move-exception v1
-
-    .line 6
-    invoke-static {v1}, Lio/reactivex/exceptions/a;->b(Ljava/lang/Throwable;)V
-
-    .line 7
-    invoke-interface {v0}, Lio/reactivex/disposables/b;->isDisposed()Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    .line 8
-    invoke-interface {p1, v1}, Lio/reactivex/c;->onError(Ljava/lang/Throwable;)V
-
-    goto :goto_0
-
-    .line 9
-    :cond_1
-    invoke-static {v1}, Lio/reactivex/g0/a;->s(Ljava/lang/Throwable;)V
-
-    :goto_0
     return-void
 .end method

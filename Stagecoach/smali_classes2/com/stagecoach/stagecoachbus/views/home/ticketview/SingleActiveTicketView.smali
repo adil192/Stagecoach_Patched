@@ -307,7 +307,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketView;->I:Lcom/stagecoach/core/model/tickets/OrderItem;
 
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->n1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->q1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
 
     return-void
 .end method
@@ -500,7 +500,7 @@
     :cond_1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {v3, v4, v1, v2, v0}, Lio/reactivex/p;->T(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
+    invoke-static {v3, v4, v1, v2, v0}, Lio/reactivex/p;->b0(JJLjava/util/concurrent/TimeUnit;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -509,7 +509,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -520,7 +520,7 @@
     sget-object v2, Lcom/stagecoach/stagecoachbus/views/home/ticketview/b0;->c:Lcom/stagecoach/stagecoachbus/views/home/ticketview/b0;
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1, v2}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
@@ -566,7 +566,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->j0(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->m0(Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -1769,7 +1769,7 @@
     .line 2
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketView;->I:Lcom/stagecoach/core/model/tickets/OrderItem;
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->n1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->q1(Lcom/stagecoach/core/model/tickets/OrderItem;)V
 
     :cond_0
     return-void
@@ -1947,7 +1947,7 @@
     if-eqz v0, :cond_6
 
     .line 12
-    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->h(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
+    invoke-interface {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;->j(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;)V
 
     .line 13
     iput-object v2, p0, Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketView;->J:Lcom/stagecoach/stagecoachbus/views/home/ticketview/SingleActiveTicketOnClickListener;

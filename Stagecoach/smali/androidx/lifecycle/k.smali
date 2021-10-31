@@ -353,7 +353,7 @@
     iget-object v0, p0, Landroidx/lifecycle/k;->a:Lc/b/a/b/a;
 
     .line 2
-    invoke-virtual {v0}, Lc/b/a/b/b;->k()Lc/b/a/b/b$d;
+    invoke-virtual {v0}, Lc/b/a/b/b;->j()Lc/b/a/b/b$d;
 
     move-result-object v0
 
@@ -540,7 +540,7 @@
     .line 3
     iget-object v2, p0, Landroidx/lifecycle/k;->a:Lc/b/a/b/a;
 
-    invoke-virtual {v2}, Lc/b/a/b/b;->l()Ljava/util/Map$Entry;
+    invoke-virtual {v2}, Lc/b/a/b/b;->k()Ljava/util/Map$Entry;
 
     move-result-object v2
 
@@ -721,7 +721,7 @@
     :cond_1
     iget-object v1, p0, Landroidx/lifecycle/k;->a:Lc/b/a/b/a;
 
-    invoke-virtual {v1}, Lc/b/a/b/b;->l()Ljava/util/Map$Entry;
+    invoke-virtual {v1}, Lc/b/a/b/b;->k()Ljava/util/Map$Entry;
 
     move-result-object v1
 

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/k1;->a:Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->W3()V
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/account/LoginFragment;->Z3()V
 
     return-void
 .end method

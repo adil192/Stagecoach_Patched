@@ -19,16 +19,16 @@
     return-void
 .end method
 
-.method private synthetic h3(Landroid/view/View;)V
+.method private synthetic k3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->f3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->i3()V
 
     return-void
 .end method
 
-.method public static j3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;
+.method public static m3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;
     .locals 3
 
     .line 1
@@ -54,11 +54,11 @@
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c008e
 
@@ -122,12 +122,12 @@
     invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 8
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->g3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->j3()V
 
     return-object p1
 .end method
 
-.method f3()V
+.method i3()V
     .locals 1
 
     .line 1
@@ -140,7 +140,7 @@
     return-void
 .end method
 
-.method g3()V
+.method j3()V
     .locals 5
 
     .line 1
@@ -181,10 +181,10 @@
     return-void
 .end method
 
-.method public synthetic i3(Landroid/view/View;)V
+.method public synthetic l3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->h3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferSuccessFragment;->k3(Landroid/view/View;)V
 
     return-void
 .end method

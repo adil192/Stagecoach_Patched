@@ -38,7 +38,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->w4(Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;)Lkotlin/m;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->z4(Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;)Lkotlin/m;
 
     move-result-object p1
 

@@ -38,7 +38,7 @@
 
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->j4(Ljava/lang/Boolean;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/buy/RecentlyPurchasedFragment;->m4(Ljava/lang/Boolean;)V
 
     return-void
 .end method

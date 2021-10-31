@@ -88,11 +88,11 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KPropertyImplKt$computeCallerForAccessor$2;->$this_computeCallerForAccessor:Lkotlin/reflect/jvm/internal/KPropertyImpl$a;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->l()Lkotlin/reflect/jvm/internal/KPropertyImpl;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl$a;->m()Lkotlin/reflect/jvm/internal/KPropertyImpl;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->o()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
     move-result-object v0
 

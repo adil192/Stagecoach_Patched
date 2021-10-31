@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final a(Lkotlin/c;)Lkotlin/reflect/e;
+.method public static final a(Lkotlin/c;)Lkotlin/reflect/f;
     .locals 12
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -13,7 +13,7 @@
             ">(",
             "Lkotlin/c<",
             "+TR;>;)",
-            "Lkotlin/reflect/e<",
+            "Lkotlin/reflect/f<",
             "TR;>;"
         }
     .end annotation

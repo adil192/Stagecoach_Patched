@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->o4()V
+    value = Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->r4()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -66,7 +66,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->c4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
 
     move-result-object p1
 
@@ -100,7 +100,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v1, v2, v3}, Lio/reactivex/a;->v(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-static {v0, v1, v2, v3}, Lio/reactivex/a;->u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v0
 
@@ -109,24 +109,24 @@
 
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1$1;-><init>(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;)V
 
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->r(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
+    invoke-virtual {v0, v1}, Lio/reactivex/a;->q(Lio/reactivex/c0/a;)Lio/reactivex/disposables/b;
 
     move-result-object v0
 
     .line 5
-    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->X3(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;Lio/reactivex/disposables/b;)V
+    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->a4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;Lio/reactivex/disposables/b;)V
 
     .line 6
     :cond_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->b4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->e4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyPresenter;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->c4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
 
     move-result-object v0
 
@@ -136,7 +136,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;
 
-    invoke-static {v1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->a4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;
+    invoke-static {v1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->d4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Lcom/stagecoach/stagecoachbus/model/customeraccount/favourite/FavouriteJourney;
 
     move-result-object v1
 
@@ -145,13 +145,13 @@
     .line 7
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->c4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment$initJourneyDetailsViews$1;->c:Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;->c4(Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyFragment;)Landroid/widget/ImageButton;
 
     move-result-object v0
 

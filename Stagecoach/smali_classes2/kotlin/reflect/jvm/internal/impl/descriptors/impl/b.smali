@@ -54,47 +54,47 @@
     const/4 v1, 0x5
 
     .line 2
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->F(I)V
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->B(I)V
 
     throw v0
 
     :cond_1
     const/4 v1, 0x4
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->F(I)V
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->B(I)V
 
     throw v0
 
     :cond_2
     const/4 v1, 0x3
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->F(I)V
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->B(I)V
 
     throw v0
 
     :cond_3
     const/4 v1, 0x2
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->F(I)V
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->B(I)V
 
     throw v0
 
     :cond_4
     const/4 v1, 0x1
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->F(I)V
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->B(I)V
 
     throw v0
 
     :cond_5
     const/4 v1, 0x0
 
-    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->F(I)V
+    invoke-static {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b;->B(I)V
 
     throw v0
 .end method
 
-.method private static synthetic F(I)V
+.method private static synthetic B(I)V
     .locals 5
 
     const/4 v0, 0x3
@@ -192,7 +192,7 @@
     new-array v0, v0, [Ljava/lang/Object;
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->D()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->z()Z
 
     move-result v1
 
@@ -214,7 +214,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->l()Lkotlin/reflect/jvm/internal/impl/types/Variance;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->i()Lkotlin/reflect/jvm/internal/impl/types/Variance;
 
     move-result-object v3
 
@@ -229,7 +229,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->l()Lkotlin/reflect/jvm/internal/impl/types/Variance;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/d;->i()Lkotlin/reflect/jvm/internal/impl/types/Variance;
 
     move-result-object v3
 

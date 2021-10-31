@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/account/s0;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->J3(Ljava/lang/String;)Lcom/stagecoach/core/model/secureapi/OperationResponse;
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/account/ForgotPasswordFragment;->M3(Ljava/lang/String;)Lcom/stagecoach/core/model/secureapi/OperationResponse;
 
     move-result-object v0
 

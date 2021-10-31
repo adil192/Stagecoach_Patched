@@ -105,54 +105,54 @@
     const/4 p1, 0x6
 
     .line 5
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x5
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
     :cond_2
     const/4 p1, 0x4
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
     :cond_3
     const/4 p1, 0x3
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
     :cond_4
     const/4 p1, 0x2
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
     :cond_5
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
     :cond_6
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 .end method
 
-.method private static synthetic J(I)V
+.method private static synthetic F(I)V
     .locals 6
 
     packed-switch p0, :pswitch_data_0
@@ -484,23 +484,7 @@
 
 
 # virtual methods
-.method public B()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public F0()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public G(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public C(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     const/4 v0, 0x0
@@ -517,7 +501,7 @@
     :cond_0
     const/16 p1, 0xd
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
@@ -525,12 +509,12 @@
     const/16 p1, 0xc
 
     .line 2
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 .end method
 
-.method public I()Ljava/util/Collection;
+.method public E()Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -553,14 +537,14 @@
     :cond_0
     const/16 v0, 0x13
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     const/4 v0, 0x0
 
     throw v0
 .end method
 
-.method public L()Z
+.method public H()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -568,7 +552,7 @@
     return v0
 .end method
 
-.method public M()Z
+.method public I()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -576,7 +560,7 @@
     return v0
 .end method
 
-.method public S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+.method public N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
     .locals 1
 
     .line 1
@@ -585,7 +569,7 @@
     return-object v0
 .end method
 
-.method public T()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public O()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
@@ -598,14 +582,14 @@
     :cond_0
     const/16 v0, 0xe
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     const/4 v0, 0x0
 
     throw v0
 .end method
 
-.method public V()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public Q()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 1
 
     const/4 v0, 0x0
@@ -613,7 +597,7 @@
     return-object v0
 .end method
 
-.method public final d0(Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;Ljava/util/Set;Lkotlin/reflect/jvm/internal/impl/descriptors/c;)V
+.method public final Y(Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;Ljava/util/Set;Lkotlin/reflect/jvm/internal/impl/descriptors/c;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -648,32 +632,32 @@
     const/16 p1, 0x8
 
     .line 4
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x7
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     throw v0
 .end method
 
-.method public f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+.method public g()Lkotlin/reflect/jvm/internal/impl/types/o0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->m:Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
     :cond_0
-    const/16 v0, 0x11
+    const/16 v0, 0xa
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     const/4 v0, 0x0
 
@@ -697,7 +681,7 @@
     :cond_0
     const/16 v0, 0x9
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     const/4 v0, 0x0
 
@@ -725,7 +709,47 @@
     :cond_0
     const/16 v0, 0xb
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
+
+    const/4 v0, 0x0
+
+    throw v0
+.end method
+
+.method public getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/16 v0, 0x11
+
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
+
+    const/4 v0, 0x0
+
+    throw v0
+.end method
+
+.method public h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->k:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/16 v0, 0x10
+
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     const/4 v0, 0x0
 
@@ -748,47 +772,7 @@
     return v0
 .end method
 
-.method public j()Lkotlin/reflect/jvm/internal/impl/types/o0;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->m:Lkotlin/reflect/jvm/internal/impl/types/o0;
-
-    if-eqz v0, :cond_0
-
-    return-object v0
-
-    :cond_0
-    const/16 v0, 0xa
-
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
-
-    const/4 v0, 0x0
-
-    throw v0
-.end method
-
-.method public k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->k:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-
-    if-eqz v0, :cond_0
-
-    return-object v0
-
-    :cond_0
-    const/16 v0, 0x10
-
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
-
-    const/4 v0, 0x0
-
-    throw v0
-.end method
-
-.method public q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+.method public n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
     .locals 1
 
     .line 1
@@ -801,14 +785,14 @@
     :cond_0
     const/16 v0, 0xf
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     const/4 v0, 0x0
 
     throw v0
 .end method
 
-.method public t()Ljava/util/List;
+.method public q()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -831,11 +815,19 @@
     :cond_0
     const/16 v0, 0x12
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->J(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/g;->F(I)V
 
     const/4 v0, 0x0
 
     throw v0
+.end method
+
+.method public t()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -864,6 +856,14 @@
 .end method
 
 .method public x()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public z0()Z
     .locals 1
 
     const/4 v0, 0x0

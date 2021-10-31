@@ -32,11 +32,19 @@
 
 
 # virtual methods
-.method public L1(Landroid/os/Bundle;)V
+.method public A3()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->O1(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -56,12 +64,4 @@
     iput-object p1, p0, Lcom/stagecoach/stagecoachbus/views/base/OverlayFragment;->s0:Ljava/util/List;
 
     return-void
-.end method
-
-.method public x3()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
 .end method

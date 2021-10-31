@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract b()V
+.method public abstract B0(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)V
 .end method
 
-.method public abstract i()V
+.method public abstract d()V
 .end method
 
-.method public abstract y0(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)V
+.method public abstract k()V
 .end method

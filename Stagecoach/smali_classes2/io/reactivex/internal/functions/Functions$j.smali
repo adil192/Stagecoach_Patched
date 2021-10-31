@@ -3,8 +3,7 @@
 .source "Functions.java"
 
 # interfaces
-.implements Ljava/util/concurrent/Callable;
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/k;
 
 
 # annotations
@@ -21,14 +20,10 @@
     value = {
         "<T:",
         "Ljava/lang/Object;",
-        "U:",
-        "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Ljava/util/concurrent/Callable<",
-        "TU;>;",
-        "Lio/reactivex/c0/g<",
-        "TT;TU;>;"
+        "Lio/reactivex/c0/k<",
+        "TT;>;"
     }
 .end annotation
 
@@ -37,7 +32,7 @@
 .field final c:Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "TU;"
+            "TT;"
         }
     .end annotation
 .end field
@@ -48,7 +43,7 @@
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TU;)V"
+            "(TT;)V"
         }
     .end annotation
 
@@ -63,31 +58,11 @@
 
 
 # virtual methods
-.method public apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)TU;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    iget-object p1, p0, Lio/reactivex/internal/functions/Functions$j;->c:Ljava/lang/Object;
-
-    return-object p1
-.end method
-
-.method public call()Ljava/lang/Object;
+.method public a(Ljava/lang/Object;)Z
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "()TU;"
+            "(TT;)Z"
         }
     .end annotation
 
@@ -100,5 +75,9 @@
     .line 1
     iget-object v0, p0, Lio/reactivex/internal/functions/Functions$j;->c:Ljava/lang/Object;
 
-    return-object v0
+    invoke-static {p1, v0}, Lio/reactivex/internal/functions/a;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    return p1
 .end method

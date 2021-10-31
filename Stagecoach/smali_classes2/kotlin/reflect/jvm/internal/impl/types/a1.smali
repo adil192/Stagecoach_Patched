@@ -26,17 +26,17 @@
 
 
 # virtual methods
-.method public final S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public final L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     return-object p0
 .end method
 
-.method public abstract T0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public abstract M0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
 .end method
 
-.method public abstract U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public abstract N0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
 .end method
 
-.method public abstract V0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public abstract O0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
 .end method

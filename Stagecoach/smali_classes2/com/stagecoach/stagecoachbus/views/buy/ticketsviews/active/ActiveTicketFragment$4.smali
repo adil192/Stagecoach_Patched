@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->l4(Ljava/util/List;Lcom/stagecoach/core/model/database/word/Word$WordStamp;)V
+    value = Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->o4(Ljava/util/List;Lcom/stagecoach/core/model/database/word/Word$WordStamp;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -42,7 +42,7 @@
     return-void
 .end method
 
-.method private d()Z
+.method private a()Z
     .locals 5
 
     .line 1
@@ -91,11 +91,11 @@
 
 
 # virtual methods
-.method public a(II)Z
+.method public areContentsTheSame(II)Z
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment$4;->d()Z
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment$4;->a()Z
 
     move-result v0
 
@@ -142,7 +142,7 @@
     return p1
 .end method
 
-.method public b(II)Z
+.method public areItemsTheSame(II)Z
     .locals 1
 
     .line 1
@@ -178,7 +178,7 @@
     return p1
 .end method
 
-.method public c(II)Ljava/lang/Object;
+.method public getChangePayload(II)Ljava/lang/Object;
     .locals 2
 
     .line 1
@@ -217,7 +217,7 @@
 
     .line 3
     :cond_0
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment$4;->d()Z
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment$4;->a()Z
 
     move-result v0
 
@@ -229,7 +229,7 @@
 
     .line 4
     :cond_1
-    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/h$b;->c(II)Ljava/lang/Object;
+    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/h$b;->getChangePayload(II)Ljava/lang/Object;
 
     move-result-object p1
 

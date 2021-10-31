@@ -74,7 +74,7 @@
     if-ge v2, v1, :cond_1
 
     .line 3
-    invoke-virtual {p0, v2}, Lokhttp3/s;->l(I)Ljava/lang/String;
+    invoke-virtual {p0, v2}, Lokhttp3/s;->k(I)Ljava/lang/String;
 
     move-result-object v3
 

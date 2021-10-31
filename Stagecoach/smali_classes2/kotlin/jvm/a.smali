@@ -4,14 +4,14 @@
 
 
 # direct methods
-.method public static final a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+.method public static final a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
             "Ljava/lang/annotation/Annotation;",
             ">(TT;)",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "+TT;>;"
         }
     .end annotation
@@ -25,7 +25,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lkotlin/jvm/a;->e(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {p0}, Lkotlin/jvm/a;->e(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object p0
 
@@ -36,14 +36,14 @@
     return-object p0
 .end method
 
-.method public static final b(Lkotlin/reflect/b;)Ljava/lang/Class;
+.method public static final b(Lkotlin/reflect/c;)Ljava/lang/Class;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "TT;>;)",
             "Ljava/lang/Class<",
             "TT;>;"
@@ -57,7 +57,7 @@
     .line 1
     check-cast p0, Lkotlin/jvm/internal/c;
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
+    invoke-interface {p0}, Lkotlin/jvm/internal/c;->d()Ljava/lang/Class;
 
     move-result-object p0
 
@@ -68,14 +68,14 @@
     return-object p0
 .end method
 
-.method public static final c(Lkotlin/reflect/b;)Ljava/lang/Class;
+.method public static final c(Lkotlin/reflect/c;)Ljava/lang/Class;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "TT;>;)",
             "Ljava/lang/Class<",
             "TT;>;"
@@ -89,7 +89,7 @@
     .line 1
     check-cast p0, Lkotlin/jvm/internal/c;
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
+    invoke-interface {p0}, Lkotlin/jvm/internal/c;->d()Ljava/lang/Class;
 
     move-result-object p0
 
@@ -272,14 +272,14 @@
     .end sparse-switch
 .end method
 
-.method public static final d(Lkotlin/reflect/b;)Ljava/lang/Class;
+.method public static final d(Lkotlin/reflect/c;)Ljava/lang/Class;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "TT;>;)",
             "Ljava/lang/Class<",
             "TT;>;"
@@ -293,7 +293,7 @@
     .line 1
     check-cast p0, Lkotlin/jvm/internal/c;
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
+    invoke-interface {p0}, Lkotlin/jvm/internal/c;->d()Ljava/lang/Class;
 
     move-result-object p0
 
@@ -478,7 +478,7 @@
     .end sparse-switch
 .end method
 
-.method public static final e(Ljava/lang/Class;)Lkotlin/reflect/b;
+.method public static final e(Ljava/lang/Class;)Lkotlin/reflect/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -487,7 +487,7 @@
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)",
-            "Lkotlin/reflect/b<",
+            "Lkotlin/reflect/c<",
             "TT;>;"
         }
     .end annotation
@@ -497,7 +497,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {p0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object p0
 

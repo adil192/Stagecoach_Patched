@@ -61,10 +61,10 @@
 
 .field final limit:I
 
-.field final mapper:Lio/reactivex/c0/g;
+.field final mapper:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;"
@@ -89,12 +89,12 @@
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/c0/g;I)V
+.method constructor <init>(Lio/reactivex/c0/i;I)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lk/a/a<",
             "+TR;>;>;I)V"
@@ -105,7 +105,7 @@
     invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
     .line 2
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableConcatMap$BaseConcatMapSubscriber;->mapper:Lio/reactivex/c0/g;
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableConcatMap$BaseConcatMapSubscriber;->mapper:Lio/reactivex/c0/i;
 
     .line 3
     iput p2, p0, Lio/reactivex/internal/operators/flowable/FlowableConcatMap$BaseConcatMapSubscriber;->prefetch:I

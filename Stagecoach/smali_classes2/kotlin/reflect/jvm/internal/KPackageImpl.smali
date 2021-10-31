@@ -17,7 +17,7 @@
         0x3
     }
     d1 = {
-        "\u0000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u001e\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\u0000\u0018\u00002\u00020\u0001:\u00011B\u001f\u0012\n\u0010\u001d\u001a\u0006\u0012\u0002\u0008\u00030\u0018\u0012\n\u0008\u0002\u0010.\u001a\u0004\u0018\u00010\u0015\u00a2\u0006\u0004\u0008/\u00100J\u001d\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00050\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u001d\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0007J\u0019\u0010\u000c\u001a\u0004\u0018\u00010\u00052\u0006\u0010\u000b\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u001a\u0010\u0011\u001a\u00020\u00102\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u000eH\u0096\u0002\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u000f\u0010\u0013\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u000f\u0010\u0016\u001a\u00020\u0015H\u0016\u00a2\u0006\u0004\u0008\u0016\u0010\u0017R \u0010\u001d\u001a\u0006\u0012\u0002\u0008\u00030\u00188\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u001a\u001a\u0004\u0008\u001b\u0010\u001cR\u001c\u0010!\u001a\u0008\u0012\u0004\u0012\u00020\u001e0\u00048V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001f\u0010 R,\u0010\'\u001a\u0018\u0012\u0014\u0012\u0012 $*\u0008\u0018\u00010#R\u00020\u00000#R\u00020\u00000\"8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008%\u0010&R\u001a\u0010)\u001a\u0006\u0012\u0002\u0008\u00030\u00188T@\u0014X\u0094\u0004\u00a2\u0006\u0006\u001a\u0004\u0008(\u0010\u001cR\u0016\u0010-\u001a\u00020*8B@\u0002X\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008+\u0010,\u00a8\u00062"
+        "\u0000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u001e\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\u0000\u0018\u00002\u00020\u0001:\u00011B\u001f\u0012\n\u0010#\u001a\u0006\u0012\u0002\u0008\u00030\u001e\u0012\n\u0008\u0002\u0010.\u001a\u0004\u0018\u00010\u0015\u00a2\u0006\u0004\u0008/\u00100J\u001d\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00050\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u001d\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0007J\u0019\u0010\u000c\u001a\u0004\u0018\u00010\u00052\u0006\u0010\u000b\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u001a\u0010\u0011\u001a\u00020\u00102\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u000eH\u0096\u0002\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u000f\u0010\u0013\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u000f\u0010\u0016\u001a\u00020\u0015H\u0016\u00a2\u0006\u0004\u0008\u0016\u0010\u0017R,\u0010\u001d\u001a\u0018\u0012\u0014\u0012\u0012 \u001a*\u0008\u0018\u00010\u0019R\u00020\u00000\u0019R\u00020\u00000\u00188\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001b\u0010\u001cR \u0010#\u001a\u0006\u0012\u0002\u0008\u00030\u001e8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001f\u0010 \u001a\u0004\u0008!\u0010\"R\u001c\u0010\'\u001a\u0008\u0012\u0004\u0012\u00020$0\u00048V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008%\u0010&R\u001a\u0010)\u001a\u0006\u0012\u0002\u0008\u00030\u001e8T@\u0014X\u0094\u0004\u00a2\u0006\u0006\u001a\u0004\u0008(\u0010\"R\u0016\u0010-\u001a\u00020*8B@\u0002X\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008+\u0010,\u00a8\u00062"
     }
     d2 = {
         "Lkotlin/reflect/jvm/internal/KPackageImpl;",
@@ -26,13 +26,13 @@
         "name",
         "",
         "Lkotlin/reflect/jvm/internal/impl/descriptors/c0;",
-        "r",
+        "t",
         "(Lkotlin/reflect/jvm/internal/impl/name/f;)Ljava/util/Collection;",
         "Lkotlin/reflect/jvm/internal/impl/descriptors/r;",
-        "n",
+        "p",
         "",
         "index",
-        "o",
+        "q",
         "(I)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;",
         "",
         "other",
@@ -44,23 +44,23 @@
         "",
         "toString",
         "()Ljava/lang/String;",
-        "Ljava/lang/Class;",
-        "g",
-        "Ljava/lang/Class;",
-        "b",
-        "()Ljava/lang/Class;",
-        "jClass",
-        "Lkotlin/reflect/jvm/internal/impl/descriptors/j;",
-        "m",
-        "()Ljava/util/Collection;",
-        "constructorDescriptors",
         "Lkotlin/reflect/jvm/internal/l$b;",
         "Lkotlin/reflect/jvm/internal/KPackageImpl$Data;",
         "kotlin.jvm.PlatformType",
         "f",
         "Lkotlin/reflect/jvm/internal/l$b;",
         "data",
-        "q",
+        "Ljava/lang/Class;",
+        "g",
+        "Ljava/lang/Class;",
+        "d",
+        "()Ljava/lang/Class;",
+        "jClass",
+        "Lkotlin/reflect/jvm/internal/impl/descriptors/j;",
+        "o",
+        "()Ljava/util/Collection;",
+        "constructorDescriptors",
+        "s",
         "methodOwner",
         "Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;",
         "getScope",
@@ -158,7 +158,7 @@
     return-void
 .end method
 
-.method private final y()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method private final A()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
@@ -179,7 +179,7 @@
 
 
 # virtual methods
-.method public b()Ljava/lang/Class;
+.method public d()Ljava/lang/Class;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -203,13 +203,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->d()Ljava/lang/Class;
 
     move-result-object v0
 
     check-cast p1, Lkotlin/reflect/jvm/internal/KPackageImpl;
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPackageImpl;->b()Ljava/lang/Class;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/KPackageImpl;->d()Ljava/lang/Class;
 
     move-result-object p1
 
@@ -234,7 +234,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->d()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -245,7 +245,7 @@
     return v0
 .end method
 
-.method public m()Ljava/util/Collection;
+.method public o()Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -264,7 +264,7 @@
     return-object v0
 .end method
 
-.method public n(Lkotlin/reflect/jvm/internal/impl/name/f;)Ljava/util/Collection;
+.method public p(Lkotlin/reflect/jvm/internal/impl/name/f;)Ljava/util/Collection;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -282,7 +282,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->y()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->A()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v0
 
@@ -295,7 +295,7 @@
     return-object p1
 .end method
 
-.method public o(I)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+.method public q(I)Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
     .locals 9
 
     .line 1
@@ -355,7 +355,7 @@
     if-eqz v4, :cond_0
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->d()Ljava/lang/Class;
 
     move-result-object v3
 
@@ -387,7 +387,7 @@
     return-object v1
 .end method
 
-.method protected q()Ljava/lang/Class;
+.method protected s()Ljava/lang/Class;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -415,7 +415,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->d()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -423,7 +423,7 @@
     return-object v0
 .end method
 
-.method public r(Lkotlin/reflect/jvm/internal/impl/name/f;)Ljava/util/Collection;
+.method public t(Lkotlin/reflect/jvm/internal/impl/name/f;)Ljava/util/Collection;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -441,7 +441,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->y()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->A()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
 
     move-result-object v0
 
@@ -466,7 +466,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->b()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->d()Ljava/lang/Class;
 
     move-result-object v1
 

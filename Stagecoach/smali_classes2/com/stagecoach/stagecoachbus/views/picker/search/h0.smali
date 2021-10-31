@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->f4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/picker/search/SearchFragment;->i4(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 
     return-void
 .end method

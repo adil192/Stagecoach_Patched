@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/h;->c:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;
 
-    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->h4()Ljava/lang/Boolean;
+    invoke-virtual {v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->k4()Ljava/lang/Boolean;
 
     move-result-object v0
 

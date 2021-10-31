@@ -89,15 +89,63 @@
 
     if-eqz v0, :cond_0
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->S(Z)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->T(Z)V
 
     :cond_0
     return-void
 .end method
 
-.method private E4()V
+.method private B4()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Q0:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
+
+    if-eqz v0, :cond_0
+
+    const/4 v1, 0x0
+
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->G(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method private C4()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Q0:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
+
+    if-eqz v0, :cond_0
+
+    const/4 v1, 0x1
+
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->G(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method private D4()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Q0:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
+
+    if-eqz v0, :cond_0
+
+    const/4 v1, 0x1
+
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->T(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method private H4()V
     .locals 1
 
     .line 1
@@ -105,13 +153,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->P()V
+    invoke-interface {v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->Q()V
 
     :cond_0
     return-void
 .end method
 
-.method private F4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+.method private I4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
     .locals 2
 
     const/4 v0, 0x0
@@ -124,7 +172,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/j;-><init>(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
 
-    invoke-static {v0}, Lio/reactivex/v;->r(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
+    invoke-static {v0}, Lio/reactivex/v;->s(Ljava/util/concurrent/Callable;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -133,7 +181,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->F(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->G(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -142,7 +190,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->v(Lio/reactivex/u;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->w(Lio/reactivex/u;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -153,17 +201,17 @@
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/menu/contactus/b;->c:Lcom/stagecoach/stagecoachbus/views/menu/contactus/b;
 
     .line 5
-    invoke-virtual {p1, v0, v1}, Lio/reactivex/v;->D(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+    invoke-virtual {p1, v0, v1}, Lio/reactivex/v;->E(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
 
     move-result-object p1
 
     .line 6
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
 
     return-void
 .end method
 
-.method private W3(Ljava/lang/String;)V
+.method private Z3(Ljava/lang/String;)V
     .locals 2
 
     const/4 v0, -0x1
@@ -208,7 +256,7 @@
     if-eq p1, v0, :cond_3
 
     .line 3
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->C4(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->F4(I)V
 
     goto :goto_2
 
@@ -219,41 +267,14 @@
     if-eqz p1, :cond_4
 
     .line 5
-    invoke-virtual {p1}, Landroidx/fragment/app/b;->V2()V
+    invoke-virtual {p1}, Landroidx/fragment/app/b;->Y2()V
 
     :cond_4
     :goto_2
     return-void
 .end method
 
-.method private synthetic X3(Landroid/view/View;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->x4()V
-
-    return-void
-.end method
-
-.method private synthetic Z3(Landroid/view/View;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->y4()V
-
-    return-void
-.end method
-
-.method private synthetic b4(Landroid/view/View;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->z4()V
-
-    return-void
-.end method
-
-.method private synthetic d4(Landroid/view/View;)V
+.method private synthetic a4(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -262,16 +283,43 @@
     return-void
 .end method
 
-.method private synthetic f4(Landroid/view/View;)V
+.method private synthetic c4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->E4()V
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->B4()V
 
     return-void
 .end method
 
-.method private synthetic j3()Ljava/lang/Boolean;
+.method private synthetic e4(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->C4()V
+
+    return-void
+.end method
+
+.method private synthetic g4(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->D4()V
+
+    return-void
+.end method
+
+.method private synthetic i4(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->H4()V
+
+    return-void
+.end method
+
+.method private synthetic m3()Ljava/lang/Boolean;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -297,7 +345,7 @@
     return-object v0
 .end method
 
-.method private synthetic j4(Ljava/lang/String;Ljava/lang/Throwable;)V
+.method private synthetic m4(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -306,12 +354,12 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->W3(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Z3(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method private synthetic l3(Ljava/lang/Boolean;)V
+.method private synthetic o3(Ljava/lang/Boolean;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -322,21 +370,21 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->X0:Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->F4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->I4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
 
     return-void
 .end method
 
-.method private synthetic l4(Landroid/view/View;)V
+.method private synthetic o4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->r3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->u3()V
 
     return-void
 .end method
 
-.method private synthetic n4(Landroid/view/View;)V
+.method private synthetic q4(Landroid/view/View;)V
     .locals 1
 
     .line 1
@@ -355,33 +403,13 @@
     return-void
 .end method
 
-.method private synthetic p4(Landroid/view/View;)V
+.method private synthetic s4(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->r3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->u3()V
 
     return-void
-.end method
-
-.method private synthetic r4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Ljava/lang/String;
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->T0:Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;
-
-    const/4 v1, 0x0
-
-    invoke-virtual {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->i(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Z)Ljava/lang/String;
-
-    move-result-object p1
-
-    return-object p1
 .end method
 
 .method private setUpToolbar(Landroid/view/View;)V
@@ -426,7 +454,27 @@
     return-void
 .end method
 
-.method private synthetic t4(Ljava/lang/String;)V
+.method private synthetic u4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Ljava/lang/String;
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->T0:Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, p1, v1}, Lcom/stagecoach/stagecoachbus/logic/location/MyLocationManager;->i(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;Z)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method private synthetic w4(Ljava/lang/String;)V
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -444,7 +492,7 @@
     const p1, 0x7f110157
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->u3(I)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->x3(I)V
 
     goto :goto_0
 
@@ -464,7 +512,7 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->D4(Z)V
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->G4(Z)V
 
     .line 6
     invoke-static {p1}, Lcom/stagecoach/stagecoachbus/utils/Utils;->isNullOrEmptyString(Ljava/lang/String;)Z
@@ -474,14 +522,14 @@
     if-eqz v0, :cond_1
 
     .line 7
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->W3(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Z3(Ljava/lang/String;)V
 
     :cond_1
     :goto_0
     return-void
 .end method
 
-.method static synthetic v4(Ljava/lang/Throwable;)V
+.method static synthetic y4(Ljava/lang/Throwable;)V
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -501,7 +549,7 @@
     return-void
 .end method
 
-.method public static w4()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;
+.method public static z4()Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;
     .locals 1
 
     .line 1
@@ -512,63 +560,15 @@
     return-object v0
 .end method
 
-.method private x4()V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Q0:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
-
-    if-eqz v0, :cond_0
-
-    const/4 v1, 0x0
-
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->S(Z)V
-
-    :cond_0
-    return-void
-.end method
-
-.method private y4()V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Q0:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
-
-    if-eqz v0, :cond_0
-
-    const/4 v1, 0x0
-
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->F(Z)V
-
-    :cond_0
-    return-void
-.end method
-
-.method private z4()V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Q0:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
-
-    if-eqz v0, :cond_0
-
-    const/4 v1, 0x1
-
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;->F(Z)V
-
-    :cond_0
-    return-void
-.end method
-
 
 # virtual methods
-.method protected B4(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsPresenter;)V
+.method protected E4(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsPresenter;)V
     .locals 0
 
     return-void
 .end method
 
-.method public C4(I)V
+.method public F4(I)V
     .locals 4
 
     .line 1
@@ -586,25 +586,25 @@
     if-nez v1, :cond_0
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p1
 
     const v1, 0x7f110189
 
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v1
 
     const v2, 0x7f1100c3
 
-    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, ""
 
-    invoke-static {v3, p1, v1, v2}, Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;->j3(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;
+    invoke-static {v3, p1, v1, v2}, Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;->m3(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;
 
     move-result-object p1
 
@@ -639,13 +639,13 @@
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/views/common/BlueErrorWithAltActionAlertFragment;->y0:Ljava/lang/String;
 
-    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->Z2(Landroidx/fragment/app/s;Ljava/lang/String;)I
+    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/b;->c3(Landroidx/fragment/app/s;Ljava/lang/String;)I
 
     :cond_1
     return-void
 .end method
 
-.method public D4(Z)V
+.method public G4(Z)V
     .locals 2
 
     const/4 v0, 0x0
@@ -720,11 +720,11 @@
     return-void
 .end method
 
-.method public G1(IILandroid/content/Intent;)V
+.method public J1(IILandroid/content/Intent;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     const/16 v0, 0x3f0
 
@@ -818,11 +818,11 @@
     return-void
 .end method
 
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->L1(Landroid/content/Context;)V
 
     .line 2
     instance-of v0, p1, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
@@ -838,14 +838,14 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->O1(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->b3()Lcom/stagecoach/stagecoachbus/dagger/components/FragmentComponents;
 
     move-result-object p1
 
@@ -854,11 +854,11 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     const p3, 0x7f0c006a
 
@@ -977,7 +977,7 @@
     return-object p1
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     const/4 v0, 0x0
@@ -986,171 +986,42 @@
     iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Q0:Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment$ContactUsListener;
 
     .line 2
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->T1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->W1()V
 
     return-void
 .end method
 
-.method protected bridge synthetic V3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
+.method protected bridge synthetic Y3(Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;)V
     .locals 0
 
     .line 1
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsPresenter;
 
-    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->B4(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsPresenter;)V
+    invoke-virtual {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->E4(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsPresenter;)V
 
     return-void
 .end method
 
-.method public synthetic Y3(Landroid/view/View;)V
+.method public synthetic b4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->X3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->a4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic a4(Landroid/view/View;)V
+.method public synthetic d4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Z3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->c4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic c4(Landroid/view/View;)V
+.method public synthetic f4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->b4(Landroid/view/View;)V
-
-    return-void
-.end method
-
-.method public synthetic e4(Landroid/view/View;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->d4(Landroid/view/View;)V
-
-    return-void
-.end method
-
-.method public g2()V
-    .locals 4
-
-    .line 1
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->g2()V
-
-    .line 2
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->R0:Lcom/stagecoach/core/cache/SecureUserInfoManager;
-
-    invoke-virtual {v0}, Lcom/stagecoach/core/cache/SecureUserInfoManager;->getProperAreaCode()Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 3
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/utils/Utils;->isNullOrEmptyString(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    const-string v1, "SHD"
-
-    .line 4
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    .line 5
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->D4(Z)V
-
-    goto :goto_0
-
-    .line 6
-    :cond_0
-    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->X0:Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
-
-    if-eqz v1, :cond_2
-
-    .line 7
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/SCApplication;->getInstance()Lcom/stagecoach/stagecoachbus/SCApplication;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/SCApplication;->e()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 8
-    new-instance v1, Lcom/stagecoach/stagecoachbus/views/menu/contactus/h;
-
-    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/h;-><init>(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;)V
-
-    invoke-static {v1}, Lio/reactivex/p;->O(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
-
-    move-result-object v1
-
-    .line 9
-    invoke-static {}, Lio/reactivex/h0/a;->c()Lio/reactivex/u;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
-
-    move-result-object v1
-
-    .line 10
-    invoke-static {}, Lio/reactivex/a0/c/a;->c()Lio/reactivex/u;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->a0(Lio/reactivex/u;)Lio/reactivex/p;
-
-    move-result-object v1
-
-    new-instance v2, Lcom/stagecoach/stagecoachbus/views/menu/contactus/c;
-
-    invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/c;-><init>(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;)V
-
-    new-instance v3, Lcom/stagecoach/stagecoachbus/views/menu/contactus/m;
-
-    invoke-direct {v3, p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/m;-><init>(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;Ljava/lang/String;)V
-
-    .line 11
-    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->p0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
-
-    move-result-object v0
-
-    .line 12
-    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->V2(Lio/reactivex/disposables/b;)V
-
-    goto :goto_0
-
-    .line 13
-    :cond_1
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->X0:Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
-
-    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->F4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
-
-    goto :goto_0
-
-    .line 14
-    :cond_2
-    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->W3(Ljava/lang/String;)V
-
-    .line 15
-    :goto_0
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->M3()V
-
-    return-void
-.end method
-
-.method public synthetic g4(Landroid/view/View;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->f4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->e4(Landroid/view/View;)V
 
     return-void
 .end method
@@ -1188,64 +1059,193 @@
     const v0, 0x7f1100fd
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public synthetic h4()Ljava/lang/Boolean;
+.method public synthetic h4(Landroid/view/View;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->g4(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public j2()V
+    .locals 4
+
+    .line 1
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->j2()V
+
+    .line 2
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->R0:Lcom/stagecoach/core/cache/SecureUserInfoManager;
+
+    invoke-virtual {v0}, Lcom/stagecoach/core/cache/SecureUserInfoManager;->getProperAreaCode()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 3
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/utils/Utils;->isNullOrEmptyString(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    const-string v1, "SHD"
+
+    .line 4
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    .line 5
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->G4(Z)V
+
+    goto :goto_0
+
+    .line 6
+    :cond_0
+    iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->X0:Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
+
+    if-eqz v1, :cond_2
+
+    .line 7
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/SCApplication;->getInstance()Lcom/stagecoach/stagecoachbus/SCApplication;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/SCApplication;->e()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 8
+    new-instance v1, Lcom/stagecoach/stagecoachbus/views/menu/contactus/h;
+
+    invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/h;-><init>(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;)V
+
+    invoke-static {v1}, Lio/reactivex/p;->V(Ljava/util/concurrent/Callable;)Lio/reactivex/p;
+
+    move-result-object v1
+
+    .line 9
+    invoke-static {}, Lio/reactivex/h0/a;->c()Lio/reactivex/u;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
+
+    move-result-object v1
+
+    .line 10
+    invoke-static {}, Lio/reactivex/a0/c/a;->c()Lio/reactivex/u;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->i0(Lio/reactivex/u;)Lio/reactivex/p;
+
+    move-result-object v1
+
+    new-instance v2, Lcom/stagecoach/stagecoachbus/views/menu/contactus/c;
+
+    invoke-direct {v2, p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/c;-><init>(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;)V
+
+    new-instance v3, Lcom/stagecoach/stagecoachbus/views/menu/contactus/m;
+
+    invoke-direct {v3, p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/m;-><init>(Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;Ljava/lang/String;)V
+
+    .line 11
+    invoke-virtual {v1, v2, v3}, Lio/reactivex/p;->x0(Lio/reactivex/c0/f;Lio/reactivex/c0/f;)Lio/reactivex/disposables/b;
+
+    move-result-object v0
+
+    .line 12
+    invoke-virtual {p0, v0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->Y2(Lio/reactivex/disposables/b;)V
+
+    goto :goto_0
+
+    .line 13
+    :cond_1
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->X0:Lcom/stagecoach/stagecoachbus/model/common/SCLocation;
+
+    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->I4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
+
+    goto :goto_0
+
+    .line 14
+    :cond_2
+    invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->Z3(Ljava/lang/String;)V
+
+    .line 15
+    :goto_0
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()V
+
+    return-void
+.end method
+
+.method public synthetic j4(Landroid/view/View;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->i4(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public synthetic k4()Ljava/lang/Boolean;
     .locals 1
 
-    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->j3()Ljava/lang/Boolean;
+    invoke-direct {p0}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->m3()Ljava/lang/Boolean;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public synthetic i4(Ljava/lang/Boolean;)V
+.method public synthetic l4(Ljava/lang/Boolean;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->l3(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->o3(Ljava/lang/Boolean;)V
 
     return-void
 .end method
 
-.method public synthetic k4(Ljava/lang/String;Ljava/lang/Throwable;)V
+.method public synthetic n4(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->j4(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->m4(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method public synthetic m4(Landroid/view/View;)V
+.method public synthetic p4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->l4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->o4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic o4(Landroid/view/View;)V
+.method public synthetic r4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->n4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->q4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic q4(Landroid/view/View;)V
+.method public synthetic t4(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->p4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->s4(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public r3()V
+.method public u3()V
     .locals 1
 
     .line 1
@@ -1265,20 +1265,20 @@
     return-void
 .end method
 
-.method public synthetic s4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Ljava/lang/String;
+.method public synthetic v4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Ljava/lang/String;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->r4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->u4(Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public synthetic u4(Ljava/lang/String;)V
+.method public synthetic x4(Ljava/lang/String;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->t4(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/menu/contactus/ContactUsFragment;->w4(Ljava/lang/String;)V
 
     return-void
 .end method

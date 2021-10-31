@@ -22,11 +22,11 @@
 
 .field final synthetic b:Lkotlin/e;
 
-.field final synthetic c:Lkotlin/reflect/h;
+.field final synthetic c:Lkotlin/reflect/i;
 
 .field final synthetic d:Lkotlin/e;
 
-.field final synthetic e:Lkotlin/reflect/h;
+.field final synthetic e:Lkotlin/reflect/i;
 
 .field final synthetic f:Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$createAnnotationInstance$2;
 
@@ -34,18 +34,18 @@
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/Class;Lkotlin/e;Lkotlin/reflect/h;Lkotlin/e;Lkotlin/reflect/h;Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$createAnnotationInstance$2;Ljava/util/Map;)V
+.method constructor <init>(Ljava/lang/Class;Lkotlin/e;Lkotlin/reflect/i;Lkotlin/e;Lkotlin/reflect/i;Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$createAnnotationInstance$2;Ljava/util/Map;)V
     .locals 0
 
     iput-object p1, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->a:Ljava/lang/Class;
 
     iput-object p2, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->b:Lkotlin/e;
 
-    iput-object p3, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->c:Lkotlin/reflect/h;
+    iput-object p3, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->c:Lkotlin/reflect/i;
 
     iput-object p4, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->d:Lkotlin/e;
 
-    iput-object p5, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->e:Lkotlin/reflect/h;
+    iput-object p5, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->e:Lkotlin/reflect/i;
 
     iput-object p6, p0, Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$a;->f:Lkotlin/reflect/jvm/internal/calls/AnnotationConstructorCallerKt$createAnnotationInstance$2;
 

@@ -82,7 +82,7 @@
     return-void
 .end method
 
-.method private l(IJ)V
+.method private k(IJ)V
     .locals 4
 
     .line 1
@@ -288,7 +288,7 @@
     .line 2
     check-cast p1, Ljava/lang/Long;
 
-    invoke-virtual {p0, p1}, Lcom/google/protobuf/c0;->k(Ljava/lang/Long;)Z
+    invoke-virtual {p0, p1}, Lcom/google/protobuf/c0;->j(Ljava/lang/Long;)Z
 
     move-result p1
 
@@ -523,12 +523,12 @@
 
     move-result-wide v0
 
-    invoke-direct {p0, p1, v0, v1}, Lcom/google/protobuf/c0;->l(IJ)V
+    invoke-direct {p0, p1, v0, v1}, Lcom/google/protobuf/c0;->k(IJ)V
 
     return-void
 .end method
 
-.method public k(Ljava/lang/Long;)Z
+.method public j(Ljava/lang/Long;)Z
     .locals 2
 
     .line 1

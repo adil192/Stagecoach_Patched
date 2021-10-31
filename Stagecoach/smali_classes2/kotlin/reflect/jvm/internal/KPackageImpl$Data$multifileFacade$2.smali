@@ -131,7 +131,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/KPackageImpl$Data;->h:Lkotlin/reflect/jvm/internal/KPackageImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->b()Ljava/lang/Class;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPackageImpl;->d()Ljava/lang/Class;
 
     move-result-object v0
 

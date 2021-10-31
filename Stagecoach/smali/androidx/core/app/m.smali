@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public static l(Landroid/content/Context;)Landroidx/core/app/m;
+.method public static k(Landroid/content/Context;)Landroidx/core/app/m;
     .locals 1
 
     .line 1
@@ -134,7 +134,7 @@
 
     .line 6
     :cond_2
-    invoke-virtual {p0, p1}, Landroidx/core/app/m;->k(Landroid/content/ComponentName;)Landroidx/core/app/m;
+    invoke-virtual {p0, p1}, Landroidx/core/app/m;->j(Landroid/content/ComponentName;)Landroidx/core/app/m;
 
     .line 7
     invoke-virtual {p0, v0}, Landroidx/core/app/m;->g(Landroid/content/Intent;)Landroidx/core/app/m;
@@ -167,7 +167,7 @@
     return-object v0
 .end method
 
-.method public k(Landroid/content/ComponentName;)Landroidx/core/app/m;
+.method public j(Landroid/content/ComponentName;)Landroidx/core/app/m;
     .locals 2
 
     .line 1

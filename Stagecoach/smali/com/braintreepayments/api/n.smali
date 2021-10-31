@@ -84,7 +84,7 @@
     const-string p1, "pay-with-venmo.app-switch.success"
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     const-string p1, "com.braintreepayments.api.EXTRA_PAYMENT_METHOD_NONCE"
 
@@ -131,7 +131,7 @@
     invoke-direct {v0, p1, p2, p2}, Lcom/braintreepayments/api/models/VenmoAccountNonce;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 7
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 
     goto :goto_0
 
@@ -141,7 +141,7 @@
     const-string p1, "pay-with-venmo.app-switch.canceled"
 
     .line 8
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     :cond_2
     :goto_0

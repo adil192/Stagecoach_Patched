@@ -209,7 +209,7 @@
     if-eqz v0, :cond_4
 
     .line 10
-    invoke-interface {v0, p1}, Lcom/squareup/picasso/e;->b(Ljava/lang/Exception;)V
+    invoke-interface {v0, p1}, Lcom/squareup/picasso/e;->d(Ljava/lang/Exception;)V
 
     :cond_4
     return-void

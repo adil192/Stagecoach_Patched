@@ -83,7 +83,7 @@
     if-eqz v1, :cond_0
 
     .line 5
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KClassImpl;->b()Ljava/lang/Class;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KClassImpl;->d()Ljava/lang/Class;
 
     move-result-object v3
 
@@ -126,7 +126,7 @@
     if-eqz v7, :cond_2
 
     .line 9
-    invoke-virtual {v7}, Lkotlin/reflect/jvm/internal/KClassImpl;->b()Ljava/lang/Class;
+    invoke-virtual {v7}, Lkotlin/reflect/jvm/internal/KClassImpl;->d()Ljava/lang/Class;
 
     move-result-object v8
 

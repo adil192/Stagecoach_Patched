@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/account/x;->c:Lcom/stagecoach/stagecoachbus/views/account/DoYouWantToSaveAccountDataAlertFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/DoYouWantToSaveAccountDataAlertFragment;->k3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/account/DoYouWantToSaveAccountDataAlertFragment;->n3(Landroid/view/View;)V
 
     return-void
 .end method

@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract N(Lcom/stagecoach/core/model/tickets/Ticket;)V
+.method public abstract Q(Lcom/stagecoach/core/model/tickets/Ticket;)V
 .end method

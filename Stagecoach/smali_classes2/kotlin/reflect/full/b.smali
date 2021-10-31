@@ -12,7 +12,7 @@
             "Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;",
             "Lkotlin/reflect/jvm/internal/impl/types/o0;",
             "Ljava/util/List<",
-            "Lkotlin/reflect/k;",
+            "Lkotlin/reflect/l;",
             ">;Z)",
             "Lkotlin/reflect/jvm/internal/impl/types/d0;"
         }
@@ -63,10 +63,10 @@
     if-ltz v1, :cond_5
 
     .line 4
-    check-cast v2, Lkotlin/reflect/k;
+    check-cast v2, Lkotlin/reflect/l;
 
     .line 5
-    invoke-virtual {v2}, Lkotlin/reflect/k;->a()Lkotlin/reflect/i;
+    invoke-virtual {v2}, Lkotlin/reflect/l;->a()Lkotlin/reflect/j;
 
     move-result-object v6
 
@@ -74,13 +74,13 @@
 
     if-eqz v6, :cond_0
 
-    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/KTypeImpl;->e()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v6}, Lkotlin/reflect/jvm/internal/KTypeImpl;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v5
 
     .line 6
     :cond_0
-    invoke-virtual {v2}, Lkotlin/reflect/k;->b()Lkotlin/reflect/KVariance;
+    invoke-virtual {v2}, Lkotlin/reflect/l;->b()Lkotlin/reflect/KVariance;
 
     move-result-object v2
 
@@ -201,20 +201,20 @@
     return-object p0
 .end method
 
-.method public static final b(Lkotlin/reflect/c;Ljava/util/List;ZLjava/util/List;)Lkotlin/reflect/i;
+.method public static final b(Lkotlin/reflect/d;Ljava/util/List;ZLjava/util/List;)Lkotlin/reflect/j;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/c;",
+            "Lkotlin/reflect/d;",
             "Ljava/util/List<",
-            "Lkotlin/reflect/k;",
+            "Lkotlin/reflect/l;",
             ">;Z",
             "Ljava/util/List<",
             "+",
             "Ljava/lang/annotation/Annotation;",
             ">;)",
-            "Lkotlin/reflect/i;"
+            "Lkotlin/reflect/j;"
         }
     .end annotation
 
@@ -249,14 +249,14 @@
 
     if-eqz v0, :cond_3
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/g;->c()Lkotlin/reflect/jvm/internal/impl/descriptors/f;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/g;->e()Lkotlin/reflect/jvm/internal/impl/descriptors/f;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
     .line 2
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p0
 

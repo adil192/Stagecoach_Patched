@@ -3,7 +3,7 @@
 .source "KProperty2Impl.kt"
 
 # interfaces
-.implements Lkotlin/reflect/h;
+.implements Lkotlin/reflect/i;
 .implements Lkotlin/jvm/b/p;
 
 
@@ -50,15 +50,15 @@
         "receiver2",
         "value",
         "Lkotlin/m;",
-        "u",
+        "v",
         "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
         "Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;",
-        "t",
+        "u",
         "()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;",
         "setter",
         "Lkotlin/reflect/jvm/internal/l$b;",
         "kotlin.jvm.PlatformType",
-        "m",
+        "p",
         "Lkotlin/reflect/jvm/internal/l$b;",
         "_setter",
         "Lkotlin/reflect/jvm/internal/KDeclarationContainerImpl;",
@@ -84,7 +84,7 @@
 
 
 # instance fields
-.field private final m:Lkotlin/reflect/jvm/internal/l$b;
+.field private final p:Lkotlin/reflect/jvm/internal/l$b;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlin/reflect/jvm/internal/l$b<",
@@ -127,7 +127,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->m:Lkotlin/reflect/jvm/internal/l$b;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->p:Lkotlin/reflect/jvm/internal/l$b;
 
     return-void
 .end method
@@ -159,14 +159,14 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->m:Lkotlin/reflect/jvm/internal/l$b;
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->p:Lkotlin/reflect/jvm/internal/l$b;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public t()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;
+.method public u()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -177,7 +177,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->m:Lkotlin/reflect/jvm/internal/l$b;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->p:Lkotlin/reflect/jvm/internal/l$b;
 
     invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/l$b;->invoke()Ljava/lang/Object;
 
@@ -192,7 +192,7 @@
     return-object v0
 .end method
 
-.method public u(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+.method public v(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -201,7 +201,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->t()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KMutableProperty2Impl;->u()Lkotlin/reflect/jvm/internal/KMutableProperty2Impl$a;
 
     move-result-object v0
 

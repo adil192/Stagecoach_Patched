@@ -29,11 +29,11 @@
         "Landroid/os/Bundle;",
         "savedInstanceState",
         "Landroid/view/View;",
-        "P1",
+        "S1",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "view",
         "Lkotlin/m;",
-        "k2",
+        "n2",
         "(Landroid/view/View;Landroid/os/Bundle;)V",
         "",
         "<set-?>",
@@ -60,7 +60,7 @@
 
 
 # static fields
-.field static final synthetic q0:[Lkotlin/reflect/h;
+.field static final synthetic q0:[Lkotlin/reflect/i;
 
 .field public static final r0:Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment$Companion;
 
@@ -77,7 +77,7 @@
 
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lkotlin/reflect/h;
+    new-array v0, v0, [Lkotlin/reflect/i;
 
     new-instance v1, Lkotlin/jvm/internal/MutablePropertyReference1Impl;
 
@@ -91,13 +91,13 @@
 
     invoke-direct {v1, v2, v3, v4, v5}, Lkotlin/jvm/internal/MutablePropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/k;->e(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/f;
+    invoke-static {v1}, Lkotlin/jvm/internal/k;->e(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/g;
 
     move-result-object v1
 
     aput-object v1, v0, v5
 
-    sput-object v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->q0:[Lkotlin/reflect/h;
+    sput-object v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->q0:[Lkotlin/reflect/i;
 
     new-instance v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment$Companion;
 
@@ -126,7 +126,27 @@
     return-void
 .end method
 
-.method public static final synthetic f3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;Ljava/lang/String;)V
+.method private final getOfflineTimeout()Ljava/lang/String;
+    .locals 3
+
+    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->o0:Lkotlin/q/d;
+
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->q0:[Lkotlin/reflect/i;
+
+    const/4 v2, 0x0
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0, p0, v1}, Lkotlin/q/d;->getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public static final synthetic i3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;Ljava/lang/String;)V
     .locals 0
 
     .line 1
@@ -135,7 +155,7 @@
     return-void
 .end method
 
-.method public static final g3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;
+.method public static final j3(Ljava/lang/String;)Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;
     .locals 1
 
     sget-object v0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->r0:Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment$Companion;
@@ -147,45 +167,25 @@
     return-object p0
 .end method
 
-.method private final getOfflineTimeout()Ljava/lang/String;
-    .locals 3
-
-    iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->o0:Lkotlin/q/d;
-
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->q0:[Lkotlin/reflect/h;
-
-    const/4 v2, 0x0
-
-    aget-object v1, v1, v2
-
-    invoke-interface {v0, p0, v1}, Lkotlin/q/d;->getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/String;
-
-    return-object v0
-.end method
-
 .method private final setOfflineTimeout(Ljava/lang/String;)V
     .locals 3
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->o0:Lkotlin/q/d;
 
-    sget-object v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->q0:[Lkotlin/reflect/h;
+    sget-object v1, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->q0:[Lkotlin/reflect/i;
 
     const/4 v2, 0x0
 
     aget-object v1, v1, v2
 
-    invoke-interface {v0, p0, v1, p1}, Lkotlin/q/d;->setValue(Ljava/lang/Object;Lkotlin/reflect/h;Ljava/lang/Object;)V
+    invoke-interface {v0, p0, v1, p1}, Lkotlin/q/d;->setValue(Ljava/lang/Object;Lkotlin/reflect/i;Ljava/lang/Object;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     const-string p3, "inflater"
@@ -204,17 +204,17 @@
     return-object p1
 .end method
 
-.method public synthetic S1()V
+.method public synthetic V1()V
     .locals 0
 
-    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->S1()V
+    invoke-super {p0}, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;->V1()V
 
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->b3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->e3()V
 
     return-void
 .end method
 
-.method public b3()V
+.method public e3()V
     .locals 1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/InvalidSessionKeyWarningFragment;->p0:Ljava/util/HashMap;
@@ -227,7 +227,7 @@
     return-void
 .end method
 
-.method public k2(Landroid/view/View;Landroid/os/Bundle;)V
+.method public n2(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 2
 
     const-string v0, "view"
@@ -235,7 +235,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->k2(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->n2(Landroid/view/View;Landroid/os/Bundle;)V
 
     const/4 p2, 0x1
 
@@ -252,7 +252,7 @@
 
     const v0, 0x7f1101e5
 
-    invoke-virtual {p0, v0, p2}, Landroidx/fragment/app/Fragment;->z1(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, v0, p2}, Landroidx/fragment/app/Fragment;->C1(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 

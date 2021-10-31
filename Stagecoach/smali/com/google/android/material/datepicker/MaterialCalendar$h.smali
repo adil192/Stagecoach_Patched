@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/android/material/datepicker/MaterialCalendar;->c3(Landroid/view/View;Lcom/google/android/material/datepicker/i;)V
+    value = Lcom/google/android/material/datepicker/MaterialCalendar;->f3(Landroid/view/View;Lcom/google/android/material/datepicker/i;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,7 +41,7 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$h;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    invoke-virtual {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->o3()V
+    invoke-virtual {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->r3()V
 
     return-void
 .end method

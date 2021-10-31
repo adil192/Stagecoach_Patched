@@ -3,7 +3,7 @@
 .source "ImpressionStorageClient.java"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # instance fields
@@ -25,7 +25,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/google/firebase/inappmessaging/z/w0;Ljava/util/HashSet;)Lio/reactivex/c0/g;
+.method public static a(Lcom/google/firebase/inappmessaging/z/w0;Ljava/util/HashSet;)Lio/reactivex/c0/i;
     .locals 1
 
     new-instance v0, Lcom/google/firebase/inappmessaging/z/t0;

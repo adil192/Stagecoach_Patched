@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract v()Ljava/lang/reflect/AnnotatedElement;
+.method public abstract r()Ljava/lang/reflect/AnnotatedElement;
 .end method

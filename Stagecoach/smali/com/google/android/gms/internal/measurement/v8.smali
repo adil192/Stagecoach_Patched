@@ -95,12 +95,6 @@
     return-object p1
 .end method
 
-.method public final h()Lcom/google/android/gms/internal/measurement/q6;
-    .locals 0
-
-    return-object p0
-.end method
-
 .method public final iterator()Ljava/util/Iterator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
@@ -118,6 +112,12 @@
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/x8;-><init>(Lcom/google/android/gms/internal/measurement/v8;)V
 
     return-object v0
+.end method
+
+.method public final l()Lcom/google/android/gms/internal/measurement/q6;
+    .locals 0
+
+    return-object p0
 .end method
 
 .method public final listIterator(I)Ljava/util/ListIterator;

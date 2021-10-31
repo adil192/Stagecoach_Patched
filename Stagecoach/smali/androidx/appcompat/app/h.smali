@@ -91,7 +91,7 @@
 
 
 # virtual methods
-.method public B(Lc/a/o/b$a;)Lc/a/o/b;
+.method public C(Lc/a/o/b$a;)Lc/a/o/b;
     .locals 0
 
     const/4 p1, 0x0

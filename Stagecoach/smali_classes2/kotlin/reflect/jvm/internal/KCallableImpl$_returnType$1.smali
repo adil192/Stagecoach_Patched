@@ -89,11 +89,11 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/KCallableImpl$_returnType$1;->this$0:Lkotlin/reflect/jvm/internal/KCallableImpl;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KCallableImpl;->f()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/KCallableImpl;->i()Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-interface {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->getReturnType()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v1
 

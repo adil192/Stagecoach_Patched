@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/jvm/internal/impl/types/c1/a;->s()Lkotlin/reflect/jvm/internal/impl/descriptors/r$a;
+    value = Lkotlin/reflect/jvm/internal/impl/types/c1/a;->p()Lkotlin/reflect/jvm/internal/impl/descriptors/r$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

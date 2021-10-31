@@ -30,7 +30,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->A5(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/ExploreFragment;->D5(Ljava/lang/String;)V
 
     return-void
 .end method

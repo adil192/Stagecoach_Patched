@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/b/a<",
-        "Lkotlin/reflect/c;",
+        "Lkotlin/reflect/d;",
         ">;"
     }
 .end annotation
@@ -35,9 +35,9 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u0004\u0018\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/reflect/c;",
+        "Lkotlin/reflect/d;",
         "invoke",
-        "()Lkotlin/reflect/c;",
+        "()Lkotlin/reflect/d;",
         "<anonymous>"
     }
     k = 0x3
@@ -72,24 +72,24 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KTypeImpl$classifier$2;->invoke()Lkotlin/reflect/c;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/KTypeImpl$classifier$2;->invoke()Lkotlin/reflect/d;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final invoke()Lkotlin/reflect/c;
+.method public final invoke()Lkotlin/reflect/d;
     .locals 2
 
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl$classifier$2;->this$0:Lkotlin/reflect/jvm/internal/KTypeImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->e()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/reflect/jvm/internal/KTypeImpl;->a(Lkotlin/reflect/jvm/internal/KTypeImpl;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/c;
+    invoke-static {v0, v1}, Lkotlin/reflect/jvm/internal/KTypeImpl;->d(Lkotlin/reflect/jvm/internal/KTypeImpl;Lkotlin/reflect/jvm/internal/impl/types/y;)Lkotlin/reflect/d;
 
     move-result-object v0
 

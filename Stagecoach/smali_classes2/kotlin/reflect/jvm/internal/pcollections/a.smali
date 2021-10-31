@@ -150,7 +150,7 @@
     return-object v0
 .end method
 
-.method private k(I)Ljava/util/Iterator;
+.method private j(I)Ljava/util/Iterator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -293,7 +293,7 @@
 
     .line 2
     :try_start_0
-    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/pcollections/a;->k(I)Ljava/util/Iterator;
+    invoke-direct {p0, p1}, Lkotlin/reflect/jvm/internal/pcollections/a;->j(I)Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -349,14 +349,14 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkotlin/reflect/jvm/internal/pcollections/a;->k(I)Ljava/util/Iterator;
+    invoke-direct {p0, v0}, Lkotlin/reflect/jvm/internal/pcollections/a;->j(I)Ljava/util/Iterator;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public l(I)Lkotlin/reflect/jvm/internal/pcollections/a;
+.method public k(I)Lkotlin/reflect/jvm/internal/pcollections/a;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/braintreepayments/api/a;->b3()V
+    value = Lcom/braintreepayments/api/a;->e3()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -89,7 +89,7 @@
     .line 3
     iget-object p1, p0, Lcom/braintreepayments/api/a$c;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     .line 4
     iget-object p1, p0, Lcom/braintreepayments/api/a$c;->a:Lcom/braintreepayments/api/a;
@@ -98,12 +98,12 @@
 
     invoke-direct {v1, p0, v0}, Lcom/braintreepayments/api/a$c$a;-><init>(Lcom/braintreepayments/api/a$c;Lcom/braintreepayments/api/exceptions/ConfigurationException;)V
 
-    invoke-virtual {p1, v1}, Lcom/braintreepayments/api/a;->i3(Lcom/braintreepayments/api/q/o;)V
+    invoke-virtual {p1, v1}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/o;)V
 
     .line 5
     iget-object p1, p0, Lcom/braintreepayments/api/a$c;->a:Lcom/braintreepayments/api/a;
 
-    invoke-virtual {p1}, Lcom/braintreepayments/api/a;->d3()V
+    invoke-virtual {p1}, Lcom/braintreepayments/api/a;->g3()V
 
     return-void
 .end method

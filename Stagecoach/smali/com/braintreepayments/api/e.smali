@@ -66,7 +66,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/braintreepayments/api/e$a;-><init>(Lcom/braintreepayments/api/a;Ljava/lang/String;Lcom/braintreepayments/api/q/f;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/e$c;-><init>(Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 
     return-void
 .end method
@@ -160,7 +160,7 @@
     const-string v0, "data-collector.kount.started"
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 2
     const-class v0, Lcom/kount/api/DataCollector;
@@ -176,7 +176,7 @@
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/braintreepayments/api/e$b;-><init>(Lcom/braintreepayments/api/a;Ljava/lang/String;Ljava/lang/String;Lcom/braintreepayments/api/q/f;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 
     return-void
 .end method

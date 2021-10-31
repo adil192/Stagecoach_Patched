@@ -72,7 +72,7 @@
 
     const v0, 0x7f1100b6
 
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -84,7 +84,7 @@
 
     const v0, 0x7f110257
 
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -96,7 +96,7 @@
 
     const v0, 0x7f110051
 
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -134,7 +134,7 @@
     if-eq p1, v0, :cond_0
 
     .line 1
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->W4()Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->Z4()Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;
 
     move-result-object p1
 
@@ -142,7 +142,7 @@
 
     .line 2
     :cond_0
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->y4()Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;->B4()Lcom/stagecoach/stagecoachbus/views/buy/BuyTicketFragment;
 
     move-result-object p1
 
@@ -152,17 +152,17 @@
     :cond_1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment$MyPagerAdapter;->k:Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->B3(Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->E3(Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;)Ljava/lang/String;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment$MyPagerAdapter;->k:Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;
 
-    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->C3(Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;)I
+    invoke-static {v0}, Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;->F3(Lcom/stagecoach/stagecoachbus/views/home/TicketsFragment;)I
 
     move-result v0
 
-    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->h4(Ljava/lang/String;I)Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;
+    invoke-static {p1, v0}, Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;->k4(Ljava/lang/String;I)Lcom/stagecoach/stagecoachbus/views/buy/ticketsviews/active/ActiveTicketFragment;
 
     move-result-object p1
 

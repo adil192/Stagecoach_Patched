@@ -71,7 +71,7 @@
 
     iget-object v0, v0, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor$supertypes$3;->this$0:Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;
 
-    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->l(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+    invoke-virtual {v0, p1}, Lkotlin/reflect/jvm/internal/impl/types/AbstractTypeConstructor;->m(Lkotlin/reflect/jvm/internal/impl/types/y;)V
 
     return-void
 .end method

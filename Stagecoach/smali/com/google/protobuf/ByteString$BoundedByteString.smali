@@ -98,7 +98,7 @@
     return p1
 .end method
 
-.method protected k([BIII)V
+.method protected j([BIII)V
     .locals 2
 
     .line 1
@@ -117,7 +117,7 @@
     return-void
 .end method
 
-.method l(I)B
+.method k(I)B
     .locals 2
 
     .line 1

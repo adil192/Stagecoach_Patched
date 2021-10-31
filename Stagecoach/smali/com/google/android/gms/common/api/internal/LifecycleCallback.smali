@@ -69,7 +69,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/c3;->U2(Landroidx/fragment/app/c;)Lcom/google/android/gms/common/api/internal/c3;
+    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/c3;->X2(Landroidx/fragment/app/c;)Lcom/google/android/gms/common/api/internal/c3;
 
     move-result-object p0
 
@@ -152,7 +152,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->c:Lcom/google/android/gms/common/api/internal/j;
 
-    invoke-interface {v0}, Lcom/google/android/gms/common/api/internal/j;->f0()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/google/android/gms/common/api/internal/j;->i0()Landroid/app/Activity;
 
     move-result-object v0
 

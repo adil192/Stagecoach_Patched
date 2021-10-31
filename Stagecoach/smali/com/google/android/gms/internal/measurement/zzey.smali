@@ -80,13 +80,13 @@
     return-object v0
 .end method
 
-.method final k()I
+.method final j()I
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzey;->zzc:Lcom/google/android/gms/internal/measurement/zzew;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzex;->k()I
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzex;->j()I
 
     move-result v0
 
@@ -97,13 +97,13 @@
     return v0
 .end method
 
-.method final l()I
+.method final k()I
     .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzey;->zzc:Lcom/google/android/gms/internal/measurement/zzew;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzex;->k()I
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzex;->j()I
 
     move-result v0
 

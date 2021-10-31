@@ -135,7 +135,7 @@
     return-object v0
 .end method
 
-.method public l()J
+.method public k()J
     .locals 2
 
     .line 1
@@ -160,7 +160,7 @@
 
     check-cast v0, Lcom/google/gson/i;
 
-    invoke-virtual {v0}, Lcom/google/gson/i;->l()J
+    invoke-virtual {v0}, Lcom/google/gson/i;->k()J
 
     move-result-wide v0
 

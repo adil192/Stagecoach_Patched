@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -53,7 +53,7 @@
     .line 1
     iget-object p2, p0, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;
 
-    invoke-static {p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->W3(Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;)Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
+    invoke-static {p2}, Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/buy/payment/discounts/ApplyDiscountFragment;)Lcom/stagecoach/stagecoachbus/logic/mvp/BasePresenter;
 
     move-result-object p2
 

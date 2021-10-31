@@ -95,7 +95,7 @@
     .line 2
     iget-object v0, p0, Lio/reactivex/subjects/PublishSubject$PublishDisposable;->parent:Lio/reactivex/subjects/PublishSubject;
 
-    invoke-virtual {v0, p0}, Lio/reactivex/subjects/PublishSubject;->O0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)V
+    invoke-virtual {v0, p0}, Lio/reactivex/subjects/PublishSubject;->X0(Lio/reactivex/subjects/PublishSubject$PublishDisposable;)V
 
     :cond_0
     return-void

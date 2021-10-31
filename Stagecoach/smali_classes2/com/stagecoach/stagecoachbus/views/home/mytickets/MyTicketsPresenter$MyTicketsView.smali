@@ -15,52 +15,52 @@
 
 
 # virtual methods
-.method public abstract G0(I)V
+.method public abstract J0(I)V
 .end method
 
-.method public abstract H0()V
+.method public abstract K0()V
 .end method
 
-.method public abstract N0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+.method public abstract Q0(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 .end method
 
-.method public abstract Q()V
+.method public abstract T()V
 .end method
 
-.method public abstract U(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
-.end method
-
-.method public abstract Z()V
+.method public abstract X(Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicket;)V
 .end method
 
 .method public abstract a(Z)V
 .end method
 
-.method public abstract c0(Z)V
+.method public abstract c0()V
 .end method
 
-.method public abstract d1()V
+.method public abstract f0(Z)V
 .end method
 
-.method public abstract e1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
+.method public abstract g1()V
 .end method
 
-.method public abstract g1(ZI)V
+.method public abstract h1(Lcom/stagecoach/core/model/secureapi/ErrorInfo;Lcom/stagecoach/stagecoachbus/model/ticket/PurchasedTicketStamp;Lcom/stagecoach/stagecoachbus/model/ticket/QrTicketItem;)V
 .end method
 
-.method public abstract i1()V
+.method public abstract j1(ZI)V
 .end method
 
-.method public abstract l0(Ljava/lang/String;)V
+.method public abstract l1()V
 .end method
 
-.method public abstract n0(J)V
+.method public abstract o0(Ljava/lang/String;)V
 .end method
 
-.method public abstract o(Z)V
+.method public abstract q0(J)V
 .end method
 
-.method public abstract p1(Ljava/util/List;)V
+.method public abstract r(Z)V
+.end method
+
+.method public abstract s1(Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

@@ -98,7 +98,7 @@
     const v0, 0x7f1100c6
 
     .line 1
-    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->r(I)V
+    invoke-interface {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/ticket/TicketForYourJourneyView;->u(I)V
 
     return-void
 .end method

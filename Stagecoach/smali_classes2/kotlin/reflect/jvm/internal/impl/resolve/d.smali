@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/name/f;->l(Lkotlin/reflect/jvm/internal/impl/name/f;)I
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/name/f;->o(Lkotlin/reflect/jvm/internal/impl/name/f;)I
 
     move-result p0
 
@@ -152,7 +152,7 @@
     .line 4
     check-cast p0, Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->p0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->k0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object p0
 
@@ -176,7 +176,7 @@
     .line 6
     check-cast p0, Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->p0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->k0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object p0
 

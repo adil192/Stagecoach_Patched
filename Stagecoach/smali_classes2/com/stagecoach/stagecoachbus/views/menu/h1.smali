@@ -36,7 +36,7 @@
 
     check-cast p1, Ljava/util/List;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;->d4(Ljava/util/List;Ljava/util/List;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/menu/PurchaseHistoryFragment;->g4(Ljava/util/List;Ljava/util/List;)V
 
     return-void
 .end method

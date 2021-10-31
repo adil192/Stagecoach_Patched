@@ -150,7 +150,7 @@
     iput-object v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     .line 3
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->R(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;)Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->M(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;)Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object v3
 
@@ -169,7 +169,7 @@
     iput-boolean v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;->o:Z
 
     .line 8
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->y0()Z
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->t0()Z
 
     move-result v2
 
@@ -182,7 +182,7 @@
     iput-object v1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;->r:Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;
 
     .line 11
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->D0()Z
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->x0()Z
 
     move-result p1
 
@@ -1315,7 +1315,7 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;->w:Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;
 
-    invoke-virtual {v0, p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->K0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+    invoke-virtual {v0, p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->D0(Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o$c;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 
     move-result-object v0
 

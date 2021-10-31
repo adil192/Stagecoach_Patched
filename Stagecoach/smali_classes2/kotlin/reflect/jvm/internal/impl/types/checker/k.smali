@@ -170,7 +170,7 @@
 
 
 # virtual methods
-.method public O0()Ljava/util/List;
+.method public H0()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -189,18 +189,18 @@
     return-object v0
 .end method
 
-.method public bridge synthetic P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+.method public bridge synthetic I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Z0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->S0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public Q0()Z
+.method public J0()Z
     .locals 1
 
     .line 1
@@ -209,73 +209,73 @@
     return v0
 .end method
 
-.method public bridge synthetic R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public bridge synthetic K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->d1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic T0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic M0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->c1(Z)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->V0(Z)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic N0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->d1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic V0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic O0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->e1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->X0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic W0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
+.method public bridge synthetic P0(Z)Lkotlin/reflect/jvm/internal/impl/types/d0;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->c1(Z)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->V0(Z)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic X0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/d0;
+.method public bridge synthetic Q0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/d0;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->e1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->X0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final Y0()Lkotlin/reflect/jvm/internal/impl/types/model/CaptureStatus;
+.method public final R0()Lkotlin/reflect/jvm/internal/impl/types/model/CaptureStatus;
     .locals 1
 
     .line 1
@@ -284,7 +284,7 @@
     return-object v0
 .end method
 
-.method public Z0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
+.method public S0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
     .locals 1
 
     .line 1
@@ -293,7 +293,7 @@
     return-object v0
 .end method
 
-.method public final a1()Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public final T0()Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 1
 
     .line 1
@@ -302,7 +302,7 @@
     return-object v0
 .end method
 
-.method public final b1()Z
+.method public final U0()Z
     .locals 1
 
     .line 1
@@ -311,7 +311,7 @@
     return v0
 .end method
 
-.method public c1(Z)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+.method public V0(Z)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
     .locals 10
 
     .line 1
@@ -319,7 +319,7 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->d:Lkotlin/reflect/jvm/internal/impl/types/model/CaptureStatus;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Z0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->S0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
 
     move-result-object v2
 
@@ -344,7 +344,7 @@
     return-object v9
 .end method
 
-.method public d1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+.method public W0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
     .locals 10
 
     const-string v0, "kotlinTypeRefiner"
@@ -355,7 +355,7 @@
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->d:Lkotlin/reflect/jvm/internal/impl/types/model/CaptureStatus;
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Z0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->S0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
 
     move-result-object v0
 
@@ -372,7 +372,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->S0()Lkotlin/reflect/jvm/internal/impl/types/a1;
+    invoke-virtual {p1}, Lkotlin/reflect/jvm/internal/impl/types/y;->L0()Lkotlin/reflect/jvm/internal/impl/types/a1;
 
     move-result-object p1
 
@@ -390,7 +390,7 @@
     move-result-object v5
 
     .line 5
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->J0()Z
 
     move-result v6
 
@@ -410,7 +410,7 @@
     return-object p1
 .end method
 
-.method public e1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
+.method public X0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/checker/k;
     .locals 10
 
     const-string v0, "newAnnotations"
@@ -422,13 +422,13 @@
 
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->d:Lkotlin/reflect/jvm/internal/impl/types/model/CaptureStatus;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Z0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->S0()Lkotlin/reflect/jvm/internal/impl/types/checker/NewCapturedTypeConstructor;
 
     move-result-object v3
 
     iget-object v4, p0, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->f:Lkotlin/reflect/jvm/internal/impl/types/a1;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->Q0()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/checker/k;->J0()Z
 
     move-result v6
 
@@ -456,7 +456,7 @@
     return-object v0
 .end method
 
-.method public o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 2
 
     const-string v0, "No member resolution should be done on captured type!"

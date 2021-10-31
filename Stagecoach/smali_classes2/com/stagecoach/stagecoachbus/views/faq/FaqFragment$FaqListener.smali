@@ -18,5 +18,5 @@
 .method public abstract g0(Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse$FaqResponseObj;[ILjava/lang/String;)V
 .end method
 
-.method public abstract n(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)V
+.method public abstract o(Lcom/stagecoach/stagecoachbus/model/secureapi/Faqs;[ILjava/lang/String;)V
 .end method

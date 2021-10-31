@@ -105,7 +105,7 @@
     return-object p1
 .end method
 
-.method public n(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
+.method public k(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -156,7 +156,7 @@
     check-cast v2, Lkotlin/reflect/jvm/internal/impl/descriptors/x;
 
     .line 3
-    invoke-interface {v2, p1, p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/x;->n(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
+    invoke-interface {v2, p1, p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/x;->k(Lkotlin/reflect/jvm/internal/impl/name/b;Lkotlin/jvm/b/l;)Ljava/util/Collection;
 
     move-result-object v2
 

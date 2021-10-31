@@ -30,7 +30,7 @@
 
     check-cast p1, Le/b/a/a/a/a/a;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->g3(Le/b/a/a/a/a/a;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->j3(Le/b/a/a/a/a/a;)V
 
     return-void
 .end method

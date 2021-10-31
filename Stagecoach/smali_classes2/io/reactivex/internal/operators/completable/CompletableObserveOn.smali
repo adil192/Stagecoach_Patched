@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method protected t(Lio/reactivex/c;)V
+.method protected s(Lio/reactivex/c;)V
     .locals 3
 
     .line 1

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -73,12 +73,12 @@
     .line 3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->x3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->A3(Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;)V
 
     .line 4
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment$1;->d:Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;
 
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->E3()V
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/drawer/DrawerFragment;->H3()V
 
     return-void
 .end method

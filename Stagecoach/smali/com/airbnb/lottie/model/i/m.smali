@@ -17,10 +17,10 @@
 
 
 # virtual methods
-.method public abstract k()Z
+.method public abstract g()Z
 .end method
 
-.method public abstract l()Lcom/airbnb/lottie/s/c/a;
+.method public abstract h()Lcom/airbnb/lottie/s/c/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -30,7 +30,7 @@
     .end annotation
 .end method
 
-.method public abstract m()Ljava/util/List;
+.method public abstract i()Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",

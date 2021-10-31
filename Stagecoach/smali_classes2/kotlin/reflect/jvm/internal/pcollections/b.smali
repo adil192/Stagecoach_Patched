@@ -347,7 +347,7 @@
     if-eq v2, v3, :cond_0
 
     .line 4
-    invoke-virtual {v0, v2}, Lkotlin/reflect/jvm/internal/pcollections/a;->l(I)Lkotlin/reflect/jvm/internal/pcollections/a;
+    invoke-virtual {v0, v2}, Lkotlin/reflect/jvm/internal/pcollections/a;->k(I)Lkotlin/reflect/jvm/internal/pcollections/a;
 
     move-result-object v0
 

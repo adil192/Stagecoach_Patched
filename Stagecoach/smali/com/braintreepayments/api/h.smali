@@ -285,12 +285,12 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     const/16 v0, 0x351c
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->g3(I)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->j3(I)V
 
     return-void
 .end method
@@ -317,7 +317,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Lcom/braintreepayments/api/exceptions/BraintreeException;
@@ -326,7 +326,7 @@
 
     invoke-direct {v0, v1}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     return-void
 .end method

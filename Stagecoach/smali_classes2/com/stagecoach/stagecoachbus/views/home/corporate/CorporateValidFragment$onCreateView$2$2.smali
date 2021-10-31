@@ -81,7 +81,7 @@
 
     sget v0, Lcom/stagecoach/stagecoachbus/R$id;->I:I
 
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->c3(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/home/corporate/CorporateValidFragment;->f3(I)Landroid/view/View;
 
     move-result-object p1
 

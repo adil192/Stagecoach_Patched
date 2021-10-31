@@ -97,7 +97,7 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeParameterImpl$upperBounds$2;->this$0:Lkotlin/reflect/jvm/internal/KTypeParameterImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeParameterImpl;->d()Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeParameterImpl;->b()Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
 
     move-result-object v0
 

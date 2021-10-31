@@ -33,7 +33,7 @@
     const-string v0, "three-d-secure.verification-flow.upgrade-payment-method.started"
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p1}, Lcom/braintreepayments/api/models/PaymentMethodNonce;->d()Ljava/lang/String;
@@ -105,7 +105,7 @@
     .locals 5
 
     .line 1
-    invoke-virtual {p1}, Lcom/braintreepayments/api/models/CardNonce;->j()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
+    invoke-virtual {p1}, Lcom/braintreepayments/api/models/CardNonce;->l()Lcom/braintreepayments/api/models/ThreeDSecureInfo;
 
     move-result-object v0
 
@@ -132,7 +132,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v2}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -153,10 +153,10 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 4
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 
     return-void
 .end method
@@ -214,7 +214,7 @@
 
     invoke-direct {p2, v0, p1}, Lcom/braintreepayments/api/exceptions/ErrorWithResponse;-><init>(ILjava/lang/String;)V
 
-    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p2}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     goto :goto_0
 
@@ -271,7 +271,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 11
     sget-object v1, Lcom/braintreepayments/api/l$b;->a:[I
@@ -294,12 +294,12 @@
     const/16 p1, 0x34af
 
     .line 12
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->g3(I)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->j3(I)V
 
     const-string p1, "three-d-secure.verification-flow.canceled"
 
     .line 13
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -313,12 +313,12 @@
 
     invoke-direct {p1, p2}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     const-string p1, "three-d-secure.verification-flow.failed"
 
     .line 15
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -329,7 +329,7 @@
     const-string p1, "three-d-secure.verification-flow.completed"
 
     .line 17
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     :goto_0
     return-void

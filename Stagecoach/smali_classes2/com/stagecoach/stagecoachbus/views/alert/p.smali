@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/alert/p;->c:Lcom/stagecoach/stagecoachbus/views/alert/NoInternetErrorOverlayFragment;
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/alert/NoInternetErrorOverlayFragment;->g3(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/views/alert/NoInternetErrorOverlayFragment;->j3(Landroid/view/View;)V
 
     return-void
 .end method

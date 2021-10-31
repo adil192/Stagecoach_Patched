@@ -59,7 +59,7 @@
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/load/kotlin/o;->b:Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->K0()Ljava/util/Map;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageFragment;->D0()Ljava/util/Map;
 
     move-result-object v1
 

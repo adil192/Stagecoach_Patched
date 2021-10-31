@@ -348,11 +348,11 @@
     aget-object v15, v11, v14
 
     .line 10
-    invoke-static {v15}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+    invoke-static {v15}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
 
     move-result-object v16
 
-    invoke-static/range {v16 .. v16}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static/range {v16 .. v16}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v2
 
@@ -654,11 +654,11 @@
     aget-object v14, v9, v13
 
     .line 7
-    invoke-static {v14}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+    invoke-static {v14}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
 
     move-result-object v15
 
-    invoke-static {v15}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v15}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v15
 
@@ -730,11 +730,11 @@
     .locals 3
 
     .line 1
-    invoke-static {p2}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/b;
+    invoke-static {p2}, Lkotlin/jvm/a;->a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/c;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/b;)Ljava/lang/Class;
+    invoke-static {v0}, Lkotlin/jvm/a;->b(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v0
 

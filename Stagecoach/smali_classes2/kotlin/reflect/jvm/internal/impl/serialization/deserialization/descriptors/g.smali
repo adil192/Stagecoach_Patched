@@ -171,18 +171,7 @@
 
 
 # virtual methods
-.method public bridge synthetic C()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->p1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method protected G0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/r;Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;Lkotlin/reflect/jvm/internal/impl/name/f;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;Lkotlin/reflect/jvm/internal/impl/descriptors/h0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;
+.method protected A0(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/r;Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;Lkotlin/reflect/jvm/internal/impl/name/f;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;Lkotlin/reflect/jvm/internal/impl/descriptors/h0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;
     .locals 13
 
     const-string v0, "newOwner"
@@ -236,23 +225,23 @@
 
     .line 3
     :goto_0
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->p1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->i1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;
 
     move-result-object v7
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->c0()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->X()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
 
     move-result-object v8
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->U()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->P()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
 
     move-result-object v9
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->a0()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->V()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
 
     move-result-object v10
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->g0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->b0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
 
     move-result-object v11
 
@@ -270,7 +259,7 @@
     invoke-direct/range {v1 .. v12}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;-><init>(Lkotlin/reflect/jvm/internal/impl/descriptors/k;Lkotlin/reflect/jvm/internal/impl/descriptors/g0;Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;Lkotlin/reflect/jvm/internal/impl/name/f;Lkotlin/reflect/jvm/internal/impl/descriptors/CallableMemberDescriptor$Kind;Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;Lkotlin/reflect/jvm/internal/impl/metadata/c/c;Lkotlin/reflect/jvm/internal/impl/metadata/c/h;Lkotlin/reflect/jvm/internal/impl/metadata/c/k;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;Lkotlin/reflect/jvm/internal/impl/descriptors/h0;)V
 
     .line 5
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->o1()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->h1()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;
 
     move-result-object v1
 
@@ -279,7 +268,7 @@
     return-object v0
 .end method
 
-.method public L0()Ljava/util/List;
+.method public E0()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -298,7 +287,7 @@
     return-object v0
 .end method
 
-.method public U()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
+.method public P()Lkotlin/reflect/jvm/internal/impl/metadata/c/h;
     .locals 1
 
     .line 1
@@ -307,7 +296,7 @@
     return-object v0
 .end method
 
-.method public a0()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
+.method public V()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
     .locals 1
 
     .line 1
@@ -316,7 +305,7 @@
     return-object v0
 .end method
 
-.method public c0()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
+.method public X()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
     .locals 1
 
     .line 1
@@ -325,7 +314,7 @@
     return-object v0
 .end method
 
-.method public g0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
+.method public b0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/d;
     .locals 1
 
     .line 1
@@ -334,7 +323,7 @@
     return-object v0
 .end method
 
-.method public o1()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;
+.method public h1()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;
     .locals 1
 
     .line 1
@@ -343,7 +332,7 @@
     return-object v0
 .end method
 
-.method public p1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;
+.method public i1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;
     .locals 1
 
     .line 1
@@ -352,7 +341,7 @@
     return-object v0
 .end method
 
-.method public final q1(Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Ljava/util/List;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/y;Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;Ljava/util/Map;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;
+.method public final j1(Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Ljava/util/List;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/y;Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;Ljava/util/Map;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -401,7 +390,7 @@
     invoke-static {p9, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super/range {p0 .. p8}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;->n1(Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Ljava/util/List;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/y;Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;Ljava/util/Map;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;
+    invoke-super/range {p0 .. p8}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;->g1(Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Lkotlin/reflect/jvm/internal/impl/descriptors/f0;Ljava/util/List;Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/types/y;Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;Ljava/util/Map;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/c0;
 
     const-string p1, "super.initialize(\n      \u2026    userDataMap\n        )"
 
@@ -411,4 +400,15 @@
     iput-object p9, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->F:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor$CoroutinesCompatibilityMode;
 
     return-object p0
+.end method
+
+.method public bridge synthetic y()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/g;->i1()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Function;
+
+    move-result-object v0
+
+    return-object v0
 .end method

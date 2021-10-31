@@ -186,7 +186,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/c;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/c;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 
@@ -203,7 +203,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/f;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/f;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 
@@ -220,7 +220,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/f;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/f;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 

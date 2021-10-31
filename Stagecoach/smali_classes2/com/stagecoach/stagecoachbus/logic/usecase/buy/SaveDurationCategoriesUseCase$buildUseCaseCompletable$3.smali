@@ -3,7 +3,7 @@
 .source "SaveDurationCategoriesUseCase.kt"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Ljava/util/List<",
         "+",
         "Lcom/stagecoach/stagecoachbus/model/ticket/DurationCategory;",
@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->O(Ljava/util/List;)Lio/reactivex/a;
+    invoke-virtual {v0, p1}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->R(Ljava/util/List;)Lio/reactivex/a;
 
     move-result-object p1
 

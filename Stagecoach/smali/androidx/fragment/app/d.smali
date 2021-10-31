@@ -161,7 +161,7 @@
 
     .line 9
     :cond_1
-    invoke-virtual {p2, v0, p3, v1}, Landroidx/fragment/app/Fragment;->M1(IZI)Landroid/view/animation/Animation;
+    invoke-virtual {p2, v0, p3, v1}, Landroidx/fragment/app/Fragment;->P1(IZI)Landroid/view/animation/Animation;
 
     move-result-object p1
 
@@ -176,7 +176,7 @@
 
     .line 11
     :cond_2
-    invoke-virtual {p2, v0, p3, v1}, Landroidx/fragment/app/Fragment;->N1(IZI)Landroid/animation/Animator;
+    invoke-virtual {p2, v0, p3, v1}, Landroidx/fragment/app/Fragment;->Q1(IZI)Landroid/animation/Animator;
 
     move-result-object p1
 

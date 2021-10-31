@@ -45,16 +45,16 @@
     return-void
 .end method
 
-.method private synthetic c3(Landroid/view/View;)V
+.method private synthetic f3(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->f3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->i3()V
 
     return-void
 .end method
 
-.method public static e3(Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressObject;I)Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;
+.method public static h3(Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressObject;I)Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;
     .locals 2
 
     .line 1
@@ -85,7 +85,7 @@
 
 
 # virtual methods
-.method public B(Landroid/view/View;I)V
+.method public E(Landroid/view/View;I)V
     .locals 0
 
     .line 1
@@ -104,7 +104,7 @@
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
 
     const p3, 0x7f0c00eb
@@ -251,7 +251,7 @@
     return-object p1
 .end method
 
-.method public b3()V
+.method public e3()V
     .locals 1
 
     .line 1
@@ -264,15 +264,28 @@
     return-void
 .end method
 
-.method public synthetic d3(Landroid/view/View;)V
+.method public synthetic g3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->c3(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->f3(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method f3()V
+.method public getTitle()Ljava/lang/String;
+    .locals 1
+
+    const v0, 0x7f11033d
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method i3()V
     .locals 4
 
     .line 1
@@ -296,32 +309,19 @@
 
     const/4 v3, -0x1
 
-    invoke-virtual {v1, v2, v3, v0}, Landroidx/fragment/app/Fragment;->G1(IILandroid/content/Intent;)V
+    invoke-virtual {v1, v2, v3, v0}, Landroidx/fragment/app/Fragment;->J1(IILandroid/content/Intent;)V
 
     .line 4
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->b3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->e3()V
 
     return-void
 .end method
 
-.method public getTitle()Ljava/lang/String;
-    .locals 1
-
-    const v0, 0x7f11033d
-
-    .line 1
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public i2()V
+.method public l2()V
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/b;->i2()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->l2()V
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/b;->getDialog()Landroid/app/Dialog;
@@ -343,14 +343,14 @@
     return-void
 .end method
 
-.method public j2()V
+.method public m2()V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/b;->j2()V
+    invoke-super {p0}, Landroidx/fragment/app/b;->m2()V
 
     .line 2
-    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->b3()V
+    invoke-virtual {p0}, Lcom/stagecoach/stagecoachbus/views/buy/payment/ChooseSavedAddressFragment;->e3()V
 
     return-void
 .end method

@@ -206,7 +206,7 @@
     const/4 v2, 0x0
 
     .line 20
-    invoke-virtual {v1, p1, p2, v2}, Landroidx/fragment/app/Fragment;->X1(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
+    invoke-virtual {v1, p1, p2, v2}, Landroidx/fragment/app/Fragment;->a2(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
 
     .line 21
     invoke-virtual {p3}, Landroidx/fragment/app/l;->i()Landroidx/fragment/app/s;

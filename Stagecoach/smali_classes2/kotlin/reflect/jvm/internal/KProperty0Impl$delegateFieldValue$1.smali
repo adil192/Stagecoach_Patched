@@ -75,17 +75,17 @@
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl$delegateFieldValue$1;->this$0:Lkotlin/reflect/jvm/internal/KProperty0Impl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->k()Ljava/lang/reflect/Field;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->l()Ljava/lang/reflect/Field;
 
     move-result-object v1
 
     iget-object v2, p0, Lkotlin/reflect/jvm/internal/KProperty0Impl$delegateFieldValue$1;->this$0:Lkotlin/reflect/jvm/internal/KProperty0Impl;
 
-    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->l()Ljava/lang/Object;
+    invoke-virtual {v2}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->m()Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->m(Ljava/lang/reflect/Field;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lkotlin/reflect/jvm/internal/KPropertyImpl;->n(Ljava/lang/reflect/Field;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

@@ -15,10 +15,13 @@
 
 
 # virtual methods
-.method public abstract U()V
+.method public abstract A()V
 .end method
 
-.method public abstract W(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)V
+.method public abstract V()V
+.end method
+
+.method public abstract X(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;Ljava/lang/String;)V
 .end method
 
 .method public abstract Z(ZLcom/stagecoach/stagecoachbus/logic/StagecoachTagManager$Tag;)V
@@ -27,10 +30,10 @@
 .method public abstract a()V
 .end method
 
-.method public abstract c()V
+.method public abstract c0()V
 .end method
 
-.method public abstract c0()V
+.method public abstract e()V
 .end method
 
 .method public abstract f0(Ljava/lang/String;)V
@@ -39,8 +42,5 @@
 .method public abstract h()V
 .end method
 
-.method public abstract t()V
-.end method
-
-.method public abstract z()V
+.method public abstract u()V
 .end method

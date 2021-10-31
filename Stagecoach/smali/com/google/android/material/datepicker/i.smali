@@ -55,7 +55,7 @@
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$g;-><init>()V
 
     .line 2
-    invoke-virtual {p3}, Lcom/google/android/material/datepicker/CalendarConstraints;->j()Lcom/google/android/material/datepicker/Month;
+    invoke-virtual {p3}, Lcom/google/android/material/datepicker/CalendarConstraints;->l()Lcom/google/android/material/datepicker/Month;
 
     move-result-object v0
 
@@ -70,14 +70,14 @@
     move-result-object v2
 
     .line 5
-    invoke-virtual {v0, v2}, Lcom/google/android/material/datepicker/Month;->j(Lcom/google/android/material/datepicker/Month;)I
+    invoke-virtual {v0, v2}, Lcom/google/android/material/datepicker/Month;->o(Lcom/google/android/material/datepicker/Month;)I
 
     move-result v0
 
     if-gtz v0, :cond_2
 
     .line 6
-    invoke-virtual {v2, v1}, Lcom/google/android/material/datepicker/Month;->j(Lcom/google/android/material/datepicker/Month;)I
+    invoke-virtual {v2, v1}, Lcom/google/android/material/datepicker/Month;->o(Lcom/google/android/material/datepicker/Month;)I
 
     move-result v0
 
@@ -86,20 +86,20 @@
     .line 7
     sget v0, Lcom/google/android/material/datepicker/h;->g:I
 
-    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->i3(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->l3(Landroid/content/Context;)I
 
     move-result v1
 
     mul-int v0, v0, v1
 
     .line 8
-    invoke-static {p1}, Lcom/google/android/material/datepicker/e;->q3(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/google/android/material/datepicker/e;->t3(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->i3(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->l3(Landroid/content/Context;)I
 
     move-result p1
 
@@ -183,7 +183,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/datepicker/i;->c:Lcom/google/android/material/datepicker/CalendarConstraints;
 
-    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->j()Lcom/google/android/material/datepicker/Month;
+    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->l()Lcom/google/android/material/datepicker/Month;
 
     move-result-object v0
 
@@ -200,7 +200,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/datepicker/i;->c:Lcom/google/android/material/datepicker/CalendarConstraints;
 
-    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->j()Lcom/google/android/material/datepicker/Month;
+    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->l()Lcom/google/android/material/datepicker/Month;
 
     move-result-object v0
 
@@ -313,7 +313,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/google/android/material/datepicker/e;->q3(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/google/android/material/datepicker/e;->t3(Landroid/content/Context;)Z
 
     move-result p1
 
@@ -354,7 +354,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/datepicker/i;->c:Lcom/google/android/material/datepicker/CalendarConstraints;
 
-    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->j()Lcom/google/android/material/datepicker/Month;
+    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->l()Lcom/google/android/material/datepicker/Month;
 
     move-result-object v0
 
@@ -410,7 +410,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/datepicker/i;->c:Lcom/google/android/material/datepicker/CalendarConstraints;
 
-    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->j()Lcom/google/android/material/datepicker/Month;
+    invoke-virtual {v0}, Lcom/google/android/material/datepicker/CalendarConstraints;->l()Lcom/google/android/material/datepicker/Month;
 
     move-result-object v0
 

@@ -36,26 +36,26 @@
     const/4 p1, 0x2
 
     .line 4
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->B(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->B(I)V
 
     throw v0
 
     :cond_2
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->B(I)V
 
     throw v0
 .end method
 
-.method private static synthetic F(I)V
+.method private static synthetic B(I)V
     .locals 10
 
     const/4 v0, 0x4
@@ -217,7 +217,7 @@
     :cond_0
     const/4 v0, 0x4
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->F(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->B(I)V
 
     const/4 v0, 0x0
 
@@ -237,7 +237,7 @@
     :cond_0
     const/4 v0, 0x3
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->F(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/b0;->B(I)V
 
     const/4 v0, 0x0
 

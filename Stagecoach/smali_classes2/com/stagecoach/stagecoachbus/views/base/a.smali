@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/base/a;->d:Ljava/lang/Integer;
 
-    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->e3(Ljava/lang/Integer;)V
+    invoke-virtual {v0, v1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragment;->h3(Ljava/lang/Integer;)V
 
     return-void
 .end method

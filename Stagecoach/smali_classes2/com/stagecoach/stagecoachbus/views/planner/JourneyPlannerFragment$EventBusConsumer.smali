@@ -75,11 +75,11 @@
 
     const v0, 0x7f1102dd
 
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->y1(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->B1(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->E4(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->H4(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -87,7 +87,7 @@
     :cond_0
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment$EventBusConsumer;->c:Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;
 
-    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->H3()V
+    invoke-virtual {p1}, Lcom/stagecoach/stagecoachbus/views/planner/JourneyPlannerFragment;->K3()V
 
     :cond_1
     :goto_0

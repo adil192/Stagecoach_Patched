@@ -40,10 +40,10 @@
     .end annotation
 .end field
 
-.field final d:Lio/reactivex/c0/i;
+.field final d:Lio/reactivex/c0/k;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-TT;>;"
         }
     .end annotation
@@ -53,14 +53,14 @@
 
 
 # direct methods
-.method constructor <init>(Lio/reactivex/m;Lio/reactivex/c0/i;)V
+.method constructor <init>(Lio/reactivex/m;Lio/reactivex/c0/k;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/m<",
             "-TT;>;",
-            "Lio/reactivex/c0/i<",
+            "Lio/reactivex/c0/k<",
             "-TT;>;)V"
         }
     .end annotation
@@ -72,7 +72,7 @@
     iput-object p1, p0, Lio/reactivex/internal/operators/maybe/d$a;->c:Lio/reactivex/m;
 
     .line 3
-    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/d$a;->d:Lio/reactivex/c0/i;
+    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/d$a;->d:Lio/reactivex/c0/k;
 
     return-void
 .end method
@@ -165,9 +165,9 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/d$a;->d:Lio/reactivex/c0/i;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/d$a;->d:Lio/reactivex/c0/k;
 
-    invoke-interface {v0, p1}, Lio/reactivex/c0/i;->a(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lio/reactivex/c0/k;->a(Ljava/lang/Object;)Z
 
     move-result v0
     :try_end_0

@@ -1001,7 +1001,7 @@
 
     invoke-direct {v0, p0, p2, p1}, Lcom/braintreepayments/api/f$a;-><init>(Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/q/f;Lcom/braintreepayments/api/models/o;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 
     return-void
 
@@ -1024,7 +1024,7 @@
     const-string p1, "google-payment.authorized"
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 2
     invoke-static {p2}, Lcom/google/android/gms/wallet/PaymentData;->D(Landroid/content/Intent;)Lcom/google/android/gms/wallet/PaymentData;
@@ -1043,7 +1043,7 @@
     const-string p1, "google-payment.failed"
 
     .line 3
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 4
     new-instance p1, Lcom/braintreepayments/api/exceptions/GooglePaymentException;
@@ -1058,7 +1058,7 @@
     invoke-direct {p1, v0, p2}, Lcom/braintreepayments/api/exceptions/GooglePaymentException;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)V
 
     .line 6
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     goto :goto_0
 
@@ -1068,7 +1068,7 @@
     const-string p1, "google-payment.canceled"
 
     .line 7
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     :cond_2
     :goto_0
@@ -1081,7 +1081,7 @@
     const-string v0, "google-payment.selected"
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p0}, Lcom/braintreepayments/api/a;->getApplicationContext()Landroid/content/Context;
@@ -1103,10 +1103,10 @@
 
     invoke-direct {p1, v0}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     .line 4
-    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     return-void
 
@@ -1120,10 +1120,10 @@
 
     invoke-direct {p1, v0}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     .line 6
-    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     return-void
 
@@ -1142,10 +1142,10 @@
 
     invoke-direct {p1, v0}, Lcom/braintreepayments/api/exceptions/BraintreeException;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     .line 9
-    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     return-void
 
@@ -1155,7 +1155,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/braintreepayments/api/f$b;-><init>(Lcom/braintreepayments/api/a;Lcom/braintreepayments/api/models/GooglePaymentRequest;)V
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->l3(Lcom/braintreepayments/api/q/g;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->o3(Lcom/braintreepayments/api/q/g;)V
 
     return-void
 .end method
@@ -1247,7 +1247,7 @@
     const-string v0, "CARD"
 
     .line 14
-    invoke-virtual {p2, v0}, Lcom/braintreepayments/api/models/GooglePaymentRequest;->j(Ljava/lang/String;)Lorg/json/JSONObject;
+    invoke-virtual {p2, v0}, Lcom/braintreepayments/api/models/GooglePaymentRequest;->l(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v3
 
@@ -1312,7 +1312,7 @@
     const-string v0, "PAYPAL"
 
     .line 22
-    invoke-virtual {p2, v0}, Lcom/braintreepayments/api/models/GooglePaymentRequest;->j(Ljava/lang/String;)Lorg/json/JSONObject;
+    invoke-virtual {p2, v0}, Lcom/braintreepayments/api/models/GooglePaymentRequest;->l(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v1
 
@@ -1370,12 +1370,12 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->e3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->h3(Lcom/braintreepayments/api/models/PaymentMethodNonce;)V
 
     const-string v0, "google-payment.nonce-received"
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
@@ -1386,7 +1386,7 @@
     const-string v0, "google-payment.failed"
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 4
     :try_start_1
@@ -1424,7 +1424,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/NullPointerException; {:try_start_1 .. :try_end_1} :catch_1
@@ -1441,7 +1441,7 @@
 
     .line 9
     :goto_0
-    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->f3(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/braintreepayments/api/a;->i3(Ljava/lang/Exception;)V
 
     :goto_1
     return-void

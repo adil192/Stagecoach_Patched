@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/google/android/material/datepicker/MaterialCalendar;->g3()Lcom/google/android/material/datepicker/Month;
+    invoke-virtual {v0}, Lcom/google/android/material/datepicker/MaterialCalendar;->j3()Lcom/google/android/material/datepicker/Month;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/google/android/material/datepicker/MaterialCalendar;->e3()Lcom/google/android/material/datepicker/CalendarConstraints;
+    invoke-virtual {v0}, Lcom/google/android/material/datepicker/MaterialCalendar;->h3()Lcom/google/android/material/datepicker/CalendarConstraints;
 
     move-result-object v0
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->m3(Lcom/google/android/material/datepicker/Month;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->p3(Lcom/google/android/material/datepicker/Month;)V
 
     .line 5
     iget-object p1, p0, Lcom/google/android/material/datepicker/o$a;->d:Lcom/google/android/material/datepicker/o;
@@ -95,7 +95,7 @@
 
     sget-object v0, Lcom/google/android/material/datepicker/MaterialCalendar$CalendarSelector;->DAY:Lcom/google/android/material/datepicker/MaterialCalendar$CalendarSelector;
 
-    invoke-virtual {p1, v0}, Lcom/google/android/material/datepicker/MaterialCalendar;->n3(Lcom/google/android/material/datepicker/MaterialCalendar$CalendarSelector;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/material/datepicker/MaterialCalendar;->q3(Lcom/google/android/material/datepicker/MaterialCalendar$CalendarSelector;)V
 
     return-void
 .end method

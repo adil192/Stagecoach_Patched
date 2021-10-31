@@ -498,40 +498,40 @@
     return-void
 .end method
 
+.method public static final synthetic A0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Ljava/util/Collection;
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->L0()Ljava/util/Collection;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final synthetic D0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->M0()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
 .method public static final synthetic G0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Ljava/util/Collection;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->S0()Ljava/util/Collection;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->O0()Ljava/util/Collection;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final synthetic K0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/c;
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->T0()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final synthetic N0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Ljava/util/Collection;
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->V0()Ljava/util/Collection;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final synthetic O0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/name/a;
+.method public static final synthetic H0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/name/a;
     .locals 0
 
     .line 1
@@ -540,7 +540,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic P0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$EnumEntryClassDescriptors;
+.method public static final synthetic I0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$EnumEntryClassDescriptors;
     .locals 0
 
     .line 1
@@ -549,7 +549,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic Q0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassTypeConstructor;
+.method public static final synthetic J0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassTypeConstructor;
     .locals 0
 
     .line 1
@@ -558,7 +558,7 @@
     return-object p0
 .end method
 
-.method private final R0()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method private final K0()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 4
 
     .line 1
@@ -593,7 +593,7 @@
     move-result-object v0
 
     .line 3
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->Y0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassMemberScope;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->R0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassMemberScope;
 
     move-result-object v2
 
@@ -618,7 +618,7 @@
     return-object v1
 .end method
 
-.method private final S0()Ljava/util/Collection;
+.method private final L0()Ljava/util/Collection;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -630,11 +630,11 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->U0()Ljava/util/List;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->N0()Ljava/util/List;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
 
     move-result-object v1
 
@@ -669,7 +669,7 @@
     return-object v0
 .end method
 
-.method private final T0()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+.method private final M0()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
     .locals 7
 
     .line 1
@@ -689,11 +689,11 @@
     move-result-object v0
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/a;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/a;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->f1(Lkotlin/reflect/jvm/internal/impl/types/y;)V
+    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/o;->Y0(Lkotlin/reflect/jvm/internal/impl/types/y;)V
 
     return-object v0
 
@@ -782,7 +782,7 @@
     return-object v3
 .end method
 
-.method private final U0()Ljava/util/List;
+.method private final N0()Ljava/util/List;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -913,7 +913,7 @@
     return-object v0
 .end method
 
-.method private final V0()Ljava/util/Collection;
+.method private final O0()Ljava/util/Collection;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1031,7 +1031,7 @@
     return-object v0
 .end method
 
-.method private final Y0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassMemberScope;
+.method private final R0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassMemberScope;
     .locals 2
 
     .line 1
@@ -1060,11 +1060,11 @@
     return-object v0
 .end method
 
-.method public static final synthetic d0(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public static final synthetic Y(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;)Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->R0()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->K0()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
     move-result-object p0
 
@@ -1073,42 +1073,7 @@
 
 
 # virtual methods
-.method public B()Z
-    .locals 2
-
-    .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->k:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
-
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->x:Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;
-
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;->getFlags()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;->g(I)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    const-string v1, "Flags.IS_FUN_INTERFACE.get(classProto.flags)"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public F0()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method protected G(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method protected C(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     const-string v0, "kotlinTypeRefiner"
@@ -1125,7 +1090,7 @@
     return-object p1
 .end method
 
-.method public I()Ljava/util/Collection;
+.method public E()Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1148,7 +1113,7 @@
     return-object v0
 .end method
 
-.method public L()Z
+.method public H()Z
     .locals 2
 
     .line 1
@@ -1175,7 +1140,7 @@
     return v0
 .end method
 
-.method public M()Z
+.method public I()Z
     .locals 2
 
     .line 1
@@ -1202,7 +1167,7 @@
     return v0
 .end method
 
-.method public S()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
+.method public N()Lkotlin/reflect/jvm/internal/impl/descriptors/c;
     .locals 1
 
     .line 1
@@ -1217,18 +1182,27 @@
     return-object v0
 .end method
 
-.method public bridge synthetic T()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public bridge synthetic O()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->a1()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/f;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->T0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/f;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public V()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
+.method public final P0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->l:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
+
+    return-object v0
+.end method
+
+.method public Q()Lkotlin/reflect/jvm/internal/impl/descriptors/d;
     .locals 1
 
     .line 1
@@ -1243,16 +1217,7 @@
     return-object v0
 .end method
 
-.method public final W0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->l:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/k;
-
-    return-object v0
-.end method
-
-.method public final X0()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;
+.method public final Q0()Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;
     .locals 1
 
     .line 1
@@ -1261,7 +1226,7 @@
     return-object v0
 .end method
 
-.method public final Z0()Lkotlin/reflect/jvm/internal/impl/metadata/c/a;
+.method public final S0()Lkotlin/reflect/jvm/internal/impl/metadata/c/a;
     .locals 1
 
     .line 1
@@ -1270,7 +1235,7 @@
     return-object v0
 .end method
 
-.method public a1()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/f;
+.method public T0()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/f;
     .locals 1
 
     .line 1
@@ -1279,16 +1244,7 @@
     return-object v0
 .end method
 
-.method public b()Lkotlin/reflect/jvm/internal/impl/descriptors/k;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->q:Lkotlin/reflect/jvm/internal/impl/descriptors/k;
-
-    return-object v0
-.end method
-
-.method public final b1()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/u$a;
+.method public final U0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/u$a;
     .locals 1
 
     .line 1
@@ -1297,7 +1253,7 @@
     return-object v0
 .end method
 
-.method public final c1(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
+.method public final V0(Lkotlin/reflect/jvm/internal/impl/name/f;)Z
     .locals 1
 
     const-string v0, "name"
@@ -1305,7 +1261,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->Y0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassMemberScope;
+    invoke-direct {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->R0()Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassMemberScope;
 
     move-result-object v0
 
@@ -1320,11 +1276,20 @@
     return p1
 .end method
 
-.method public f()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+.method public b()Lkotlin/reflect/jvm/internal/impl/descriptors/k;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->j:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->q:Lkotlin/reflect/jvm/internal/impl/descriptors/k;
+
+    return-object v0
+.end method
+
+.method public g()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->n:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassTypeConstructor;
 
     return-object v0
 .end method
@@ -1370,6 +1335,24 @@
     return-object v0
 .end method
 
+.method public getVisibility()Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->j:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    return-object v0
+.end method
+
+.method public h()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->i:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
+
+    return-object v0
+.end method
+
 .method public isData()Z
     .locals 2
 
@@ -1387,6 +1370,33 @@
     move-result-object v0
 
     const-string v1, "Flags.IS_DATA.get(classProto.flags)"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isExternal()Z
+    .locals 2
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->h:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
+
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->x:Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;
+
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;->getFlags()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;->g(I)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    const-string v1, "Flags.IS_EXTERNAL_CLASS.get(classProto.flags)"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1424,25 +1434,7 @@
     return v0
 .end method
 
-.method public j()Lkotlin/reflect/jvm/internal/impl/types/o0;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->n:Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$DeserializedClassTypeConstructor;
-
-    return-object v0
-.end method
-
-.method public k()Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->i:Lkotlin/reflect/jvm/internal/impl/descriptors/Modality;
-
-    return-object v0
-.end method
-
-.method public q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+.method public n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
     .locals 1
 
     .line 1
@@ -1451,7 +1443,7 @@
     return-object v0
 .end method
 
-.method public t()Ljava/util/List;
+.method public q()Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1476,6 +1468,39 @@
     return-object v0
 .end method
 
+.method public t()Z
+    .locals 2
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->e:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$d;
+
+    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->x:Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;
+
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;->getFlags()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/metadata/c/b$d;->d(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class$Kind;
+
+    sget-object v1, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class$Kind;->COMPANION_OBJECT:Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class$Kind;
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+.end method
+
 .method public toString()Ljava/lang/String;
     .locals 2
 
@@ -1488,7 +1513,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->L()Z
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->H()Z
 
     move-result v1
 
@@ -1521,11 +1546,11 @@
     return-object v0
 .end method
 
-.method public w()Z
+.method public x()Z
     .locals 2
 
     .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->h:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->k:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$b;
 
     iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->x:Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;
 
@@ -1537,7 +1562,7 @@
 
     move-result-object v0
 
-    const-string v1, "Flags.IS_EXTERNAL_CLASS.get(classProto.flags)"
+    const-string v1, "Flags.IS_FUN_INTERFACE.get(classProto.flags)"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1548,35 +1573,10 @@
     return v0
 .end method
 
-.method public x()Z
-    .locals 2
+.method public z0()Z
+    .locals 1
 
-    .line 1
-    sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/b;->e:Lkotlin/reflect/jvm/internal/impl/metadata/c/b$d;
-
-    iget-object v1, p0, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;->x:Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;
-
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;->getFlags()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lkotlin/reflect/jvm/internal/impl/metadata/c/b$d;->d(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class$Kind;
-
-    sget-object v1, Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class$Kind;->COMPANION_OBJECT:Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class$Kind;
-
-    if-ne v0, v1, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
     const/4 v0, 0x0
 
-    :goto_0
     return v0
 .end method

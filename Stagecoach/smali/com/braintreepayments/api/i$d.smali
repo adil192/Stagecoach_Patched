@@ -101,7 +101,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 7
     iget-object p1, p0, Lcom/braintreepayments/api/i$d;->a:Lcom/braintreepayments/api/a;
@@ -147,7 +147,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     .line 10
     iget-object p1, p0, Lcom/braintreepayments/api/i$d;->a:Lcom/braintreepayments/api/a;
@@ -156,7 +156,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, v1, p2}, Le/a/a/e;->T2(ILandroid/content/Intent;)V
+    invoke-virtual {p1, v1, p2}, Le/a/a/e;->W2(ILandroid/content/Intent;)V
 
     goto :goto_0
 
@@ -178,7 +178,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Lcom/braintreepayments/api/a;->k3(Ljava/lang/String;)V
+    invoke-virtual {p2, p1}, Lcom/braintreepayments/api/a;->n3(Ljava/lang/String;)V
 
     :goto_0
     return-void

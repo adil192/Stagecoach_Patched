@@ -36,7 +36,7 @@
 .method public final run()V
     .locals 0
 
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->U4()V
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->X4()V
 
     return-void
 .end method

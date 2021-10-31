@@ -134,7 +134,7 @@
 
     invoke-direct {v1, p0, p1, v0}, Le/b/a/a/a/a/e/a/b/a$b;-><init>(Le/b/a/a/a/a/e/a/b/a;Landroid/content/Context;Landroid/net/ConnectivityManager;)V
 
-    invoke-static {v1}, Lio/reactivex/p;->g(Lio/reactivex/r;)Lio/reactivex/p;
+    invoke-static {v1}, Lio/reactivex/p;->l(Lio/reactivex/r;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -143,7 +143,7 @@
     invoke-direct {v2, p0, v0}, Le/b/a/a/a/a/e/a/b/a$a;-><init>(Le/b/a/a/a/a/e/a/b/a;Landroid/net/ConnectivityManager;)V
 
     .line 3
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->p(Lio/reactivex/c0/a;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->u(Lio/reactivex/c0/a;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -152,11 +152,11 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lio/reactivex/p;->m0(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-virtual {v0, p1}, Lio/reactivex/p;->u0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lio/reactivex/p;->l()Lio/reactivex/p;
+    invoke-virtual {p1}, Lio/reactivex/p;->q()Lio/reactivex/p;
 
     move-result-object p1
 

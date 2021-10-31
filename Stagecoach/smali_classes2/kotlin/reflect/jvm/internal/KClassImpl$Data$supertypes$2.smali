@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object v0
 
@@ -214,7 +214,7 @@
     check-cast v4, Lkotlin/reflect/jvm/internal/KTypeImpl;
 
     .line 10
-    invoke-virtual {v4}, Lkotlin/reflect/jvm/internal/KTypeImpl;->e()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v4}, Lkotlin/reflect/jvm/internal/KTypeImpl;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v4
 
@@ -226,7 +226,7 @@
 
     invoke-static {v4, v5}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v4}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->q()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
+    invoke-interface {v4}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->n()Lkotlin/reflect/jvm/internal/impl/descriptors/ClassKind;
 
     move-result-object v4
 

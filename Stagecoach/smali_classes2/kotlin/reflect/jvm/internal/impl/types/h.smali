@@ -368,7 +368,7 @@
     throw v0
 .end method
 
-.method protected j()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
+.method protected k()Lkotlin/reflect/jvm/internal/impl/descriptors/k0;
     .locals 1
 
     .line 1

@@ -28,14 +28,14 @@
     const/4 p1, 0x0
 
     .line 3
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/b;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/b;->B(I)V
 
     const/4 p1, 0x0
 
     throw p1
 .end method
 
-.method private static synthetic F(I)V
+.method private static synthetic B(I)V
     .locals 7
 
     const/4 v0, 0x1
@@ -135,7 +135,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/b;->F(I)V
+    invoke-static {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/b;->B(I)V
 
     const/4 v0, 0x0
 

@@ -69,7 +69,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/h;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/h;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 

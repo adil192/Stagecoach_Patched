@@ -64,7 +64,7 @@
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment$EventBusConsumer;->c:Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->W3(Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/account/MyAccountFragment;)V
 
     :cond_0
     return-void

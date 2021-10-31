@@ -187,7 +187,7 @@
 
     invoke-direct {v1, p0, v0}, Lcom/stagecoach/stagecoachbus/views/tutorial/c;-><init>(Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialActivity;Lcom/stagecoach/stagecoachbus/model/common/SCLocation;)V
 
-    invoke-static {v1}, Lio/reactivex/a;->k(Lio/reactivex/c0/a;)Lio/reactivex/a;
+    invoke-static {v1}, Lio/reactivex/a;->j(Lio/reactivex/c0/a;)Lio/reactivex/a;
 
     move-result-object v0
 
@@ -196,12 +196,12 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/a;->u(Lio/reactivex/u;)Lio/reactivex/a;
+    invoke-virtual {v0, v1}, Lio/reactivex/a;->t(Lio/reactivex/u;)Lio/reactivex/a;
 
     move-result-object v0
 
     .line 10
-    invoke-virtual {v0}, Lio/reactivex/a;->q()Lio/reactivex/disposables/b;
+    invoke-virtual {v0}, Lio/reactivex/a;->p()Lio/reactivex/disposables/b;
 
     move-result-object v0
 
@@ -227,28 +227,7 @@
 
 
 # virtual methods
-.method public X()V
-    .locals 2
-
-    const/16 v0, 0x1772
-
-    .line 1
-    invoke-static {p0, v0}, Lcom/stagecoach/stagecoachbus/views/home/TabActivity;->R1(Landroid/content/Context;I)Landroid/content/Intent;
-
-    move-result-object v0
-
-    const v1, 0x10008000
-
-    .line 2
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    .line 3
-    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
-
-    return-void
-.end method
-
-.method public f()V
+.method public b()V
     .locals 2
 
     const/16 v0, 0x1773
@@ -269,7 +248,7 @@
     return-void
 .end method
 
-.method public g()V
+.method public c()V
     .locals 2
 
     const/16 v0, 0x1771
@@ -313,7 +292,7 @@
     .line 2
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialActivity;->H:Ljava/util/List;
 
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFirstFragment;->T2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFirstFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFirstFragment;->W2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFirstFragment;
 
     move-result-object v1
 
@@ -322,7 +301,7 @@
     .line 3
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialActivity;->H:Ljava/util/List;
 
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselSecondFragment;->T2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselSecondFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselSecondFragment;->W2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselSecondFragment;
 
     move-result-object v1
 
@@ -331,7 +310,7 @@
     .line 4
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialActivity;->H:Ljava/util/List;
 
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselThirdFragment;->T2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselThirdFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselThirdFragment;->W2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselThirdFragment;
 
     move-result-object v1
 
@@ -340,7 +319,7 @@
     .line 5
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialActivity;->H:Ljava/util/List;
 
-    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->Z2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;
+    invoke-static {}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->c3()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;
 
     move-result-object v1
 
@@ -351,6 +330,27 @@
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialActivity;->H:Ljava/util/List;
 
     return-object v0
+.end method
+
+.method public m()V
+    .locals 2
+
+    const/16 v0, 0x1772
+
+    .line 1
+    invoke-static {p0, v0}, Lcom/stagecoach/stagecoachbus/views/home/TabActivity;->R1(Landroid/content/Context;I)Landroid/content/Intent;
+
+    move-result-object v0
+
+    const v1, 0x10008000
+
+    .line 2
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    .line 3
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+
+    return-void
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V

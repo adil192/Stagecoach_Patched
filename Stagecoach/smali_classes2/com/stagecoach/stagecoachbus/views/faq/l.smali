@@ -36,7 +36,7 @@
 
     move-wide v4, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/stagecoach/stagecoachbus/views/faq/FaqSecondListLevelFragment;->X3(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    invoke-virtual/range {v0 .. v5}, Lcom/stagecoach/stagecoachbus/views/faq/FaqSecondListLevelFragment;->a4(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     return-void
 .end method

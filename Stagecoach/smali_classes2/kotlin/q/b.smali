@@ -33,22 +33,22 @@
         "V",
         "Lkotlin/q/d;",
         "",
-        "Lkotlin/reflect/h;",
+        "Lkotlin/reflect/i;",
         "property",
         "oldValue",
         "newValue",
         "",
         "b",
-        "(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)Z",
+        "(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)Z",
         "Lkotlin/m;",
         "a",
-        "(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)V",
+        "(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)V",
         "thisRef",
         "getValue",
-        "(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;",
         "value",
         "setValue",
-        "(Ljava/lang/Object;Lkotlin/reflect/h;Ljava/lang/Object;)V",
+        "(Ljava/lang/Object;Lkotlin/reflect/i;Ljava/lang/Object;)V",
         "Ljava/lang/Object;",
         "initialValue",
         "<init>",
@@ -94,12 +94,12 @@
 
 
 # virtual methods
-.method protected a(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)V
+.method protected a(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;TV;TV;)V"
         }
     .end annotation
@@ -111,12 +111,12 @@
     return-void
 .end method
 
-.method protected b(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)Z
+.method protected b(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;TV;TV;)Z"
         }
     .end annotation
@@ -130,13 +130,13 @@
     return p1
 .end method
 
-.method public getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+.method public getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)TV;"
         }
     .end annotation
@@ -151,13 +151,13 @@
     return-object p1
 .end method
 
-.method public setValue(Ljava/lang/Object;Lkotlin/reflect/h;Ljava/lang/Object;)V
+.method public setValue(Ljava/lang/Object;Lkotlin/reflect/i;Ljava/lang/Object;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;TV;)V"
         }
     .end annotation
@@ -170,7 +170,7 @@
     iget-object p1, p0, Lkotlin/q/b;->a:Ljava/lang/Object;
 
     .line 2
-    invoke-virtual {p0, p2, p1, p3}, Lkotlin/q/b;->b(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {p0, p2, p1, p3}, Lkotlin/q/b;->b(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -183,7 +183,7 @@
     iput-object p3, p0, Lkotlin/q/b;->a:Ljava/lang/Object;
 
     .line 4
-    invoke-virtual {p0, p2, p1, p3}, Lkotlin/q/b;->a(Lkotlin/reflect/h;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, p2, p1, p3}, Lkotlin/q/b;->a(Lkotlin/reflect/i;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
 .end method

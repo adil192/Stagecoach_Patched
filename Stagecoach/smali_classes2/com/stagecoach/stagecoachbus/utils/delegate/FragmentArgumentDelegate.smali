@@ -35,14 +35,14 @@
         "Lkotlin/q/d;",
         "Landroidx/fragment/app/Fragment;",
         "thisRef",
-        "Lkotlin/reflect/h;",
+        "Lkotlin/reflect/i;",
         "property",
         "getValue",
-        "(Landroidx/fragment/app/Fragment;Lkotlin/reflect/h;)Ljava/lang/Object;",
+        "(Landroidx/fragment/app/Fragment;Lkotlin/reflect/i;)Ljava/lang/Object;",
         "value",
         "Lkotlin/m;",
         "setValue",
-        "(Landroidx/fragment/app/Fragment;Lkotlin/reflect/h;Ljava/lang/Object;)V",
+        "(Landroidx/fragment/app/Fragment;Lkotlin/reflect/i;Ljava/lang/Object;)V",
         "<init>",
         "()V",
         "app_productionRelease"
@@ -68,13 +68,13 @@
 
 
 # virtual methods
-.method public getValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/h;)Ljava/lang/Object;
+.method public getValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/i;)Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/fragment/app/Fragment;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;)TT;"
         }
     .end annotation
@@ -88,7 +88,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-interface {p2}, Lkotlin/reflect/a;->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lkotlin/reflect/b;->getName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-interface {p2}, Lkotlin/reflect/a;->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lkotlin/reflect/b;->getName()Ljava/lang/String;
 
     move-result-object p2
 
@@ -156,26 +156,26 @@
     throw p1
 .end method
 
-.method public bridge synthetic getValue(Ljava/lang/Object;Lkotlin/reflect/h;)Ljava/lang/Object;
+.method public bridge synthetic getValue(Ljava/lang/Object;Lkotlin/reflect/i;)Ljava/lang/Object;
     .locals 0
 
     .line 1
     check-cast p1, Landroidx/fragment/app/Fragment;
 
-    invoke-virtual {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/utils/delegate/FragmentArgumentDelegate;->getValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/h;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Lcom/stagecoach/stagecoachbus/utils/delegate/FragmentArgumentDelegate;->getValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/i;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public setValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/h;Ljava/lang/Object;)V
+.method public setValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/i;Ljava/lang/Object;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/fragment/app/Fragment;",
-            "Lkotlin/reflect/h<",
+            "Lkotlin/reflect/i<",
             "*>;TT;)V"
         }
     .end annotation
@@ -214,7 +214,7 @@
     invoke-static {v0, p1}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-interface {p2}, Lkotlin/reflect/a;->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lkotlin/reflect/b;->getName()Ljava/lang/String;
 
     move-result-object p1
 
@@ -224,13 +224,13 @@
     return-void
 .end method
 
-.method public bridge synthetic setValue(Ljava/lang/Object;Lkotlin/reflect/h;Ljava/lang/Object;)V
+.method public bridge synthetic setValue(Ljava/lang/Object;Lkotlin/reflect/i;Ljava/lang/Object;)V
     .locals 0
 
     .line 1
     check-cast p1, Landroidx/fragment/app/Fragment;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/utils/delegate/FragmentArgumentDelegate;->setValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/h;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/stagecoach/stagecoachbus/utils/delegate/FragmentArgumentDelegate;->setValue(Landroidx/fragment/app/Fragment;Lkotlin/reflect/i;Ljava/lang/Object;)V
 
     return-void
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->Z3()V
+    value = Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->c4()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,7 +41,7 @@
     .line 1
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->V3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;)Landroid/view/View;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->Y3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;)Landroid/view/View;
 
     move-result-object p1
 
@@ -52,7 +52,7 @@
     .line 2
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->W3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;)Landroid/view/View;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->Z3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;)Landroid/view/View;
 
     move-result-object p1
 
@@ -61,7 +61,7 @@
     .line 3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment$1;->c:Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->X3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->a4(Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;)Lcom/stagecoach/stagecoachbus/views/common/component/SCTextView;
 
     move-result-object p1
 

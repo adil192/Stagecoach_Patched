@@ -59,7 +59,7 @@
 
     if-eqz p0, :cond_3
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
 
     move-result-object p0
 
@@ -132,7 +132,7 @@
 
     if-eqz p0, :cond_3
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
 
     move-result-object p0
 
@@ -250,7 +250,7 @@
 
     if-eqz v1, :cond_4
 
-    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->n()Ljava/lang/annotation/Annotation;
+    invoke-virtual {v1}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/b;->k()Ljava/lang/annotation/Annotation;
 
     move-result-object v4
 
@@ -666,7 +666,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->j0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/a;->e0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object v0
 
@@ -682,7 +682,7 @@
 
     check-cast p0, Lkotlin/reflect/jvm/internal/impl/descriptors/d;
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->M0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/d;->F0()Lkotlin/reflect/jvm/internal/impl/descriptors/f0;
 
     move-result-object p0
 
@@ -1123,7 +1123,7 @@
 
     invoke-static {v5, v6}, Lkotlin/jvm/internal/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v3, v5}, Lkotlin/reflect/jvm/internal/q;->m(Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;Ljava/lang/ClassLoader;)Ljava/lang/Object;
+    invoke-static {v3, v5}, Lkotlin/reflect/jvm/internal/q;->n(Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;Ljava/lang/ClassLoader;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -1239,7 +1239,7 @@
 
     check-cast p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;->P()Ljava/lang/Class;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/ReflectJavaClass;->K()Ljava/lang/Class;
 
     move-result-object p0
 
@@ -1277,7 +1277,88 @@
     return-object p0
 .end method
 
-.method private static final m(Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;Ljava/lang/ClassLoader;)Ljava/lang/Object;
+.method public static final m(Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)Lkotlin/reflect/KVisibility;
+    .locals 1
+
+    const-string v0, "$this$toKVisibility"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->e:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    sget-object p0, Lkotlin/reflect/KVisibility;->PUBLIC:Lkotlin/reflect/KVisibility;
+
+    goto :goto_1
+
+    .line 2
+    :cond_0
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    sget-object p0, Lkotlin/reflect/KVisibility;->PROTECTED:Lkotlin/reflect/KVisibility;
+
+    goto :goto_1
+
+    .line 3
+    :cond_1
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->d:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    sget-object p0, Lkotlin/reflect/KVisibility;->INTERNAL:Lkotlin/reflect/KVisibility;
+
+    goto :goto_1
+
+    .line 4
+    :cond_2
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->a:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    goto :goto_0
+
+    :cond_3
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/descriptors/r0;->b:Lkotlin/reflect/jvm/internal/impl/descriptors/s0;
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_4
+
+    :goto_0
+    sget-object p0, Lkotlin/reflect/KVisibility;->PRIVATE:Lkotlin/reflect/KVisibility;
+
+    goto :goto_1
+
+    :cond_4
+    const/4 p0, 0x0
+
+    :goto_1
+    return-object p0
+.end method
+
+.method private static final n(Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;Ljava/lang/ClassLoader;)Ljava/lang/Object;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1358,7 +1439,7 @@
     check-cast v1, Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;
 
     .line 6
-    invoke-static {v1, p1}, Lkotlin/reflect/jvm/internal/q;->m(Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;Ljava/lang/ClassLoader;)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lkotlin/reflect/jvm/internal/q;->n(Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;Ljava/lang/ClassLoader;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1480,7 +1561,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->P0()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/y;->I0()Lkotlin/reflect/jvm/internal/impl/types/o0;
 
     move-result-object p0
 

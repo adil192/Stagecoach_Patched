@@ -370,7 +370,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/planner/TripLegView$DisruptionsDelegate;->H(Ljava/util/List;)V
+    invoke-interface {v0, v1}, Lcom/stagecoach/stagecoachbus/views/planner/TripLegView$DisruptionsDelegate;->K(Ljava/util/List;)V
 
     return-void
 .end method
@@ -437,7 +437,7 @@
     add-int/2addr v3, v4
 
     .line 5
-    invoke-interface {v0, v1, v2, v3}, Lcom/stagecoach/stagecoachbus/views/planner/FacilitiesExpandedView$FacilitiesDisplayer;->J(Ljava/util/List;II)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/stagecoach/stagecoachbus/views/planner/FacilitiesExpandedView$FacilitiesDisplayer;->M(Ljava/util/List;II)V
 
     :cond_0
     return-void

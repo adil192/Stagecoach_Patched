@@ -47,7 +47,7 @@
 
     iget-object v0, v0, Lcom/braintreepayments/api/a$c;->a:Lcom/braintreepayments/api/a;
 
-    invoke-static {v0}, Lcom/braintreepayments/api/a;->W2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/f;
+    invoke-static {v0}, Lcom/braintreepayments/api/a;->Z2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/f;
 
     move-result-object v0
 
@@ -72,7 +72,7 @@
 
     iget-object v0, v0, Lcom/braintreepayments/api/a$c;->a:Lcom/braintreepayments/api/a;
 
-    invoke-static {v0}, Lcom/braintreepayments/api/a;->W2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/f;
+    invoke-static {v0}, Lcom/braintreepayments/api/a;->Z2(Lcom/braintreepayments/api/a;)Lcom/braintreepayments/api/q/f;
 
     move-result-object v0
 

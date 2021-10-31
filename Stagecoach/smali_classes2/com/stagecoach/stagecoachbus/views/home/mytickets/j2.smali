@@ -36,7 +36,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/model/qr/order/TransferTicketResponse;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->p4(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/model/qr/order/TransferTicketResponse;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/QRTicketTransferFragment;->s4(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/model/qr/order/TransferTicketResponse;)V
 
     return-void
 .end method

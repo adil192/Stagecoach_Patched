@@ -73,7 +73,7 @@
     .line 3
     iget-object p1, p0, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment$EventBusConsumer;->c:Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;
 
-    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->y3(Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;)V
+    invoke-static {p1}, Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;->B3(Lcom/stagecoach/stagecoachbus/views/home/favourites/MyFavouritesFragment;)V
 
     goto :goto_0
 

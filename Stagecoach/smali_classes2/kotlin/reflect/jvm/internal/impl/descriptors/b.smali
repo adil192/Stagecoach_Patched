@@ -40,19 +40,7 @@
 
 
 # virtual methods
-.method public D()Z
-    .locals 1
-
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
-
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->D()Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public K(Lkotlin/reflect/jvm/internal/impl/descriptors/m;Ljava/lang/Object;)Ljava/lang/Object;
+.method public G(Lkotlin/reflect/jvm/internal/impl/descriptors/m;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -68,7 +56,7 @@
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
 
-    invoke-interface {v0, p1, p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/k;->K(Lkotlin/reflect/jvm/internal/impl/descriptors/m;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lkotlin/reflect/jvm/internal/impl/descriptors/k;->G(Lkotlin/reflect/jvm/internal/impl/descriptors/m;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -119,6 +107,30 @@
 
     .line 1
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->d:Lkotlin/reflect/jvm/internal/impl/descriptors/k;
+
+    return-object v0
+.end method
+
+.method public g()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    .locals 1
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->g()Lkotlin/reflect/jvm/internal/impl/types/o0;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public g0()Lkotlin/reflect/jvm/internal/impl/storage/m;
+    .locals 1
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->g0()Lkotlin/reflect/jvm/internal/impl/storage/m;
+
+    move-result-object v0
 
     return-object v0
 .end method
@@ -196,60 +208,36 @@
     return-object v0
 .end method
 
-.method public j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+.method public i()Lkotlin/reflect/jvm/internal/impl/types/Variance;
     .locals 1
 
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
 
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->i()Lkotlin/reflect/jvm/internal/impl/types/Variance;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public l()Lkotlin/reflect/jvm/internal/impl/types/Variance;
-    .locals 1
-
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
-
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->l()Lkotlin/reflect/jvm/internal/impl/types/Variance;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public l0()Lkotlin/reflect/jvm/internal/impl/storage/m;
-    .locals 1
-
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
-
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->l0()Lkotlin/reflect/jvm/internal/impl/storage/m;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public r()Lkotlin/reflect/jvm/internal/impl/types/d0;
-    .locals 1
-
-    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
-
-    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->r()Lkotlin/reflect/jvm/internal/impl/types/d0;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public r0()Z
+.method public m0()Z
     .locals 1
 
     const/4 v0, 0x1
 
     return v0
+.end method
+
+.method public o()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    .locals 1
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/f;->o()Lkotlin/reflect/jvm/internal/impl/types/d0;
+
+    move-result-object v0
+
+    return-object v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -273,4 +261,16 @@
     move-result-object v0
 
     return-object v0
+.end method
+
+.method public z()Z
+    .locals 1
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/b;->c:Lkotlin/reflect/jvm/internal/impl/descriptors/m0;
+
+    invoke-interface {v0}, Lkotlin/reflect/jvm/internal/impl/descriptors/m0;->z()Z
+
+    move-result v0
+
+    return v0
 .end method

@@ -48,7 +48,7 @@
 
 
 # virtual methods
-.method public Q0()Z
+.method public J0()Z
     .locals 1
 
     const/4 v0, 0x0
@@ -56,56 +56,56 @@
     return v0
 .end method
 
-.method public bridge synthetic R0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public bridge synthetic K0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/y;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->b1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/p;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/p;
 
     return-object p0
 .end method
 
-.method public bridge synthetic T0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic M0(Z)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->a1(Z)Lkotlin/reflect/jvm/internal/impl/types/p;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->T0(Z)Lkotlin/reflect/jvm/internal/impl/types/p;
 
     return-object p0
 .end method
 
-.method public bridge synthetic U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic N0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->b1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/p;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/p;
 
     return-object p0
 .end method
 
-.method public bridge synthetic V0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
+.method public bridge synthetic O0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/a1;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->c1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/p;
+    invoke-virtual {p0, p1}, Lkotlin/reflect/jvm/internal/impl/types/p;->V0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/p;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public W0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+.method public P0()Lkotlin/reflect/jvm/internal/impl/types/d0;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/t;->Y0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/t;->R0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public Z0(Lkotlin/reflect/jvm/internal/impl/renderer/DescriptorRenderer;Lkotlin/reflect/jvm/internal/impl/renderer/e;)Ljava/lang/String;
+.method public S0(Lkotlin/reflect/jvm/internal/impl/renderer/DescriptorRenderer;Lkotlin/reflect/jvm/internal/impl/renderer/e;)Ljava/lang/String;
     .locals 1
 
     const-string v0, "renderer"
@@ -121,13 +121,13 @@
     return-object p1
 .end method
 
-.method public a1(Z)Lkotlin/reflect/jvm/internal/impl/types/p;
+.method public T0(Z)Lkotlin/reflect/jvm/internal/impl/types/p;
     .locals 0
 
     return-object p0
 .end method
 
-.method public b1(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/p;
+.method public U0(Lkotlin/reflect/jvm/internal/impl/types/checker/i;)Lkotlin/reflect/jvm/internal/impl/types/p;
     .locals 1
 
     const-string v0, "kotlinTypeRefiner"
@@ -137,7 +137,7 @@
     return-object p0
 .end method
 
-.method public c1(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/p;
+.method public V0(Lkotlin/reflect/jvm/internal/impl/descriptors/annotations/e;)Lkotlin/reflect/jvm/internal/impl/types/p;
     .locals 2
 
     const-string v0, "newAnnotations"
@@ -147,7 +147,7 @@
     .line 1
     new-instance v0, Lkotlin/reflect/jvm/internal/impl/types/p;
 
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/p;->W0()Lkotlin/reflect/jvm/internal/impl/types/d0;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/types/p;->P0()Lkotlin/reflect/jvm/internal/impl/types/d0;
 
     move-result-object v1
 

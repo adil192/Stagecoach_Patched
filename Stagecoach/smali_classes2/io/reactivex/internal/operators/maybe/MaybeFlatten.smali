@@ -24,10 +24,10 @@
 
 
 # instance fields
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/o<",
             "+TR;>;>;"
@@ -37,14 +37,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/o;Lio/reactivex/c0/g;)V
+.method public constructor <init>(Lio/reactivex/o;Lio/reactivex/c0/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/o<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/o<",
             "+TR;>;>;)V"
@@ -55,14 +55,14 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/maybe/a;-><init>(Lio/reactivex/o;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatten;->d:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatten;->d:Lio/reactivex/c0/i;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected y(Lio/reactivex/m;)V
+.method protected z(Lio/reactivex/m;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -77,9 +77,9 @@
 
     new-instance v1, Lio/reactivex/internal/operators/maybe/MaybeFlatten$FlatMapMaybeObserver;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatten;->d:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatten;->d:Lio/reactivex/c0/i;
 
-    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/maybe/MaybeFlatten$FlatMapMaybeObserver;-><init>(Lio/reactivex/m;Lio/reactivex/c0/g;)V
+    invoke-direct {v1, p1, v2}, Lio/reactivex/internal/operators/maybe/MaybeFlatten$FlatMapMaybeObserver;-><init>(Lio/reactivex/m;Lio/reactivex/c0/i;)V
 
     invoke-interface {v0, v1}, Lio/reactivex/o;->b(Lio/reactivex/m;)V
 

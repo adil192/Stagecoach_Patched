@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public I(ILjava/lang/Object;)V
+.method public J(ILjava/lang/Object;)V
     .locals 0
 
     return-void
@@ -168,7 +168,7 @@
 
     iget-object v1, p0, Lcom/stagecoach/stagecoachbus/views/base/BaseSingleFragmentActivity;->G:Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;
 
-    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->P3()Z
+    invoke-virtual {v1}, Lcom/stagecoach/stagecoachbus/views/base/BaseFragmentWithTopBar;->S3()Z
 
     move-result v2
 

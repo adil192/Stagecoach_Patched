@@ -587,7 +587,7 @@
     move-result v0
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -844,7 +844,7 @@
     move-result v0
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -876,7 +876,7 @@
     move-result v0
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -908,7 +908,7 @@
     move-result v1
 
     .line 3
-    invoke-virtual {p0, v1}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v1}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v2
 
@@ -1013,7 +1013,7 @@
     return v0
 .end method
 
-.method j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+.method k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1113,7 +1113,7 @@
     move-result v0
 
     .line 4
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -1195,7 +1195,7 @@
     move-result v0
 
     .line 4
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -1231,7 +1231,7 @@
     move-result v0
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -1258,7 +1258,7 @@
     move-result v0
 
     .line 4
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -1295,7 +1295,7 @@
     move-result v0
 
     .line 8
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 
@@ -1333,7 +1333,7 @@
     move-result v0
 
     .line 4
-    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->j(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
+    invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap;->k(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
 
     move-result-object v1
 

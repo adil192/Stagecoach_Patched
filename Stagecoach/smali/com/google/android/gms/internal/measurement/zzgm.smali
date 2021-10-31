@@ -308,10 +308,10 @@
     return-object v0
 .end method
 
-.method protected abstract k(Ljava/nio/charset/Charset;)Ljava/lang/String;
+.method protected abstract j(Ljava/nio/charset/Charset;)Ljava/lang/String;
 .end method
 
-.method abstract l(Lcom/google/android/gms/internal/measurement/y4;)V
+.method abstract k(Lcom/google/android/gms/internal/measurement/y4;)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -445,7 +445,7 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/measurement/zzgm;->k(Ljava/nio/charset/Charset;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/measurement/zzgm;->j(Ljava/nio/charset/Charset;)Ljava/lang/String;
 
     move-result-object v0
 

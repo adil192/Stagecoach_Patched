@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method private synthetic T2(Landroid/view/View;)V
+.method private synthetic W2(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -39,13 +39,13 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;->g()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;->c()V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic V2(Landroid/view/View;)V
+.method private synthetic Y2(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -53,13 +53,13 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;->X()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;->m()V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic X2(Landroid/view/View;)V
+.method private synthetic a3(Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -67,13 +67,13 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;->f()V
+    invoke-interface {p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;->b()V
 
     :cond_0
     return-void
 .end method
 
-.method public static Z2()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;
+.method public static c3()Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;
     .locals 2
 
     .line 1
@@ -94,11 +94,11 @@
 
 
 # virtual methods
-.method public I1(Landroid/content/Context;)V
+.method public L1(Landroid/content/Context;)V
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->I1(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/content/Context;)V
 
     .line 2
     instance-of v0, p1, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;
@@ -114,16 +114,16 @@
     return-void
 .end method
 
-.method public L1(Landroid/os/Bundle;)V
+.method public O1(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->L1(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->O1(Landroid/os/Bundle;)V
 
     return-void
 .end method
 
-.method public P1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.method public S1(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
     const p3, 0x7f0c0124
@@ -192,7 +192,7 @@
     return-object p1
 .end method
 
-.method public T1()V
+.method public W1()V
     .locals 1
 
     const/4 v0, 0x0
@@ -201,31 +201,31 @@
     iput-object v0, p0, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->c0:Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment$onNextListener;
 
     .line 2
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->T1()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->W1()V
 
     return-void
 .end method
 
-.method public synthetic U2(Landroid/view/View;)V
+.method public synthetic X2(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->T2(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->W2(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic W2(Landroid/view/View;)V
+.method public synthetic Z2(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->V2(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->Y2(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public synthetic Y2(Landroid/view/View;)V
+.method public synthetic b3(Landroid/view/View;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->X2(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/stagecoach/stagecoachbus/views/tutorial/TutorialCarouselFourthFragment;->a3(Landroid/view/View;)V
 
     return-void
 .end method

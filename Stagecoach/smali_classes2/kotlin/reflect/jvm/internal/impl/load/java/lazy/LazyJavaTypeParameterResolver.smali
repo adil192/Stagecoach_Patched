@@ -62,7 +62,7 @@
     iput p4, p0, Lkotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaTypeParameterResolver;->e:I
 
     .line 2
-    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/x;->i()Ljava/util/List;
+    invoke-interface {p3}, Lkotlin/reflect/jvm/internal/impl/load/java/structure/x;->getTypeParameters()Ljava/util/List;
 
     move-result-object p2
 

@@ -6,7 +6,7 @@
 # static fields
 .field private static final a:Lkotlin/jvm/internal/l;
 
-.field private static final b:[Lkotlin/reflect/b;
+.field private static final b:[Lkotlin/reflect/c;
 
 
 # direct methods
@@ -58,10 +58,10 @@
 
     const/4 v0, 0x0
 
-    new-array v0, v0, [Lkotlin/reflect/b;
+    new-array v0, v0, [Lkotlin/reflect/c;
 
     .line 4
-    sput-object v0, Lkotlin/jvm/internal/k;->b:[Lkotlin/reflect/b;
+    sput-object v0, Lkotlin/jvm/internal/k;->b:[Lkotlin/reflect/c;
 
     return-void
 .end method
@@ -75,33 +75,33 @@
     return-void
 .end method
 
-.method public static a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/e;
+.method public static a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/f;
     .locals 1
 
     .line 1
     sget-object v0, Lkotlin/jvm/internal/k;->a:Lkotlin/jvm/internal/l;
 
-    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/e;
+    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->a(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/f;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static b(Ljava/lang/Class;)Lkotlin/reflect/b;
+.method public static b(Ljava/lang/Class;)Lkotlin/reflect/c;
     .locals 1
 
     .line 1
     sget-object v0, Lkotlin/jvm/internal/k;->a:Lkotlin/jvm/internal/l;
 
-    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static c(Ljava/lang/Class;)Lkotlin/reflect/d;
+.method public static c(Ljava/lang/Class;)Lkotlin/reflect/e;
     .locals 2
 
     .line 1
@@ -109,46 +109,46 @@
 
     const-string v1, ""
 
-    invoke-virtual {v0, p0, v1}, Lkotlin/jvm/internal/l;->c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/d;
+    invoke-virtual {v0, p0, v1}, Lkotlin/jvm/internal/l;->c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/e;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static d(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/d;
+.method public static d(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/e;
     .locals 1
 
     .line 1
     sget-object v0, Lkotlin/jvm/internal/k;->a:Lkotlin/jvm/internal/l;
 
-    invoke-virtual {v0, p0, p1}, Lkotlin/jvm/internal/l;->c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/d;
+    invoke-virtual {v0, p0, p1}, Lkotlin/jvm/internal/l;->c(Ljava/lang/Class;Ljava/lang/String;)Lkotlin/reflect/e;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static e(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/f;
+.method public static e(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/g;
     .locals 1
 
     .line 1
     sget-object v0, Lkotlin/jvm/internal/k;->a:Lkotlin/jvm/internal/l;
 
-    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->d(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/f;
+    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->d(Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/g;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static f(Ljava/lang/Class;)Lkotlin/reflect/i;
+.method public static f(Ljava/lang/Class;)Lkotlin/reflect/j;
     .locals 3
 
     .line 1
     sget-object v0, Lkotlin/jvm/internal/k;->a:Lkotlin/jvm/internal/l;
 
-    invoke-static {p0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/b;
+    invoke-static {p0}, Lkotlin/jvm/internal/k;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object p0
 
@@ -158,20 +158,20 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, p0, v1, v2}, Lkotlin/jvm/internal/l;->h(Lkotlin/reflect/c;Ljava/util/List;Z)Lkotlin/reflect/i;
+    invoke-virtual {v0, p0, v1, v2}, Lkotlin/jvm/internal/l;->h(Lkotlin/reflect/d;Ljava/util/List;Z)Lkotlin/reflect/j;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+.method public static g(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
     .locals 1
 
     .line 1
     sget-object v0, Lkotlin/jvm/internal/k;->a:Lkotlin/jvm/internal/l;
 
-    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->e(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/g;
+    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/l;->e(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/h;
 
     move-result-object p0
 

@@ -8,13 +8,16 @@
 
 
 # virtual methods
-.method public abstract H0(Lkotlin/reflect/jvm/internal/impl/descriptors/a;Lkotlin/reflect/jvm/internal/impl/name/f;I)Lkotlin/reflect/jvm/internal/impl/descriptors/o0;
+.method public abstract B0(Lkotlin/reflect/jvm/internal/impl/descriptors/a;Lkotlin/reflect/jvm/internal/impl/name/f;I)Lkotlin/reflect/jvm/internal/impl/descriptors/o0;
 .end method
 
-.method public abstract Z()Z
+.method public abstract U()Z
 .end method
 
 .method public abstract a()Lkotlin/reflect/jvm/internal/impl/descriptors/o0;
+.end method
+
+.method public abstract a0()Z
 .end method
 
 .method public abstract b()Lkotlin/reflect/jvm/internal/impl/descriptors/a;
@@ -31,14 +34,11 @@
     .end annotation
 .end method
 
-.method public abstract f0()Z
-.end method
-
 .method public abstract getIndex()I
 .end method
 
-.method public abstract o0()Lkotlin/reflect/jvm/internal/impl/types/y;
+.method public abstract j0()Lkotlin/reflect/jvm/internal/impl/types/y;
 .end method
 
-.method public abstract w0()Z
+.method public abstract r0()Z
 .end method

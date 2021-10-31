@@ -36,7 +36,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->v4(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;)Lkotlin/m;
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/MyTicketsFragment;->y4(Ljava/lang/String;Lcom/stagecoach/stagecoachbus/views/base/BaseDialogFragment;)Lkotlin/m;
 
     move-result-object p1
 

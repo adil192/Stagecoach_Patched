@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public R()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+.method public M()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
     .locals 1
 
     .line 1
@@ -43,11 +43,11 @@
     return-object v0
 .end method
 
-.method public bridge synthetic o()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.method public bridge synthetic l()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/jvm/JvmBuiltInsSettings$b;->R()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/builtins/jvm/JvmBuiltInsSettings$b;->M()Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$a;
 
     move-result-object v0
 

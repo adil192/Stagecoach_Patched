@@ -3,7 +3,7 @@
 .source "TicketForYourJourneyPresenter.kt"
 
 # interfaces
-.implements Lio/reactivex/c0/g;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/g<",
+        "Lio/reactivex/c0/i<",
         "Ljava/lang/Boolean;",
         "Lcom/stagecoach/stagecoachbus/logic/BasketErrorCode;",
         ">;"

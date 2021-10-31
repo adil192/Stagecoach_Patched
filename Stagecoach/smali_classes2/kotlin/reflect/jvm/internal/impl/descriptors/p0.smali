@@ -7,7 +7,7 @@
 
 
 # virtual methods
-.method public abstract Y()Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;
+.method public abstract T()Lkotlin/reflect/jvm/internal/impl/resolve/constants/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -17,11 +17,11 @@
     .end annotation
 .end method
 
-.method public abstract n0()Z
+.method public abstract i0()Z
 .end method
 
-.method public abstract u0()Z
+.method public abstract p0()Z
 .end method
 
-.method public abstract y()Z
+.method public abstract u()Z
 .end method

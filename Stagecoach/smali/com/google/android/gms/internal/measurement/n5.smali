@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method private final k(I)V
+.method private final j(I)V
     .locals 1
 
     if-ltz p1, :cond_0
@@ -94,7 +94,7 @@
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->l(I)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->k(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -103,7 +103,7 @@
     throw v0
 .end method
 
-.method private final l(I)Ljava/lang/String;
+.method private final k(I)Ljava/lang/String;
     .locals 3
 
     .line 1
@@ -229,7 +229,7 @@
     :cond_1
     new-instance p2, Ljava/lang/IndexOutOfBoundsException;
 
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->l(I)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->k(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -497,7 +497,7 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->k(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->j(I)V
 
     .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/n5;->d:[D
@@ -656,7 +656,7 @@
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/s4;->g()V
 
     .line 8
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->k(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->j(I)V
 
     .line 9
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/n5;->d:[D
@@ -834,7 +834,7 @@
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/s4;->g()V
 
     .line 4
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->k(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/n5;->j(I)V
 
     .line 5
     iget-object p2, p0, Lcom/google/android/gms/internal/measurement/n5;->d:[D

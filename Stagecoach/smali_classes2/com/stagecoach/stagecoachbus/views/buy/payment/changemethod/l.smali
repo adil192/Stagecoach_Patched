@@ -36,7 +36,7 @@
 
     check-cast p1, Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;
 
-    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;->q4(Ljava/util/List;Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
+    invoke-virtual {v0, v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/payment/changemethod/ChangePaymentMethodFragment;->t4(Ljava/util/List;Lcom/stagecoach/stagecoachbus/utils/reactive/Optional;)V
 
     return-void
 .end method

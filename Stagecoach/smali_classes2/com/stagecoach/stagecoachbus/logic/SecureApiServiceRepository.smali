@@ -152,7 +152,7 @@
     invoke-virtual {p1, p2}, Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;->setFaqResponseObj(Ljava/util/List;)V
 
     .line 7
-    invoke-static {p1}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -226,7 +226,7 @@
     invoke-direct {p0, v0}, Lcom/stagecoach/stagecoachbus/logic/SecureApiServiceRepository;->g(Lcom/stagecoach/stagecoachbus/model/secureapi/MobilePagesFeedResponse;)V
 
     .line 9
-    invoke-static {v0}, Lio/reactivex/p;->V(Ljava/lang/Object;)Lio/reactivex/p;
+    invoke-static {v0}, Lio/reactivex/p;->d0(Ljava/lang/Object;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -590,7 +590,7 @@
 
     iget-object v2, p0, Lcom/stagecoach/stagecoachbus/logic/SecureApiServiceRepository;->i:Lcom/stagecoach/core/model/secureapi/DynamicSettingsResponse;
 
-    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->Q(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/io/Serializable;)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/stagecoach/stagecoachbus/logic/DatabaseProvider;->T(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/io/Serializable;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -665,7 +665,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v1
 
@@ -674,7 +674,7 @@
     invoke-direct {v2, p0, v0}, Lcom/stagecoach/stagecoachbus/logic/b0;-><init>(Lcom/stagecoach/stagecoachbus/logic/SecureApiServiceRepository;Lcom/stagecoach/stagecoachbus/model/secureapi/FaqResponse;)V
 
     .line 4
-    invoke-virtual {v1, v2}, Lio/reactivex/p;->E(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v1, v2}, Lio/reactivex/p;->L(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -712,7 +712,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t0(Lio/reactivex/u;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->B0(Lio/reactivex/u;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -721,7 +721,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/logic/a0;-><init>(Lcom/stagecoach/stagecoachbus/logic/SecureApiServiceRepository;)V
 
     .line 3
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->E(Lio/reactivex/c0/g;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->L(Lio/reactivex/c0/i;)Lio/reactivex/p;
 
     move-result-object v0
 
@@ -939,7 +939,7 @@
 .method public isNeedAppUpdate()Z
     .locals 2
 
-    const/16 v0, 0x179
+    const/16 v0, 0x181
 
     .line 1
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;

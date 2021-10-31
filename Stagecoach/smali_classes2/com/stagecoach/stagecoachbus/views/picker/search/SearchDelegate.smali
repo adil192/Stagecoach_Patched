@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract J(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
+.method public abstract K(Lcom/stagecoach/stagecoachbus/views/picker/search/SearchRowDescriptor;)V
 .end method
 
 .method public abstract Y()V
@@ -33,8 +33,8 @@
 .method public abstract l0()I
 .end method
 
-.method public abstract w()Z
+.method public abstract x()Z
 .end method
 
-.method public abstract y()Z
+.method public abstract z()Z
 .end method

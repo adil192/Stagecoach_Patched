@@ -1371,7 +1371,7 @@
     invoke-direct {v0}, Lc/e/a;-><init>()V
 
     .line 4
-    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->M2()Landroid/view/View;
+    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->P2()Landroid/view/View;
 
     move-result-object v1
 
@@ -1952,7 +1952,7 @@
     if-eqz v9, :cond_0
 
     .line 3
-    invoke-virtual {v9}, Landroidx/fragment/app/Fragment;->M2()Landroid/view/View;
+    invoke-virtual {v9}, Landroidx/fragment/app/Fragment;->P2()Landroid/view/View;
 
     move-result-object v4
 

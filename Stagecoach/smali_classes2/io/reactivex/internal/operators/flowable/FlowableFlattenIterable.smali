@@ -24,10 +24,10 @@
 
 
 # instance fields
-.field final e:Lio/reactivex/c0/g;
+.field final e:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Ljava/lang/Iterable<",
             "+TR;>;>;"
@@ -39,14 +39,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/g;I)V
+.method public constructor <init>(Lio/reactivex/g;Lio/reactivex/c0/i;I)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/g<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Ljava/lang/Iterable<",
             "+TR;>;>;I)V"
@@ -57,7 +57,7 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/flowable/a;-><init>(Lio/reactivex/g;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->e:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->e:Lio/reactivex/c0/i;
 
     .line 3
     iput p3, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->f:I
@@ -104,9 +104,9 @@
     .line 4
     :cond_0
     :try_start_1
-    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->e:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->e:Lio/reactivex/c0/i;
 
-    invoke-interface {v1, v0}, Lio/reactivex/c0/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Lio/reactivex/c0/i;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -150,11 +150,11 @@
     :cond_1
     new-instance v1, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->e:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->e:Lio/reactivex/c0/i;
 
     iget v3, p0, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable;->f:I
 
-    invoke-direct {v1, p1, v2, v3}, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/g;I)V
+    invoke-direct {v1, p1, v2, v3}, Lio/reactivex/internal/operators/flowable/FlowableFlattenIterable$FlattenIterableSubscriber;-><init>(Lk/a/b;Lio/reactivex/c0/i;I)V
 
     invoke-virtual {v0, v1}, Lio/reactivex/g;->X(Lio/reactivex/j;)V
 

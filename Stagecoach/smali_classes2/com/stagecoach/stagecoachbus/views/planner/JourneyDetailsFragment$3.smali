@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->a4()V
+    value = Lcom/stagecoach/stagecoachbus/views/planner/JourneyDetailsFragment;->d4()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

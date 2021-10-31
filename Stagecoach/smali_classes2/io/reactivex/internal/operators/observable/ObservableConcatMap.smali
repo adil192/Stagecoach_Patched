@@ -25,10 +25,10 @@
 
 
 # instance fields
-.field final d:Lio/reactivex/c0/g;
+.field final d:Lio/reactivex/c0/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TU;>;>;"
@@ -42,14 +42,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/g;ILio/reactivex/internal/util/ErrorMode;)V
+.method public constructor <init>(Lio/reactivex/s;Lio/reactivex/c0/i;ILio/reactivex/internal/util/ErrorMode;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lio/reactivex/s<",
             "TT;>;",
-            "Lio/reactivex/c0/g<",
+            "Lio/reactivex/c0/i<",
             "-TT;+",
             "Lio/reactivex/s<",
             "+TU;>;>;I",
@@ -62,7 +62,7 @@
     invoke-direct {p0, p1}, Lio/reactivex/internal/operators/observable/a;-><init>(Lio/reactivex/s;)V
 
     .line 2
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/g;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/i;
 
     .line 3
     iput-object p4, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->f:Lio/reactivex/internal/util/ErrorMode;
@@ -81,7 +81,7 @@
 
 
 # virtual methods
-.method public s0(Lio/reactivex/t;)V
+.method public A0(Lio/reactivex/t;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -94,9 +94,9 @@
     .line 1
     iget-object v0, p0, Lio/reactivex/internal/operators/observable/a;->c:Lio/reactivex/s;
 
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/g;
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/i;
 
-    invoke-static {v0, p1, v1}, Lio/reactivex/internal/operators/observable/ObservableScalarXMap;->b(Lio/reactivex/s;Lio/reactivex/t;Lio/reactivex/c0/g;)Z
+    invoke-static {v0, p1, v1}, Lio/reactivex/internal/operators/observable/ObservableScalarXMap;->b(Lio/reactivex/s;Lio/reactivex/t;Lio/reactivex/c0/i;)Z
 
     move-result v0
 
@@ -122,11 +122,11 @@
 
     new-instance v1, Lio/reactivex/internal/operators/observable/ObservableConcatMap$SourceObserver;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/i;
 
     iget v3, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->e:I
 
-    invoke-direct {v1, v0, v2, v3}, Lio/reactivex/internal/operators/observable/ObservableConcatMap$SourceObserver;-><init>(Lio/reactivex/t;Lio/reactivex/c0/g;I)V
+    invoke-direct {v1, v0, v2, v3}, Lio/reactivex/internal/operators/observable/ObservableConcatMap$SourceObserver;-><init>(Lio/reactivex/t;Lio/reactivex/c0/i;I)V
 
     invoke-interface {p1, v1}, Lio/reactivex/s;->subscribe(Lio/reactivex/t;)V
 
@@ -138,7 +138,7 @@
 
     new-instance v1, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;
 
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/g;
+    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->d:Lio/reactivex/c0/i;
 
     iget v3, p0, Lio/reactivex/internal/operators/observable/ObservableConcatMap;->e:I
 
@@ -156,7 +156,7 @@
     const/4 v4, 0x0
 
     :goto_0
-    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;-><init>(Lio/reactivex/t;Lio/reactivex/c0/g;IZ)V
+    invoke-direct {v1, p1, v2, v3, v4}, Lio/reactivex/internal/operators/observable/ObservableConcatMap$ConcatMapDelayErrorObserver;-><init>(Lio/reactivex/t;Lio/reactivex/c0/i;IZ)V
 
     invoke-interface {v0, v1}, Lio/reactivex/s;->subscribe(Lio/reactivex/t;)V
 

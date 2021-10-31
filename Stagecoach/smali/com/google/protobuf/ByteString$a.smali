@@ -88,7 +88,7 @@
     .line 4
     iget-object v1, p0, Lcom/google/protobuf/ByteString$a;->e:Lcom/google/protobuf/ByteString;
 
-    invoke-virtual {v1, v0}, Lcom/google/protobuf/ByteString;->l(I)B
+    invoke-virtual {v1, v0}, Lcom/google/protobuf/ByteString;->k(I)B
 
     move-result v0
 

@@ -15,16 +15,7 @@
 
 
 # virtual methods
-.method public abstract D0()Z
-.end method
-
-.method public abstract I0()Z
-.end method
-
-.method public abstract P()Z
-.end method
-
-.method public abstract Q()Z
+.method public abstract L()Z
 .end method
 
 .method public abstract a()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
@@ -34,6 +25,9 @@
 .end method
 
 .method public abstract c(Lkotlin/reflect/jvm/internal/impl/types/TypeSubstitutor;)Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+.end method
+
+.method public abstract c0()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
 .end method
 
 .method public abstract e()Ljava/util/Collection;
@@ -48,13 +42,19 @@
     .end annotation
 .end method
 
-.method public abstract h0()Lkotlin/reflect/jvm/internal/impl/descriptors/r;
+.method public abstract isInfix()Z
 .end method
 
 .method public abstract isInline()Z
 .end method
 
-.method public abstract s()Lkotlin/reflect/jvm/internal/impl/descriptors/r$a;
+.method public abstract isOperator()Z
+.end method
+
+.method public abstract isSuspend()Z
+.end method
+
+.method public abstract p()Lkotlin/reflect/jvm/internal/impl/descriptors/r$a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -66,8 +66,8 @@
     .end annotation
 .end method
 
-.method public abstract y0()Z
+.method public abstract t0()Z
 .end method
 
-.method public abstract z0()Z
+.method public abstract x0()Z
 .end method

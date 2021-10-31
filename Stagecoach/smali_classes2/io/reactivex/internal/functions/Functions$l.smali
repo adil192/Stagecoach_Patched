@@ -3,7 +3,8 @@
 .source "Functions.java"
 
 # interfaces
-.implements Lio/reactivex/c0/f;
+.implements Ljava/util/concurrent/Callable;
+.implements Lio/reactivex/c0/i;
 
 
 # annotations
@@ -18,41 +19,58 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
+        "<T:",
         "Ljava/lang/Object;",
-        "Lio/reactivex/c0/f<",
-        "Ljava/lang/Throwable;",
-        ">;"
+        "U:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/concurrent/Callable<",
+        "TU;>;",
+        "Lio/reactivex/c0/i<",
+        "TT;TU;>;"
     }
 .end annotation
 
 
+# instance fields
+.field final c:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TU;"
+        }
+    .end annotation
+.end field
+
+
 # direct methods
-.method constructor <init>()V
+.method constructor <init>(Ljava/lang/Object;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TU;)V"
+        }
+    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lio/reactivex/internal/functions/Functions$l;->c:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Ljava/lang/Throwable;)V
-    .locals 1
-
-    .line 1
-    new-instance v0, Lio/reactivex/exceptions/OnErrorNotImplementedException;
-
-    invoke-direct {v0, p1}, Lio/reactivex/exceptions/OnErrorNotImplementedException;-><init>(Ljava/lang/Throwable;)V
-
-    invoke-static {v0}, Lio/reactivex/g0/a;->s(Ljava/lang/Throwable;)V
-
-    return-void
-.end method
-
-.method public bridge synthetic accept(Ljava/lang/Object;)V
+.method public apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)TU;"
+        }
+    .end annotation
+
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Exception;
@@ -60,9 +78,27 @@
     .end annotation
 
     .line 1
-    check-cast p1, Ljava/lang/Throwable;
+    iget-object p1, p0, Lio/reactivex/internal/functions/Functions$l;->c:Ljava/lang/Object;
 
-    invoke-virtual {p0, p1}, Lio/reactivex/internal/functions/Functions$l;->a(Ljava/lang/Throwable;)V
+    return-object p1
+.end method
 
-    return-void
+.method public call()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TU;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lio/reactivex/internal/functions/Functions$l;->c:Ljava/lang/Object;
+
+    return-object v0
 .end method

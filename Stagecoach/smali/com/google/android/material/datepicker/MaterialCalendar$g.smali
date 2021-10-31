@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/android/material/datepicker/MaterialCalendar;->c3(Landroid/view/View;Lcom/google/android/material/datepicker/i;)V
+    value = Lcom/google/android/material/datepicker/MaterialCalendar;->f3(Landroid/view/View;Lcom/google/android/material/datepicker/i;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -83,7 +83,7 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$g;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    invoke-virtual {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->j3()Landroidx/recyclerview/widget/LinearLayoutManager;
+    invoke-virtual {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->m3()Landroidx/recyclerview/widget/LinearLayoutManager;
 
     move-result-object p1
 
@@ -97,7 +97,7 @@
     :cond_0
     iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$g;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    invoke-virtual {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->j3()Landroidx/recyclerview/widget/LinearLayoutManager;
+    invoke-virtual {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->m3()Landroidx/recyclerview/widget/LinearLayoutManager;
 
     move-result-object p1
 
@@ -115,7 +115,7 @@
 
     move-result-object p3
 
-    invoke-static {p2, p3}, Lcom/google/android/material/datepicker/MaterialCalendar;->b3(Lcom/google/android/material/datepicker/MaterialCalendar;Lcom/google/android/material/datepicker/Month;)Lcom/google/android/material/datepicker/Month;
+    invoke-static {p2, p3}, Lcom/google/android/material/datepicker/MaterialCalendar;->e3(Lcom/google/android/material/datepicker/MaterialCalendar;Lcom/google/android/material/datepicker/Month;)Lcom/google/android/material/datepicker/Month;
 
     .line 4
     iget-object p2, p0, Lcom/google/android/material/datepicker/MaterialCalendar$g;->b:Lcom/google/android/material/button/MaterialButton;

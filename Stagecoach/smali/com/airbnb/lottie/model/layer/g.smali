@@ -253,7 +253,7 @@
     if-eqz p2, :cond_0
 
     .line 16
-    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/a;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/a;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p2
 
@@ -276,7 +276,7 @@
     if-eqz p2, :cond_1
 
     .line 20
-    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/a;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/a;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p2
 
@@ -299,7 +299,7 @@
     if-eqz p2, :cond_2
 
     .line 24
-    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p2
 
@@ -322,7 +322,7 @@
     if-eqz p1, :cond_3
 
     .line 28
-    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/b;->l()Lcom/airbnb/lottie/s/c/a;
+    invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/b;->h()Lcom/airbnb/lottie/s/c/a;
 
     move-result-object p1
 

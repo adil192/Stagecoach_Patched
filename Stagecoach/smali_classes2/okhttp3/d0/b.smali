@@ -961,7 +961,7 @@
     .line 4
     new-instance v3, Lokhttp3/internal/http2/a;
 
-    invoke-virtual {p0, v2}, Lokhttp3/s;->l(I)Ljava/lang/String;
+    invoke-virtual {p0, v2}, Lokhttp3/s;->k(I)Ljava/lang/String;
 
     move-result-object v4
 

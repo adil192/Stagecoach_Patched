@@ -31,15 +31,15 @@
     .line 1
     sget-object v0, Lkotlin/reflect/jvm/internal/impl/metadata/c/j;->f:Lkotlin/reflect/jvm/internal/impl/metadata/c/j$a;
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->C()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->y()Lkotlin/reflect/jvm/internal/impl/protobuf/n;
 
     move-result-object v1
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->c0()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->X()Lkotlin/reflect/jvm/internal/impl/metadata/c/c;
 
     move-result-object v2
 
-    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->a0()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
+    invoke-interface {p0}, Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedMemberDescriptor;->V()Lkotlin/reflect/jvm/internal/impl/metadata/c/k;
 
     move-result-object p0
 

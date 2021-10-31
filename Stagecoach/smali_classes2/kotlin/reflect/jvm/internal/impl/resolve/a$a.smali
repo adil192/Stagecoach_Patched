@@ -54,7 +54,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p0, p2, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;->o1(Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;
+    invoke-virtual {p0, p2, p1}, Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;->h1(Ljava/util/List;Lkotlin/reflect/jvm/internal/impl/descriptors/s0;)Lkotlin/reflect/jvm/internal/impl/descriptors/impl/e;
 
     return-void
 
@@ -62,19 +62,19 @@
     const/4 p1, 0x1
 
     .line 3
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/resolve/a$a;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/resolve/a$a;->B(I)V
 
     throw v0
 
     :cond_1
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/resolve/a$a;->F(I)V
+    invoke-static {p1}, Lkotlin/reflect/jvm/internal/impl/resolve/a$a;->B(I)V
 
     throw v0
 .end method
 
-.method private static synthetic F(I)V
+.method private static synthetic B(I)V
     .locals 3
 
     const/4 v0, 0x3

@@ -64,7 +64,7 @@
 
     invoke-direct {v0}, Lcom/stagecoach/stagecoachbus/model/tickets/Basket;-><init>()V
 
-    invoke-static {v0}, Lio/reactivex/subjects/a;->O0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
+    invoke-static {v0}, Lio/reactivex/subjects/a;->X0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
 
     move-result-object v0
 
@@ -73,7 +73,7 @@
     .line 3
     sget-object v0, Lcom/stagecoach/stagecoachbus/views/buy/BasketState;->UP_TO_DATE:Lcom/stagecoach/stagecoachbus/views/buy/BasketState;
 
-    invoke-static {v0}, Lio/reactivex/subjects/a;->O0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
+    invoke-static {v0}, Lio/reactivex/subjects/a;->X0(Ljava/lang/Object;)Lio/reactivex/subjects/a;
 
     move-result-object v0
 
@@ -149,7 +149,7 @@
 
     invoke-direct {v1}, Lcom/stagecoach/stagecoachbus/model/tickets/Basket;-><init>()V
 
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->C(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->I(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object v0
 
@@ -158,7 +158,7 @@
     invoke-direct {v1, p1}, Lcom/stagecoach/stagecoachbus/views/buy/o;-><init>(Ljava/util/List;)V
 
     .line 2
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->o(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->p(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -167,7 +167,7 @@
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 3
-    invoke-virtual {p1, v0}, Lio/reactivex/v;->z(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-virtual {p1, v0}, Lio/reactivex/v;->A(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object p1
 
@@ -200,7 +200,7 @@
 
     invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
 
-    invoke-static {p0}, Lio/reactivex/v;->t(Ljava/lang/Object;)Lio/reactivex/v;
+    invoke-static {p0}, Lio/reactivex/v;->u(Ljava/lang/Object;)Lio/reactivex/v;
 
     move-result-object p0
 
@@ -212,7 +212,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lio/reactivex/p;->P(Ljava/lang/Iterable;)Lio/reactivex/p;
+    invoke-static {p1}, Lio/reactivex/p;->W(Ljava/lang/Iterable;)Lio/reactivex/p;
 
     move-result-object p1
 
@@ -221,7 +221,7 @@
     invoke-direct {v0, p0}, Lcom/stagecoach/stagecoachbus/views/buy/l;-><init>(Ljava/util/List;)V
 
     .line 4
-    invoke-virtual {p1, v0}, Lio/reactivex/p;->B(Lio/reactivex/c0/i;)Lio/reactivex/p;
+    invoke-virtual {p1, v0}, Lio/reactivex/p;->H(Lio/reactivex/c0/k;)Lio/reactivex/p;
 
     move-result-object p0
 
@@ -1488,7 +1488,7 @@
     iget-object v0, p0, Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;->g:Lio/reactivex/subjects/c;
 
     .line 2
-    invoke-virtual {v0}, Lio/reactivex/p;->l()Lio/reactivex/p;
+    invoke-virtual {v0}, Lio/reactivex/p;->q()Lio/reactivex/p;
 
     move-result-object v0
 
@@ -1497,7 +1497,7 @@
     invoke-direct {v1, p0}, Lcom/stagecoach/stagecoachbus/views/buy/n;-><init>(Lcom/stagecoach/stagecoachbus/views/buy/CacheTicketManager;)V
 
     .line 3
-    invoke-virtual {v0, v1}, Lio/reactivex/p;->t(Lio/reactivex/c0/f;)Lio/reactivex/p;
+    invoke-virtual {v0, v1}, Lio/reactivex/p;->y(Lio/reactivex/c0/f;)Lio/reactivex/p;
 
     move-result-object v0
 

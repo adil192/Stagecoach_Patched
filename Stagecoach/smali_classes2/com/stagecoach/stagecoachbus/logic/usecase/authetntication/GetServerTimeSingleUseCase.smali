@@ -62,14 +62,14 @@
     sget-object v1, Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/d;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/d;
 
     .line 2
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->u(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->v(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object v0
 
     sget-object v1, Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/b;->c:Lcom/stagecoach/stagecoachbus/logic/usecase/authetntication/b;
 
     .line 3
-    invoke-virtual {v0, v1}, Lio/reactivex/v;->y(Lio/reactivex/c0/g;)Lio/reactivex/v;
+    invoke-virtual {v0, v1}, Lio/reactivex/v;->z(Lio/reactivex/c0/i;)Lio/reactivex/v;
 
     move-result-object v0
 

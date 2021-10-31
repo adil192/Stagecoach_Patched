@@ -10,8 +10,8 @@
 .method public abstract a()Lkotlin/reflect/jvm/internal/impl/descriptors/f;
 .end method
 
-.method public abstract j()Lkotlin/reflect/jvm/internal/impl/types/o0;
+.method public abstract g()Lkotlin/reflect/jvm/internal/impl/types/o0;
 .end method
 
-.method public abstract r()Lkotlin/reflect/jvm/internal/impl/types/d0;
+.method public abstract o()Lkotlin/reflect/jvm/internal/impl/types/d0;
 .end method

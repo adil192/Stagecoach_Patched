@@ -15,28 +15,28 @@
 
 
 # virtual methods
-.method public abstract C(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/GetBasketItemsGroupedUseCase$BasketUI;)V
+.method public abstract F(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/GetBasketItemsGroupedUseCase$BasketUI;)V
 .end method
 
-.method public abstract T0(I)V
+.method public abstract W0(I)V
 .end method
 
-.method public abstract W0(Ljava/lang/String;)V
+.method public abstract Z0(Ljava/lang/String;)V
 .end method
 
 .method public abstract a(Z)V
 .end method
 
-.method public abstract a1()V
+.method public abstract d1()V
 .end method
 
-.method public abstract f(I)V
+.method public abstract h(I)V
 .end method
 
-.method public abstract j()V
+.method public abstract l()V
 .end method
 
-.method public abstract k(Ljava/util/List;)V
+.method public abstract n(Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -47,11 +47,11 @@
     .end annotation
 .end method
 
-.method public abstract l(Z)V
+.method public abstract o(Z)V
 .end method
 
-.method public abstract u(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/GetBasketItemsGroupedUseCase$BasketUI;)V
+.method public abstract x(Lcom/stagecoach/stagecoachbus/logic/usecase/basket/GetBasketItemsGroupedUseCase$BasketUI;)V
 .end method
 
-.method public abstract v()V
+.method public abstract y()V
 .end method

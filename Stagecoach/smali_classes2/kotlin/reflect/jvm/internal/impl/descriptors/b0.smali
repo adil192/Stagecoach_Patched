@@ -7,8 +7,8 @@
 
 
 # virtual methods
-.method public abstract C0()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
+.method public abstract isDefault()Z
 .end method
 
-.method public abstract isDefault()Z
+.method public abstract w0()Lkotlin/reflect/jvm/internal/impl/descriptors/c0;
 .end method

@@ -78,7 +78,7 @@
 
     invoke-direct {v0}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;-><init>()V
 
-    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;->f3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;->i3(Lcom/stagecoach/stagecoachbus/views/home/mytickets/DeactivateQrTicketFragment;Ljava/lang/String;)V
 
     return-object v0
 .end method

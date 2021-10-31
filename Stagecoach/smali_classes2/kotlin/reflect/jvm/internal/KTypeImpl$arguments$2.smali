@@ -22,7 +22,7 @@
         "Lkotlin/jvm/b/a<",
         "Ljava/util/List<",
         "+",
-        "Lkotlin/reflect/k;",
+        "Lkotlin/reflect/l;",
         ">;>;"
     }
 .end annotation
@@ -38,7 +38,7 @@
     }
     d2 = {
         "",
-        "Lkotlin/reflect/k;",
+        "Lkotlin/reflect/l;",
         "kotlin.jvm.PlatformType",
         "invoke",
         "()Ljava/util/List;",
@@ -93,7 +93,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/reflect/k;",
+            "Lkotlin/reflect/l;",
             ">;"
         }
     .end annotation
@@ -101,11 +101,11 @@
     .line 2
     iget-object v0, p0, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;->this$0:Lkotlin/reflect/jvm/internal/KTypeImpl;
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->e()Lkotlin/reflect/jvm/internal/impl/types/y;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/KTypeImpl;->g()Lkotlin/reflect/jvm/internal/impl/types/y;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->O0()Ljava/util/List;
+    invoke-virtual {v0}, Lkotlin/reflect/jvm/internal/impl/types/y;->H0()Ljava/util/List;
 
     move-result-object v0
 
@@ -180,9 +180,9 @@
     if-eqz v7, :cond_1
 
     .line 9
-    sget-object v3, Lkotlin/reflect/k;->d:Lkotlin/reflect/k$a;
+    sget-object v3, Lkotlin/reflect/l;->d:Lkotlin/reflect/l$a;
 
-    invoke-virtual {v3}, Lkotlin/reflect/k$a;->c()Lkotlin/reflect/k;
+    invoke-virtual {v3}, Lkotlin/reflect/l$a;->c()Lkotlin/reflect/l;
 
     move-result-object v3
 
@@ -209,7 +209,7 @@
     :cond_2
     new-instance v9, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2$$special$$inlined$mapIndexed$lambda$1;
 
-    invoke-direct {v9, v3, p0, v1, v6}, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2$$special$$inlined$mapIndexed$lambda$1;-><init>(ILkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;Lkotlin/e;Lkotlin/reflect/h;)V
+    invoke-direct {v9, v3, p0, v1, v6}, Lkotlin/reflect/jvm/internal/KTypeImpl$arguments$2$$special$$inlined$mapIndexed$lambda$1;-><init>(ILkotlin/reflect/jvm/internal/KTypeImpl$arguments$2;Lkotlin/e;Lkotlin/reflect/i;)V
 
     move-object v6, v9
 
@@ -242,9 +242,9 @@
     if-ne v3, v4, :cond_3
 
     .line 12
-    sget-object v3, Lkotlin/reflect/k;->d:Lkotlin/reflect/k$a;
+    sget-object v3, Lkotlin/reflect/l;->d:Lkotlin/reflect/l$a;
 
-    invoke-virtual {v3, v7}, Lkotlin/reflect/k$a;->b(Lkotlin/reflect/i;)Lkotlin/reflect/k;
+    invoke-virtual {v3, v7}, Lkotlin/reflect/l$a;->b(Lkotlin/reflect/j;)Lkotlin/reflect/l;
 
     move-result-object v3
 
@@ -259,9 +259,9 @@
 
     .line 13
     :cond_4
-    sget-object v3, Lkotlin/reflect/k;->d:Lkotlin/reflect/k$a;
+    sget-object v3, Lkotlin/reflect/l;->d:Lkotlin/reflect/l$a;
 
-    invoke-virtual {v3, v7}, Lkotlin/reflect/k$a;->a(Lkotlin/reflect/i;)Lkotlin/reflect/k;
+    invoke-virtual {v3, v7}, Lkotlin/reflect/l$a;->a(Lkotlin/reflect/j;)Lkotlin/reflect/l;
 
     move-result-object v3
 
@@ -269,9 +269,9 @@
 
     .line 14
     :cond_5
-    sget-object v3, Lkotlin/reflect/k;->d:Lkotlin/reflect/k$a;
+    sget-object v3, Lkotlin/reflect/l;->d:Lkotlin/reflect/l$a;
 
-    invoke-virtual {v3, v7}, Lkotlin/reflect/k$a;->d(Lkotlin/reflect/i;)Lkotlin/reflect/k;
+    invoke-virtual {v3, v7}, Lkotlin/reflect/l$a;->d(Lkotlin/reflect/j;)Lkotlin/reflect/l;
 
     move-result-object v3
 
